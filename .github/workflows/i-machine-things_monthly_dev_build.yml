@@ -268,7 +268,14 @@ jobs:
           BUILD_TAG: ${{ needs.prepare.outputs.build_tag }}
         run: |
           set -euo pipefail
-          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          # Do NOT run write_version_info.py here. That script commits modified
+          # files, changing the git source hash. The pixi.lock pins a specific
+          # build hash (h3c70cbc_0) computed against the clean checkout; any
+          # commit on top causes pixi-build-rattler-build to immediately abort
+          # with "does not provide the requested output". The recipe reads the
+          # version from version.json directly, so the package version is still
+          # correct; only the embedded git commit hash in the binary is absent,
+          # which is acceptable for a monthly DEV snapshot.
           cd package/rattler-build
           pixi install
 
