@@ -1,0 +1,308 @@
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+name: Monthly DEV Build
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"   # 1st of each month, midnight UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: monthly-dev-build
+  cancel-in-progress: true
+
+jobs:
+  # ──────────────────────────────────────────────────────────────────────────
+  # 1. Sync fork → compute tag → create pre-release → upload source
+  # ──────────────────────────────────────────────────────────────────────────
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      build_tag:  ${{ steps.create_release.outputs.build_tag }}
+      deb_version: ${{ steps.create_release.outputs.deb_version }}
+      sync_sha:   ${{ steps.sync_fork.outputs.sha }}
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          egress-policy: audit
+
+      # Merge the upstream FreeCAD/FreeCAD default branch into this fork before
+      # building.  Using a merge (no --force) so our workflow files are kept.
+      # If upstream introduces a file that conflicts with ours the step fails
+      # loudly rather than silently dropping our changes.
+      - name: Sync fork with upstream FreeCAD/FreeCAD
+        id: sync_fork
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh repo sync "${{ github.repository }}" \
+            --source FreeCAD/FreeCAD
+          # Resolve the SHA that the fork's default branch now points to, so
+          # all subsequent jobs check out exactly the same commit.
+          SHA=$(gh api \
+            "repos/${{ github.repository }}/commits/${{ github.ref_name }}" \
+            --jq '.sha')
+          echo "sha=${SHA}" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout synced source
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ steps.sync_fork.outputs.sha }}
+          fetch-depth: 2
+          fetch-tags: true
+          submodules: 'recursive'
+
+      - name: Compute tag and create GitHub pre-release
+        id: create_release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(python3 - <<'EOF'
+          import json
+          with open("version.json") as f:
+              v = json.load(f)
+          print(f"{v['version_major']}.{v['version_minor']}.{v['version_patch']}")
+          EOF
+          )
+          TIMESTAMP=$(date -u "+%Y%m%d")
+          BUILD_TAG="v${VERSION}-DEV-${TIMESTAMP}"
+          # Debian version: ~ marks pre-release and sorts before the final release
+          DEB_VERSION="${VERSION}~DEV${TIMESTAMP}"
+          echo "BUILD_TAG=${BUILD_TAG}"     >> "$GITHUB_ENV"
+          echo "DEB_VERSION=${DEB_VERSION}" >> "$GITHUB_ENV"
+          echo "build_tag=${BUILD_TAG}"     >> "$GITHUB_OUTPUT"
+          echo "deb_version=${DEB_VERSION}" >> "$GITHUB_OUTPUT"
+          gh release create "${BUILD_TAG}" \
+            --title "Monthly DEV Build ${BUILD_TAG}" \
+            -F .github/workflows/monthly-dev-build-notes.md \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" > /dev/null   # succeed if already exists
+
+      - name: Upload source archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git apply package/disable_git_info.patch
+          git commit -a -m "Disable git info write to Version.h"
+          git archive HEAD -o "freecad_source_${BUILD_TAG}.tar"
+          git submodule foreach --recursive \
+            "git archive HEAD --prefix=\$path/ -o \$sha1.tar && \
+             tar -A -f \$toplevel/freecad_source_${BUILD_TAG}.tar \$sha1.tar && \
+             rm \$sha1.tar"
+          gzip "freecad_source_${BUILD_TAG}.tar"
+          sha256sum "freecad_source_${BUILD_TAG}.tar.gz" \
+            > "freecad_source_${BUILD_TAG}.tar.gz-SHA256.txt"
+          gh release upload --clobber "${BUILD_TAG}" \
+            "freecad_source_${BUILD_TAG}.tar.gz" \
+            "freecad_source_${BUILD_TAG}.tar.gz-SHA256.txt"
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # 2a. Build Debian package (.deb) on Ubuntu 24.04
+  # ──────────────────────────────────────────────────────────────────────────
+  build_deb:
+    needs: prepare
+    runs-on: ubuntu-24.04
+    env:
+      builddir: ${{ github.workspace }}/build/release
+      CCACHE_DIR: ${{ github.workspace }}/ccache
+      CCACHE_COMPRESS: true
+      CCACHE_COMPRESSLEVEL: 5
+      CCACHE_MAXSIZE: 2G
+      CCACHE_NODIRECT: true
+      CCACHE_NOHASHDIR: true
+      CCACHE_NOINODECACHE: true
+      CCACHE_SLOPPINESS: "include_file_ctime,include_file_mtime,pch_defines,time_macros"
+      CC: /usr/bin/gcc
+      CXX: /usr/bin/g++
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          egress-policy: audit
+
+      - name: Checkout source (at synced SHA)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ needs.prepare.outputs.sync_sha }}
+          fetch-depth: 2
+          fetch-tags: true
+          submodules: 'recursive'
+
+      - name: Install FreeCAD build dependencies
+        run: ./package/ubuntu/install-apt-packages.sh
+
+      - name: Install packaging tools
+        run: |
+          sudo apt-get install -y --no-install-recommends \
+            checkinstall \
+            ninja-build
+
+      - name: Install cmake 3.31
+        uses: jwlawson/actions-setup-cmake@0d6a7d60b009d01c9e7523be22153ff8f19460d3 # v2.2.0
+        with:
+          cmake-version: '3.31.6'
+
+      - name: Set up ccache directory
+        run: mkdir -p "${CCACHE_DIR}"
+
+      - name: Restore compiler cache
+        uses: actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: ${{ env.CCACHE_DIR }}
+          key: FC-deb-monthly-${{ github.ref }}-${{ github.run_id }}
+          restore-keys: |
+            FC-deb-monthly-${{ github.ref }}-
+            FC-deb-monthly-
+
+      - name: CMake configure
+        run: |
+          mkdir -p "${builddir}"
+          cmake -B "${builddir}" . \
+            -G Ninja \
+            --preset release \
+            -DCMAKE_C_COMPILER_LAUNCHER=ccache \
+            -DCMAKE_CXX_COMPILER_LAUNCHER=ccache
+
+      - name: CMake build
+        run: cmake --build "${builddir}"
+
+      - name: Save compiler cache
+        if: always()
+        uses: actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
+        with:
+          path: ${{ env.CCACHE_DIR }}
+          key: FC-deb-monthly-${{ github.ref }}-${{ github.run_id }}
+
+      - name: Create Debian package with checkinstall
+        env:
+          BUILD_TAG: ${{ needs.prepare.outputs.build_tag }}
+          DEB_VERSION: ${{ needs.prepare.outputs.deb_version }}
+        run: |
+          set -euo pipefail
+          cd "${builddir}"
+          sudo checkinstall \
+            --pkgname=freecad \
+            --pkgversion="${DEB_VERSION}" \
+            --pkgrelease=1 \
+            --arch=amd64 \
+            --pkglicense="LGPL-2.1" \
+            --pkggroup="science" \
+            --pkgsource="https://github.com/FreeCAD/FreeCAD" \
+            --maintainer="FreeCAD Project <maintainer@freecad.org>" \
+            --nodoc \
+            --default \
+            --install=no \
+            --deldesc \
+            cmake --install . --prefix=/usr
+          DEB_FILE=$(ls freecad_*.deb | head -1)
+          FINAL_NAME="freecad_${BUILD_TAG}-amd64.deb"
+          mv "${DEB_FILE}" "${GITHUB_WORKSPACE}/${FINAL_NAME}"
+          sha256sum "${GITHUB_WORKSPACE}/${FINAL_NAME}" \
+            > "${GITHUB_WORKSPACE}/${FINAL_NAME}-SHA256.txt"
+
+      - name: Upload .deb to GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ needs.prepare.outputs.build_tag }}
+        run: |
+          DEB_FILE="freecad_${BUILD_TAG}-amd64.deb"
+          gh release upload --clobber "${BUILD_TAG}" \
+            "${DEB_FILE}" \
+            "${DEB_FILE}-SHA256.txt"
+
+  # ──────────────────────────────────────────────────────────────────────────
+  # 2b. Build Windows installer (NSIS .exe + portable 7z) via pixi/rattler
+  # ──────────────────────────────────────────────────────────────────────────
+  build_windows:
+    needs: prepare
+    runs-on: windows-latest
+    environment: weekly-build   # provides Azure Trusted Signing secrets
+
+    steps:
+      - name: Harden the runner (Audit all outbound calls)
+        uses: step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176 # v2.17.0
+        with:
+          egress-policy: audit
+
+      - name: Set Pixi / Rattler cache directory to D drive
+        run: |
+          echo 'PIXI_CACHE_DIR=D:\rattler'    >> "$env:GITHUB_ENV"
+          echo 'RATTLER_CACHE_DIR=D:\rattler' >> "$env:GITHUB_ENV"
+
+      - name: Checkout source (at synced SHA)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ needs.prepare.outputs.sync_sha }}
+          fetch-depth: 2
+          fetch-tags: true
+          submodules: 'recursive'
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
+        with:
+          pixi-version: v0.59.0
+          cache: false
+
+      - name: Setup .NET 10 SDK
+        uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5.2.0
+        with:
+          dotnet-version: '10.0.103'
+
+      - name: Install Azure sign tool
+        run: |
+          dotnet tool install --global --prerelease sign
+          echo "$env:USERPROFILE\.dotnet\tools" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Install pixi packages
+        shell: bash
+        env:
+          TARGET_PLATFORM: win-64
+          BUILD_TAG: ${{ needs.prepare.outputs.build_tag }}
+        run: |
+          set -euo pipefail
+          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          cd package/rattler-build
+          pixi install
+
+      - name: Azure login for code signing
+        id: azure_login
+        continue-on-error: true
+        uses: azure/login@532459ea530d8321f2fb9bb10d1e0bcf23869a43 # v3.0.0
+        with:
+          creds: >-
+            {
+              "clientId":       "${{ secrets.AZURE_CLIENT_ID }}",
+              "clientSecret":   "${{ secrets.AZURE_CLIENT_SECRET }}",
+              "subscriptionId": "${{ secrets.AZURE_SUBSCRIPTION_ID }}",
+              "tenantId":       "${{ secrets.AZURE_TENANT_ID }}"
+            }
+
+      - name: Create and upload Windows installer
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_PLATFORM: win-64
+          MAKE_INSTALLER: "true"
+          UPLOAD_RELEASE: "true"
+          BUILD_TAG: ${{ needs.prepare.outputs.build_tag }}
+          WINDOWS_SIGN_RELEASE: ${{ steps.azure_login.outcome == 'success' && '1' || '0' }}
+          WINDOWS_AZURE_ENDPOINT: ${{ vars.AZURE_TRUSTED_SIGNING_ENDPOINT }}
+          WINDOWS_AZURE_CERTIFICATE_PROFILE: ${{ vars.AZURE_TRUSTED_SIGNING_CERTIFICATE_PROFILE }}
+          WINDOWS_AZURE_SIGNING_ACCOUNT: ${{ vars.AZURE_TRUSTED_SIGNING_ACCOUNT }}
+        run: |
+          set -euo pipefail
+          export MACOS_SIGN_RELEASE=0
+          cd package/rattler-build
+          pixi run -e package create_bundle
