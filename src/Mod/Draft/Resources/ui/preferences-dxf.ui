@@ -689,6 +689,16 @@ This might fail for post DXF R12 templates.</string>
         </item>
        </layout>
       </item>
+      <item>
+       <widget class="QLabel" name="label_dxfExportScaleNote">
+        <property name="text">
+         <string>Note: FreeCAD uses millimeters internally. Default scale 1.0 exports in mm.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
