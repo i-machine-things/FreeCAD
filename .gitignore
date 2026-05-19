@@ -71,3 +71,9 @@ tsupdate_stdout.log
 # pixi environments
 *.egg-info
 .pixi
+
+# Claude Code temp dirs
+tmpclaude-*
+
+# Claude Code project assistant files (local only)
+.claude/
