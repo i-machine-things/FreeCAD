@@ -642,6 +642,63 @@ This might fail for post DXF R12 templates.</string>
         </item>
        </layout>
       </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_ExportScale">
+        <item>
+         <widget class="QLabel" name="label_dxfExportScale">
+          <property name="text">
+           <string>Export scale factor</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_ExportScale">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="Gui::PrefDoubleSpinBox" name="spinBox_dxfExportScale">
+          <property name="toolTip">
+           <string>Scale factor applied to all geometry on export.
+1.0 = millimeters (default), 0.03937007874 = inches, 0.1 = centimeters, 0.001 = meters</string>
+          </property>
+          <property name="decimals">
+           <number>8</number>
+          </property>
+          <property name="maximum">
+           <double>999999.999998999992386</double>
+          </property>
+          <property name="value">
+           <double>1.000000000000000</double>
+          </property>
+          <property name="prefEntry" stdset="0">
+           <cstring>dxfExportScale</cstring>
+          </property>
+          <property name="prefPath" stdset="0">
+           <cstring>Mod/Draft</cstring>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_dxfExportScaleNote">
+        <property name="text">
+         <string>Note: FreeCAD uses millimeters internally. Default scale 1.0 exports in mm.</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>

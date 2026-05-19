@@ -3371,6 +3371,10 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
     dxfLibrary.Line
     """
     processededges = []
+    if dxfExportScale != 1.0:
+        m = FreeCAD.Matrix()
+        m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
+        sh = sh.transformGeometry(m)
     if not layer:
         layer = getStrGroup(ob)
     if not color:
@@ -3545,7 +3549,7 @@ def writeMesh(ob, dxf):
     points = []
     faces = []
     for p in meshdata[0]:
-        points.append([p.x, p.y, p.z])
+        points.append([p.x * dxfExportScale, p.y * dxfExportScale, p.z * dxfExportScale])
     for f in meshdata[1]:
         faces.append([f[0] + 1, f[1] + 1, f[2] + 1])
     # print(len(points),len(faces))
@@ -3779,7 +3783,12 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                 dxf.header.append(
                     "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight")) + "\n"
                 )
-                dxf.header.append("  9\n$INSUNITS\n 70\n4\n")
+                _insunits_map = {1.0: 4, 1 / 25.4: 1, 0.1: 5, 0.001: 6}
+                _insunits = next(
+                    (u for sc, u in _insunits_map.items() if abs(dxfExportScale - sc) < sc * 0.001),
+                    0,
+                )
+                dxf.header.append("  9\n$INSUNITS\n 70\n" + str(_insunits) + "\n")
             for ob in exportLayers:
                 if ob.Label != "0":  # dxflibrary already creates it
                     ltype = "continuous"
@@ -3826,13 +3835,14 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     rotation = math.degrees(ob.Placement.Rotation.Angle)
                     t1 = "".join(vobj.Proxy.text1.string.getValues())
                     t2 = "".join(vobj.Proxy.text2.string.getValues())
-                    h1 = vobj.FirstLine.Value
-                    h2 = vobj.FontSize.Value
+                    h1 = vobj.FirstLine.Value * dxfExportScale
+                    h2 = vobj.FontSize.Value * dxfExportScale
                     _v = vobj.Proxy.coords.translation.getValue().getValue()
                     _h = vobj.Proxy.header.translation.getValue().getValue()
                     p2 = FreeCAD.Vector(_v)
                     lspc = FreeCAD.Vector(_h)
-                    p1 = ob.Placement.multVec(p2 + lspc)
+                    p1 = ob.Placement.multVec(p2 + lspc) * dxfExportScale
+                    lspc = lspc * dxfExportScale
                     justifyhor = ("Left", "Center", "Right").index(vobj.TextAlign)
                     dxf.append(
                         dxfLibrary.Text(
@@ -3872,14 +3882,18 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                         continue
                     for ax in axes:
                         dxf.append(
-                            dxfLibrary.Line([ax[0], ax[1]], color=getACI(ob), layer=getStrGroup(ob))
+                            dxfLibrary.Line(
+                                [ax[0] * dxfExportScale, ax[1] * dxfExportScale],
+                                color=getACI(ob),
+                                layer=getStrGroup(ob),
+                            )
                         )
                     h = 1
                     if gui:
                         vobj = ob.ViewObject
-                        h = float(vobj.FontSize)
+                        h = float(vobj.FontSize) * dxfExportScale
                         for text in vobj.Proxy.getTextData():
-                            pos = text[1].add(FreeCAD.Vector(0, -h / 2, 0))
+                            pos = (text[1] * dxfExportScale).add(FreeCAD.Vector(0, -h / 2, 0))
                             dxf.append(
                                 dxfLibrary.Text(
                                     text[0],
@@ -3896,8 +3910,8 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                             if hasattr(shape, "Curve") and isinstance(shape.Curve, Part.Circle):
                                 dxf.append(
                                     dxfLibrary.Circle(
-                                        shape.Curve.Center,
-                                        shape.Curve.Radius,
+                                        shape.Curve.Center * dxfExportScale,
+                                        shape.Curve.Radius * dxfExportScale,
                                         color=getACI(ob),
                                         layer=getStrGroup(ob),
                                     )
@@ -3905,7 +3919,14 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                             else:
                                 if lwPoly:
                                     points = [
-                                        (v.Point.x, v.Point.y, v.Point.z, None, None, 0.0)
+                                        (
+                                            v.Point.x * dxfExportScale,
+                                            v.Point.y * dxfExportScale,
+                                            v.Point.z * dxfExportScale,
+                                            None,
+                                            None,
+                                            0.0,
+                                        )
                                         for v in shape.Vertexes
                                     ]
                                     dxf.append(
@@ -3919,7 +3940,16 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                                     )
                                 else:
                                     points = [
-                                        ((v.Point.x, v.Point.y, v.Point.z), None, [None, None], 0.0)
+                                        (
+                                            (
+                                                v.Point.x * dxfExportScale,
+                                                v.Point.y * dxfExportScale,
+                                                v.Point.z * dxfExportScale,
+                                            ),
+                                            None,
+                                            [None, None],
+                                            0.0,
+                                        )
                                         for v in shape.Vertexes
                                     ]
                                     dxf.append(
@@ -3997,18 +4027,19 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     for text in ob.LabelText:
                         point = DraftVecUtils.tup(
                             Vector(
-                                ob.Position.x,
-                                ob.Position.y - ob.LabelText.index(text),
-                                ob.Position.z,
+                                ob.Position.x * dxfExportScale,
+                                ob.Position.y * dxfExportScale
+                                - ob.LabelText.index(text) * dxfExportScale,
+                                ob.Position.z * dxfExportScale,
                             )
                         )
                         if gui:
-                            height = float(ob.ViewObject.FontSize)
+                            height = float(ob.ViewObject.FontSize) * dxfExportScale
                             justifyhor = ("Left", "Center", "Right").index(
                                 ob.ViewObject.Justification
                             )
                         else:
-                            height = 1
+                            height = dxfExportScale
                             justifyhor = 0
                         dxf.append(
                             dxfLibrary.Text(
@@ -4026,17 +4057,17 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                 elif obtype in ("DraftText", "Text"):
                     # texts
                     if gui:
-                        height = float(ob.ViewObject.FontSize)
+                        height = float(ob.ViewObject.FontSize) * dxfExportScale
                         justifyhor = ("Left", "Center", "Right").index(ob.ViewObject.Justification)
                     else:
-                        height = 1
+                        height = dxfExportScale
                         justifyhor = 0
                     for idx, text in enumerate(ob.Text):
                         point = DraftVecUtils.tup(
                             Vector(
-                                ob.Placement.Base.x,
-                                ob.Placement.Base.y - (height * 1.2 * idx),
-                                ob.Placement.Base.z,
+                                ob.Placement.Base.x * dxfExportScale,
+                                ob.Placement.Base.y * dxfExportScale - (height * 1.2 * idx),
+                                ob.Placement.Base.z * dxfExportScale,
                             )
                         )
                         rotation = math.degrees(ob.Placement.Rotation.Angle)
@@ -4055,14 +4086,16 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                         )
 
                 elif obtype in ["Dimension", "LinearDimension"]:
-                    p1 = DraftVecUtils.tup(ob.Start)
-                    p2 = DraftVecUtils.tup(ob.End)
+                    p1 = DraftVecUtils.tup(ob.Start * dxfExportScale)
+                    p2 = DraftVecUtils.tup(ob.End * dxfExportScale)
                     base = Part.LineSegment(ob.Start, ob.End).toShape()
                     proj = geo_geometry.findDistance(ob.Dimline, base)
                     if not proj:
-                        pbase = DraftVecUtils.tup(ob.End)
+                        pbase = DraftVecUtils.tup(ob.End * dxfExportScale)
                     else:
-                        pbase = DraftVecUtils.tup(ob.End.add(proj.negative()))
+                        pbase = DraftVecUtils.tup(
+                            ob.End.add(proj.negative()) * dxfExportScale
+                        )
                     dxf.append(
                         dxfLibrary.Dimension(pbase, p1, p2, color=getACI(ob), layer=getStrGroup(ob))
                     )
@@ -4335,7 +4368,7 @@ def readPreferences():
     `dxfImportPoints`, `dxfImportHatches`, `dxfUseStandardSize`,
     `dxfGetColors`, `dxfUseDraftVisGroups`,
     `dxfBrightBackground`, `dxfDefaultColor`, `dxfUseLegacyImporter`,
-    `dxfExportBlocks`, `dxfScaling`, `dxfUseLegacyExporter`
+    `dxfExportBlocks`, `dxfScaling`, `dxfUseLegacyExporter`, `dxfExportScale`
 
     The parameter path is ``User parameter:BaseApp/Preferences/Mod/Draft``
 
@@ -4347,7 +4380,7 @@ def readPreferences():
     global dxfDiscretizeCurves, dxfStarBlocks, dxfMakeBlocks, dxfJoin, dxfRenderPolylineWidth
     global dxfImportTexts, dxfImportLayouts, dxfImportPoints, dxfImportHatches, dxfUseStandardSize
     global dxfGetColors, dxfUseDraftVisGroups, dxfBrightBackground, dxfDefaultColor
-    global dxfUseLegacyImporter, dxfExportBlocks, dxfScaling, dxfUseLegacyExporter
+    global dxfUseLegacyImporter, dxfExportBlocks, dxfScaling, dxfUseLegacyExporter, dxfExportScale
 
     # Use the direct C++ API via Python for all parameter access
     hGrp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft")
@@ -4410,6 +4443,7 @@ def readPreferences():
     dxfUseLegacyExporter = hGrp.GetBool("dxfUseLegacyExporter", False)
     dxfExportBlocks = hGrp.GetBool("dxfExportBlocks", True)
     dxfScaling = hGrp.GetFloat("dxfScaling", 1.0)
+    dxfExportScale = hGrp.GetFloat("dxfExportScale", 1.0)
 
     dxfBrightBackground = isBrightBackground()
     dxfDefaultColor = getColor()
