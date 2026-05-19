@@ -1,0 +1,79 @@
+name: Fork Nightly Windows Build
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # 3 AM UTC daily
+  workflow_dispatch:
+  push:
+    branches:
+      - feat/dxf-export-scale-upstream
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-nightly-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    env:
+      PIXI_CACHE_DIR: D:\rattler
+      RATTLER_CACHE_DIR: D:\rattler
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 2
+          fetch-tags: true
+          submodules: recursive
+
+      - name: Set build tag and create release
+        id: tag
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SAFE_BRANCH=$(echo "${{ github.ref_name }}" | sed 's/[^a-zA-Z0-9._-]/-/g')
+          BUILD_TAG="${SAFE_BRANCH}-$(date '+%Y.%m.%d')"
+          echo "BUILD_TAG=${BUILD_TAG}" >> "$GITHUB_ENV"
+          echo "build_tag=${BUILD_TAG}" >> "$GITHUB_OUTPUT"
+          gh release create "${BUILD_TAG}" \
+            --title "Dev Build ${BUILD_TAG}" \
+            --notes "Automated Windows installer build from branch \`${{ github.ref_name }}\`." \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" > /dev/null
+
+      - uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
+        with:
+          pixi-version: v0.59.0
+          cache: false
+
+      - name: Setup .NET (required by rattler-build sign tooling)
+        uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5.2.0
+        with:
+          dotnet-version: "10.0.103"
+
+      - name: Write version info and install pixi env
+        shell: bash
+        run: |
+          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          cd package/rattler-build
+          pixi install --frozen
+
+      - name: Build and upload Windows installer
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TARGET_PLATFORM: win-64
+          MAKE_INSTALLER: "true"
+          UPLOAD_RELEASE: "true"
+          BUILD_TAG: ${{ steps.tag.outputs.build_tag }}
+          WINDOWS_SIGN_RELEASE: "0"
+        run: |
+          cd package/rattler-build
+          pixi run -e package create_bundle
