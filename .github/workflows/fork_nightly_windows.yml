@@ -13,6 +13,18 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  sync-main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Sync fork main with upstream FreeCAD/FreeCAD
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api repos/i-machine-things/FreeCAD/merge-upstream \
+            -X POST -F branch=main
+
   build:
     runs-on: windows-latest
     permissions:
