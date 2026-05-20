@@ -23,6 +23,9 @@ concurrency:
 jobs:
   flatpak:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/flathub-infra/flatpak-github-actions:kde-6.10
+      options: --privileged
     permissions:
       contents: write
 
