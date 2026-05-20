@@ -1,0 +1,166 @@
+name: Fork Stable Linux Flatpak
+
+# Builds a Flatpak bundle from the latest official FreeCAD release tag with
+# the DXF export scale patch overlaid on top.
+#
+# Strategy: use the Flathub manifest as-is (keeping the pinned tag/commit for
+# the exact release), then inject our two patched files as additional flatpak
+# file sources that overwrite the originals before compilation.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Monday 06:00 UTC — after stable Windows at 05:00
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "FreeCAD release tag (e.g. 1.1.1) — blank = latest stable"
+        required: false
+      force_rebuild:
+        description: "Rebuild even if this release was already published"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: fork-stable-linux
+  cancel-in-progress: false
+
+jobs:
+  # ── 1. Cheap detection on Ubuntu ─────────────────────────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      target_tag:   ${{ steps.info.outputs.target_tag }}
+      build_tag:    ${{ steps.info.outputs.build_tag }}
+      should_build: ${{ steps.info.outputs.should_build }}
+    steps:
+      - name: Resolve target release tag
+        id: info
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.release_tag }}
+          FORCE: ${{ inputs.force_rebuild }}
+        run: |
+          if [ -n "${INPUT_TAG}" ]; then
+            TARGET_TAG="${INPUT_TAG}"
+          else
+            TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          BUILD_TAG="linux-stable-${TARGET_TAG}"
+          echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
+          echo "build_tag=${BUILD_TAG}"   >> "$GITHUB_OUTPUT"
+          if gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
+               > /dev/null 2>&1 && [ "${FORCE}" != "true" ]; then
+            echo "should_build=false" >> "$GITHUB_OUTPUT"
+            echo "Release ${BUILD_TAG} already exists — skipping."
+          else
+            echo "should_build=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # ── 2. Flatpak build ──────────────────────────────────────────────────────
+  flatpak:
+    needs: detect
+    if: needs.detect.outputs.should_build == 'true'
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/flathub-infra/flatpak-github-actions:kde-6.10
+      options: --privileged
+    permissions:
+      contents: write
+
+    steps:
+      # Checkout our fork so we can pull the two patched files from it.
+      - name: Checkout fork (main-dev)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main-dev
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Clone Flathub manifest
+        run: |
+          git clone --recurse-submodules --depth=1 \
+            https://github.com/flathub/org.freecad.FreeCAD.git /tmp/flathub
+          echo "FLATHUB_SHA=$(git -C /tmp/flathub rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      # Copy the Flathub manifest, add our patched files alongside it, then
+      # inject two 'file' type sources into the FreeCAD module so they
+      # overwrite the git-sourced originals before compilation.
+      - name: Prepare manifest — inject DXF patch file sources
+        run: |
+          cp -r /tmp/flathub/. /tmp/manifest/
+          cp src/Mod/Draft/importDXF.py /tmp/manifest/importDXF.py
+          cp "src/Mod/Draft/Resources/ui/preferences-dxf.ui" /tmp/manifest/preferences-dxf.ui
+
+          python3 << 'EOF'
+          path = "/tmp/manifest/org.freecad.FreeCAD.yaml"
+          with open(path) as f:
+              lines = f.readlines()
+
+          result = []
+          past_freecad_url = False
+          inserted = False
+
+          for line in lines:
+              result.append(line)
+
+              if "github.com/FreeCAD/FreeCAD.git" in line:
+                  past_freecad_url = True
+
+              # Insert our file sources after the 'tag:' line of the FreeCAD
+              # git source (last field in that source block).
+              if not inserted and past_freecad_url and line.strip().startswith("tag:"):
+                  indent = len(line) - len(line.lstrip())   # 8 spaces
+                  item   = " " * (indent - 2)               # 6 spaces — list level
+                  field  = " " * indent                     # 8 spaces — field level
+                  result.append(f"{item}- type: file\n")
+                  result.append(f"{field}path: importDXF.py\n")
+                  result.append(f"{field}dest: src/Mod/Draft\n")
+                  result.append(f"{item}- type: file\n")
+                  result.append(f"{field}path: preferences-dxf.ui\n")
+                  result.append(f"{field}dest: src/Mod/Draft/Resources/ui\n")
+                  inserted = True
+
+          with open(path, "w") as f:
+              f.writelines(result)
+          EOF
+
+      - name: Create GitHub release placeholder
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+          TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
+        run: |
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "FreeCAD ${TARGET_TAG} (official release) + DXF export scale patch. Linux Flatpak." \
+            "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds." \
+            > /tmp/notes.md
+          gh release create "${BUILD_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "[Fork] Stable Linux ${BUILD_TAG} — DXF Export Scale" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
+
+      - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+        with:
+          bundle: FreeCAD-${{ needs.detect.outputs.build_tag }}.flatpak
+          manifest-path: /tmp/manifest/org.freecad.FreeCAD.yaml
+          cache: true
+          cache-key: flatpak-kde610-stable-${{ env.FLATHUB_SHA }}
+
+      - name: Upload Flatpak bundle to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+        run: |
+          BUNDLE="FreeCAD-${BUILD_TAG}.flatpak"
+          sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
+          gh release upload --clobber "${BUILD_TAG}" \
+            "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
+            --repo "${{ github.repository }}"
