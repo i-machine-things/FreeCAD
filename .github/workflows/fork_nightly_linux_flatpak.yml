@@ -50,37 +50,53 @@ jobs:
         run: |
           cp -r /tmp/flathub/. /tmp/manifest/
           python3 << 'EOF'
-          import re
-
           path = "/tmp/manifest/org.freecad.FreeCAD.yaml"
           with open(path) as f:
-              content = f.read()
+              lines = f.readlines()
 
-          # 1. Redirect FreeCAD git source to fork
-          content = content.replace(
-              "url: https://github.com/FreeCAD/FreeCAD.git",
-              "url: https://github.com/i-machine-things/FreeCAD.git",
-          )
+          result = []
+          skip_next_tag_commit = False
+          for line in lines:
+              stripped = line.strip()
 
-          # 2. Remove pinned tag/commit and insert branch: main-dev
-          content = re.sub(
-              r"(url: https://github\.com/i-machine-things/FreeCAD\.git\n)"
-              r"(?:\s+tag:[^\n]*\n)?"
-              r"(?:\s+commit:[^\n]*\n)?",
-              r"\1      branch: main-dev\n",
-              content,
-          )
+              # Redirect source URL and arm skip flag for the lines that follow
+              if "url: https://github.com/FreeCAD/FreeCAD.git" in line:
+                  indent = len(line) - len(line.lstrip())
+                  result.append(line.replace(
+                      "https://github.com/FreeCAD/FreeCAD.git",
+                      "https://github.com/i-machine-things/FreeCAD.git",
+                  ))
+                  result.append(" " * indent + "branch: main-dev\n")
+                  skip_next_tag_commit = True
+                  continue
 
-          # 3. Replace hardcoded revcount with a dynamic git count so the
-          #    FreeCAD version string reflects our branch history length.
-          content = re.sub(
-              r"echo \d+ > revcount\.txt",
-              "git rev-list --count HEAD > revcount.txt",
-              content,
-          )
+              # Drop the pinned commit and tag lines immediately after the URL
+              if skip_next_tag_commit and (
+                  stripped.startswith("commit:") or stripped.startswith("tag:")
+              ):
+                  continue
+
+              # Once we hit any other field, stop skipping
+              if skip_next_tag_commit and stripped and not stripped.startswith("#"):
+                  skip_next_tag_commit = False
+
+              # Make the hardcoded revcount dynamic
+              if "revcount=" in line and line.strip().startswith("revcount="):
+                  result.append(line.split("=")[0] + "=$(git rev-list --count HEAD)\n")
+                  continue
+
+              # Update the version URL to point to the fork
+              if "${PACKAGE_WCURL}|https://github.com/FreeCAD/FreeCAD.git" in line:
+                  result.append(line.replace(
+                      "https://github.com/FreeCAD/FreeCAD.git",
+                      "https://github.com/i-machine-things/FreeCAD.git",
+                  ))
+                  continue
+
+              result.append(line)
 
           with open(path, "w") as f:
-              f.write(content)
+              f.writelines(result)
           EOF
 
       - name: Set build tag
@@ -109,7 +125,7 @@ jobs:
       # updates a dependency.
       - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
-          bundle: FreeCAD-dxfscale-${{ steps.tag.outputs.build_tag }}.flatpak
+          bundle: FreeCAD-${{ steps.tag.outputs.build_tag }}.flatpak
           manifest-path: /tmp/manifest/org.freecad.FreeCAD.yaml
           cache: true
           cache-key: flatpak-kde610-${{ env.FLATHUB_SHA }}
@@ -119,7 +135,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           BUILD_TAG: ${{ steps.tag.outputs.build_tag }}
         run: |
-          BUNDLE="FreeCAD-dxfscale-${BUILD_TAG}.flatpak"
+          BUNDLE="FreeCAD-${BUILD_TAG}.flatpak"
           sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
           gh release upload --clobber "${BUILD_TAG}" \
             "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
