@@ -17,7 +17,7 @@ jobs:
       - name: Checkout feature branch
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: feat/dxf-export-scale-upstream
+          ref: main-dev
           fetch-depth: 0
 
       - name: Configure git identity
@@ -62,7 +62,7 @@ jobs:
 
       - name: Push rebased branch
         if: steps.rebase.outputs.status == 'clean'
-        run: git push --force-with-lease origin feat/dxf-export-scale-upstream
+        run: git push --force-with-lease origin main-dev
 
       - name: Open issue — rebase conflict
         if: steps.rebase.outputs.status == 'conflict'
@@ -76,29 +76,14 @@ jobs:
             echo "Issue #$EXISTING already open — skipping."
             exit 0
           fi
+          printf '## Rebase failed\n\nThe weekly auto-rebase of `main-dev` onto `upstream/main` hit conflicts and was aborted.\n\n**Conflicting files:**\n```\n%s\n```\n\n**Fix locally:**\n```bash\ngit fetch upstream\ngit rebase upstream/main\n# resolve conflicts, then:\ngit add <files>\ngit rebase --continue\ngit push --force-with-lease\n```\n\n[Workflow run](%s)\n' \
+            "${{ steps.rebase.outputs.conflict_files }}" \
+            "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            > /tmp/conflict_body.md
           gh issue create \
-            --title "Auto-rebase conflict: feat/dxf-export-scale-upstream needs manual rebase" \
+            --title "Auto-rebase conflict: main-dev needs manual rebase" \
             --label "bug" \
-            --body "## Rebase failed
-
-The weekly auto-rebase of \`feat/dxf-export-scale-upstream\` onto \`upstream/main\` hit conflicts and was aborted.
-
-**Conflicting files:**
-\`\`\`
-${{ steps.rebase.outputs.conflict_files }}
-\`\`\`
-
-**Fix locally:**
-\`\`\`bash
-git fetch upstream
-git rebase upstream/main
-# resolve conflicts, then:
-git add <files>
-git rebase --continue
-git push --force-with-lease
-\`\`\`
-
-[Workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+            --body-file /tmp/conflict_body.md
 
       - name: Open issue — upstream touched DXF files (clean rebase, verify feature)
         if: steps.rebase.outputs.status == 'clean' && steps.upstream_check.outputs.touched == 'true'
@@ -112,16 +97,11 @@ git push --force-with-lease
             echo "Issue #$EXISTING already open — skipping."
             exit 0
           fi
+          printf '## Heads up\n\nThe auto-rebase onto `upstream/main` succeeded, but upstream modified files that overlap with the DXF export scale feature. The branch has been updated automatically — please verify the feature still behaves correctly.\n\n**Upstream-modified files:**\n```\n%s\n```\n\n[Workflow run](%s)\n' \
+            "${{ steps.upstream_check.outputs.touched_files }}" \
+            "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            > /tmp/touched_body.md
           gh issue create \
             --title "Upstream changed DXF files — verify scale feature still works" \
             --label "enhancement" \
-            --body "## Heads up
-
-The auto-rebase onto \`upstream/main\` succeeded, but upstream modified files that overlap with the DXF export scale feature. The branch has been updated automatically — please verify the feature still behaves correctly.
-
-**Upstream-modified files:**
-\`\`\`
-${{ steps.upstream_check.outputs.touched_files }}
-\`\`\`
-
-[Workflow run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})"
+            --body-file /tmp/touched_body.md
