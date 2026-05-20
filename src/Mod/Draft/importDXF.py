@@ -3150,6 +3150,8 @@ def getSplineSegs(edge):
         then it only returns the first and the last point of the `edge`.
     """
     seglength = params.get_param("maxsegmentlength")
+    if dxfExportScale != 1.0:
+        seglength *= dxfExportScale
     points = []
     if seglength == 0:
         points.append(edge.Vertexes[0].Point)
@@ -3781,7 +3783,7 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
             # add global variables
             if hasattr(dxf, "header"):
                 dxf.header.append(
-                    "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight")) + "\n"
+                    "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight") * dxfExportScale) + "\n"
                 )
                 _insunits_map = {1.0: 4, 1 / 25.4: 1, 0.1: 5, 0.001: 6}
                 _insunits = next(
@@ -4443,7 +4445,13 @@ def readPreferences():
     dxfUseLegacyExporter = hGrp.GetBool("dxfUseLegacyExporter", False)
     dxfExportBlocks = hGrp.GetBool("dxfExportBlocks", True)
     dxfScaling = hGrp.GetFloat("dxfScaling", 1.0)
+    if dxfScaling <= 0:
+        FreeCAD.Console.PrintWarning("DXF: dxfScaling must be > 0, resetting to 1.0\n")
+        dxfScaling = 1.0
     dxfExportScale = hGrp.GetFloat("dxfExportScale", 1.0)
+    if dxfExportScale <= 0:
+        FreeCAD.Console.PrintWarning("DXF: dxfExportScale must be > 0, resetting to 1.0\n")
+        dxfExportScale = 1.0
 
     dxfBrightBackground = isBrightBackground()
     dxfDefaultColor = getColor()
