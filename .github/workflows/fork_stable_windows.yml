@@ -127,10 +127,15 @@ jobs:
           BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
           TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
         run: |
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "Based on the official **FreeCAD ${TARGET_TAG}** release with the DXF export scale patch applied on top." \
+            "> ⚠️ This is not an official FreeCAD release. For official builds visit [freecad.org](https://freecad.org)." \
+            > /tmp/notes.md
           gh release create "${BUILD_TAG}" \
             --repo "${{ github.repository }}" \
-            --title "Stable ${BUILD_TAG}" \
-            --notes "FreeCAD ${TARGET_TAG} + DXF export scale patch." \
+            --title "[Fork] Stable ${BUILD_TAG} — DXF Export Scale" \
+            --notes-file /tmp/notes.md \
             --prerelease || \
           gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
 

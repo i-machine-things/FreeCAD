@@ -40,8 +40,8 @@ jobs:
           echo "BUILD_TAG=${BUILD_TAG}" >> "$GITHUB_ENV"
           echo "build_tag=${BUILD_TAG}" >> "$GITHUB_OUTPUT"
           gh release create "${BUILD_TAG}" \
-            --title "Dev Build ${BUILD_TAG}" \
-            --notes "Automated Windows installer build (DXF export scale feature)." \
+            --title "[Fork] Nightly ${BUILD_TAG} — DXF Export Scale" \
+            --notes "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**. Nightly Windows installer from \`feat/dxf-export-scale-upstream\` with the DXF export scale patch. Not an official FreeCAD release." \
             --prerelease || \
           gh release view "${BUILD_TAG}" > /dev/null
 
