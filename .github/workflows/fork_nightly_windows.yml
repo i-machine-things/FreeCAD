@@ -35,15 +35,13 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
-          REF_NAME: ${{ github.ref_name }}
         run: |
-          SAFE_BRANCH=$(printf '%s' "$REF_NAME" | sed 's/[^a-zA-Z0-9._-]/-/g')
-          BUILD_TAG="${SAFE_BRANCH}-$(date '+%Y.%m.%d')"
+          BUILD_TAG="dxfscale-$(date '+%Y.%m.%d')"
           echo "BUILD_TAG=${BUILD_TAG}" >> "$GITHUB_ENV"
           echo "build_tag=${BUILD_TAG}" >> "$GITHUB_OUTPUT"
           gh release create "${BUILD_TAG}" \
             --title "Dev Build ${BUILD_TAG}" \
-            --notes "Automated Windows installer build from branch \`${SAFE_BRANCH}\`." \
+            --notes "Automated Windows installer build (DXF export scale feature)." \
             --prerelease || \
           gh release view "${BUILD_TAG}" > /dev/null
 
