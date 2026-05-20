@@ -1,0 +1,126 @@
+name: Fork Nightly Linux Flatpak
+
+# Builds a Flatpak bundle from main-dev using the official Flathub manifest
+# as a base, patching only the FreeCAD source to point at the fork.
+#
+# First run: ~4-6 h (builds all ~70 deps from source).
+# Subsequent runs: ~1 h (deps cached, only FreeCAD itself rebuilds).
+# The .flatpak bundle can be installed via KDE Discover or:
+#   flatpak install --bundle FreeCAD-dxfscale-YYYY.MM.DD.flatpak
+
+on:
+  schedule:
+    - cron: "0 4 * * *"  # 4 AM UTC daily — after main sync at 3 AM
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-nightly-linux
+  cancel-in-progress: true
+
+jobs:
+  flatpak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+
+      # Fetch the Flathub manifest. We clone it fresh each run so we always
+      # build against the latest dependency versions from Flathub.
+      - name: Clone Flathub manifest
+        run: |
+          git clone --recurse-submodules --depth=1 \
+            https://github.com/flathub/org.freecad.FreeCAD.git /tmp/flathub
+          # Record the Flathub manifest SHA for cache keying
+          echo "FLATHUB_SHA=$(git -C /tmp/flathub rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      # Patch the manifest in-place:
+      #   1. Point FreeCAD source at the fork's main-dev branch
+      #   2. Remove the pinned tag + commit (incompatible with a branch ref)
+      #   3. Replace the hardcoded revcount with a live git count
+      - name: Patch manifest to use fork main-dev
+        run: |
+          cp -r /tmp/flathub/. /tmp/manifest/
+          python3 << 'EOF'
+          import re
+
+          path = "/tmp/manifest/org.freecad.FreeCAD.yaml"
+          with open(path) as f:
+              content = f.read()
+
+          # 1. Redirect FreeCAD git source to fork
+          content = content.replace(
+              "url: https://github.com/FreeCAD/FreeCAD.git",
+              "url: https://github.com/i-machine-things/FreeCAD.git",
+          )
+
+          # 2. Remove pinned tag/commit and insert branch: main-dev
+          content = re.sub(
+              r"(url: https://github\.com/i-machine-things/FreeCAD\.git\n)"
+              r"(?:\s+tag:[^\n]*\n)?"
+              r"(?:\s+commit:[^\n]*\n)?",
+              r"\1      branch: main-dev\n",
+              content,
+          )
+
+          # 3. Replace hardcoded revcount with a dynamic git count so the
+          #    FreeCAD version string reflects our branch history length.
+          content = re.sub(
+              r"echo \d+ > revcount\.txt",
+              "git rev-list --count HEAD > revcount.txt",
+              content,
+          )
+
+          with open(path, "w") as f:
+              f.write(content)
+          EOF
+
+      - name: Set build tag
+        id: tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BUILD_TAG="linux-dxfscale-$(date '+%Y.%m.%d')"
+          echo "build_tag=${BUILD_TAG}" >> "$GITHUB_OUTPUT"
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "Nightly Linux Flatpak from \`main-dev\` with the DXF export scale patch." \
+            "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds." \
+            > /tmp/notes.md
+          gh release create "${BUILD_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "[Fork] Nightly Linux ${BUILD_TAG} — DXF Export Scale" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
+
+      # The flatpak-github-actions builder handles: installing flatpak-builder,
+      # adding the KDE runtime remote, and caching the build state dir.
+      # Cache key is based on the Flathub manifest SHA so the dep cache
+      # survives daily FreeCAD-only rebuilds but invalidates when Flathub
+      # updates a dependency.
+      - uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+        with:
+          bundle: FreeCAD-dxfscale-${{ steps.tag.outputs.build_tag }}.flatpak
+          manifest-path: /tmp/manifest/org.freecad.FreeCAD.yaml
+          cache: true
+          cache-key: flatpak-kde610-${{ env.FLATHUB_SHA }}
+
+      - name: Upload Flatpak bundle to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ steps.tag.outputs.build_tag }}
+        run: |
+          BUNDLE="FreeCAD-dxfscale-${BUILD_TAG}.flatpak"
+          sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
+          gh release upload --clobber "${BUILD_TAG}" \
+            "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
+            --repo "${{ github.repository }}"
