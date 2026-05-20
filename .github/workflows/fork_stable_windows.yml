@@ -97,12 +97,12 @@ jobs:
           TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
         run: |
           # Fetch our feature branch (public fork — no auth needed)
-          git fetch origin feat/dxf-export-scale-upstream --depth=1
+          git fetch origin main-dev --depth=1
 
           # Save patched files to temp before we switch tree
-          git show origin/feat/dxf-export-scale-upstream:src/Mod/Draft/importDXF.py \
+          git show origin/main-dev:src/Mod/Draft/importDXF.py \
             > /tmp/importDXF.py
-          git show origin/feat/dxf-export-scale-upstream:src/Mod/Draft/Resources/ui/preferences-dxf.ui \
+          git show origin/main-dev:src/Mod/Draft/Resources/ui/preferences-dxf.ui \
             > /tmp/preferences-dxf.ui
 
           # Fetch upstream release tag (depth 2 satisfies write_version_info.py)
