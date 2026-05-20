@@ -50,7 +50,7 @@ jobs:
             TARGET_TAG="${INPUT_TAG}"
           else
             TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
-              --json tagName -q '.[0].tagName')
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
           fi
           BUILD_TAG="stable-${TARGET_TAG}"
           echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
