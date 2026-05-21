@@ -52,14 +52,17 @@ jobs:
             TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
               --exclude-pre-releases --json tagName -q '.[0].tagName')
           fi
-          BUILD_TAG="stable-${TARGET_TAG}"
+          BUILD_TAG="i-machine-things-FCfork-v${TARGET_TAG}"
           echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
           echo "build_tag=${BUILD_TAG}"   >> "$GITHUB_OUTPUT"
 
-          if gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
-               > /dev/null 2>&1 && [ "${FORCE}" != "true" ]; then
+          # Skip only if a Windows asset already exists in the shared release
+          HAS_WIN=$(gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
+            --json assets -q '.assets[] | select(.name | test("\\.exe$")) | .name' \
+            2>/dev/null | head -1)
+          if [ -n "${HAS_WIN}" ] && [ "${FORCE}" != "true" ]; then
             echo "should_build=false" >> "$GITHUB_OUTPUT"
-            echo "Release ${BUILD_TAG} already exists — skipping. Pass force_rebuild=true to override."
+            echo "Windows asset already in ${BUILD_TAG} — skipping."
           else
             echo "should_build=true" >> "$GITHUB_OUTPUT"
           fi
@@ -129,12 +132,12 @@ jobs:
         run: |
           printf '%s\n\n%s\n\n%s\n' \
             "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
-            "Based on the official **FreeCAD ${TARGET_TAG}** release with the DXF export scale patch applied on top." \
-            "> ⚠️ This is not an official FreeCAD release. For official builds visit [freecad.org](https://freecad.org)." \
+            "FreeCAD ${TARGET_TAG} + DXF export scale patch. Windows installer and Linux Flatpak." \
+            "> ⚠️ Not an official FreeCAD release. For official builds visit [freecad.org](https://freecad.org)." \
             > /tmp/notes.md
           gh release create "${BUILD_TAG}" \
             --repo "${{ github.repository }}" \
-            --title "[Fork] Stable ${BUILD_TAG} — DXF Export Scale" \
+            --title "i-machine-things-FCfork v${TARGET_TAG}" \
             --notes-file /tmp/notes.md \
             --prerelease || \
           gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
