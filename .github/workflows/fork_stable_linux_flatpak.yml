@@ -122,7 +122,7 @@ jobs:
             /tmp/staging
           flatpak build-bundle /tmp/fc-repo \
             "FreeCAD-${BUILD_TAG}.flatpak" \
-            org.freecad.FreeCAD
+            org.freecad.FreeCAD stable
           sha256sum "FreeCAD-${BUILD_TAG}.flatpak" > "FreeCAD-${BUILD_TAG}.flatpak-SHA256.txt"
 
       - name: Create release and upload
