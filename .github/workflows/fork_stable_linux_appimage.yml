@@ -57,7 +57,7 @@ jobs:
           # Find the x86_64 AppImage asset in the upstream release
           APPIMAGE_URL=$(gh release view "${TARGET_TAG}" --repo FreeCAD/FreeCAD \
             --json assets \
-            -q '.assets[] | select(.name | test("x86.64.*\\.AppImage$"; "i")) | .browserDownloadUrl' \
+            -q '.assets[] | select(.name | test("x86.64.*\\.AppImage$"; "i")) | .url' \
             | head -1)
           if [ -z "${APPIMAGE_URL}" ]; then
             echo "::error::No x86_64 AppImage found in FreeCAD ${TARGET_TAG} release assets"
