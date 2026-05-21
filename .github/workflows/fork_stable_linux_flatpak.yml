@@ -1,11 +1,12 @@
 name: Fork Stable Linux Flatpak
 
 # Patches the official FreeCAD Flatpak from Flathub with the DXF export scale fix.
-# Installs the pre-built Flathub Flatpak (no compilation), replaces the two Python/UI
-# files via OSTree, and exports a distributable .flatpak bundle for KDE Discover.
+# Installs the pre-built Flathub Flatpak (no compilation), copies the deployed app
+# tree to a staging area, replaces the two Python/UI files, commits to a fresh
+# OSTree repo, and exports a distributable .flatpak bundle for KDE Discover.
 # Runs once per stable FreeCAD release; skips automatically if already published.
 #
-# Runtime: ~15 minutes (apt + flatpak install + OSTree checkout + bundle export).
+# Runtime: ~20 minutes (apt + flatpak install + cp staging + OSTree commit + bundle).
 
 on:
   schedule:
@@ -88,35 +89,38 @@ jobs:
             https://dl.flathub.org/repo/flathub.flatpakrepo
           sudo flatpak install -y --noninteractive flathub org.freecad.FreeCAD
 
-      - name: Checkout app tree from OSTree repo
+      - name: Stage installed app for patching
         run: |
-          sudo ostree --repo=/var/lib/flatpak/repo checkout \
-            "app/org.freecad.FreeCAD/x86_64/stable" \
-            /tmp/fc-checkout
+          APP=/var/lib/flatpak/app/org.freecad.FreeCAD/x86_64/stable/active
+          mkdir -p /tmp/staging/export
+          sudo cp -r "${APP}/files" /tmp/staging/files
+          sudo cp "${APP}/metadata"  /tmp/staging/metadata
+          if [ -d "${APP}/export" ]; then
+            sudo cp -r "${APP}/export/." /tmp/staging/export/
+          fi
+          sudo chown -R runner:runner /tmp/staging
 
       - name: Apply DXF scale patch
         run: |
-          DRAFT_DIR=$(find /tmp/fc-checkout -name "importDXF.py" -exec dirname {} \; | head -1)
-          UI_DIR=$(find /tmp/fc-checkout -name "preferences-dxf.ui" -exec dirname {} \; | head -1)
+          DRAFT_DIR=$(find /tmp/staging/files -name "importDXF.py" -exec dirname {} \; | head -1)
+          UI_DIR=$(find /tmp/staging/files -name "preferences-dxf.ui" -exec dirname {} \; | head -1)
           if [ -z "${DRAFT_DIR}" ] || [ -z "${UI_DIR}" ]; then
-            echo "::error::Could not locate patch targets inside Flatpak checkout"
+            echo "::error::Could not locate patch targets in staged app"
+            find /tmp/staging/files -name "*.py" | head -10
             exit 1
           fi
-          sudo cp src/Mod/Draft/importDXF.py "${DRAFT_DIR}/importDXF.py"
-          sudo cp "src/Mod/Draft/Resources/ui/preferences-dxf.ui" "${UI_DIR}/preferences-dxf.ui"
+          cp src/Mod/Draft/importDXF.py "${DRAFT_DIR}/importDXF.py"
+          cp "src/Mod/Draft/Resources/ui/preferences-dxf.ui" "${UI_DIR}/preferences-dxf.ui"
 
-      - name: Recommit patched tree to OSTree repo
-        run: |
-          sudo ostree --repo=/var/lib/flatpak/repo commit \
-            --branch="app/org.freecad.FreeCAD/x86_64/stable" \
-            /tmp/fc-checkout
-
-      - name: Export .flatpak bundle
+      - name: Commit staged tree to fresh OSTree repo and export bundle
         env:
           BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
         run: |
-          sudo flatpak build-bundle \
-            /var/lib/flatpak/repo \
+          ostree --repo=/tmp/fc-repo init --mode=archive-z2
+          ostree --repo=/tmp/fc-repo commit \
+            --branch="app/org.freecad.FreeCAD/x86_64/stable" \
+            /tmp/staging
+          flatpak build-bundle /tmp/fc-repo \
             "FreeCAD-${BUILD_TAG}.flatpak" \
             org.freecad.FreeCAD
           sha256sum "FreeCAD-${BUILD_TAG}.flatpak" > "FreeCAD-${BUILD_TAG}.flatpak-SHA256.txt"
