@@ -1,0 +1,143 @@
+name: Fork Stable Linux AppImage
+
+# Patches the official FreeCAD stable AppImage with the DXF export scale fix.
+# Downloads the official x86_64 AppImage for the latest stable release, replaces
+# the two patched files, and repacks it. Runs once per stable FreeCAD release;
+# skips automatically if the patched release already exists.
+#
+# Runtime: ~10 minutes (download + extract + repack — no compilation).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Monday 06:00 UTC — after stable Windows at 05:00
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "FreeCAD release tag (e.g. 1.1.1) — blank = latest stable"
+        required: false
+      force_rebuild:
+        description: "Rebuild even if this release was already published"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-stable-linux
+  cancel-in-progress: false
+
+jobs:
+  # ── 1. Cheap detection on Ubuntu ─────────────────────────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      target_tag:   ${{ steps.info.outputs.target_tag }}
+      build_tag:    ${{ steps.info.outputs.build_tag }}
+      should_build: ${{ steps.info.outputs.should_build }}
+      appimage_url: ${{ steps.info.outputs.appimage_url }}
+    steps:
+      - name: Resolve target release tag and AppImage URL
+        id: info
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.release_tag }}
+          FORCE: ${{ inputs.force_rebuild }}
+        run: |
+          if [ -n "${INPUT_TAG}" ]; then
+            TARGET_TAG="${INPUT_TAG}"
+          else
+            TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          BUILD_TAG="linux-stable-${TARGET_TAG}"
+          echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
+          echo "build_tag=${BUILD_TAG}"   >> "$GITHUB_OUTPUT"
+
+          # Find the x86_64 AppImage asset in the upstream release
+          APPIMAGE_URL=$(gh release view "${TARGET_TAG}" --repo FreeCAD/FreeCAD \
+            --json assets \
+            -q '.assets[] | select(.name | test("x86.64.*\\.AppImage$"; "i")) | .browserDownloadUrl' \
+            | head -1)
+          if [ -z "${APPIMAGE_URL}" ]; then
+            echo "::error::No x86_64 AppImage found in FreeCAD ${TARGET_TAG} release assets"
+            exit 1
+          fi
+          echo "appimage_url=${APPIMAGE_URL}" >> "$GITHUB_OUTPUT"
+
+          if gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
+               > /dev/null 2>&1 && [ "${FORCE}" != "true" ]; then
+            echo "should_build=false" >> "$GITHUB_OUTPUT"
+            echo "Release ${BUILD_TAG} already exists — skipping. Pass force_rebuild=true to override."
+          else
+            echo "should_build=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # ── 2. Download, patch, repack ───────────────────────────────────────────
+  patch:
+    needs: detect
+    if: needs.detect.outputs.should_build == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout fork (main-dev)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main-dev
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Download official AppImage
+        env:
+          APPIMAGE_URL: ${{ needs.detect.outputs.appimage_url }}
+        run: |
+          wget -q "${APPIMAGE_URL}" -O FreeCAD-official.AppImage
+          chmod +x FreeCAD-official.AppImage
+
+      - name: Extract AppImage
+        run: ./FreeCAD-official.AppImage --appimage-extract
+
+      - name: Apply DXF scale patch
+        run: |
+          DRAFT_DIR=$(find squashfs-root -name "importDXF.py" -exec dirname {} \; | head -1)
+          UI_DIR=$(find squashfs-root -name "preferences-dxf.ui" -exec dirname {} \; | head -1)
+          if [ -z "${DRAFT_DIR}" ] || [ -z "${UI_DIR}" ]; then
+            echo "::error::Could not locate patch targets inside AppImage"
+            exit 1
+          fi
+          cp src/Mod/Draft/importDXF.py "${DRAFT_DIR}/importDXF.py"
+          cp "src/Mod/Draft/Resources/ui/preferences-dxf.ui" "${UI_DIR}/preferences-dxf.ui"
+
+      - name: Repack AppImage
+        env:
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+        run: |
+          wget -q "https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage" \
+            -O appimagetool
+          chmod +x appimagetool
+          APPIMAGE_EXTRACT_AND_RUN=1 ARCH=x86_64 ./appimagetool \
+            squashfs-root "FreeCAD-${BUILD_TAG}.AppImage"
+          sha256sum "FreeCAD-${BUILD_TAG}.AppImage" > "FreeCAD-${BUILD_TAG}.AppImage-SHA256.txt"
+
+      - name: Create release and upload
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+          TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
+        run: |
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "FreeCAD ${TARGET_TAG} (official release) + DXF export scale patch. Linux x86_64 AppImage." \
+            "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds." \
+            > /tmp/notes.md
+          gh release create "${BUILD_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "[Fork] Stable Linux ${BUILD_TAG} — DXF Export Scale" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
+          gh release upload --clobber "${BUILD_TAG}" \
+            "FreeCAD-${BUILD_TAG}.AppImage" "FreeCAD-${BUILD_TAG}.AppImage-SHA256.txt" \
+            --repo "${{ github.repository }}"
