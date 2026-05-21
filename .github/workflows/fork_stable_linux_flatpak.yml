@@ -100,13 +100,24 @@ jobs:
           fi
           sudo chown -R runner:runner /tmp/staging
 
+      - name: Diagnose staged app layout
+        run: |
+          echo "=== Draft module contents ==="
+          ls /tmp/staging/files/freecad/Mod/Draft/ 2>/dev/null | head -40 \
+            || echo "Draft dir not found at /tmp/staging/files/freecad/Mod/Draft/"
+          echo "=== DXF-related files anywhere ==="
+          find /tmp/staging -iname "*dxf*" | head -30
+          echo "=== importDXF any extension ==="
+          find /tmp/staging -name "importDXF*"
+          echo "=== preferences-dxf any extension ==="
+          find /tmp/staging -name "preferences-dxf*"
+
       - name: Apply DXF scale patch
         run: |
           DRAFT_DIR=$(find /tmp/staging/files -name "importDXF.py" -exec dirname {} \; | head -1)
           UI_DIR=$(find /tmp/staging/files -name "preferences-dxf.ui" -exec dirname {} \; | head -1)
           if [ -z "${DRAFT_DIR}" ] || [ -z "${UI_DIR}" ]; then
-            echo "::error::Could not locate patch targets in staged app"
-            find /tmp/staging/files -name "*.py" | head -10
+            echo "::error::Could not locate patch targets in staged app (see Diagnose step above)"
             exit 1
           fi
           cp src/Mod/Draft/importDXF.py "${DRAFT_DIR}/importDXF.py"
