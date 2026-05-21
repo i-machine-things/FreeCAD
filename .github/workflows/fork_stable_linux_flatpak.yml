@@ -50,14 +50,17 @@ jobs:
             TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
               --exclude-pre-releases --json tagName -q '.[0].tagName')
           fi
-          BUILD_TAG="linux-stable-${TARGET_TAG}"
+          BUILD_TAG="i-machine-things-FCfork-v${TARGET_TAG}"
           echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
           echo "build_tag=${BUILD_TAG}"   >> "$GITHUB_OUTPUT"
 
-          if gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
-               > /dev/null 2>&1 && [ "${FORCE}" != "true" ]; then
+          # Skip only if a Linux Flatpak asset already exists in the shared release
+          HAS_LINUX=$(gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
+            --json assets -q '.assets[] | select(.name | test("\\.flatpak$")) | .name' \
+            2>/dev/null | head -1)
+          if [ -n "${HAS_LINUX}" ] && [ "${FORCE}" != "true" ]; then
             echo "should_build=false" >> "$GITHUB_OUTPUT"
-            echo "Release ${BUILD_TAG} already exists — skipping. Pass force_rebuild=true to override."
+            echo "Linux Flatpak asset already in ${BUILD_TAG} — skipping."
           else
             echo "should_build=true" >> "$GITHUB_OUTPUT"
           fi
@@ -120,10 +123,9 @@ jobs:
           ostree --repo=/tmp/fc-repo commit \
             --branch="app/org.freecad.FreeCAD/x86_64/stable" \
             /tmp/staging
-          flatpak build-bundle /tmp/fc-repo \
-            "FreeCAD-${BUILD_TAG}.flatpak" \
-            org.freecad.FreeCAD stable
-          sha256sum "FreeCAD-${BUILD_TAG}.flatpak" > "FreeCAD-${BUILD_TAG}.flatpak-SHA256.txt"
+          BUNDLE="FreeCAD-${BUILD_TAG}-Linux-x86_64.flatpak"
+          flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
+          sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
 
       - name: Create release and upload
         env:
@@ -133,15 +135,16 @@ jobs:
         run: |
           printf '%s\n\n%s\n\n%s\n' \
             "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
-            "FreeCAD ${TARGET_TAG} (official Flathub release) + DXF export scale patch. Linux Flatpak." \
+            "FreeCAD ${TARGET_TAG} + DXF export scale patch. Windows installer and Linux Flatpak." \
             "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds." \
             > /tmp/notes.md
           gh release create "${BUILD_TAG}" \
             --repo "${{ github.repository }}" \
-            --title "[Fork] Stable Linux ${BUILD_TAG} — DXF Export Scale" \
+            --title "i-machine-things-FCfork v${TARGET_TAG}" \
             --notes-file /tmp/notes.md \
             --prerelease || \
           gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
+          BUNDLE="FreeCAD-${BUILD_TAG}-Linux-x86_64.flatpak"
           gh release upload --clobber "${BUILD_TAG}" \
-            "FreeCAD-${BUILD_TAG}.flatpak" "FreeCAD-${BUILD_TAG}.flatpak-SHA256.txt" \
+            "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
             --repo "${{ github.repository }}"
