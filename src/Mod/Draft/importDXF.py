@@ -3785,7 +3785,8 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                 dxf.header.append(
                     "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight") * dxfExportScale) + "\n"
                 )
-                dxf.header.append("  9\n$INSUNITS\n 70\n" + str(dxfExportInsunits) + "\n")
+                if dxfExportInsunits != 0:
+                    dxf.header.append("  9\n$INSUNITS\n 70\n" + str(dxfExportInsunits) + "\n")
             for ob in exportLayers:
                 if ob.Label != "0":  # dxflibrary already creates it
                     ltype = "continuous"
@@ -4455,7 +4456,23 @@ def readPreferences():
         (2, 1.0 / 304.8),   # 4: Feet
         (0, 1.0),           # 5: Unitless (raw mm, $INSUNITS=0)
     ]
-    dxfExportUnits = hGrp.GetInt("dxfExportUnits", 0)
+    dxfExportUnits = hGrp.GetInt("dxfExportUnits", -1)
+    if dxfExportUnits == -1:
+        # First run after upgrade: migrate old numeric dxfExportScale to the enum index
+        dxfExportUnits = 0
+        legacy_scale = hGrp.GetFloat("dxfExportScale", 1.0)
+        migrated = False
+        for _idx, (_, _s) in enumerate(_EXPORT_UNITS_TABLE):
+            if abs(legacy_scale - _s) < 1e-6:
+                dxfExportUnits = _idx
+                migrated = True
+                break
+        if not migrated and abs(legacy_scale - 1.0) > 1e-6:
+            FreeCAD.Console.PrintWarning(
+                "DXF: legacy export scale {:.6g} cannot be mapped to a unit preset, "
+                "defaulting to mm\n".format(legacy_scale)
+            )
+        hGrp.SetInt("dxfExportUnits", dxfExportUnits)
     if dxfExportUnits < 0 or dxfExportUnits >= len(_EXPORT_UNITS_TABLE):
         FreeCAD.Console.PrintWarning("DXF: dxfExportUnits out of range, resetting to 0 (mm)\n")
         dxfExportUnits = 0
