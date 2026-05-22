@@ -1689,12 +1689,30 @@ void ImpExpDxfWrite::setOptions()
     optionPolyLine = hGrp->GetBool("DiscretizeEllipses", false);
     m_polyOverride = hGrp->GetBool("DiscretizeEllipses", false);
     setDataDir(App::Application::getResourceDir() + "Mod/Import/DxfPlate/");
+
+    // Export units: index matches the dxfExportUnits combo (0=mm, 1=cm, 2=m, 3=in, 4=ft, 5=unitless)
+    static const int insunitsCodes[]   = {4, 5, 6, 1, 2, 0};
+    static const double scaleFactors[] = {1.0, 0.1, 0.001, 1.0 / 25.4, 1.0 / 304.8, 1.0};
+    constexpr int kNumUnits = 6;
+    int unitIdx = hGrp->GetInt("dxfExportUnits", 0);
+    if (unitIdx < 0 || unitIdx >= kNumUnits) {
+        unitIdx = 0;
+    }
+    setExportUnits(insunitsCodes[unitIdx], scaleFactors[unitIdx]);
 }
 
 void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
 {
+    // Apply unit scale so DXF coordinates match the chosen export unit
+    TopoDS_Shape scaled = input;
+    if (m_exportScale != 1.0) {
+        gp_Trsf trsf;
+        trsf.SetScale(gp_Pnt(0.0, 0.0, 0.0), m_exportScale);
+        scaled = BRepBuilderAPI_Transform(input, trsf, /*copy=*/true).Shape();
+    }
+
     // export Edges
-    TopExp_Explorer edges(input, TopAbs_EDGE);
+    TopExp_Explorer edges(scaled, TopAbs_EDGE);
     for (int i = 1; edges.More(); edges.Next(), i++) {
         const TopoDS_Edge& edge = TopoDS::Edge(edges.Current());
         BRepAdaptor_Curve adapt(edge);
@@ -1809,7 +1827,7 @@ void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
     }
 
     if (optionExpPoints) {
-        TopExp_Explorer verts(input, TopAbs_VERTEX);
+        TopExp_Explorer verts(scaled, TopAbs_VERTEX);
         std::vector<gp_Pnt> duplicates;
         for (int i = 1; verts.More(); verts.Next(), i++) {
             const TopoDS_Vertex& v = TopoDS::Vertex(verts.Current());
