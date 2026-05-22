@@ -643,16 +643,16 @@ This might fail for post DXF R12 templates.</string>
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_ExportScale">
+       <layout class="QHBoxLayout" name="horizontalLayout_ExportUnits">
         <item>
-         <widget class="QLabel" name="label_dxfExportScale">
+         <widget class="QLabel" name="label_dxfExportUnits">
           <property name="text">
-           <string>Export scale factor</string>
+           <string>Export units</string>
           </property>
          </widget>
         </item>
         <item>
-         <spacer name="horizontalSpacer_ExportScale">
+         <spacer name="horizontalSpacer_ExportUnits">
           <property name="orientation">
            <enum>Qt::Horizontal</enum>
           </property>
@@ -665,22 +665,44 @@ This might fail for post DXF R12 templates.</string>
          </spacer>
         </item>
         <item>
-         <widget class="Gui::PrefDoubleSpinBox" name="spinBox_dxfExportScale">
+         <widget class="Gui::PrefComboBox" name="comboBox_dxfExportUnits">
           <property name="toolTip">
-           <string>Scale factor applied to all geometry on export.
-1.0 = millimeters (default), 0.03937007874 = inches, 0.1 = centimeters, 0.001 = meters</string>
+           <string>Unit system for the exported DXF file. FreeCAD works in millimeters
+internally; geometry is scaled to the chosen unit on export and
+$INSUNITS is set accordingly in the DXF header.</string>
           </property>
-          <property name="decimals">
-           <number>8</number>
-          </property>
-          <property name="maximum">
-           <double>999999.999998999992386</double>
-          </property>
-          <property name="value">
-           <double>1.000000000000000</double>
-          </property>
+          <item>
+           <property name="text">
+            <string>Millimeters</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Centimeters</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Meters</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Inches</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Feet</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Unitless</string>
+           </property>
+          </item>
           <property name="prefEntry" stdset="0">
-           <cstring>dxfExportScale</cstring>
+           <cstring>dxfExportUnits</cstring>
           </property>
           <property name="prefPath" stdset="0">
            <cstring>Mod/Draft</cstring>
@@ -688,16 +710,6 @@ This might fail for post DXF R12 templates.</string>
          </widget>
         </item>
        </layout>
-      </item>
-      <item>
-       <widget class="QLabel" name="label_dxfExportScaleNote">
-        <property name="text">
-         <string>Note: FreeCAD uses millimeters internally. Default scale 1.0 exports in mm.</string>
-        </property>
-        <property name="wordWrap">
-         <bool>true</bool>
-        </property>
-       </widget>
       </item>
      </layout>
     </widget>
@@ -731,6 +743,11 @@ This might fail for post DXF R12 templates.</string>
   <customwidget>
    <class>Gui::PrefDoubleSpinBox</class>
    <extends>QDoubleSpinBox</extends>
+   <header>Gui/PrefWidgets.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Gui::PrefComboBox</class>
+   <extends>QComboBox</extends>
    <header>Gui/PrefWidgets.h</header>
   </customwidget>
  </customwidgets>
