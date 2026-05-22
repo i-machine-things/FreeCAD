@@ -177,7 +177,26 @@ void CDxfWrite::writeHeaderSection()
     ss.clear();
     ss << "header" << m_version << ".rub";
     std::string fileSpec = m_dataDir + ss.str();
-    (*m_ofs) << getPlateFile(fileSpec);
+    std::string headerContent = getPlateFile(fileSpec);
+    if (m_exportInsunits == 0) {
+        // Unitless: remove the $INSUNITS variable entirely rather than emitting 0
+        const std::string removeTag = "  9\n$INSUNITS\n 70\n4\n";
+        auto pos = headerContent.find(removeTag);
+        if (pos != std::string::npos) {
+            headerContent.erase(pos, removeTag.size());
+        }
+    }
+    else if (m_exportInsunits != 4) {
+        // Replace the hardcoded mm (4) value with the chosen unit code
+        const std::string oldTag = "$INSUNITS\n 70\n4\n";
+        auto pos = headerContent.find(oldTag);
+        if (pos != std::string::npos) {
+            headerContent.replace(
+                pos, oldTag.size(),
+                "$INSUNITS\n 70\n" + std::to_string(m_exportInsunits) + "\n");
+        }
+    }
+    (*m_ofs) << headerContent;
 }
 
 //***************************
