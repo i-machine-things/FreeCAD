@@ -163,6 +163,7 @@ jobs:
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
           TARGET_PLATFORM: win-64
           MAKE_INSTALLER: "true"
           UPLOAD_RELEASE: "true"
