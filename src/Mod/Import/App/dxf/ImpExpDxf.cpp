@@ -1691,6 +1691,8 @@ void ImpExpDxfWrite::setOptions()
     setDataDir(App::Application::getResourceDir() + "Mod/Import/DxfPlate/");
 
     // Export units: index matches the dxfExportUnits combo (0=mm, 1=cm, 2=m, 3=in, 4=ft, 5=unitless)
+    // KEEP IN SYNC with _EXPORT_UNITS_TABLE in src/Mod/Draft/importDXF.py
+    // and the comboBox_dxfExportUnits items in src/Mod/Draft/Resources/ui/preferences-dxf.ui
     static const int insunitsCodes[]   = {4, 5, 6, 1, 2, 0};
     static const double scaleFactors[] = {1.0, 0.1, 0.001, 1.0 / 25.4, 1.0 / 304.8, 1.0};
     constexpr int kNumUnits = 6;
@@ -1711,6 +1713,9 @@ void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
         scaled = BRepBuilderAPI_Transform(input, trsf, /*copy=*/true).Shape();
     }
 
+    // 0.001 mm² closure threshold scaled to export-unit space (SquareDistance is in scaled coords)
+    const double closureTolSq = 0.001 * m_exportScale * m_exportScale;
+
     // export Edges
     TopExp_Explorer edges(scaled, TopAbs_EDGE);
     for (int i = 1; edges.More(); edges.Next(), i++) {
@@ -1721,7 +1726,7 @@ void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
             double l = adapt.LastParameter();
             gp_Pnt start = adapt.Value(f);
             gp_Pnt e = adapt.Value(l);
-            if (fabs(l - f) > 1.0 && start.SquareDistance(e) < 0.001) {
+            if (fabs(l - f) > 1.0 && start.SquareDistance(e) < closureTolSq) {
                 exportCircle(adapt);
             }
             else {
@@ -1733,7 +1738,7 @@ void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
             double l = adapt.LastParameter();
             gp_Pnt start = adapt.Value(f);
             gp_Pnt e = adapt.Value(l);
-            if (fabs(l - f) > 1.0 && start.SquareDistance(e) < 0.001) {
+            if (fabs(l - f) > 1.0 && start.SquareDistance(e) < closureTolSq) {
                 if (m_polyOverride) {
                     if (m_version >= 14) {
                         exportLWPoly(adapt);
