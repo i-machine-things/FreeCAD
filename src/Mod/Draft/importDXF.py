@@ -4448,6 +4448,7 @@ def readPreferences():
         dxfScaling = 1.0
     # Index → ($INSUNITS code, mm-per-unit scale factor).
     # Order must match the comboBox_dxfExportUnits items in preferences-dxf.ui.
+    # KEEP IN SYNC with insunitsCodes[]/scaleFactors[] in src/Mod/Import/App/dxf/ImpExpDxf.cpp
     _EXPORT_UNITS_TABLE = [
         (4, 1.0),           # 0: Millimeters
         (5, 0.1),           # 1: Centimeters
