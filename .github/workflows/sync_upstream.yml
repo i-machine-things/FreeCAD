@@ -1,0 +1,29 @@
+name: Sync fork main with upstream
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 03:00 UTC nightly
+  workflow_dispatch:       # allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout fork main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Add upstream remote and fast-forward
+        run: |
+          git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+          git fetch upstream main
+          git merge --ff-only upstream/main
+
+      - name: Push to fork
+        run: git push origin main
