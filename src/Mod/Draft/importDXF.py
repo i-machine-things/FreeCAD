@@ -3785,12 +3785,8 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                 dxf.header.append(
                     "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight") * dxfExportScale) + "\n"
                 )
-                _insunits_map = {1.0: 4, 1 / 25.4: 1, 0.1: 5, 0.001: 6}
-                _insunits = next(
-                    (u for sc, u in _insunits_map.items() if abs(dxfExportScale - sc) < sc * 0.001),
-                    0,
-                )
-                dxf.header.append("  9\n$INSUNITS\n 70\n" + str(_insunits) + "\n")
+                if dxfExportInsunits != 0:
+                    dxf.header.append("  9\n$INSUNITS\n 70\n" + str(dxfExportInsunits) + "\n")
             for ob in exportLayers:
                 if ob.Label != "0":  # dxflibrary already creates it
                     ltype = "continuous"
@@ -4370,7 +4366,8 @@ def readPreferences():
     `dxfImportPoints`, `dxfImportHatches`, `dxfUseStandardSize`,
     `dxfGetColors`, `dxfUseDraftVisGroups`,
     `dxfBrightBackground`, `dxfDefaultColor`, `dxfUseLegacyImporter`,
-    `dxfExportBlocks`, `dxfScaling`, `dxfUseLegacyExporter`, `dxfExportScale`
+    `dxfExportBlocks`, `dxfScaling`, `dxfUseLegacyExporter`,
+    `dxfExportUnits`, `dxfExportInsunits`, `dxfExportScale`
 
     The parameter path is ``User parameter:BaseApp/Preferences/Mod/Draft``
 
@@ -4382,7 +4379,8 @@ def readPreferences():
     global dxfDiscretizeCurves, dxfStarBlocks, dxfMakeBlocks, dxfJoin, dxfRenderPolylineWidth
     global dxfImportTexts, dxfImportLayouts, dxfImportPoints, dxfImportHatches, dxfUseStandardSize
     global dxfGetColors, dxfUseDraftVisGroups, dxfBrightBackground, dxfDefaultColor
-    global dxfUseLegacyImporter, dxfExportBlocks, dxfScaling, dxfUseLegacyExporter, dxfExportScale
+    global dxfUseLegacyImporter, dxfExportBlocks, dxfScaling, dxfUseLegacyExporter
+    global dxfExportUnits, dxfExportInsunits, dxfExportScale
 
     # Use the direct C++ API via Python for all parameter access
     hGrp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft")
@@ -4448,10 +4446,38 @@ def readPreferences():
     if dxfScaling <= 0:
         FreeCAD.Console.PrintWarning("DXF: dxfScaling must be > 0, resetting to 1.0\n")
         dxfScaling = 1.0
-    dxfExportScale = hGrp.GetFloat("dxfExportScale", 1.0)
-    if dxfExportScale <= 0:
-        FreeCAD.Console.PrintWarning("DXF: dxfExportScale must be > 0, resetting to 1.0\n")
-        dxfExportScale = 1.0
+    # Index → ($INSUNITS code, mm-per-unit scale factor).
+    # Order must match the comboBox_dxfExportUnits items in preferences-dxf.ui.
+    # KEEP IN SYNC with insunitsCodes[]/scaleFactors[] in src/Mod/Import/App/dxf/ImpExpDxf.cpp
+    _EXPORT_UNITS_TABLE = [
+        (4, 1.0),           # 0: Millimeters
+        (5, 0.1),           # 1: Centimeters
+        (6, 0.001),         # 2: Meters
+        (1, 1.0 / 25.4),    # 3: Inches
+        (2, 1.0 / 304.8),   # 4: Feet
+        (0, 1.0),           # 5: Unitless (raw mm, $INSUNITS=0)
+    ]
+    dxfExportUnits = hGrp.GetInt("dxfExportUnits", -1)
+    if dxfExportUnits == -1:
+        # First run after upgrade: migrate old numeric dxfExportScale to the enum index
+        dxfExportUnits = 0
+        legacy_scale = hGrp.GetFloat("dxfExportScale", 1.0)
+        migrated = False
+        for _idx, (_, _s) in enumerate(_EXPORT_UNITS_TABLE):
+            if abs(legacy_scale - _s) < 1e-6:
+                dxfExportUnits = _idx
+                migrated = True
+                break
+        if not migrated and abs(legacy_scale - 1.0) > 1e-6:
+            FreeCAD.Console.PrintWarning(
+                "DXF: legacy export scale {:.6g} cannot be mapped to a unit preset, "
+                "defaulting to mm\n".format(legacy_scale)
+            )
+        hGrp.SetInt("dxfExportUnits", dxfExportUnits)
+    if dxfExportUnits < 0 or dxfExportUnits >= len(_EXPORT_UNITS_TABLE):
+        FreeCAD.Console.PrintWarning("DXF: dxfExportUnits out of range, resetting to 0 (mm)\n")
+        dxfExportUnits = 0
+    dxfExportInsunits, dxfExportScale = _EXPORT_UNITS_TABLE[dxfExportUnits]
 
     dxfBrightBackground = isBrightBackground()
     dxfDefaultColor = getColor()
