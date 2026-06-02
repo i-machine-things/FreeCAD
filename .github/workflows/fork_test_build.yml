@@ -21,7 +21,7 @@ on:
         required: false
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: fork-test-${{ inputs.branch || 'feat/dxf-export-units' }}
@@ -59,6 +59,8 @@ jobs:
   build_windows:
     needs: resolve
     runs-on: windows-latest
+    permissions:
+      contents: write
     env:
       PIXI_CACHE_DIR: D:\rattler
       RATTLER_CACHE_DIR: D:\rattler
@@ -163,6 +165,8 @@ jobs:
   build_linux:
     needs: resolve
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout branch
