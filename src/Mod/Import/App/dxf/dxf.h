@@ -335,6 +335,8 @@ protected:
     int m_blockHandle;
     int m_blkRecordHandle;
     bool m_polyOverride;
+    int m_exportInsunits = 4;   // $INSUNITS code written to DXF header (4 = mm)
+    double m_exportScale = 1.0; // coordinate multiplier applied before writing
 
     std::string m_saveModelSpaceHandle;
     std::string m_savePaperSpaceHandle;
@@ -377,6 +379,11 @@ public:
     void setPolyOverride(bool setting)
     {
         m_polyOverride = setting;
+    }
+    void setExportUnits(int insunits, double scale)
+    {
+        m_exportInsunits = insunits;
+        m_exportScale = scale;
     }
     void addBlockName(const std::string& name, const std::string& blkRecordHandle);
 
