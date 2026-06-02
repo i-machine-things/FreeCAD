@@ -10,7 +10,7 @@ name: Fork Stable Windows Build
 
 on:
   schedule:
-    - cron: "0 5 * * 1"  # Monday 05:00 UTC — one hour after auto-rebase
+    - cron: "0 5 * * *"  # Daily 05:00 UTC — skips automatically if already built
   workflow_dispatch:
     inputs:
       release_tag:
@@ -23,7 +23,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 # Never run two stable builds in parallel; don't cancel an in-progress one.
 concurrency:
@@ -74,7 +73,6 @@ jobs:
     runs-on: windows-latest
     permissions:
       contents: write
-      issues: write
     env:
       PIXI_CACHE_DIR: D:\rattler
       RATTLER_CACHE_DIR: D:\rattler

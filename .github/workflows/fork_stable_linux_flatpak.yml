@@ -10,7 +10,7 @@ name: Fork Stable Linux Flatpak
 
 on:
   schedule:
-    - cron: "0 6 * * 1"  # Monday 06:00 UTC
+    - cron: "0 6 * * *"  # Daily 06:00 UTC — skips automatically if already built
   workflow_dispatch:
     inputs:
       release_tag:
