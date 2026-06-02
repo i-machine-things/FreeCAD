@@ -1,0 +1,174 @@
+name: Fork Stable Windows Build
+
+# Builds a Windows installer from the latest official FreeCAD release tag
+# with the DXF export scale patch applied on top.
+#
+# The detect job (Ubuntu) is cheap: it resolves the release tag and skips
+# the expensive build if we already have it.  The build job (Windows) clones
+# the upstream release source, overlays our Python/UI patches, then runs the
+# same rattler-build pipeline as the nightly build.
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"  # Monday 05:00 UTC — one hour after auto-rebase
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "FreeCAD release tag (e.g. 1.0.0) — blank = latest"
+        required: false
+      force_rebuild:
+        description: "Rebuild even if this release was already published"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+# Never run two stable builds in parallel; don't cancel an in-progress one.
+concurrency:
+  group: fork-stable
+  cancel-in-progress: false
+
+jobs:
+  # ── 1. Cheap detection step on Ubuntu ────────────────────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      target_tag:  ${{ steps.info.outputs.target_tag }}
+      build_tag:   ${{ steps.info.outputs.build_tag }}
+      should_build: ${{ steps.info.outputs.should_build }}
+    steps:
+      - name: Resolve target release tag
+        id: info
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.release_tag }}
+          FORCE: ${{ inputs.force_rebuild }}
+        run: |
+          if [ -n "${INPUT_TAG}" ]; then
+            TARGET_TAG="${INPUT_TAG}"
+          else
+            TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          BUILD_TAG="i-machine-things-FCfork-v${TARGET_TAG}"
+          echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
+          echo "build_tag=${BUILD_TAG}"   >> "$GITHUB_OUTPUT"
+
+          # Skip only if a Windows asset already exists in the shared release
+          HAS_WIN=$(gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
+            --json assets -q '.assets[] | select(.name | test("\\.exe$")) | .name' \
+            2>/dev/null | head -1)
+          if [ -n "${HAS_WIN}" ] && [ "${FORCE}" != "true" ]; then
+            echo "should_build=false" >> "$GITHUB_OUTPUT"
+            echo "Windows asset already in ${BUILD_TAG} — skipping."
+          else
+            echo "should_build=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # ── 2. Full Windows build ─────────────────────────────────────────────────
+  build:
+    needs: detect
+    if: needs.detect.outputs.should_build == 'true'
+    runs-on: windows-latest
+    permissions:
+      contents: write
+      issues: write
+    env:
+      PIXI_CACHE_DIR: D:\rattler
+      RATTLER_CACHE_DIR: D:\rattler
+
+    steps:
+      # Shallow checkout of our fork. Submodules are deferred so we can
+      # switch to the upstream release commit first.
+      - name: Checkout fork (no submodules yet)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 2
+          fetch-tags: false
+          submodules: false
+          persist-credentials: false
+
+      # Save our two patched files, switch HEAD to the upstream release tag,
+      # initialise submodules, then overlay the patches onto the release tree.
+      # This must happen BEFORE pixi install so CMake picks up the changes.
+      - name: Switch to upstream release tag and apply DXF patches
+        id: patch
+        shell: bash
+        env:
+          TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
+        run: |
+          # Fetch our feature branch (public fork — no auth needed)
+          git fetch origin main-dev --depth=1
+
+          # Save patched files to temp before we switch tree
+          git show origin/main-dev:src/Mod/Draft/importDXF.py \
+            > /tmp/importDXF.py
+          git show origin/main-dev:src/Mod/Draft/Resources/ui/preferences-dxf.ui \
+            > /tmp/preferences-dxf.ui
+
+          # Fetch upstream release tag (depth 2 satisfies write_version_info.py)
+          git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+          git fetch upstream "refs/tags/${TARGET_TAG}" --depth=2 --no-recurse-submodules
+
+          # Detach HEAD to the release commit
+          git checkout FETCH_HEAD
+
+          # Initialise submodules at the release tag
+          git submodule update --init --recursive
+
+          # Overlay DXF patches — must be before pixi install so CMake
+          # picks them up when building the conda package from source
+          cp /tmp/importDXF.py     src/Mod/Draft/importDXF.py
+          cp /tmp/preferences-dxf.ui src/Mod/Draft/Resources/ui/preferences-dxf.ui
+
+      - name: Create GitHub release placeholder
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+          TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
+        run: |
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "FreeCAD ${TARGET_TAG} + DXF export scale patch. Windows installer and Linux Flatpak." \
+            "> ⚠️ Not an official FreeCAD release. For official builds visit [freecad.org](https://freecad.org)." \
+            > /tmp/notes.md
+          gh release create "${BUILD_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "i-machine-things-FCfork v${TARGET_TAG}" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
+
+      - uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
+        with:
+          pixi-version: v0.59.0
+          cache: false
+
+      - name: Setup .NET (required by rattler-build bundling on Windows)
+        uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5.2.0
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Write version info and install pixi env
+        shell: bash
+        run: |
+          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          cd package/rattler-build
+          pixi install --frozen
+
+      - name: Build and upload Windows installer
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TARGET_PLATFORM: win-64
+          MAKE_INSTALLER: "true"
+          UPLOAD_RELEASE: "true"
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+          WINDOWS_SIGN_RELEASE: "0"
+        run: |
+          cd package/rattler-build
+          pixi run -e package create_bundle
