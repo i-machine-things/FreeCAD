@@ -1,0 +1,150 @@
+name: Fork Stable Linux Flatpak
+
+# Patches the official FreeCAD Flatpak from Flathub with the DXF export scale fix.
+# Installs the pre-built Flathub Flatpak (no compilation), copies the deployed app
+# tree to a staging area, replaces the two Python/UI files, commits to a fresh
+# OSTree repo, and exports a distributable .flatpak bundle for KDE Discover.
+# Runs once per stable FreeCAD release; skips automatically if already published.
+#
+# Runtime: ~20 minutes (apt + flatpak install + cp staging + OSTree commit + bundle).
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"  # Monday 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "FreeCAD release tag (e.g. 1.1.1) — blank = latest stable"
+        required: false
+      force_rebuild:
+        description: "Rebuild even if this release was already published"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-stable-linux
+  cancel-in-progress: false
+
+jobs:
+  # ── 1. Cheap detection on Ubuntu ─────────────────────────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      target_tag:   ${{ steps.info.outputs.target_tag }}
+      build_tag:    ${{ steps.info.outputs.build_tag }}
+      should_build: ${{ steps.info.outputs.should_build }}
+    steps:
+      - name: Resolve target release tag
+        id: info
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.release_tag }}
+          FORCE: ${{ inputs.force_rebuild }}
+        run: |
+          if [ -n "${INPUT_TAG}" ]; then
+            TARGET_TAG="${INPUT_TAG}"
+          else
+            TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          BUILD_TAG="i-machine-things-FCfork-v${TARGET_TAG}"
+          echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
+          echo "build_tag=${BUILD_TAG}"   >> "$GITHUB_OUTPUT"
+
+          # Skip only if a Linux Flatpak asset already exists in the shared release
+          HAS_LINUX=$(gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" \
+            --json assets -q '.assets[] | select(.name | test("\\.flatpak$")) | .name' \
+            2>/dev/null | head -1)
+          if [ -n "${HAS_LINUX}" ] && [ "${FORCE}" != "true" ]; then
+            echo "should_build=false" >> "$GITHUB_OUTPUT"
+            echo "Linux Flatpak asset already in ${BUILD_TAG} — skipping."
+          else
+            echo "should_build=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # ── 2. Install from Flathub, patch files, export bundle ──────────────────
+  patch:
+    needs: detect
+    if: needs.detect.outputs.should_build == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout fork (main-dev)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main-dev
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Install Flatpak and OSTree
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y flatpak ostree
+
+      - name: Add Flathub remote and install FreeCAD
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub \
+            https://dl.flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y --noninteractive flathub org.freecad.FreeCAD
+
+      - name: Stage installed app for patching
+        run: |
+          APP=/var/lib/flatpak/app/org.freecad.FreeCAD/x86_64/stable/active
+          mkdir -p /tmp/staging/export
+          sudo cp -r "${APP}/files" /tmp/staging/files
+          sudo cp "${APP}/metadata"  /tmp/staging/metadata
+          if [ -d "${APP}/export" ]; then
+            sudo cp -r "${APP}/export/." /tmp/staging/export/
+          fi
+          sudo chown -R runner:runner /tmp/staging
+
+      - name: Compile patched Draft_rc.py
+        run: |
+          pip install --quiet pyside6-essentials
+          pyside6-rcc src/Mod/Draft/Resources/Draft.qrc \
+            -o /tmp/Draft_rc_patched.py
+
+      - name: Apply DXF scale patch
+        run: |
+          DRAFT=/tmp/staging/files/freecad/Mod/Draft
+          cp src/Mod/Draft/importDXF.py "${DRAFT}/importDXF.py"
+          cp /tmp/Draft_rc_patched.py   "${DRAFT}/Draft_rc.py"
+
+      - name: Commit staged tree to fresh OSTree repo and export bundle
+        env:
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+        run: |
+          ostree --repo=/tmp/fc-repo init --mode=archive-z2
+          ostree --repo=/tmp/fc-repo commit \
+            --branch="app/org.freecad.FreeCAD/x86_64/stable" \
+            /tmp/staging
+          BUNDLE="FreeCAD-${BUILD_TAG}-Linux-x86_64.flatpak"
+          flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
+          sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
+
+      - name: Create release and upload
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
+          TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
+        run: |
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "FreeCAD ${TARGET_TAG} + DXF export scale patch. Windows installer and Linux Flatpak." \
+            "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds." \
+            > /tmp/notes.md
+          gh release create "${BUILD_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "i-machine-things-FCfork v${TARGET_TAG}" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release view "${BUILD_TAG}" --repo "${{ github.repository }}" > /dev/null
+          BUNDLE="FreeCAD-${BUILD_TAG}-Linux-x86_64.flatpak"
+          gh release upload --clobber "${BUILD_TAG}" \
+            "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
+            --repo "${{ github.repository }}"

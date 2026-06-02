@@ -1,0 +1,236 @@
+name: Fork Test Build
+
+# One-click test build for any feature branch.
+# Patches all DXF-related files (Python, UI, and C++ sources) from the
+# specified branch onto the latest upstream stable release, then builds
+# a Windows installer (full compile) and a Linux Flatpak (Python/UI only —
+# C++ cannot be hot-patched into the pre-built Flathub binary).
+#
+# Each branch gets its own release tag so reruns overwrite the previous
+# test asset for that branch rather than accumulating stale releases.
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: "Branch to pull patches from (default: feat/dxf-export-units)"
+        required: false
+        default: "feat/dxf-export-units"
+      release_tag:
+        description: "FreeCAD upstream tag (blank = latest stable)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-test-${{ inputs.branch || 'feat/dxf-export-units' }}
+  cancel-in-progress: true
+
+jobs:
+  # ── Resolve upstream release tag ─────────────────────────────────────────
+  resolve:
+    runs-on: ubuntu-latest
+    outputs:
+      target_tag: ${{ steps.info.outputs.target_tag }}
+      test_tag:   ${{ steps.info.outputs.test_tag }}
+    steps:
+      - name: Resolve tags
+        id: info
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.release_tag }}
+          BRANCH: ${{ inputs.branch || 'feat/dxf-export-units' }}
+        run: |
+          if [ -n "${INPUT_TAG}" ]; then
+            TARGET_TAG="${INPUT_TAG}"
+          else
+            TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          # Slug the branch name for use in the release tag
+          BRANCH_SLUG="${BRANCH//[^a-zA-Z0-9]/-}"
+          TEST_TAG="test-${BRANCH_SLUG}"
+          echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
+          echo "test_tag=${TEST_TAG}"     >> "$GITHUB_OUTPUT"
+          echo "Branch: ${BRANCH}  FreeCAD: ${TARGET_TAG}  Release tag: ${TEST_TAG}"
+
+  # ── Windows: full source build (includes C++ changes) ────────────────────
+  build_windows:
+    needs: resolve
+    runs-on: windows-latest
+    env:
+      PIXI_CACHE_DIR: D:\rattler
+      RATTLER_CACHE_DIR: D:\rattler
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 2
+          fetch-tags: false
+          submodules: false
+          persist-credentials: false
+
+      - name: Apply patches from branch and switch to upstream release
+        shell: bash
+        env:
+          TARGET_TAG: ${{ needs.resolve.outputs.target_tag }}
+          BRANCH: ${{ inputs.branch || 'feat/dxf-export-units' }}
+        run: |
+          # Fetch the patch branch
+          git fetch origin "${BRANCH}" --depth=1
+
+          # Save all DXF-related patched files
+          git show "origin/${BRANCH}:src/Mod/Draft/importDXF.py" \
+            > /tmp/importDXF.py
+          git show "origin/${BRANCH}:src/Mod/Draft/Resources/ui/preferences-dxf.ui" \
+            > /tmp/preferences-dxf.ui
+          git show "origin/${BRANCH}:src/Mod/Import/App/dxf/ImpExpDxf.cpp" \
+            > /tmp/ImpExpDxf.cpp
+          git show "origin/${BRANCH}:src/Mod/Import/App/dxf/dxf.cpp" \
+            > /tmp/dxf.cpp
+          git show "origin/${BRANCH}:src/Mod/Import/App/dxf/dxf.h" \
+            > /tmp/dxf.h
+
+          # Fetch upstream release (depth 2 for write_version_info.py)
+          git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+          git fetch upstream "refs/tags/${TARGET_TAG}" --depth=2 --no-recurse-submodules
+          git checkout FETCH_HEAD
+          git submodule update --init --recursive
+
+          # Overlay patches onto the upstream tree
+          cp /tmp/importDXF.py     src/Mod/Draft/importDXF.py
+          cp /tmp/preferences-dxf.ui src/Mod/Draft/Resources/ui/preferences-dxf.ui
+          cp /tmp/ImpExpDxf.cpp    src/Mod/Import/App/dxf/ImpExpDxf.cpp
+          cp /tmp/dxf.cpp          src/Mod/Import/App/dxf/dxf.cpp
+          cp /tmp/dxf.h            src/Mod/Import/App/dxf/dxf.h
+
+      - name: Create or update test release placeholder
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TEST_TAG: ${{ needs.resolve.outputs.test_tag }}
+          TARGET_TAG: ${{ needs.resolve.outputs.target_tag }}
+          BRANCH: ${{ inputs.branch || 'feat/dxf-export-units' }}
+        run: |
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Test build — branch \`${BRANCH}\`**" \
+            "FreeCAD ${TARGET_TAG} + patches from \`${BRANCH}\`. Windows installer and Linux Flatpak." \
+            "> ⚠️ Test build only. Not for production use." \
+            > /tmp/notes.md
+          gh release create "${TEST_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "Test build: ${BRANCH}" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release edit "${TEST_TAG}" \
+            --repo "${{ github.repository }}" \
+            --notes-file /tmp/notes.md || true
+
+      - uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
+        with:
+          pixi-version: v0.59.0
+          cache: false
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5.2.0
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Write version info and install pixi env
+        shell: bash
+        run: |
+          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          cd package/rattler-build
+          pixi install --frozen
+
+      - name: Build and upload Windows installer
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TARGET_PLATFORM: win-64
+          MAKE_INSTALLER: "true"
+          UPLOAD_RELEASE: "true"
+          BUILD_TAG: ${{ needs.resolve.outputs.test_tag }}
+          WINDOWS_SIGN_RELEASE: "0"
+        run: |
+          cd package/rattler-build
+          pixi run -e package create_bundle
+
+  # ── Linux: Flatpak patch (Python + UI only — no C++ recompile) ───────────
+  build_linux:
+    needs: resolve
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ inputs.branch || 'feat/dxf-export-units' }}
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Install Flatpak and OSTree
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y flatpak ostree
+
+      - name: Add Flathub remote and install FreeCAD
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub \
+            https://dl.flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y --noninteractive flathub org.freecad.FreeCAD
+
+      - name: Stage installed app for patching
+        run: |
+          APP=/var/lib/flatpak/app/org.freecad.FreeCAD/x86_64/stable/active
+          mkdir -p /tmp/staging/export
+          sudo cp -r "${APP}/files"   /tmp/staging/files
+          sudo cp    "${APP}/metadata" /tmp/staging/metadata
+          if [ -d "${APP}/export" ]; then
+            sudo cp -r "${APP}/export/." /tmp/staging/export/
+          fi
+          sudo chown -R runner:runner /tmp/staging
+
+      - name: Compile patched Draft_rc.py
+        run: |
+          pip install --quiet pyside6-essentials
+          pyside6-rcc src/Mod/Draft/Resources/Draft.qrc \
+            -o /tmp/Draft_rc_patched.py
+
+      - name: Apply Python and UI patches
+        run: |
+          DRAFT=/tmp/staging/files/freecad/Mod/Draft
+          cp src/Mod/Draft/importDXF.py  "${DRAFT}/importDXF.py"
+          cp /tmp/Draft_rc_patched.py    "${DRAFT}/Draft_rc.py"
+
+      - name: Bundle and upload Flatpak
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TEST_TAG: ${{ needs.resolve.outputs.test_tag }}
+          TARGET_TAG: ${{ needs.resolve.outputs.target_tag }}
+          BRANCH: ${{ inputs.branch || 'feat/dxf-export-units' }}
+        run: |
+          ostree --repo=/tmp/fc-repo init --mode=archive-z2
+          ostree --repo=/tmp/fc-repo commit \
+            --branch="app/org.freecad.FreeCAD/x86_64/stable" \
+            /tmp/staging
+          BUNDLE="FreeCAD-${TEST_TAG}-Linux-x86_64.flatpak"
+          flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
+          sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
+
+          printf '%s\n\n%s\n\n%s\n' \
+            "**Test build — branch \`${BRANCH}\`**" \
+            "FreeCAD ${TARGET_TAG} + patches from \`${BRANCH}\`. Windows installer and Linux Flatpak." \
+            "> ⚠️ Test build only. Not for production use." \
+            > /tmp/notes.md
+          gh release create "${TEST_TAG}" \
+            --repo "${{ github.repository }}" \
+            --title "Test build: ${BRANCH}" \
+            --notes-file /tmp/notes.md \
+            --prerelease || true
+          gh release upload --clobber "${TEST_TAG}" \
+            "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
+            --repo "${{ github.repository }}"
