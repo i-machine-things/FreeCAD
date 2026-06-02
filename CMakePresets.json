@@ -226,13 +226,7 @@
         "inherits": [
           "debug",
           "conda"
-        ],
-        "cacheVariables": {
-            "FREECAD_WARN_ERROR": {
-            "type": "BOOL",
-            "value": "ON"
-          }
-        }
+        ]
       },
       {
         "name": "conda-release",
@@ -242,7 +236,13 @@
         "inherits": [
           "release",
           "conda"
-        ]
+        ],
+        "cacheVariables": {
+            "FREECAD_WARN_ERROR": {
+            "type": "BOOL",
+            "value": "ON"
+          }
+        }
       },
       {
         "name": "conda-linux-debug",
@@ -422,10 +422,6 @@
                     "value": "/usr/src/CXX"
                 },
                 "ENABLE_DEVELOPER_TESTS": {
-                    "type": "BOOL",
-                    "value": "TRUE"
-                },
-                "FREECAD_USE_EXTERNAL_GTEST": {
                     "type": "BOOL",
                     "value": "TRUE"
                 },
