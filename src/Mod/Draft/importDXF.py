@@ -3672,6 +3672,34 @@ def getStrGroup(ob):
     return getGroup(ob).upper()
 
 
+def _patch_dxf_insunits(filename, insunits):
+    """Post-process a DXF file to correct its $INSUNITS header value.
+
+    Used when the C++ binary is an older build that does not apply unit
+    scaling internally.  The file is rewritten in-place.
+    ``insunits`` is the DXF INSUNITS integer code for the target unit.
+    """
+    mm_tag = "$INSUNITS\n 70\n4\n"
+    try:
+        with open(filename, "r", encoding="utf-8", errors="replace") as fh:
+            content = fh.read()
+        if mm_tag not in content:
+            return  # R12 export (no $INSUNITS) or already correct
+        if insunits == 0:
+            # Unitless: strip the $INSUNITS entry completely
+            content = content.replace("  9\n" + mm_tag, "")
+        else:
+            content = content.replace(
+                mm_tag, "$INSUNITS\n 70\n{}\n".format(insunits)
+            )
+        with open(filename, "w", encoding="utf-8") as fh:
+            fh.write(content)
+    except OSError as exc:
+        FreeCAD.Console.PrintWarning(
+            "DXF export: could not patch $INSUNITS in {}: {}\n".format(filename, exc)
+        )
+
+
 def export(objectslist, filename, nospline=False, lwPoly=False):
     """Export a DXF file into the specified filename.
 
@@ -3742,7 +3770,42 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
         version = 14
         if nospline:
             version = 12
-        Import.writeDXFObject(objectslist, filename, version, lwPoly)
+
+        # Detect whether this C++ binary applies coordinate scaling internally.
+        # Flatpak/Linux test builds patch only Python+UI; the C++ binary there
+        # is the upstream stable release that predates setExportUnits /
+        # BRepBuilderAPI_Transform.  On such binaries we scale the geometry in
+        # Python and post-process $INSUNITS so the DXF is still correct.
+        _cpp_scales = hasattr(Import, "dxfExporterSupportsUnitScaling")
+
+        if _cpp_scales or dxfExportScale == 1.0:
+            # Patched binary (Windows) or no unit conversion needed:
+            # let C++ handle coordinate scaling and header patching.
+            Import.writeDXFObject(objectslist, filename, version, lwPoly)
+        else:
+            # Old binary (Linux Flatpak): apply coordinate scaling here so
+            # the exported DXF has coordinates in the chosen unit.
+            scaled_shapes = []
+            for obj in objectslist:
+                sh = getattr(obj, "Shape", None)
+                if sh is None:
+                    continue
+                try:
+                    if sh.isNull():
+                        continue
+                    m = FreeCAD.Matrix()
+                    m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
+                    scaled_shapes.append(sh.transformGeometry(m))
+                except Exception as exc:  # noqa: BLE001
+                    FreeCAD.Console.PrintWarning(
+                        "DXF export: skipping {} ({})\n".format(
+                            getattr(obj, "Label", "?"), exc
+                        )
+                    )
+            if scaled_shapes:
+                Import.writeDXFShape(scaled_shapes, filename, version, lwPoly)
+                # Old binary writes $INSUNITS=4 (mm); patch to the target unit.
+                _patch_dxf_insunits(filename, dxfExportInsunits)
         return
     getDXFlibs()
     if dxfLibrary:
