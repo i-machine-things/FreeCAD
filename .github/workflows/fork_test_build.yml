@@ -94,6 +94,8 @@ jobs:
             > /tmp/dxf.cpp
           git show "origin/${BRANCH}:src/Mod/Import/App/dxf/dxf.h" \
             > /tmp/dxf.h
+          git show "origin/${BRANCH}:src/Mod/Import/App/AppImportPy.cpp" \
+            > /tmp/AppImportPy.cpp
 
           # Fetch upstream release (depth 2 for write_version_info.py)
           git remote add upstream https://github.com/FreeCAD/FreeCAD.git
@@ -107,6 +109,7 @@ jobs:
           cp /tmp/ImpExpDxf.cpp    src/Mod/Import/App/dxf/ImpExpDxf.cpp
           cp /tmp/dxf.cpp          src/Mod/Import/App/dxf/dxf.cpp
           cp /tmp/dxf.h            src/Mod/Import/App/dxf/dxf.h
+          cp /tmp/AppImportPy.cpp  src/Mod/Import/App/AppImportPy.cpp
 
       - name: Create or update test release placeholder
         shell: bash
