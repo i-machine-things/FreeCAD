@@ -48,9 +48,11 @@ jobs:
             TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
               --exclude-pre-releases --json tagName -q '.[0].tagName')
           fi
-          # Slug the branch name for use in the release tag
+          # Slug the branch name for use in the release tag.
+          # Truncate to 20 chars so the NSIS installer staging path (which
+          # embeds the tag) stays under Windows' 260-character MAX_PATH limit.
           BRANCH_SLUG="${BRANCH//[^a-zA-Z0-9]/-}"
-          TEST_TAG="test-${BRANCH_SLUG}"
+          TEST_TAG="test-${BRANCH_SLUG:0:20}"
           echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
           echo "test_tag=${TEST_TAG}"     >> "$GITHUB_OUTPUT"
           echo "Branch: ${BRANCH}  FreeCAD: ${TARGET_TAG}  Release tag: ${TEST_TAG}"
