@@ -3785,27 +3785,44 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
         else:
             # Old binary (Linux Flatpak): apply coordinate scaling here so
             # the exported DXF has coordinates in the chosen unit.
-            scaled_shapes = []
-            for obj in objectslist:
-                sh = getattr(obj, "Shape", None)
-                if sh is None:
-                    continue
-                try:
-                    if sh.isNull():
+            # Use a temporary document so writeDXFObject preserves per-object
+            # behaviour (layer assignment, sketch flattening) instead of the
+            # shape-only writeDXFShape path.
+            prev_doc = FreeCAD.ActiveDocument
+            tmp_doc = FreeCAD.newDocument("_dxf_fallback_export")
+            try:
+                tmp_objects = []
+                for obj in objectslist:
+                    sh = getattr(obj, "Shape", None)
+                    if sh is None:
                         continue
-                    m = FreeCAD.Matrix()
-                    m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
-                    scaled_shapes.append(sh.transformGeometry(m))
-                except Exception as exc:  # noqa: BLE001
-                    FreeCAD.Console.PrintWarning(
-                        "DXF export: skipping {} ({})\n".format(
-                            getattr(obj, "Label", "?"), exc
+                    try:
+                        if sh.isNull():
+                            continue
+                        m = FreeCAD.Matrix()
+                        m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
+                        feat = tmp_doc.addObject(
+                            "Part::Feature", getattr(obj, "Label", "Shape")
                         )
-                    )
-            if scaled_shapes:
-                Import.writeDXFShape(scaled_shapes, filename, version, lwPoly)
-                # Old binary writes $INSUNITS=4 (mm); patch to the target unit.
-                _patch_dxf_insunits(filename, dxfExportInsunits)
+                        feat.Shape = sh.transformGeometry(m)
+                        tmp_objects.append(feat)
+                    except Exception as exc:  # noqa: BLE001
+                        FreeCAD.Console.PrintWarning(
+                            "DXF export: skipping {} ({})\n".format(
+                                getattr(obj, "Label", "?"), exc
+                            )
+                        )
+                if tmp_objects:
+                    Import.writeDXFObject(tmp_objects, filename, version, lwPoly)
+                    # Old binary writes $INSUNITS=4 (mm); patch to the target unit.
+                    _patch_dxf_insunits(filename, dxfExportInsunits)
+            finally:
+                FreeCAD.closeDocument("_dxf_fallback_export")
+                if prev_doc is not None:
+                    try:
+                        FreeCAD.setActiveDocument(prev_doc.Name)
+                    except Exception:  # noqa: BLE001
+                        pass
         return
     getDXFlibs()
     if dxfLibrary:

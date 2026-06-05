@@ -25,12 +25,14 @@ except ImportError:
     sys.exit(1)
 
 # (unit_index, label, expected_$INSUNITS_code, scale_from_mm)
+# want_insunits=None means $INSUNITS must be absent from the file (unitless mode).
 CASES = [
-    (0, "mm",      4, 1.0),
-    (1, "cm",      5, 0.1),
-    (2, "m",       6, 0.001),
-    (3, "inches",  1, 1.0 / 25.4),
-    (4, "feet",    2, 1.0 / 304.8),
+    (0, "mm",       4,    1.0),
+    (1, "cm",       5,    0.1),
+    (2, "m",        6,    0.001),
+    (3, "inches",   1,    1.0 / 25.4),
+    (4, "feet",     2,    1.0 / 304.8),
+    (5, "unitless", None, 1.0),
 ]
 
 LENGTH_MM = 25.4  # exactly 1 inch — makes the inch case trivially verifiable
@@ -98,7 +100,8 @@ def run():
 
                 hGrp.SetInt("dxfExportUnits", idx)
 
-                out = tempfile.mktemp(suffix=".dxf")
+                fd, out = tempfile.mkstemp(suffix=".dxf")
+                os.close(fd)
                 importDXF.export([feat], out)
 
                 with open(out) as f:
@@ -108,7 +111,11 @@ def run():
                 got_insunits = insunits_from_dxf(dxf)
                 endpoints    = line_endpoints_from_dxf(dxf)
 
-                insunits_ok = got_insunits == want_insunits
+                insunits_ok = (
+                    got_insunits is None
+                    if want_insunits is None
+                    else got_insunits == want_insunits
+                )
 
                 want_x = LENGTH_MM * scale
                 if endpoints:
