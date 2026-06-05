@@ -215,9 +215,8 @@ jobs:
       - name: Apply Python and UI patches
         run: |
           DRAFT=/tmp/staging/files/freecad/Mod/Draft
-          cp src/Mod/Draft/importDXF.py                          "${DRAFT}/importDXF.py"
-          cp src/Mod/Draft/Resources/ui/preferences-dxf.ui       "${DRAFT}/Resources/ui/preferences-dxf.ui"
-          cp /tmp/Draft_rc_patched.py                            "${DRAFT}/Draft_rc.py"
+          cp src/Mod/Draft/importDXF.py       "${DRAFT}/importDXF.py"
+          cp /tmp/Draft_rc_patched.py         "${DRAFT}/Draft_rc.py"
 
       - name: Bundle and upload Flatpak
         env:
