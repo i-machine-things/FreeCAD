@@ -114,6 +114,13 @@ public:
             "writeDXFObject([objects],filename [,version,usePolyline,optionSource]): Exports "
             "DocumentObject(s) to a DXF file."
         );
+        add_varargs_method(
+            "dxfExporterSupportsUnitScaling",
+            &Module::dxfExporterSupportsUnitScaling,
+            "dxfExporterSupportsUnitScaling(): Returns True when this binary's DXF exporter "
+            "applies coordinate scaling internally via setExportUnits/BRepBuilderAPI_Transform. "
+            "Python uses this sentinel to avoid applying scaling a second time."
+        );
         initialize("This module is the Import module.");  // register with Python
     }
 
@@ -703,6 +710,11 @@ private:
         }
 
         throw Py::TypeError("expected ([DocObject],path");
+    }
+
+    Py::Object dxfExporterSupportsUnitScaling(const Py::Tuple& /*args*/)
+    {
+        return Py::True();
     }
 };
 
