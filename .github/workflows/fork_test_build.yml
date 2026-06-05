@@ -48,9 +48,14 @@ jobs:
             TARGET_TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
               --exclude-pre-releases --json tagName -q '.[0].tagName')
           fi
-          # Slug the branch name for use in the release tag
+          # Slug the branch name for use in the release tag.
+          # Keep the tag short (≤25 chars) to stay under Windows' 260-char
+          # MAX_PATH limit in the NSIS installer staging path.
+          # Append a 6-char hash of the full branch name so two branches whose
+          # slugs share the same first 13 chars don't collide.
           BRANCH_SLUG="${BRANCH//[^a-zA-Z0-9]/-}"
-          TEST_TAG="test-${BRANCH_SLUG}"
+          BRANCH_HASH=$(printf '%s' "${BRANCH}" | sha256sum | cut -c1-6)
+          TEST_TAG="test-${BRANCH_SLUG:0:13}-${BRANCH_HASH}"
           echo "target_tag=${TARGET_TAG}" >> "$GITHUB_OUTPUT"
           echo "test_tag=${TEST_TAG}"     >> "$GITHUB_OUTPUT"
           echo "Branch: ${BRANCH}  FreeCAD: ${TARGET_TAG}  Release tag: ${TEST_TAG}"
@@ -94,6 +99,8 @@ jobs:
             > /tmp/dxf.cpp
           git show "origin/${BRANCH}:src/Mod/Import/App/dxf/dxf.h" \
             > /tmp/dxf.h
+          git show "origin/${BRANCH}:src/Mod/Import/App/AppImportPy.cpp" \
+            > /tmp/AppImportPy.cpp
 
           # Fetch upstream release (depth 2 for write_version_info.py)
           git remote add upstream https://github.com/FreeCAD/FreeCAD.git
@@ -107,6 +114,7 @@ jobs:
           cp /tmp/ImpExpDxf.cpp    src/Mod/Import/App/dxf/ImpExpDxf.cpp
           cp /tmp/dxf.cpp          src/Mod/Import/App/dxf/dxf.cpp
           cp /tmp/dxf.h            src/Mod/Import/App/dxf/dxf.h
+          cp /tmp/AppImportPy.cpp  src/Mod/Import/App/AppImportPy.cpp
 
       - name: Create or update test release placeholder
         shell: bash
@@ -207,8 +215,9 @@ jobs:
       - name: Apply Python and UI patches
         run: |
           DRAFT=/tmp/staging/files/freecad/Mod/Draft
-          cp src/Mod/Draft/importDXF.py  "${DRAFT}/importDXF.py"
-          cp /tmp/Draft_rc_patched.py    "${DRAFT}/Draft_rc.py"
+          cp src/Mod/Draft/importDXF.py                          "${DRAFT}/importDXF.py"
+          cp src/Mod/Draft/Resources/ui/preferences-dxf.ui       "${DRAFT}/Resources/ui/preferences-dxf.ui"
+          cp /tmp/Draft_rc_patched.py                            "${DRAFT}/Draft_rc.py"
 
       - name: Bundle and upload Flatpak
         env:
