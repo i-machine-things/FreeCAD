@@ -41,7 +41,6 @@
 #include "DrawSketchControllableHandler.h"
 
 #include "DrawSketchHandler.h"
-#include "GeometryCreationMode.h"
 #include "Utils.h"
 #include "ViewProviderSketch.h"
 #include "SnapManager.h"
@@ -50,8 +49,6 @@ using namespace Sketcher;
 
 namespace SketcherGui
 {
-
-extern GeometryCreationMode geometryCreationMode;  // defined in CommandCreateGeo.cpp
 
 class DrawSketchHandlerLineSet: public DrawSketchHandler
 {
@@ -1068,6 +1065,12 @@ private:
             // We create the geometry first.
             createShape(false);
 
+            if (ShapeGeometry.empty()) {
+                return false;
+            }
+
+            resetParallelPerpendicularHint();
+
             commandAddShapeGeometryAndConstraints();
 
             int geoId = getHighestCurveIndex();
@@ -1139,6 +1142,13 @@ private:
                 getFilletData(refPnt1, refPnt2, radius, newGeo, prevGeo, newGeoPos, prevGeoPos);
 
                 obj->fillet(geoId1, geoId2, refPnt1, refPnt2, radius, true, true);
+
+                if (!obj->noRecomputes) {
+                    // obj->fillet() solves at the end only when obj->noRecomputes is set, but we
+                    // need the solve even when AutoRecompute is on or the fillet won't appear.
+                    // See https://github.com/FreeCAD/FreeCAD/issues/30625
+                    obj->solve();
+                }
 
                 if (isConstructionMode()) {
                     int filletGeoId = geoId + 1;
@@ -1384,6 +1394,16 @@ private:
         }
     }
 
+    bool getStartPointOfCurrentSegment(Base::Vector2d& point) const override
+    {
+        if (constructionMethod() == ConstructionMethod::Line && state() == SelectMode::SeekSecond
+            && !points.empty()) {
+            point = points.back();
+            return true;
+        }
+        return false;
+    }
+
 private:
     Base::Vector2d prevCursorPos, center;
 
@@ -1558,12 +1578,7 @@ private:
             double radius = getArcCenter(center, prevCursorPos);
 
             if (radius == 0.0) {
-                // fall back to a line
-                addLineToShapeGeometry(
-                    toVector3d(points[points.size() - 1]),
-                    toVector3d(prevCursorPos),
-                    isConstructionMode()
-                );
+                return;
             }
 
             double rx = lastPoint.x - center.x;
@@ -1729,7 +1744,7 @@ void DSHPolyLineController::configureToolWidget()
         );
         syncCheckboxToHandler(WCheckbox::FirstBox, handler->fillet);
 
-        if (isConstructionMode()) {
+        if (handler->isConstructionMode()) {
             toolWidget->setComboboxItemIcon(
                 WCombobox::FirstCombo,
                 0,
@@ -1825,6 +1840,7 @@ void DSHPolyLineControllerBase::doEnforceControlParameters(Base::Vector2d& onSke
                 if (handler->constructionMethod() == ConstructionMethod::Arc) {
                     unsetOnViewParameter(onViewParameters[OnViewParameter::Fifth].get());
                 }
+                getKeyManager()->resetMode();
                 setFocusToOnViewParameter(OnViewParameter::Third);
                 return;
             }
@@ -1963,7 +1979,7 @@ void DSHPolyLineController::adaptParameters(Base::Vector2d onSketchPos)
                 if (!fourthParam->isSet) {
                     setOnViewParameterValue(OnViewParameter::Fourth, range, Base::Unit::Angle);
                 }
-                else if (vec.Length() > Precision::Confusion()) {
+                else if (fourthParam->hasFinishedEditing && vec.Length() > Precision::Confusion()) {
                     double ovpRange = fourthParam->getValue();
 
                     if (fabs(range - ovpRange) > Precision::Confusion()) {
@@ -2054,6 +2070,8 @@ void DSHPolyLineController::doConstructionMethodChanged()
             handler->setConstructionMethod(ConstructionMethod::Line);
             return;
         }
+
+        handler->resetEdge = true;
     }
 
     // Since line has 4 OVP but arc has 5, and because we are not resetting the whole tool,
@@ -2135,8 +2153,8 @@ void DSHPolyLineController::addStepConstraints()
         if (p4set) {
             if (handler->geoEltIds.size() > 1) {
                 if (!handler->isPreviousArc()) {
-                    int geoId2 = handler->geoEltIds[handler->geoEltIds.size() - 2].GeoId;
-                    Constraint2LinesByAngle(lastCurve, geoId2, Base::toRadians(p4), obj);
+                    int prevCurve = handler->geoEltIds[handler->geoEltIds.size() - 2].GeoId;
+                    Constraint2LinesByAngle(prevCurve, lastCurve, Base::toRadians(p4), obj);
                 }
             }
             else {

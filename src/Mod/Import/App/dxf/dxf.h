@@ -661,6 +661,7 @@ private:
     // Readers for specific entity types
     bool ReadLine();
     bool ReadText();
+    bool ReadSolid();
     bool ReadArc();
     bool ReadCircle();
     bool ReadEllipse();
@@ -953,6 +954,13 @@ public:
         const double /*height*/,
         const std::string& /*text*/,
         const double /*rotation*/
+    )
+    {}
+    virtual void OnReadSolid(
+        const Base::Vector3d& /*first*/,
+        const Base::Vector3d& /*second*/,
+        const Base::Vector3d& /*third*/,
+        const Base::Vector3d& /*fourth*/
     )
     {}
     virtual void OnReadArc(
