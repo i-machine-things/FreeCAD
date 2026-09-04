@@ -92,6 +92,20 @@ jobs:
             https://dl.flathub.org/repo/flathub.flatpakrepo
           sudo flatpak install -y --noninteractive flathub org.freecad.FreeCAD
 
+      - name: Verify installed Flathub version matches target release
+        env:
+          TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
+        run: |
+          # Flathub only serves the current "stable" branch (no per-version refs), so
+          # verify what actually got installed matches the release we're about to
+          # label it as, rather than silently publishing a mismatched version.
+          INSTALLED_VERSION=$(flatpak info org.freecad.FreeCAD | \
+            sed -n 's/^ *Version: *//p')
+          if [ "${INSTALLED_VERSION}" != "${TARGET_TAG}" ]; then
+            echo "::error::Flathub stable is ${INSTALLED_VERSION}, expected ${TARGET_TAG}. Refusing to publish a mismatched Flatpak."
+            exit 1
+          fi
+
       - name: Stage installed app for patching
         run: |
           APP=/var/lib/flatpak/app/org.freecad.FreeCAD/x86_64/stable/active
@@ -133,10 +147,11 @@ jobs:
           BUILD_TAG: ${{ needs.detect.outputs.build_tag }}
           TARGET_TAG: ${{ needs.detect.outputs.target_tag }}
         run: |
-          printf '%s\n\n%s\n\n%s\n' \
+          printf '%s\n\n%s\n\n%s\n\n%s\n' \
             "**Unofficial fork build — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
             "FreeCAD ${TARGET_TAG} + DXF export scale patch. Windows installer and Linux Flatpak." \
             "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds." \
+            "> ℹ️ The Linux Flatpak patches Python/UI only onto the pre-built Flathub binary — it cannot hot-patch the C++ DXF exporter. Coordinate scaling runs through the Python fallback path rather than the native C++ path used by the Windows installer." \
             > /tmp/notes.md
           gh release create "${BUILD_TAG}" \
             --repo "${{ github.repository }}" \

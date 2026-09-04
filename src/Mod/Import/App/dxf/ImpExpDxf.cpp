@@ -2065,7 +2065,9 @@ void ImpExpDxfWrite::exportBSpline(BRepAdaptor_Curve& c)
     double f, l;
     gp_Pnt s, ePt;
 
-    Standard_Real tol3D = 0.001;
+    // tol3D is a fitting tolerance in the same coordinate space as c, which is
+    // built from the already export-unit-scaled shape, so scale the tolerance too.
+    Standard_Real tol3D = 0.001 * m_exportScale;
     Standard_Integer maxDegree = 3, maxSegment = 200;
     Handle(BRepAdaptor_HCurve) hCurve = new BRepAdaptor_HCurve(c);
     Approx_Curve3d approx(hCurve, tol3D, GeomAbs_C0, maxSegment, maxDegree);
@@ -2172,8 +2174,10 @@ bool ImpExpDxfWrite::discretizeCurveToPolyline(BRepAdaptor_Curve& c, LWPolyDataO
     pd.Extr.z = 1.0;
     pd.nVert = 0;
 
+    // optionMaxLength is a max-segment-length preference in document (mm) units;
+    // c comes from the already export-unit-scaled shape, so scale it to match.
     GCPnts_UniformAbscissa discretizer;
-    discretizer.Initialize(c, optionMaxLength);
+    discretizer.Initialize(c, optionMaxLength * m_exportScale);
 
     if (!discretizer.IsDone() || discretizer.NbPoints() <= 0) {
         return false;

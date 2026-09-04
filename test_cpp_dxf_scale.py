@@ -85,7 +85,7 @@ def run():
     hGrp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft")
 
     saved_legacy = hGrp.GetBool("dxfUseLegacyExporter", False)
-    saved_units  = hGrp.GetInt("dxfExportUnits", 0)
+    saved_units  = hGrp.GetInt("dxfExportUnits", -1)
 
     hGrp.SetBool("dxfUseLegacyExporter", False)  # ensure C++ exporter is selected
 
