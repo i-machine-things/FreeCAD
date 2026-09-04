@@ -510,7 +510,7 @@ public:
     ImpExpDxfWrite& operator=(const ImpExpDxfWrite&&) = delete;
     ~ImpExpDxfWrite();
 
-    void exportShape(TopoDS_Shape input);
+    void exportShape(TopoDS_Shape input, bool alreadyScaled = false);
     std::string getOptionSource()
     {
         return m_optionSource;

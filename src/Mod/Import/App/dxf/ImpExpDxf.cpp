@@ -1703,11 +1703,14 @@ void ImpExpDxfWrite::setOptions()
     setExportUnits(insunitsCodes[unitIdx], scaleFactors[unitIdx]);
 }
 
-void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
+void ImpExpDxfWrite::exportShape(const TopoDS_Shape input, bool alreadyScaled)
 {
-    // Apply unit scale so DXF coordinates match the chosen export unit
+    // Apply unit scale so DXF coordinates match the chosen export unit.
+    // Callers that pre-scale the shape themselves (e.g. sketch export, which must
+    // scale before HLR projection rather than after) pass alreadyScaled=true so we
+    // don't apply the factor twice.
     TopoDS_Shape scaled = input;
-    if (m_exportScale != 1.0) {
+    if (!alreadyScaled && m_exportScale != 1.0) {
         gp_Trsf trsf;
         trsf.SetScale(gp_Pnt(0.0, 0.0, 0.0), m_exportScale);
         scaled = BRepBuilderAPI_Transform(input, trsf, /*copy=*/true).Shape();
