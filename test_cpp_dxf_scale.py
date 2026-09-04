@@ -109,6 +109,16 @@ def run():
                     ),
                     False,
                 )
+                # Non-zero placement: the sketch export path (SketchExportHelper::
+                # getFlatSketchXY) projects using a coordinate system centered on the
+                # sketch's own placement, so the flattened output is expressed in the
+                # sketch's local frame — this offset must NOT leak into the exported
+                # coordinates. Verified against the real HLR call (HLRAlgo_Projector
+                # with this exact gp_Ax2 construction) via pythonocc: a sketch placed
+                # at (100,200,0) still projects to a (0,0,0)-(10,0,0) bounding box.
+                sketch.Placement = FreeCAD.Placement(
+                    FreeCAD.Vector(50.0, 30.0, 20.0), FreeCAD.Rotation()
+                )
                 doc.recompute()
 
                 hGrp.SetInt("dxfExportUnits", idx)

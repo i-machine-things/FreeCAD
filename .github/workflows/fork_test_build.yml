@@ -107,6 +107,8 @@ jobs:
             > /tmp/SketchExportHelper.cpp
           git show "origin/${BRANCH}:src/Mod/Import/App/SketchExportHelper.h" \
             > /tmp/SketchExportHelper.h
+          git show "origin/${BRANCH}:test_cpp_dxf_scale.py" \
+            > /tmp/test_cpp_dxf_scale.py
 
           # Fetch upstream release (depth 2 for write_version_info.py)
           git remote add upstream https://github.com/FreeCAD/FreeCAD.git
@@ -177,6 +179,19 @@ jobs:
         run: |
           cd package/rattler-build
           pixi run -e package create_bundle
+
+      - name: Verify DXF export scale fix against the just-built binary
+        shell: bash
+        env:
+          BUILD_TAG: ${{ needs.resolve.outputs.test_tag }}
+        run: |
+          # create_bundle.sh leaves the uncompressed bundle on disk (before its own
+          # `7z a` archiving step) at this path — reuse it directly instead of
+          # re-downloading and re-extracting the just-uploaded release asset.
+          BUNDLE_DIR="package/rattler-build/windows/FreeCAD_${BUILD_TAG}-Windows-$(uname -m)"
+          cp /tmp/test_cpp_dxf_scale.py "${BUNDLE_DIR}/test_cpp_dxf_scale.py"
+          cd "${BUNDLE_DIR}"
+          ./bin/freecadcmd.exe test_cpp_dxf_scale.py
 
   # ── Linux: Flatpak patch (Python + UI only — no C++ recompile) ───────────
   build_linux:
