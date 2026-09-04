@@ -14,6 +14,20 @@
 
 <img src="/.github/images/partdesign.png" width="800"/>
 
+About This Fork
+----------------
+
+This is [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD), a personal fork of upstream FreeCAD (`main-dev` branch). It is synced with upstream `main` regularly and carries the following fork-only additions on top:
+
+* **DXF export unit scaling** (Draft workbench) — DXF export previously always wrote geometry 1:1 in document units. The scale factor spinbox in `Edit → Preferences → Import-Export → DXF` has been replaced with a unit dropdown (mm / cm / m / in / ft / unitless). Selecting a unit now:
+    * Scales exported coordinates to that unit (via the C++ exporter, `ImpExpDxfWrite`).
+    * Writes the matching DXF `$INSUNITS` header code, so the file reports its own unit correctly instead of always claiming millimeters.
+    * Falls back to an equivalent Python-side scaling path on FreeCAD binaries whose C++ DXF exporter predates this change (detected at runtime via `Import.dxfExporterSupportsUnitScaling()`), so the feature still works without a full rebuild.
+* **Automated build pipeline** (`.github/workflows/`) — this fork publishes its own installable test/nightly builds, independent of and clearly labeled as unofficial vs. the official FreeCAD releases:
+    * Stable Windows installer (NSIS) and Linux (Flatpak/AppImage) builds, tracking official upstream FreeCAD releases.
+    * Per-feature-branch nightly builds for testing in-progress work.
+    * Nightly sync of the fork's `main` with upstream `main`, plus a weekly auto-rebase of the active feature branch, with conflict alerting.
+
 Overview
 --------
 
