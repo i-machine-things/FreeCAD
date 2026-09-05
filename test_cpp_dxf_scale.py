@@ -82,6 +82,15 @@ def run():
     print(f"Export path: {path_label}  (sentinel={cpp_scales})")
     print()
 
+    if os.environ.get("REQUIRE_CPP_DXF_SCALING") == "1" and not cpp_scales:
+        print(
+            "ERROR: REQUIRE_CPP_DXF_SCALING=1 but Import.dxfExporterSupportsUnitScaling "
+            "is absent. This binary would silently test the Python fallback path instead "
+            "of the native C++ exporter this build is supposed to have — likely an "
+            "incomplete overlay (AppImportPy.cpp) rather than an actual scaling bug."
+        )
+        return False
+
     hGrp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft")
 
     saved_legacy = hGrp.GetBool("dxfUseLegacyExporter", False)

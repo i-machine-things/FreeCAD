@@ -184,6 +184,7 @@ jobs:
         shell: bash
         env:
           BUILD_TAG: ${{ needs.resolve.outputs.test_tag }}
+          REQUIRE_CPP_DXF_SCALING: "1"
         run: |
           # create_bundle.sh leaves the uncompressed bundle on disk (before its own
           # `7z a` archiving step) — reuse it directly instead of re-downloading and
