@@ -622,10 +622,14 @@ private:
                         layerName = obj->getNameInDocument();
                         writer.setLayerName(layerName);
                         TopoDS_Shape shapeToExport;
+                        bool shapeAlreadyScaled = false;
                         if (SketchExportHelper::isSketch(obj)) {
                             // project sketch along sketch Z via hlrProjector to get geometry on XY
-                            // plane
-                            shapeToExport = SketchExportHelper::getFlatSketchXY(obj);
+                            // plane. Scale is applied before projection, so tell exportShape()
+                            // not to scale again.
+                            shapeToExport
+                                = SketchExportHelper::getFlatSketchXY(obj, writer.getExportScale());
+                            shapeAlreadyScaled = true;
                         }
                         else {
                             // do we know that obj is a Part::Feature? is this checked somewhere
@@ -633,7 +637,7 @@ private:
                             Part::Feature* part = static_cast<Part::Feature*>(obj);
                             shapeToExport = part->Shape.getValue();
                         }
-                        writer.exportShape(shapeToExport);
+                        writer.exportShape(shapeToExport, shapeAlreadyScaled);
                     }
                 }
                 writer.endRun();
@@ -689,9 +693,12 @@ private:
                 layerName = obj->getNameInDocument();
                 writer.setLayerName(layerName);
                 TopoDS_Shape shapeToExport;
+                bool shapeAlreadyScaled = false;
                 if (SketchExportHelper::isSketch(obj)) {
-                    // project sketch along sketch Z via hlrProjector to get geometry on XY plane
-                    shapeToExport = SketchExportHelper::getFlatSketchXY(obj);
+                    // project sketch along sketch Z via hlrProjector to get geometry on XY plane.
+                    // Scale is applied before projection, so tell exportShape() not to scale again.
+                    shapeToExport = SketchExportHelper::getFlatSketchXY(obj, writer.getExportScale());
+                    shapeAlreadyScaled = true;
                 }
                 else {
                     // TODO: do we know that obj is a Part::Feature? is this checked somewhere
@@ -700,7 +707,7 @@ private:
                     Part::Feature* part = static_cast<Part::Feature*>(obj);
                     shapeToExport = part->Shape.getValue();
                 }
-                writer.exportShape(shapeToExport);
+                writer.exportShape(shapeToExport, shapeAlreadyScaled);
                 writer.endRun();
                 return Py::None();
             }

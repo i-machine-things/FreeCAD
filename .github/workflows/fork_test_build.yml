@@ -95,12 +95,20 @@ jobs:
             > /tmp/preferences-dxf.ui
           git show "origin/${BRANCH}:src/Mod/Import/App/dxf/ImpExpDxf.cpp" \
             > /tmp/ImpExpDxf.cpp
+          git show "origin/${BRANCH}:src/Mod/Import/App/dxf/ImpExpDxf.h" \
+            > /tmp/ImpExpDxf.h
           git show "origin/${BRANCH}:src/Mod/Import/App/dxf/dxf.cpp" \
             > /tmp/dxf.cpp
           git show "origin/${BRANCH}:src/Mod/Import/App/dxf/dxf.h" \
             > /tmp/dxf.h
           git show "origin/${BRANCH}:src/Mod/Import/App/AppImportPy.cpp" \
             > /tmp/AppImportPy.cpp
+          git show "origin/${BRANCH}:src/Mod/Import/App/SketchExportHelper.cpp" \
+            > /tmp/SketchExportHelper.cpp
+          git show "origin/${BRANCH}:src/Mod/Import/App/SketchExportHelper.h" \
+            > /tmp/SketchExportHelper.h
+          git show "origin/${BRANCH}:test_cpp_dxf_scale.py" \
+            > /tmp/test_cpp_dxf_scale.py
 
           # Fetch upstream release (depth 2 for write_version_info.py)
           git remote add upstream https://github.com/FreeCAD/FreeCAD.git
@@ -112,9 +120,12 @@ jobs:
           cp /tmp/importDXF.py     src/Mod/Draft/importDXF.py
           cp /tmp/preferences-dxf.ui src/Mod/Draft/Resources/ui/preferences-dxf.ui
           cp /tmp/ImpExpDxf.cpp    src/Mod/Import/App/dxf/ImpExpDxf.cpp
+          cp /tmp/ImpExpDxf.h      src/Mod/Import/App/dxf/ImpExpDxf.h
           cp /tmp/dxf.cpp          src/Mod/Import/App/dxf/dxf.cpp
           cp /tmp/dxf.h            src/Mod/Import/App/dxf/dxf.h
           cp /tmp/AppImportPy.cpp  src/Mod/Import/App/AppImportPy.cpp
+          cp /tmp/SketchExportHelper.cpp src/Mod/Import/App/SketchExportHelper.cpp
+          cp /tmp/SketchExportHelper.h   src/Mod/Import/App/SketchExportHelper.h
 
       - name: Create or update test release placeholder
         shell: bash
@@ -169,6 +180,31 @@ jobs:
           cd package/rattler-build
           pixi run -e package create_bundle
 
+      - name: Verify DXF export scale fix against the just-built binary
+        shell: bash
+        env:
+          BUILD_TAG: ${{ needs.resolve.outputs.test_tag }}
+          REQUIRE_CPP_DXF_SCALING: "1"
+        run: |
+          # create_bundle.sh leaves the uncompressed bundle on disk (before its own
+          # `7z a` archiving step) — reuse it directly instead of re-downloading and
+          # re-extracting the just-uploaded release asset. Locate it by pattern
+          # rather than reconstructing the exact name: it comes from whichever
+          # create_bundle.sh is in the upstream release tag being patched, which can
+          # differ from this branch's own copy of that file (e.g. a "-py311" suffix
+          # that isn't in every version of the naming logic).
+          BUNDLE_DIR=$(find package/rattler-build/windows -maxdepth 1 -type d \
+            -name "FreeCAD_${BUILD_TAG}-Windows-*")
+          if [ -z "${BUNDLE_DIR}" ] || [ ! -x "${BUNDLE_DIR}/bin/freecadcmd.exe" ]; then
+            echo "::error::Could not locate the built bundle directory (looked for package/rattler-build/windows/FreeCAD_${BUILD_TAG}-Windows-*)"
+            find package/rattler-build/windows -maxdepth 1 -type d
+            exit 1
+          fi
+          echo "Using bundle dir: ${BUNDLE_DIR}"
+          cp /tmp/test_cpp_dxf_scale.py "${BUNDLE_DIR}/test_cpp_dxf_scale.py"
+          cd "${BUNDLE_DIR}"
+          ./bin/freecadcmd.exe test_cpp_dxf_scale.py
+
   # ── Linux: Flatpak patch (Python + UI only — no C++ recompile) ───────────
   build_linux:
     needs: resolve
@@ -195,6 +231,20 @@ jobs:
             https://dl.flathub.org/repo/flathub.flatpakrepo
           sudo flatpak install -y --noninteractive flathub org.freecad.FreeCAD
 
+      - name: Verify installed Flathub version matches target release
+        env:
+          TARGET_TAG: ${{ needs.resolve.outputs.target_tag }}
+        run: |
+          # Flathub only serves the current "stable" branch (no per-version refs), so
+          # verify what actually got installed matches the release we're about to
+          # label it as, rather than silently testing against a mismatched version.
+          INSTALLED_VERSION=$(flatpak info org.freecad.FreeCAD | \
+            sed -n 's/^ *Version: *//p')
+          if [ "${INSTALLED_VERSION}" != "${TARGET_TAG}" ]; then
+            echo "::error::Flathub stable is ${INSTALLED_VERSION}, expected ${TARGET_TAG}. Refusing to publish a mismatched Flatpak."
+            exit 1
+          fi
+
       - name: Stage installed app for patching
         run: |
           APP=/var/lib/flatpak/app/org.freecad.FreeCAD/x86_64/stable/active
@@ -216,7 +266,6 @@ jobs:
         run: |
           DRAFT=/tmp/staging/files/freecad/Mod/Draft
           cp src/Mod/Draft/importDXF.py                          "${DRAFT}/importDXF.py"
-          cp src/Mod/Draft/Resources/ui/preferences-dxf.ui       "${DRAFT}/Resources/ui/preferences-dxf.ui"
           cp /tmp/Draft_rc_patched.py                            "${DRAFT}/Draft_rc.py"
 
       - name: Bundle and upload Flatpak
