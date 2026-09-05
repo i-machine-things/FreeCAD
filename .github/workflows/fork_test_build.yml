@@ -186,9 +186,20 @@ jobs:
           BUILD_TAG: ${{ needs.resolve.outputs.test_tag }}
         run: |
           # create_bundle.sh leaves the uncompressed bundle on disk (before its own
-          # `7z a` archiving step) at this path — reuse it directly instead of
-          # re-downloading and re-extracting the just-uploaded release asset.
-          BUNDLE_DIR="package/rattler-build/windows/FreeCAD_${BUILD_TAG}-Windows-$(uname -m)"
+          # `7z a` archiving step) — reuse it directly instead of re-downloading and
+          # re-extracting the just-uploaded release asset. Locate it by pattern
+          # rather than reconstructing the exact name: it comes from whichever
+          # create_bundle.sh is in the upstream release tag being patched, which can
+          # differ from this branch's own copy of that file (e.g. a "-py311" suffix
+          # that isn't in every version of the naming logic).
+          BUNDLE_DIR=$(find package/rattler-build/windows -maxdepth 1 -type d \
+            -name "FreeCAD_${BUILD_TAG}-Windows-*")
+          if [ -z "${BUNDLE_DIR}" ] || [ ! -x "${BUNDLE_DIR}/bin/freecadcmd.exe" ]; then
+            echo "::error::Could not locate the built bundle directory (looked for package/rattler-build/windows/FreeCAD_${BUILD_TAG}-Windows-*)"
+            find package/rattler-build/windows -maxdepth 1 -type d
+            exit 1
+          fi
+          echo "Using bundle dir: ${BUNDLE_DIR}"
           cp /tmp/test_cpp_dxf_scale.py "${BUNDLE_DIR}/test_cpp_dxf_scale.py"
           cd "${BUNDLE_DIR}"
           ./bin/freecadcmd.exe test_cpp_dxf_scale.py
