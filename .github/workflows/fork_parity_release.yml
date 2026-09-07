@@ -102,13 +102,15 @@ jobs:
           UPSTREAM_TAG: ${{ needs.detect.outputs.upstream_tag }}
           REPO:         ${{ github.repository }}
         run: |
-          printf '%s\n\n%s\n\n%s\n\n%s\n' \
-            "**Unofficial fork — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
-            "FreeCAD ${UPSTREAM_TAG} + DXF export patches (sketch HLR scaling, unit scaling)." \
-            "Windows installer (.exe + .7z portable) and Linux Flatpak included." \
-            "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds.
-> ℹ️ Linux Flatpak patches Python/UI only — the C++ DXF exporter is native in the Windows build." \
-            > /tmp/notes.md
+          {
+            echo "**Unofficial fork — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**"
+            echo ""
+            echo "FreeCAD ${UPSTREAM_TAG} + DXF export patches (sketch HLR scaling, unit scaling)."
+            echo "Windows installer (.exe + .7z portable) and Linux Flatpak included."
+            echo ""
+            echo "> Warning: Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds."
+            echo "> Note: Linux Flatpak patches Python/UI only -- the C++ DXF exporter is native in the Windows build."
+          } > /tmp/notes.md
 
           gh release create "${FORK_TAG}" \
             --repo "${REPO}" \
