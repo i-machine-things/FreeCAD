@@ -1,0 +1,288 @@
+name: Fork Parity Release
+
+# Fires daily to check whether upstream FreeCAD has cut a new stable release.
+# When it has (and we don't already have a matching fork release), it:
+#   1. Creates a versioned fork release  v{UPSTREAM}-i-machine-things.{N}
+#   2. Builds the Windows installer (full C++ recompile via rattler-build/pixi)
+#   3. Builds the Linux Flatpak (Python/UI patch onto pre-built Flathub binary)
+# Jobs 2 and 3 run in parallel after the release is created.
+#
+# Replaces the old fork_stable_windows.yml + fork_stable_linux_flatpak.yml pair.
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # Daily 04:00 UTC — cheap upstream check
+  workflow_dispatch:
+    inputs:
+      upstream_tag:
+        description: "Upstream FreeCAD tag (e.g. 1.1.3) — blank = latest stable"
+        required: false
+      fork_n:
+        description: "Fork patch number — blank = auto-increment from existing releases"
+        required: false
+      force_rebuild:
+        description: "Rebuild even if assets already exist"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fork-parity-release
+  cancel-in-progress: false
+
+jobs:
+  # ── 1. Detect: resolve tags, decide whether to build ─────────────────────────
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      upstream_tag: ${{ steps.info.outputs.upstream_tag }}
+      fork_tag:     ${{ steps.info.outputs.fork_tag }}
+      should_build: ${{ steps.info.outputs.should_build }}
+    steps:
+      - name: Resolve tags and check existing assets
+        id: info
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_UPSTREAM: ${{ inputs.upstream_tag }}
+          INPUT_FORK_N:   ${{ inputs.fork_n }}
+          FORCE:          ${{ inputs.force_rebuild }}
+          REPO:           ${{ github.repository }}
+        run: |
+          # ── Resolve upstream version ──────────────────────────────────────────
+          if [ -n "${INPUT_UPSTREAM}" ]; then
+            UPSTREAM="${INPUT_UPSTREAM}"
+          else
+            UPSTREAM=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          echo "upstream_tag=${UPSTREAM}" >> "$GITHUB_OUTPUT"
+
+          # ── Resolve fork patch number ─────────────────────────────────────────
+          if [ -n "${INPUT_FORK_N}" ]; then
+            FORK_N="${INPUT_FORK_N}"
+          else
+            # Count existing fork releases for this upstream version and add 1
+            EXISTING=$(gh release list --repo "${REPO}" --limit 100 --json tagName \
+              -q "[.[] | select(.tagName | startswith(\"v${UPSTREAM}-i-machine-things.\"))] | length" \
+              2>/dev/null || echo "0")
+            FORK_N=$((EXISTING + 1))
+          fi
+
+          FORK_TAG="v${UPSTREAM}-i-machine-things.${FORK_N}"
+          echo "fork_tag=${FORK_TAG}" >> "$GITHUB_OUTPUT"
+
+          # ── Skip if both assets already exist (unless forced) ─────────────────
+          HAS_EXE=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
+            --json assets -q '.assets[] | select(.name | test("\\.exe$")) | .name' \
+            2>/dev/null | head -1)
+          HAS_FLATPAK=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
+            --json assets -q '.assets[] | select(.name | test("\\.flatpak$")) | .name' \
+            2>/dev/null | head -1)
+
+          if [ -n "${HAS_EXE}" ] && [ -n "${HAS_FLATPAK}" ] && [ "${FORCE}" != "true" ]; then
+            echo "should_build=false" >> "$GITHUB_OUTPUT"
+            echo "Both assets already exist in ${FORK_TAG} — skipping."
+          else
+            echo "should_build=true" >> "$GITHUB_OUTPUT"
+            echo "Will build ${FORK_TAG} (upstream=${UPSTREAM}, fork_n=${FORK_N})"
+          fi
+
+  # ── 2. Create the GitHub release placeholder ──────────────────────────────────
+  prepare:
+    needs: detect
+    if: needs.detect.outputs.should_build == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create release (idempotent)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORK_TAG:     ${{ needs.detect.outputs.fork_tag }}
+          UPSTREAM_TAG: ${{ needs.detect.outputs.upstream_tag }}
+          REPO:         ${{ github.repository }}
+        run: |
+          printf '%s\n\n%s\n\n%s\n\n%s\n' \
+            "**Unofficial fork — [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD)**" \
+            "FreeCAD ${UPSTREAM_TAG} + DXF export patches (sketch HLR scaling, unit scaling)." \
+            "Windows installer (.exe + .7z portable) and Linux Flatpak included." \
+            "> ⚠️ Not an official FreeCAD release. See [freecad.org](https://freecad.org) for official builds.
+> ℹ️ Linux Flatpak patches Python/UI only — the C++ DXF exporter is native in the Windows build." \
+            > /tmp/notes.md
+
+          gh release create "${FORK_TAG}" \
+            --repo "${REPO}" \
+            --title "FreeCAD ${FORK_TAG}" \
+            --notes-file /tmp/notes.md \
+            --prerelease || \
+          gh release view "${FORK_TAG}" --repo "${REPO}" > /dev/null
+
+  # ── 3. Windows build (full C++ recompile via rattler-build/pixi) ──────────────
+  windows:
+    needs: [detect, prepare]
+    runs-on: windows-latest
+    env:
+      PIXI_CACHE_DIR: D:\rattler
+      RATTLER_CACHE_DIR: D:\rattler
+
+    steps:
+      - name: Checkout fork (no submodules yet)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          fetch-depth: 2
+          fetch-tags: false
+          submodules: false
+          persist-credentials: false
+
+      - name: Switch to upstream release tag and apply DXF patches
+        shell: bash
+        env:
+          UPSTREAM_TAG: ${{ needs.detect.outputs.upstream_tag }}
+        run: |
+          git fetch origin main-dev --depth=1
+
+          # Save patched files before switching tree
+          git show origin/main-dev:src/Mod/Draft/importDXF.py \
+            > /tmp/importDXF.py
+          git show origin/main-dev:src/Mod/Draft/Resources/ui/preferences-dxf.ui \
+            > /tmp/preferences-dxf.ui
+          git show origin/main-dev:src/Mod/Import/App/dxf/ImpExpDxf.cpp \
+            > /tmp/ImpExpDxf.cpp
+          git show origin/main-dev:src/Mod/Import/App/dxf/ImpExpDxf.h \
+            > /tmp/ImpExpDxf.h
+          git show origin/main-dev:src/Mod/Import/App/dxf/dxf.cpp \
+            > /tmp/dxf.cpp
+          git show origin/main-dev:src/Mod/Import/App/dxf/dxf.h \
+            > /tmp/dxf.h
+          git show origin/main-dev:src/Mod/Import/App/AppImportPy.cpp \
+            > /tmp/AppImportPy.cpp
+          git show origin/main-dev:src/Mod/Import/App/SketchExportHelper.cpp \
+            > /tmp/SketchExportHelper.cpp
+          git show origin/main-dev:src/Mod/Import/App/SketchExportHelper.h \
+            > /tmp/SketchExportHelper.h
+
+          git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+          git fetch upstream "refs/tags/${UPSTREAM_TAG}" --depth=2 --no-recurse-submodules
+          git checkout FETCH_HEAD
+          git submodule update --init --recursive
+
+          cp /tmp/importDXF.py       src/Mod/Draft/importDXF.py
+          cp /tmp/preferences-dxf.ui src/Mod/Draft/Resources/ui/preferences-dxf.ui
+          cp /tmp/ImpExpDxf.cpp      src/Mod/Import/App/dxf/ImpExpDxf.cpp
+          cp /tmp/ImpExpDxf.h        src/Mod/Import/App/dxf/ImpExpDxf.h
+          cp /tmp/dxf.cpp            src/Mod/Import/App/dxf/dxf.cpp
+          cp /tmp/dxf.h              src/Mod/Import/App/dxf/dxf.h
+          cp /tmp/AppImportPy.cpp    src/Mod/Import/App/AppImportPy.cpp
+          cp /tmp/SketchExportHelper.cpp src/Mod/Import/App/SketchExportHelper.cpp
+          cp /tmp/SketchExportHelper.h   src/Mod/Import/App/SketchExportHelper.h
+
+      - uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
+        with:
+          pixi-version: v0.59.0
+          cache: false
+
+      - name: Setup .NET (required by rattler-build bundling on Windows)
+        uses: actions/setup-dotnet@c2fa09f4bde5ebb9d1777cf28262a3eb3db3ced7 # v5.2.0
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Write version info and install pixi env
+        shell: bash
+        run: |
+          python3 package/scripts/write_version_info.py ../freecad_version.txt
+          cd package/rattler-build
+          pixi install --frozen
+
+      - name: Build and upload Windows installer
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO:  ${{ github.repository }}
+          TARGET_PLATFORM: win-64
+          MAKE_INSTALLER: "true"
+          UPLOAD_RELEASE: "true"
+          BUILD_TAG: ${{ needs.detect.outputs.fork_tag }}
+          WINDOWS_SIGN_RELEASE: "0"
+        run: |
+          cd package/rattler-build
+          pixi run -e package create_bundle
+
+  # ── 4. Linux Flatpak (Python/UI patch onto pre-built Flathub binary) ──────────
+  linux:
+    needs: [detect, prepare]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork (main-dev)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: main-dev
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Install Flatpak and OSTree
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y flatpak ostree
+
+      - name: Add Flathub remote and install FreeCAD
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub \
+            https://dl.flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y --noninteractive flathub org.freecad.FreeCAD
+
+      - name: Verify installed Flathub version matches upstream tag
+        env:
+          UPSTREAM_TAG: ${{ needs.detect.outputs.upstream_tag }}
+        run: |
+          INSTALLED=$(flatpak info org.freecad.FreeCAD | sed -n 's/^ *Version: *//p')
+          if [ "${INSTALLED}" != "${UPSTREAM_TAG}" ]; then
+            echo "::error::Flathub stable is ${INSTALLED}, expected ${UPSTREAM_TAG}. Refusing to publish mismatched Flatpak."
+            exit 1
+          fi
+
+      - name: Stage installed app for patching
+        run: |
+          APP=/var/lib/flatpak/app/org.freecad.FreeCAD/x86_64/stable/active
+          mkdir -p /tmp/staging/export
+          sudo cp -r "${APP}/files"   /tmp/staging/files
+          sudo cp    "${APP}/metadata" /tmp/staging/metadata
+          if [ -d "${APP}/export" ]; then
+            sudo cp -r "${APP}/export/." /tmp/staging/export/
+          fi
+          sudo chown -R runner:runner /tmp/staging
+
+      - name: Compile patched Draft_rc.py
+        run: |
+          pip install --quiet pyside6-essentials
+          pyside6-rcc src/Mod/Draft/Resources/Draft.qrc \
+            -o /tmp/Draft_rc_patched.py
+
+      - name: Apply DXF scale patch
+        run: |
+          DRAFT=/tmp/staging/files/freecad/Mod/Draft
+          cp src/Mod/Draft/importDXF.py "${DRAFT}/importDXF.py"
+          cp /tmp/Draft_rc_patched.py   "${DRAFT}/Draft_rc.py"
+
+      - name: Commit staged tree to OSTree repo and export bundle
+        env:
+          FORK_TAG: ${{ needs.detect.outputs.fork_tag }}
+        run: |
+          ostree --repo=/tmp/fc-repo init --mode=archive-z2
+          ostree --repo=/tmp/fc-repo commit \
+            --branch="app/org.freecad.FreeCAD/x86_64/stable" \
+            /tmp/staging
+          BUNDLE="FreeCAD-${FORK_TAG}-Linux-x86_64.flatpak"
+          flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
+          sha256sum "${BUNDLE}" > "${BUNDLE}-SHA256.txt"
+
+      - name: Upload Flatpak to release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORK_TAG: ${{ needs.detect.outputs.fork_tag }}
+          REPO:     ${{ github.repository }}
+        run: |
+          BUNDLE="FreeCAD-${FORK_TAG}-Linux-x86_64.flatpak"
+          gh release upload --clobber "${FORK_TAG}" \
+            "${BUNDLE}" "${BUNDLE}-SHA256.txt" \
+            --repo "${REPO}"
