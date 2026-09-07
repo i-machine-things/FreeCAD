@@ -30,6 +30,7 @@
 #include <HLRBRep_HLRToShape.hxx>
 #include <BRep_Builder.hxx>
 #include <BRepBuilderAPI_Transform.hxx>
+#include <gp_Trsf.hxx>
 
 
 #include <App/DocumentObject.h>
@@ -77,8 +78,14 @@ bool SketchExportHelper::isSketch(App::DocumentObject* obj)
 
 
 //! return a version of a sketch's geometry mapped to the OXYZ coordinate system
-//! preferred by dxf
-TopoDS_Shape SketchExportHelper::getFlatSketchXY(App::DocumentObject* obj)
+//! preferred by dxf, scaled to the target export unit.
+//!
+//! The export scale is applied to the sketch's shape and placement *before* HLR
+//! projection rather than to the projected result afterwards. HLRBRep_HLRToShape's
+//! output shape does not survive a later BRepBuilderAPI_Transform reliably (the
+//! written coordinates stay unscaled), so scaling has to happen on the original,
+//! well-formed sketch shape instead.
+TopoDS_Shape SketchExportHelper::getFlatSketchXY(App::DocumentObject* obj, double scale)
 {
     // since we can't reference Sketcher module here, we will cast obj to
     // a Part::Feature instead
@@ -98,13 +105,19 @@ TopoDS_Shape SketchExportHelper::getFlatSketchXY(App::DocumentObject* obj)
     Base::Vector3d sketchX;
     rot.multVec(stdX, sketchX);
 
-    // get the sketch origin
-    Base::Vector3d position = plm.getPosition();
+    // get the sketch origin, scaled to match the shape below
+    Base::Vector3d position = plm.getPosition() * scale;
     gp_Ax2 projectionCS(
         gp_Pnt(position.x, position.y, position.z),
         gp_Dir(sketchNormal.x, sketchNormal.y, sketchNormal.z),
         gp_Dir(sketchX.x, sketchX.y, sketchX.z)
     );
-    const TopoDS_Shape& shape = sketch->Shape.getValue();
+
+    TopoDS_Shape shape = sketch->Shape.getValue();
+    if (scale != 1.0) {
+        gp_Trsf trsf;
+        trsf.SetScale(gp_Pnt(0.0, 0.0, 0.0), scale);
+        shape = BRepBuilderAPI_Transform(shape, trsf, /*copy=*/true).Shape();
+    }
     return projectShape(shape, projectionCS);
 }

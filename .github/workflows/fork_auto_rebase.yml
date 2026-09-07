@@ -38,7 +38,11 @@ jobs:
             "src/Mod/Draft/Resources/ui/preferences-dxf.ui")
           if [ -n "$TOUCHED" ]; then
             echo "touched=true" >> "$GITHUB_OUTPUT"
-            echo "touched_files=$TOUCHED" >> "$GITHUB_OUTPUT"
+            {
+              echo "touched_files<<EOF"
+              echo "$TOUCHED"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
           else
             echo "touched=false" >> "$GITHUB_OUTPUT"
           fi

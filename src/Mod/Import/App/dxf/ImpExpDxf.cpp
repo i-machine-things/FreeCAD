@@ -1782,11 +1782,14 @@ void ImpExpDxfWrite::setOptions()
     setExportUnits(insunitsCodes[unitIdx], scaleFactors[unitIdx]);
 }
 
-void ImpExpDxfWrite::exportShape(const TopoDS_Shape input)
+void ImpExpDxfWrite::exportShape(const TopoDS_Shape input, bool alreadyScaled)
 {
-    // Apply unit scale so DXF coordinates match the chosen export unit
+    // Apply unit scale so DXF coordinates match the chosen export unit.
+    // Callers that pre-scale the shape themselves (e.g. sketch export, which must
+    // scale before HLR projection rather than after) pass alreadyScaled=true so we
+    // don't apply the factor twice.
     TopoDS_Shape scaled = input;
-    if (m_exportScale != 1.0) {
+    if (!alreadyScaled && m_exportScale != 1.0) {
         gp_Trsf trsf;
         trsf.SetScale(gp_Pnt(0.0, 0.0, 0.0), m_exportScale);
         scaled = BRepBuilderAPI_Transform(input, trsf, /*copy=*/true).Shape();
@@ -2062,7 +2065,9 @@ void ImpExpDxfWrite::exportBSpline(BRepAdaptor_Curve& c)
     double f, l;
     gp_Pnt s, ePt;
 
-    Standard_Real tol3D = 0.001;
+    // tol3D is a fitting tolerance in the same coordinate space as c, which is
+    // built from the already export-unit-scaled shape, so scale the tolerance too.
+    Standard_Real tol3D = 0.001 * m_exportScale;
     Standard_Integer maxDegree = 3, maxSegment = 200;
     Handle(BRepAdaptor_HCurve) hCurve = new BRepAdaptor_HCurve(c);
     Approx_Curve3d approx(hCurve, tol3D, GeomAbs_C0, maxSegment, maxDegree);
@@ -2169,8 +2174,10 @@ bool ImpExpDxfWrite::discretizeCurveToPolyline(BRepAdaptor_Curve& c, LWPolyDataO
     pd.Extr.z = 1.0;
     pd.nVert = 0;
 
+    // optionMaxLength is a max-segment-length preference in document (mm) units;
+    // c comes from the already export-unit-scaled shape, so scale it to match.
     GCPnts_UniformAbscissa discretizer;
-    discretizer.Initialize(c, optionMaxLength);
+    discretizer.Initialize(c, optionMaxLength * m_exportScale);
 
     if (!discretizer.IsDone() || discretizer.NbPoints() <= 0) {
         return false;

@@ -3799,11 +3799,19 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     try:
                         if sh.isNull():
                             continue
+                        if obj.isDerivedFrom("Sketcher::SketchObject"):
+                            # Match the C++ exporter's flattening (getFlatSketchXY):
+                            # express the sketch's geometry in its own local, in-plane
+                            # coordinates instead of the document-global ones, so a
+                            # tilted/rotated sketch still exports as a flat 2D drawing
+                            # rather than raw 3D coordinates.
+                            sh = sh.copy()
+                            sh.transformShape(obj.Placement.inverse().toMatrix())
                         m = FreeCAD.Matrix()
                         m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
-                        feat = tmp_doc.addObject(
-                            "Part::Feature", getattr(obj, "Label", "Shape")
-                        )
+                        # Use the source object's internal name, not its Label, so the
+                        # DXF layer assigned by writeDXFObject matches the original object.
+                        feat = tmp_doc.addObject("Part::Feature", obj.Name)
                         feat.Shape = sh.transformGeometry(m)
                         tmp_objects.append(feat)
                     except Exception as exc:  # noqa: BLE001

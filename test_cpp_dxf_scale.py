@@ -6,6 +6,9 @@ Run with:
 
 Creates a line of exactly 25.4 mm (= 1 inch) and exports it in each unit
 mode, then verifies the $INSUNITS header code and the endpoint X coordinate.
+Also builds the same line as a Sketcher::SketchObject: sketches take a
+separate export path (SketchExportHelper's HLR flattening) that has
+historically diverged from the plain Part::Feature path's scaling.
 
 Unit index mapping (must match ImpExpDxf.cpp insunitsCodes[]):
     0=mm  1=cm  2=m  3=inches  4=feet  5=unitless
@@ -19,6 +22,7 @@ import tempfile
 try:
     import FreeCAD
     import Part
+    import Sketcher
     import importDXF
 except ImportError:
     print("ERROR: run inside FreeCAD — use freecadcmd.exe test_cpp_dxf_scale.py")
@@ -78,10 +82,19 @@ def run():
     print(f"Export path: {path_label}  (sentinel={cpp_scales})")
     print()
 
+    if os.environ.get("REQUIRE_CPP_DXF_SCALING") == "1" and not cpp_scales:
+        print(
+            "ERROR: REQUIRE_CPP_DXF_SCALING=1 but Import.dxfExporterSupportsUnitScaling "
+            "is absent. This binary would silently test the Python fallback path instead "
+            "of the native C++ exporter this build is supposed to have — likely an "
+            "incomplete overlay (AppImportPy.cpp) rather than an actual scaling bug."
+        )
+        return False
+
     hGrp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft")
 
     saved_legacy = hGrp.GetBool("dxfUseLegacyExporter", False)
-    saved_units  = hGrp.GetInt("dxfExportUnits", 0)
+    saved_units  = hGrp.GetInt("dxfExportUnits", -1)
 
     hGrp.SetBool("dxfUseLegacyExporter", False)  # ensure C++ exporter is selected
 
@@ -96,48 +109,68 @@ def run():
                     FreeCAD.Vector(0, 0, 0),
                     FreeCAD.Vector(LENGTH_MM, 0, 0),
                 )
+
+                sketch = doc.addObject("Sketcher::SketchObject", "LineSketch")
+                sketch.addGeometry(
+                    Part.LineSegment(
+                        FreeCAD.Vector(0, 0, 0),
+                        FreeCAD.Vector(LENGTH_MM, 0, 0),
+                    ),
+                    False,
+                )
+                # Non-zero placement: the sketch export path (SketchExportHelper::
+                # getFlatSketchXY) projects using a coordinate system centered on the
+                # sketch's own placement, so the flattened output is expressed in the
+                # sketch's local frame — this offset must NOT leak into the exported
+                # coordinates. Verified against the real HLR call (HLRAlgo_Projector
+                # with this exact gp_Ax2 construction) via pythonocc: a sketch placed
+                # at (100,200,0) still projects to a (0,0,0)-(10,0,0) bounding box.
+                sketch.Placement = FreeCAD.Placement(
+                    FreeCAD.Vector(50.0, 30.0, 20.0), FreeCAD.Rotation()
+                )
                 doc.recompute()
 
                 hGrp.SetInt("dxfExportUnits", idx)
-
-                fd, out = tempfile.mkstemp(suffix=".dxf")
-                os.close(fd)
-                importDXF.export([feat], out)
-
-                with open(out) as f:
-                    dxf = f.read()
-                os.unlink(out)
-
-                got_insunits = insunits_from_dxf(dxf)
-                endpoints    = line_endpoints_from_dxf(dxf)
-
-                insunits_ok = (
-                    got_insunits is None
-                    if want_insunits is None
-                    else got_insunits == want_insunits
-                )
-
                 want_x = LENGTH_MM * scale
-                if endpoints:
-                    got_x   = endpoints[0][1]  # X of end point (group 11)
-                    coord_ok = abs(got_x - want_x) < 1e-6
-                    coord_str = f"{got_x:.10f}"
-                else:
-                    coord_ok  = False
-                    coord_str = "NOT FOUND"
 
-                ok = insunits_ok and coord_ok
-                tag = "PASS" if ok else "FAIL"
-                if ok:
-                    passed += 1
-                else:
-                    failed += 1
+                for obj, kind in ((feat, "Part::Feature"), (sketch, "Sketch")):
+                    fd, out = tempfile.mkstemp(suffix=".dxf")
+                    os.close(fd)
+                    importDXF.export([obj], out)
 
-                print(
-                    f"[{tag}] {label:8s}  "
-                    f"INSUNITS={got_insunits} (want {want_insunits})  "
-                    f"X={coord_str} (want {want_x:.10f})"
-                )
+                    with open(out) as f:
+                        dxf = f.read()
+                    os.unlink(out)
+
+                    got_insunits = insunits_from_dxf(dxf)
+                    endpoints    = line_endpoints_from_dxf(dxf)
+
+                    insunits_ok = (
+                        got_insunits is None
+                        if want_insunits is None
+                        else got_insunits == want_insunits
+                    )
+
+                    if endpoints:
+                        got_x   = endpoints[0][1]  # X of end point (group 11)
+                        coord_ok = abs(got_x - want_x) < 1e-6
+                        coord_str = f"{got_x:.10f}"
+                    else:
+                        coord_ok  = False
+                        coord_str = "NOT FOUND"
+
+                    ok = insunits_ok and coord_ok
+                    tag = "PASS" if ok else "FAIL"
+                    if ok:
+                        passed += 1
+                    else:
+                        failed += 1
+
+                    print(
+                        f"[{tag}] {label:8s} {kind:13s} "
+                        f"INSUNITS={got_insunits} (want {want_insunits})  "
+                        f"X={coord_str} (want {want_x:.10f})"
+                    )
 
             finally:
                 FreeCAD.closeDocument("dxf_scale_test")

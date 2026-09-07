@@ -385,6 +385,10 @@ public:
         m_exportInsunits = insunits;
         m_exportScale = scale;
     }
+    double getExportScale() const
+    {
+        return m_exportScale;
+    }
     void addBlockName(const std::string& name, const std::string& blkRecordHandle);
 
     void writeLine(const double* start, const double* end);
