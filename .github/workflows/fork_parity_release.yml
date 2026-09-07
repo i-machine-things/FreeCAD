@@ -59,32 +59,58 @@ jobs:
           fi
           echo "upstream_tag=${UPSTREAM}" >> "$GITHUB_OUTPUT"
 
-          # ── Resolve fork patch number ─────────────────────────────────────────
+          # ── Resolve fork patch number and decide whether to build ────────────
           if [ -n "${INPUT_FORK_N}" ]; then
+            # Explicit fork_n: always target that specific release
             FORK_N="${INPUT_FORK_N}"
+            FORK_TAG="v${UPSTREAM}-i-machine-things.${FORK_N}"
+            echo "fork_tag=${FORK_TAG}" >> "$GITHUB_OUTPUT"
+
+            HAS_EXE=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
+              --json assets -q '.assets[] | select(.name | test("\\.exe$")) | .name' \
+              2>/dev/null | head -1)
+            HAS_FLATPAK=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
+              --json assets -q '.assets[] | select(.name | test("\\.flatpak$")) | .name' \
+              2>/dev/null | head -1)
+
+            if [ -n "${HAS_EXE}" ] && [ -n "${HAS_FLATPAK}" ] && [ "${FORCE}" != "true" ]; then
+              echo "should_build=false" >> "$GITHUB_OUTPUT"
+              echo "${FORK_TAG} already has both assets — skipping."
+            else
+              echo "should_build=true" >> "$GITHUB_OUTPUT"
+              echo "Will build ${FORK_TAG}"
+            fi
           else
-            # Count existing fork releases for this upstream version and add 1
-            EXISTING=$(gh release list --repo "${REPO}" --limit 100 --json tagName \
-              -q "[.[] | select(.tagName | startswith(\"v${UPSTREAM}-i-machine-things.\"))] | length" \
+            # Auto mode (daily schedule or manual without fork_n):
+            # Check if the latest existing fork release for this upstream is already
+            # complete. If yes, nothing to do. Only build if there are no complete
+            # releases for this upstream version yet.
+            LATEST_N=$(gh release list --repo "${REPO}" --limit 100 --json tagName \
+              -q "[.[] | select(.tagName | startswith(\"v${UPSTREAM}-i-machine-things.\"))]
+                  | map(.tagName | ltrimstr(\"v${UPSTREAM}-i-machine-things.\") | tonumber)
+                  | max // 0" \
               2>/dev/null || echo "0")
-            FORK_N=$((EXISTING + 1))
-          fi
 
-          FORK_TAG="v${UPSTREAM}-i-machine-things.${FORK_N}"
-          echo "fork_tag=${FORK_TAG}" >> "$GITHUB_OUTPUT"
+            if [ "${LATEST_N}" -gt 0 ] && [ "${FORCE}" != "true" ]; then
+              FORK_TAG="v${UPSTREAM}-i-machine-things.${LATEST_N}"
+              HAS_EXE=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
+                --json assets -q '.assets[] | select(.name | test("\\.exe$")) | .name' \
+                2>/dev/null | head -1)
+              HAS_FLATPAK=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
+                --json assets -q '.assets[] | select(.name | test("\\.flatpak$")) | .name' \
+                2>/dev/null | head -1)
+              if [ -n "${HAS_EXE}" ] && [ -n "${HAS_FLATPAK}" ]; then
+                echo "fork_tag=${FORK_TAG}" >> "$GITHUB_OUTPUT"
+                echo "should_build=false" >> "$GITHUB_OUTPUT"
+                echo "Latest fork release ${FORK_TAG} is complete — no new upstream release detected, skipping."
+                exit 0
+              fi
+            fi
 
-          # ── Skip if both assets already exist (unless forced) ─────────────────
-          HAS_EXE=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
-            --json assets -q '.assets[] | select(.name | test("\\.exe$")) | .name' \
-            2>/dev/null | head -1)
-          HAS_FLATPAK=$(gh release view "${FORK_TAG}" --repo "${REPO}" \
-            --json assets -q '.assets[] | select(.name | test("\\.flatpak$")) | .name' \
-            2>/dev/null | head -1)
-
-          if [ -n "${HAS_EXE}" ] && [ -n "${HAS_FLATPAK}" ] && [ "${FORCE}" != "true" ]; then
-            echo "should_build=false" >> "$GITHUB_OUTPUT"
-            echo "Both assets already exist in ${FORK_TAG} — skipping."
-          else
+            # No complete release exists yet — create the next patch number
+            FORK_N=$((LATEST_N + 1))
+            FORK_TAG="v${UPSTREAM}-i-machine-things.${FORK_N}"
+            echo "fork_tag=${FORK_TAG}" >> "$GITHUB_OUTPUT"
             echo "should_build=true" >> "$GITHUB_OUTPUT"
             echo "Will build ${FORK_TAG} (upstream=${UPSTREAM}, fork_n=${FORK_N})"
           fi
