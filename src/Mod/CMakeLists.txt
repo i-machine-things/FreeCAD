@@ -120,6 +120,9 @@ endif(BUILD_TECHDRAW)
 
 #add_subdirectory(TemplatePyMod)
 
+# Fork-only update notifier — always built, not gated behind a BUILD_ option
+add_subdirectory(ForkUpdater)
+
 if(BUILD_TEST)
   add_subdirectory(Test)
 endif(BUILD_TEST)

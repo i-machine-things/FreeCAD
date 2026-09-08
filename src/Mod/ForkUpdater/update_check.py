@@ -9,6 +9,7 @@ import time
 import urllib.request
 import urllib.error
 import json
+from pathlib import Path
 
 import FreeCAD
 
@@ -17,6 +18,7 @@ _API_URL = f"https://api.github.com/repos/{_REPO}/releases"
 _TAG_RE = re.compile(r"^v(\d+\.\d+\.\d+)-i-machine-things\.(\d+)$")
 _CHECK_INTERVAL = 86400  # 24 h in seconds
 _PREFS_PATH = "User parameter:BaseApp/Preferences/Mod/ForkUpdater"
+_FORK_VERSION_FILE = Path(__file__).resolve().parent / "fork_version.json"
 
 
 def _prefs():
@@ -30,6 +32,19 @@ def _current_version():
         return tuple(int(x) for x in v[:3])
     except (ValueError, IndexError):
         return (0, 0, 0)
+
+
+def _current_fork_build():
+    """Return this build's own fork patch number, written at package time.
+
+    Falls back to 0 for source checkouts never packaged by
+    fork_parity_release.yml (e.g. running straight from a dev tree).
+    """
+    try:
+        with open(_FORK_VERSION_FILE, encoding="utf-8") as f:
+            return int(json.load(f)["fork_build"])
+    except (OSError, ValueError, KeyError, TypeError):
+        return 0
 
 
 def _parse_fork_tag(tag):
@@ -122,10 +137,11 @@ def _check_worker():
     parsed = _parse_fork_tag(tag)
     if parsed is None:
         return
-    latest_version, _ = parsed
+    latest_version, latest_fork_n = parsed
     current = _current_version()
+    current_fork_n = _current_fork_build()
 
-    if latest_version <= current:
+    if (latest_version, latest_fork_n) <= (current, current_fork_n):
         return
 
     # Schedule dialog on the main thread
