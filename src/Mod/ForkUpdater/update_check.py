@@ -12,6 +12,7 @@ import json
 from pathlib import Path
 
 import FreeCAD
+from PySide.QtCore import QObject, Signal
 
 _REPO = "i-machine-things/FreeCAD"
 _API_URL = f"https://api.github.com/repos/{_REPO}/releases"
@@ -117,6 +118,22 @@ def _show_dialog(tag, url):
         FreeCAD.Console.PrintWarning(f"ForkUpdater: could not show dialog: {e}\n")
 
 
+class _UpdateSignal(QObject):
+    """Marshals the "update found" event from the background check thread onto
+    the main/GUI thread. QTimer.singleShot() called directly from a worker
+    thread has no event loop to fire on and silently never runs — a Qt
+    signal emitted cross-thread is queued onto the receiver's own thread
+    (the main thread here, since _signal is created during the main-thread
+    import in _run_check) and is the correct way to do this.
+    """
+
+    found = Signal(str, str)  # tag, url
+
+
+_signal = _UpdateSignal()
+_signal.found.connect(lambda tag, url: _show_dialog(tag, url))
+
+
 def _check_worker():
     """Runs in a background thread — fetches GitHub, then fires dialog on main thread if needed."""
     prefs = _prefs()
@@ -144,9 +161,8 @@ def _check_worker():
     if (latest_version, latest_fork_n) <= (current, current_fork_n):
         return
 
-    # Schedule dialog on the main thread
-    from PySide.QtCore import QTimer
-    QTimer.singleShot(0, lambda: _show_dialog(tag, url))
+    # Cross-thread emit — Qt queues this onto the main thread automatically.
+    _signal.found.emit(tag, url)
 
 
 def check():
