@@ -347,7 +347,14 @@ jobs:
           # The runner's flatpak validates every SVG in the export directory and
           # rejects FreeCAD's icons as "Format not recognized". PNG icons at all
           # fixed sizes remain, so app-menu and mimetype integration still works.
+          # The SVG icons fail runner's flatpak format check; PNG sizes remain.
           find /tmp/staging/export -name "*.svg" -delete
+          # The export/ desktop file is the host-wrapper flatpak generated on
+          # install — it contains "@@" file-forwarding markers that are rejected
+          # as "Invalid Exec argument" during bundle install on the user's machine.
+          # Replace it with the original upstream desktop file (clean Exec line).
+          cp /tmp/staging/files/share/applications/org.freecad.FreeCAD.desktop \
+             /tmp/staging/export/share/applications/org.freecad.FreeCAD.desktop
           ostree --repo=/tmp/fc-repo init --mode=archive-z2
           flatpak build-export /tmp/fc-repo /tmp/staging stable
 
