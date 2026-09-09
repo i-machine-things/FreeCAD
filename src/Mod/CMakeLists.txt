@@ -123,6 +123,32 @@ endif(BUILD_TECHDRAW)
 # Fork-only update notifier — always built, not gated behind a BUILD_ option
 add_subdirectory(ForkUpdater)
 
+# Fork-only preinstalled add-ons, vendored as git submodules — always built,
+# not gated behind BUILD_ options. Run `git submodule update --init` after
+# cloning if any of these are missing their submodule content.
+#
+# Curves, fasteners, FreeCAD-Ribbon, freecad.gears and SaveAndRestore don't
+# ship their own CMakeLists.txt, so each is vendored as a submodule nested
+# one level down in an "upstream" subdirectory, with a fork-tracked
+# CMakeLists.txt sitting alongside it (kept out of the submodule itself so
+# it isn't stranded as untracked content in someone else's repository).
+foreach(_addon Curves fasteners FreeCAD-Ribbon freecad.gears SaveAndRestore)
+  if(NOT EXISTS "${CMAKE_SOURCE_DIR}/src/Mod/${_addon}/upstream/.git")
+    message(FATAL_ERROR "Mod/${_addon}/upstream is a git submodule that hasn't been checked out. Please run
+    git submodule update --init")
+  endif()
+  add_subdirectory(${_addon})
+endforeach()
+
+# SearchBar ships its own CMakeLists.txt upstream, so it's vendored directly
+# (same pattern as AddonManager above) rather than needing the wrapper the
+# other add-ons above use.
+if(NOT EXISTS "${CMAKE_SOURCE_DIR}/src/Mod/SearchBar/CMakeLists.txt")
+  message(FATAL_ERROR "Mod/SearchBar is a git submodule that hasn't been checked out. Please run
+  git submodule update --init")
+endif()
+add_subdirectory(SearchBar)
+
 if(BUILD_TEST)
   add_subdirectory(Test)
 endif(BUILD_TEST)

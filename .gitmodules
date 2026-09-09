@@ -15,3 +15,21 @@
 	path = src/3rdParty/pivy
 	url = https://github.com/FreeCAD/pivy.git
 	branch = freecad-master
+[submodule "src/Mod/SearchBar"]
+	path = src/Mod/SearchBar
+	url = https://github.com/APEbbers/SearchBar.git
+[submodule "src/Mod/Curves/upstream"]
+	path = src/Mod/Curves/upstream
+	url = https://github.com/tomate44/CurvesWB.git
+[submodule "src/Mod/fasteners/upstream"]
+	path = src/Mod/fasteners/upstream
+	url = https://github.com/shaise/FreeCAD_FastenersWB.git
+[submodule "src/Mod/FreeCAD-Ribbon/upstream"]
+	path = src/Mod/FreeCAD-Ribbon/upstream
+	url = https://github.com/APEbbers/FreeCAD-Ribbon.git
+[submodule "src/Mod/freecad.gears/upstream"]
+	path = src/Mod/freecad.gears/upstream
+	url = https://github.com/looooo/freecad.gears.git
+[submodule "src/Mod/SaveAndRestore/upstream"]
+	path = src/Mod/SaveAndRestore/upstream
+	url = https://github.com/APEbbers/SaveAndRestore.git
