@@ -338,20 +338,13 @@ jobs:
         env:
           FORK_TAG: ${{ needs.detect.outputs.fork_tag }}
         run: |
-          # Start from the installed Flathub commit so all Flatpak GVariant
-          # commit metadata (xa.metadata, xa.ref) is preserved. Plain
-          # "ostree commit" omits those fields, causing:
+          # flatpak install validates that the bundle commit's xa.metadata
+          # GVariant field matches the metadata file in the deployed tree.
+          # Plain "ostree commit" omits xa.metadata entirely, causing:
           #   "Commit metadata for ... not matching expected metadata"
-          # when the user runs "flatpak install <bundle>".
-          ostree --repo=/tmp/fc-repo init --mode=archive-z2
-          sudo flatpak build-commit-from \
-            --src-repo=/var/lib/flatpak/repo \
-            /tmp/fc-repo \
-            app/org.freecad.FreeCAD/x86_64/stable
-
-          # Re-commit the patched staging tree with xa.metadata explicitly set
-          # so the bundle passes flatpak's metadata consistency check on install.
+          # Set it explicitly from the metadata file to pass that check.
           METADATA_CONTENT=$(cat /tmp/staging/metadata)
+          ostree --repo=/tmp/fc-repo init --mode=archive-z2
           ostree --repo=/tmp/fc-repo commit \
             --branch="app/org.freecad.FreeCAD/x86_64/stable" \
             --add-metadata-string="xa.metadata=${METADATA_CONTENT}" \
