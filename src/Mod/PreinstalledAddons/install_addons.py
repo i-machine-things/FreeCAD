@@ -12,44 +12,56 @@ licenses (GPL-3.0 for FreeCAD-Ribbon and freecad.gears) into FreeCAD's own
 LGPL-2.1 source tree.
 """
 
-import os
 import threading
 
 import FreeCAD
 
 _PREFS_PATH = "User parameter:BaseApp/Preferences/Mod/PreinstalledAddons"
 
-# (folder name expected under the user's Mod directory, upstream git URL)
+# (folder name expected under the user's Mod directory, upstream git URL,
+# upstream default branch). AddonInstaller checks out/expects this branch
+# explicitly on both the git and zip install paths — leaving it blank
+# breaks both (an empty git checkout target, and a "<name>-" zip
+# subdirectory that never matches what actually gets extracted).
 _ADDONS = [
-    ("Curves", "https://github.com/tomate44/CurvesWB.git"),
-    ("fasteners", "https://github.com/shaise/FreeCAD_FastenersWB.git"),
-    ("FreeCAD-Ribbon", "https://github.com/APEbbers/FreeCAD-Ribbon.git"),
-    ("freecad.gears", "https://github.com/looooo/freecad.gears.git"),
-    ("SaveAndRestore", "https://github.com/APEbbers/SaveAndRestore.git"),
-    ("SearchBar", "https://github.com/APEbbers/SearchBar.git"),
+    ("Curves", "https://github.com/tomate44/CurvesWB.git", "main"),
+    ("fasteners", "https://github.com/shaise/FreeCAD_FastenersWB.git", "master"),
+    ("FreeCAD-Ribbon", "https://github.com/APEbbers/FreeCAD-Ribbon.git", "main"),
+    ("freecad.gears", "https://github.com/looooo/freecad.gears.git", "master"),
+    ("SaveAndRestore", "https://github.com/APEbbers/SaveAndRestore.git", "main"),
+    ("SearchBar", "https://github.com/APEbbers/SearchBar.git", "main"),
 ]
 
 
 def _prefs():
+    """Return this module's preference group."""
     return FreeCAD.ParamGet(_PREFS_PATH)
 
 
 def _missing_addons():
-    from addonmanager_freecad_interface import DataPaths
+    """Return (name, url, branch) triples for add-ons not yet successfully installed.
 
-    mod_dir = DataPaths().mod_dir
-    return [(name, url) for name, url in _ADDONS if not os.path.isdir(os.path.join(mod_dir, name))]
+    Checks AddonManager's own InstallationManifest rather than just directory
+    existence — a failed git checkout or zip extraction can still leave a
+    partially-populated directory behind, which would otherwise be mistaken
+    for a completed install and never retried.
+    """
+    from addonmanager_installation_manifest import InstallationManifest
+
+    manifest = InstallationManifest()
+    return [(name, url, branch) for name, url, branch in _ADDONS if not manifest.contains(name)]
 
 
 def _install_worker(missing):
+    """Install each given (name, url, branch) add-on; report results to the console."""
     from Addon import Addon
     from addonmanager_installer import AddonInstaller
 
     installed, failed = [], []
-    for name, url in missing:
+    for name, url, branch in missing:
         FreeCAD.Console.PrintMessage(f"PreinstalledAddons: installing {name}...\n")
         try:
-            if AddonInstaller(Addon(name=name, url=url)).run():
+            if AddonInstaller(Addon(name=name, url=url, branch=branch)).run():
                 installed.append(name)
             else:
                 failed.append(name)

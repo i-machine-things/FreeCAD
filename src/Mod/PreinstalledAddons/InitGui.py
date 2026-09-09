@@ -1,6 +1,7 @@
 from PySide.QtCore import QTimer
 
 def _run_check():
+    """Run the preinstalled add-on check, catching and logging any failure."""
     try:
         from PreinstalledAddons import install_addons
         install_addons.check()

@@ -123,9 +123,13 @@ endif(BUILD_TECHDRAW)
 # Fork-only update notifier — always built, not gated behind a BUILD_ option
 add_subdirectory(ForkUpdater)
 
-# Fork-only first-run installer for preinstalled add-ons — always built,
-# not gated behind a BUILD_ option.
-add_subdirectory(PreinstalledAddons)
+# Fork-only first-run installer for preinstalled add-ons. Depends on
+# AddonManager's installer classes at runtime, so only build it when
+# AddonManager itself is being built — otherwise it can only ever fail
+# its own import and warn on every single startup.
+if(BUILD_ADDONMGR)
+  add_subdirectory(PreinstalledAddons)
+endif(BUILD_ADDONMGR)
 
 if(BUILD_TEST)
   add_subdirectory(Test)
