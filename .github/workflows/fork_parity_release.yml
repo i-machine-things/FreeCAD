@@ -344,8 +344,12 @@ jobs:
           # "Commit metadata not matching expected metadata" install error
           # that occurs when shell $() strips the trailing newline from the
           # metadata file before passing it to ostree --add-metadata-string.
+          # flatpak build-export rejects the Flathub SVG icon as malformed
+          # (runner flatpak is stricter than Flathub's build env). Remove it;
+          # PNG icons at other sizes are still present for app-menu integration.
+          rm -f /tmp/staging/export/share/icons/hicolor/scalable/apps/org.freecad.FreeCAD.svg
           ostree --repo=/tmp/fc-repo init --mode=archive-z2
-          flatpak build-export --disable-checks /tmp/fc-repo /tmp/staging stable
+          flatpak build-export /tmp/fc-repo /tmp/staging stable
 
           BUNDLE="FreeCAD-${FORK_TAG}-Linux-x86_64.flatpak"
           flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
