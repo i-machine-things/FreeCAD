@@ -334,22 +334,18 @@ jobs:
           FORK_N="${FORK_TAG##*.}"
           printf '{"fork_build": %s}\n' "${FORK_N}" > "${MOD}/fork_version.json"
 
-      - name: Commit staged tree to OSTree repo and export bundle
+      - name: Export staged tree to OSTree repo and bundle
         env:
           FORK_TAG: ${{ needs.detect.outputs.fork_tag }}
         run: |
-          # flatpak install validates that the bundle commit's xa.metadata
-          # GVariant field matches the metadata file in the deployed tree.
-          # Plain "ostree commit" omits xa.metadata entirely, causing:
-          #   "Commit metadata for ... not matching expected metadata"
-          # Set it explicitly from the metadata file to pass that check.
-          METADATA_CONTENT=$(cat /tmp/staging/metadata)
+          # flatpak build-export reads the metadata file directly (no shell
+          # substitution) so xa.metadata, xa.ref, xa.installed-size and
+          # xa.download-size are all set correctly — avoiding the
+          # "Commit metadata not matching expected metadata" install error
+          # that occurs when shell $() strips the trailing newline from the
+          # metadata file before passing it to ostree --add-metadata-string.
           ostree --repo=/tmp/fc-repo init --mode=archive-z2
-          ostree --repo=/tmp/fc-repo commit \
-            --branch="app/org.freecad.FreeCAD/x86_64/stable" \
-            --add-metadata-string="xa.metadata=${METADATA_CONTENT}" \
-            --add-metadata-string="xa.ref=app/org.freecad.FreeCAD/x86_64/stable" \
-            /tmp/staging
+          flatpak build-export /tmp/fc-repo /tmp/staging stable
 
           BUNDLE="FreeCAD-${FORK_TAG}-Linux-x86_64.flatpak"
           flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
