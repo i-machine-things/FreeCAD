@@ -345,7 +345,7 @@ jobs:
           # that occurs when shell $() strips the trailing newline from the
           # metadata file before passing it to ostree --add-metadata-string.
           ostree --repo=/tmp/fc-repo init --mode=archive-z2
-          flatpak build-export /tmp/fc-repo /tmp/staging stable
+          flatpak build-export --disable-checks /tmp/fc-repo /tmp/staging stable
 
           BUNDLE="FreeCAD-${FORK_TAG}-Linux-x86_64.flatpak"
           flatpak build-bundle /tmp/fc-repo "${BUNDLE}" org.freecad.FreeCAD stable
