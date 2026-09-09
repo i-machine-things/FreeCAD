@@ -43,9 +43,14 @@ jobs:
           submodules: false
           persist-credentials: false
 
+      # No pinned pixi-version: this repo's root pixi.lock is on lock-file
+      # format v7, which needs a newer pixi CLI than the v0.59.0 pin used by
+      # fork_test_build.yml for the separate package/rattler-build/pixi.lock
+      # (an older-format lock kept there for release-build reproducibility).
+      # Tracking latest keeps this in step with whatever format the root
+      # lockfile is committed at.
       - uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
         with:
-          pixi-version: v0.59.0
           cache: false
 
       # `pixi run configure` depends on the `initialize` task, which runs
