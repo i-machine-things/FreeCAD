@@ -53,6 +53,16 @@ jobs:
         with:
           cache: false
 
+      # The root pixi.toml's CMake preset uses the Ninja generator, which
+      # (unlike the Visual Studio generator) doesn't auto-discover cl.exe —
+      # it needs an already-activated MSVC Developer Command Prompt.
+      # fork_test_build.yml/fork_parity_release.yml never hit this because
+      # they build through package/rattler-build's own recipe, which
+      # activates MSVC itself; this workflow calls the root pixi tasks
+      # directly, so it needs that activation done explicitly.
+      - if: matrix.os == 'windows-latest'
+        uses: ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756 # v1.13.0
+
       # `pixi run configure` depends on the `initialize` task, which runs
       # `git submodule update --init --recursive` itself.
       - name: Configure
