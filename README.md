@@ -23,10 +23,10 @@ This is [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD),
     * Scales exported coordinates to that unit (via the C++ exporter, `ImpExpDxfWrite`).
     * Writes the matching DXF `$INSUNITS` header code, so the file reports its own unit correctly instead of always claiming millimeters.
     * Falls back to an equivalent Python-side scaling path on FreeCAD binaries whose C++ DXF exporter predates this change (detected at runtime via `Import.dxfExporterSupportsUnitScaling()`), so the feature still works without a full rebuild.
-* **Automated build pipeline** (`.github/workflows/`) — this fork publishes its own installable test/nightly builds, independent of and clearly labeled as unofficial vs. the official FreeCAD releases:
-    * Stable Windows installer (NSIS) and Linux (Flatpak/AppImage) builds, tracking official upstream FreeCAD releases.
-    * Per-feature-branch nightly builds for testing in-progress work.
-    * Nightly sync of the fork's `main` with upstream `main`, plus a weekly auto-rebase of the active feature branch, with conflict alerting.
+* **Automated build pipeline** (`.github/workflows/`) — this fork publishes its own installable test builds, independent of and clearly labeled as unofficial vs. the official FreeCAD releases:
+    * Stable Windows installer (NSIS) and Linux (Flatpak) builds, built automatically whenever upstream cuts a new official release (`fork_parity_release.yml`).
+    * On-demand test builds (installer + Flatpak) for any branch, via manual dispatch (`fork_test_build.yml`).
+    * Automatic build-and-test gate on every push to a pull request against `main-dev`, on both Windows and Linux (`fork_pr_test_build.yml`).
 
 Overview
 --------
