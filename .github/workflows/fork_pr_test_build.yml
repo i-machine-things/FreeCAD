@@ -13,7 +13,7 @@ name: Fork PR Build & Test
 
 on:
   pull_request:
-    branches: [main-dev]
+    branches: [release-parity]
     types: [opened, synchronize, reopened]
   workflow_dispatch:
     inputs:

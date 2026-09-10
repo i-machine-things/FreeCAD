@@ -17,7 +17,7 @@
 About This Fork
 ----------------
 
-This is [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD), a personal fork of upstream FreeCAD (`main-dev` branch). It is synced with upstream `main` regularly and carries the following fork-only additions on top:
+This is [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD), a personal fork of upstream FreeCAD. Development happens on `release-parity` (formerly named `main-dev`), which merges in each new official upstream release and carries the following fork-only additions on top. The fork's `main` branch is a separate, plain mirror of upstream `main`'s bleeding-edge tip.
 
 * **DXF export unit scaling** (Draft workbench) — DXF export previously always wrote geometry 1:1 in document units. The scale factor spinbox in `Edit → Preferences → Import-Export → DXF` has been replaced with a unit dropdown (mm / cm / m / in / ft / unitless). Selecting a unit now:
     * Scales exported coordinates to that unit (via the C++ exporter, `ImpExpDxfWrite`).
@@ -26,7 +26,8 @@ This is [i-machine-things/FreeCAD](https://github.com/i-machine-things/FreeCAD),
 * **Automated build pipeline** (`.github/workflows/`) — this fork publishes its own installable test builds, independent of and clearly labeled as unofficial vs. the official FreeCAD releases:
     * Stable Windows installer (NSIS) and Linux (Flatpak) builds, built automatically whenever upstream cuts a new official release (`fork_parity_release.yml`).
     * On-demand test builds (installer + Flatpak) for any branch, via manual dispatch (`fork_test_build.yml`).
-    * Automatic build-and-test gate on every push to a pull request against `main-dev`, on both Windows and Linux (`fork_pr_test_build.yml`).
+    * Automatic build-and-test gate on every push to a pull request against `release-parity`, on both Windows and Linux (`fork_pr_test_build.yml`).
+* **Branch syncing** — `main` fast-forwards to upstream `main`'s tip nightly (`sync_upstream.yml`). `release-parity` merges in each new official upstream release nightly (`sync_release_parity.yml`); on a clean merge it's pushed directly, on a real conflict a PR is opened for manual resolution instead.
 
 Overview
 --------
