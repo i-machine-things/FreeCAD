@@ -1,0 +1,65 @@
+name: Fork PR Build & Test
+
+# Builds and runs the ctest suite against a PR's own branch content, on both
+# Windows and Linux, on every push to the PR. Unlike fork_test_build.yml
+# (which patches a fixed DXF file list onto a clean upstream release,
+# specifically for that narrowly-scoped contribution), this builds whatever
+# is actually on the PR branch via the repo's own pixi configure/build/test
+# tasks, so it validates any change — C++ or Python.
+#
+# This is a pass/fail build gate, not a release: it does not produce a
+# downloadable installer or Flatpak. That remains fork_test_build.yml's job.
+
+on:
+  pull_request:
+    branches: [main-dev]
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: "PR number to build (for re-running against an already-open PR)"
+        required: true
+
+permissions:
+  contents: read
+
+concurrency:
+  group: fork-pr-build-${{ inputs.pr_number || github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  build_and_test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ inputs.pr_number && format('refs/pull/{0}/head', inputs.pr_number) || github.event.pull_request.head.sha }}
+          fetch-depth: 1
+          submodules: false
+          persist-credentials: false
+
+      # No pinned pixi-version: this repo's root pixi.lock is on lock-file
+      # format v7, which needs a newer pixi CLI than the v0.59.0 pin used by
+      # fork_test_build.yml for the separate package/rattler-build/pixi.lock
+      # (an older-format lock kept there for release-build reproducibility).
+      # Tracking latest keeps this in step with whatever format the root
+      # lockfile is committed at.
+      - uses: prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0 # v0.9.5
+        with:
+          cache: false
+
+      # `pixi run configure` depends on the `initialize` task, which runs
+      # `git submodule update --init --recursive` itself.
+      - name: Configure
+        run: pixi run configure
+
+      - name: Build
+        run: pixi run build
+
+      - name: Test
+        run: pixi run test
