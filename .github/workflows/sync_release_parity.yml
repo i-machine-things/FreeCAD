@@ -1,0 +1,113 @@
+name: Sync release-parity with latest upstream release
+
+# Merges upstream FreeCAD's latest official release tag into
+# release-parity, daily. Unlike sync_upstream.yml (which fast-forwards the
+# pure-mirror `main` branch to upstream `main`'s tip), release-parity
+# carries its own fork-only commits (DXF export, ForkUpdater,
+# PreinstalledAddons, CI workflows, etc.) — it's the fork's actual
+# development trunk (formerly named main-dev) — so this always does a
+# real merge — never a rebase, never a force-push to release-parity. A
+# rebase would rewrite its history and break every open PR and branch
+# based on it; this is exactly what fork_auto_rebase.yml did, which is
+# why it was removed.
+#
+# On a clean merge: pushed directly to release-parity.
+# On a real conflict: pushed to a sync/* branch with conflict markers left
+# in place in the affected files, and a PR is opened against
+# release-parity for manual resolution through normal review, instead of
+# a one-off fix here.
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # 05:00 UTC nightly
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Upstream release tag to sync (blank = latest stable)"
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-release-parity
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout release-parity
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: release-parity
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Configure git identity
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+      - name: Resolve target release tag
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_TAG: ${{ inputs.release_tag }}
+        run: |
+          if [ -n "${INPUT_TAG}" ]; then
+            TAG="${INPUT_TAG}"
+          else
+            TAG=$(gh release list --repo FreeCAD/FreeCAD --limit 1 \
+              --exclude-pre-releases --json tagName -q '.[0].tagName')
+          fi
+          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
+          echo "Target release: ${TAG}"
+
+      - name: Fetch release tag
+        run: |
+          git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+          git fetch upstream "refs/tags/${{ steps.resolve.outputs.tag }}" --no-tags
+
+      - name: Skip if already merged
+        id: check
+        run: |
+          if git merge-base --is-ancestor FETCH_HEAD HEAD; then
+            echo "already_merged=true" >> "$GITHUB_OUTPUT"
+            echo "${{ steps.resolve.outputs.tag }} is already merged into release-parity — nothing to do."
+          else
+            echo "already_merged=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Attempt merge
+        id: merge
+        if: steps.check.outputs.already_merged == 'false'
+        run: |
+          if git merge --no-ff FETCH_HEAD -m "Merge upstream release ${{ steps.resolve.outputs.tag }} into release-parity"; then
+            echo "status=clean" >> "$GITHUB_OUTPUT"
+          else
+            echo "status=conflict" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push clean merge to release-parity
+        if: steps.merge.outputs.status == 'clean'
+        run: git push origin release-parity
+
+      - name: Commit conflicted merge and open a PR
+        if: steps.merge.outputs.status == 'conflict'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.resolve.outputs.tag }}
+        run: |
+          BRANCH="sync/release-parity-upstream-${TAG}"
+          git add -A
+          git commit -m "Merge upstream release ${TAG} into release-parity (CONFLICTS — needs manual resolution)"
+          git push origin "HEAD:${BRANCH}" --force-with-lease
+          gh pr create \
+            --repo "${{ github.repository }}" \
+            --base release-parity \
+            --head "${BRANCH}" \
+            --title "Sync release-parity with upstream ${TAG} (has conflicts)" \
+            --body "Automatic sync hit real conflicts merging upstream release \`${TAG}\` into \`release-parity\`. Conflict markers are left in place in the affected files on this branch — resolve them, commit, and merge normally." \
+            || gh pr edit "${BRANCH}" --repo "${{ github.repository }}" --title "Sync release-parity with upstream ${TAG} (has conflicts)"
