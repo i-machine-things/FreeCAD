@@ -1,0 +1,50 @@
+name: Sync fork main with upstream
+
+# Fast-forwards the fork's `main` branch to match upstream FreeCAD's `main`
+# branch tip, nightly. Only ever touches `main` — release-parity is the
+# fork's actual development trunk and is never touched by this workflow.
+#
+# The previous version of this workflow fast-forwarded against the latest
+# upstream *release tag* instead of upstream `main` itself, and failed on
+# every single scheduled run for months: release tags are cut from a
+# separate maintenance line that receives its own independent backport
+# commits, so they're never an ancestor of `main`'s own ongoing history —
+# a --ff-only merge between the two is structurally impossible, not a
+# transient failure that would ever start working on its own.
+#
+# Fork `main` is (and must stay) a pure, unmodified mirror of upstream's
+# own `main` branch, so a --ff-only merge against upstream *main* always
+# succeeds cleanly. If it ever doesn't, that means something pushed a
+# commit to fork main directly — the job fails loudly rather than
+# resolving it silently, which is the correct behavior.
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # 03:00 UTC nightly
+  workflow_dispatch:       # allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout fork main
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Fast-forward to upstream main
+        run: |
+          git remote add upstream https://github.com/FreeCAD/FreeCAD.git
+          git fetch upstream main --no-tags
+          git merge --ff-only upstream/main
+
+      - name: Push to fork
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" main
