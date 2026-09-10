@@ -1,11 +1,12 @@
 name: Fork PR Build & Test
 
-# Builds and runs the ctest suite against a PR's own branch content, on both
-# Windows and Linux, on every push to the PR. Unlike fork_test_build.yml
-# (which patches a fixed DXF file list onto a clean upstream release,
-# specifically for that narrowly-scoped contribution), this builds whatever
-# is actually on the PR branch via the repo's own pixi configure/build/test
-# tasks, so it validates any change — C++ or Python.
+# Builds a PR's own branch content on both Windows and Linux on every push,
+# and runs the ctest suite on Linux (see the Test step below for why not
+# Windows too). Unlike fork_test_build.yml (which patches a fixed DXF file
+# list onto a clean upstream release, specifically for that narrowly-scoped
+# contribution), this builds whatever is actually on the PR branch via the
+# repo's own pixi configure/build/test tasks, so it validates any change —
+# C++ or Python.
 #
 # This is a pass/fail build gate, not a release: it does not produce a
 # downloadable installer or Flatpak. That remains fork_test_build.yml's job.
@@ -71,5 +72,18 @@ jobs:
       - name: Build
         run: pixi run build
 
+      # Full ctest only on Linux. Neither existing fork workflow
+      # (fork_test_build.yml, fork_parity_release.yml) runs ctest at all —
+      # they only ever exercise one targeted script via freecadcmd.exe. On
+      # Windows, running the full suite here surfaced why: several tests
+      # exit with 0xc0000135 (STATUS_DLL_NOT_FOUND, no install step means
+      # the build tree doesn't have every runtime DLL on PATH) and three
+      # Qt-widget tests hang to a 25-minute timeout each with no display —
+      # Linux gets a virtual one for free (xorg-x11-server-xvfb is already
+      # a pixi dependency there), Windows has no equivalent set up in this
+      # repo. Pre-existing gap, unrelated to whatever the PR actually
+      # changed; Configure+Build succeeding on Windows is still real
+      # signal that the CMake/compile side of a change is sound.
       - name: Test
+        if: matrix.os == 'ubuntu-latest'
         run: pixi run test
