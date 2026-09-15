@@ -17,6 +17,19 @@ name: Sync fork main with upstream
 # succeeds cleanly. If it ever doesn't, that means something pushed a
 # commit to fork main directly — the job fails loudly rather than
 # resolving it silently, which is the correct behavior.
+#
+# The push step needs the WORKFLOW_SYNC_PAT repo secret: upstream main
+# occasionally touches its own .github/workflows/*.yml files, and the
+# built-in GITHUB_TOKEN can NEVER push changes to workflow files — GitHub
+# blocks this outright for the Actions bot identity regardless of the
+# `permissions:` block (there is no key that grants it; this is enforced
+# platform-side, not something this workflow can configure around). The fix
+# is a real PAT with the "workflow" scope:
+#   1. https://github.com/settings/tokens -> Generate new token (classic)
+#   2. Scopes: repo, workflow
+#   3. Add it as a repository secret named WORKFLOW_SYNC_PAT
+# Without that secret set, the push step fails fast with a clear message
+# instead of a confusing generic auth error.
 
 on:
   schedule:
@@ -45,6 +58,10 @@ jobs:
 
       - name: Push to fork
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.WORKFLOW_SYNC_PAT }}
         run: |
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "::error::WORKFLOW_SYNC_PAT repo secret is not set. GITHUB_TOKEN can never push .github/workflows/* changes (see the comment at the top of this file) — this job needs a PAT with the 'workflow' scope stored under that secret name."
+            exit 1
+          fi
           git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" main
