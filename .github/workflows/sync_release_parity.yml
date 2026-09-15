@@ -101,7 +101,9 @@ jobs:
 
       - name: Push clean merge to release-parity
         if: steps.merge.outputs.status == 'clean'
-        run: git push origin release-parity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" release-parity
 
       - name: Commit conflicted merge and open a PR
         if: steps.merge.outputs.status == 'conflict'
@@ -112,7 +114,7 @@ jobs:
           BRANCH="sync/release-parity-upstream-${TAG}"
           git add -A
           git commit -m "Merge upstream release ${TAG} into release-parity (CONFLICTS — needs manual resolution)"
-          git push origin "HEAD:${BRANCH}" --force-with-lease
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "HEAD:${BRANCH}" --force-with-lease
           gh pr create \
             --repo "${{ github.repository }}" \
             --base release-parity \
