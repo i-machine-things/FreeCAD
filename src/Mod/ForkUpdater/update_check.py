@@ -197,25 +197,43 @@ def _show_dialog(tag, url):
 def _launch_installer_and_quit(installer_path):
     """Must be called on the main/GUI thread, after the user confirms.
 
-    Closing the main window runs FreeCAD's normal closeEvent (prompting to
-    save any unsaved documents). If that's cancelled, mw.close() returns
-    False and we must not launch the installer — FreeCAD would still be
-    running and holding its own files locked, which breaks the install.
+    Launches the installer *before* closing FreeCAD's main window, not
+    after. MainWindow::closeEvent (src/Gui/MainWindow.cpp) calls qApp->quit()
+    as soon as the close is accepted, which starts tearing down the GUI
+    (including the Report View) — an exception raised by the installer
+    launch after that point has nowhere left to be seen. Launching first and
+    only closing once it's confirmed running keeps failures visible.
     """
     import FreeCADGui
+
+    installer_path = Path(installer_path)
+    try:
+        if not installer_path.exists():
+            raise FileNotFoundError(
+                f"{installer_path} is missing — antivirus may have quarantined "
+                "it after download"
+            )
+        subprocess.Popen(
+            [str(installer_path)],
+            creationflags=subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP,
+            close_fds=True,
+        )
+    except Exception as e:
+        FreeCAD.Console.PrintError(f"ForkUpdater: failed to launch installer: {e}\n")
+        from PySide.QtWidgets import QMessageBox
+        QMessageBox.critical(
+            FreeCADGui.getMainWindow(),
+            "FreeCAD Fork Update Failed",
+            f"Could not launch the installer:\n\n{e}",
+        )
+        return
 
     mw = FreeCADGui.getMainWindow()
     if not mw.close():
         FreeCAD.Console.PrintMessage(
-            "ForkUpdater: install postponed — FreeCAD close was cancelled.\n"
+            "ForkUpdater: installer launched, but FreeCAD is still open "
+            "(close was cancelled) — close it manually to let the install finish.\n"
         )
-        return
-
-    subprocess.Popen(
-        [str(installer_path)],
-        creationflags=subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP,
-        close_fds=True,
-    )
 
 
 def _show_install_ready_dialog(tag, installer_path):
