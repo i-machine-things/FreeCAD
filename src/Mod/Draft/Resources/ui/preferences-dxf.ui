@@ -642,6 +642,75 @@ This might fail for post DXF R12 templates.</string>
         </item>
        </layout>
       </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_ExportUnits">
+        <item>
+         <widget class="QLabel" name="label_dxfExportUnits">
+          <property name="text">
+           <string>Export units</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_ExportUnits">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="Gui::PrefComboBox" name="comboBox_dxfExportUnits">
+          <property name="toolTip">
+           <string>Unit system for the exported DXF file. FreeCAD works in millimeters
+internally; geometry is scaled to the chosen unit on export and
+$INSUNITS is set accordingly in the DXF header.</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Millimeters</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Centimeters</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Meters</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Inches</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Feet</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Unitless</string>
+           </property>
+          </item>
+          <property name="prefEntry" stdset="0">
+           <cstring>dxfExportUnits</cstring>
+          </property>
+          <property name="prefPath" stdset="0">
+           <cstring>Mod/Draft</cstring>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
      </layout>
     </widget>
    </item>
@@ -674,6 +743,11 @@ This might fail for post DXF R12 templates.</string>
   <customwidget>
    <class>Gui::PrefDoubleSpinBox</class>
    <extends>QDoubleSpinBox</extends>
+   <header>Gui/PrefWidgets.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Gui::PrefComboBox</class>
+   <extends>QComboBox</extends>
    <header>Gui/PrefWidgets.h</header>
   </customwidget>
  </customwidgets>

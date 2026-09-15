@@ -44,7 +44,7 @@ class ImportExport SketchExportHelper
 public:
     static TopoDS_Shape projectShape(const TopoDS_Shape& inShape, const gp_Ax2& projectionCS);
     static bool isSketch(App::DocumentObject* obj);
-    static TopoDS_Shape getFlatSketchXY(App::DocumentObject* obj);
+    static TopoDS_Shape getFlatSketchXY(App::DocumentObject* obj, double scale = 1.0);
 };
 
 }  // namespace Import
