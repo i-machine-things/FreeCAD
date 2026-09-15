@@ -4,44 +4,76 @@
   <context>
     <name>App::Property</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="82"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The center point of the helix' start; derived from the reference axis.</source>
       <translation>Mittpunkten för spiralens start; härledd från referensaxeln.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="92"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The helix' direction; derived from the reference axis.</source>
       <translation>Helixens riktning; härledd från referensaxeln.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="99"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The reference axis of the helix.</source>
       <translation>Helixens referensaxel.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="106"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The helix input mode specifies which properties are set by the user.
 Dependent properties are then calculated.</source>
       <translation>Inmatningsläget för helixen anger vilka egenskaper som ska ställas in av användaren.
 Härledda egenskaper beräknas sedan.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="118"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The axial distance between two turns.</source>
       <translation>Det axiella avståndet mellan två varv.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="125"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The height of the helix' path, not accounting for the extent of the profile.</source>
       <translation>Höjden på helixens bana, utan hänsyn till profilens utbredning.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="135"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The number of turns in the helix.</source>
       <translation>Antalet varv i helixen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="143"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The angle of the cone that forms a hull around the helix.
 Non-zero values turn the helix into a conical spiral.
 Positive values make the radius grow, negative shrinks.</source>
@@ -50,83 +82,143 @@ Värden som inte är noll förvandlar skruvlinjen till en konisk spiral.
 Positiva värden gör att radien växer, negativa krymper.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="156"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The growth of the helix' radius per turn.
 Non-zero values turn the helix into a conical spiral.</source>
       <translation>Ökningen av helixens radie per varv.
 Värden som inte är noll förvandlar skruvlinjen till en konisk spiral.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="167"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sets the turning direction to left handed,
 i.e. counter-clockwise when moving along its axis.</source>
       <translation>Ställer in vridriktningen till vänsterhänt,
 dvs. moturs när den rör sig längs sin axel.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="178"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Determines whether the helix points in the opposite direction of the axis.</source>
       <translation>Avgör om helixen pekar i motsatt riktning mot axeln.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="188"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>If set, the result will be the intersection of the profile and the preexisting body.</source>
       <translation>Om den är inställd blir resultatet snittet mellan profilen och den redan befintliga kroppen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="198"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>If false, the tool will propose an initial value for the pitch based on the profile bounding box,
 so that self intersection is avoided.</source>
       <translation>Om false, kommer verktyget att föreslå ett initialt värde för pitch baserat på profilens avgränsningsruta,
 så att självskärning undviks.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="210"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fusion Tolerance for the Helix, increase if helical shape does not merge nicely with part.</source>
       <translation>Fusionstolerans för helixen, öka om helixformen inte smälter samman med detaljen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="108"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Number of gear teeth</source>
       <translation>Antal kugghjulständer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="120"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pressure angle of gear teeth</source>
       <translation>Tryckvinkel på kugghjulständerna</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="114"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Module of the gear</source>
       <translation>Modul för växeln</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="129"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>True=2 curves with each 3 control points, False=1 curve with 4 control points.</source>
       <translation>True=2 kurvor med vardera 3 kontrollpunkter, False=1 kurva med 4 kontrollpunkter.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="137"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>True=external Gear, False=internal Gear</source>
       <translation>Sant=extern växel, falskt=intern växel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="146"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The height of the tooth from the pitch circle up to its tip, normalized by the module.</source>
       <translation>Tandens höjd från delningscirkeln upp till dess spets, normaliserad med modulen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="155"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="153"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The height of the tooth from the pitch circle down to its root, normalized by the module.</source>
       <translation>Tandens höjd från delningscirkeln ner till roten, normaliserad med modulen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="164"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The radius of the fillet at the root of the tooth, normalized by the module.</source>
       <translation>Radien på filén vid tandroten, normaliserad med modulen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="173"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The distance by which the reference profile is shifted outwards, normalized by the module.</source>
       <translation>Avståndet referensprofilen förskjuts utåt, normaliserat av modulen.</translation>
     </message>
@@ -134,17 +226,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignAdditiveHelix</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1677"/>
+=======
+      <location filename="../../Command.cpp" line="1660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>PartDesign</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1678"/>
+=======
+      <location filename="../../Command.cpp" line="1661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Helix</source>
       <translation>Additiv spiral</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1679"/>
+=======
+      <location filename="../../Command.cpp" line="1662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sweeps the selected sketch or profile along a helix and adds it to the body</source>
       <translation>Sveper den valda skissen eller profilen längs en helix och lägger till den i kroppen</translation>
     </message>
@@ -152,17 +256,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignAdditiveLoft</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1578"/>
+=======
+      <location filename="../../Command.cpp" line="1561"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1579"/>
+=======
+      <location filename="../../Command.cpp" line="1562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Loft</source>
       <translation>Additivt loft</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1580"/>
+=======
+      <location filename="../../Command.cpp" line="1563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Lofts the selected sketch or profile along a path and adds it to the body</source>
       <translation>Loftar den valda skissen eller profilen längs en bana och lägger till den i kroppen</translation>
     </message>
@@ -170,17 +286,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignAdditivePipe</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1478"/>
+=======
+      <location filename="../../Command.cpp" line="1461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1479"/>
+=======
+      <location filename="../../Command.cpp" line="1462"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Pipe</source>
       <translation>Additiv rörledning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1480"/>
+=======
+      <location filename="../../Command.cpp" line="1463"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sweeps the selected sketch or profile along a path and adds it to the body</source>
       <translation>Sveper den valda skissen eller profilen längs en bana och lägger till den i kroppen</translation>
     </message>
@@ -188,17 +316,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignBody</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="93"/>
+=======
+      <location filename="../../CommandBody.cpp" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="94"/>
+=======
+      <location filename="../../CommandBody.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>New Body</source>
       <translation>Ny kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="95"/>
+=======
+      <location filename="../../CommandBody.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a new body and activates it</source>
       <translation>Skapar en ny kropp och aktiverar den</translation>
     </message>
@@ -206,17 +346,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignBoolean</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2599"/>
+=======
+      <location filename="../../Command.cpp" line="2576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2600"/>
+=======
+      <location filename="../../Command.cpp" line="2577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean Operation</source>
       <translation>Boolesk operation</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2601"/>
+=======
+      <location filename="../../Command.cpp" line="2578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Applies boolean operations with the selected objects and the active body</source>
       <translation>Tillämpar booleska operationer med de valda objekten och den aktiva kroppen</translation>
     </message>
@@ -224,17 +376,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignCS</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="283"/>
+=======
+      <location filename="../../Command.cpp" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="284"/>
+=======
+      <location filename="../../Command.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Local Coordinate System</source>
       <translation>Lokalt koordinatsystem</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="285"/>
+=======
+      <location filename="../../Command.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a new local coordinate system</source>
       <translation>Skapar ett nytt lokalt koordinatsystem</translation>
     </message>
@@ -242,17 +406,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignChamfer</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2005"/>
+=======
+      <location filename="../../Command.cpp" line="1987"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2006"/>
+=======
+      <location filename="../../Command.cpp" line="1988"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Chamfer</source>
       <translation>Fasa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2007"/>
+=======
+      <location filename="../../Command.cpp" line="1989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Applies a chamfer to the selected edges or faces</source>
       <translation>Applicerar en avfasning på de valda kanterna eller ytorna</translation>
     </message>
@@ -260,17 +436,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignClone</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="493"/>
+=======
+      <location filename="../../Command.cpp" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="494"/>
+=======
+      <location filename="../../Command.cpp" line="490"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Clone</source>
       <translation>Klona</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="495"/>
+=======
+      <location filename="../../Command.cpp" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Copies a solid object parametrically as the base feature of a new body</source>
       <translation>Kopierar ett solidt objekt parametriskt som basfunktion för en ny kropp</translation>
     </message>
@@ -278,17 +466,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignDraft</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2034"/>
+=======
+      <location filename="../../Command.cpp" line="2016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2035"/>
+=======
+      <location filename="../../Command.cpp" line="2017"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Draft</source>
       <translation>Släppning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2036"/>
+=======
+      <location filename="../../Command.cpp" line="2018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Applies a draft to the selected faces</source>
       <translation>Tillämpar en släppning på de markerade ytorna</translation>
     </message>
@@ -296,17 +496,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignDuplicateSelection</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="754"/>
+=======
+      <location filename="../../CommandBody.cpp" line="755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="755"/>
+=======
+      <location filename="../../CommandBody.cpp" line="756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Duplicate &amp;Object</source>
       <translation>Duplicera &amp;objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="756"/>
+=======
+      <location filename="../../CommandBody.cpp" line="757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Duplicates the selected object and adds it to the active body</source>
       <translation>Duplicerar det markerade objektet och lägger till det till aktiva kroppen</translation>
     </message>
@@ -314,17 +526,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignFillet</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1977"/>
+=======
+      <location filename="../../Command.cpp" line="1959"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1978"/>
+=======
+      <location filename="../../Command.cpp" line="1960"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fillet</source>
       <translation>Avrundning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1979"/>
+=======
+      <location filename="../../Command.cpp" line="1961"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Applies a fillet to the selected edges or faces</source>
       <translation>Applicerar en avfasning på de valda kanterna eller ytorna</translation>
     </message>
@@ -332,17 +556,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignGroove</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1408"/>
+=======
+      <location filename="../../Command.cpp" line="1391"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1409"/>
+=======
+      <location filename="../../Command.cpp" line="1392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Groove</source>
       <translation>Skåra</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1410"/>
+=======
+      <location filename="../../Command.cpp" line="1393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Revolves the sketch or profile around a line or axis and removes it from the body</source>
       <translation>Vrider skissen eller profilen runt en linje eller axel och tar bort den från kroppen</translation>
     </message>
@@ -350,17 +586,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignHole</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1301"/>
+=======
+      <location filename="../../Command.cpp" line="1284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1302"/>
+=======
+      <location filename="../../Command.cpp" line="1285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole</source>
       <translation>Hål</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1304"/>
+=======
+      <location filename="../../Command.cpp" line="1287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates holes in the active body at the center points of circles or arcs of the selected sketch or profile</source>
       <translation>Skapar hål i den aktiva kroppen vid mittpunkterna för cirklar eller bågar i den valda skissen eller profilen</translation>
     </message>
@@ -368,17 +616,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignLine</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="223"/>
+=======
+      <location filename="../../Command.cpp" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="224"/>
+=======
+      <location filename="../../Command.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Datum Line</source>
       <translation>Referenspunktslinje</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="225"/>
+=======
+      <location filename="../../Command.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a new datum line</source>
       <translation>Skapar en ny referenspunktslinje</translation>
     </message>
@@ -386,17 +646,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignLinearPattern</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2289"/>
+=======
+      <location filename="../../Command.cpp" line="2271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2290"/>
+=======
+      <location filename="../../Command.cpp" line="2272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Linear Pattern</source>
       <translation>Linjärt mönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2291"/>
+=======
+      <location filename="../../Command.cpp" line="2273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Duplicates the selected features or the active body in a linear pattern</source>
       <translation>Duplicerar de valda objekten eller den aktiva kroppen i ett linjärt mönster</translation>
     </message>
@@ -404,17 +676,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignMigrate</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="389"/>
+=======
+      <location filename="../../CommandBody.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="390"/>
+=======
+      <location filename="../../CommandBody.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Migrate</source>
       <translation>Migrera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="391"/>
+=======
+      <location filename="../../CommandBody.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Migrates the document to the modern Part Design workflow</source>
       <translation>Migrerar dokumentet till det moderna arbetsflödet för detaljkonstruktion</translation>
     </message>
@@ -422,17 +706,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignMirrored</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2232"/>
+=======
+      <location filename="../../Command.cpp" line="2214"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2233"/>
+=======
+      <location filename="../../Command.cpp" line="2215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Mirror</source>
       <translation>Spegel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2234"/>
+=======
+      <location filename="../../Command.cpp" line="2216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Mirrors the selected features or active body</source>
       <translation>Speglar de valda funktionerna eller den aktiva kroppen</translation>
     </message>
@@ -440,17 +736,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignMoveFeature</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="822"/>
+=======
+      <location filename="../../CommandBody.cpp" line="821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="823"/>
+=======
+      <location filename="../../CommandBody.cpp" line="822"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move Object To…</source>
       <translation>Flytta objektet till..</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="824"/>
+=======
+      <location filename="../../CommandBody.cpp" line="823"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Moves the selected object to another body</source>
       <translation>Flyttar det markerade objektet till en annan kropp</translation>
     </message>
@@ -458,17 +766,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignMoveFeatureInTree</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1019"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1020"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1017"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move Feature After…</source>
       <translation>Flytta funktionen efter..</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1021"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Moves the selected feature after another feature in the same body</source>
       <translation>Flyttar den valda funktionen efter en annan funktion i samma kropp</translation>
     </message>
@@ -476,17 +796,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignMoveTip</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="655"/>
+=======
+      <location filename="../../CommandBody.cpp" line="658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="656"/>
+=======
+      <location filename="../../CommandBody.cpp" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Set Tip</source>
       <translation>Ange spets</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="657"/>
+=======
+      <location filename="../../CommandBody.cpp" line="660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Moves the tip of the body to the selected feature</source>
       <translation>Flyttar kroppens spets till det valda formelementet</translation>
     </message>
@@ -494,17 +826,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignMultiTransform</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2468"/>
+=======
+      <location filename="../../Command.cpp" line="2445"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2469"/>
+=======
+      <location filename="../../Command.cpp" line="2446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Multi-Transform</source>
       <translation>Flera transformationer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2470"/>
+=======
+      <location filename="../../Command.cpp" line="2447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Applies multiple transformations to the selected features or active body</source>
       <translation>Tillämpar flera transformationer på de valda objekten eller den aktiva kroppen</translation>
     </message>
@@ -530,17 +874,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignPad</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1243"/>
+=======
+      <location filename="../../Command.cpp" line="1226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1244"/>
+=======
+      <location filename="../../Command.cpp" line="1227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pad</source>
       <translation>Solidifiera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1245"/>
+=======
+      <location filename="../../Command.cpp" line="1228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Extrudes the selected sketch or profile and adds it to the body</source>
       <translation>Extrudera den valda skissen eller profilen och lägg till den på kroppen</translation>
     </message>
@@ -548,17 +904,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignPlane</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="193"/>
+=======
+      <location filename="../../Command.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="194"/>
+=======
+      <location filename="../../Command.cpp" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Datum Plane</source>
       <translation>Referenspunktsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="195"/>
+=======
+      <location filename="../../Command.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a new datum plane</source>
       <translation>Skapar ett nytt referensplan</translation>
     </message>
@@ -566,17 +934,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignPocket</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1272"/>
+=======
+      <location filename="../../Command.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1273"/>
+=======
+      <location filename="../../Command.cpp" line="1256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pocket</source>
       <translation>Ficka</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1274"/>
+=======
+      <location filename="../../Command.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Extrudes the selected sketch or profile and removes it from the body</source>
       <translation>Extruderar den valda skissen eller profilen och avlägsnar den från kroppen</translation>
     </message>
@@ -584,17 +964,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignPoint</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="253"/>
+=======
+      <location filename="../../Command.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="254"/>
+=======
+      <location filename="../../Command.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Datum Point</source>
       <translation>Referenspunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="255"/>
+=======
+      <location filename="../../Command.cpp" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a new datum point</source>
       <translation>Skapar en ny referenspunkt</translation>
     </message>
@@ -602,17 +994,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignPolarPattern</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2363"/>
+=======
+      <location filename="../../Command.cpp" line="2340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2364"/>
+=======
+      <location filename="../../Command.cpp" line="2341"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Polar Pattern</source>
       <translation>Polärt mönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2365"/>
+=======
+      <location filename="../../Command.cpp" line="2342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Duplicates the selected features or the active body in a circular pattern</source>
       <translation>Duplicerar de valda objekten eller den aktiva kroppen i ett cirkulärt mönster</translation>
     </message>
@@ -620,17 +1024,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignRevolution</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1346"/>
+=======
+      <location filename="../../Command.cpp" line="1329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1347"/>
+=======
+      <location filename="../../Command.cpp" line="1330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Revolve</source>
       <translation>Revolvera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1348"/>
+=======
+      <location filename="../../Command.cpp" line="1331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Revolves the selected sketch or profile around a line or axis and adds it to the body</source>
       <translation>Rotera den valda skissen eller profilen runt en linje eller axel och lägg till den i kroppen</translation>
     </message>
@@ -638,17 +1054,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignScaled</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2425"/>
+=======
+      <location filename="../../Command.cpp" line="2402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2426"/>
+=======
+      <location filename="../../Command.cpp" line="2403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Scale</source>
       <translation>Skala</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2427"/>
+=======
+      <location filename="../../Command.cpp" line="2404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Scales the selected features or the active body</source>
       <translation>Skalar de valda funktionerna eller den aktiva kroppen</translation>
     </message>
@@ -656,17 +1084,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignShapeBinder</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="317"/>
+=======
+      <location filename="../../Command.cpp" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>PartDesign</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="318"/>
+=======
+      <location filename="../../Command.cpp" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shape Binder</source>
       <translation>Formbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="319"/>
+=======
+      <location filename="../../Command.cpp" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a new shape binder</source>
       <translation>Skapar en ny formbindare</translation>
     </message>
@@ -674,17 +1114,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignSubShapeBinder</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="387"/>
+=======
+      <location filename="../../Command.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>PartDesign</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="388"/>
+=======
+      <location filename="../../Command.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sub-Shape Binder</source>
       <translation>Underformbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="389"/>
+=======
+      <location filename="../../Command.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a reference to geometry from one or more objects, allowing it to be used inside or outside a body. It tracks relative placements, supports multiple geometry types (solids, faces, edges, vertices), and can work with objects in the same or external documents.</source>
       <translation>Skapar en referens till geometri från ett eller flera objekt, så att den kan användas inuti eller utanför en kropp. Den spårar relativa placeringar, stöder flera geometrityper (solider, ytor, kanter, hörn) och kan arbeta med objekt i samma eller externa dokument.</translation>
     </message>
@@ -692,17 +1144,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignSubtractiveHelix</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1761"/>
+=======
+      <location filename="../../Command.cpp" line="1744"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1762"/>
+=======
+      <location filename="../../Command.cpp" line="1745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Helix</source>
       <translation>Subtraktiv helix</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1763"/>
+=======
+      <location filename="../../Command.cpp" line="1746"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sweeps the selected sketch or profile along a helix and removes it from the body</source>
       <translation>Sveper den valda skissen eller profilen längs en spiral och avlägsnar den från kroppen</translation>
     </message>
@@ -710,17 +1174,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignSubtractiveLoft</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1628"/>
+=======
+      <location filename="../../Command.cpp" line="1611"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1629"/>
+=======
+      <location filename="../../Command.cpp" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Loft</source>
       <translation>Subtraktivt loft</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1630"/>
+=======
+      <location filename="../../Command.cpp" line="1613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Lofts the selected sketch or profile along a path and removes it from the body</source>
       <translation>Lyfter den valda skissen eller profilen längs en bana och avlägsnar den från kroppen</translation>
     </message>
@@ -728,17 +1204,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignSubtractivePipe</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1528"/>
+=======
+      <location filename="../../Command.cpp" line="1511"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1529"/>
+=======
+      <location filename="../../Command.cpp" line="1512"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Pipe</source>
       <translation>Subtraktivt rör</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1530"/>
+=======
+      <location filename="../../Command.cpp" line="1513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sweeps the selected sketch or profile along a path and removes it from the body</source>
       <translation>Sveper den valda skissen eller profilen längs en bana och avlägsnar den från kroppen</translation>
     </message>
@@ -746,17 +1234,29 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPartDesignThickness</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2104"/>
+=======
+      <location filename="../../Command.cpp" line="2086"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2105"/>
+=======
+      <location filename="../../Command.cpp" line="2087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Thickness</source>
       <translation>Tjocklek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2106"/>
+=======
+      <location filename="../../Command.cpp" line="2088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Applies thickness and removes the selected faces</source>
       <translation>Applicerar tjocklek och tar bort de markerade ytorna</translation>
     </message>
@@ -764,57 +1264,101 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPrimtiveCompAdditive</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="76"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="77"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Primitive</source>
       <translation>Additiv primitiv</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="78"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive primitive</source>
       <translation>Skapar en additiv primitiv</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="215"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Box</source>
       <translation>Additiv låda</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="224"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Cylinder</source>
       <translation>Additiv cylinder</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="233"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Sphere</source>
       <translation>Additiv sfär</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="242"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Cone</source>
       <translation>Additiv kon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="248"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Ellipsoid</source>
       <translation>Additiv ellipsoid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="254"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Torus</source>
       <translation>Additiv torus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="260"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Prism</source>
       <translation>Additivt prisma</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="266"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Additive Wedge</source>
       <translation>Additiv kil</translation>
     </message>
@@ -822,57 +1366,101 @@ så att självskärning undviks.</translation>
   <context>
     <name>CmdPrimtiveCompSubtractive</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="284"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>PartDesign</source>
       <translation>Detaljkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="285"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Primitive</source>
       <translation>Subtraktiv primitiv</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="286"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive primitive</source>
       <translation>Skapar en subtraktiv primitiv</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="400"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Box</source>
       <translation>Subtraktiv låda</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="409"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Cylinder</source>
       <translation>Subtraktiv cylinder</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="418"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Sphere</source>
       <translation>Subtraktiv sfär</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="427"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Cone</source>
       <translation>Subtraktiv kon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="433"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Ellipsoid</source>
       <translation>Subtraktiv ellipsoid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="439"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Torus</source>
       <translation>Subtraktiv torus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="445"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Prism</source>
       <translation>Subtraktivt prisma</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="451"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Subtractive Wedge</source>
       <translation>Subtraktiv kil</translation>
     </message>
@@ -880,104 +1468,186 @@ så att självskärning undviks.</translation>
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="339"/>
+=======
+      <location filename="../../Command.cpp" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Shape Binder</source>
       <translation>Redigera formbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="350"/>
+=======
+      <location filename="../../Command.cpp" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Shape Binder</source>
       <translation>Skapa formbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="443"/>
+=======
+      <location filename="../../Command.cpp" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Sub-Shape Binder</source>
       <translation>Skapa underformbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="513"/>
+=======
+      <location filename="../../Command.cpp" line="508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Clone</source>
       <translation>Skapa klon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1127"/>
+=======
+      <location filename="../../Command.cpp" line="1110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Make Copy</source>
       <translation>Gör kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2523"/>
+=======
+      <location filename="../../Command.cpp" line="2500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Convert to Multi-Transform feature</source>
       <translation>Konvertera till flertransformativ funktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="266"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sketch on Face</source>
       <translation>Skissa på yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="328"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Make copy</source>
       <translation>Gör en kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="530"/>
       <location filename="../../SketchWorkflow.cpp" line="807"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="516"/>
+      <location filename="../../SketchWorkflow.cpp" line="772"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>New Sketch</source>
       <translation>Ny skiss</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2620"/>
+=======
+      <location filename="../../Command.cpp" line="2597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Boolean</source>
       <translation>Skapa Boolean</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="221"/>
       <location filename="../../DlgActiveBody.cpp" line="102"/>
+=======
+      <location filename="../../CommandBody.cpp" line="222"/>
+      <location filename="../../DlgActiveBody.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add a Body</source>
       <translation>Lägg till en kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="526"/>
+=======
+      <location filename="../../CommandBody.cpp" line="523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Migrate legacy Part Design features to bodies</source>
       <translation>Migrera äldre funktioner för Part Design till kroppar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="768"/>
+=======
+      <location filename="../../CommandBody.cpp" line="769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Duplicate a Part Design object</source>
       <translation>Duplicera ett Part Design-objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1113"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move a feature inside body</source>
       <translation>Flytta en funktion inuti kroppen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="722"/>
+=======
+      <location filename="../../CommandBody.cpp" line="723"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move tip to selected feature</source>
       <translation>Flytta spetsen till vald funktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="927"/>
+=======
+      <location filename="../../CommandBody.cpp" line="926"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move an object</source>
       <translation>Flytta ett objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="261"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Mirror</source>
       <translation>Spegel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="301"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Linear Pattern</source>
       <translation>Linjärt mönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="350"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Polar Pattern</source>
       <translation>Polärt mönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="389"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Scale</source>
       <translation>Skala</translation>
     </message>
@@ -985,32 +1655,56 @@ så att självskärning undviks.</translation>
   <context>
     <name>Gui::TaskView::TaskWatcherCommands</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="55"/>
+=======
+      <location filename="../../Workbench.cpp" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Face Tools</source>
       <translation>Ytverktyg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="56"/>
+=======
+      <location filename="../../Workbench.cpp" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edge Tools</source>
       <translation>Kantverktyg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="57"/>
+=======
+      <location filename="../../Workbench.cpp" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean Tools</source>
       <translation>Booleska verktyg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="58"/>
+=======
+      <location filename="../../Workbench.cpp" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Helper Tools</source>
       <translation>Hjälpverktyg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="59"/>
+=======
+      <location filename="../../Workbench.cpp" line="57"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Modeling Tools</source>
       <translation>Verktyg för modellering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="60"/>
+=======
+      <location filename="../../Workbench.cpp" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Geometry</source>
       <translation>Skapa Geometri</translation>
     </message>
@@ -1100,9 +1794,15 @@ Välj en kropp nedan eller skapa en ny kropp.</translation>
       <translation>Skapa ny kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../DlgActiveBody.cpp" line="53"/>
       <source>Select an active body</source>
       <translation>Välj en aktiv kropp</translation>
+=======
+      <location filename="../../DlgActiveBody.cpp" line="52"/>
+      <source>Please select</source>
+      <translation>Välj</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
     </message>
   </context>
   <context>
@@ -1390,7 +2090,11 @@ Om noll, är den lika med Radius2</translation>
   <context>
     <name>PartDesignGui::NoDependentsSelection</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ReferenceSelection.cpp" line="287"/>
+=======
+      <location filename="../../ReferenceSelection.cpp" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Selecting this will cause circular dependency.</source>
       <translation>Om du väljer detta kommer det att leda till ett cirkulärt beroende.</translation>
     </message>
@@ -1423,12 +2127,20 @@ Om noll, är den lika med Radius2</translation>
       <translation>Snitt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskBooleanParameters.cpp" line="53"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean Parameters</source>
       <translation>Boolesk parameter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskBooleanParameters.cpp" line="84"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
@@ -1441,6 +2153,7 @@ Om noll, är den lika med Radius2</translation>
       <translation>Parametrar för subtraktiv låda</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPrimitiveParameters.cpp" line="99"/>
       <source>Additive Box Parameters</source>
       <translation>Parametrar för additiv låda</translation>
@@ -1529,26 +2242,47 @@ Om noll, är den lika med Radius2</translation>
       <location filename="../../TaskPrimitiveParameters.cpp" line="1024"/>
       <location filename="../../TaskPrimitiveParameters.cpp" line="1032"/>
       <location filename="../../TaskPrimitiveParameters.cpp" line="1040"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="932"/>
+      <location filename="../../TaskPrimitiveParameters.cpp" line="940"/>
+      <location filename="../../TaskPrimitiveParameters.cpp" line="948"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Invalid wedge parameters</source>
       <translation>Ogiltiga kilparametrar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPrimitiveParameters.cpp" line="1025"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="933"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>X min must not be equal to X max!</source>
       <translation>X min får inte vara samma som  X max!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPrimitiveParameters.cpp" line="1033"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="941"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Y min must not be equal to Y max!</source>
       <translation>Y min får inte vara samma som Y max!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPrimitiveParameters.cpp" line="1041"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="949"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Z min must not be equal to Z max!</source>
       <translation>Z min får inte vara samma som Z max!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPrimitiveParameters.cpp" line="1083"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create primitive</source>
       <translation>Skapa primitiv</translation>
     </message>
@@ -1628,7 +2362,11 @@ Om noll, är den lika med Radius2</translation>
       <translation>Vinkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskChamferParameters.cpp" line="346"/>
+=======
+      <location filename="../../TaskChamferParameters.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Empty chamfer created!
 </source>
       <translation>Tom avfasning skapad!
@@ -1638,17 +2376,30 @@ Om noll, är den lika med Radius2</translation>
   <context>
     <name>PartDesignGui::TaskDlgBooleanParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskBooleanParameters.cpp" line="386"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="384"/>
+      <source>Empty body list</source>
+      <translation>Lista över tomma kroppar</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBooleanParameters.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The body list cannot be empty</source>
       <translation>Kroppslistan får inte vara tom</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskBooleanParameters.cpp" line="386"/>
       <source>Empty Body List</source>
       <translation>Töm kropplista</translation>
     </message>
     <message>
       <location filename="../../TaskBooleanParameters.cpp" line="407"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean: Accept: Input error</source>
       <translation>Boolesk: Acceptera: Fel vid inmatning</translation>
     </message>
@@ -1656,14 +2407,49 @@ Om noll, är den lika med Radius2</translation>
   <context>
     <name>PartDesignGui::TaskDlgDatumParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDatumParameters.cpp" line="107"/>
+=======
+      <location filename="../../TaskDatumParameters.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Incompatible Reference Set</source>
       <translation>Inkompatibel referensuppsättning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDatumParameters.cpp" line="109"/>
       <source>There is no attachment mode that fits the current set of references. If you choose to continue, the feature will remain where it is now, and will not be moved as the references change. Continue?</source>
       <translation>Det finns inget fastsättningsläge som passar den nuvarande uppsättningen referenser. Om du väljer att fortsätta kommer funktionen att ligga kvar där den är nu och kommer inte att flyttas när referenserna ändras. Fortsätt?</translation>
+=======
+      <location filename="../../TaskDatumParameters.cpp" line="107"/>
+      <source>There is no attachment mode that fits the current set of references. If you choose to continue, the feature will remain where it is now, and will not be moved as the references change. Continue?</source>
+      <translation>Det finns inget fastsättningsläge som passar den nuvarande uppsättningen referenser. Om du väljer att fortsätta kommer funktionen att ligga kvar där den är nu och kommer inte att flyttas när referenserna ändras. Fortsätta?</translation>
+    </message>
+  </context>
+  <context>
+    <name>PartDesignGui::TaskDlgFeatureParameters</name>
+    <message>
+      <location filename="../../TaskFeatureParameters.cpp" line="228"/>
+      <source>The feature could not be created with the given parameters.
+The geometry may be invalid or the parameters may be incompatible.
+Please adjust the parameters and try again.</source>
+      <translation>Funktionen kunde inte skapas med de angivna parametrarna.
+Geometrin kan vara ogiltig eller parametrarna kan vara inkompatibla.
+Justera parametrarna och försök igen.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFeatureParameters.cpp" line="235"/>
+      <source>Input error</source>
+      <translation>Inmatningsfel</translation>
+    </message>
+  </context>
+  <context>
+    <name>PartDesignGui::TaskDlgShapeBinder</name>
+    <message>
+      <location filename="../../TaskShapeBinder.cpp" line="440"/>
+      <source>Input error</source>
+      <translation>Inmatningsfel</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
     </message>
   </context>
   <context>
@@ -1706,7 +2492,11 @@ Om noll, är den lika med Radius2</translation>
       <translation>Omvänd släppningens riktning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDraftParameters.cpp" line="304"/>
+=======
+      <location filename="../../TaskDraftParameters.cpp" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Empty draft created!
 </source>
       <translation>Tom släppning skapad!
@@ -1716,27 +2506,47 @@ Om noll, är den lika med Radius2</translation>
   <context>
     <name>PartDesignGui::TaskDressUpParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDressUpParameters.cpp" line="302"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select</source>
       <translation>Välj</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDressUpParameters.cpp" line="307"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Confirm Selection</source>
       <translation>Bekräfta val</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDressUpParameters.cpp" line="320"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add All Edges</source>
       <translation>Lägg till alla kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDressUpParameters.cpp" line="326"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Adds all edges to the list box (only when in add selection mode)</source>
       <translation>Lägger till alla kanter i listboxen (endast när du är i Add Selection-läge)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskDressUpParameters.cpp" line="335"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
@@ -1744,79 +2554,141 @@ Om noll, är den lika med Radius2</translation>
   <context>
     <name>PartDesignGui::TaskExtrudeParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="1374"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1372"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No face selected</source>
       <translation>Ingen yta markerad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="173"/>
       <location filename="../../TaskExtrudeParameters.cpp" line="1143"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="171"/>
+      <location filename="../../TaskExtrudeParameters.cpp" line="1141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Face</source>
       <translation>Yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="77"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="354"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Preview</source>
       <translation>Förhandsvisa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="358"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select Faces</source>
       <translation>Välj ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="694"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select reference…</source>
       <translation>Välj referens...</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="604"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="602"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No shape selected</source>
       <translation>Ingen form vald</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="687"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sketch normal</source>
       <translation>Skissnormal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="690"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Face normal</source>
       <translation>Yta normal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="698"/>
       <location filename="../../TaskExtrudeParameters.cpp" line="701"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="696"/>
+      <location filename="../../TaskExtrudeParameters.cpp" line="699"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Custom direction</source>
       <translation>Anpassad riktning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="1090"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Click on a shape in the model</source>
       <translation>Klicka på en form i modellen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="1361"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>One sided</source>
       <translation>Enkelsidig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="1362"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Two sided</source>
       <translation>Dubbelsidig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="1363"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Symmetric</source>
       <translation>Symmetrisk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskExtrudeParameters.cpp" line="1369"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Click on a face in the model</source>
       <translation>Klicka på en yta i modellen</translation>
     </message>
@@ -1904,9 +2776,15 @@ Om noll, är den lika med Radius2</translation>
       <translation>Formelementet är placerad efter kroppens ändpunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskFeaturePick.cpp" line="97"/>
       <source>Select Attachment</source>
       <translation>Välj koppling</translation>
+=======
+      <location filename="../../TaskFeaturePick.cpp" line="95"/>
+      <source>Select attachment</source>
+      <translation>Välj bilaga</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
     </message>
   </context>
   <context>
@@ -1953,37 +2831,61 @@ Om noll, är den lika med Radius2</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="48"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="261"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base X-axis</source>
       <translation>Bas X-axel</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="53"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="262"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base Y-axis</source>
       <translation>Bas Y-axel</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="58"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="263"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base Z-axis</source>
       <translation>Bas Z-axel</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="63"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="245"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Horizontal sketch axis</source>
       <translation>Horisontell skissaxel</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="68"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="244"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Vertical sketch axis</source>
       <translation>Vertikal skissaxel</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="73"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="243"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Normal sketch axis</source>
       <translation>Normal skissaxel</translation>
     </message>
@@ -1999,7 +2901,11 @@ Om noll, är den lika med Radius2</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="78"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="228"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select reference…</source>
       <translation>Välj referens..</translation>
     </message>
@@ -2074,6 +2980,7 @@ Om noll, är den lika med Radius2</translation>
       <translation>Ta bort utanför profilen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="71"/>
       <source>Subtractive Helix Parameters</source>
       <translation>Parametrar för subtraktiv helix</translation>
@@ -2085,21 +2992,41 @@ Om noll, är den lika med Radius2</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.cpp" line="247"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="55"/>
+      <source>Helix Parameters</source>
+      <translation>Helix-parametrar</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHelixParameters.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Construction line %1</source>
       <translation>Konstruktionslinje %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="315"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Warning: helix might be self intersecting</source>
       <translation>Varning: Helixen kan vara självskärande</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="320"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: helix touches itself</source>
       <translation>Fel: Helix rör vid sig själv</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHelixParameters.cpp" line="372"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: unsupported mode</source>
       <translation>Fel: läge som inte stöds</translation>
     </message>
@@ -2182,55 +3109,91 @@ Om noll, är den lika med Radius2</translation>
       <translation>ISO-däckventiler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="712"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Medium</source>
       <comment>Distance between thread crest and hole wall, use ISO-273 nomenclature or equivalent if possible</comment>
       <translation>Medium</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="716"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fine</source>
       <comment>Distance between thread crest and hole wall, use ISO-273 nomenclature or equivalent if possible</comment>
       <translation>Finkornig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="720"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Coarse</source>
       <comment>Distance between thread crest and hole wall, use ISO-273 nomenclature or equivalent if possible</comment>
       <translation>Grovkornig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="726"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Normal</source>
       <comment>Distance between thread crest and hole wall, use ASME B18.2.8 nomenclature or equivalent if possible</comment>
       <translation>Normal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="730"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Close</source>
       <comment>Distance between thread crest and hole wall, use ASME B18.2.8 nomenclature or equivalent if possible</comment>
       <translation>Stäng</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="734"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Loose</source>
       <comment>Distance between thread crest and hole wall, use ASME B18.2.8 nomenclature or equivalent if possible</comment>
       <translation>Lös</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="738"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Normal</source>
       <comment>Distance between thread crest and hole wall</comment>
       <translation>Normal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="739"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="705"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Close</source>
       <comment>Distance between thread crest and hole wall</comment>
       <translation>Stäng</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskHoleParameters.cpp" line="740"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="706"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Wide</source>
       <comment>Distance between thread crest and hole wall</comment>
       <translation>Bred</translation>
@@ -2279,6 +3242,7 @@ Om noll, är den lika med Radius2</translation>
       <translation>Omräkning vid ändring</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskLoftParameters.cpp" line="64"/>
       <source>Subtractive Loft Parameters</source>
       <translation>Parametrar för subtraktivt loft</translation>
@@ -2290,6 +3254,14 @@ Om noll, är den lika med Radius2</translation>
     </message>
     <message>
       <location filename="../../TaskLoftParameters.cpp" line="94"/>
+=======
+      <location filename="../../TaskLoftParameters.cpp" line="48"/>
+      <source>Loft Parameters</source>
+      <translation>Loft Parametrar</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLoftParameters.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
@@ -2302,7 +3274,11 @@ Om noll, är den lika med Radius2</translation>
       <translation>Plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMirroredParameters.cpp" line="186"/>
+=======
+      <location filename="../../TaskMirroredParameters.cpp" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error</source>
       <translation>Fel</translation>
     </message>
@@ -2320,47 +3296,71 @@ Om noll, är den lika med Radius2</translation>
       <translation>OK</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="71"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit</source>
       <translation>Redigera</translation>
     </message>
     <message>
-      <location filename="../../TaskMultiTransformParameters.cpp" line="74"/>
+      <location filename="../../TaskMultiTransformParameters.cpp" line="72"/>
       <source>Delete</source>
       <translation>Ta bort</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="77"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add Mirror Transformation</source>
       <translation>Lägg till spegeltransformation</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="85"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add Linear Pattern</source>
       <translation>Lägg till linjärt mönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="93"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add Polar Pattern</source>
       <translation>Lägg till polär mönsterbild</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="101"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add Scale Transformation</source>
       <translation>Lägg till skalningstransformation</translation>
     </message>
     <message>
-      <location filename="../../TaskMultiTransformParameters.cpp" line="104"/>
+      <location filename="../../TaskMultiTransformParameters.cpp" line="102"/>
       <source>Move Up</source>
       <translation>Flytta upp</translation>
     </message>
     <message>
-      <location filename="../../TaskMultiTransformParameters.cpp" line="107"/>
+      <location filename="../../TaskMultiTransformParameters.cpp" line="105"/>
       <source>Move Down</source>
       <translation>Flytta ner</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskMultiTransformParameters.cpp" line="139"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Right-click to add a transformation</source>
       <translation>Högerklicka för att lägga till en transformation</translation>
     </message>
@@ -2671,6 +3671,7 @@ mätas längs den angivna riktningen</translation>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPipeParameters.cpp" line="83"/>
       <source>Subtractive Pipe Section Orientation</source>
       <translation>Orientering av subtraktivt rörtvärsnitt</translation>
@@ -2682,6 +3683,14 @@ mätas längs den angivna riktningen</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="658"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="575"/>
+      <source>Section Orientation</source>
+      <translation>Sektion Orientering</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
@@ -2740,6 +3749,7 @@ mätas längs den angivna riktningen</translation>
       <translation>Parametrar för subtraktivt rör</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPipeParameters.cpp" line="78"/>
       <source>Additive Pipe Parameters</source>
       <translation>Parametrar för additivt rör</translation>
@@ -2751,10 +3761,14 @@ mätas längs den angivna riktningen</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="130"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPipeParameters.cpp" line="495"/>
       <location filename="../../TaskPipeParameters.cpp" line="616"/>
       <source>Input Error</source>
@@ -2762,6 +3776,15 @@ mätas längs den angivna riktningen</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="495"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="444"/>
+      <location filename="../../TaskPipeParameters.cpp" line="561"/>
+      <source>Input error</source>
+      <translation>Inmatningsfel</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No active body</source>
       <translation>Ingen aktiv kropp</translation>
     </message>
@@ -2799,6 +3822,7 @@ mätas längs den angivna riktningen</translation>
       <translation>Listan kan omorganiseras genom att dra</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPipeParameters.cpp" line="89"/>
       <source>Subtractive Pipe Section Transformation</source>
       <translation>Transformation av subtraktivt rörtvärsnitt</translation>
@@ -2810,6 +3834,14 @@ mätas längs den angivna riktningen</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="948"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="870"/>
+      <source>Section Transformation</source>
+      <translation>Sektion Transformation</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="889"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
@@ -2822,42 +3854,74 @@ mätas längs den angivna riktningen</translation>
       <translation>Parametrar för fickor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="43"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Offset from the selected face at which the pocket will end on side 1</source>
       <translation>Förskjutning från den valda ytan där fickan kommer att sluta på sida 1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="46"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Offset from the selected face at which the pocket will end on side 2</source>
       <translation>Förskjutning från den valda ytan där fickan kommer att sluta på sida 2</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="48"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Reverses pocket direction</source>
       <translation>Vänder fickans riktning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="77"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Dimension</source>
       <translation>Storlek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="78"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Through all</source>
       <translation>Genom alla</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="79"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>To first</source>
       <translation>För det första</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="80"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Up to face</source>
       <translation>Upp till yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPocketParameters.cpp" line="81"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="79"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Up to shape</source>
       <translation>Upp till form</translation>
     </message>
@@ -2871,19 +3935,31 @@ mätas längs den angivna riktningen</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="50"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="222"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base X-axis</source>
       <translation>Bas X-axel</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="55"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="223"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base Y-axis</source>
       <translation>Bas Y-axel</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="60"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="224"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base Z-axis</source>
       <translation>Bas Z-axel</translation>
     </message>
@@ -2919,20 +3995,33 @@ mätas längs den angivna riktningen</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="75"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="232"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select reference…</source>
       <translation>Välj referens..</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="87"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="175"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Angle</source>
       <translation>Vinkel</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="170"/>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="149"/>
       <location filename="../../TaskRevolutionParameters.cpp" line="459"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="160"/>
+      <location filename="../../TaskRevolutionParameters.cpp" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Face</source>
       <translation>Yta</translation>
     </message>
@@ -2942,32 +4031,56 @@ mätas längs den angivna riktningen</translation>
       <translation>Räkna om vid ändring</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="177"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>To last</source>
       <translation>Till sist</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="180"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Through all</source>
       <translation>Genom alla</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="182"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>To first</source>
       <translation>För det första</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="183"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Up to face</source>
       <translation>Upp till yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="184"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Two angles</source>
       <translation>Två vinklar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="447"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="479"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No face selected</source>
       <translation>Ingen yta vald</translation>
     </message>
@@ -3008,7 +4121,11 @@ mätas längs den angivna riktningen</translation>
       <translation>Parametrar för formbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskShapeBinder.cpp" line="139"/>
+=======
+      <location filename="../../TaskShapeBinder.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
@@ -3016,7 +4133,11 @@ mätas längs den angivna riktningen</translation>
   <context>
     <name>PartDesignGui::TaskSketchBasedParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskSketchBasedParameters.cpp" line="210"/>
+=======
+      <location filename="../../TaskSketchBasedParameters.cpp" line="202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Face</source>
       <translation>Yta</translation>
     </message>
@@ -3102,59 +4223,105 @@ mätas längs den angivna riktningen</translation>
       <translation>Ta bort</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="398"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Normal sketch axis</source>
       <translation>Normal skissaxel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="397"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Vertical sketch axis</source>
       <translation>Vertikal skissaxel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="396"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Horizontal sketch axis</source>
       <translation>Horisontell skissaxel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="400"/>
       <location filename="../../TaskTransformedParameters.cpp" line="436"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="406"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="442"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Construction line %1</source>
       <translation>Konstruktionslinje %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="414"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base X-axis</source>
       <translation>Bas X-axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="415"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base Y-axis</source>
       <translation>Bas Y-axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="416"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base Z-axis</source>
       <translation>Bas Z-axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="450"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base XY-plane</source>
       <translation>Bas XY-plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="451"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base YZ-plane</source>
       <translation>Bas YZ-plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="452"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base XZ-plane</source>
       <translation>Bas XZ-plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedParameters.cpp" line="424"/>
       <location filename="../../TaskTransformedParameters.cpp" line="460"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="430"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select reference…</source>
       <translation>Välj referens...</translation>
     </message>
@@ -3187,12 +4354,20 @@ mätas längs den angivna riktningen</translation>
   <context>
     <name>PartDesign_MoveFeature</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="909"/>
+=======
+      <location filename="../../CommandBody.cpp" line="908"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select Body</source>
       <translation>Välj kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="910"/>
+=======
+      <location filename="../../CommandBody.cpp" line="909"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select a body from the list</source>
       <translation>Markera en kropp från listan</translation>
     </message>
@@ -3200,27 +4375,47 @@ mätas längs den angivna riktningen</translation>
   <context>
     <name>PartDesign_MoveFeatureInTree</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1098"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1095"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move Feature After…</source>
       <translation>Flytta funktionen efter...</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1099"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1096"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select a feature from the list</source>
       <translation>Välj ett formelement från listan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1186"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Move Tip</source>
       <translation>Flytta tips</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1192"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Set tip to last feature?</source>
       <translation>Ställ in tips till sista funktionen?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1187"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The moved feature appears after the currently set tip.</source>
       <translation>Den flyttade funktionen visas efter den aktuella tippen.</translation>
     </message>
@@ -3228,107 +4423,191 @@ mätas längs den angivna riktningen</translation>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="151"/>
+=======
+      <location filename="../../Command.cpp" line="146"/>
+      <source>Invalid selection</source>
+      <translation>Ogiltig markering</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>There are no attachment modes that fit selected objects. Select something else.</source>
       <translation>Det finns inga fästlägen som passar valda objekt. Välj något annat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="164"/>
       <location filename="../../Command.cpp" line="172"/>
       <location filename="../../Command.cpp" line="179"/>
+=======
+      <location filename="../../Command.cpp" line="160"/>
+      <location filename="../../Command.cpp" line="168"/>
+      <location filename="../../Command.cpp" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error</source>
       <translation>Fel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="845"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Several sub-elements selected</source>
       <translation>Flera underelement valda</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="846"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="810"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select a single face as support for a sketch!</source>
       <translation>Välj en enda yta som stöd för en skiss!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="853"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select a face as support for a sketch!</source>
       <translation>Välj en yta som stöd för en skiss!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="860"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="824"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Need a planar face as support for a sketch!</source>
       <translation>Behöver en plan yta som stöd för en skiss!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="867"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="831"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create a plane first or select a face to sketch on</source>
       <translation>Skapa först ett plan eller välj en yta att skissa på</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="852"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="816"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No support face selected</source>
       <translation>Ingen stödyta vald</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="859"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="823"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No planar support</source>
       <translation>Inget planärt stöd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../SketchWorkflow.cpp" line="866"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="830"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No valid planes in this document</source>
       <translation>Inga giltiga plan i detta dokument</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderShapeBinder.cpp" line="97"/>
       <location filename="../../Command.cpp" line="1155"/>
       <location filename="../../ViewProvider.cpp" line="137"/>
       <location filename="../../SketchWorkflow.cpp" line="763"/>
       <location filename="../../ViewProviderDatum.cpp" line="259"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="95"/>
+      <location filename="../../Command.cpp" line="1138"/>
+      <location filename="../../SketchWorkflow.cpp" line="728"/>
+      <location filename="../../ViewProvider.cpp" line="135"/>
+      <location filename="../../ViewProviderDatum.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>A dialog is already open in the task panel</source>
       <translation>En dialogruta är redan öppen i uppgiftspanelen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1009"/>
+=======
+      <location filename="../../Command.cpp" line="992"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot use this command as there is no solid to subtract from.</source>
       <translation>Det går inte att använda detta kommando eftersom det inte finns någon kropp att subtrahera från.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1012"/>
+=======
+      <location filename="../../Command.cpp" line="995"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Ensure that the body contains a feature before attempting a subtractive command.</source>
       <translation>Se till att kroppen innehåller en funktion innan du försöker utföra ett subtraktivt kommando.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1036"/>
+=======
+      <location filename="../../Command.cpp" line="1019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot use selected object. Selected object must belong to the active body</source>
       <translation>Det går inte att använda det valda objektet. Det valda objektet måste tillhöra den aktiva kroppen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="165"/>
+=======
+      <location filename="../../Command.cpp" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>There is no active body. Please activate a body before inserting a datum entity.</source>
       <translation>Det finns ingen aktiv kropp. Aktivera en kropp innan du infogar en referenspunktsentitet.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="150"/>
       <source>Invalid Selection</source>
       <translation>Ogiltig markering</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="471"/>
+=======
+      <location filename="../../Command.cpp" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sub-shape binder</source>
       <translation>Underformbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1068"/>
+=======
+      <location filename="../../Command.cpp" line="1051"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No sketch to work on</source>
       <translation>Ingen skiss att arbeta med</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1069"/>
+=======
+      <location filename="../../Command.cpp" line="1052"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No sketch is available in the document</source>
       <translation>Ingen skiss finns tillgänglig i dokumentet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2210"/>
       <source>Select only one feature in an active body.</source>
       <translation>Välj ett enda formelement i en aktiv kropp</translation>
@@ -3339,116 +4618,213 @@ mätas längs den angivna riktningen</translation>
       <location filename="../../ViewProvider.cpp" line="138"/>
       <location filename="../../SketchWorkflow.cpp" line="764"/>
       <location filename="../../ViewProviderDatum.cpp" line="260"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="96"/>
+      <location filename="../../Command.cpp" line="1139"/>
+      <location filename="../../SketchWorkflow.cpp" line="729"/>
+      <location filename="../../ViewProvider.cpp" line="136"/>
+      <location filename="../../ViewProviderDatum.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Close this dialog?</source>
       <translation>Stäng den här dialogen?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1838"/>
       <location filename="../../Command.cpp" line="1873"/>
+=======
+      <location filename="../../Command.cpp" line="1821"/>
+      <location filename="../../Command.cpp" line="1856"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Wrong selection</source>
       <translation>Fel val</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1839"/>
+=======
+      <location filename="../../Command.cpp" line="1822"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select an edge, face, or body from a single body.</source>
       <translation>Välj en kant, en yta eller en kropp från en enda kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1846"/>
       <location filename="../../Command.cpp" line="2209"/>
+=======
+      <location filename="../../Command.cpp" line="1829"/>
+      <location filename="../../Command.cpp" line="2191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Selection is not in the active body</source>
       <translation>Markering är inte i den aktiva kroppen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1874"/>
+=======
+      <location filename="../../Command.cpp" line="1857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shape of the selected part is empty</source>
       <translation>Formen på den valda delen är tom</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1847"/>
+=======
+      <location filename="../../Command.cpp" line="1830"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select an edge, face, or body from an active body.</source>
       <translation>Välj en kant, en yta eller en kropp från en aktiv kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1039"/>
+=======
+      <location filename="../../Command.cpp" line="1022"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Consider using a shape binder or a base feature to reference external geometry in a body</source>
       <translation>Överväg att använda en formbindare eller en basfunktion för att referera till extern geometri i en kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1860"/>
+=======
+      <location filename="../../Command.cpp" line="1843"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Wrong object type</source>
       <translation>Fel objekttyp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="1861"/>
+=======
+      <location filename="../../Command.cpp" line="1844"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>%1 works only on parts.</source>
       <translation>%1 fungerar bara på delar.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="74"/>
+=======
+      <location filename="../../Command.cpp" line="2192"/>
+      <source>Please select only one feature in an active body.</source>
+      <translation>Välj endast en funktion i en aktiv kropp.</translation>
+    </message>
+    <message>
+      <location filename="../../CommandBody.cpp" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Part creation failed</source>
       <translation>Skapandet av delar misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="75"/>
+=======
+      <location filename="../../CommandBody.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Failed to create a part object.</source>
       <translation>Misslyckades med att skapa ett delobjekt.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="124"/>
       <location filename="../../CommandBody.cpp" line="132"/>
       <location filename="../../CommandBody.cpp" line="148"/>
       <location filename="../../CommandBody.cpp" line="214"/>
+=======
+      <location filename="../../CommandBody.cpp" line="125"/>
+      <location filename="../../CommandBody.cpp" line="133"/>
+      <location filename="../../CommandBody.cpp" line="149"/>
+      <location filename="../../CommandBody.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Bad base feature</source>
       <translation>Ogiltig basfunktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="125"/>
+=======
+      <location filename="../../CommandBody.cpp" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>A body cannot be based on a Part Design feature.</source>
       <translation>En body kan inte baseras på en Part Design-funktion.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="133"/>
+=======
+      <location filename="../../CommandBody.cpp" line="134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>%1 already belongs to a body and cannot be used as a base feature for another body.</source>
       <translation>%1 hör redan till en kropp och kan inte användas som basfunktion för en annan kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="149"/>
+=======
+      <location filename="../../CommandBody.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base feature (%1) belongs to other part.</source>
       <translation>Basformelementet (%1) tillhör en annan del.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="176"/>
+=======
+      <location filename="../../CommandBody.cpp" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The selected shape consists of multiple solids.
 This may lead to unexpected results.</source>
       <translation>Den markerade formen består av flera solider. Detta kan leda till oväntade resultat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="182"/>
+=======
+      <location filename="../../CommandBody.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The selected shape consists of multiple shells.
 This may lead to unexpected results.</source>
       <translation>Den markerade formen består av flera skal. Detta kan leda till oväntade resultat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="188"/>
+=======
+      <location filename="../../CommandBody.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The selected shape consists of only a shell.
 This may lead to unexpected results.</source>
       <translation>Den valda formen består endast av ett skal.
 Detta kan leda till oväntade resultat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="194"/>
+=======
+      <location filename="../../CommandBody.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The selected shape consists of multiple solids or shells.
 This may lead to unexpected results.</source>
       <translation>Den markerade formen består av flera solider eller skal. Detta kan leda till oväntade resultat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="203"/>
+=======
+      <location filename="../../CommandBody.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Base feature</source>
       <translation>Basformelement</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="215"/>
+=======
+      <location filename="../../CommandBody.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Body may be based on no more than one feature.</source>
       <translation>Kroppen får inte baseras på mer än ett formelement.</translation>
     </message>
@@ -3458,50 +4834,88 @@ This may lead to unexpected results.</source>
       <translation>Kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="425"/>
+=======
+      <location filename="../../CommandBody.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Nothing to migrate</source>
       <translation>Inget att migrera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="614"/>
       <source>Edit '%1' and redefine it to use a Base or Datum plane as the sketch plane.</source>
       <translation>Redigera '%1' och använd ett bas- eller referensplan som skissplan</translation>
     </message>
     <message>
       <location filename="../../CommandBody.cpp" line="689"/>
+=======
+      <location filename="../../CommandBody.cpp" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select exactly one Part Design feature or a body.</source>
       <translation>Välj exakt ett detaljkonstruktionsformelement eller en kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="697"/>
+=======
+      <location filename="../../CommandBody.cpp" line="700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Could not determine a body for the selected feature '%s'.</source>
       <translation>Det gick inte att fastställa en kropp för det valda formelementet '%s'.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="878"/>
+=======
+      <location filename="../../CommandBody.cpp" line="877"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Only features of a single source body can be moved</source>
       <translation>Endast delar av en enda källkropp kan flyttas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="613"/>
+=======
+      <location filename="../../CommandBody.cpp" line="616"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sketch plane cannot be migrated</source>
       <translation>Skissplanet kan inte migreras</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="426"/>
+=======
+      <location filename="../../CommandBody.cpp" line="422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No Part Design features without body found Nothing to migrate.</source>
       <translation>Inget detaljkonstruktionsformelement utan kropp hittades. Inget att migrera.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="688"/>
       <location filename="../../CommandBody.cpp" line="696"/>
       <location filename="../../CommandBody.cpp" line="710"/>
       <location filename="../../CommandBody.cpp" line="1064"/>
       <location filename="../../CommandBody.cpp" line="1074"/>
+=======
+      <location filename="../../CommandBody.cpp" line="617"/>
+      <source>Please edit '%1' and redefine it to use a Base or Datum plane as the sketch plane.</source>
+      <translation>Redigera "%1" och omdefiniera den så att den använder ett bas- eller referenspunktsplan som skissplan.</translation>
+    </message>
+    <message>
+      <location filename="../../CommandBody.cpp" line="691"/>
+      <location filename="../../CommandBody.cpp" line="699"/>
+      <location filename="../../CommandBody.cpp" line="711"/>
+      <location filename="../../CommandBody.cpp" line="1061"/>
+      <location filename="../../CommandBody.cpp" line="1071"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Selection error</source>
       <translation>Markeringsfel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="711"/>
       <source>Only a solid feature can be the tip of a body.</source>
       <translation>Endast ett solitt formelement kan vara ändpunkt i en kropp.</translation>
@@ -3510,41 +4924,79 @@ This may lead to unexpected results.</source>
       <location filename="../../CommandBody.cpp" line="847"/>
       <location filename="../../CommandBody.cpp" line="877"/>
       <location filename="../../CommandBody.cpp" line="895"/>
+=======
+      <location filename="../../CommandBody.cpp" line="712"/>
+      <source>Only a solid feature can be the tip of a body.</source>
+      <translation>Endast en kropp funktion kan vara spetsen på en kropp.</translation>
+    </message>
+    <message>
+      <location filename="../../CommandBody.cpp" line="846"/>
+      <location filename="../../CommandBody.cpp" line="876"/>
+      <location filename="../../CommandBody.cpp" line="894"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Features cannot be moved</source>
       <translation>Formelement kan inte flyttas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="848"/>
+=======
+      <location filename="../../CommandBody.cpp" line="847"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Some of the selected features have dependencies in the source body</source>
       <translation>Vissa av de valda formelementen har beroenden i källkroppen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="896"/>
+=======
+      <location filename="../../CommandBody.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>There are no other bodies to move to</source>
       <translation>Det finns inga andra kroppar att flytta till</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1065"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1062"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Impossible to move the base feature of a body.</source>
       <translation>Omöjligt att flytta basformelementet i en kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1075"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select one or more features from the same body.</source>
       <translation>Välj en eller flera formelement från samma kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1090"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Beginning of the body</source>
       <translation>Början av kroppen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1171"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Dependency violation</source>
       <translation>Härledningsfel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandBody.cpp" line="1172"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Early feature must not depend on later feature.
 
 </source>
@@ -3553,44 +5005,78 @@ This may lead to unexpected results.</source>
 </translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="309"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No previous feature found</source>
       <translation>Inget tidigare formelement hittades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="310"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>It is not possible to create a subtractive feature without a base feature available</source>
       <translation>Det går inte att skapa ett subtraktivt formelement utan ett tillgängligt basformelement</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="208"/>
       <location filename="../../TaskTransformedParameters.cpp" line="433"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="240"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Vertical sketch axis</source>
       <translation>Vertikal skissaxel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="209"/>
       <location filename="../../TaskTransformedParameters.cpp" line="434"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="241"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Horizontal sketch axis</source>
       <translation>Horisontell skissaxel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="211"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Construction line %1</source>
       <translation>Konstruktionslinje %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskSketchBasedParameters.cpp" line="96"/>
+=======
+      <location filename="../../TaskSketchBasedParameters.cpp" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Face</source>
       <translation>Yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="209"/>
+=======
+      <location filename="../../Utils.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Active Body Required</source>
       <translation>Aktiv kropp krävs</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="151"/>
+=======
+      <location filename="../../Utils.cpp" line="148"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>To use Part Design, an active body is required in the document. Activate a body (double-click) or create a new one.
 
 For legacy documents with Part Design objects lacking a body, use the migrate function in Part Design to place them into a body.</source>
@@ -3599,58 +5085,104 @@ For legacy documents with Part Design objects lacking a body, use the migrate fu
 För äldre dokument med detaljkonstruktionobjekt som saknar en kropp kan du använda migreringsfunktionen i detaljkonstruktion för att placera dem i en kropp.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="210"/>
+=======
+      <location filename="../../Utils.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>To create a new Part Design object, an active body is required in the document. Activate an existing body (double-click) or create a new one.</source>
       <translation>För att skapa ett nytt detaljkonstruktionsobjekt krävs en aktiv kropp i dokumentet. Aktivera en befintlig kropp (dubbelklicka) eller skapa en ny.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="272"/>
+=======
+      <location filename="../../Utils.cpp" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Feature is not in a body</source>
       <translation>Formelementet är inte i en kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="273"/>
+=======
+      <location filename="../../Utils.cpp" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>In order to use this feature it needs to belong to a body object in the document.</source>
       <translation>För att kunna använda det här formelementet måste det tillhöra en kropp i dokumentet.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="319"/>
+=======
+      <location filename="../../Utils.cpp" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Feature is not in a part</source>
       <translation>Formelementet tillhör inte en del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Utils.cpp" line="320"/>
+=======
+      <location filename="../../Utils.cpp" line="317"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>In order to use this feature it needs to belong to a part object in the document.</source>
       <translation>För att kunna använda det här formelementet måste den tillhöra ett delobjekt i dokumentet.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDressUp.cpp" line="64"/>
       <location filename="../../ViewProviderShapeBinder.cpp" line="227"/>
       <location filename="../../ViewProviderTransformed.cpp" line="67"/>
       <location filename="../../ViewProvider.cpp" line="94"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="225"/>
+      <location filename="../../ViewProviderTransformed.cpp" line="63"/>
+      <location filename="../../ViewProviderDressUp.cpp" line="62"/>
+      <location filename="../../ViewProvider.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit %1</source>
       <translation>Redigera %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProvider.cpp" line="107"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Set Face Colors</source>
       <translation>Ställ in ytfärger</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDatum.cpp" line="114"/>
       <location filename="../../ViewProviderDatum.cpp" line="214"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="112"/>
+      <location filename="../../ViewProviderDatum.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Plane</source>
       <translation>Plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDatum.cpp" line="119"/>
       <location filename="../../ViewProviderDatum.cpp" line="209"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="117"/>
+      <location filename="../../ViewProviderDatum.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Line</source>
       <translation>Linje</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDatum.cpp" line="124"/>
       <location filename="../../ViewProviderDatum.cpp" line="219"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="122"/>
+      <location filename="../../ViewProviderDatum.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Point</source>
       <translation>Punkt</translation>
     </message>
@@ -3660,59 +5192,103 @@ För äldre dokument med detaljkonstruktionobjekt som saknar en kropp kan du anv
       <translation>Koordinatsystem</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDatum.cpp" line="236"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Datum</source>
       <translation>Ändra referenspunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDressUp.cpp" line="93"/>
+=======
+      <location filename="../../ViewProviderDressUp.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Feature error</source>
       <translation>Funktionsfel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDressUp.cpp" line="94"/>
+=======
+      <location filename="../../ViewProviderDressUp.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>%1 misses a base feature.
 This feature is broken and cannot be edited.</source>
       <translation>%1 saknar en basformelement.
 Det här formelementet är trasigt och kan inte redigeras.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderShapeBinder.cpp" line="222"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Shape Binder</source>
       <translation>Redigera formbindare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderShapeBinder.cpp" line="352"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Synchronize</source>
       <translation>Synkronisera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderShapeBinder.cpp" line="354"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select Bound Object</source>
       <translation>Välj bundet objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../WorkflowManager.cpp" line="156"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The document "%1" you are editing was designed with an old version of Part Design workbench.</source>
       <translation>Dokumentet "%1" som du redigerar har utformats med en gammal version av arbetsbänken detaljkonstruktion.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../WorkflowManager.cpp" line="163"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Migrate in order to use modern Part Design features?</source>
       <translation>Migrera för att kunna använda moderna funktioner för Part Design?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../WorkflowManager.cpp" line="168"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The document "%1" seems to be either in the middle of the migration process from legacy Part Design or have a slightly broken structure.</source>
       <translation>Dokumentet "%1" verkar antingen befinna sig mitt i migreringsprocessen från äldre Part Design eller ha en något trasig struktur.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../WorkflowManager.cpp" line="175"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Make the migration automatically?</source>
       <translation>Ska migreringen göras automatiskt?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../WorkflowManager.cpp" line="178"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Note: If you choose to migrate you won't be able to edit the file with an older FreeCAD version.
 If you refuse to migrate you won't be able to use new PartDesign features like Bodies and Parts. As a result you also won't be able to use your parts in the assembly workbench.
 Although you will be able to migrate any moment later with 'Part Design -&gt; Migrate'.</source>
@@ -3721,7 +5297,11 @@ Om du vägrar att migrera kommer du inte att kunna använda nya detaljkonstrukti
 Även om du kommer att kunna migrera när som helst senare med "Detaljkonstruktion -&gt; Migrera".</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../WorkflowManager.cpp" line="191"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Migrate Manually</source>
       <translation>Migrera manuellt</translation>
     </message>
@@ -3746,17 +5326,29 @@ Om du vägrar att migrera kommer du inte att kunna använda nya detaljkonstrukti
       <translation>Redigera avrundning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderGroove.cpp" line="45"/>
+=======
+      <location filename="../../ViewProviderGroove.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Groove</source>
       <translation>Redigera spår</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderHelix.cpp" line="50"/>
+=======
+      <location filename="../../ViewProviderHelix.cpp" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Helix</source>
       <translation>Redigera helix</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderHole.cpp" line="130"/>
+=======
+      <location filename="../../ViewProviderHole.cpp" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Hole</source>
       <translation>Redigera hål</translation>
     </message>
@@ -3766,7 +5358,11 @@ Om du vägrar att migrera kommer du inte att kunna använda nya detaljkonstrukti
       <translation>Redigera linjärt mönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderLoft.cpp" line="67"/>
+=======
+      <location filename="../../ViewProviderLoft.cpp" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Loft</source>
       <translation>Redigera loft</translation>
     </message>
@@ -3781,22 +5377,38 @@ Om du vägrar att migrera kommer du inte att kunna använda nya detaljkonstrukti
       <translation>Redigera flertransformativ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderPad.cpp" line="45"/>
+=======
+      <location filename="../../ViewProviderPad.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Pad</source>
       <translation>Redigera basblock</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderPipe.cpp" line="77"/>
+=======
+      <location filename="../../ViewProviderPipe.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Pipe</source>
       <translation>Redigera rör</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderPocket.cpp" line="47"/>
+=======
+      <location filename="../../ViewProviderPocket.cpp" line="45"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Pocket</source>
       <translation>Redigera ficka</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderPolarPattern.cpp" line="40"/>
+=======
+      <location filename="../../ViewProviderPolarPattern.cpp" line="38"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Polar Pattern</source>
       <translation>Redigera polarmönster</translation>
     </message>
@@ -3806,7 +5418,11 @@ Om du vägrar att migrera kommer du inte att kunna använda nya detaljkonstrukti
       <translation>Redigera primitiv</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderRevolution.cpp" line="45"/>
+=======
+      <location filename="../../ViewProviderRevolution.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Edit Revolution</source>
       <translation>Redigera rotationsobjekt</translation>
     </message>
@@ -4304,21 +5920,34 @@ under 90: mindre hålradie nedtill
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="43"/>
+=======
+      <location filename="../../Workbench.cpp" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>&amp;Sketch</source>
       <translation>&amp;Sketch</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="45"/>
+=======
+      <location filename="../../Workbench.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>&amp;Part Design</source>
       <translation>&amp;Part Design</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="46"/>
+=======
+      <location filename="../../Workbench.cpp" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Datums</source>
       <translation>Referenspunkter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="47"/>
       <source>Additive Features</source>
       <translation>Additiva formelement</translation>
@@ -4330,51 +5959,100 @@ under 90: mindre hålradie nedtill
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="49"/>
+=======
+      <location filename="../../Workbench.cpp" line="45"/>
+      <source>Additive Features</source>
+      <translation>Additiva funktioner</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="46"/>
+      <source>Subtractive Features</source>
+      <translation>Subtraktiva funktioner</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Dress-Up Features</source>
       <translation>Försköningsfunktioner</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="50"/>
+=======
+      <location filename="../../Workbench.cpp" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Transformation Features</source>
       <translation>Formelement för omvandling</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="51"/>
+=======
+      <location filename="../../Workbench.cpp" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sprocket…</source>
       <translation>Kedjehjul…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="52"/>
+=======
+      <location filename="../../Workbench.cpp" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Involute Gear</source>
       <translation>Evolventkugghjul</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="54"/>
+=======
+      <location filename="../../Workbench.cpp" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shaft Design Wizard</source>
       <translation>Guiden för axelkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="62"/>
+=======
+      <location filename="../../Workbench.cpp" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Measure</source>
       <translation>Mätning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="63"/>
+=======
+      <location filename="../../Workbench.cpp" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Refresh</source>
       <translation>Uppdatera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="64"/>
+=======
+      <location filename="../../Workbench.cpp" line="62"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Toggle 3D</source>
       <translation>Växla 3D</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="65"/>
+=======
+      <location filename="../../Workbench.cpp" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Part Design Helper</source>
       <translation>Hjälp för Part Design</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Workbench.cpp" line="66"/>
+=======
+      <location filename="../../Workbench.cpp" line="64"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Part Design Modeling</source>
       <translation>Detaljkonstruktionsmodellering</translation>
     </message>
@@ -4382,108 +6060,193 @@ under 90: mindre hålradie nedtill
   <context>
     <name>WizardShaftTable</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="48"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Length [mm]</source>
       <translation>Längd [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="49"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Diameter [mm]</source>
       <translation>Diameter [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="50"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Inner diameter [mm]</source>
       <translation>Innerdiameter [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="51"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Constraint type</source>
       <translation>Typ av begränsning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="52"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Start edge type</source>
       <translation>Typ av startkant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="53"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Start edge size</source>
       <translation>Storlek på startkant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="54"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>End edge type</source>
       <translation>Typ av ändkant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="55"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>End edge size</source>
       <translation>Storlek på ändkant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="69"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shaft Wizard</source>
       <translation>Axelguide</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="77"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Section 1</source>
       <translation>Sektion 1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="78"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Section 2</source>
       <translation>Sektion 2</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="82"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Add column</source>
       <translation>Lägg till kolumn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="130"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Section %s</source>
       <translation>Sektion %s</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="159"/>
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="178"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="157"/>
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>None</source>
       <translation>Ingen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="160"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fixed</source>
       <translation>Fast</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="161"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Force</source>
       <translation>Tvinga</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="162"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="160"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Bearing</source>
       <translation>Riktning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="163"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Gear</source>
       <translation>Utrustning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="164"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pulley</source>
       <translation>Remskiva</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="181"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Chamfer</source>
       <translation>Avfasning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="182"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fillet</source>
       <translation>Filé</translation>
     </message>
@@ -4491,17 +6254,29 @@ under 90: mindre hålradie nedtill
   <context>
     <name>TaskWizardShaft</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="60"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>All</source>
       <translation>Alla</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="120"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Missing Module</source>
       <translation>Modul saknas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="126"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The Plot add-on is not installed. Install it to enable this feature.</source>
       <translation>Tillägget Plot är inte installerat. Installera det för att aktivera den här funktionen.</translation>
     </message>
@@ -4509,12 +6284,20 @@ under 90: mindre hålradie nedtill
   <context>
     <name>PartDesign_WizardShaftCallBack</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="253"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shaft design wizard...</source>
       <translation>Guiden för axelkonstruktion...</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="256"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Start the shaft design wizard</source>
       <translation>Starta guiden för axelkonstruktion</translation>
     </message>
@@ -4522,46 +6305,79 @@ under 90: mindre hålradie nedtill
   <context>
     <name>Exception</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/Body.cpp" line="406"/>
+=======
+      <location filename="../../../App/Body.cpp" line="403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Linked object is not a PartDesign feature</source>
       <translation>Länkat objekt är inte ett  detaljkonstruktionsformelement</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/Body.cpp" line="415"/>
+=======
+      <location filename="../../../App/Body.cpp" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Tip shape is empty</source>
       <translation>Ändformelementet är tomt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBase.cpp" line="68"/>
+=======
+      <location filename="../../../App/FeatureBase.cpp" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>BaseFeature link is not set</source>
       <translation>BaseFeature är inte satt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBase.cpp" line="74"/>
+=======
+      <location filename="../../../App/FeatureBase.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>BaseFeature must be a Part::Feature</source>
       <translation>BaseFeature  måste vara en Part::Feature</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBase.cpp" line="84"/>
+=======
+      <location filename="../../../App/FeatureBase.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>BaseFeature has an empty shape</source>
       <translation>BaseFeature har en tom form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBoolean.cpp" line="172"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot do boolean cut without BaseFeature</source>
       <translation>Kan inte göra booleskt klipp  utan BaseFeature</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBoolean.cpp" line="194"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot do boolean with anything but Part::Feature and its derivatives</source>
       <translation>Kan inte göra boolesk operation med något annat än Part::Feature och dess derivat</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBoolean.cpp" line="211"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot do boolean operation with invalid base shape</source>
       <translation>Kan inte utföra boolesk operation med ogiltig basform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="217"/>
       <location filename="../../../App/FeatureHelix.cpp" line="420"/>
       <location filename="../../../App/FeatureHelix.cpp" line="442"/>
@@ -4579,100 +6395,199 @@ under 90: mindre hålradie nedtill
       <location filename="../../../App/FeatureBoolean.cpp" line="266"/>
       <location filename="../../../App/FeatureLoft.cpp" line="334"/>
       <location filename="../../../App/FeatureLoft.cpp" line="378"/>
+=======
+      <location filename="../../../App/FeatureDraft.cpp" line="332"/>
+      <location filename="../../../App/FeatureGroove.cpp" line="253"/>
+      <location filename="../../../App/FeatureHole.cpp" line="2067"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="480"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="529"/>
+      <location filename="../../../App/FeatureBoolean.cpp" line="159"/>
+      <location filename="../../../App/FeatureChamfer.cpp" line="192"/>
+      <location filename="../../../App/FeatureFillet.cpp" line="140"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="773"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="789"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="802"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="331"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="375"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Result has multiple solids: enable 'Allow Compound' in the active body.</source>
       <translation>Resultatet har flera solider: aktivera 'Tillåt samansatt' i den aktiva kroppen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBoolean.cpp" line="221"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Tool shape is null</source>
       <translation>Verktygets form är null</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBoolean.cpp" line="248"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Unsupported boolean operation</source>
       <translation>Boolesk operation som inte stöds</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="353"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot create a pad with a total length of zero.</source>
       <translation>Det går inte att skapa ett basblock med en total längd på noll.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="358"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot create a pocket with a total length of zero.</source>
       <translation>Det går inte att skapa en ficka med en total längd på noll.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="706"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No extrusion geometry was generated.</source>
       <translation>Ingen extruderingsgeometri skapades.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="730"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="728"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Resulting fused extrusion is null.</source>
       <translation>Den resulterande sammanfogade extruderingen är noll.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="766"/>
       <location filename="../../../App/FeaturePipe.cpp" line="592"/>
       <location filename="../../../App/FeatureLoft.cpp" line="371"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="141"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="139"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="521"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="764"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="368"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Resulting shape is not a solid</source>
       <translation>Den resulterande formen är inte en solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureChamfer.cpp" line="176"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Failed to create chamfer</source>
       <translation>Misslyckades med att skapa avfasning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureFillet.cpp" line="122"/>
       <location filename="../../../App/FeatureDraft.cpp" line="330"/>
+=======
+      <location filename="../../../App/FeatureDraft.cpp" line="327"/>
+      <location filename="../../../App/FeatureFillet.cpp" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Resulting shape is null</source>
       <translation>Den resulterande formen är tom</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureChamfer.cpp" line="144"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No edges specified</source>
       <translation>Inga kanter specificerade</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureChamfer.cpp" line="211"/>
       <source>Chamfer failed: OCC kernel error in chamfer computation</source>
       <translation>Avfasning misslyckades: fel från OCC-kärnan</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureChamfer.cpp" line="302"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Size must be greater than zero</source>
       <translation>Storleken måste vara större än noll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureChamfer.cpp" line="313"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Size2 must be greater than zero</source>
       <translation>Storlek 2 måste vara större än noll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureChamfer.cpp" line="320"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Angle must be greater than 0 and less than 180</source>
       <translation>Vinkeln måste vara större än 0 och mindre än 180</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureFillet.cpp" line="97"/>
+=======
+      <location filename="../../../App/FeatureFillet.cpp" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fillet not possible on selected shapes</source>
       <translation>Avrundning inte möjligt på valda former</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureFillet.cpp" line="105"/>
+=======
+      <location filename="../../../App/FeatureFillet.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fillet radius must be greater than zero</source>
       <translation>Avrundningsradien måste vara större än noll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureFillet.cpp" line="159"/>
       <source>Fillet operation failed. The selected edges may contain geometry that cannot be filleted together. Try filleting edges individually or with a smaller radius.</source>
       <translation>Rundningsåtgärden misslyckades. De valda kanterna kan innehålla geometri som inte kan rundas ihop. Försök att runda kanterna individuellt eller med en mindre radie.</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureHole.cpp" line="1739"/>
+=======
+      <location filename="../../../App/FeatureFillet.cpp" line="157"/>
+      <source>Fillet operation failed. The selected edges may contain geometry that cannot be filleted together. Try filleting edges individually or with a smaller radius.</source>
+      <translation>Rundningsåtgärden misslyckades. De valda kanterna kan innehålla geometri som inte kan rundas ihop. Försök att runda kanterna individuellt eller med en mindre radie.</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureGroove.cpp" line="101"/>
+      <source>Angle of groove too large</source>
+      <translation>Spårets vinkel för stor</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureGroove.cpp" line="108"/>
+      <source>Angle of groove too small</source>
+      <translation>Spårets vinkel för liten</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1719"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>The requested feature cannot be created. The reason may be that:
   - the active Body does not contain a base shape, so there is no
   material to be removed;
@@ -4683,481 +6598,884 @@ under 90: mindre hålradie nedtill
   - den valda skissen inte hör till den aktiva kroppen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="402"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="400"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Failed to obtain profile shape</source>
       <translation>Misslyckades med att erhålla profilform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="456"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="454"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creation failed because direction is orthogonal to sketch's normal vector</source>
       <translation>Skapandet misslyckades eftersom riktningen är ortogonal mot skissens normalvektor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="132"/>
       <location filename="../../../App/FeatureExtrude.cpp" line="479"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="154"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="477"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creating a face from sketch failed</source>
       <translation>Skapa en yta från skiss misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="152"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="115"/>
+      <source>Angles of groove nullify each other</source>
+      <translation type="unfinished">Angles of groove nullify each other</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureGroove.cpp" line="171"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Revolve axis intersects the sketch</source>
       <translation>Rotationsaxeln skär skissen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="202"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="263"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Could not revolve the sketch!</source>
       <translation>Kunde inte vrida på skissen!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="69"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="275"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Could not create face from sketch.
 Intersecting sketch entities in a sketch are not allowed.</source>
       <translation>Det gick inte att skapa en yta från en skiss.
 Det är inte tillåtet att korsa skissentiteter i en skiss.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="237"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="235"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Pitch too small!</source>
       <translation>Fel: Stigning för liten!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="242"/>
       <location filename="../../../App/FeatureHelix.cpp" line="265"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="240"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: height too small!</source>
       <translation>Fel: Höjden är för liten!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="251"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: pitch too small!</source>
       <translation>Fel: stigningen är för liten!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="256"/>
       <location filename="../../../App/FeatureHelix.cpp" line="270"/>
       <location filename="../../../App/FeatureHelix.cpp" line="279"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="254"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="268"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: turns too small!</source>
       <translation>Fel: Varven är för få!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="285"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: either height or growth must not be zero!</source>
       <translation>Fel: antingen höjd eller tillväxt måste vara skild från noll!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="303"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: unsupported mode</source>
       <translation>Fel: läge som inte stöds</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="317"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: No valid sketch or face</source>
       <translation>Fel: Ingen giltig skiss eller yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="330"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Face must be planar</source>
       <translation>Fel: Ytan måste vara plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="454"/>
       <location filename="../../../App/FeatureHelix.cpp" line="499"/>
       <location filename="../../../App/FeatureHole.cpp" line="2454"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="443"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="484"/>
+      <location filename="../../../App/FeatureHole.cpp" line="2422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Result is not a solid</source>
       <translation>Fel: Resultatet är inte en solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="415"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: There is nothing to subtract</source>
       <translation>Fel: Det finns inget att subtrahera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="437"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="419"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="449"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="490"/>
+      <source>Error: Result has multiple solids</source>
+      <translation>Fel: Resultatet har flera solider</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHelix.cpp" line="434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Adding the helix failed</source>
       <translation>Fel: Lägga till helixen misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="472"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Intersecting the helix failed</source>
       <translation>Felet är Skärning av helixen misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="481"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="475"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Subtracting the helix failed</source>
       <translation>Fel: Subtrahering av helixen misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHelix.cpp" line="515"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Could not create face from sketch</source>
       <translation>Fel: Kunde inte skapa en yta från en skiss</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1233"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Thread type is invalid</source>
       <translation>Gängtypen är ogiltig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1752"/>
       <source>Hole error: Diameter too small</source>
       <translation>Fel i hål: för liten diameter</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureHole.cpp" line="1789"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1764"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Unsupported length specification</source>
       <translation>Fel i hål: Längdspecifikationen stöds inte</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1795"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Invalid hole depth</source>
       <translation>Fel i hålet: Ogiltigt håldjup</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1821"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1796"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Invalid taper angle</source>
       <translation>Fel på hål: Ogiltig avsmalningsvinkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1845"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Hole cut diameter too small</source>
       <translation>Fel på hålet: Hålets skärdiameter för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1850"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1825"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Hole cut depth must be less than hole depth</source>
       <translation>Fel i hålet: Hålets skärdjup måste vara mindre än håldjupet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1857"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1832"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Hole cut depth must be greater or equal to zero</source>
       <translation>Fel i hålet: Hålets skärdjup måste vara större än eller lika med noll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1887"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1862"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Invalid countersink</source>
       <translation>Fel på hål: Ogiltig försänkning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1923"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1898"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Invalid drill point angle</source>
       <translation>Fel i hål: Ogiltig borrpunktsvinkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1940"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Invalid drill point</source>
       <translation>Fel i hål: Ogiltig borrpunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1977"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1952"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Could not revolve sketch</source>
       <translation>Fel i hål: Kunde inte rotera skissen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="1984"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1959"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Resulting shape is empty</source>
       <translation>Fel i hål: Den resulterande formen är tom</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2007"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1972"/>
+      <source>Error: Adding the thread failed</source>
+      <translation>Fel på tråden: Att lägga till tråden misslyckades</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1983"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Hole error: Finding axis failed</source>
       <translation>Hålfel: Det gick inte att hitta axeln</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2063"/>
       <location filename="../../../App/FeatureHole.cpp" line="2071"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2039"/>
+      <location filename="../../../App/FeatureHole.cpp" line="2047"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean operation failed on profile Edge</source>
       <translation>Boolesk operation misslyckades på profilen Edge</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2078"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean operation produced non-solid on profile Edge</source>
       <translation>Boolesk operation producerade icke-kropp på profil Kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureBoolean.cpp" line="258"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Boolean operation failed</source>
       <translation>Boolesk operation misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2104"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2080"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Could not create face from sketch.
 Intersecting sketch entities or multiple faces in a sketch are not allowed for making a pocket up to a face.</source>
       <translation>Kunde inte skapa en yta från skissen.
 Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna för att skapa en ficka upp till en yta.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2277"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Thread type out of range</source>
       <translation>Gängtyp utanför intervallet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2280"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Thread size out of range</source>
       <translation>Gängstorlek utanför intervallet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureHole.cpp" line="2428"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Error: Thread could not be built</source>
       <translation>Fel i tråden: Gängan kunde inte byggas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureLoft.cpp" line="193"/>
+=======
+      <location filename="../../../App/FeatureLoft.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Loft: At least one section is needed</source>
       <translation>Loft: Minst en sektion behövs</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureLoft.cpp" line="395"/>
+=======
+      <location filename="../../../App/FeatureLoft.cpp" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Loft: A fatal error occurred when making the loft</source>
       <translation>Loft: Ett allvarligt fel inträffade när du gjorde loften</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureLoft.cpp" line="240"/>
+=======
+      <location filename="../../../App/FeatureLoft.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Loft: Creating a face from sketch failed</source>
       <translation>Loft: Skapa en yta från en skiss misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="500"/>
       <location filename="../../../App/FeatureLoft.cpp" line="304"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="444"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Loft: Failed to create shell</source>
       <translation>Loft: Misslyckades med att skapa skal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="819"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Could not create face from sketch.
 Intersecting sketch entities or multiple faces in a sketch are not allowed.</source>
       <translation>Det gick inte att skapa en yta från en skiss.
 Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="211"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: Could not obtain profile shape</source>
       <translation>Rör: Kunde inte erhålla profilform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="218"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No spine linked</source>
       <translation>Ingen länkad styrkurva</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="233"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>No auxiliary spine linked.</source>
       <translation>Ingen extra styrkurva kopplad.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="255"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: Only one isolated point is needed if using a sketch with isolated points for section</source>
       <translation>Rör: Endast en isolerad punkt behövs om man använder en skiss med isolerade punkter för sektionen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="264"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: At least one section is needed when using a single point for profile</source>
       <translation>Rör: Minst en sektion behövs när man använder en enda punkt för profilen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="282"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: All sections need to be Part features</source>
       <translation>Rör: Alla sektioner måste vara formelement</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="290"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: Could not obtain section shape</source>
       <translation>Rör: Kunde inte erhålla sektionsform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="298"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: Only the profile and last section can be vertices</source>
       <translation>Rör: Endast profilen och den sista sektionen kan vara hörn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="311"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Multisections need to have the same amount of inner wires as the base section</source>
       <translation>Flersektioner måste ha samma antal inre trådar som bassektionen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="344"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Path must not be a null shape</source>
       <translation>Formen får inte vara en null-form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="384"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe could not be built</source>
       <translation>Röret kunde inte byggas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="532"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="436"/>
+      <source>Result is not a solid</source>
+      <translation>Resultatet är inte en solid</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeaturePipe.cpp" line="475"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Pipe: There is nothing to subtract from</source>
       <translation>Rör: Det finns inget att subtrahera från</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="584"/>
       <source>Pipe: Invalid Boolean Type</source>
       <translation>Rör: ogiltig boolesk typ</translation>
     </message>
     <message>
       <location filename="../../../App/FeaturePipe.cpp" line="614"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="543"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>A fatal error occurred when making the pipe</source>
       <translation>Ett allvarligt fel inträffade när röret tillverkades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="741"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Invalid element in spine.</source>
       <translation>Ogiltigt element i styrkurvan.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="746"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="677"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Element in spine is neither an edge nor a wire.</source>
       <translation>Elementet i styrkurvan är varken en kant eller en tråd.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="759"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="698"/>
+      <source>Spine is not connected.</source>
+      <translation>Ryggen är inte ansluten.</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeaturePipe.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Spine is neither an edge nor a wire.</source>
       <translation>Ryggen är varken en kant eller en tråd.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePipe.cpp" line="764"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Invalid spine.</source>
       <translation>Ogiltig styrkurva.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="103"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot subtract primitive feature without base feature</source>
       <translation>Kan inte subtrahera primitiv form utan basform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureLoft.cpp" line="356"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="125"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="123"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="505"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Unknown operation type</source>
       <translation>Okänd operationstyp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureLoft.cpp" line="364"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="133"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="131"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="513"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Failed to perform boolean operation</source>
       <translation>Misslyckades med att utföra boolesk operation</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="217"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Length of box too small</source>
       <translation>Lådans längd är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="222"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Width of box too small</source>
       <translation>Bredden på lådan är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="227"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Height of box too small</source>
       <translation>För liten höjd på lådan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="275"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Radius of cylinder too small</source>
       <translation>Cylinderns radie är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="280"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Height of cylinder too small</source>
       <translation>För liten höjd på cylindern</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="285"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Rotation angle of cylinder too small</source>
       <translation>Cylinderns rotationsvinkel är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="342"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Radius of sphere too small</source>
       <translation>Sfärens radie är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="394"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="399"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="392"/>
+      <location filename="../../../App/FeaturePrimitive.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Radius of cone cannot be negative</source>
       <translation>Konens radie kan inte vara negativ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="404"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Height of cone too small</source>
       <translation>För liten höjd på konen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="484"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="489"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="482"/>
+      <location filename="../../../App/FeaturePrimitive.cpp" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Radius of ellipsoid too small</source>
       <translation>Ellipsoidens radie är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="583"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="588"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="581"/>
+      <location filename="../../../App/FeaturePrimitive.cpp" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Radius of torus too small</source>
       <translation>Torus radie för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="673"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="671"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Polygon of prism is invalid, must have 3 or more sides</source>
       <translation>Polygon av prisma är ogiltig, måste ha 3 eller fler sidor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="678"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Circumradius of the polygon, of the prism, is too small</source>
       <translation>Polygonens eller prismats cirkumradius är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="683"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Height of prism is too small</source>
       <translation>Prismats höjd är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="770"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>delta x of wedge too small</source>
       <translation>delta x för kilen för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="776"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="774"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>delta y of wedge too small</source>
       <translation>kilens delta y för litet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="782"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>delta z of wedge too small</source>
       <translation>delta z för kilen för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="788"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>delta z2 of wedge is negative</source>
       <translation>delta z2 för kilen är negativ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeaturePrimitive.cpp" line="794"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>delta x2 of wedge is negative</source>
       <translation>delta x2 av kilen är negativ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="96"/>
+=======
+      <location filename="../../../App/FeatureRevolution.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Angle of revolution too large</source>
       <translation>Varvtalsvinkeln för stor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="103"/>
+=======
+      <location filename="../../../App/FeatureRevolution.cpp" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Angle of revolution too small</source>
       <translation>Varvtalsvinkeln för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="110"/>
+=======
+      <location filename="../../../App/FeatureRevolution.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Angles of revolution nullify each other</source>
       <translation>Rotationsvinklarna tar ut varandra</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureRevolved.cpp" line="126"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="146"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Reference axis is invalid</source>
       <translation>Referensaxeln är ogiltig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureExtrude.cpp" line="758"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fusion with base feature failed</source>
       <translation>Fusion med basform misslyckades</translation>
     </message>
     <message>
-      <location filename="../../../App/FeatureTransformed.cpp" line="101"/>
+      <location filename="../../../App/FeatureTransformed.cpp" line="99"/>
       <source>Transformation feature Linked object is not a Part object</source>
       <translation>Transformation feature Länkat objekt är inte ett Part-objekt</translation>
     </message>
@@ -5167,6 +7485,7 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
       <translation>Inga formelement valda för spegling.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureTransformed.cpp" line="112"/>
       <source>No features selected to be patterned.</source>
       <translation>Inga formelement valda för mönster.</translation>
@@ -5178,21 +7497,36 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
     </message>
     <message>
       <location filename="../../../App/FeatureTransformed.cpp" line="379"/>
+=======
+      <location filename="../../../App/FeatureTransformed.cpp" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Cannot transform invalid support shape</source>
       <translation>Kan inte omvandla ogiltig stödform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureTransformed.cpp" line="430"/>
+=======
+      <location filename="../../../App/FeatureTransformed.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shape of additive/subtractive feature is empty</source>
       <translation>Formen på det additiva/subtraktiva formelementet är tom</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureTransformed.cpp" line="421"/>
+=======
+      <location filename="../../../App/FeatureTransformed.cpp" line="388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Only additive and subtractive features can be transformed</source>
       <translation>Endast additiva och subtraktiva formelement kan omvandlas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureThickness.cpp" line="109"/>
+=======
+      <location filename="../../../App/FeatureThickness.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Invalid face reference</source>
       <translation>Ogiltig referens för yta</translation>
     </message>
@@ -5200,12 +7534,20 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesign_InvoluteGear</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="62"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Involute Gear</source>
       <translation>Evolventkugghjul</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../InvoluteGearFeature.py" line="66"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="64"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates or edits the involute gear definition</source>
       <translation>Skapar eller redigerar definitionen för ett evolventkugghjul</translation>
     </message>
@@ -5213,12 +7555,20 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesign_Sprocket</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../SprocketFeature.py" line="65"/>
+=======
+      <location filename="../../../SprocketFeature.py" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Sprocket</source>
       <translation>Kedjehjul</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../SprocketFeature.py" line="69"/>
+=======
+      <location filename="../../../SprocketFeature.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates or edits the sprocket definition.</source>
       <translation>Skapar eller redigerar kedjehjulsdefinitionen.</translation>
     </message>
@@ -5244,12 +7594,20 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesign_WizardShaft</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="225"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Shaft Design Wizard</source>
       <translation>Guiden för axelkonstruktion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../WizardShaft/WizardShaft.py" line="228"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Starts the shaft design wizard</source>
       <translation>Startar guiden för axeldesign</translation>
     </message>
@@ -5257,12 +7615,20 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesign::FeatureAddSub</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureAddSub.cpp" line="87"/>
+=======
+      <location filename="../../../App/FeatureAddSub.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Failure while computing removed volume preview: %1</source>
       <translation>Fel vid beräkning av förhandsgranskning av borttagen volym: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../../App/FeatureAddSub.cpp" line="125"/>
+=======
+      <location filename="../../../App/FeatureAddSub.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Resulting shape is empty. That may indicate that no material will be removed or a problem with the model.</source>
       <translation>Den resulterande formen är tom. Det kan tyda på att inget material kommer att tas bort eller att det finns ett problem med modellen.</translation>
     </message>
@@ -5270,12 +7636,20 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>CmdPartDesignCompDatums</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2667"/>
+=======
+      <location filename="../../Command.cpp" line="2644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Datum</source>
       <translation>Skapa referenspunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2668"/>
+=======
+      <location filename="../../Command.cpp" line="2645"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a datum object or local coordinate system</source>
       <translation>Skapar ett referenspunktsobjekt eller ett lokalt koordinatsystem</translation>
     </message>
@@ -5283,12 +7657,20 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>CmdPartDesignCompSketches</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2702"/>
+=======
+      <location filename="../../Command.cpp" line="2679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Create Datum</source>
       <translation>Skapa referenspunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../Command.cpp" line="2703"/>
+=======
+      <location filename="../../Command.cpp" line="2680"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a datum object or local coordinate system</source>
       <translation>Skapar ett referenspunktsobjekt eller ett lokalt koordinatsystem</translation>
     </message>
@@ -5296,42 +7678,74 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesign_CompPrimitiveAdditive</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="217"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive box by its width, height, and length</source>
       <translation>Skapar en additiv låda från bredd, höjd och längd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="226"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive cylinder by its radius, height, and angle</source>
       <translation>Skapar en additiv cylinder med dess radie, höjd och vinkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="235"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="233"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive sphere by its radius and various angles</source>
       <translation>Skapar en additiv sfär från radie och olika vinklar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="244"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive cone</source>
       <translation>Skapar en additiv kon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="250"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive ellipsoid</source>
       <translation>Skapar en additiv ellipsoid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="256"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive torus</source>
       <translation>Skapar en additiv torus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="262"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive prism</source>
       <translation>Skapar ett additivt prisma</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="268"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates an additive wedge</source>
       <translation>Skapar en additiv kil</translation>
     </message>
@@ -5339,42 +7753,74 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesign_CompPrimitiveSubtractive</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="402"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="400"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive box by its width, height and length</source>
       <translation>Skapar en subtraktiv låda från bredd, höjd och längd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="411"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive cylinder by its radius, height and angle</source>
       <translation>Skapar en subtraktiv cylinder med dess radie, höjd och vinkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="420"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="418"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive sphere by its radius and various angles</source>
       <translation>Skapar en subtraktiv sfär från radie och olika vinklar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="429"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive cone</source>
       <translation>Skapar en subtraktiv kon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="435"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive ellipsoid</source>
       <translation>Skapar en subtraktiv ellipsoid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="441"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive torus</source>
       <translation>Skapar en subtraktiv torus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="447"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="445"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive prism</source>
       <translation>Skapar ett subtraktivt prisma</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../CommandPrimitive.cpp" line="453"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="451"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Creates a subtractive wedge</source>
       <translation>Skapar en subtraktiv kil</translation>
     </message>
@@ -5382,7 +7828,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::TaskDlgPrimitiveParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPrimitiveParameters.cpp" line="1180"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="1007"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Attachment</source>
       <translation>Fäste</translation>
     </message>
@@ -5398,7 +7848,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::TaskDlgGrooveParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskRevolutionParameters.cpp" line="813"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Groove Parameters</source>
       <translation>Spårparametrar</translation>
     </message>
@@ -5406,7 +7860,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::TaskTransformedMessages</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskTransformedMessages.cpp" line="39"/>
+=======
+      <location filename="../../TaskTransformedMessages.cpp" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Transformed Feature Messages</source>
       <translation>Transformerade formelementmeddelanden</translation>
     </message>
@@ -5414,7 +7872,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderBody</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderBody.cpp" line="199"/>
+=======
+      <location filename="../../ViewProviderBody.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Active Body</source>
       <translation>Aktiv kropp</translation>
     </message>
@@ -5422,7 +7884,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderChamfer</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderChamfer.h" line="44"/>
+=======
+      <location filename="../../ViewProviderChamfer.h" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Chamfer Parameters</source>
       <translation>Parametrar för avfasning</translation>
     </message>
@@ -5453,7 +7919,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderDraft</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderDraft.h" line="45"/>
+=======
+      <location filename="../../ViewProviderDraft.h" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Draft Parameters</source>
       <translation>Släppningsparametrar</translation>
     </message>
@@ -5461,7 +7931,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderFillet</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderFillet.h" line="44"/>
+=======
+      <location filename="../../ViewProviderFillet.h" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Fillet Parameters</source>
       <translation>Parametrar för avrundning</translation>
     </message>
@@ -5469,7 +7943,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderLinearPattern</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderLinearPattern.h" line="41"/>
+=======
+      <location filename="../../ViewProviderLinearPattern.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Linear Pattern Parameters</source>
       <translation>Parametrar för linjärt mönster</translation>
     </message>
@@ -5477,7 +7955,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGuii::ViewProviderMirrored</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderMirrored.h" line="41"/>
+=======
+      <location filename="../../ViewProviderMirrored.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Mirror Parameters</source>
       <translation>Parametrar för spegling</translation>
     </message>
@@ -5485,7 +7967,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderMultiTransform</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderMultiTransform.h" line="41"/>
+=======
+      <location filename="../../ViewProviderMultiTransform.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Multi-Transform Parameters</source>
       <translation>Parametrar för flera transformationer</translation>
     </message>
@@ -5493,7 +7979,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderPolarPattern</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderPolarPattern.h" line="41"/>
+=======
+      <location filename="../../ViewProviderPolarPattern.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Polar Pattern Parameters</source>
       <translation>Parametrar för polärmönster</translation>
     </message>
@@ -5501,7 +7991,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderScaled</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderScaled.h" line="41"/>
+=======
+      <location filename="../../ViewProviderScaled.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Scale Parameters</source>
       <translation>Parametrar för skala</translation>
     </message>
@@ -5509,7 +8003,11 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::ViewProviderThickness</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../ViewProviderThickness.h" line="44"/>
+=======
+      <location filename="../../ViewProviderThickness.h" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Thickness Parameters</source>
       <translation>Parametrar för tjocklek</translation>
     </message>
@@ -5517,17 +8015,29 @@ Korsande skissentiteter eller flera ytor i en skiss är inte tillåtna.</transla
   <context>
     <name>PartDesignGui::TaskPatternParameters</name>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPatternParameters.cpp" line="148"/>
+=======
+      <location filename="../../TaskPatternParameters.cpp" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Direction 2</source>
       <translation>Riktning 2</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPatternParameters.cpp" line="267"/>
+=======
+      <location filename="../../TaskPatternParameters.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Select a direction reference (edge, face, datum line)</source>
       <translation>Välj en riktningsreferens (kant, yta, referenspunktslinje)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv.ts
       <location filename="../../TaskPatternParameters.cpp" line="355"/>
+=======
+      <location filename="../../TaskPatternParameters.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/PartDesign/Gui/Resources/translations/PartDesign_sv-SE.ts
       <source>Invalid selection. Select an edge, planar face, or datum line.</source>
       <translation>Ogiltigt val. Välj en kant, en plan yta eller en referenslinje.</translation>
     </message>

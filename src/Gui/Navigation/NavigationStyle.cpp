@@ -2600,6 +2600,7 @@ void NavigationStyle::openPopupMenu(const SbVec2s& position)
         contextMenu->insertSeparator(posAction);
     }
 
+<<<<<<< HEAD
     auto clarifyFunction = [pickAction](QAction* selectedAction) {
         if (selectedAction == pickAction) {
             // Execute the Clarify Selection command at this position
@@ -2610,6 +2611,27 @@ void NavigationStyle::openPopupMenu(const SbVec2s& position)
         }
     };
 
+=======
+    auto navigationFunction = [this, navMenuGroup](QAction* selectedAction) {
+        // handle navigation style change if user selected a navigation style option
+        if (isNavigationStyleAction(selectedAction, navMenuGroup)) {
+            applyNavigationStyleChange(selectedAction);
+            rightClickPosition.reset();
+        }
+    };
+
+    auto clarifyFunction = [pickAction](QAction* selectedAction) {
+        if (selectedAction == pickAction) {
+            // Execute the Clarify Selection command at this position
+            auto cmd = Application::Instance->commandManager().getCommandByName("Std_ClarifySelection");
+            if (cmd && cmd->isActive()) {
+                cmd->invoke(0);  // required placeholder value - we don't use group command
+            }
+        }
+    };
+
+    QObject::connect(contextMenu, &QMenu::triggered, navigationFunction);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     QObject::connect(contextMenu, &QMenu::triggered, clarifyFunction);
 
     contextMenu->popup(QCursor::pos());

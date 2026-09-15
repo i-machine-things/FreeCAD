@@ -1,5 +1,9 @@
 context:
+<<<<<<< HEAD
   version: "26.3.0dev"
+=======
+  version: "1.1.3"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 package:
   name: freecad
@@ -107,6 +111,10 @@ requirements:
         - cross-python_${{ target_platform }}
 
   host:
+<<<<<<< HEAD
+=======
+    - coin3d >=4.0.3,<4.0.4
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     - eigen >=3.3,<5
     - fmt >=12.1,<12.2
     - freetype

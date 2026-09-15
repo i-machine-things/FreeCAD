@@ -2909,7 +2909,11 @@ void Application::setStyle(const QString& name)
         return qobject_cast<FreeCADStyle*>(style) != nullptr;
     };
 
+<<<<<<< HEAD
     if (auto* current = qApp->style(); current && requiresEventFilter(current)) {
+=======
+    if (auto* current = qApp->style(); current != nullptr && requiresEventFilter(current)) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         qApp->removeEventFilter(current);
     }
 

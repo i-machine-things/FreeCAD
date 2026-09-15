@@ -31,7 +31,10 @@ import os
 import shutil
 
 from vtkmodules.util import numpy_support as vtk_np
+<<<<<<< HEAD
 from vtkmodules.vtkIOXML import vtkXMLMultiBlockDataReader
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from vtkmodules.vtkCommonDataModel import vtkMultiBlockDataSet
 import numpy as np
 
@@ -44,7 +47,10 @@ from .calculixutils import define_masks
 
 from femmesh import meshsetsgetter
 from femtools import membertools
+<<<<<<< HEAD
 from femtools.checksanalysis import check_member_for_solver_calculix
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from femtools.objecttools import ObjectTools
 
 
@@ -190,12 +196,19 @@ class CalculiXTools(ObjectTools):
         for f in files:
             if f.endswith(".vtm"):
                 vtm_file = os.path.join(self.obj.WorkingDirectory, f)
+<<<<<<< HEAD
                 reader = vtkXMLMultiBlockDataReader()
                 reader.SetFileName(vtm_file)
                 reader.Update()
                 multi_block = reader.GetOutput()
                 multi_block = self._generate_derived_result(multi_block)
                 if self.obj.DisplaceMesh:
+=======
+                pipeline.read(vtm_file)
+                multi_block = pipeline.Data
+                multi_block = self._generate_derived_result(multi_block)
+                if getattr(self.obj, "DisplaceMesh", False):
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     multi_block = self._generate_disp_mesh(multi_block)
                 pipeline.Data = multi_block
                 break
@@ -355,6 +368,11 @@ class CalculiXTools(ObjectTools):
             return mb
 
     def _set_time_info(self, pipeline):
+<<<<<<< HEAD
+=======
+        if not hasattr(pipeline, "setTimeInfo"):
+            return
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         match self.obj.AnalysisType:
             case "frequency":
                 pipeline.setTimeInfo("Frequency", FreeCAD.Units.Frequency)

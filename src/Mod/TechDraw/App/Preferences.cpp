@@ -728,6 +728,14 @@ double Preferences::detailSnapRadius()
     return getPreferenceGroup("General")->GetFloat("DetailSnapRadius", 0.6);
 }
 
+<<<<<<< HEAD
+=======
+//! true if old style transparency values should be converted to new style alpha values for color properties.
+bool Preferences::fixColorAlphaOnLoad()
+{
+    return getPreferenceGroup("General")->GetBool("FixColorAlphaOnLoad", true);
+}
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 bool Preferences::showCenterMarks()
 {
@@ -738,6 +746,7 @@ bool Preferences::printCenterMarks()
 {
     return getPreferenceGroup("Decorations")->GetBool("PrintCenterMarks", false);
 }
+<<<<<<< HEAD
 
 
 //! true if old style transparency values should be converted to new style alpha values for color properties.
@@ -745,3 +754,5 @@ bool Preferences::fixColorAlphaOnLoad()
 {
     return getPreferenceGroup("General")->GetBool("FixColorAlphaOnLoad", true);
 }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

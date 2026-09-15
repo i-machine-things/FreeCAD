@@ -720,63 +720,112 @@ If unchecked, they will be sorted by their name.</source>
       <translation>删除</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="199"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
       <translation>覆盖原始文件可能会导致其他文档损坏。不建议这样做。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="223"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save as new material</source>
       <translation>另存为新材质</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="196"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save over &apos;%1&apos;?</source>
       <translation>覆盖保存“%1”？</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="221"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Save as New Material</source>
       <translation>确认另存为新材质</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="226"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This material already exists in this library. Save as a new material?</source>
       <translation>此材质已存在于此库中。是否另存为新材质？</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="248"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Save as Copy</source>
       <translation>确认另存为副本</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="250"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save as copy</source>
       <translation>另存为副本</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="253"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</source>
       <translation>不建议保存副本，因为这可能会破坏其他文档。建议将其保存为新材质。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="256"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Copy</source>
       <translation>保存副本</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="257"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save As New</source>
       <translation>另存为</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="489"/>
       <location filename="../../MaterialSave.cpp" line="499"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="488"/>
+      <location filename="../../MaterialSave.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New folder</source>
       <translation>新建文件夹</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="539"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Context Menu</source>
       <translation>上下文菜单</translation>
     </message>
@@ -1154,23 +1203,40 @@ If unchecked, they will be sorted by their name.</source>
       <translation>材质</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="193"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Overwrite</source>
       <translation>确认覆盖</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="383"/>
       <location filename="../../MaterialSave.cpp" line="384"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="382"/>
+      <location filename="../../MaterialSave.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No writeable library</source>
       <translation>没有可写入的库</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="571"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete &apos;%1&apos;?</source>
       <translation>删除“%1”？</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="575"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing this will also remove all contents.</source>
       <translation>删除此项也将删除所有内容。</translation>
     </message>
@@ -1198,6 +1264,10 @@ If unchecked, they will be sorted by their name.</source>
       <location filename="../../Array2D.cpp" line="170"/>
       <location filename="../../MaterialSave.cpp" line="568"/>
       <location filename="../../ListEdit.cpp" line="142"/>
+<<<<<<< HEAD
+=======
+      <location filename="../../MaterialSave.cpp" line="567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Delete</source>
       <translation>确认删除</translation>
     </message>

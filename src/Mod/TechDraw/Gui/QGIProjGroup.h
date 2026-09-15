@@ -60,9 +60,12 @@ public:
     void drawBorder() override;
 
     bool isMember(App::DocumentObject* dvpObj) const;
+<<<<<<< HEAD
     QGIView* getAnchorQItem() const;
     TechDraw::DrawProjGroup* getPGroupFeature() const;
     QList<QGIViewPart*> secondaryQViews() const;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 protected:
     bool sceneEventFilter(QGraphicsItem* watched, QEvent *event) override;

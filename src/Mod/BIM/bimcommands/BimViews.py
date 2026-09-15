@@ -787,7 +787,12 @@ def show(item, column=None):
             # TD page: We switch to it.
             obj.ViewObject.Visibility = True
         elif isView(obj):
+<<<<<<< HEAD
             # 2D view
+=======
+
+            # case 2: the object is a 2D view
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             ssel = [obj] + obj.Group
             FreeCADGui.Selection.clearSelection()
             for o in ssel:

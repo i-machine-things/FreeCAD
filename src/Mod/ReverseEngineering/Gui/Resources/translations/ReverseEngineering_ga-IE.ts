@@ -238,7 +238,11 @@
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="242"/>
+<<<<<<< HEAD
       <location filename="../../FitBSplineCurve.cpp" line="152"/>
+=======
+      <location filename="../../FitBSplineCurve.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit B-spline</source>
       <translation>Feistigh splíne B</translation>
     </message>
@@ -338,8 +342,13 @@
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="171"/>
       <location filename="../../FitBSplineSurface.cpp" line="249"/>
+<<<<<<< HEAD
       <source>Input Error</source>
       <translation>Earráid Ionchuir</translation>
+=======
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="215"/>
@@ -381,8 +390,13 @@
     </message>
     <message>
       <location filename="../../Poisson.cpp" line="94"/>
+<<<<<<< HEAD
       <source>Input Error</source>
       <translation>Earráid Ionchuir</translation>
+=======
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -590,6 +604,7 @@
       <source>Reverse Engineering</source>
       <translation>Innealtóireacht droim ar ais</translation>
     </message>
+<<<<<<< HEAD
     <message>
       <location filename="../../Workbench.cpp" line="36"/>
       <source>&amp;Reverse Engineering</source>
@@ -610,6 +625,8 @@
       <source>Approximation</source>
       <translation>Measúnú</translation>
     </message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>ReenGui::FitBSplineCurve</name>
@@ -640,8 +657,13 @@
     </message>
     <message>
       <location filename="../../FitBSplineCurve.ui" line="47"/>
+<<<<<<< HEAD
       <source>Equidistant</source>
       <translation>Comhfhad</translation>
+=======
+      <source>Iso-Parametric</source>
+      <translation>Iso-Paraiméadrach</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../FitBSplineCurve.ui" line="55"/>
@@ -740,9 +762,15 @@
   <context>
     <name>ReenGui::FitBSplineCurveWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../FitBSplineCurve.cpp" line="103"/>
       <source>Input Error</source>
       <translation>Earráid Ionchuir</translation>
+=======
+      <location filename="../../FitBSplineCurve.cpp" line="89"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

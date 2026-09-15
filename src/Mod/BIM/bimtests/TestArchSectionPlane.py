@@ -53,6 +53,7 @@ class TestArchSectionPlane(TestArchBase.TestArchBase):
             section_plane.Label, "TestSectionPlane", "Section plane label is incorrect."
         )
 
+<<<<<<< HEAD
     def testSectionPlaneFitUsesLocalAxesAfterRotateY(self):
         """Resize-to-fit dimensions follow the rotated section plane axes."""
 
@@ -102,6 +103,8 @@ class TestArchSectionPlane(TestArchBase.TestArchBase):
         self.assertAlmostEqual(local_boundbox.Center.y, 0)
         self.assertAlmostEqual(local_boundbox.Center.z, 0)
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     def testTechDrawViewGeneration(self):
         """Tests the whole TD view generation workflow"""
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SPDX-License-Identifier: LGPL-2.1-or-later
 # --------------------------------------------------------------------------
 #                                                                          *
@@ -26,6 +27,11 @@ this test will FAIL on current main branch, and will PASS with PR #26963 ie. the
 current main at: https://github.com/FreeCAD/FreeCAD/tree/24f0c8e2c321bb202410feae84eb58779ba8e8d2
 
 add test to validate App:Link placement
+=======
+"""
+this test will FAIL on current main branch (with PR #26963) and PASS after the fix.
+current main at: https://github.com/FreeCAD/FreeCAD/tree/24f0c8e2c321bb202410feae84eb58779ba8e8d2
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 """
 
 import unittest
@@ -116,6 +122,7 @@ class TestPartMirroringRegression(unittest.TestCase):
             f"X={initial_center_x:.6f} -> X={final_center_x:.6f}",
         )
 
+<<<<<<< HEAD
     def testMirroringWithAppLinkPlacement(self):
         """Test that Part::Mirroring respects App::Link placement.
 
@@ -232,6 +239,8 @@ class TestPartMirroringRegression(unittest.TestCase):
         self.assertAlmostEqual(mirror_bbox.ZMin, link_bbox.ZMin, delta=1.0)
         self.assertAlmostEqual(mirror_bbox.ZMax, link_bbox.ZMax, delta=1.0)
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 # for standalone execution
 if __name__ == "__main__":

@@ -24,6 +24,7 @@
 
 
 #include "DlgCAMSimulator.h"
+<<<<<<< HEAD
 
 #include "Dummy3DViewer.h"
 #include "GuiDisplay.h"
@@ -31,6 +32,12 @@
 #include "ViewCAMSimulator.h"
 #include <Gui/View3DInventorViewer.h>
 #include <Inventor/nodes/SoCamera.h>
+=======
+#include "Gui/View3DInventorViewer.h"
+#include "MillSimulation.h"  // Must be *after* View3DInventorViewer.h -- See PR #28950
+#include <Mod/Part/App/BRepMesh.h>
+#include <QDateTime>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <QSurfaceFormat>
 #include <deque>
 #include <limits>

@@ -221,17 +221,33 @@ class ObjectEngrave(PathEngraveBase.ObjectOp):
         if obj.Base:
             # user has selected specific subelements
             Path.Log.track(len(obj.Base))
+<<<<<<< HEAD
             for base, subs in self.baseShapes(obj):
+=======
+            for base, subs in obj.Base:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 edges = []
                 wires = []
                 for feature in subs:
                     sub = base.Shape.getElement(feature)
+<<<<<<< HEAD
                     if sub.Wires:
                         wires.extend(sub.Wires)
                     else:
                         edges.extend(sub.Edges)
 
                 wires.extend([Part.Wire(se) for se in Part.sortEdges(edges)])
+=======
+                    if isinstance(sub, Part.Edge):
+                        edges.append(sub)
+                    elif sub.Wires:
+                        wires.extend(sub.Wires)
+                    else:
+                        wires.append(Part.Wire(sub.Edges))
+
+                for sortedEdges in Part.sortEdges(edges):
+                    wires.append(Part.Wire(sortedEdges))
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
                 jobshapes.append(Part.makeCompound(wires))
 

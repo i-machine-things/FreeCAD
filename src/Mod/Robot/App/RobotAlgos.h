@@ -50,3 +50,8 @@ KDL::Frame toFrame(const Base::Placement& To);
 Base::Placement toPlacement(const KDL::Frame& frame);
 
 }  // namespace Robot
+<<<<<<< HEAD
+=======
+
+#endif
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

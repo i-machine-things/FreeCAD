@@ -173,7 +173,11 @@ DraggerPlacementProps getDraggerPlacementFromEdgeAndFace(Part::TopoShape& edge, 
         dir = -dir;
     }
 
+<<<<<<< HEAD
     return {position, dir};
+=======
+    return {position, dir, tangent};
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 DraggerPlacementProps getDraggerPlacementFromEdgeAndFace(Part::TopoShape& edge, Part::TopoShape& face)

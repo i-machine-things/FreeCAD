@@ -1636,11 +1636,15 @@ bool TaskDlgAttacher::accept()
         );
         Gui::cmdAppObject(obj, "recompute()");
 
+<<<<<<< HEAD
         if (!obj->isValid()) {
             throw Base::RuntimeError(obj->getStatusString());
         }
 
         document->commitCommand();
+=======
+        Gui::Command::commitCommand();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
     catch (const Base::Exception& e) {
         QMessageBox::warning(
@@ -1666,7 +1670,11 @@ bool TaskDlgAttacher::reject()
     Gui::Document* document = doc.getDocument();
     if (document) {
         // roll back the done things
+<<<<<<< HEAD
         document->abortCommand();
+=======
+        Gui::Command::abortCommand();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         Gui::Command::doCommand(Gui::Command::Doc, "%s.recompute()", doc.getAppDocumentPython().c_str());
     }
 

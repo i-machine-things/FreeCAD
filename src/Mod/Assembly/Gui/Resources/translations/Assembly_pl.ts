@@ -48,39 +48,67 @@
       <translation>Złożenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active object</source>
       <translation>Aktywny obiekt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn flexible</source>
       <translation>Przełącz na elastyczne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="156"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently rigid. This will make it flexible instead.</source>
       <translation>Twój podzespół jest obecnie zakotwiony. 
 Dzięki temu będzie on teraz mógł swobodnie się poruszać.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="160"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn rigid</source>
       <translation>Przełącz na sztywne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="162"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
       <translation>Twój podzespół może się swobodnie poruszać. 
 Dzięki temu będzie on teraz zakotwiony.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="329"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>N/A</source>
       <translation>Nie dotyczy</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="353"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not supported</source>
       <translation>Niewspierane</translation>
     </message>
@@ -132,7 +160,11 @@ Dzięki temu będzie on teraz zakotwiony.</translation>
     </message>
     <message>
       <location filename="../../../JointObject.py" line="55"/>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1896"/>
+=======
+      <location filename="../../../JointObject.py" line="1793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Odległość</translation>
     </message>
@@ -172,32 +204,52 @@ Dzięki temu będzie on teraz zakotwiony.</translation>
       <translation>Pas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="818"/>
+=======
+      <location filename="../../../JointObject.py" line="812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Broken link in: </source>
       <translation>Uszkodzone łącze w: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1238"/>
       <source>Edit Joint</source>
       <translation>Edytuj połączenie</translation>
     </message>
     <message>
       <location filename="../../../JointObject.py" line="1704"/>
+=======
+      <location filename="../../../JointObject.py" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select 2 elements from 2 separate parts</source>
       <translation>Wybierz dwa elementy z dwóch oddzielnych części</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1898"/>
+=======
+      <location filename="../../../JointObject.py" line="1795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 1</source>
       <translation>Promień 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1900"/>
+=======
+      <location filename="../../../JointObject.py" line="1797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread pitch</source>
       <translation>Skok gwintu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1902"/>
+=======
+      <location filename="../../../JointObject.py" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pitch radius</source>
       <translation>Promień nachylenia</translation>
     </message>
@@ -258,57 +310,97 @@ Dzięki temu będzie on teraz zakotwiony.</translation>
 Proszę wybrać inną.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Opcje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="372"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-assembly children: the children of sub-assemblies will be included in the bill of materials</source>
       <translation>Elementy pochodne złożeń podrzędnych: 
 elementy te zostaną uwzględnione w zestawieniu materiałowym.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="378"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parts children: the children of parts will be added to the bill of materials</source>
       <translation>Elementy pochodne części:
 elementy te zostaną dodane do zestawienia materiałowego.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="384"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only parts: adds only part containers and sub-assemblies to the bill of materials. Solids like Part Design bodies, fasteners, or Part workbench primitives are ignored.</source>
       <translation>Tylko części: dodaje wyłącznie kontenery części i złożenia podrzędne do zestawienia materiałowego. 
 Obiekty, takie jak obiekty Zawartość w środowisku Projekt Części, elementy złączne czy prymitywy ze środowiska Część, są pomijane.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="386"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Columns</source>
       <translation>Kolumny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="399"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
       <translation>Kolumny niestandardowe: kolumna "Opis" oraz inne kolumny niestandardowe dodane przyciskiem "Dodaj kolumnę" nie będą miały nadpisywanych danych. 
 Jeśli nazwa kolumny zaczyna się od znaku ".", po którym następuje nazwa właściwości (np. ".Length"), zostanie ona automatycznie wypełniona wartością tej właściwości. 
 Kolumną można zmieniać nazwy, klikając dwukrotnie lub naciskając F2 (zmiana nazwy kolumny spowoduje obecnie utratę jej danych).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="405"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Any column (custom or not), can be deleted by pressing the Delete key</source>
       <translation>Każda kolumna (zarówno niestandardowa, jak i zwykła) może zostać usunięta przyciskiem Delete.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="407"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export</source>
       <translation>Eksport</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="414"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported file format can be customized in the Spreadsheet workbench preferences</source>
       <translation>Format eksportowanego pliku można dostosować w preferencjach Arkusza kalkulacyjnego</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="393"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto columns :  (Index, Quantity, Name...) are populated automatically. Any modification you make will be overridden. These columns cannot be renamed.</source>
       <translation>Kolumny automatycznie: (Indeks, Ilość, Nazwa...) są wypełniane automatycznie. 
 Wszelkie wprowadzone modyfikacje zostaną zastąpione. Nie można zmienić nazwy tych kolumn.</translation>
@@ -704,23 +796,40 @@ Jest on używany tylko przez połączenie zębate do przechowywania drugiego pro
       <translation>{order} odniesienie połączenia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1288"/>
+=======
+      <location filename="../../../JointObject.py" line="1221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object to ground</source>
       <translation>Obiekt do zakotwienia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="376"/>
       <location filename="../../../CommandCreateView.py" line="413"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="368"/>
+      <location filename="../../../CommandCreateView.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects moved by the move</source>
       <translation>Obiekty przeniesione przez ruch</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="388"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is the movement of the move. The end placement is the result of the start placement * this placement.</source>
       <translation>Jest to ruch przesunięcia. Pozycja końcowa jest wynikiem pozycji początkowej * tej pozycji.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="397"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of the move</source>
       <translation>Typ ruchu</translation>
     </message>
@@ -996,52 +1105,104 @@ Pliki noszą nazwy „runPreDrag.asmt” oraz „dragging.log” i są zapisywan
   <context>
     <name>AssemblyGui::ViewProviderAssembly</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object is associated to one or more joints.</source>
       <translation>Obiekt jest powiązany z jednym lub większą liczbą połączeń.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="215"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to move the object and delete associated joints?</source>
       <translation>Czy chcesz przenieść obiekt i usunąć powiązane połączenia?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1088"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move part</source>
       <translation>Przesuń część</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1805"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1679"/>
+      <source>ViewProviderAssembly</source>
+      <comment>and %1 more</comment>
+      <translation>Dostawca Widoku Złożenia</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty Assembly</source>
       <translation>Poste złożenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1817"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Over-constrained:</source>
       <translation>Wiązania nadmierne:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1825"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malformed joints:</source>
       <translation>Nieprawidłowe połączenia:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1790"/>
       <source>and %1 more</source>
       <translation>i %1 więcej</translation>
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1849"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1717"/>
+      <source>Redundant joints:</source>
+      <translation>Nadmiarowe połączenia:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1725"/>
+      <source>Partially redundant:</source>
+      <translation>Częściowo nadmiarowe:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver failed to converge</source>
       <translation>Solver nie osiągnął zbieżności</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1857"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Under-constrained:</source>
       <translation>Niedostatecznie związane:</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1859"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%n Degrees of Freedom</source>
       <translation>
         <numerusform>%n stopień swobody</numerusform>
@@ -1051,7 +1212,11 @@ Pliki noszą nazwy „runPreDrag.asmt” oraz „dragging.log” i są zapisywan
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1863"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully constrained</source>
       <translation>W pełni związany</translation>
     </message>
@@ -1188,7 +1353,11 @@ Bryły (np. zawartości, elementy złączne, prymitywy) są pomijane.</translati
   <context>
     <name>Assembly::AssemblyLink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AssemblyLink.cpp" line="704"/>
+=======
+      <location filename="../../../App/AssemblyLink.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Joints</source>
       <translation>Połączenia</translation>
     </message>
@@ -1196,7 +1365,11 @@ Bryły (np. zawartości, elementy złączne, prymitywy) są pomijane.</translati
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="168"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Rigid</source>
       <translation>Przełącz sztywne</translation>
     </message>
@@ -1540,14 +1713,24 @@ o ile punkty połączenia pozostają w kontakcie.</translation>
   <context>
     <name>Assembly_ToggleGrounded</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="430"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Grounded</source>
       <translation>Włącz / wyłącz zakotwienie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="436"/>
       <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</source>
       <translation>&lt;p&gt;Przełącza uziemienie części.&lt;/p&gt;&lt;p&gt;Uziemienie części trwale blokuje jej pozycję w złożeniu, uniemożliwiając jakikolwiek ruch lub obrót.</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="437"/>
+      <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation. You need at least one grounded part before starting to assemble.</source>
+      <translation>&lt;p&gt;Przełącza uziemienie części.&lt;/p&gt;&lt;p&gt; Zakotwienie części blokuje jej pozycję w złożeniu, uniemożliwiając jakikolwiek ruch lub obrót. Przed rozpoczęciem składania należy mieć przynajmniej jedną zakotwioną część.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1584,12 +1767,20 @@ o ile punkty połączenia pozostają w kontakcie.</translation>
       <translation>Wstaw komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="222"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Partially loaded</source>
       <translation>Częściowo załadowany</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="615"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully load document</source>
       <translation>Wczytaj dokument w całości</translation>
     </message>
@@ -1603,6 +1794,7 @@ o ile punkty połączenia pozostają w kontakcie.</translation>
     </message>
     <message>
       <location filename="../../TaskAssemblyMessages.cpp" line="56"/>
+<<<<<<< HEAD
       <source>Selects these conflicting joints</source>
       <translation>Zaznacza te konfliktowe połączenia</translation>
     </message>
@@ -1754,6 +1946,26 @@ Uwaga: Obecnie ta opcja wybiera tylko niepołączone części, a nie części zd
       <location filename="../../Commands.cpp" line="312"/>
       <source>Selects all joints referencing the selected component</source>
       <translation>Zaznacza wszystkie połączenia odwołujące się do zaznaczonego komponentu</translation>
+=======
+      <source>Click to select these conflicting joints.</source>
+      <translation>Kliknij, aby wybrać te sprzeczne połączenia.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="59"/>
+      <source>Click to select these redundant joints.</source>
+      <translation>Kliknij, aby wybrać te nadmiarowe połączenia.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="63"/>
+      <source>The assembly has unconstrained components giving rise to those Degrees Of Freedom. Click to select these unconstrained components.</source>
+      <translation>Złożenie zawiera niezwiązane komponenty, które powodują występowanie tych stopni swobody. 
+Kliknij, aby zaznaczyć te nieskrępowane komponenty.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="68"/>
+      <source>Click to select these malformed joints.</source>
+      <translation>Kliknij, aby zaznaczyć te niepoprawne połączenia.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

@@ -37,7 +37,11 @@
     <message>
       <location filename="../../../CommandSolveAssembly.py" line="53"/>
       <source>Solves the currently active assembly.</source>
+<<<<<<< HEAD
       <translation>Risolve l'assieme attualmente attivo.</translation>
+=======
+      <translation>Risolve l'assemblaggio attivo correntemente.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -48,37 +52,66 @@
       <translation>Assembly</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active object</source>
       <translation>Oggetto attivo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn flexible</source>
       <translation>Rendi flessibile</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="156"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently rigid. This will make it flexible instead.</source>
       <translation>Il sotto assieme è attualmente rigido. Questa modifica lo renderà flessibile.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="160"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn rigid</source>
       <translation>Rendi rigido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="162"/>
       <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
       <translation>Il sotto assieme è attualmente flessibile. Questa modifica lo renderà rigido.</translation>
     </message>
     <message>
       <location filename="../../../App/BomObject.cpp" line="329"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="133"/>
+      <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
+      <translation>Il tuo sotto assieme è attualmente flessibile. Questo lo renderà invece rigido.</translation>
+    </message>
+    <message>
+      <location filename="../../../App/BomObject.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>N/A</source>
       <translation>Non disponibile</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="353"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not supported</source>
       <translation>Non supportato</translation>
     </message>
@@ -130,7 +163,11 @@
     </message>
     <message>
       <location filename="../../../JointObject.py" line="55"/>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1896"/>
+=======
+      <location filename="../../../JointObject.py" line="1793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Distanza</translation>
     </message>
@@ -170,11 +207,16 @@
       <translation>Cinghia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="818"/>
+=======
+      <location filename="../../../JointObject.py" line="812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Broken link in: </source>
       <translation>Collegamento interrotto in: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1238"/>
       <source>Edit Joint</source>
       <translation>Modifica giunto</translation>
@@ -186,16 +228,32 @@
     </message>
     <message>
       <location filename="../../../JointObject.py" line="1898"/>
+=======
+      <location filename="../../../JointObject.py" line="1612"/>
+      <source>Select 2 elements from 2 separate parts</source>
+      <translation>Seleziona 2 elementi da 2 parti separate</translation>
+    </message>
+    <message>
+      <location filename="../../../JointObject.py" line="1795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 1</source>
       <translation>Raggio 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1900"/>
+=======
+      <location filename="../../../JointObject.py" line="1797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread pitch</source>
       <translation>Passo della vite</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1902"/>
+=======
+      <location filename="../../../JointObject.py" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pitch radius</source>
       <translation>Passo sul raggio</translation>
     </message>
@@ -255,52 +313,92 @@
       <translation>Questo nome è già in uso. Scegliere un nome diverso.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Opzioni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="372"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-assembly children: the children of sub-assemblies will be included in the bill of materials</source>
       <translation>Componenti sotto assieme: i componenti secondari dei sotto assiemi saranno inclusi nella distinta dei materiali</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="378"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parts children: the children of parts will be added to the bill of materials</source>
       <translation>Parti figlie: le parti figlie verranno aggiunte alla lista dei materiali</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="384"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only parts: adds only part containers and sub-assemblies to the bill of materials. Solids like Part Design bodies, fasteners, or Part workbench primitives are ignored.</source>
       <translation>Solo parti: aggiunge solo contenitori parte e sotto assiemi alla lista dei materiali. Solidi tipo corpi di Part Design, dispositivi di fissaggio, o primitive dell'ambiente di lavoro Part sono ignorate.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="386"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Columns</source>
       <translation>Colonne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="399"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
       <translation>Colonne personalizzate: 'Descrizione' e altre colonne personalizzate aggiunte cliccando su 'Aggiungi colonne' non avranno i loro dati sovrascritti. Se il nome di una colonna inizia con '.' seguito dal nome di una proprietà (per esempio '.Lunghezza'), questo verrà riempito automaticamente con il valore di questa proprietà. Queste colonne possono essere rinominate facendo doppio click oppure premendo F2 (rinominando una colonna si perderanno i suoi dati).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="405"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Any column (custom or not), can be deleted by pressing the Delete key</source>
       <translation>Ogni colonna (personalizzata o no), può essere cancellata premendo il tasto Delete</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="407"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export</source>
       <translation>Esporta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="414"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported file format can be customized in the Spreadsheet workbench preferences</source>
       <translation>Il formato di file esportato può essere personalizzato nelle preferenze dell'ambiente di lavoro Spreadsheet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="393"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto columns :  (Index, Quantity, Name...) are populated automatically. Any modification you make will be overridden. These columns cannot be renamed.</source>
       <translation>Colonne automatiche: (indice, quantità, nome...) sono popolate automaticamente. Qualsiasi modifica apportata verrà sovra scritta. Queste colonne non possono essere rinominate.</translation>
     </message>
@@ -338,7 +436,11 @@
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="77"/>
       <source>The assembly document must be saved before inserting a new part.</source>
+<<<<<<< HEAD
       <translation>Il documento di Assembly deve essere salvato prima d'inserire una nuova parte.</translation>
+=======
+      <translation>Il documento di montaggio deve essere salvato prima di inserire una nuova parte.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CommandInsertNewPart.py" line="80"/>
@@ -682,23 +784,40 @@ SLOPE definisce la pendenza della transizione tra 0 e H1 e H2 a 0 al tempo = T1 
       <translation>Il riferimento {order} del giunto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1288"/>
+=======
+      <location filename="../../../JointObject.py" line="1221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object to ground</source>
       <translation>L'oggetto da fissare a terra</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="376"/>
       <location filename="../../../CommandCreateView.py" line="413"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="368"/>
+      <location filename="../../../CommandCreateView.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects moved by the move</source>
       <translation>Gli oggetti spostati dal movimento</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="388"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is the movement of the move. The end placement is the result of the start placement * this placement.</source>
       <translation>Questo è lo spostamento del movimento. Il posizionamento finale è il risultato di posizionamento iniziale * questo posizionamento.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="397"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of the move</source>
       <translation>Il tipo di movimento</translation>
     </message>
@@ -974,51 +1093,100 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
   <context>
     <name>AssemblyGui::ViewProviderAssembly</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object is associated to one or more joints.</source>
       <translation>L'oggetto è associato a uno o più vincoli.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="215"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to move the object and delete associated joints?</source>
       <translation>Si desidera spostare l'oggetto ed eliminare i vincoli associati?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1088"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move part</source>
       <translation>Sposta parte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1805"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1679"/>
+      <source>ViewProviderAssembly</source>
+      <comment>and %1 more</comment>
+      <translation>ViewProviderAssembly</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty Assembly</source>
       <translation>Assieme vuoto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1817"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Over-constrained:</source>
       <translation>Sovravincolato:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1825"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malformed joints:</source>
       <translation>Giunti non validi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1790"/>
       <source>and %1 more</source>
       <translation>e %1 in più</translation>
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1849"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1717"/>
+      <source>Redundant joints:</source>
+      <translation>Giunti ridondanti:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1725"/>
+      <source>Partially redundant:</source>
+      <translation>Parzialmente ridondante:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver failed to converge</source>
       <translation>Risolutore impossibilitato a convergere</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1857"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Under-constrained:</source>
       <translation>Sottovincolato:</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1859"/>
       <source>%n Degrees of Freedom</source>
       <translation>
@@ -1028,6 +1196,17 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1863"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1743"/>
+      <source>%n Degrees of Freedom</source>
+      <translation>
+        <numerusform>"%n" Gradi di libertà</numerusform>
+        <numerusform/>
+      </translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully constrained</source>
       <translation>Completamente vincolato</translation>
     </message>
@@ -1118,7 +1297,11 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
     <message>
       <location filename="../panels/TaskAssemblyCreateBom.ui" line="58"/>
       <source>Adds only part containers and sub-assemblies to the bill of materials. Solids (e.g. bodies, fasteners, primitives) are excluded.</source>
+<<<<<<< HEAD
       <translation>Aggiunge solo parti contenitori e sotto assiemi alla lista dei materiali. Sono esclusi i solidi (ad esempio corpi, elementi di fissaggio, primitive).</translation>
+=======
+      <translation>Aggiunge solo parti contenitori e sottoinsiemi alla lista dei materiali. Sono esclusi i solidi (ad esempio corpi, elementi di fissaggio, primitive).</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateBom.ui" line="61"/>
@@ -1162,7 +1345,11 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
   <context>
     <name>Assembly::AssemblyLink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AssemblyLink.cpp" line="704"/>
+=======
+      <location filename="../../../App/AssemblyLink.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Joints</source>
       <translation>Giunti</translation>
     </message>
@@ -1170,7 +1357,11 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="168"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Rigid</source>
       <translation>Attiva/disattiva rigido</translation>
     </message>
@@ -1506,14 +1697,24 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
   <context>
     <name>Assembly_ToggleGrounded</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="430"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Grounded</source>
       <translation>Attiva/disattiva fissaggio a terra</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="436"/>
       <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</source>
       <translation>&lt;p&gt;Attiva/disattiva il fissaggio a terra di un componente.&lt;/p&gt;&lt;p&gt;Il fissaggio a terra di un componente ne blocca permanentemente la posizione nell'assieme, impedendone qualsiasi movimento o rotazione.</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="437"/>
+      <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation. You need at least one grounded part before starting to assemble.</source>
+      <translation>&lt;p&gt;Attiva/disattiva il fissaggio di una parte.&lt;/p&gt;&lt;p&gt;Il fissaggio di una parte blocca permanentemente la sua posizione nell'assieme, impedendo qualsiasi movimento o rotazione. È necessario avere almeno una parte fissata prima di iniziare l'assemblaggio.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1550,12 +1751,20 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
       <translation>Inserisci componente</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="222"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Partially loaded</source>
       <translation>Parzialmente caricato</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="615"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully load document</source>
       <translation>Carica completamente il documento</translation>
     </message>
@@ -1569,6 +1778,7 @@ I file sono denominati "runPreDrag. asmt" e "dragging.log" e si trovano nella di
     </message>
     <message>
       <location filename="../../TaskAssemblyMessages.cpp" line="56"/>
+<<<<<<< HEAD
       <source>Selects these conflicting joints</source>
       <translation>Seleziona questi giunti in conflitto</translation>
     </message>
@@ -1721,6 +1931,25 @@ Nota: al momento questa funzione seleziona solo le parti non collegate, non quel
       <location filename="../../Commands.cpp" line="312"/>
       <source>Selects all joints referencing the selected component</source>
       <translation>Seleziona tutti i vincoli che si riferiscono al componente selezionato</translation>
+=======
+      <source>Click to select these conflicting joints.</source>
+      <translation>Fare clic per selezionare questi giunti in conflitto.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="59"/>
+      <source>Click to select these redundant joints.</source>
+      <translation>Fare clic per selezionare questi giunti ridondanti.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="63"/>
+      <source>The assembly has unconstrained components giving rise to those Degrees Of Freedom. Click to select these unconstrained components.</source>
+      <translation>L'assieme ha componenti senza vincoli che danno origine a quei gradi di libertà. Fare clic per selezionare questi componenti senza vincoli.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="68"/>
+      <source>Click to select these malformed joints.</source>
+      <translation>Fare clic per selezionare questi giunti malformati.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

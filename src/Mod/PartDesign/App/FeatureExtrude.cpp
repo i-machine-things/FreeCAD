@@ -43,7 +43,10 @@
 
 #include <App/Document.h>
 #include <App/ObjectIdentifier.h>
+<<<<<<< HEAD
 #include <Base/Converter.h>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <Base/Tools.h>
 #include <Mod/Part/App/ExtrusionHelper.h>
 #include <Mod/Part/App/Tools.h>

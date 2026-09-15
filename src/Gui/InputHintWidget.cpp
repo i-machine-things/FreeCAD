@@ -38,7 +38,11 @@ constexpr int iconMargin = 2;
 }  // namespace
 
 Gui::InputHintWidget::InputHintWidget(QWidget* parent)
+<<<<<<< HEAD
     : StatusBarLabel(parent)
+=======
+    : StatusBarLabel(parent, "InputHintEnabled")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 {
     setMinimumHeight(iconSize + iconMargin * 2);
 }

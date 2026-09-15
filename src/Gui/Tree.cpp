@@ -468,11 +468,19 @@ void TreeWidgetItemDelegate::initStyleOption(QStyleOptionViewItem* option, const
         return;
     }
 
+<<<<<<< HEAD
     // Clear State_Enabled for invisible objects so QSS ::item:disabled rules can
     // override the overlay stylesheet's blanket ::item { color } for text fading.
     if (item->type() == TreeWidget::ObjectType) {
         if (auto* docItem = static_cast<DocumentObjectItem*>(item);
             docItem->object() && !docItem->isVisibleInTree()) {
+=======
+    // Clear State_Enabled for hidden objects so QSS ::item:disabled rules can
+    // override the overlay stylesheet's blanket ::item { color } for text fading.
+    if (item->type() == TreeWidget::ObjectType) {
+        if (auto* docItem = static_cast<DocumentObjectItem*>(item);
+            docItem->object() && !docItem->object()->isShow()) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             option->state &= ~QStyle::State_Enabled;
         }
     }
@@ -2662,7 +2670,11 @@ bool TreeWidget::dropInDocument(
                     continue;
                 }
                 std::string linkedLabel = Base::Tools::escapeEncodeString(
+<<<<<<< HEAD
                     obj->getLinkedObject(true)->Label.getValue()
+=======
+                    std::string(obj->getLinkedObject(true)->Label.getValue())
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 );
                 FCMD_OBJ_CMD(link, "Label='" << linkedLabel << "'");
                 propPlacement = dynamic_cast<App::PropertyPlacement*>(
@@ -5651,10 +5663,25 @@ void DocumentItem::updateItemSelection(DocumentObjectItem* item)
                     continue;
                 }
 
+<<<<<<< HEAD
                 std::string subname2;
                 computeObjAndSubname(docitem, obj2, subname2);
 
                 if (obj2 == obj && subname2 == subname) {
+=======
+                std::ostringstream str2;
+                App::DocumentObject* topParent2 = nullptr;
+                docitem->getSubName(str2, topParent2);
+
+                if (topParent2) {
+                    if (!obj2->redirectSubName(str2, topParent2, nullptr)) {
+                        str2 << obj2->getNameInDocument() << '.';
+                    }
+                    obj2 = topParent2;
+                }
+
+                if (obj2 == obj && str2.str() == subname) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     keep = true;
                     break;
                 }

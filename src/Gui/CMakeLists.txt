@@ -1387,7 +1387,10 @@ SET(FreeCADGui_SRCS
     ExpressionBindingPy.h
     ExpressionCompleter.h
     FreeCADGuiInit.py
+<<<<<<< HEAD
     FreeCADGuiTest.py
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     FreeCADStyle.h
     GraphicsViewZoom.h
     GuiApplication.h

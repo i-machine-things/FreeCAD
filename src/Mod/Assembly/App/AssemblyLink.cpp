@@ -234,12 +234,15 @@ void AssemblyLink::onChanged(const App::Property* prop)
     App::Part::onChanged(prop);
 }
 
+<<<<<<< HEAD
 void AssemblyLink::onDocumentRestored()
 {
     App::Part::onDocumentRestored();
     updateContents();
 }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 void AssemblyLink::updateParentJoints()
 {
     AssemblyObject* parent = getParentAssembly();
@@ -249,7 +252,11 @@ void AssemblyLink::updateParentJoints()
 
     bool rigid = Rigid.getValue();
     // Iterate joints in the immediate parent assembly only (recursive=false)
+<<<<<<< HEAD
     for (auto* joint : parent->getJoints(false, false)) {
+=======
+    for (auto* joint : parent->getJoints(false, false, false)) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         for (const char* refName : {"Reference1", "Reference2"}) {
             auto* prop = dynamic_cast<App::PropertyXLinkSub*>(joint->getPropertyByName(refName));
             if (!prop) {

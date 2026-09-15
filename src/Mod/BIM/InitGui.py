@@ -125,7 +125,10 @@ class BIMWorkbench(Workbench):
             "Arch_Truss",
             "Arch_Equipment",
             "Arch_Rebar",
+<<<<<<< HEAD
             "BIM_GenericTools",
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         ]
 
         self.modify_gen = [
@@ -374,7 +377,14 @@ class BIMWorkbench(Workbench):
                 v = hasattr(FreeCADGui.getMainWindow().getActiveWindow(), "getSceneGraph")
                 return v
 
+<<<<<<< HEAD
         # create 2D views command
+=======
+        FreeCADGui.addCommand("BIM_GenericTools", BIM_GenericTools())
+        self.bimtools.append("BIM_GenericTools")
+
+        # create create 2D views command
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         class BIM_Create2DViews:
             def GetCommands(self):
                 return ("BIM_DrawingView", "BIM_Shape2DView", "BIM_Shape2DCut")
@@ -387,6 +397,7 @@ class BIMWorkbench(Workbench):
                 v = hasattr(FreeCADGui.getMainWindow().getActiveWindow(), "getSceneGraph")
                 return v
 
+<<<<<<< HEAD
         # Register grouped commands
         FreeCADGui.addCommand("BIM_ArcTools", BIM_ArcTools())
         FreeCADGui.addCommand("BIM_SplineTools", BIM_SplineTools())
@@ -399,6 +410,11 @@ class BIMWorkbench(Workbench):
         FreeCADGui.addCommand("BIM_GenericTools", BIM_GenericTools())
         FreeCADGui.addCommand("BIM_Create2DViews", BIM_Create2DViews())
         FreeCADGui.addCommand("BIM_CloneTools", BIM_CloneTools())
+=======
+        FreeCADGui.addCommand("BIM_Create2DViews", BIM_Create2DViews())
+        insert_at_index = self.annotationtools.index("BIM_TDPage")
+        self.annotationtools.insert(insert_at_index, "BIM_Create2DViews")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         # load rebar tools (Reinforcement addon)
         try:
@@ -566,6 +582,7 @@ class BIMWorkbench(Workbench):
         # https://github.com/FreeCAD/FreeCAD/issues/27984
         chk = (
             ("Arch_RebarTools", RebarGroupCommand),
+<<<<<<< HEAD
             ("BIM_ArcTools", BIM_ArcTools),
             ("BIM_ArrayTools", BIM_ArrayTools),
             ("BIM_AxisTools", BIM_AxisTools),
@@ -577,6 +594,10 @@ class BIMWorkbench(Workbench):
             ("BIM_OffsetTools", BIM_OffsetTools),
             ("BIM_ReportTools", BIM_ReportTools),
             ("BIM_SplineTools", BIM_SplineTools),
+=======
+            ("BIM_Create2DViews", BIM_Create2DViews),
+            ("BIM_GenericTools", BIM_GenericTools),
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         )
         for attr in ("draftingtools", "annotationtools", "bimtools", "modify"):
             lst = getattr(self, attr)

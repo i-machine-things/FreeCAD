@@ -6,7 +6,11 @@
     <message>
       <location filename="../../Command.cpp" line="74"/>
       <source>Inspection</source>
+<<<<<<< HEAD
       <translation>Cigireacht</translation>
+=======
+      <translation type="unfinished">Inspection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="75"/>
@@ -24,7 +28,11 @@
     <message>
       <location filename="../../Command.cpp" line="48"/>
       <source>Inspection</source>
+<<<<<<< HEAD
       <translation>Cigireacht</translation>
+=======
+      <translation type="unfinished">Inspection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="49"/>
@@ -113,18 +121,31 @@
       <translation>Fág Mód Faisnéise</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="709"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: &gt; %1</source>
       <translation>Fad: &gt; %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="712"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: &lt; %1</source>
       <translation>Fad: &lt;%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="731"/>
       <location filename="../../ViewProviderInspection.cpp" line="749"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="730"/>
+      <location filename="../../ViewProviderInspection.cpp" line="748"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: %1</source>
       <translation>Fad: %1</translation>
     </message>

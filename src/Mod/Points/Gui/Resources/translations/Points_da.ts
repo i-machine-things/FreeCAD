@@ -22,6 +22,7 @@
   <context>
     <name>CmdPointsExport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="150"/>
       <source>Points</source>
       <translation>Punkter</translation>
@@ -30,10 +31,20 @@
       <location filename="../../Command.cpp" line="151"/>
       <source>Export Points…</source>
       <translation>Eksporter punkter…</translation>
+=======
+      <location filename="../../Command.cpp" line="151"/>
+      <source>Points</source>
+      <translation>Punkter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="152"/>
-      <location filename="../../Command.cpp" line="154"/>
+      <source>Export Points…</source>
+      <translation>Eksporter punkter…</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="153"/>
+      <location filename="../../Command.cpp" line="155"/>
       <source>Exports a point cloud</source>
       <translation>Eksporterer en punktsky</translation>
     </message>
@@ -113,7 +124,7 @@
   <context>
     <name>Command</name>
     <message>
-      <location filename="../../Command.cpp" line="93"/>
+      <location filename="../../Command.cpp" line="94"/>
       <source>Import points</source>
       <translation>Importer punkter</translation>
     </message>
@@ -262,18 +273,37 @@
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="81"/>
       <location filename="../../Command.cpp" line="168"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point formats</source>
       <translation>Punktformater</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="113"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+      <source>All Files</source>
+      <translation>Alle filer</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points not at Origin</source>
       <translation>Punkter ikke på origo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="115"/>
+=======
+      <location filename="../../Command.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The bounding box of the imported points does not contain the origin. Translate it to the origin?</source>
       <translation>Afgrænsningsboksen for de importerede punkter indeholder ikke origo. Forskyd den til origo?</translation>
     </message>
@@ -299,6 +329,7 @@
       <location filename="../../Workbench.cpp" line="36"/>
       <source>&amp;Points</source>
       <translation>&amp;Punkter</translation>
+<<<<<<< HEAD
     </message>
   </context>
   <context>
@@ -307,6 +338,8 @@
       <location filename="../../../Init.py" line="35"/>
       <source>Point formats</source>
       <translation>Punktformater</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

@@ -266,9 +266,12 @@ private:
 
     void slotAboutToOpenTransaction(const std::string& cmdName);
     void slotActivatedVP(const Gui::ViewProviderDocumentObject* vp, const char* name);
+<<<<<<< HEAD
 
     void onWorkbenchActivated(const QString& name);
     void updateTaskPanel(bool show);
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     struct ComponentState
     {
@@ -294,12 +297,19 @@ private:
         std::set<App::DocumentObject*>& visited
     );
 
+<<<<<<< HEAD
     TaskAssemblyMessages* taskSolver {nullptr};
 
     QMetaObject::Connection workbenchConnection;
     fastsignals::connection connectActivatedVP;
     fastsignals::connection connectSolverUpdate;
     fastsignals::scoped_connection m_preTransactionConn;
+=======
+
+    boost::signals2::connection connectActivatedVP;
+    boost::signals2::connection connectSolverUpdate;
+    boost::signals2::scoped_connection m_preTransactionConn;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 };
 
 }  // namespace AssemblyGui

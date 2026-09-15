@@ -219,6 +219,7 @@ def setup(doc=None, solvertype="elmer"):
     ]
     mesh_region.ViewObject.Visibility = False
 
+<<<<<<< HEAD
     # set view
     doc.recompute()
     if FreeCAD.GuiUp:
@@ -227,6 +228,8 @@ def setup(doc=None, solvertype="elmer"):
         shell.ViewObject.Document.activeView().fitAll()
         FemGui.setActiveAnalysis(analysis)
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     # generate the mesh
     generate_mesh.mesh_from_mesher(femmesh_obj, "gmsh")
 

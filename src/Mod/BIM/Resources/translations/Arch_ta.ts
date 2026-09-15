@@ -226,31 +226,40 @@ When dealing with native IFC objects, you can use FreeCAD properties name, ex: '
 சொந்த IFC பொருள்களைக் கையாளும் போது, FreeCAD பண்புகளின் பெயரைப் பயன்படுத்தலாம், எ.கா: 'Class:IfcWall' அல்லது வேறு ஏதேனும் IFC பண்புக்கூறு (எ.கா. 'IsTypedBy:#455'). 'ஆப்செக்ட்ச்' நெடுவரிசை ஒரு IFC திட்டம் அல்லது ஆவணத்திற்கு அமைக்கப்பட்டிருந்தால், அந்த திட்டத்தின் அனைத்து IFC நிறுவனங்களும் பரிசீலிக்கப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ArchSchedule.ui" line="136"/>
       <source>If this is enabled, additional rows will be filled with each object considered. If not, only the totals.</source>
       <translation>இது இயக்கப்பட்டால், கருதப்படும் ஒவ்வொரு பொருளிலும் கூடுதல் வரிசைகள் நிரப்பப்படும். இல்லை என்றால், மொத்தம் மட்டுமே.</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ArchSchedule.ui" line="149"/>
       <source>Auto-update</source>
       <translation>தானாகப் புதுப்பித்தல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ArchSchedule.ui" line="160"/>
       <source>Adds a row below the selected row/cell</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வரிசை/கலத்தின் கீழே ஒரு வரிசையைச் சேர்க்கிறது</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ArchSchedule.ui" line="163"/>
       <source>Add Row</source>
       <translation>வரிசையைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ArchSchedule.ui" line="174"/>
       <source>Deletes the selected row</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வரிசையை நீக்குகிறது</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ArchSchedule.ui" line="205"/>
       <source>Add Selection</source>
       <translation>தேர்வைச் சேர்க்கவும்</translation>
@@ -335,6 +344,14 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>இணை விரிதாள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/ArchSchedule.ui" line="136"/>
+      <source>If this is enabled, additional lines will be filled with each object considered. If not, only the totals.</source>
+      <translation>இது இயக்கப்பட்டால், கருதப்படும் ஒவ்வொரு பொருளிலும் கூடுதல் வரிகள் நிரப்பப்படும். இல்லை என்றால், மொத்தம் மட்டுமே.</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ArchSchedule.ui" line="139"/>
       <source>Detailed results</source>
       <translation>விரிவான முடிவுகள்</translation>
@@ -345,6 +362,19 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>இது இயக்கப்பட்டால், ஆவணம் மீண்டும் கணக்கிடப்படும் போதெல்லாம் அட்டவணையும் அதனுடன் தொடர்புடைய விரிதாளும் புதுப்பிக்கப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/ArchSchedule.ui" line="160"/>
+      <source>Adds a line below the selected line/cell</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட கோடு/கலத்தின் கீழே ஒரு வரியைச் சேர்க்கிறது</translation>
+    </message>
+    <message>
+      <location filename="../ui/ArchSchedule.ui" line="174"/>
+      <source>Deletes the selected line</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட வரியை நீக்குகிறது</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ArchSchedule.ui" line="177"/>
       <source>Delete Row</source>
       <translation>வரிசையை நீக்கு</translation>
@@ -410,11 +440,19 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>FreeCAD அமர்வுகள் முழுவதும் உள்நுழைந்திருக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogListWidget.ui" line="14"/>
       <location filename="../ui/DialogDisplayText.ui" line="14"/>
       <location filename="../ui/dialogPhases.ui" line="14"/>
       <location filename="../ui/dialogExport.ui" line="14"/>
       <location filename="../ui/dialogQuantitySurveying.ui" line="14"/>
+=======
+      <location filename="../ui/DialogDisplayText.ui" line="14"/>
+      <location filename="../ui/dialogExport.ui" line="14"/>
+      <location filename="../ui/dialogListWidget.ui" line="14"/>
+      <location filename="../ui/dialogQuantitySurveying.ui" line="14"/>
+      <location filename="../ui/dialogPhases.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dialog</source>
       <translation>உரையாடல்</translation>
     </message>
@@ -456,8 +494,13 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>போட்டிகளை மட்டும் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogLayersIFC.ui" line="53"/>
       <location filename="../ui/dialogIfcProperties.ui" line="141"/>
+=======
+      <location filename="../ui/dialogIfcProperties.ui" line="141"/>
+      <location filename="../ui/dialogLayersIFC.ui" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogIfcQuantities.ui" line="80"/>
       <source>Select All</source>
       <translation>அனைத்தையும் தேர்ந்தெடு</translation>
@@ -491,7 +534,11 @@ FreeCAD இல் அல்லது இல்லை.
     <message>
       <location filename="../ui/dialogIfcPropertiesRedux.ui" line="38"/>
       <source>List of IFC properties for this object. Double-click to edit. Drag and drop to reorganize.</source>
+<<<<<<< HEAD
       <translation>இந்தப் பொருளுக்கான IFC பண்புகளின் பட்டியல். திருத்துவதற்கு இருமுறை சொடுக்கு செய்யவும். மறுசீரமைக்க இழுத்து விடுங்கள்.</translation>
+=======
+      <translation>இந்த பொருளுக்கான IFC பண்புகளின் பட்டியல். திருத்துவதற்கு இருமுறை சொடுக்கு செய்யவும். மறுசீரமைக்க இழுத்து விடுங்கள்.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/dialogIfcPropertiesRedux.ui" line="76"/>
@@ -568,8 +615,13 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>புதிய FreeCAD ஆவணங்களை உருவாக்கும்போது மேலும் தூண்டுதல்களைத் தடுக்கிறது. புதிய ஆவணங்கள் தானாகவே IFC ஆக மாற்றப்படாது, ஆனால் Utils → ஐஎஃப்சி திட்டத்தை உருவாக்குதல் மூலம் மாற்றுதல் சாத்தியமாகும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogConvertDocument.ui" line="43"/>
       <location filename="../ui/dialogCreateProject.ui" line="30"/>
+=======
+      <location filename="../ui/dialogCreateProject.ui" line="30"/>
+      <location filename="../ui/dialogConvertDocument.ui" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not ask again</source>
       <translation>மீண்டும் கேட்காதே</translation>
     </message>
@@ -745,8 +797,13 @@ FreeCAD இல் அல்லது இல்லை.
     </message>
     <message>
       <location filename="../ui/dialogLayersIFC.ui" line="46"/>
+<<<<<<< HEAD
       <location filename="../ui/dialogProjectManager.ui" line="679"/>
       <location filename="../ui/dialogPhases.ui" line="55"/>
+=======
+      <location filename="../ui/dialogPhases.ui" line="55"/>
+      <location filename="../ui/dialogProjectManager.ui" line="679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>நீக்கு</translation>
     </message>
@@ -783,10 +840,17 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>ரத்துசெய்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogLayersIFC.ui" line="104"/>
       <location filename="../ui/dialogProjectManager.ui" line="717"/>
       <location filename="../ui/dialogQuantitySurveying.ui" line="26"/>
       <location filename="../ui/dialogPreflightResults.ui" line="103"/>
+=======
+      <location filename="../ui/dialogPreflightResults.ui" line="103"/>
+      <location filename="../ui/dialogLayersIFC.ui" line="104"/>
+      <location filename="../ui/dialogQuantitySurveying.ui" line="26"/>
+      <location filename="../ui/dialogProjectManager.ui" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>OK</source>
       <translation>சரி</translation>
     </message>
@@ -846,10 +910,17 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>நிலையான IFC PSet ஐச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogProjectManager.ui" line="246"/>
       <location filename="../ui/dialogProjectManager.ui" line="366"/>
       <location filename="../ui/dialogAddPSet.ui" line="43"/>
       <location filename="../ui/dialogAddProperty.ui" line="87"/>
+=======
+      <location filename="../ui/dialogAddProperty.ui" line="87"/>
+      <location filename="../ui/dialogAddPSet.ui" line="43"/>
+      <location filename="../ui/dialogProjectManager.ui" line="246"/>
+      <location filename="../ui/dialogProjectManager.ui" line="366"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>பெயர்</translation>
     </message>
@@ -1114,6 +1185,15 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>V அச்சுகளுக்கு இடையே உள்ள தூரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogProjectManager.ui" line="506"/>
+      <location filename="../ui/dialogProjectManager.ui" line="615"/>
+      <source>0 </source>
+      <translation>0</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogProjectManager.ui" line="516"/>
       <source>Axes line width</source>
       <translation>அச்சு வரி அகலம்</translation>
@@ -1179,8 +1259,13 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>இந்த மாதிரிக்காக தற்போது கட்டமைக்கப்பட்ட கட்டங்கள் கீழே உள்ளன</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogProjectManager.ui" line="665"/>
       <location filename="../ui/dialogPhases.ui" line="48"/>
+=======
+      <location filename="../ui/dialogPhases.ui" line="48"/>
+      <location filename="../ui/dialogProjectManager.ui" line="665"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add</source>
       <translation>சேர்</translation>
     </message>
@@ -1286,12 +1371,19 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>விண்வெளி செய்தி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogProjectManager.ui" line="457"/>
       <location filename="../ui/dialogProjectManager.ui" line="480"/>
       <location filename="../ui/dialogProjectManager.ui" line="493"/>
       <location filename="../ui/dialogProjectManager.ui" line="506"/>
       <location filename="../ui/dialogProjectManager.ui" line="615"/>
       <location filename="../ui/dialogSpaces.ui" line="92"/>
+=======
+      <location filename="../ui/dialogSpaces.ui" line="92"/>
+      <location filename="../ui/dialogProjectManager.ui" line="457"/>
+      <location filename="../ui/dialogProjectManager.ui" line="480"/>
+      <location filename="../ui/dialogProjectManager.ui" line="493"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>0</source>
       <translation>0</translation>
     </message>
@@ -1807,11 +1899,14 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>நிகழ்நிலை பயன்முறை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogLibrary.ui" line="219"/>
       <source>Show available alternative file formats for library items (STEP, IFC, etc.)</source>
       <translation>நூலகப் பொருட்களுக்கான மாற்று கோப்பு வடிவங்களைக் காட்டு (STEP, IFC, முதலியன)</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogLibrary.ui" line="14"/>
       <source>Library Browser</source>
       <translation>நூலக உலாவி</translation>
@@ -1847,6 +1942,14 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>மாதிரியை 3D காட்சியில் மாதிரிக்காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogLibrary.ui" line="219"/>
+      <source>Show available alternative file formats for library items (STEP, IFC, etc...)</source>
+      <translation>நூலகப் பொருட்களுக்கான மாற்று கோப்பு வடிவங்களைக் காட்டு (STEP, IFC போன்றவை...)</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogLibrary.ui" line="222"/>
       <source>Display alternative formats</source>
       <translation>மாற்று வடிவங்களைக் காட்டு</translation>
@@ -1872,6 +1975,14 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>IFC ப்ரீஃப்லைட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogPreflight.ui" line="40"/>
+      <source>Work on</source>
+      <translation>வேலை வெற்றி</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogPreflight.ui" line="46"/>
       <source>Selection</source>
       <translation>தேர்வு</translation>
@@ -1982,11 +2093,14 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>அனைத்து சோதனைகளையும் இயக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogPreflight.ui" line="40"/>
       <source>Work On</source>
       <translation>வேலை</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogPreflight.ui" line="73"/>
       <source>IFC Export</source>
       <translation>IFC ஏற்றுமதி</translation>
@@ -2112,17 +2226,25 @@ FreeCAD இல் அல்லது இல்லை.
       <translation>IfcRectangleProfileDef ஏற்றுமதி முடக்கப்பட்டுள்ளதா? (மறுபரிசீலனை மட்டும்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogViews.ui" line="14"/>
       <location filename="../ui/dialogReorder.ui" line="14"/>
+=======
+      <location filename="../ui/dialogReorder.ui" line="14"/>
+      <location filename="../ui/dialogViews.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Form</source>
       <translation>படிவம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogViews.ui" line="69"/>
       <source>Elevation</source>
       <translation>உயர்வு ரேகை</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogReorder.ui" line="20"/>
       <source>Drag items to reorder them</source>
       <translation>உருப்படிகளை மறுவரிசைப்படுத்த இழுக்கவும்</translation>
@@ -2193,7 +2315,16 @@ p, li { white-space: pre-wrap; }
       <translation>தனிமம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogViews.ui" line="84"/>
+=======
+      <location filename="../ui/dialogViews.ui" line="69"/>
+      <source>Level</source>
+      <translation>நிலை</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogViews.ui" line="79"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Views</source>
       <translation>2D காட்சிகள்</translation>
     </message>
@@ -2262,7 +2393,10 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
       <location filename="../ui/dialogWindows.ui" line="175"/>
+<<<<<<< HEAD
       <location filename="../ui/dialogViews.ui" line="74"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height</source>
       <translation>உயரம்</translation>
     </message>
@@ -2522,6 +2656,19 @@ p, li { white-space: pre-wrap; }
       <translation>"மூவ் பேச்" சொத்தை முன்னிருப்பாக Trueக்கு அமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/preferences-arch.ui" line="74"/>
+      <source>If this is checked, when an Arch object has a material, the object will take the color of the material. This can be overridden for each object.</source>
+      <translation>இதைச் சரிபார்த்தால், ஒரு ஆர்ச் பொருளில் ஒரு பொருள் இருக்கும்போது, ​​அந்தப் பொருள் பொருளின் நிறத்தை எடுக்கும். ஒவ்வொரு பொருளுக்கும் இது மேலெழுதப்படலாம்.</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-arch.ui" line="14"/>
+      <source>General Settings</source>
+      <translation>பொது அமைப்புகள்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-arch.ui" line="20"/>
       <source>Object Creation</source>
       <translation>பொருள் உருவாக்கம்</translation>
@@ -2537,6 +2684,19 @@ p, li { white-space: pre-wrap; }
       <translation>பொருள் நிறத்தை வடிவ நிறமாகப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/preferences-arch.ui" line="93"/>
+      <source>If this is checked, when an object becomes subtraction or addition of an Arch object, it will receive the Draft construction color.</source>
+      <translation>இதைச் சரிபார்த்தால், ஒரு பொருள் கழித்தல் அல்லது ஆர்ச் பொருளைக் கூட்டும்போது, ​​அது வரைவு கட்டுமான நிறத்தைப் பெறும்.</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-arch.ui" line="109"/>
+      <source>By default, new objects will have their "Move with host" property set to False, which means they will not move when their host object is moved</source>
+      <translation>இயல்பாக, புதிய ஆப்செக்ட்டுகளின் "மூவ் வித் புரவலன்" சொத்தை False என அமைக்கும், அதாவது அவற்றின் புரவலன் பொருள் நகர்த்தப்படும் போது அவை நகராது</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-arch.ui" line="215"/>
       <source>IFC version</source>
       <translation>IFC பதிப்பு</translation>
@@ -2582,11 +2742,14 @@ p, li { white-space: pre-wrap; }
       <translation>இது சரிபார்க்கப்பட்டால், முகங்களின் தட்டையான குழுக்கள் வலுவாக-தட்டையாக்கப்படும், இதன் விளைவாக சாத்தியமான இடைவெளிகள் மற்றும் திடமற்ற முடிவுகள் ஏற்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-arch.ui" line="14"/>
       <source>General</source>
       <translation>பொது</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-arch.ui" line="45"/>
       <source>Join base sketches of walls if possible</source>
       <translation>முடிந்தால் சுவர்களின் அடிப்படை ஓவியங்களை இணைக்கவும்</translation>
@@ -2597,6 +2760,7 @@ p, li { white-space: pre-wrap; }
       <translation>தேவைப்பட்டால் அடிப்படை ஓவியங்களின் வெளிப்புற வடிவவியலை அகற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-arch.ui" line="74"/>
       <source>If this is checked, when a BIM object has a material, the object will take the color of the material. This can be overridden for each object.</source>
       <translation>இதைச் சரிபார்த்தால், BIM பொருளில் ஒரு பொருள் இருக்கும்போது, ​​பொருள் பொருளின் நிறத்தை எடுக்கும். ஒவ்வொரு பொருளுக்கும் இது மேலெழுதப்படலாம்.</translation>
@@ -2612,6 +2776,8 @@ p, li { white-space: pre-wrap; }
       <translation>இயல்பாக, புதிய ஆப்செக்ட்டுகளின் "மூவ் வித் புரவலன்" ப்ராப்பர்ட்டி "சரி" என அமைக்கப்படும், அதாவது புரவலன் ஆப்செக்ட் நகர்த்தப்படும் போது அவை நகரும்.</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-arch.ui" line="144"/>
       <source>Do not compute areas for objects with more than</source>
       <translation>அதற்கு மேல் உள்ள பொருட்களுக்கான பகுதிகளை கணக்கிட வேண்டாம்</translation>
@@ -2740,12 +2906,21 @@ a footprint display mode</source>
       <translation>இயல்புநிலைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="360"/>
       <location filename="../ui/preferences-archdefaults.ui" line="386"/>
       <location filename="../ui/preferences-archdefaults.ui" line="411"/>
       <location filename="../ui/preferences-archdefaults.ui" line="430"/>
       <location filename="../ui/preferences-archdefaults.ui" line="496"/>
       <location filename="../ui/preferences-archdefaults.ui" line="515"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="344"/>
+      <location filename="../ui/preferences-archdefaults.ui" line="370"/>
+      <location filename="../ui/preferences-archdefaults.ui" line="395"/>
+      <location filename="../ui/preferences-archdefaults.ui" line="414"/>
+      <location filename="../ui/preferences-archdefaults.ui" line="480"/>
+      <location filename="../ui/preferences-archdefaults.ui" line="499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>mm</source>
       <translation>மிமீ</translation>
     </message>
@@ -2836,22 +3011,44 @@ a footprint display mode</source>
       <translation>மற்றொன்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="541"/>
       <source>When clicking a view or level in the BIM Views Manager, this switches the background to plain color when activating a 2D view, and to gradient color when activating a level</source>
       <translation>BIM காட்சிகள் மேலாளரில் ஒரு பார்வை அல்லது நிலையைக் சொடுக்கு செய்யும் போது, ​​இது 2D காட்சியை செயல்படுத்தும் போது பின்னணியை வெற்று நிறத்திற்கும், ஒரு நிலையை செயல்படுத்தும் போது சாய்வு வண்ணத்திற்கும் மாற்றுகிறது.</translation>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="379"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="321"/>
+      <source>Use sketches for walls</source>
+      <translation>சுவர்களுக்கு ஓவியங்களைப் பயன்படுத்தவும்</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-archdefaults.ui" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe diameter</source>
       <translation>குழாய் விட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="482"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rebar diameter</source>
       <translation>ரிபார் விட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="544"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="525"/>
+      <source>When clicking a view or level in the BIM views manager, this switches the background to plain color when activating a 2D view, and to gradient color when activating a level</source>
+      <translation>BIM காட்சிகள் மேலாளரில் ஒரு பார்வை அல்லது நிலையைக் சொடுக்கு செய்யும் போது, ​​இது 2D காட்சியைச் செயல்படுத்தும் போது பின்னணியை வெற்று நிறத்திற்கும், ஒரு நிலையைச் செயல்படுத்தும் போது சாய்வு வண்ணத்திற்கும் மாற்றுகிறது.</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-archdefaults.ui" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch backgrounds</source>
       <translation>பின்னணியை மாற்றவும்</translation>
     </message>
@@ -2861,6 +3058,7 @@ a footprint display mode</source>
       <translation>ரீபார் ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="321"/>
       <source>Wall baseline</source>
       <translation>சுவர் அடிப்படை</translation>
@@ -2882,21 +3080,36 @@ a footprint display mode</source>
     </message>
     <message>
       <location filename="../ui/preferences-archdefaults.ui" line="353"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stair length</source>
       <translation>படிக்கட்டு நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="534"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="518"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stair width</source>
       <translation>படிக்கட்டு அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="489"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="473"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stair height</source>
       <translation>படிக்கட்டு உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-archdefaults.ui" line="462"/>
+=======
+      <location filename="../ui/preferences-archdefaults.ui" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of stair steps</source>
       <translation>படிக்கட்டுகளின் எண்ணிக்கை</translation>
     </message>
@@ -3193,8 +3406,13 @@ if crashes occur when multiple cores are set.</source>
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="236"/>
+<<<<<<< HEAD
       <source>Root element</source>
       <translation>வேர் உறுப்பு</translation>
+=======
+      <source>Root element:</source>
+      <translation>வேர் உறுப்பு:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/preferences-ifc.ui" line="243"/>
@@ -3384,9 +3602,15 @@ Netgen பயன்படுத்தினால், அது கிடைக�
       <translation>டெசெலேசன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-webgl.ui" line="26"/>
       <location filename="../ui/preferences-ifc-export.ui" line="35"/>
       <location filename="../ui/preferences-dae.ui" line="26"/>
+=======
+      <location filename="../ui/preferences-dae.ui" line="26"/>
+      <location filename="../ui/preferences-ifc-export.ui" line="35"/>
+      <location filename="../ui/preferences-webgl.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export Options</source>
       <translation>ஏற்றுமதி விருப்பங்கள்</translation>
     </message>
@@ -3589,11 +3813,14 @@ IFC கோப்புகள் எப்பொழுதும் மெட்�
       <translation>BIM -&gt; நேட்டிவ் IFC இன் கீழ் சொந்த-IFC-குறிப்பிட்ட விருப்பங்களையும் சரிபார்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-ifc-export.ui" line="363"/>
       <source>IFC Standard Compliance</source>
       <translation>IFC தரநிலை இணக்கம்</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-ifc-export.ui" line="369"/>
       <source>If no building is found in the FreeCAD document, a default one will be added.
 Warning: The IFC standard asks for at least one building in each file. By turning this option off, a non-standard IFC file will be produced.</source>
@@ -3606,11 +3833,14 @@ Warning: The IFC standard asks for at least one building in each file. By turnin
       <translation>ஆவணத்தில் ஒன்று இல்லை என்றால் இயல்புநிலை கட்டிடத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/preferences-ifc-export.ui" line="392"/>
       <source>Export FreeCAD groups</source>
       <translation>FreeCAD குழுக்களை ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-ifc-export.ui" line="413"/>
       <source>Export nested groups as assemblies</source>
       <translation>உள்ளமைக்கப்பட்ட குழுக்களை அசெம்பிளிகளாக ஏற்றுமதி செய்யவும்</translation>
@@ -3702,11 +3932,27 @@ A site is not mandatory but a common practice is to have at least one in the fil
       <translation>சரிபார்க்கப்படாவிட்டால், நிலையான FreeCAD குழுக்கள் (App::DocumentObjectGroup) IfcGroup அல்லது IfcElementAssembly ஆக ஏற்றுமதி செய்யப்படாது.\nஅவர்களின் குழந்தைகள் IFC கட்டமைப்பில் தவிர்க்கப்பட்ட குழுவின் கொள்கலனுக்கு மீண்டும் பெற்றோர்களாக மாற்றப்படுவார்கள்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/preferences-ifc-export.ui" line="392"/>
+      <source>Export FreeCAD Groups</source>
+      <translation>FreeCAD குழுக்களை ஏற்றுமதி செய்யவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-ifc-export.ui" line="410"/>
       <source>In FreeCAD, it is possible to nest groups inside buildings or storeys. If this option is disabled, FreeCAD groups will be saved as IfcGroups and aggregated to the building structure. Aggregating non-building elements such as IfcGroups is however not recommended by the IFC standards. It is therefore also possible to export these groups as IfcElementAssemblies, which produces an IFC-compliant file.</source>
       <translation>FreeCAD இல், கட்டிடங்கள் அல்லது மாடிகளுக்குள் குழுக்களாக கூடு கட்டுவது சாத்தியமாகும். இந்த விருப்பம் முடக்கப்பட்டால், FreeCAD குழுக்கள் IfcGroups ஆக சேமிக்கப்பட்டு கட்டிட அமைப்பில் ஒருங்கிணைக்கப்படும். IfcGroups போன்ற கட்டிடமற்ற கூறுகளை ஒருங்கிணைத்தல் IFC தரநிலைகளால் பரிந்துரைக்கப்படவில்லை. எனவே இந்த குழுக்களை IfcElementAssemblies ஆக ஏற்றுமதி செய்வதும் சாத்தியமாகும், இது IFC-இணக்கமான கோப்பை உருவாக்குகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/preferences-ifc-export.ui" line="363"/>
+      <source>IFC standard compliance</source>
+      <translation>IFC நிலையான இணக்கம்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/preferences-ifc-export.ui" line="289"/>
       <source>If no building storey is found in the FreeCAD document, a default one will be added.
 A building storey is not mandatory but a common practice to have at least one in the file.</source>
@@ -3768,51 +4014,105 @@ The default template is located at:
   <context>
     <name>Arch</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="449"/>
       <location filename="../../Arch.py" line="2574"/>
+=======
+      <location filename="../../ArchStructure.py" line="133"/>
+      <location filename="../../ArchStructure.py" line="543"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beam</source>
       <translation>பீம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="450"/>
       <location filename="../../Arch.py" line="2578"/>
+=======
+      <location filename="../../ArchStructure.py" line="136"/>
+      <location filename="../../ArchStructure.py" line="544"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Column</source>
       <translation>நெடுவரிசை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="2627"/>
+=======
+      <location filename="../../ArchStructure.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>StructuralSystem</source>
       <translation>கட்டமைப்பு அமைப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="115"/>
+=======
+      <location filename="../../ArchStructure.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Structures From Selection</source>
       <translation>தேர்விலிருந்து கட்டமைப்புகளை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="184"/>
+=======
+      <location filename="../../ArchStructure.py" line="292"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Structural System</source>
       <translation>கட்டமைப்பு அமைப்பை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="247"/>
       <location filename="../../ArchStructure.py" line="337"/>
+=======
+      <location filename="../../ArchStructure.py" line="364"/>
+      <location filename="../../ArchStructure.py" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Structure</source>
       <translation>கட்டமைப்பை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="204"/>
+=======
+      <location filename="../../ArchStructure.py" line="393"/>
+      <source>First point of the beam</source>
+      <translation>பீமின் முதல் புள்ளி</translation>
+    </message>
+    <message>
+      <location filename="../../ArchStructure.py" line="395"/>
+      <source>Base point of column</source>
+      <translation>நெடுவரிசையின் அடிப்படை புள்ளி</translation>
+    </message>
+    <message>
+      <location filename="../../ArchStructure.py" line="419"/>
+      <location filename="../../bimcommands/BimWall.py" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Next point</source>
       <translation>அடுத்த புள்ளி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="460"/>
       <location filename="../../ArchCommands.py" line="1728"/>
       <location filename="../../bimcommands/BimProfile.py" line="99"/>
+=======
+      <location filename="../../ArchStructure.py" line="538"/>
+      <source>Structure options</source>
+      <translation>கட்டமைப்பு விருப்பங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchStructure.py" line="554"/>
+      <location filename="../../ArchCommands.py" line="1699"/>
+      <location filename="../../bimcommands/BimProfile.py" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Category</source>
       <translation>வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="524"/>
       <source>Solid Tiles</source>
       <translation>திட ஓடுகள்</translation>
@@ -3983,10 +4283,17 @@ The default template is located at:
       <location filename="../../bimcommands/BimWindow.py" line="451"/>
       <location filename="../../bimcommands/BimProfile.py" line="106"/>
       <location filename="../../bimcommands/BimPanel.py" line="204"/>
+=======
+      <location filename="../../ArchStructure.py" line="561"/>
+      <location filename="../../bimcommands/BimProfile.py" line="90"/>
+      <location filename="../../bimcommands/BimWindow.py" line="431"/>
+      <location filename="../../bimcommands/BimPanel.py" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preset</source>
       <translation>முன்னமைவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="847"/>
       <source>Use standard corner or center alignment relative to the boundary</source>
       <translation>எல்லையுடன் தொடர்புடைய நிலையான மூலை அல்லது மைய சீரமைப்பைப் பயன்படுத்தவும்</translation>
@@ -4077,10 +4384,18 @@ The default template is located at:
       <location filename="../../ArchPanel.py" line="576"/>
       <location filename="../../bimcommands/BimWall.py" line="507"/>
       <location filename="../../bimcommands/BimPanel.py" line="214"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1719"/>
+      <location filename="../../ArchStructure.py" line="570"/>
+      <location filename="../../ArchCommands.py" line="1332"/>
+      <location filename="../../bimcommands/BimWall.py" line="341"/>
+      <location filename="../../bimcommands/BimPanel.py" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <translation>நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="1001"/>
       <source>The width of the tiles</source>
       <translation>ஓடுகளின் அகலம்</translation>
@@ -4096,10 +4411,17 @@ The default template is located at:
       <location filename="../../ArchPanel.py" line="577"/>
       <location filename="../../bimcommands/BimWall.py" line="514"/>
       <location filename="../../bimcommands/BimPanel.py" line="221"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1720"/>
+      <location filename="../../ArchStructure.py" line="584"/>
+      <location filename="../../bimcommands/BimWall.py" line="348"/>
+      <location filename="../../bimcommands/BimPanel.py" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width</source>
       <translation>அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="1007"/>
       <source>The width of the joints between tiles</source>
       <translation>ஓடுகளுக்கு இடையில் உள்ள மூட்டுகளின் அகலம்</translation>
@@ -4253,72 +4575,128 @@ The default template is located at:
       <location filename="../../ArchRoof.py" line="1088"/>
       <location filename="../../ArchPrecast.py" line="1721"/>
       <location filename="../../bimcommands/BimWall.py" line="521"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1721"/>
+      <location filename="../../ArchRoof.py" line="1084"/>
+      <location filename="../../ArchStructure.py" line="591"/>
+      <location filename="../../bimcommands/BimWall.py" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height</source>
       <translation>உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="448"/>
+=======
+      <location filename="../../ArchStructure.py" line="542"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parameters of the structure</source>
       <translation>கட்டமைப்பின் அளவுருக்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="497"/>
+=======
+      <location filename="../../ArchStructure.py" line="605"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch Length/Height</source>
       <translation>ச்விட்ச் நீளம்/உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="499"/>
+=======
+      <location filename="../../ArchStructure.py" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch Length/Width</source>
       <translation>ச்விட்ச் நீளம்/அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="617"/>
       <location filename="../../ArchStructure.py" line="1070"/>
+=======
+      <location filename="../../ArchStructure.py" line="1170"/>
+      <location filename="../../ArchWall.py" line="721"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This mesh is an invalid solid</source>
       <translation>இந்த மெச் ஒரு தவறான திடப்பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1189"/>
+=======
+      <location filename="../../ArchStructure.py" line="1289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPanel.py" line="319"/>
       <source>Facemaker returned an error</source>
       <translation>ஃபேச்மேக்கர் பிழையை அளித்துள்ளார்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1616"/>
+=======
+      <location filename="../../ArchStructure.py" line="1700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Node Tools</source>
       <translation>முனை கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1640"/>
+=======
+      <location filename="../../ArchStructure.py" line="1725"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extends the nodes of this element to reach the nodes of another element</source>
       <translation>இந்த தனிமத்தின் முனைகளை மற்றொரு தனிமத்தின் முனைகளை அடைய நீட்டிக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1651"/>
+=======
+      <location filename="../../ArchStructure.py" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Connects nodes of this element with the nodes of another element</source>
       <translation>இந்த தனிமத்தின் முனைகளை மற்றொரு தனிமத்தின் முனைகளுடன் இணைக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1662"/>
+=======
+      <location filename="../../ArchStructure.py" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles all structural nodes of the document on/off</source>
       <translation>ஆவணத்தின் அனைத்து கட்டமைப்பு முனைகளையும் ஆன்/ஆஃப் செய்யும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1669"/>
+=======
+      <location filename="../../ArchStructure.py" line="1754"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extrusion Tools</source>
       <translation>வெளியேற்ற கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="153"/>
+=======
+      <location filename="../../ArchStructure.py" line="261"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select the base object first and then the edges to use as extrusion paths</source>
       <translation>முதலில் அடிப்படைப் பொருளைத் தேர்ந்தெடுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="206"/>
+=======
+      <location filename="../../ArchStructure.py" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select at least an axis object</source>
       <translation>குறைந்தபட்சம் ஒரு அச்சு பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="277"/>
       <source>First Point of Beam</source>
       <translation>பீமின் முதல் புள்ளி</translation>
@@ -4361,94 +4739,167 @@ The default template is located at:
     </message>
     <message>
       <location filename="../../ArchStructure.py" line="1042"/>
+=======
+      <location filename="../../ArchStructure.py" line="1142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: The base shape could not be extruded along this tool object</source>
       <translation>பிழை: இந்த கருவி பொருளுடன் அடிப்படை வடிவத்தை வெளியேற்ற முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1621"/>
+=======
+      <location filename="../../ArchStructure.py" line="1705"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset Nodes</source>
       <translation>முனைகளை மீட்டமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1627"/>
+=======
+      <location filename="../../ArchStructure.py" line="1712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Nodes</source>
       <translation>முனைகளைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1633"/>
+=======
+      <location filename="../../ArchStructure.py" line="1718"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extend Nodes</source>
       <translation>முனைகளை நீட்டவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1646"/>
+=======
+      <location filename="../../ArchStructure.py" line="1731"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Connect Nodes</source>
       <translation>முனைகளை இணைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1657"/>
+=======
+      <location filename="../../ArchStructure.py" line="1742"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle All Nodes</source>
       <translation>அனைத்து முனைகளையும் நிலைமாற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1674"/>
       <location filename="../../ArchStructure.py" line="1875"/>
+=======
+      <location filename="../../ArchStructure.py" line="1759"/>
+      <location filename="../../ArchStructure.py" line="1961"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Tool</source>
       <translation>கருவியைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1679"/>
+=======
+      <location filename="../../ArchStructure.py" line="1764"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects object or edges to be used as a tool (extrusion path)</source>
       <translation>ஒரு கருவியாகப் பயன்படுத்தப்படும் பொருள் அல்லது விளிம்புகளைத் தேர்ந்தெடுக்கிறது (வெளியேற்றும் பாதை)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1703"/>
       <location filename="../../ArchStructure.py" line="1753"/>
+=======
+      <location filename="../../ArchStructure.py" line="1789"/>
+      <location filename="../../ArchStructure.py" line="1839"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose another Structure object:</source>
       <translation>மற்றொரு கட்டமைப்பு பொருளைத் தேர்ந்தெடுக்கவும்:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1709"/>
       <location filename="../../ArchStructure.py" line="1759"/>
+=======
+      <location filename="../../ArchStructure.py" line="1795"/>
+      <location filename="../../ArchStructure.py" line="1845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The chosen object is not a Structure</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருள் ஒரு கட்டமைப்பு அல்ல</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1714"/>
       <location filename="../../ArchStructure.py" line="1764"/>
+=======
+      <location filename="../../ArchStructure.py" line="1800"/>
+      <location filename="../../ArchStructure.py" line="1850"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The chosen object has no structural nodes</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருளுக்கு கட்டமைப்பு முனைகள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1719"/>
       <location filename="../../ArchStructure.py" line="1769"/>
+=======
+      <location filename="../../ArchStructure.py" line="1805"/>
+      <location filename="../../ArchStructure.py" line="1855"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>One of these objects has more than 2 nodes</source>
       <translation>இந்த பொருட்களில் ஒன்று 2 க்கும் மேற்பட்ட முனைகளைக் கொண்டுள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1732"/>
       <location filename="../../ArchStructure.py" line="1782"/>
+=======
+      <location filename="../../ArchStructure.py" line="1818"/>
+      <location filename="../../ArchStructure.py" line="1868"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to find a suitable intersection point</source>
       <translation>பொருத்தமான குறுக்குவெட்டுப் புள்ளியைக் கண்டுபிடிக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1736"/>
+=======
+      <location filename="../../ArchStructure.py" line="1822"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Intersection found.
 </source>
       <translation>குறுக்குவெட்டு கண்டுபிடிக்கப்பட்டது.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1787"/>
+=======
+      <location filename="../../ArchStructure.py" line="1873"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Intersection found.</source>
       <translation>குறுக்குவெட்டு கண்டுபிடிக்கப்பட்டது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1840"/>
+=======
+      <location filename="../../ArchStructure.py" line="1926"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Done</source>
       <translation>முடிந்தது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="396"/>
+=======
+      <location filename="../../Arch.py" line="390"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Equipment</source>
       <translation>உபகரணங்கள்</translation>
     </message>
@@ -4463,7 +4914,11 @@ The default template is located at:
       <translation>உபகரணங்களை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="172"/>
+=======
+      <location filename="../../Arch.py" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BuildingPart</source>
       <translation>கட்டிட பகுதி</translation>
     </message>
@@ -4474,12 +4929,17 @@ The default template is located at:
     </message>
     <message>
       <location filename="../../bimcommands/BimProfile.py" line="68"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProfile.py" line="152"/>
       <source>Create Profile</source>
+=======
+      <source>Create profile</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>சுயவிவரத்தை உருவாக்கவும்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimProfile.py" line="79"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="129"/>
       <source>%1 pick point</source>
       <translation>% 1 தேர்வு புள்ளி</translation>
@@ -4491,11 +4951,27 @@ The default template is located at:
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="769"/>
+=======
+      <source>Profile settings</source>
+      <translation>சுயவிவர அமைப்புகள்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimProfile.py" line="136"/>
+      <source>Create Profile</source>
+      <translation>சுயவிவரத்தை உருவாக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchProfile.py" line="766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Profile</source>
       <translation>சுயவிவரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1279"/>
+=======
+      <location filename="../../Arch.py" line="1269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Site</source>
       <translation>தளம்</translation>
     </message>
@@ -4505,19 +4981,33 @@ The default template is located at:
       <translation>தளத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimRoof.py" line="65"/>
       <location filename="../../bimcommands/BimRoof.py" line="81"/>
+=======
+      <location filename="../../bimcommands/BimRoof.py" line="64"/>
+      <location filename="../../bimcommands/BimRoof.py" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Roof</source>
       <translation>கூரையை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="829"/>
       <location filename="../../bimcommands/BimRoof.py" line="92"/>
+=======
+      <location filename="../../ArchRoof.py" line="825"/>
+      <location filename="../../bimcommands/BimRoof.py" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to create a roof</source>
       <translation>கூரையை உருவாக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="1079"/>
+=======
+      <location filename="../../ArchRoof.py" line="1075"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parameters of the roof profiles:
 * Angle: slope in degrees relative to the horizontal.
 * Run: horizontal distance between the wall and the ridge.
@@ -4542,39 +5032,74 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
 ரன் = 0 எனில், ரன் கணக்கிடப்படும், அதனால் உயரம் தொடர்புடைய சுயவிவரத்திற்கு சமமாக இருக்கும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="1084"/>
+=======
+      <location filename="../../ArchRoof.py" line="1080"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run</source>
       <translation>ஓடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="1087"/>
+=======
+      <location filename="../../ArchRoof.py" line="1083"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overhang</source>
       <translation>ஓவர்ஆங்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1153"/>
       <location filename="../../ArchRoof.py" line="1072"/>
+=======
+      <location filename="../../bimcommands/BimSpace.py" line="70"/>
+      <location filename="../../bimcommands/BimRoof.py" line="93"/>
+      <source>Please select a base object</source>
+      <translation>அடிப்படை பொருளைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchRoof.py" line="1068"/>
+      <location filename="../../Arch.py" line="1143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Roof</source>
       <translation>கூரை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="1082"/>
+=======
+      <location filename="../../ArchRoof.py" line="1078"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Id</source>
       <translation>ஐடி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="1085"/>
+=======
+      <location filename="../../ArchRoof.py" line="1081"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>IdRel</source>
       <translation>IdRel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindowPresets.py" line="563"/>
+=======
+      <location filename="../../ArchWindowPresets.py" line="554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Door</source>
       <translation>கதவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1202"/>
       <location filename="../../ArchWindowPresets.py" line="566"/>
+=======
+      <location filename="../../ArchWindowPresets.py" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opening</source>
       <translation>திறப்பு</translation>
     </message>
@@ -4594,7 +5119,11 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>இரண்டாவது பொருள் ஒரு விமானத்தை வரையறுக்கவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimCutPlane.py" line="118"/>
+=======
+      <location filename="../../bimcommands/BimCutPlane.py" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting</source>
       <translation>வெட்டுதல்</translation>
     </message>
@@ -4624,8 +5153,12 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>முன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1084"/>
       <location filename="../../ArchReference.py" line="909"/>
+=======
+      <location filename="../../Arch.py" line="1074"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External Reference</source>
       <translation>வெளிப்புற குறிப்பு</translation>
     </message>
@@ -4685,9 +5218,15 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>தவறான ரூட் நோட் இல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchReference.py" line="991"/>
       <source>Choose Reference File</source>
       <translation>குறிப்பு கோப்பை தேர்வு செய்யவும்</translation>
+=======
+      <location filename="../../ArchReference.py" line="909"/>
+      <source>External reference</source>
+      <translation>வெளிப்புற குறிப்பு</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ArchReference.py" line="911"/>
@@ -4721,12 +5260,24 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>குறிப்பு கோப்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../ArchReference.py" line="991"/>
+      <source>Choose reference file</source>
+      <translation>குறிப்பு கோப்பை தேர்வு செய்யவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimReference.py" line="56"/>
       <source>Create external reference</source>
       <translation>வெளிப்புற குறிப்பை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="471"/>
+=======
+      <location filename="../../Arch.py" line="465"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frame</source>
       <translation>சட்டகம்</translation>
     </message>
@@ -4741,6 +5292,14 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>சுயவிவரத்தில் குறுக்கு புள்ளி இல்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../importers/importSHP.py" line="70"/>
+      <source>Shapes elevation</source>
+      <translation>வடிவங்களின் உயரம்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../importers/importSHP.py" line="71"/>
       <source>Choose which field provides shapes elevations:</source>
       <translation>எந்தப் புலம் வடிவ உயரங்களை வழங்குகிறது என்பதைத் தேர்ந்தெடுக்கவும்:</translation>
@@ -4751,6 +5310,7 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>இந்தக் கோப்பில் எந்த வடிவமும் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../importers/importSHP.py" line="70"/>
       <source>Shapes Elevation</source>
       <translation>வடிவங்களின் உயரம்</translation>
@@ -4759,6 +5319,11 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../importers/importSHP.py" line="144"/>
       <source>Shapefile Module Not Found</source>
       <translation>வடிவ கோப்பு தொகுதி கிடைக்கவில்லை</translation>
+=======
+      <location filename="../../importers/importSHP.py" line="144"/>
+      <source>Shapefile module not found</source>
+      <translation>வடிவ கோப்பு தொகுதி காணப்படவில்லை</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../importers/importSHP.py" line="148"/>
@@ -4786,70 +5351,122 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>சேப்ஃபைல் லைப்ரரியை பின்வரும் முகவரி இலிருந்து பதிவிறக்கம் செய்து உங்கள் மேக்ரோச் கோப்புறையில் நிறுவலாம்:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="2098"/>
+=======
+      <location filename="../../Arch.py" line="2087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Window</source>
       <translation>சாளரம்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="109"/>
       <location filename="../../bimcommands/BimWindow.py" line="136"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="213"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Window</source>
       <translation>சாளரத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="154"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="153"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose a face on an existing object or select a preset</source>
       <translation>ஏற்கனவே உள்ள பொருளின் முகத்தைத் தேர்வு செய்யவும் அல்லது முன்னமைவைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="171"/>
       <source>%1 pick point on host</source>
       <translation type="unfinished">%1 pick point on host</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="263"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Window not based on sketch. Window not aligned or resized.</source>
       <translation>சாளரம் ஓவியத்தை அடிப்படையாகக் கொண்டது அல்ல. சாளரம் சீரமைக்கப்படவில்லை அல்லது அளவு மாற்றப்படவில்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="282"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Width and/or Height constraint in window sketch. Window not resized.</source>
       <translation>சாளர ஓவியத்தில் அகலம் மற்றும்/அல்லது உயரக் கட்டுப்பாடு இல்லை. சாளரத்தின் அளவு மாற்றப்படவில்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="285"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No window found. Cannot continue.</source>
       <translation>சாளரம் இல்லை. தொடர முடியாது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="404"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="380"/>
+      <source>Window options</source>
+      <translation>சாளர விருப்பங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimWindow.py" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto include in host object</source>
       <translation>புரவலன் பொருளில் தானியங்கு அடங்கும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWindow.py" line="413"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sill height</source>
       <translation>சில் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1099"/>
       <location filename="../../ArchWindow.py" line="1745"/>
+=======
+      <location filename="../../ArchWindow.py" line="1078"/>
+      <location filename="../../ArchWindow.py" line="1681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invert Opening Direction</source>
       <translation>திறக்கும் திசையைத் தலைகீழாக மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1114"/>
       <location filename="../../ArchWindow.py" line="1748"/>
+=======
+      <location filename="../../ArchWindow.py" line="1089"/>
+      <location filename="../../ArchWindow.py" line="1684"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invert Hinge Position</source>
       <translation>கீல் நிலையை மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1176"/>
+=======
+      <location filename="../../ArchWindow.py" line="1151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This window has no defined opening</source>
       <translation>இந்த சாளரத்தில் வரையறுக்கப்பட்ட திறப்பு இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1191"/>
       <location filename="../../bimcommands/BimWindow.py" line="400"/>
       <source>Window Options</source>
@@ -4858,65 +5475,111 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchWindow.py" line="1505"/>
       <location filename="../../ArchWindow.py" line="1556"/>
+=======
+      <location filename="../../ArchWindow.py" line="1441"/>
+      <location filename="../../ArchWindow.py" line="1492"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Get selected edge</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பைப் பெறுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1658"/>
+=======
+      <location filename="../../ArchWindow.py" line="1594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to create component</source>
       <translation>கூறுகளை உருவாக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1696"/>
       <source>Window Elements</source>
       <translation>சாளர கூறுகள்</translation>
     </message>
     <message>
       <location filename="../../ArchWindow.py" line="1697"/>
+=======
+      <location filename="../../ArchWindow.py" line="1632"/>
+      <source>Window elements</source>
+      <translation>சாளர கூறுகள்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchWindow.py" line="1633"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole wire</source>
       <translation>துளை கம்பி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1704"/>
+=======
+      <location filename="../../ArchWindow.py" line="1640"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of the wire that defines a hole in the host object. A value of zero will automatically adopt the largest wire</source>
       <translation>புரவலன் பொருளில் உள்ள துளையை வரையறுக்கும் கம்பியின் எண்ணிக்கை. பூச்சியத்தின் மதிப்பு தானாகவே மிகப்பெரிய கம்பியை ஏற்றுக்கொள்ளும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1705"/>
+=======
+      <location filename="../../ArchWindow.py" line="1641"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick Selected</source>
       <translation>தேர்ந்தெடுக்கப்பட்டதைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1711"/>
+=======
+      <location filename="../../ArchWindow.py" line="1647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create/Update Component</source>
       <translation>கூறுகளை உருவாக்கவும்/புதுப்பிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1715"/>
+=======
+      <location filename="../../ArchWindow.py" line="1651"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create new Component</source>
       <translation>புதிய கூறுகளை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1719"/>
+=======
+      <location filename="../../ArchWindow.py" line="1655"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frame depth</source>
       <translation>சட்ட ஆழம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1721"/>
       <source>Hinge/Track</source>
       <translation>கீல்/டிராக்</translation>
     </message>
     <message>
       <location filename="../../ArchWindow.py" line="1730"/>
+=======
+      <location filename="../../ArchWindow.py" line="1666"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If this is checked, the window's Frame property value will be added to the value entered here</source>
       <translation>இது சரிபார்க்கப்பட்டால், சாளரத்தின் சட்டத்தின் சொத்து மதிப்பு இங்கு உள்ளிடப்பட்ட மதிப்புடன் சேர்க்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1738"/>
+=======
+      <location filename="../../ArchWindow.py" line="1674"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If this is checked, the window's Offset property value will be added to the value entered here</source>
       <translation>இது சரிபார்க்கப்பட்டால், சாளரத்தின் ஆஃப்செட் சொத்து மதிப்பு இங்கு உள்ளிடப்பட்ட மதிப்புடன் சேர்க்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1742"/>
       <source>Retrieves the selected edge</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பை மீட்டெடுக்கிறது</translation>
@@ -4927,20 +5590,35 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../ArchSpace.py" line="954"/>
       <location filename="../../ArchAxis.py" line="985"/>
       <location filename="../../ArchComponent.py" line="2463"/>
+=======
+      <location filename="../../ArchWindow.py" line="1642"/>
+      <location filename="../../ArchSpace.py" line="944"/>
+      <location filename="../../ArchAxis.py" line="955"/>
+      <location filename="../../ArchComponent.py" line="2384"/>
+      <location filename="../../ArchSectionPlane.py" line="1737"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchAxisSystem.py" line="338"/>
       <source>Remove</source>
       <translation>அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1707"/>
       <location filename="../../ArchSpace.py" line="949"/>
       <location filename="../../ArchAxis.py" line="986"/>
       <location filename="../../ArchComponent.py" line="2464"/>
+=======
+      <location filename="../../ArchWindow.py" line="1643"/>
+      <location filename="../../ArchSpace.py" line="938"/>
+      <location filename="../../ArchAxis.py" line="956"/>
+      <location filename="../../ArchComponent.py" line="2385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchAxisSystem.py" line="339"/>
       <source>Add</source>
       <translation>சேர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="765"/>
       <location filename="../../ArchSectionPlane.py" line="1549"/>
       <location filename="../../ArchWindow.py" line="1708"/>
@@ -4953,42 +5631,83 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../ArchComponent.py" line="1971"/>
       <location filename="../../ArchIFCView.py" line="63"/>
       <location filename="../../ArchAxisSystem.py" line="222"/>
+=======
+      <location filename="../../ArchWindow.py" line="1644"/>
+      <location filename="../../ArchGrid.py" line="384"/>
+      <location filename="../../ArchAxis.py" line="788"/>
+      <location filename="../../ArchMaterial.py" line="470"/>
+      <location filename="../../ArchMaterial.py" line="797"/>
+      <location filename="../../ArchSite.py" line="1294"/>
+      <location filename="../../ArchComponent.py" line="1915"/>
+      <location filename="../../ArchSectionPlane.py" line="1504"/>
+      <location filename="../../ArchAxisSystem.py" line="222"/>
+      <location filename="../../ArchReference.py" line="717"/>
+      <location filename="../../ArchIFCView.py" line="63"/>
+      <location filename="../../ArchSchedule.py" line="766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>திருத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1712"/>
+=======
+      <location filename="../../ArchWindow.py" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base 2D object</source>
       <translation>அடிப்படை 2D பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1713"/>
       <location filename="../../ArchWindow.py" line="1718"/>
+=======
+      <location filename="../../ArchWindow.py" line="1649"/>
+      <location filename="../../ArchWindow.py" line="1654"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wires</source>
       <translation>கம்பிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1714"/>
       <location filename="../../ArchComponent.py" line="2471"/>
+=======
+      <location filename="../../ArchWindow.py" line="1650"/>
+      <location filename="../../ArchComponent.py" line="2392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Components</source>
       <translation>கூறுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1716"/>
       <location filename="../../ArchMaterial.py" line="895"/>
       <location filename="../../ArchMaterial.py" line="921"/>
+=======
+      <location filename="../../ArchWindow.py" line="1652"/>
+      <location filename="../../ArchMaterial.py" line="879"/>
+      <location filename="../../ArchMaterial.py" line="905"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1717"/>
       <location filename="../../ArchCommands.py" line="1730"/>
       <location filename="../../ArchComponent.py" line="2539"/>
+=======
+      <location filename="../../ArchWindow.py" line="1653"/>
+      <location filename="../../ArchComponent.py" line="2460"/>
+      <location filename="../../ArchCommands.py" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcProperties.py" line="478"/>
       <source>Type</source>
       <translation>வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="802"/>
       <location filename="../../ArchStructure.py" line="1599"/>
       <location filename="../../ArchRoof.py" line="1086"/>
@@ -4996,38 +5715,80 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <location filename="../../ArchMaterial.py" line="923"/>
       <location filename="../../ArchPanel.py" line="578"/>
       <location filename="../../bimcommands/BimPanel.py" line="228"/>
+=======
+      <location filename="../../ArchMaterial.py" line="881"/>
+      <location filename="../../ArchMaterial.py" line="907"/>
+      <location filename="../../ArchRoof.py" line="1082"/>
+      <location filename="../../bimcommands/BimPanel.py" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness</source>
       <translation>தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1720"/>
       <location filename="../../ArchPrecast.py" line="1725"/>
       <location filename="../../bimcommands/BimWall.py" line="537"/>
+=======
+      <location filename="../../ArchWindow.py" line="1656"/>
+      <location filename="../../ArchPrecast.py" line="1725"/>
+      <location filename="../../bimcommands/BimWall.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset</source>
       <translation>ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1722"/>
+=======
+      <location filename="../../ArchWindow.py" line="1657"/>
+      <source>Hinge</source>
+      <translation>கீல்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchWindow.py" line="1658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opening mode</source>
       <translation>திறப்பு முறை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1723"/>
+=======
+      <location filename="../../ArchWindow.py" line="1659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>+ Frame property</source>
       <translation>+ சட்ட சொத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1731"/>
+=======
+      <location filename="../../ArchWindow.py" line="1667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>+ Offset property</source>
       <translation>+ ஆஃப்செட் சொத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1739"/>
+=======
+      <location filename="../../ArchWindow.py" line="1675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Get Selected Edge</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பைப் பெறுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="141"/>
+=======
+      <location filename="../../ArchWindow.py" line="1678"/>
+      <source>Press to retrieve the selected edge</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பை மீட்டெடுக்க அழுத்தவும்</translation>
+    </message>
+    <message>
+      <location filename="../../Arch.py" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axis System</source>
       <translation>அச்சு அமைப்பு</translation>
     </message>
@@ -5047,10 +5808,17 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>குறைந்தது ஒரு அச்சையாவது தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="101"/>
       <location filename="../../ArchAxis.py" line="984"/>
       <location filename="../../ArchComponent.py" line="2470"/>
       <location filename="../../ArchAxisSystem.py" line="337"/>
+=======
+      <location filename="../../ArchAxis.py" line="954"/>
+      <location filename="../../ArchComponent.py" line="2391"/>
+      <location filename="../../ArchAxisSystem.py" line="337"/>
+      <location filename="../../Arch.py" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axes</source>
       <translation>அச்சுகள்</translation>
     </message>
@@ -5060,20 +5828,35 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>அச்சு அமைப்பு கூறுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../importers/importJSON.py" line="62"/>
       <location filename="../../importers/importOBJ.py" line="300"/>
       <location filename="../../importers/importOBJ.py" line="338"/>
       <location filename="../../importers/importWebGL.py" line="371"/>
+=======
+      <location filename="../../importers/importOBJ.py" line="301"/>
+      <location filename="../../importers/importOBJ.py" line="339"/>
+      <location filename="../../importers/importWebGL.py" line="371"/>
+      <location filename="../../importers/importJSON.py" line="62"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Successfully written</source>
       <translation>வெற்றிகரமாக எழுதப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1661"/>
+=======
+      <location filename="../../Arch.py" line="1651"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Truss</source>
       <translation>டிரச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTruss.py" line="116"/>
+=======
+      <location filename="../../bimcommands/BimTruss.py" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Truss</source>
       <translation>டிரச் உருவாக்கவும்</translation>
     </message>
@@ -5098,46 +5881,79 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>பிழை: IfcOpenShell நிறுவப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../importers/importIFClegacy.py" line="1119"/>
+=======
+      <location filename="../../importers/importIFClegacy.py" line="1121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: your IfcOpenShell version is too old</source>
       <translation>பிழை: உங்கள் IfcOpenShell பதிப்பு மிகவும் பழையது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="261"/>
+=======
+      <location filename="../../Arch.py" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drawing</source>
       <translation>drawing</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="435"/>
+=======
+      <location filename="../../Arch.py" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fence</source>
       <translation>வேலி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="601"/>
+=======
+      <location filename="../../Arch.py" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Materials</source>
       <translation>பொருட்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="695"/>
+=======
+      <location filename="../../Arch.py" line="689"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View of {panel.Label}</source>
       <translation>{panel.Label} இன் பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="924"/>
+=======
+      <location filename="../../Arch.py" line="914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Project</source>
       <translation>திட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1483"/>
+=======
+      <location filename="../../Arch.py" line="1473"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stairs</source>
       <translation>படிக்கட்டுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1607"/>
+=======
+      <location filename="../../Arch.py" line="1597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Railing</source>
       <translation>தண்டவாளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="2434"/>
       <source>Report</source>
       <translation>அறிக்கை</translation>
@@ -5153,6 +5969,8 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>மூடுதல்</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimStairs.py" line="58"/>
       <source>Create Stairs</source>
       <translation>படிக்கட்டுகளை உருவாக்கவும்</translation>
@@ -5168,14 +5986,24 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>பல பொருட்களை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="539"/>
       <location filename="../../ArchMaterial.py" line="896"/>
       <location filename="../../ArchMaterial.py" line="922"/>
+=======
+      <location filename="../../ArchMaterial.py" line="880"/>
+      <location filename="../../ArchMaterial.py" line="906"/>
+      <location filename="../../Arch.py" line="533"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Material</source>
       <translation>பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="574"/>
+=======
+      <location filename="../../Arch.py" line="568"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>MultiMaterial</source>
       <translation>மல்டி மெட்டீரியல்</translation>
     </message>
@@ -5185,17 +6013,29 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>நகல்களை ஒன்றிணைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="961"/>
+=======
+      <location filename="../../ArchMaterial.py" line="945"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New layer</source>
       <translation>புதிய அடுக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="1008"/>
+=======
+      <location filename="../../ArchMaterial.py" line="982"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total thickness</source>
       <translation>மொத்த தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="1015"/>
+=======
+      <location filename="../../ArchMaterial.py" line="996"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>depends on the object</source>
       <translation>பொருளைப் பொறுத்தது</translation>
     </message>
@@ -5266,8 +6106,13 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>ச்பானை அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="503"/>
       <location filename="../../ArchGrid.py" line="488"/>
+=======
+      <location filename="../../ArchGrid.py" line="488"/>
+      <location filename="../../Arch.py" line="497"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Grid</source>
       <translation>கட்டம்</translation>
     </message>
@@ -5293,8 +6138,13 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1249"/>
+<<<<<<< HEAD
       <source>Precast Elements</source>
       <translation>Precast கூறுகள்</translation>
+=======
+      <source>Precast elements</source>
+      <translation>முன்வைக்கப்பட்ட கூறுகள்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1250"/>
@@ -5388,6 +6238,7 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     </message>
     <message>
       <location filename="../../ArchPrecast.py" line="1715"/>
+<<<<<<< HEAD
       <source>Precast Options</source>
       <translation>Precast விருப்பங்கள்</translation>
     </message>
@@ -5402,60 +6253,116 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>பற்களை அகற்று</translation>
     </message>
     <message>
+=======
+      <source>Precast options</source>
+      <translation>Precast விருப்பங்கள்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPrecast.py" line="1716"/>
       <source>Dents list</source>
       <translation>பற்களின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../ArchPrecast.py" line="1717"/>
+      <source>Add dent</source>
+      <translation>டென்ட் சேர்க்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchPrecast.py" line="1718"/>
+      <source>Remove dent</source>
+      <translation>பள்ளத்தை அகற்று</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPrecast.py" line="1722"/>
       <source>Slant</source>
       <translation>சாய்வு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="204"/>
       <location filename="../../ArchPrecast.py" line="1723"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1723"/>
+      <location filename="../../Arch.py" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Level</source>
       <translation>நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="913"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPrecast.py" line="1724"/>
       <source>Rotation</source>
       <translation>சுழற்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="657"/>
+=======
+      <location filename="../../Arch.py" line="651"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Panel</source>
       <translation>குழு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="723"/>
+=======
+      <location filename="../../Arch.py" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PanelSheet</source>
       <translation>பேனல்சீட்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="87"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="148"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Panel</source>
       <translation>பேனலை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="200"/>
       <source>Panel Options</source>
       <translation>பேனல் விருப்பங்கள்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimPanel.py" line="237"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="180"/>
+      <source>Panel options</source>
+      <translation>பேனல் விருப்பங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimPanel.py" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate</source>
       <translation>சுழற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="322"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="302"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Panel Cut</source>
       <translation>பேனல் கட் உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="354"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="334"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Panel Sheet</source>
       <translation>பேனல் சீட்டை உருவாக்கவும்</translation>
     </message>
@@ -5465,12 +6372,17 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>வடிவத்தை கணக்கிடுவதில் பிழை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1988"/>
+=======
+      <location filename="../../ArchStructure.py" line="2075"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPanel.py" line="563"/>
       <source>Could not compute a shape</source>
       <translation>வடிவத்தைக் கணக்கிட முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="579"/>
       <source>Sheets</source>
       <translation>தாள்கள்</translation>
@@ -5497,21 +6409,36 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     </message>
     <message>
       <location filename="../../ArchPanel.py" line="1421"/>
+=======
+      <location filename="../../ArchPanel.py" line="1398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tools</source>
       <translation>கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1425"/>
+=======
+      <location filename="../../ArchPanel.py" line="1402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit views positions</source>
       <translation>காட்சிகளின் நிலைகளைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="455"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This object has no face</source>
       <translation>இந்த பொருளுக்கு முகம் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="361"/>
+=======
+      <location filename="../../Arch.py" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Curtain Wall</source>
       <translation>திரைச் சுவர்</translation>
     </message>
@@ -5523,11 +6450,16 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     </message>
     <message>
       <location filename="../../bimcommands/BimCurtainwall.py" line="67"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimCurtainwall.py" line="122"/>
+=======
+      <location filename="../../bimcommands/BimCurtainwall.py" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Curtain Wall</source>
       <translation>திரைச் சுவரை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchReport.py" line="436"/>
       <location filename="../../Arch.py" line="2447"/>
       <source>New Statement</source>
@@ -5542,10 +6474,14 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     <message>
       <location filename="../../ArchReport.py" line="894"/>
       <location filename="../../Arch.py" line="758"/>
+=======
+      <location filename="../../Arch.py" line="752"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe</source>
       <translation>புழம்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchReport.py" line="895"/>
       <source>Header</source>
       <translation>தலைப்பி</translation>
@@ -6065,6 +7001,9 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     </message>
     <message>
       <location filename="../../Arch.py" line="805"/>
+=======
+      <location filename="../../Arch.py" line="799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Connector</source>
       <translation>இணைப்பி</translation>
     </message>
@@ -6090,94 +7029,185 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
       <translation>இணைப்பியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="205"/>
+=======
+      <location filename="../../ArchPipe.py" line="185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>corrected 'Height' and 'Width' properties</source>
       <translation>'உயரம்' மற்றும் 'அகலம்' பண்புகளை சரிசெய்தது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="241"/>
+=======
+      <location filename="../../ArchPipe.py" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to build the base path</source>
       <translation>அடிப்படை பாதை அமைக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="257"/>
+=======
+      <location filename="../../ArchPipe.py" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to build the profile</source>
       <translation>சுயவிவரத்தை உருவாக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="285"/>
+=======
+      <location filename="../../ArchPipe.py" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to build the pipe</source>
       <translation>குழாய் அமைக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="306"/>
+=======
+      <location filename="../../ArchPipe.py" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base object is not a Part</source>
       <translation>அடிப்படை பொருள் ஒரு பகுதி அல்ல</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="311"/>
+=======
+      <location filename="../../ArchPipe.py" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many wires in the base shape</source>
       <translation>அடிப்படை வடிவத்தில் பல கம்பிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="315"/>
+=======
+      <location filename="../../ArchPipe.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base wire is closed</source>
       <translation>அடிப்படை கம்பி மூடப்பட்டுள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="336"/>
+=======
+      <location filename="../../ArchPipe.py" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The profile is not a 2D Part</source>
       <translation>சுயவிவரம் 2D பகுதி அல்ல</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="339"/>
+=======
+      <location filename="../../ArchPipe.py" line="334"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The profile is not closed</source>
       <translation>சுயவிவரம் மூடப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="488"/>
+=======
+      <location filename="../../ArchPipe.py" line="484"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only the 3 first wires will be connected</source>
       <translation>3 முதல் கம்பிகள் மட்டுமே இணைக்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="509"/>
       <location filename="../../ArchPipe.py" line="562"/>
+=======
+      <location filename="../../ArchPipe.py" line="505"/>
+      <location filename="../../ArchPipe.py" line="569"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Common vertex not found</source>
       <translation>பொதுவான உச்சி காணப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="530"/>
+=======
+      <location filename="../../ArchPipe.py" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipes are already aligned</source>
       <translation>குழாய்கள் ஏற்கனவே சீரமைக்கப்பட்டுள்ளன</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="550"/>
+=======
+      <location filename="../../ArchPipe.py" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to revolve this connector</source>
       <translation>இந்த இணைப்பியை சுழற்ற முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="580"/>
+=======
+      <location filename="../../ArchPipe.py" line="581"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>At least 2 pipes must align</source>
       <translation>குறைந்தது 2 குழாய்கள் சீரமைக்க வேண்டும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="516"/>
+=======
+      <location filename="../../ArchSchedule.py" line="517"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to retrieve value from object</source>
       <translation>பொருளிலிருந்து மதிப்பை மீட்டெடுக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="987"/>
       <location filename="../../ArchSchedule.py" line="1011"/>
+=======
+      <location filename="../../ArchSchedule.py" line="772"/>
+      <source>Remove spreadsheet</source>
+      <translation>விரிதாளை அகற்று</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSchedule.py" line="774"/>
+      <source>Attach spreadsheet</source>
+      <translation>விரிதாளை இணைக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSchedule.py" line="900"/>
+      <source>Import CSV file</source>
+      <translation>காபிம கோப்பை இறக்குமதி செய்யவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSchedule.py" line="937"/>
+      <source>Export CSV file</source>
+      <translation>காபிம கோப்பை ஏற்றுமதி செய்யவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSchedule.py" line="988"/>
+      <location filename="../../ArchSchedule.py" line="1012"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operation</source>
       <translation>செயல்பாடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="936"/>
       <location filename="../../ArchCommands.py" line="1454"/>
+=======
+      <location filename="../../ArchCommands.py" line="1425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export CSV File</source>
       <translation>காபிம கோப்பை ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="771"/>
       <source>Remove Spreadsheet</source>
       <translation>விரிதாளை அகற்று</translation>
@@ -6194,38 +7224,66 @@ If Run = 0 then the run is calculated so that the height is the same as the rela
     </message>
     <message>
       <location filename="../../ArchSchedule.py" line="963"/>
+=======
+      <location filename="../../ArchSchedule.py" line="964"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to recognize that file type</source>
       <translation>அந்தக் கோப்பு வகையை அடையாளம் காண முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchReport.py" line="893"/>
       <location filename="../../ArchCommands.py" line="1360"/>
+=======
+      <location filename="../../ArchCommands.py" line="1331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Description</source>
       <translation>விவரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1497"/>
+=======
+      <location filename="../../ArchCommands.py" line="1468"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object does not have settable IFC attributes</source>
       <translation>பொருளில் அமைக்கக்கூடிய IFC பண்புக்கூறுகள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="988"/>
       <location filename="../../ArchSchedule.py" line="1013"/>
       <location filename="../../ArchCommands.py" line="1731"/>
       <location filename="../../ArchComponent.py" line="2540"/>
+=======
+      <location filename="../../ArchComponent.py" line="2461"/>
+      <location filename="../../ArchCommands.py" line="1702"/>
+      <location filename="../../ArchSchedule.py" line="989"/>
+      <location filename="../../ArchSchedule.py" line="1014"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcProperties.py" line="479"/>
       <source>Value</source>
       <translation>மதிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSchedule.py" line="989"/>
       <location filename="../../ArchSchedule.py" line="1015"/>
       <location filename="../../ArchCommands.py" line="1732"/>
+=======
+      <location filename="../../ArchCommands.py" line="1703"/>
+      <location filename="../../ArchSchedule.py" line="990"/>
+      <location filename="../../ArchSchedule.py" line="1016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unit</source>
       <translation>அலகு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1204"/>
+=======
+      <location filename="../../Arch.py" line="1194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Schedule</source>
       <translation>அட்டவணை</translation>
     </message>
@@ -6266,53 +7324,94 @@ Floor creation aborted.</source>
       <translation>அச்சை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="991"/>
+=======
+      <location filename="../../ArchAxis.py" line="961"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distances (mm) and angles (deg) between axes</source>
       <translation>அச்சுகளுக்கு இடையே உள்ள தூரங்கள் (மிமீ) மற்றும் கோணங்கள் (டிகிரி).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="994"/>
+=======
+      <location filename="../../ArchAxis.py" line="964"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axis</source>
       <translation>அச்சு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="995"/>
+=======
+      <location filename="../../ArchAxis.py" line="965"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>தூரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="1083"/>
       <location filename="../../ArchAxis.py" line="996"/>
+=======
+      <location filename="../../ArchAxis.py" line="966"/>
+      <location filename="../../ArchRoof.py" line="1079"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="997"/>
+=======
+      <location filename="../../ArchAxis.py" line="967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label</source>
       <translation>சிட்டை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../importers/importOBJ.py" line="91"/>
+=======
+      <location filename="../../importers/importOBJ.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Found a shape containing curves, triangulating</source>
       <translation>வளைவுகள், முக்கோண வடிவத்தைக் கொண்ட வடிவம் கண்டறியப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../importers/importOBJ.py" line="449"/>
+=======
+      <location filename="../../importers/importOBJ.py" line="450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Successfully imported</source>
       <translation>வெற்றிகரமாக இறக்குமதி செய்யப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1132"/>
+=======
+      <location filename="../../ArchComponent.py" line="1120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error computing the shape of this object</source>
       <translation>இந்த பொருளின் வடிவத்தை கணக்கிடுவதில் பிழை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1158"/>
+=======
+      <location filename="../../ArchComponent.py" line="1146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>has no solid</source>
       <translation>திடம் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1167"/>
+=======
+      <location filename="../../ArchComponent.py" line="1155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>has an invalid shape</source>
       <translation>தவறான வடிவம் உள்ளது</translation>
     </message>
@@ -6323,38 +7422,77 @@ Floor creation aborted.</source>
       <location filename="../../ArchPrecast.py" line="605"/>
       <location filename="../../ArchPrecast.py" line="773"/>
       <location filename="../../ArchPrecast.py" line="894"/>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1171"/>
+=======
+      <location filename="../../ArchComponent.py" line="1159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>has a null shape</source>
       <translation>சுழிய வடிவத்தைக் கொண்டுள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1565"/>
+=======
+      <location filename="../../ArchComponent.py" line="1397"/>
+      <source>Could not project face from {self.obj.Label}
+</source>
+      <translation>{self.obj.Label} இலிருந்து முகத்தைப் பாதுகாக்க முடியவில்லை
+</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="1410"/>
+      <source>Could not determine if a face from {self.obj.Label} is vertical: normalAt() failed
+</source>
+      <translation>{self.obj.Label} இலிருந்து ஒரு முகம் செங்குத்தாக உள்ளதா என்பதைக் கண்டறிய முடியவில்லை: normalAt() தோல்வியடைந்தது
+</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="1518"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error computing areas for {self.obj.Label}: unable to project or make face with normal {face.normalAt(0, 0)}. Area values will be reset to 0.
 </source>
       <translation>{self.obj.Label}க்கான பகுதிகளைக் கணக்கிடுவதில் பிழை: இயல்பான {face.normalAt(0, 0)} உடன் முன்னோக்கி அல்லது முகத்தை உருவாக்க முடியவில்லை. பகுதி மதிப்புகள் 0க்கு மீட்டமைக்கப்படும்.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2465"/>
+=======
+      <location filename="../../ArchComponent.py" line="2386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Components of This Object</source>
       <translation>இந்த பொருளின் கூறுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2475"/>
+=======
+      <location filename="../../ArchComponent.py" line="2396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit IFC Properties</source>
       <translation>IFC பண்புகளைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2476"/>
+=======
+      <location filename="../../ArchComponent.py" line="2397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Standard Code</source>
       <translation>நிலையான குறியீட்டைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1310"/>
+=======
+      <location filename="../../ArchComponent.py" line="1296"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong base type</source>
       <translation>தவறான அடிப்படை வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1053"/>
       <source>Solar Diagrams</source>
       <translation>சூரிய வரைபடங்கள்</translation>
@@ -6506,21 +7644,35 @@ The ladybug or pysolar Python module is required.</source>
     <message>
       <location filename="../../ArchSite.py" line="1594"/>
       <location filename="../../ArchComponent.py" line="1978"/>
+=======
+      <location filename="../../ArchSite.py" line="1300"/>
+      <location filename="../../ArchComponent.py" line="1922"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Subcomponents</source>
       <translation>துணைக் கூறுகளை நிலைமாற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2108"/>
+=======
+      <location filename="../../ArchComponent.py" line="2052"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Closing Sketch edit</source>
       <translation>ச்கெட்ச் திருத்தத்தை மூடுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="315"/>
       <location filename="../../ArchComponent.py" line="2462"/>
+=======
+      <location filename="../../ArchComponent.py" line="2383"/>
+      <location filename="../../ArchCommands.py" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Component</source>
       <translation>உறுப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1435"/>
       <source>Could not project face{face_name} from {self.obj.Label}
 </source>
@@ -6536,12 +7688,21 @@ The ladybug or pysolar Python module is required.</source>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="1537"/>
+=======
+      <location filename="../../ArchComponent.py" line="2076"/>
+      <source>Select a base object</source>
+      <translation>அடிப்படை பொருளைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="1498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error computing areas for {self.obj.Label}: unable to project non-planar faces with holes. Area values will be reset to 0.
 </source>
       <translation>{self.obj.Label}க்கான பகுதிகளைக் கணக்கிடுவதில் பிழை: துளைகள் கொண்ட பிளானர் அல்லாத முகங்களைத் திட்டமிட முடியவில்லை. பகுதி மதிப்புகள் 0க்கு மீட்டமைக்கப்படும்.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1585"/>
       <source>Error computing areas for {self.obj.Label}: unable to combine projected horizontal faces. Area values will be reset to 0.
 </source>
@@ -6557,56 +7718,96 @@ The ladybug or pysolar Python module is required.</source>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2466"/>
+=======
+      <location filename="../../ArchComponent.py" line="2387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base component</source>
       <translation>அடிப்படை கூறு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2467"/>
+=======
+      <location filename="../../ArchComponent.py" line="2388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additions</source>
       <translation>சேர்த்தல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2468"/>
+=======
+      <location filename="../../ArchComponent.py" line="2389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractions</source>
       <translation>கழித்தல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2469"/>
+=======
+      <location filename="../../ArchComponent.py" line="2390"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Objects</source>
       <translation>பொருட்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2472"/>
+=======
+      <location filename="../../ArchComponent.py" line="2393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fixtures</source>
       <translation>பொருத்துதல்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2473"/>
+=======
+      <location filename="../../ArchComponent.py" line="2394"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>குழு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2474"/>
+=======
+      <location filename="../../ArchComponent.py" line="2395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hosts</source>
       <translation>புரவலர்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2538"/>
+=======
+      <location filename="../../ArchComponent.py" line="2459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcProperties.py" line="477"/>
       <source>Property</source>
       <translation>சொத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2546"/>
+=======
+      <location filename="../../ArchComponent.py" line="2467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add property</source>
       <translation>சொத்து சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2550"/>
+=======
+      <location filename="../../ArchComponent.py" line="2471"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add property set</source>
       <translation>சொத்து தொகுப்பைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2551"/>
       <source>New…</source>
       <translation>புதிய…</translation>
@@ -6623,18 +7824,34 @@ The ladybug or pysolar Python module is required.</source>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2700"/>
+=======
+      <location filename="../../ArchComponent.py" line="2472"/>
+      <source>New...</source>
+      <translation>புதிய...</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="2623"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcProperties.py" line="634"/>
       <source>New property</source>
       <translation>புதிய சொத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="2737"/>
+=======
+      <location filename="../../ArchComponent.py" line="2660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcProperties.py" line="683"/>
       <source>New property set</source>
       <translation>புதிய சொத்து தொகுப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1011"/>
+=======
+      <location filename="../../Arch.py" line="1001"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rebar</source>
       <translation>ரீபார்</translation>
     </message>
@@ -6650,7 +7867,11 @@ The ladybug or pysolar Python module is required.</source>
       <translation>ஒரு கட்டமைப்பு பொருளின் அடிப்படை முகத்தைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1238"/>
+=======
+      <location filename="../../Arch.py" line="1228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section</source>
       <translation>பிரிவு</translation>
     </message>
@@ -6660,114 +7881,203 @@ The ladybug or pysolar Python module is required.</source>
       <translation>பிரிவு விமானத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1775"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1509"/>
+      <source>Toggle Cutview</source>
+      <translation>கட்வியூவை நிலைமாற்று</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSectionPlane.py" line="1730"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scope</source>
       <translation>நோக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1778"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Placement and Visuals</source>
       <translation>வேலை வாய்ப்பு மற்றும் காட்சிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1781"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Objects seen by this section plane</source>
       <translation>இந்த பிரிவு வானூர்தி பார்க்கும் பொருள்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1787"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1742"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes highlighted objects from the list above</source>
       <translation>மேலே உள்ள பட்டியலில் இருந்து தனிப்படுத்தப்பட்ட பொருட்களை நீக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1788"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Selected</source>
       <translation>தேர்ந்தெடுக்கப்பட்டதைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1793"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1748"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds selected objects to the scope of this section plane</source>
       <translation>இந்த பிரிவு விமானத்தின் நோக்கத்தில் தேர்ந்தெடுக்கப்பட்ட பொருட்களை சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1794"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1749"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut View</source>
       <translation>வெட்டு பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1801"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a live cut in the 3D view, hiding geometry on one side of the plane to see inside your model</source>
       <translation>3D காட்சியில் லைவ் கட் உருவாக்குகிறது, உங்கள் மாதிரியின் உள்ளே பார்க்க விமானத்தின் ஒரு பக்கத்தில் வடிவவியலை மறைக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1802"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate by 90°</source>
       <translation>90° சுழற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1806"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1761"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the plane around its local X-axis</source>
       <translation>விமானத்தை அதன் உள்ளக X- அச்சில் சுழற்றுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1810"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1765"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the plane around its local Y-axis</source>
       <translation>அதன் உள்ளக Y- அச்சில் விமானத்தை சுழற்றுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1814"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the plane around its local Z-axis</source>
       <translation>விமானத்தை அதன் உள்ளக Z- அச்சில் சுழற்றுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1815"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resize to Fit</source>
       <translation>பொருத்தமாக அளவை மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1821"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recenter Plane</source>
       <translation>அண்மைக் காலத்தில் வானூர்தி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1803"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate X</source>
       <translation>ஃச் சுழற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1554"/>
       <source>Toggle Cut View</source>
       <translation>வெட்டுக் காட்சியை நிலைமாற்று</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1807"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate Y</source>
       <translation>ஒய் சுழற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1811"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate Z</source>
       <translation>சட் சுழற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1820"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1775"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resizes the plane to fit the objects in the list above</source>
       <translation>மேலே உள்ள பட்டியலில் உள்ள பொருட்களுக்கு ஏற்றவாறு விமானத்தின் அளவை மாற்றுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCoveringGui.py" line="530"/>
       <location filename="../../ArchWall.py" line="1873"/>
       <location filename="../../bimcommands/BimWall.py" line="530"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center</source>
       <translation>நடுவண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1826"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1781"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Centers the plane on the objects in the list above</source>
       <translation>மேலே உள்ள பட்டியலில் உள்ள பொருட்களின் மீது விமானத்தை மையப்படுத்துகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="231"/>
+=======
+      <location filename="../../Arch.py" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchBuilding.py" line="214"/>
       <source>Building</source>
       <translation>கட்டிடம்</translation>
@@ -6805,7 +8115,11 @@ Building creation aborted.</source>
       <translation>கட்டிடத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1341"/>
+=======
+      <location filename="../../Arch.py" line="1331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Space</source>
       <translation>இடைவெளி</translation>
     </message>
@@ -6815,6 +8129,7 @@ Building creation aborted.</source>
       <translation>இடத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimSpace.py" line="74"/>
       <location filename="../../bimcommands/BimRoof.py" line="97"/>
       <source>%1 select a base object</source>
@@ -6852,47 +8167,87 @@ Building creation aborted.</source>
     </message>
     <message>
       <location filename="../../ArchSpace.py" line="937"/>
+=======
+      <location filename="../../ArchSpace.py" line="927"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set text position</source>
       <translation>உரை நிலையை அமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSpace.py" line="941"/>
+=======
+      <location filename="../../ArchSpace.py" line="931"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Space boundaries</source>
       <translation>விண்வெளி எல்லைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1729"/>
+=======
+      <location filename="../../Arch.py" line="1719"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wall</source>
       <translation>சுவர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="1740"/>
+=======
+      <location filename="../../Arch.py" line="1730"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walls can only be based on Part or Mesh objects</source>
       <translation>சுவர்கள் பகுதி அல்லது மெச் பொருட்களை மட்டுமே அடிப்படையாகக் கொள்ள முடியும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="110"/>
       <location filename="../../bimcommands/BimWall.py" line="410"/>
       <location filename="../../bimcommands/BimWall.py" line="658"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="98"/>
+      <location filename="../../bimcommands/BimWall.py" line="183"/>
+      <location filename="../../bimcommands/BimWall.py" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Wall</source>
       <translation>சுவரை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="146"/>
       <source>First Point of Wall</source>
       <translation>சுவரின் முதல் புள்ளி</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWall.py" line="486"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="133"/>
+      <source>First point of wall</source>
+      <translation>சுவரின் முதல் புள்ளி</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimWall.py" line="315"/>
+      <source>Wall options</source>
+      <translation>சுவர் விருப்பங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimWall.py" line="320"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wall Presets</source>
       <translation>சுவர் முன்னமைவுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="492"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This list shows all the MultiMaterials objects of this document. Create some to define wall types.</source>
       <translation>இந்த ஆவணத்தின் அனைத்து மல்டிமெட்டீரியல் பொருள்களையும் இந்தப் பட்டியல் காட்டுகிறது. சுவர் வகைகளை வரையறுக்க சிலவற்றை உருவாக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="544"/>
       <source>Baseline</source>
       <translation>அடிப்படை</translation>
@@ -6916,38 +8271,68 @@ Building creation aborted.</source>
       <location filename="../../ArchCoveringGui.py" line="837"/>
       <location filename="../../ArchWall.py" line="1893"/>
       <location filename="../../bimcommands/BimWall.py" line="528"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="362"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Alignment</source>
       <translation>இருப்புவழி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="1872"/>
       <location filename="../../bimcommands/BimWall.py" line="530"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Left</source>
       <translation>இடது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="1874"/>
       <location filename="../../bimcommands/BimWall.py" line="531"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Right</source>
       <translation>வலது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="584"/>
       <location filename="../../bimcommands/BimArchUtils.py" line="609"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="378"/>
+      <source>Use sketches</source>
+      <translation>ஓவியங்களைப் பயன்படுத்தவும்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimArchUtils.py" line="578"/>
+      <location filename="../../bimcommands/BimArchUtils.py" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Merge Walls</source>
       <translation>சுவர்களை இணைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="1661"/>
+=======
+      <location filename="../../ArchWall.py" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot compute blocks for wall</source>
       <translation>சுவரின் தொகுதிகளை கணக்கிட முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="749"/>
+=======
+      <location filename="../../ArchWall.py" line="838"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Unable to modify the base object of this wall</source>
       <translation>பிழை: இந்தச் சுவரின் அடிப்படைப் பொருளை மாற்ற முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="642"/>
       <source>Cannot create or update {obj.Label} as its length, height or width is zero, and there are no solids in its additions</source>
       <translation>அதன் நீளம், உயரம் அல்லது அகலம் பூச்சியமாக இருப்பதால் {obj.Label} ஐ உருவாக்கவோ புதுப்பிக்கவோ முடியாது, மேலும் அதன் கூட்டல்களில் திடப்பொருள்கள் இல்லை</translation>
@@ -6965,107 +8350,187 @@ Building creation aborted.</source>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="2115"/>
+=======
+      <location filename="../../ArchWall.py" line="1755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flip Direction</source>
       <translation>திசை திருப்பவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="521"/>
+=======
+      <location filename="../../ArchCommands.py" line="493"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid cut plane</source>
       <translation>தவறான வெட்டு வானூர்தி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="824"/>
+=======
+      <location filename="../../ArchCommands.py" line="795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>is not closed</source>
       <translation>மூடப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="826"/>
+=======
+      <location filename="../../ArchCommands.py" line="797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>is not valid</source>
       <translation>செல்லாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="165"/>
+=======
+      <location filename="../../ArchCommands.py" line="149"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot add {0} as it is already referenced by {1}.</source>
       <translation>{1} ஆல் ஏற்கனவே குறிப்பிடப்பட்டுள்ளதால் {0} ஐச் சேர்க்க முடியாது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="246"/>
+=======
+      <location filename="../../ArchCommands.py" line="232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>{0} is mapped to {1}, removing the former's Attachment Support to avoid cyclic dependency.</source>
       <translation>{0} ஆனது {1} க்கு மேப் செய்யப்படுகிறது, சுழற்சி சார்புநிலையைத் தவிர்க்க, முந்தைய இணைப்பு ஆதரவை நீக்குகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="828"/>
+=======
+      <location filename="../../ArchCommands.py" line="799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>does not contain any solid</source>
       <translation>எந்த திடத்தையும் கொண்டிருக்கவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="834"/>
+=======
+      <location filename="../../ArchCommands.py" line="805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>contains a non-closed solid</source>
       <translation>மூடப்படாத திடப்பொருளைக் கொண்டுள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="838"/>
+=======
+      <location filename="../../ArchCommands.py" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>contains faces that are not part of any solid</source>
       <translation>திடப்பொருளின் பாகமாக இல்லாத முகங்களைக் கொண்டுள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1352"/>
+=======
+      <location filename="../../ArchCommands.py" line="1323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Survey</source>
       <translation>சர்வே</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1354"/>
+=======
+      <location filename="../../ArchCommands.py" line="1325"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear</source>
       <translation>தெளிவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1357"/>
+=======
+      <location filename="../../ArchCommands.py" line="1328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export CSV</source>
       <translation>ஏற்றுமதி காபிம</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1362"/>
+=======
+      <location filename="../../ArchCommands.py" line="1333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area</source>
       <translation>பகுதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1409"/>
+=======
+      <location filename="../../ArchCommands.py" line="1380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total</source>
       <translation>மொத்தம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1744"/>
+=======
+      <location filename="../../ArchCommands.py" line="1715"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object does not have an IfcProperties attribute. Cancel spreadsheet creation for object:</source>
       <translation>பொருளுக்கு IfcProperties பண்புக்கூறு இல்லை. பொருளுக்கான விரிதாள் உருவாக்கத்தை ரத்துசெய்:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1959"/>
       <source>No closed wires found.</source>
       <translation>No closed wires found.</translation>
     </message>
     <message>
       <location filename="../../ArchCommands.py" line="1505"/>
+=======
+      <location filename="../../ArchCommands.py" line="1476"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Disabling B-rep force flag of object</source>
       <translation>பொருளின் பி-ரெப் படைக் கொடியை முடக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1353"/>
+=======
+      <location filename="../../ArchCommands.py" line="1324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set Description</source>
       <translation>விளக்கத்தை அமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1355"/>
+=======
+      <location filename="../../ArchCommands.py" line="1326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy Total Length</source>
       <translation>மொத்த நீளத்தை நகலெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1356"/>
+=======
+      <location filename="../../ArchCommands.py" line="1327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy Total Area</source>
       <translation>மொத்த பரப்பளவை நகலெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1513"/>
       <location filename="../../ArchCommands.py" line="1520"/>
+=======
+      <location filename="../../ArchCommands.py" line="1484"/>
+      <location filename="../../ArchCommands.py" line="1491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enabling B-rep force flag of object</source>
       <translation>பொருளின் பி-பிரதிபலிப்புக் கொடியை இயக்குகிறது</translation>
     </message>
@@ -7100,44 +8565,74 @@ Building creation aborted.</source>
       <translation>வடிவமைக்க கண்ணி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="291"/>
       <source>Remove shape</source>
       <translation>வடிவத்தை அகற்று</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimArchUtils.py" line="343"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No problems found!</source>
       <translation>எந்த பிரச்சனையும் இல்லை!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="592"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected wall contains no subwalls to merge</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட சுவரில் ஒன்றிணைக்க துணைச்சுவர்கள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="595"/>
       <location filename="../../bimcommands/BimArchUtils.py" line="599"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="589"/>
+      <location filename="../../bimcommands/BimArchUtils.py" line="593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select only wall objects</source>
       <translation>சுவர் பொருட்களை மட்டும் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="607"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walls with different 'Width', 'Height' and 'Align' properties cannot be merged</source>
       <translation>வெவ்வேறு 'அகலம்', 'உயரம்' மற்றும் 'சீரமை' பண்புகளைக் கொண்ட சுவர்களை ஒன்றிணைக்க முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="415"/>
       <location filename="../../bimcommands/BimArchUtils.py" line="448"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="409"/>
+      <location filename="../../bimcommands/BimArchUtils.py" line="442"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Component</source>
       <translation>கூறு உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCommands.py" line="1729"/>
+=======
+      <location filename="../../ArchCommands.py" line="1700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Key</source>
       <translation>முக்கிய</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="482"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="476"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create IFC properties spreadsheet</source>
       <translation>IFC பண்புகள் விரிதாளை உருவாக்கவும்</translation>
     </message>
@@ -7152,12 +8647,20 @@ Building creation aborted.</source>
       <translation>வேலி உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimBox.py" line="303"/>
+=======
+      <location filename="../../bimcommands/BimBox.py" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Box</source>
       <translation>பெட்டியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimDrawingView.py" line="65"/>
+=======
+      <location filename="../../bimcommands/BimDrawingView.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create 2D View</source>
       <translation>2D காட்சியை உருவாக்கவும்</translation>
     </message>
@@ -7182,8 +8685,13 @@ Building creation aborted.</source>
       <translation>புதிய குழு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="1186"/>
       <location filename="../../ArchMaterial.py" line="100"/>
+=======
+      <location filename="../../ArchMaterial.py" line="100"/>
+      <location filename="../../ArchBuildingPart.py" line="1186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reorder Children Alphabetically</source>
       <translation>குழந்தைகளை அகரவரிசைப்படி மறுவரிசைப்படுத்துங்கள்</translation>
     </message>
@@ -7192,6 +8700,7 @@ Building creation aborted.</source>
       <source>Clone Level Up</source>
       <translation>நகலி நிலை மேலே</translation>
     </message>
+<<<<<<< HEAD
     <message>
       <location filename="../../ArchBuildingPart.py" line="1217"/>
       <source>Active working plane set to Top</source>
@@ -7332,16 +8841,26 @@ Building creation aborted.</source>
       <source>Rod Type</source>
       <translation>தண்டு வகை</translation>
     </message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Arch_StructuresFromSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="99"/>
+=======
+      <location filename="../../ArchStructure.py" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Multiple Structures</source>
       <translation>பல கட்டமைப்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="103"/>
+=======
+      <location filename="../../ArchStructure.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates multiple BIM Structures from a selected base, using each selected edge as an extrusion path</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட ஒவ்வொரு விளிம்பையும் வெளியேற்றும் பாதையாகப் பயன்படுத்தி, தேர்ந்தெடுக்கப்பட்ட தளத்திலிருந்து பல BIM கட்டமைப்புகளை உருவாக்குகிறது</translation>
     </message>
@@ -7349,198 +8868,365 @@ Building creation aborted.</source>
   <context>
     <name>Arch_StructuralSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="166"/>
+=======
+      <location filename="../../ArchStructure.py" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structural System</source>
       <translation>கட்டமைப்பு அமைப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="170"/>
+=======
+      <location filename="../../ArchStructure.py" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a structural system from a selected structure and axis</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட அமைப்பு மற்றும் அச்சில் இருந்து ஒரு கட்டமைப்பு அமைப்பை உருவாக்கவும்</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>App::Property</name>
     <message>
       <location filename="../../ArchStructure.py" line="683"/>
       <location filename="../../ArchStructure.py" line="1865"/>
+=======
+    <name>Arch_Structure</name>
+    <message>
+      <location filename="../../ArchStructure.py" line="329"/>
+      <source>Structure</source>
+      <translation>கட்டமைப்பு</translation>
+    </message>
+    <message>
+      <location filename="../../ArchStructure.py" line="334"/>
+      <source>Creates a structure from scratch or from a selected object (sketch, wire, face or solid)</source>
+      <translation>புதிதாக அல்லது தேர்ந்தெடுக்கப்பட்ட பொருளிலிருந்து (ச்கெட்ச், கம்பி, முகம் அல்லது திடமான) கட்டமைப்பை உருவாக்குகிறது</translation>
+    </message>
+  </context>
+  <context>
+    <name>App::Property</name>
+    <message>
+      <location filename="../../ArchStructure.py" line="783"/>
+      <location filename="../../ArchStructure.py" line="1951"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional extrusion path for this element</source>
       <translation>இந்த உறுப்புக்கான விருப்ப வெளியேற்ற பாதை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="691"/>
+=======
+      <location filename="../../ArchStructure.py" line="791"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The computed length of the extrusion path</source>
       <translation>வெளியேற்ற பாதையின் கணக்கிடப்பட்ட நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="703"/>
+=======
+      <location filename="../../ArchStructure.py" line="803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start offset distance along the extrusion path (positive: extend, negative: trim)</source>
       <translation>வெளியேற்றும் பாதையில் ஆஃப்செட் தூரத்தைத் தொடங்கவும் (நேர்மறை: நீட்டிப்பு, எதிர்மறை: டிரிம்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="714"/>
+=======
+      <location filename="../../ArchStructure.py" line="814"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End offset distance along the extrusion path (positive: extend, negative: trim)</source>
       <translation>வெளியேற்றும் பாதையில் ஆஃப்செட் தூரத்தை முடிக்கவும் (நேர்மறை: நீட்டிப்பு, எதிர்மறை: டிரிம்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="725"/>
+=======
+      <location filename="../../ArchStructure.py" line="825"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Automatically align the Base of the Structure perpendicular to the Tool axis</source>
       <translation>கருவி அச்சுக்கு செங்குத்தாக கட்டமைப்பின் தளத்தை தானாக சீரமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="736"/>
+=======
+      <location filename="../../ArchStructure.py" line="836"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X offset between the Base origin and the Tool axis (only used if BasePerpendicularToTool is True)</source>
       <translation>அடிப்படை தோற்றம் மற்றும் கருவி அச்சுக்கு இடையே ஃச் ஆஃப்செட் (BasePerpendicularToTool உண்மையாக இருந்தால் மட்டுமே பயன்படுத்தப்படும்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="747"/>
+=======
+      <location filename="../../ArchStructure.py" line="847"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y offset between the Base origin and the Tool axis (only used if BasePerpendicularToTool is True)</source>
       <translation>அடிப்படை தோற்றம் மற்றும் கருவி அச்சுக்கு இடையே ஒய் ஆஃப்செட் (BasePerpendicularToTool உண்மையாக இருந்தால் மட்டுமே பயன்படுத்தப்படும்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="758"/>
+=======
+      <location filename="../../ArchStructure.py" line="858"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirror the Base along its Y axis (only used if BasePerpendicularToTool is True)</source>
       <translation>அடிப்படையை அதன் ஒய் அச்சில் பிரதிபலிக்கவும் (BasePerpendicularToTool உண்மையாக இருந்தால் மட்டுமே பயன்படுத்தப்படும்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="769"/>
+=======
+      <location filename="../../ArchStructure.py" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base rotation around the Tool axis (only used if BasePerpendicularToTool is True)</source>
       <translation>கருவி அச்சில் அடிப்படை சுழற்சி (BasePerpendicularToTool உண்மையாக இருந்தால் மட்டுமே பயன்படுத்தப்படும்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="779"/>
+=======
+      <location filename="../../ArchStructure.py" line="879"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPanel.py" line="85"/>
       <source>The length of this element, if not based on a profile</source>
       <translation>சுயவிவரத்தின் அடிப்படையில் இல்லையெனில் இந்த உறுப்பின் நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="789"/>
+=======
+      <location filename="../../ArchStructure.py" line="889"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPanel.py" line="95"/>
       <source>The width of this element, if not based on a profile</source>
       <translation>சுயவிவரத்தின் அடிப்படையில் இல்லையெனில் இந்த உறுப்பின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="800"/>
+=======
+      <location filename="../../ArchStructure.py" line="900"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height or extrusion depth of this element. Keep 0 for automatic</source>
       <translation>இந்த உறுப்பின் உயரம் அல்லது வெளியேற்ற ஆழம். தானியங்கிக்கு 0 ஐ வைத்திருங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="272"/>
       <location filename="../../ArchStructure.py" line="811"/>
       <location filename="../../ArchPanel.py" line="209"/>
+=======
+      <location filename="../../ArchStructure.py" line="911"/>
+      <location filename="../../ArchPanel.py" line="209"/>
+      <location filename="../../ArchWall.py" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The normal extrusion direction of this object (keep (0,0,0) for automatic normal)</source>
       <translation>இந்த பொருளின் இயல்பான வெளியேற்ற திசை (தானியங்கு இயல்புநிலைக்கு (0,0,0) வைத்திருங்கள்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="819"/>
       <location filename="../../ArchPrecast.py" line="101"/>
+=======
+      <location filename="../../ArchPrecast.py" line="101"/>
+      <location filename="../../ArchStructure.py" line="919"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The structural nodes of this element</source>
       <translation>இந்த தனிமத்தின் கட்டமைப்பு முனைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="830"/>
+=======
+      <location filename="../../ArchStructure.py" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A description of the standard profile this element is based upon</source>
       <translation>இந்த உறுப்பு அடிப்படையிலான நிலையான சுயவிவரத்தின் விளக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="840"/>
+=======
+      <location filename="../../ArchStructure.py" line="940"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset distance between the centerline and the nodes line</source>
       <translation>மையக் கோட்டிற்கும் முனைக் கோட்டிற்கும் இடையே உள்ள தூரத்தை ஈடுசெய்க</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="850"/>
+=======
+      <location filename="../../ArchStructure.py" line="950"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchPanel.py" line="197"/>
       <source>The facemaker type to use to build the profile of this object</source>
       <translation>இந்த பொருளின் சுயவிவரத்தை உருவாக்க பயன்படுத்த வேண்டிய ஃபேச்மேக்கர் வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="874"/>
       <location filename="../../ArchStructure.py" line="891"/>
+=======
+      <location filename="../../ArchStructure.py" line="974"/>
+      <location filename="../../ArchStructure.py" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected edges (or group of edges) of the base ArchSketch, to use in creating the shape of this BIM Structure (instead of using all the Base shape's edges by default).  Input are index numbers of edges or groups.</source>
       <translation>இந்த BIM கட்டமைப்பின் வடிவத்தை உருவாக்குவதில் பயன்படுத்த, அடிப்படை ArchSketch இன் தேர்ந்தெடுக்கப்பட்ட விளிம்புகள் (அல்லது விளிம்புகளின் குழு) (இயல்புநிலையாக அனைத்து அடிப்படை வடிவத்தின் விளிம்புகளையும் பயன்படுத்துவதற்குப் பதிலாக). உள்ளீடு என்பது விளிம்புகள் அல்லது குழுக்களின் குறியீட்டு எண்கள்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="547"/>
       <location filename="../../ArchStructure.py" line="903"/>
+=======
+      <location filename="../../ArchStairs.py" line="543"/>
+      <location filename="../../ArchStructure.py" line="1003"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select User Defined PropertySet to use in creating variant shape, with same ArchSketch </source>
       <translation>அதே ArchSketch உடன் மாறுபட்ட வடிவத்தை உருவாக்குவதில் பயன்படுத்த, பயனர் வரையறுக்கப்பட்ட ப்ராபர்ட்டிசெட்டைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1432"/>
+=======
+      <location filename="../../ArchStructure.py" line="1532"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If the nodes are visible or not</source>
       <translation>முனைகள் தெரியும் அல்லது இல்லை என்றால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1440"/>
+=======
+      <location filename="../../ArchStructure.py" line="1540"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of the nodes line</source>
       <translation>முனைகளின் கோட்டின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1448"/>
+=======
+      <location filename="../../ArchStructure.py" line="1548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the node points</source>
       <translation>முனை புள்ளிகளின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1457"/>
+=======
+      <location filename="../../ArchStructure.py" line="1557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The color of the nodes line</source>
       <translation>முனைகளின் கோட்டின் நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1466"/>
+=======
+      <location filename="../../ArchStructure.py" line="1566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of structural node</source>
       <translation>கட்டமைப்பு முனை வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1912"/>
+=======
+      <location filename="../../ArchStructure.py" line="1999"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axes systems this structure is built on</source>
       <translation>அச்சு அமைப்புகள் இந்த அமைப்பு கட்டமைக்கப்பட்டுள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1922"/>
+=======
+      <location filename="../../ArchStructure.py" line="2009"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The element numbers to exclude when this structure is based on axes</source>
       <translation>இந்த அமைப்பு அச்சுகளை அடிப்படையாகக் கொண்டிருக்கும் போது விலக்க வேண்டிய உறுப்பு எண்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="1929"/>
+=======
+      <location filename="../../ArchStructure.py" line="2016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true the element are aligned with axes</source>
       <translation>உண்மை என்றால் உறுப்பு அச்சுகளுடன் சீரமைக்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchEquipment.py" line="97"/>
+=======
+      <location filename="../../ArchEquipment.py" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The model description of this equipment</source>
       <translation>இந்த சாதனத்தின் மாதிரி விளக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchEquipment.py" line="105"/>
+=======
+      <location filename="../../ArchEquipment.py" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The URL of the product page of this equipment</source>
       <translation>இந்தச் சாதனத்தின் தயாரிப்புப் பக்கத்தின் முகவரி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchEquipment.py" line="113"/>
+=======
+      <location filename="../../ArchEquipment.py" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchMaterial.py" line="208"/>
       <source>A standard code (MasterFormat, OmniClass,…)</source>
       <translation>ஒரு நிலையான குறியீடு (MasterFormat, OmniClass,...)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchEquipment.py" line="121"/>
+=======
+      <location filename="../../ArchEquipment.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additional snap points for this equipment</source>
       <translation>இந்த உபகரணத்திற்கான கூடுதல் ச்னாப் புள்ளிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchEquipment.py" line="131"/>
+=======
+      <location filename="../../ArchEquipment.py" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The electric power needed by this equipment in Watts</source>
       <translation>இந்த சாதனத்திற்கு தேவையான மின்சாரம் வாட்சில்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Arch.py" line="234"/>
       <location filename="../../Arch.py" line="316"/>
+=======
+      <location filename="../../Arch.py" line="237"/>
+      <location filename="../../Arch.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../ArchBuilding.py" line="308"/>
       <source>The type of this building</source>
       <translation>இந்த கட்டிடத்தின் வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="230"/>
       <location filename="../../ArchFloor.py" line="236"/>
+=======
+      <location filename="../../ArchFloor.py" line="236"/>
+      <location filename="../../ArchBuildingPart.py" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of this object</source>
       <translation>இந்த பொருளின் உயரம்</translation>
     </message>
@@ -7555,26 +9241,46 @@ Building creation aborted.</source>
       <translation>இந்த மட்டத்தின் (0,0,0) புள்ளியின் நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="258"/>
       <location filename="../../ArchFloor.py" line="244"/>
+=======
+      <location filename="../../ArchFloor.py" line="244"/>
+      <location filename="../../ArchBuildingPart.py" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The computed floor area of this floor</source>
       <translation>இந்த தளத்தின் கணக்கிடப்பட்ட தரைப்பகுதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="266"/>
       <location filename="../../ArchComponent.py" line="250"/>
+=======
+      <location filename="../../ArchComponent.py" line="258"/>
+      <location filename="../../ArchBuildingPart.py" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional description for this component</source>
       <translation>இந்த கூறுக்கான விருப்ப விளக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="274"/>
       <location filename="../../ArchComponent.py" line="258"/>
+=======
+      <location filename="../../ArchComponent.py" line="266"/>
+      <location filename="../../ArchBuildingPart.py" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional tag for this component</source>
       <translation>இந்தக் கூறுக்கான விருப்பக் குறிச்சொல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="282"/>
       <location filename="../../ArchSectionPlane.py" line="1005"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="958"/>
+      <location filename="../../ArchBuildingPart.py" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The shape of this object</source>
       <translation>இந்த பொருளின் வடிவம்</translation>
     </message>
@@ -7594,250 +9300,452 @@ Building creation aborted.</source>
       <translation>ஒரு பொருள் பெயர்:SolidIndexesList வரைபடம், இது மற்ற கோப்புகளில் இருந்து இந்த பொருளைக் குறிப்பிடும் போது பயன்படுத்தப்படும் திடமான குறியீடுகளுடன் பொருள் பெயர்களை தொடர்புபடுத்துகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="547"/>
       <location filename="../../ArchSectionPlane.py" line="1177"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1130"/>
+      <location filename="../../ArchBuildingPart.py" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The line width of this object</source>
       <translation>இந்த பொருளின் வரி அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="556"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="531"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional unit to express levels</source>
       <translation>நிலைகளை வெளிப்படுத்த ஒரு விருப்ப அலகு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="564"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="539"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A transformation to apply to the level mark</source>
       <translation>நிலை குறிக்கு விண்ணப்பிக்க ஒரு மாற்றம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="575"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="550"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, show the level</source>
       <translation>உண்மை என்றால், அளவைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="584"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, show the unit on the level tag</source>
       <translation>உண்மை எனில், லெவல் டேக்கில் யூனிட்டைக் காட்டவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="594"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="569"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, display offset will affect the origin mark too</source>
       <translation>சரி எனில், காட்சி ஆஃப்செட் மூலக் குறியையும் பாதிக்கும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="602"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, the object's label is displayed</source>
       <translation>உண்மை எனில், பொருளின் சிட்டை காட்டப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="611"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The font to be used for texts</source>
       <translation>உரைகளுக்கு பயன்படுத்த வேண்டிய எழுத்துரு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="620"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The font size of texts</source>
       <translation>உரைகளின் எழுத்துரு அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="631"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="606"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The individual face colors</source>
       <translation>தனிப்பட்ட முகத்தின் நிறங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="644"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, when activated, the working plane will automatically adapt to this level</source>
       <translation>உண்மை எனில், செயல்படுத்தப்படும் போது, ​​வேலை செய்யும் வானூர்தி தானாகவே இந்த நிலைக்கு மாற்றியமைக்கும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="655"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="630"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If set to True, the working plane will be kept on Auto mode</source>
       <translation>சரி என அமைத்தால், வேலை செய்யும் வானூர்தி ஆட்டோ பயன்முறையில் வைக்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="665"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="640"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Camera position data associated with this object</source>
       <translation>இந்த பொருளுடன் தொடர்புடைய கேமரா நிலை தரவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="677"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="652"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If set, the view stored in this object will be restored on double-click</source>
       <translation>அமைக்கப்பட்டால், இந்த பொருளில் சேமிக்கப்பட்ட காட்சி இருமுறை சொடுக்கு செய்வதன் மூலம் மீட்டமைக்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="687"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If True, double-clicking this object in the tree activates it</source>
       <translation>உண்மை எனில், மரத்தில் உள்ள இந்தப் பொருளை இருமுறை சொடுக்கு செய்வதன் மூலம் அது செயல்படுத்தப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="701"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If this is enabled, the OpenInventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.</source>
       <translation>இது இயக்கப்பட்டால், இந்த பொருளின் OpenInventor பிரதிநிதித்துவம் FreeCAD கோப்பில் சேமிக்கப்படும், இது இலகுரக பயன்முறையில் மற்ற கோப்புகளில் குறிப்பிட அனுமதிக்கிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="712"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="687"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A slot to save the OpenInventor representation of this object, if enabled</source>
       <translation>இயக்கப்பட்டிருந்தால், இந்த பொருளின் OpenInventor பிரதிநிதித்துவத்தை சேமிப்பதற்கான ச்லாட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="726"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, show the objects contained in this Building Part will adopt these line, color and transparency settings</source>
       <translation>உண்மை எனில், இந்தக் கட்டிடப் பகுதியில் உள்ள பொருட்களைக் காட்டு, இந்த வரி, நிறம் மற்றும் வெளிப்படைத்தன்மை அமைப்புகளை ஏற்கும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="734"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The line width of child objects</source>
       <translation>குழந்தை பொருள்களின் வரி அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="743"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="718"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The line color of child objects</source>
       <translation>குழந்தை பொருட்களின் வரி நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="752"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="727"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The shape appearance of child objects</source>
       <translation>குழந்தை பொருட்களின் வடிவ தோற்றம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="762"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The transparency of child objects</source>
       <translation>குழந்தை பொருட்களின் வெளிப்படைத்தன்மை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="773"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut the view above this level</source>
       <translation>இந்த நிலைக்கு மேலே உள்ள காட்சியை வெட்டுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="783"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The distance between the level plane and the cut line</source>
       <translation>நிலை விமானத்திற்கும் வெட்டுக் கோட்டிற்கும் இடையிலான தூரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="792"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn cutting on when activating this level</source>
       <translation>இந்த நிலையைச் செயல்படுத்தும்போது வெட்டுதலை இயக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="805"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="779"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The capture box for newly created objects expressed as [XMin,YMin,ZMin,XMax,YMax,ZMax]</source>
       <translation>புதிதாக உருவாக்கப்பட்ட பொருள்களுக்கான பிடிப்பு பெட்டி [XMin,YMin,ZMin,XMax,YMax,ZMax]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="813"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="787"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turns auto group box on/off</source>
       <translation>தானியங்கு குழு பெட்டியை ஆன்/ஆஃப் செய்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="821"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Automatically set size from contents</source>
       <translation>உள்ளடக்கத்திலிருந்து அளவை தானாக அமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="829"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A margin to use when autosize is turned on</source>
       <translation>தானியங்கு அளவு இயக்கப்பட்டிருக்கும் போது பயன்படுத்த வேண்டிய விளிம்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="166"/>
+=======
+      <location filename="../../ArchProfile.py" line="131"/>
+      <source>Outside Diameter</source>
+      <translation>வெளிப்புற விட்டம்</translation>
+    </message>
+    <message>
+      <location filename="../../ArchProfile.py" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wall thickness</source>
       <translation>சுவர் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="190"/>
       <location filename="../../ArchProfile.py" line="252"/>
       <location filename="../../ArchProfile.py" line="286"/>
       <location filename="../../ArchProfile.py" line="346"/>
       <location filename="../../ArchProfile.py" line="406"/>
       <location filename="../../ArchProfile.py" line="453"/>
+=======
+      <location filename="../../ArchProfile.py" line="168"/>
+      <location filename="../../ArchProfile.py" line="232"/>
+      <location filename="../../ArchProfile.py" line="268"/>
+      <location filename="../../ArchProfile.py" line="333"/>
+      <location filename="../../ArchProfile.py" line="395"/>
+      <location filename="../../ArchProfile.py" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width of the beam</source>
       <translation>கற்றை அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="197"/>
       <location filename="../../ArchProfile.py" line="259"/>
       <location filename="../../ArchProfile.py" line="293"/>
       <location filename="../../ArchProfile.py" line="353"/>
       <location filename="../../ArchProfile.py" line="413"/>
       <location filename="../../ArchProfile.py" line="460"/>
+=======
+      <location filename="../../ArchProfile.py" line="175"/>
+      <location filename="../../ArchProfile.py" line="239"/>
+      <location filename="../../ArchProfile.py" line="275"/>
+      <location filename="../../ArchProfile.py" line="340"/>
+      <location filename="../../ArchProfile.py" line="402"/>
+      <location filename="../../ArchProfile.py" line="451"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height of the beam</source>
       <translation>கற்றை உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="204"/>
       <location filename="../../ArchProfile.py" line="467"/>
+=======
+      <location filename="../../ArchProfile.py" line="182"/>
+      <location filename="../../ArchProfile.py" line="458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the web</source>
       <translation>வலையின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="211"/>
       <location filename="../../ArchProfile.py" line="474"/>
+=======
+      <location filename="../../ArchProfile.py" line="189"/>
+      <location filename="../../ArchProfile.py" line="465"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the flanges</source>
       <translation>விளிம்புகளின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="300"/>
+=======
+      <location filename="../../ArchProfile.py" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the sides</source>
       <translation>பக்கங்களின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="360"/>
+=======
+      <location filename="../../ArchProfile.py" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the webs</source>
       <translation>வலைகளின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="367"/>
+=======
+      <location filename="../../ArchProfile.py" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the flange</source>
       <translation>விளிம்பின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="420"/>
+=======
+      <location filename="../../ArchProfile.py" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the legs</source>
       <translation>கால்களின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="507"/>
+=======
+      <location filename="../../ArchProfile.py" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overall size</source>
       <translation>மொத்த அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="528"/>
+=======
+      <location filename="../../ArchProfile.py" line="521"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>T-nut slot width</source>
       <translation>டி-நட் ச்லாட் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="535"/>
+=======
+      <location filename="../../ArchProfile.py" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>T-nut slot depth</source>
       <translation>டி-நட் ச்லாட் ஆழம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="549"/>
+=======
+      <location filename="../../ArchProfile.py" line="542"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Internal hole diameter</source>
       <translation>உள் துளை விட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="556"/>
+=======
+      <location filename="../../ArchProfile.py" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Corner fillet radius</source>
       <translation>கார்னர் ஃபில்லட் ஆரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="514"/>
+=======
+      <location filename="../../ArchProfile.py" line="507"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slot size</source>
       <translation>ச்லாட் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="159"/>
       <source>Outside diameter</source>
       <translation>வெளிப்புற விட்டம்</translation>
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="521"/>
+=======
+      <location filename="../../ArchProfile.py" line="514"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of the wall</source>
       <translation>சுவரின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchProfile.py" line="542"/>
+=======
+      <location filename="../../ArchProfile.py" line="535"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Internal core size</source>
       <translation>உள் மைய அளவு</translation>
     </message>
@@ -7894,19 +9802,37 @@ Building creation aborted.</source>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="656"/>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="232"/>
+=======
+      <location filename="../../ArchComponent.py" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Other shapes that are appended to this object</source>
       <translation>இந்த பொருளுடன் இணைக்கப்பட்ட பிற வடிவங்கள்</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="666"/>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="242"/>
+=======
+      <location filename="../../ArchComponent.py" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Other shapes that are subtracted from this object</source>
       <translation>இந்த பொருளில் இருந்து கழிக்கப்படும் பிற வடிவங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="676"/>
       <location filename="../../ArchComponent.py" line="337"/>
+=======
+      <location filename="../../ArchComponent.py" line="277"/>
+      <source>An optional standard (OmniClass, etc…) code for this component</source>
+      <translation>இந்தக் கூறுக்கான விருப்பத் தரநிலை (OmniClass, etc...) குறியீடு</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSite.py" line="676"/>
+      <location filename="../../ArchComponent.py" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The area of the projection of this object onto the XY plane</source>
       <translation>XY விமானத்தின் மீது இந்தப் பொருளின் திட்டப் பகுதி</translation>
     </message>
@@ -7962,147 +9888,263 @@ Building creation aborted.</source>
       <translation>உருவாக்கப்பட்ட சூரியக் கதிர் பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1362"/>
+=======
+      <location filename="../../ArchSite.py" line="1064"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show wind rose diagram or not. Uses solar diagram scale. Needs Ladybug module</source>
       <translation>காற்று ரோசா வரைபடத்தைக் காட்டு அல்லது இல்லையா. சூரிய வரைபட அளவைப் பயன்படுத்துகிறது. Ladybug தொகுதி தேவை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1370"/>
+=======
+      <location filename="../../ArchSite.py" line="1072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show solar diagram or not</source>
       <translation>சூரிய வரைபடத்தைக் காட்டு அல்லது இல்லையா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1378"/>
+=======
+      <location filename="../../ArchSite.py" line="1080"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The scale of the solar diagram</source>
       <translation>சூரிய வரைபடத்தின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1387"/>
+=======
+      <location filename="../../ArchSite.py" line="1089"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The position of the solar diagram</source>
       <translation>சூரிய வரைபடத்தின் நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1395"/>
+=======
+      <location filename="../../ArchSite.py" line="1097"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The color of the solar diagram</source>
       <translation>சூரிய வரைபடத்தின் நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1407"/>
+=======
+      <location filename="../../ArchSite.py" line="1109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>When set to 'True North' the whole geometry will be rotated to match the true north of this site</source>
       <translation>'True North' என அமைக்கப்படும் போது, ​​இந்தத் தளத்தின் உண்மையான வடக்கோடு பொருந்துமாறு முழு வடிவவியலும் சுழற்றப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1417"/>
+=======
+      <location filename="../../ArchSite.py" line="1119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show compass or not</source>
       <translation>திசைகாட்டி காட்டு அல்லது இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1427"/>
+=======
+      <location filename="../../ArchSite.py" line="1129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The rotation of the Compass relative to the Site</source>
       <translation>தளத்துடன் தொடர்புடைய திசைகாட்டியின் சுழற்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1437"/>
+=======
+      <location filename="../../ArchSite.py" line="1139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The position of the Compass relative to the Site placement</source>
       <translation>சைட் பிளேச்மென்ட்டுடன் தொடர்புடைய திசைகாட்டியின் நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1447"/>
+=======
+      <location filename="../../ArchSite.py" line="1149"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Update the Declination value based on the compass rotation</source>
       <translation>திசைகாட்டி சுழற்சியின் அடிப்படையில் சரிவு மதிப்பைப் புதுப்பிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1457"/>
+=======
+      <location filename="../../ArchSite.py" line="1159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the sun position for a specific date and time</source>
       <translation>ஒரு குறிப்பிட்ட தேதி மற்றும் நேரத்திற்கு சூரியனின் நிலையைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1467"/>
+=======
+      <location filename="../../ArchSite.py" line="1169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The month of the year to show the sun position</source>
       <translation>சூரியனின் நிலையைக் காட்ட வருடத்தின் மாதம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1475"/>
+=======
+      <location filename="../../ArchSite.py" line="1177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The day of the month to show the sun position</source>
       <translation>சூரியனின் நிலையைக் காட்ட மாதத்தின் நாள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1483"/>
+=======
+      <location filename="../../ArchSite.py" line="1185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The hour of the day to show the sun position</source>
       <translation>சூரியனின் நிலையைக் காட்ட நாளின் மணிநேரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="1493"/>
+=======
+      <location filename="../../ArchSite.py" line="1195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show text labels for key hours on the sun path</source>
       <translation>சூரியப் பாதையில் முக்கிய நேரங்களுக்கான உரை லேபிள்களைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="2357"/>
+=======
+      <location filename="../../ArchSite.py" line="2044"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The altitude of the sun above the horizon</source>
       <translation>அடிவானத்திற்கு மேலே சூரியனின் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="2367"/>
+=======
+      <location filename="../../ArchSite.py" line="2054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The compass direction of the sun (0° is North)</source>
       <translation>சூரியனின் திசைகாட்டி திசை (0° வடக்கு)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSite.py" line="2375"/>
+=======
+      <location filename="../../ArchSite.py" line="2062"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The date and time for this sun position</source>
       <translation>இந்த சூரிய நிலைக்கான தேதி மற்றும் நேரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="176"/>
+=======
+      <location filename="../../ArchRoof.py" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of angles of the roof segments</source>
       <translation>கூரை பிரிவுகளின் கோணங்களின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="187"/>
+=======
+      <location filename="../../ArchRoof.py" line="185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of horizontal length projections of the roof segments</source>
       <translation>கூரை பிரிவுகளின் கிடைமட்ட நீள கணிப்புகளின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="197"/>
+=======
+      <location filename="../../ArchRoof.py" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of IDs of the relative profiles of the roof segments</source>
       <translation>கூரை பிரிவுகளின் தொடர்புடைய சுயவிவரங்களின் ஐடிகளின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="205"/>
+=======
+      <location filename="../../ArchRoof.py" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of thicknesses of the roof segments</source>
       <translation>கூரை பிரிவுகளின் தடிமன் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="213"/>
+=======
+      <location filename="../../ArchRoof.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of overhangs of the roof segments</source>
       <translation>கூரை பிரிவுகளின் மேலடுக்குகளின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="223"/>
+=======
+      <location filename="../../ArchRoof.py" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of calculated heights of the roof segments</source>
       <translation>கூரை பிரிவுகளின் கணக்கிடப்பட்ட உயரங்களின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="233"/>
+=======
+      <location filename="../../ArchRoof.py" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The face number of the base object used to build the roof</source>
       <translation>கூரையைக் கட்டப் பயன்படுத்தப்படும் அடிப்படைப் பொருளின் முக எண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="243"/>
+=======
+      <location filename="../../ArchRoof.py" line="241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The total length of the ridges and hips of the roof</source>
       <translation>கூரையின் முகடுகள் மற்றும் இடுப்புகளின் மொத்த நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="252"/>
+=======
+      <location filename="../../ArchRoof.py" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The total length of the borders of the roof</source>
       <translation>கூரையின் எல்லைகளின் மொத்த நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="263"/>
+=======
+      <location filename="../../ArchRoof.py" line="261"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies if the direction of the roof should be flipped</source>
       <translation>கூரையின் திசை புரட்டப்பட வேண்டுமா என்பதைக் குறிப்பிடுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRoof.py" line="274"/>
+=======
+      <location filename="../../ArchRoof.py" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional object that defines a volume to be subtracted from walls. If field is set - it has a priority over auto-generated subvolume</source>
       <translation>சுவர்களில் இருந்து கழிக்கப்பட வேண்டிய தொகுதியை வரையறுக்கும் விருப்பப் பொருள். புலம் அமைக்கப்பட்டால் - தானாக உருவாக்கப்பட்ட துணைத் தொகுதியை விட இது முன்னுரிமை பெறும்</translation>
     </message>
@@ -8177,97 +10219,174 @@ Building creation aborted.</source>
       <translation>உண்மை எனில், வடிவியல் இணைந்திருக்கும், இல்லையெனில் ஒரு கலவை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="128"/>
+=======
+      <location filename="../../ArchWindow.py" line="144"/>
+      <location filename="../../ArchSketchObject.py" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects that host this window</source>
       <translation>இந்த சாளரத்தை புரவலன் செய்யும் பொருள்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="136"/>
+=======
+      <location filename="../../ArchWindow.py" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The components of this window</source>
       <translation>இந்த சாளரத்தின் கூறுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="148"/>
+=======
+      <location filename="../../ArchWindow.py" line="164"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The depth of the hole that this window makes in its host object. If 0, the value will be calculated automatically.</source>
       <translation>இந்த சாளரம் அதன் புரவலன் பொருளில் செய்யும் துளையின் ஆழம். 0 எனில், மதிப்பு தானாகவே கணக்கிடப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="159"/>
+=======
+      <location filename="../../ArchWindow.py" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional object that defines a volume to be subtracted from hosts of this window</source>
       <translation>இந்த சாளரத்தின் ஓச்ட்களில் இருந்து கழிக்கப்பட வேண்டிய தொகுதியை வரையறுக்கும் விருப்பப் பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="167"/>
+=======
+      <location filename="../../ArchWindow.py" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of this window</source>
       <translation>இந்த சாளரத்தின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="175"/>
+=======
+      <location filename="../../ArchWindow.py" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of this window</source>
       <translation>இந்த சாளரத்தின் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="183"/>
+=======
+      <location filename="../../ArchWindow.py" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The normal direction of this window</source>
       <translation>இந்த சாளரத்தின் இயல்பான திசை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="195"/>
+=======
+      <location filename="../../ArchWindow.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>When normal direction is in auto mode (0,0,0), use reversed normal direction of the Base Sketch, i.e. -z.</source>
       <translation>இயல்பான திசையானது தானியங்கு முறையில் (0,0,0) இருக்கும்போது, ​​அடிப்படை ச்கெட்சின் தலைகீழ் இயல்பான திசையைப் பயன்படுத்தவும், அதாவது -z.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="207"/>
+=======
+      <location filename="../../ArchWindow.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The preset number this window is based on</source>
       <translation>முன்னமைக்கப்பட்ட எண் இந்த சாளரத்தை அடிப்படையாகக் கொண்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="219"/>
+=======
+      <location filename="../../ArchWindow.py" line="235"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The frame depth of this window. Measured from front face to back face horizontally (i.e. perpendicular to the window elevation plane).</source>
       <translation>இந்த சாளரத்தின் சட்ட ஆழம். முன் முகத்திலிருந்து பின் முகம் வரை கிடைமட்டமாக அளவிடப்படுகிறது (அதாவது சாளரம் உயரத் தளத்திற்கு செங்குத்தாக).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="227"/>
+=======
+      <location filename="../../ArchWindow.py" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The offset size of this window</source>
       <translation>இந்த சாளரத்தின் ஆஃப்செட் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="235"/>
+=======
+      <location filename="../../ArchWindow.py" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The area of this window</source>
       <translation>இந்த சாளரத்தின் பரப்பளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="243"/>
+=======
+      <location filename="../../ArchWindow.py" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of louvre elements</source>
       <translation>லூவர் உறுப்புகளின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="251"/>
+=======
+      <location filename="../../ArchWindow.py" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The space between louvre elements</source>
       <translation>லூவ்ரே கூறுகளுக்கு இடையிலான இடைவெளி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="261"/>
+=======
+      <location filename="../../ArchWindow.py" line="277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the subcomponents that have a hinge defined</source>
       <translation>வரையறுக்கப்பட்ட கீலைக் கொண்ட துணைக் கூறுகளைத் திறக்கும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="272"/>
+=======
+      <location filename="../../ArchWindow.py" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of the wire that defines the hole. If 0, the value will be calculated automatically</source>
       <translation>துளையை வரையறுக்கும் கம்பியின் எண்ணிக்கை. 0 எனில், மதிப்பு தானாகவே கணக்கிடப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="280"/>
+=======
+      <location filename="../../ArchWindow.py" line="296"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows plan opening symbols if available</source>
       <translation>திட்டம் திறப்பதற்கான சின்னங்கள் இருந்தால், அவற்றைக் காட்டுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="288"/>
+=======
+      <location filename="../../ArchWindow.py" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show elevation opening symbols if available</source>
       <translation>இருந்தால் உயர திறப்பு சின்னங்களைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWindow.py" line="1423"/>
+=======
+      <location filename="../../ArchWindow.py" line="1380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of the wire that defines the hole. A value of 0 means automatic</source>
       <translation>துளையை வரையறுக்கும் கம்பியின் எண்ணிக்கை. 0 இன் மதிப்பு தானியங்கி என்று பொருள்</translation>
     </message>
@@ -8498,58 +10617,103 @@ Building creation aborted.</source>
       <translation>இந்த படிக்கட்டுகளின் தரையிறங்கும் வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="416"/>
+=======
+      <location filename="../../ArchStairs.py" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of structure of these stairs</source>
       <translation>இந்த படிக்கட்டுகளின் அமைப்பு வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="427"/>
+=======
+      <location filename="../../ArchStairs.py" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The thickness of the massive structure or of the stringers</source>
       <translation>பாரிய அமைப்பு அல்லது ச்டிரிங்கர்களின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="435"/>
+=======
+      <location filename="../../ArchStairs.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of the stringers</source>
       <translation>சரங்களின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="454"/>
+=======
+      <location filename="../../ArchStairs.py" line="450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The offset between the border of the stairs and the structure</source>
       <translation>படிக்கட்டுகளின் எல்லைக்கும் கட்டமைப்பிற்கும் இடையே உள்ள ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="466"/>
       <location filename="../../ArchStairs.py" line="1757"/>
+=======
+      <location filename="../../ArchStairs.py" line="462"/>
+      <location filename="../../ArchStairs.py" line="1753"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The overlap of the stringers above the bottom of the treads</source>
       <translation>டிரெட்சின் அடிப்பகுதிக்கு மேலே உள்ள ச்டிரிங்கர்களின் ஒன்றுடன் ஒன்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="474"/>
+=======
+      <location filename="../../ArchStairs.py" line="470"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The thickness of the lower floor slab</source>
       <translation>கீழ் தளத்தின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="482"/>
+=======
+      <location filename="../../ArchStairs.py" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The thickness of the upper floor slab</source>
       <translation>மேல் தளத்தின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="493"/>
+=======
+      <location filename="../../ArchStairs.py" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of connection between the lower floor slab and the start of the stairs</source>
       <translation>கீழ் மாடி ச்லாப் மற்றும் படிக்கட்டுகளின் தொடக்கத்திற்கு இடையே உள்ள இணைப்பு வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="509"/>
+=======
+      <location filename="../../ArchStairs.py" line="505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of connection between the end of the stairs and the upper floor slab</source>
       <translation>படிக்கட்டுகளின் முடிவிற்கும் மேல் தள அடுக்குக்கும் இடையே உள்ள இணைப்பு வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="523"/>
+=======
+      <location filename="../../ArchStairs.py" line="519"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use Base ArchSketch (if used) data (e.g. selected edge, widths, aligns) instead of Stairs' properties</source>
       <translation>படிக்கட்டுகளின் பண்புகளுக்குப் பதிலாக காரம் ArchiSketch (பயன்படுத்தினால்) தரவைப் பயன்படுத்தவும் (அதாவது தேர்ந்தெடுக்கப்பட்ட விளிம்பு, அகலம், சீரமைத்தல்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStairs.py" line="536"/>
+=======
+      <location filename="../../ArchStairs.py" line="532"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected edges of the base Sketch/ArchSketch, to use in creating the shape (flight) of this Arch Stairs (instead of using all the Base ArchSketch's edges by default).  Input are index numbers of edges.  Disabled and ignored if Base object (ArchSketch) provides selected edges (as Flight Axis) information, with getStairsBaseShapeEdgesInfo() method.  [ENHANCEMENT by ArchSketch] GUI 'Edit Stairs' Tool is provided in external SketchArch Add-on to let users to (de)select the edges interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used.</source>
       <translation>இந்த ஆர்ச் படிக்கட்டுகளின் வடிவத்தை (விமானம்) உருவாக்குவதில் பயன்படுத்த, அடிப்படை ச்கெட்ச்/ஆர்ச்ச்கெட்சின் தேர்ந்தெடுக்கப்பட்ட விளிம்புகள் (இயல்புநிலையாக அனைத்து பேச் ஆர்ச்ச்கெட்சின் விளிம்புகளையும் பயன்படுத்துவதற்குப் பதிலாக). உள்ளீடு என்பது விளிம்புகளின் குறியீட்டு எண்கள். getStairsBaseShapeEdgesInfo() முறையுடன், அடிப்படை பொருள் (ArchSketch) தேர்ந்தெடுக்கப்பட்ட விளிம்புகளை (விமான அச்சாக) வழங்கினால் முடக்கப்பட்டு புறக்கணிக்கப்படும். [ArchSketch மூலம் மேம்படுத்துதல்] GUI 'திருத்து ச்டேர்ச்' கருவி வெளிப்புற ச்கெட்ச்ஆர்ச் ஆட்-ஆனில் வழங்கப்பட்டுள்ளது, இது பயனர்களை ஊடாடும் வகையில் விளிம்புகளைத் தேர்ந்தெடுக்க அனுமதிக்கிறது. ArchSketch காரம் இல் பயன்படுத்தப்பட்டால் (மற்றும் SketchArch கூடுதல் நிறுவப்பட்டிருந்தால்) 'Toponaming-Tolarant' எச்சரிக்கை: வெறும் ச்கெட்ச் மட்டுமே பயன்படுத்தினால், 'டோபோனாமிங்-டலரண்ட்' அல்ல.</translation>
     </message>
@@ -8585,7 +10749,11 @@ Building creation aborted.</source>
     </message>
     <message>
       <location filename="../../ArchMaterial.py" line="200"/>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="730"/>
+=======
+      <location filename="../../ArchMaterial.py" line="729"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A description for this material</source>
       <translation>இந்த பொருளுக்கான விளக்கம்</translation>
     </message>
@@ -8610,17 +10778,29 @@ Building creation aborted.</source>
       <translation>வெட்டும்போது இந்த பொருளின் நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="737"/>
+=======
+      <location filename="../../ArchMaterial.py" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of layer names</source>
       <translation>அடுக்கு பெயர்களின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="744"/>
+=======
+      <location filename="../../ArchMaterial.py" line="743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of layer materials</source>
       <translation>அடுக்கு பொருட்களின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchMaterial.py" line="751"/>
+=======
+      <location filename="../../ArchMaterial.py" line="750"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The list of layer thicknesses</source>
       <translation>அடுக்கு தடிமன் பட்டியல்</translation>
     </message>
@@ -8816,289 +10996,520 @@ Building creation aborted.</source>
       <translation>இந்த பேனலின் பரப்பளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="671"/>
+=======
+      <location filename="../../ArchPanel.py" line="648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The linked object</source>
       <translation>இணைக்கப்பட்ட பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="691"/>
       <location filename="../../ArchPanel.py" line="1049"/>
+=======
+      <location filename="../../ArchPanel.py" line="668"/>
+      <location filename="../../ArchPanel.py" line="1026"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the tag text</source>
       <translation>குறிச்சொல் உரையின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="719"/>
       <location filename="../../ArchPanel.py" line="1077"/>
+=======
+      <location filename="../../ArchPanel.py" line="696"/>
+      <location filename="../../ArchPanel.py" line="1054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The font of the tag text</source>
       <translation>குறிச்சொல் உரையின் எழுத்துரு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="682"/>
+=======
+      <location filename="../../ArchPanel.py" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The text to display. Can be %tag%, %label% or %description% to display the panel tag or label</source>
       <translation>காட்ட வேண்டிய உரை. பேனல் டேக் அல்லது லேபிளைக் காட்ட %tag%, %label% அல்லது %description% ஆக இருக்கலாம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="703"/>
       <location filename="../../ArchPanel.py" line="1061"/>
+=======
+      <location filename="../../ArchPanel.py" line="680"/>
+      <location filename="../../ArchPanel.py" line="1038"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The position of the tag text. Keep (0,0,0) for center position</source>
       <translation>குறிச்சொல் உரையின் நிலை. மைய நிலைக்கு (0,0,0) வைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="711"/>
       <location filename="../../ArchPanel.py" line="1069"/>
+=======
+      <location filename="../../ArchPanel.py" line="688"/>
+      <location filename="../../ArchPanel.py" line="1046"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The rotation of the tag text</source>
       <translation>குறிச்சொல் உரையின் சுழற்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="730"/>
       <location filename="../../ArchPanel.py" line="1115"/>
+=======
+      <location filename="../../ArchPanel.py" line="707"/>
+      <location filename="../../ArchPanel.py" line="1092"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If True, the object is rendered as a face, if possible.</source>
       <translation>உண்மை எனில், முடிந்தால், பொருள் முகமாக வழங்கப்படுகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="741"/>
+=======
+      <location filename="../../ArchPanel.py" line="718"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The allowed angles this object can be rotated to when placed on sheets</source>
       <translation>இந்த பொருளை தாள்களில் வைக்கும்போது அனுமதிக்கப்பட்ட கோணங்களில் சுழற்ற முடியும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="752"/>
+=======
+      <location filename="../../ArchPanel.py" line="729"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An offset value to move the cut plane from the center point</source>
       <translation>வெட்டு விமானத்தை மையப் புள்ளியில் இருந்து நகர்த்துவதற்கான ஆஃப்செட் மதிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="932"/>
       <location filename="../../ArchPanel.py" line="1292"/>
+=======
+      <location filename="../../ArchPanel.py" line="909"/>
+      <location filename="../../ArchPanel.py" line="1269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A margin inside the boundary</source>
       <translation>எல்லைக்குள் ஒரு ஓரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="940"/>
       <location filename="../../ArchPanel.py" line="1300"/>
+=======
+      <location filename="../../ArchPanel.py" line="917"/>
+      <location filename="../../ArchPanel.py" line="1277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turns the display of the margin on/off</source>
       <translation>விளிம்பின் காட்சியை ஆன்/ஆஃப் செய்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1033"/>
+=======
+      <location filename="../../ArchPanel.py" line="1010"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The linked Panel cuts</source>
       <translation>இணைக்கப்பட்ட பேனல் வெட்டுக்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1041"/>
+=======
+      <location filename="../../ArchPanel.py" line="1018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tag text to display</source>
       <translation>காட்ட வேண்டிய குறிச்சொல் உரை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1086"/>
+=======
+      <location filename="../../ArchPanel.py" line="1063"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of the sheet</source>
       <translation>தாளின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1095"/>
+=======
+      <location filename="../../ArchPanel.py" line="1072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the sheet</source>
       <translation>தாளின் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1104"/>
+=======
+      <location filename="../../ArchPanel.py" line="1081"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The fill ratio of this sheet</source>
       <translation>இந்தத் தாளின் நிரப்பு விகிதம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1125"/>
+=======
+      <location filename="../../ArchPanel.py" line="1102"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies an angle for the wood grain (Clockwise, 0 is North)</source>
       <translation>மர தானியத்திற்கான ஒரு கோணத்தைக் குறிப்பிடுகிறது (வலதுபுறம், 0 என்பது வடக்கு)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1135"/>
+=======
+      <location filename="../../ArchPanel.py" line="1112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies the scale applied to each panel view.</source>
       <translation>ஒவ்வொரு பேனல் பார்வைக்கும் பயன்படுத்தப்படும் அளவைக் குறிப்பிடுகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1144"/>
+=======
+      <location filename="../../ArchPanel.py" line="1121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A list of possible rotations for the nester</source>
       <translation>நெச்டருக்கான சாத்தியமான சுழற்சிகளின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPanel.py" line="1310"/>
+=======
+      <location filename="../../ArchPanel.py" line="1287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turns the display of the wood grain texture on/off</source>
       <translation>மர தானிய அமைப்பின் காட்சியை ஆன்/ஆஃப் செய்யும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="104"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional host object for this curtain wall</source>
       <translation>இந்தத் திரைச் சுவருக்கு விருப்பமான புரவலன் பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="114"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the curtain wall, if based on an edge</source>
       <translation>ஒரு விளிம்பின் அடிப்படையில் இருந்தால் திரைச் சுவரின் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="123"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of vertical mullions</source>
       <translation>செங்குத்து முல்லியன்களின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="135"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If the profile of the vertical mullions get aligned with the surface or not</source>
       <translation>செங்குத்து முல்லியன்களின் சுயவிவரம் மேற்பரப்புடன் சீரமைக்கப்பட்டால் அல்லது இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="145"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of vertical sections of this curtain wall</source>
       <translation>இந்த திரைச் சுவரின் செங்குத்து பிரிவுகளின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="161"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the vertical mullions profile, if no profile is used</source>
       <translation>சுயவிவரம் பயன்படுத்தப்படாவிட்டால், செங்குத்து முல்லியன்ச் சுயவிவரத்தின் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="173"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of the vertical mullions profile, if no profile is used</source>
       <translation>சுயவிவரம் பயன்படுத்தப்படாவிட்டால், செங்குத்து முல்லியன்ச் சுயவிவரத்தின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="185"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A profile for vertical mullions (disables vertical mullion size)</source>
       <translation>செங்குத்து முல்லியன்களுக்கான சுயவிவரம் (செங்குத்து முல்லியன் அளவை முடக்குகிறது)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="193"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of horizontal mullions</source>
       <translation>கிடைமட்ட முல்லியன்களின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="205"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If the profile of the horizontal mullions gets aligned with the surface or not</source>
       <translation>கிடைமட்ட முல்லியன்களின் சுயவிவரம் மேற்பரப்புடன் சீரமைக்கப்பட்டால் அல்லது இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="215"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of horizontal sections of this curtain wall</source>
       <translation>இந்த திரைச் சுவரின் கிடைமட்ட பிரிவுகளின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="231"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the horizontal mullions profile, if no profile is used</source>
       <translation>சுயவிவரம் பயன்படுத்தப்படாவிட்டால், கிடைமட்ட முல்லியன்ச் சுயவிவரத்தின் உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="243"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of the horizontal mullions profile, if no profile is used</source>
       <translation>சுயவிவரம் பயன்படுத்தப்படாவிட்டால், கிடைமட்ட முல்லியன்ச் சுயவிவரத்தின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="255"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A profile for horizontal mullions (disables horizontal mullion size)</source>
       <translation>கிடைமட்ட முல்லியன்களுக்கான சுயவிவரம் (கிடைமட்ட முல்லியன் அளவை முடக்குகிறது)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="263"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of diagonal mullions</source>
       <translation>மூலைவிட்ட மல்லியன்களின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="275"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the diagonal mullions, if any, if no profile is used</source>
       <translation>மூலைவிட்ட முல்லியன்களின் அளவு, ஏதேனும் இருந்தால், சுயவிவரம் பயன்படுத்தப்படவில்லை என்றால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="287"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A profile for diagonal mullions, if any (disables horizontal mullion size)</source>
       <translation>மூலைவிட்ட மல்லியனுக்கான சுயவிவரம், ஏதேனும் இருந்தால் (முடக்கப்பட்ட கிடைமட்ட முல்லியன் அளவு)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="295"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="290"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of panels</source>
       <translation>பேனல்களின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="304"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The thickness of the panels</source>
       <translation>பேனல்களின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="313"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Swaps horizontal and vertical lines</source>
       <translation>கிடைமட்ட மற்றும் செங்குத்து கோடுகளை மாற்றுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="323"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="318"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Perform subtractions between components so none overlap</source>
       <translation>கூறுகளுக்கு இடையே கழித்தல்களைச் செய்யவும், அதனால் எதுவும் ஒன்றுடன் ஒன்று சேராது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="331"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Centers the profile over the edges or not</source>
       <translation>விளிம்புகளுக்கு மேல் சுயவிவரத்தை மையப்படுத்துகிறது அல்லது இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="343"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The vertical direction reference to be used by this object to deduce vertical/horizontal directions. Keep it close to the actual vertical direction of your curtain wall</source>
       <translation>செங்குத்து/கிடைமட்ட திசைகளைக் குறைக்க இந்த பொருளால் பயன்படுத்தப்படும் செங்குத்து திசைக் குறிப்பு. அதை உங்கள் திரைச் சுவரின் உண்மையான செங்குத்து திசைக்கு அருகில் வைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchCurtainWall.py" line="355"/>
+=======
+      <location filename="../../ArchCurtainWall.py" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input are index numbers of edges of Base ArchSketch/Sketch geometries (in Edit mode).  Selected edges are used to create the shape of this Arch Curtain Wall (instead of using all edges by default).  [ENHANCED by ArchSketch] GUI 'Edit Curtain Wall' Tool is provided in external Add-on ('SketchArch') to let users to select the edges interactively.  'Toponaming-Tolerant' if ArchSketch is used in Base (and SketchArch Add-on is installed).  Warning : Not 'Toponaming-Tolerant' if just Sketch is used. Property is ignored if Base ArchSketch provided the selected edges.</source>
       <translation>உள்ளீடு என்பது அடிப்படை ArchSketch/Sketch வடிவவியலின் விளிம்புகளின் குறியீட்டு எண்கள் (திருத்து பயன்முறையில்). இந்த ஆர்ச் திரைச் சுவரின் வடிவத்தை உருவாக்க தேர்ந்தெடுக்கப்பட்ட விளிம்புகள் பயன்படுத்தப்படுகின்றன (இயல்புநிலையாக அனைத்து விளிம்புகளையும் பயன்படுத்துவதற்குப் பதிலாக). [ArchSketch ஆல் மேம்படுத்தப்பட்டது] GUI 'திருத்து கர்ட்டன் வால்' கருவி வெளிப்புற ஆட்-ஆனில் ('SketchArch') பயனர்களுக்கு ஊடாடும் வகையில் விளிம்புகளைத் தேர்ந்தெடுக்க அனுமதிக்கும். ArchSketch காரம் இல் பயன்படுத்தப்பட்டால் (மற்றும் SketchArch கூடுதல் நிறுவப்பட்டிருந்தால்) 'Toponaming-Tolarant' எச்சரிக்கை: வெறும் ச்கெட்ச் மட்டுமே பயன்படுத்தினால், 'டோபோனாமிங்-டலரண்ட்' அல்ல. காரம் ArchSketch தேர்ந்தெடுக்கப்பட்ட விளிம்புகளை வழங்கினால், சொத்து புறக்கணிக்கப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="105"/>
+=======
+      <location filename="../../ArchPipe.py" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The diameter of this pipe, if not based on a profile</source>
       <translation>இந்த குழாயின் விட்டம், ஒரு சுயவிவரத்தின் அடிப்படையில் இல்லாவிட்டால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="115"/>
+=======
+      <location filename="../../ArchPipe.py" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The width of this pipe, if not based on a profile</source>
       <translation>இந்த குழாயின் அகலம், சுயவிவரத்தின் அடிப்படையில் இல்லையென்றால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="126"/>
+=======
+      <location filename="../../ArchPipe.py" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of this pipe, if not based on a profile</source>
       <translation>இந்த குழாயின் உயரம், ஒரு சுயவிவரத்தின் அடிப்படையில் இல்லாவிட்டால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="137"/>
+=======
+      <location filename="../../ArchPipe.py" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The length of this pipe, if not based on an edge</source>
       <translation>இந்த குழாயின் நீளம், ஒரு விளிம்பின் அடிப்படையில் இல்லாவிட்டால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="147"/>
+=======
+      <location filename="../../ArchPipe.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional closed profile to base this pipe on</source>
       <translation>இந்த குழாயை அடிப்படையாகக் கொண்ட ஒரு விருப்ப மூடிய சுயவிவரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="155"/>
+=======
+      <location filename="../../ArchPipe.py" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset from the start point</source>
       <translation>தொடக்கப் புள்ளியிலிருந்து ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="163"/>
+=======
+      <location filename="../../ArchPipe.py" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset from the end point</source>
       <translation>இறுதிப் புள்ளியில் இருந்து ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="173"/>
+=======
+      <location filename="../../ArchPipe.py" line="153"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The wall thickness of this pipe, if not based on a profile</source>
       <translation>இந்த குழாயின் சுவர் தடிமன், ஒரு சுயவிவரத்தின் அடிப்படையில் இல்லாவிட்டால்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="184"/>
+=======
+      <location filename="../../ArchPipe.py" line="164"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If not based on a profile, this controls the profile of this pipe</source>
       <translation>சுயவிவரத்தின் அடிப்படையில் இல்லையெனில், இது இந்த குழாயின் சுயவிவரத்தைக் கட்டுப்படுத்துகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="444"/>
+=======
+      <location filename="../../ArchPipe.py" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The curvature radius of this connector</source>
       <translation>இந்த இணைப்பியின் வளைவு ஆரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="452"/>
+=======
+      <location filename="../../ArchPipe.py" line="447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The pipes linked by this connector</source>
       <translation>இந்த இணைப்பான் மூலம் இணைக்கப்பட்ட குழாய்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchPipe.py" line="460"/>
+=======
+      <location filename="../../ArchPipe.py" line="455"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of this connector</source>
       <translation>இந்த இணைப்பியின் வகை</translation>
     </message>
@@ -9148,107 +11559,189 @@ Building creation aborted.</source>
       <translation>உண்மை எனில், ஒவ்வொரு பொருளுடனும் கூடுதல் வரிகள் முடிவுகளில் சேர்க்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchFloor.py" line="253"/>
       <location filename="../../ArchSectionPlane.py" line="997"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="950"/>
+      <location filename="../../ArchFloor.py" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The placement of this object</source>
       <translation>இந்த பொருளின் இடம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="256"/>
+=======
+      <location filename="../../ArchAxis.py" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The intervals between axes</source>
       <translation>அச்சுகளுக்கு இடையிலான இடைவெளிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="264"/>
+=======
+      <location filename="../../ArchAxis.py" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The angles of each axis</source>
       <translation>ஒவ்வொரு அச்சின் கோணங்களும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="272"/>
+=======
+      <location filename="../../ArchAxis.py" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The label of each axis</source>
       <translation>ஒவ்வொரு அச்சின் சிட்டை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="280"/>
+=======
+      <location filename="../../ArchAxis.py" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional custom bubble number</source>
       <translation>விருப்பமான தனிப்பயன் குமிழி எண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="288"/>
+=======
+      <location filename="../../ArchAxis.py" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The length of the axes</source>
       <translation>அச்சுகளின் நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="304"/>
+=======
+      <location filename="../../ArchAxis.py" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If not zero, the axes are not represented as one full line but as two lines of the given length</source>
       <translation>பூச்சியமாக இல்லாவிட்டால், அச்சுகள் ஒரு முழு வரியாகக் குறிப்பிடப்படாமல், கொடுக்கப்பட்ட நீளத்தின் இரண்டு கோடுகளாகக் குறிப்பிடப்படுகின்றன</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="400"/>
+=======
+      <location filename="../../ArchAxis.py" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the axis bubbles</source>
       <translation>அச்சு குமிழிகளின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="409"/>
+=======
+      <location filename="../../ArchAxis.py" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The numbering style</source>
       <translation>எண்ணும் பாணி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="427"/>
+=======
+      <location filename="../../ArchAxis.py" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of line to draw this axis</source>
       <translation>இந்த அச்சை வரைய வேண்டிய கோட்டின் வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="439"/>
+=======
+      <location filename="../../ArchAxis.py" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Where to add bubbles to this axis: Start, end, both or none</source>
       <translation>இந்த அச்சில் குமிழ்களை எங்கே சேர்க்கலாம்: தொடக்கம், முடிவு, இரண்டும் அல்லது எதுவுமில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="457"/>
+=======
+      <location filename="../../ArchAxis.py" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The line width to draw this axis</source>
       <translation>இந்த அச்சை வரைவதற்கு கோட்டின் அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="466"/>
+=======
+      <location filename="../../ArchAxis.py" line="291"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The color of this axis</source>
       <translation>இந்த அச்சின் நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="475"/>
+=======
+      <location filename="../../ArchAxis.py" line="300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of the first axis</source>
       <translation>முதல் அச்சின் எண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="484"/>
+=======
+      <location filename="../../ArchAxis.py" line="309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The font to use for texts</source>
       <translation>உரைகளுக்கு பயன்படுத்த வேண்டிய எழுத்துரு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="493"/>
+=======
+      <location filename="../../ArchAxis.py" line="318"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The font size</source>
       <translation>எழுத்துரு அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="502"/>
+=======
+      <location filename="../../ArchAxis.py" line="327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, show the labels</source>
       <translation>உண்மை எனில், லேபிள்களைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchAxis.py" line="509"/>
+=======
+      <location filename="../../ArchAxis.py" line="334"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A transformation to apply to each label</source>
       <translation>ஒவ்வொரு லேபிளுக்கும் பொருந்தும் மாற்றம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="216"/>
+=======
+      <location filename="../../ArchComponent.py" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base object this component is built upon</source>
       <translation>இந்த கூறு கட்டமைக்கப்பட்ட அடிப்படை பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="224"/>
+=======
+      <location filename="../../ArchComponent.py" line="232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object this component is cloning</source>
       <translation>இந்த கூறு பொருள் குளோனிங் ஆகும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="269"/>
       <source>An optional standard (OmniClass, etc.) code for this component</source>
       <translation>இந்தக் கூறுக்கான விருப்பத் தரநிலை (OmniClass, முதலியன) குறியீடு</translation>
@@ -9256,194 +11749,348 @@ Building creation aborted.</source>
     <message>
       <location filename="../../ArchComponent.py" line="277"/>
       <location filename="../../ArchComponent.py" line="288"/>
+=======
+      <location filename="../../ArchComponent.py" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A material for this object</source>
       <translation>இந்த பொருளுக்கு ஒரு பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="305"/>
+=======
+      <location filename="../../ArchComponent.py" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies if moving this object moves its base instead</source>
       <translation>இந்த பொருளை நகர்த்துவது அதன் அடிப்பகுதியை நகர்த்துகிறதா என்பதைக் குறிப்பிடுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="317"/>
+=======
+      <location filename="../../ArchComponent.py" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies if this object must move together when its host is moved</source>
       <translation>இந்த பொருளின் புரவலன் நகர்த்தப்படும் போது ஒன்றாக நகர வேண்டுமா என்பதைக் குறிப்பிடுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="326"/>
+=======
+      <location filename="../../ArchComponent.py" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The area of all vertical faces of this object</source>
       <translation>இந்த பொருளின் அனைத்து செங்குத்து முகங்களின் பரப்பளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="346"/>
+=======
+      <location filename="../../ArchComponent.py" line="342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The perimeter length of the horizontal area</source>
       <translation>கிடைமட்ட பகுதியின் சுற்றளவு நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="357"/>
+=======
+      <location filename="../../ArchComponent.py" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional higher-resolution mesh or shape for this object</source>
       <translation>இந்த பொருளுக்கு விருப்பமான உயர் தெளிவுத்திறன் கொண்ட மெச் அல்லது வடிவம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="368"/>
+=======
+      <location filename="../../ArchComponent.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An optional axis or axis system on which this object should be duplicated</source>
       <translation>இந்த பொருளை நகலெடுக்க வேண்டிய விருப்ப அச்சு அல்லது அச்சு அமைப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchComponent.py" line="1631"/>
+=======
+      <location filename="../../ArchComponent.py" line="1575"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use the material color as this object's shape color, if available</source>
       <translation>இந்த பொருளின் வடிவ நிறமாக இருந்தால், பொருள் நிறத்தைப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="92"/>
+=======
+      <location filename="../../ArchRebar.py" line="88"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The diameter of the bar</source>
       <translation>பட்டையின் விட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="103"/>
+=======
+      <location filename="../../ArchRebar.py" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The distance between the border of the beam and the first bar (concrete cover).</source>
       <translation>பீமின் எல்லைக்கும் முதல் பட்டைக்கும் (கான்கிரீட் கவர்) இடையே உள்ள தூரம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="114"/>
+=======
+      <location filename="../../ArchRebar.py" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The distance between the border of the beam and the last bar (concrete cover).</source>
       <translation>பீமின் எல்லைக்கும் கடைசி பட்டைக்கும் (கான்கிரீட் கவர்) இடையே உள்ள தூரம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="122"/>
+=======
+      <location filename="../../ArchRebar.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The amount of bars</source>
       <translation>பார்களின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="130"/>
+=======
+      <location filename="../../ArchRebar.py" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The spacing between the bars</source>
       <translation>கம்பிகளுக்கு இடையில் இடைவெளி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="142"/>
+=======
+      <location filename="../../ArchRebar.py" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The total distance to span the rebars over. Keep 0 to automatically use the host shape size.</source>
       <translation>ரீபார்களை கடக்க வேண்டிய மொத்த தூரம். புரவலன் வடிவ அளவை தானாகப் பயன்படுத்த 0 ஐ வைத்திருங்கள்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="153"/>
+=======
+      <location filename="../../ArchRebar.py" line="149"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The direction to use to spread the bars. Keep (0,0,0) for automatic direction.</source>
       <translation>பார்களை பரப்புவதற்கு பயன்படுத்த வேண்டிய திசை. தானியங்கி திசைக்கு (0,0,0) வைத்திருங்கள்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="164"/>
+=======
+      <location filename="../../ArchRebar.py" line="160"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The fillet to apply to the angle of the base profile. This value is multiplied by the bar diameter.</source>
       <translation>அடிப்படை சுயவிவரத்தின் கோணத்தில் விண்ணப்பிக்க ஃபில்லெட். இந்த மதிப்பு பட்டை விட்டம் மூலம் பெருக்கப்படுகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="172"/>
+=======
+      <location filename="../../ArchRebar.py" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>List of placement of all the bars</source>
       <translation>அனைத்து பார்களின் இடங்களின் பட்டியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="180"/>
+=======
+      <location filename="../../ArchRebar.py" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The structure object that hosts this rebar</source>
       <translation>இந்த ரீபார் புரவலன் செய்யும் கட்டமைப்பு பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="188"/>
+=======
+      <location filename="../../ArchRebar.py" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The custom spacing of rebar</source>
       <translation>ரீபாரின் தனிப்பயன் இடைவெளி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="196"/>
+=======
+      <location filename="../../ArchRebar.py" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length of a single rebar</source>
       <translation>ஒற்றை ரீபார் நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="205"/>
+=======
+      <location filename="../../ArchRebar.py" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total length of all rebars</source>
       <translation>அனைத்து ரீபார்களின் மொத்த நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="214"/>
+=======
+      <location filename="../../ArchRebar.py" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The rebar mark</source>
       <translation>ரீபார் குறி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchRebar.py" line="569"/>
+=======
+      <location filename="../../ArchRebar.py" line="565"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape of rebar</source>
       <translation>ரீபார் வடிவம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1016"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="969"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects that must be considered by this section plane. Empty means the whole document.</source>
       <translation>இந்த பிரிவு வானூர்தி கருத்தில் கொள்ள வேண்டிய பொருள்கள். வெறுமை என்றால் முழு ஆவணம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1027"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="980"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If false, non-solids will be cut too, with possible wrong results.</source>
       <translation>தவறு எனில், திடமற்ற பொருட்களும் வெட்டப்படும், சாத்தியமான தவறான முடிவுகளுடன்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1039"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="992"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If True, resulting views will be clipped to the section plane area.</source>
       <translation>உண்மை எனில், இதன் விளைவாக வரும் காட்சிகள் பிரிவு விமானப் பகுதிக்கு கிளிப் செய்யப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1050"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1003"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, the color of the objects material will be used to fill cut areas.</source>
       <translation>உண்மை எனில், வெட்டப்பட்ட பகுதிகளை நிரப்ப பொருளின் நிறம் பயன்படுத்தப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1062"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Geometry further than this value will be cut off. Keep zero for unlimited.</source>
       <translation>இந்த மதிப்பை விட அதிகமான வடிவியல் துண்டிக்கப்படும். வரம்பற்ற பூச்சியத்தை வைத்திருங்கள்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1135"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The display length of this section plane</source>
       <translation>இந்த பகுதி விமானத்தின் காட்சி நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1147"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The display height of this section plane</source>
       <translation>இந்த பிரிவு விமானத்தின் காட்சி உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1159"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the arrows of this section plane</source>
       <translation>இந்த பிரிவு விமானத்தின் அம்புகளின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1168"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The transparency of this object</source>
       <translation>இந்த பொருளின் வெளிப்படைத்தன்மை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1186"/>
       <location filename="../../ArchSectionPlane.py" line="1203"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1139"/>
+      <location filename="../../ArchSectionPlane.py" line="1156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the cut in the 3D view</source>
       <translation>3D காட்சியில் வெட்டப்பட்டதைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1194"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The color of this object</source>
       <translation>இந்த பொருளின் நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1214"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The distance between the cut plane and the actual view cut (keep this a very small value but not zero)</source>
       <translation>வெட்டப்பட்ட விமானத்திற்கும் உண்மையான காட்சி வெட்டுக்கும் இடையே உள்ள தூரம் (இது மிகச் சிறிய மதிப்பாக இருக்கவும் ஆனால் பூச்சியமாக இல்லை)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1223"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the label in the 3D view</source>
       <translation>3D காட்சியில் லேபிளைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1231"/>
       <location filename="../../ArchSpace.py" line="579"/>
+=======
+      <location filename="../../ArchSpace.py" line="579"/>
+      <location filename="../../ArchSectionPlane.py" line="1184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The name of the font</source>
       <translation>எழுத்துருவின் பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchSectionPlane.py" line="1240"/>
       <location filename="../../ArchSpace.py" line="597"/>
+=======
+      <location filename="../../ArchSpace.py" line="597"/>
+      <location filename="../../ArchSectionPlane.py" line="1193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the text font</source>
       <translation>உரை எழுத்துருவின் அளவு</translation>
     </message>
@@ -9663,6 +12310,7 @@ Building creation aborted.</source>
       <translation>அதே ArchSketch உடன் வளைவு சுவரின் அடுக்குகளை, மாறுபட்ட வடிவத்தை உருவாக்குவதில் பயன்படுத்த, பயனர் வரையறுக்கப்பட்ட சொத்துத் தொகுப்பைத் தேர்ந்தெடுக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchWall.py" line="381"/>
       <location filename="../../ArchStructure.py" line="862"/>
       <source>Use Base ArchSketch (if used) data (e.g. widths, aligns, offsets) instead of Wall's properties</source>
@@ -9841,16 +12489,31 @@ Building creation aborted.</source>
       <source>Rotation step (degrees) applied per R / Shift+R keypress during interactive grid placement.</source>
       <translation>இன்டராக்டிவ் கிரிட் பிளேச்மென்ட்டின் போது R / Shift+R விசை அழுத்தத்திற்கு சுழற்சி படி (டிகிரிகள்) பயன்படுத்தப்படும்.</translation>
     </message>
+=======
+      <location filename="../../ArchStructure.py" line="962"/>
+      <location filename="../../ArchWall.py" line="381"/>
+      <source>Use Base ArchSketch (if used) data (e.g. widths, aligns, offsets) instead of Wall's properties</source>
+      <translation>சுவரின் பண்புகளுக்குப் பதிலாக காரம் ArchSketch (பயன்படுத்தினால்) தரவைப் பயன்படுத்தவும் (எ.கா. அகலங்கள், சீரமைப்புகள், ஆஃப்செட்டுகள்)</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Arch_StructureTools</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="2050"/>
+=======
+      <location filename="../../ArchStructure.py" line="2138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structure Tools</source>
       <translation>கட்டமைப்பு கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchStructure.py" line="2051"/>
+=======
+      <location filename="../../ArchStructure.py" line="2139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structure tools</source>
       <translation>கட்டமைப்பு கருவிகள்</translation>
     </message>
@@ -9871,7 +12534,11 @@ Building creation aborted.</source>
   <context>
     <name>Draft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ArchBuildingPart.py" line="1232"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="1250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Writing camera position</source>
       <translation>கேமரா நிலையை எழுதுதல்</translation>
     </message>
@@ -9879,61 +12546,106 @@ Building creation aborted.</source>
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="531"/>
+=======
+      <location filename="../../InitGui.py" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;2D Drafting</source>
       <translation>&amp;2D வரைவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="532"/>
+=======
+      <location filename="../../InitGui.py" line="441"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;3D/BIM</source>
       <translation>&amp;எண்ணிக்கை/பிம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="510"/>
+=======
+      <location filename="../../InitGui.py" line="419"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drafting Tools</source>
       <translation>வரைவு கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="511"/>
+=======
+      <location filename="../../InitGui.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft Snap</source>
       <translation>வரைவு ச்னாப்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="512"/>
+=======
+      <location filename="../../InitGui.py" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>3D/BIM Tools</source>
       <translation>3D/BIM கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="513"/>
+=======
+      <location filename="../../InitGui.py" line="422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Annotation Tools</source>
       <translation>சிறுகுறிப்பு கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="514"/>
+=======
+      <location filename="../../InitGui.py" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Tools</source>
       <translation>2டி கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="515"/>
+=======
+      <location filename="../../InitGui.py" line="424"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Manage Tools</source>
       <translation>கருவிகளை நிர்வகிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="516"/>
+=======
+      <location filename="../../InitGui.py" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>General Tools</source>
       <translation>பொது கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="517"/>
+=======
+      <location filename="../../InitGui.py" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object Tools</source>
       <translation>பொருள் கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="518"/>
+=======
+      <location filename="../../InitGui.py" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>3D Tools</source>
       <translation>3D கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="533"/>
       <source>&amp;Reinforcement Tools</source>
       <translation>&amp;வலுவூட்டல் கருவிகள்</translation>
@@ -9955,27 +12667,66 @@ Building creation aborted.</source>
     </message>
     <message>
       <location filename="../../InitGui.py" line="534"/>
+=======
+      <location filename="../../InitGui.py" line="442"/>
+      <source>Reinforcement Tools</source>
+      <translation>வலுவூட்டல் கருவிகள்</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Annotation</source>
       <translation>&amp; note
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="535"/>
+=======
+      <location filename="../../InitGui.py" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Snapping</source>
       <translation>&amp;ச்னாப்பிங்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="539"/>
+=======
+      <location filename="../../InitGui.py" line="445"/>
+      <source>&amp;Modify</source>
+      <translation>&amp;மாற்று</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="447"/>
+      <source>&amp;Manage</source>
+      <translation>&amp;நிர்வகி</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Flamingo</source>
       <translation>&amp;பிளமிங்கோ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="541"/>
+=======
+      <location filename="../../InitGui.py" line="449"/>
+      <source>&amp;Fasteners</source>
+      <translation>&amp;ஃபாச்டனர்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Utils</source>
       <translation>&amp;பயன்பாடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="546"/>
+=======
+      <location filename="../../InitGui.py" line="455"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nudge</source>
       <translation>நட்ச்</translation>
     </message>
@@ -10028,8 +12779,13 @@ Building creation aborted.</source>
     </message>
     <message>
       <location filename="../../bimcommands/BimCutPlane.py" line="45"/>
+<<<<<<< HEAD
       <source>Cuts an object with a plane</source>
       <translation>ஒரு பொருளை வானூர்தி மூலம் வெட்டுகிறது</translation>
+=======
+      <source>Cut an object with a plane</source>
+      <translation>ஒரு விமானத்துடன் ஒரு பொருளை வெட்டுங்கள்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10264,12 +13020,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Panel_Cut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="307"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Panel Cut</source>
       <translation>பேனல் வெட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="309"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates 2D views of selected panels</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பேனல்களின் 2டி காட்சிகளை உருவாக்குகிறது</translation>
     </message>
@@ -10277,12 +13041,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Panel_Sheet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="340"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="320"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Panel Sheet</source>
       <translation>பேனல் தாள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="344"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a 2D sheet which can contain panel cuts</source>
       <translation>பேனல் வெட்டுக்களைக் கொண்ட 2டி தாளை உருவாக்குகிறது</translation>
     </message>
@@ -10290,12 +13062,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Nest</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="379"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nest</source>
       <translation>கூடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="383"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nests a series of selected shapes in a container</source>
       <translation>ஒரு கொள்கலனில் தேர்ந்தெடுக்கப்பட்ட வடிவங்களின் வரிசையை நெச்ட் செய்கிறது</translation>
     </message>
@@ -10303,12 +13083,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_PanelTools</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="555"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="535"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Panel Tools</source>
       <translation>பேனல் கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPanel.py" line="556"/>
+=======
+      <location filename="../../bimcommands/BimPanel.py" line="536"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Panel tools</source>
       <translation>பேனல் கருவிகள்</translation>
     </message>
@@ -10465,12 +13253,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Wall</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="59"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wall</source>
       <translation>சுவர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimWall.py" line="64"/>
+=======
+      <location filename="../../bimcommands/BimWall.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a wall object from scratch or from a selected object (wire, face or solid)</source>
       <translation>புதிதாக அல்லது தேர்ந்தெடுக்கப்பட்ட பொருளிலிருந்து (கம்பி, முகம் அல்லது திடமான) சுவர் பொருளை உருவாக்குகிறது</translation>
     </message>
@@ -10478,12 +13274,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_MergeWalls</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="546"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="540"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Merge Walls</source>
       <translation>சுவர்களை இணைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="549"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="543"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Merges the selected walls, if possible</source>
       <translation>முடிந்தால், தேர்ந்தெடுக்கப்பட்ட சுவர்களை ஒன்றிணைக்கிறது</translation>
     </message>
@@ -10543,12 +13347,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_CloseHoles</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="305"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close Holes</source>
       <translation>துளைகளை மூடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="308"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="302"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Closes holes in open shapes, turning them into solids</source>
       <translation>திறந்த வடிவங்களில் துளைகளை மூடி, அவற்றை திடப்பொருளாக மாற்றுகிறது</translation>
     </message>
@@ -10556,12 +13368,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Check</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="330"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check</source>
       <translation>சரிபார்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="331"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="325"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Checks the selected objects for problems</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருட்களைச் சிக்கல்களுக்குச் சரிபார்க்கிறது</translation>
     </message>
@@ -10569,12 +13389,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Survey</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="359"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Survey</source>
       <translation>சர்வே</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="360"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts survey</source>
       <translation>கணக்கெடுப்பைத் தொடங்குகிறது</translation>
     </message>
@@ -10582,12 +13410,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_Component</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="401"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Component</source>
       <translation>உறுப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="405"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an undefined architectural component</source>
       <translation>வரையறுக்கப்படாத கட்டடக்கலை கூறுகளை உருவாக்குகிறது</translation>
     </message>
@@ -10595,12 +13431,20 @@ Building creation aborted.</source>
   <context>
     <name>Arch_CloneComponent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="434"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="428"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clone Component</source>
       <translation>நகலி கூறு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="438"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="432"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clones an object as an undefined architectural component</source>
       <translation>ஒரு பொருளை வரையறுக்கப்படாத கட்டடக்கலை கூறுகளாக நகலி செய்கிறது</translation>
     </message>
@@ -10608,30 +13452,62 @@ Building creation aborted.</source>
   <context>
     <name>Arch_ToggleSubs</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="503"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="497"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Subcomponents</source>
       <translation>துணைக் கூறுகளை நிலைமாற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="506"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows or hides the subcomponents of this object</source>
       <translation>இந்தப் பொருளின் துணைக் கூறுகளைக் காட்டுகிறது அல்லது மறைக்கிறது</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>QObject</name>
     <message>
       <location filename="../../InitGui.py" line="598"/>
+=======
+    <name>Command</name>
+    <message>
+      <location filename="../../ArchAxis.py" line="798"/>
+      <location filename="../../ArchSite.py" line="1314"/>
+      <location filename="../../ArchIFCView.py" line="73"/>
+      <source>Transform</source>
+      <translation>உருமாற்று, உருமாற்றம்</translation>
+    </message>
+  </context>
+  <context>
+    <name>QObject</name>
+    <message>
+      <location filename="../../InitGui.py" line="479"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM</source>
       <translation>BIM</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="599"/>
+=======
+      <location filename="../../InitGui.py" line="480"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft</source>
       <translation>வரைவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="845"/>
+=======
+      <location filename="../../InitGui.py" line="712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import-Export</source>
       <translation>இறக்குமதி-ஏற்றுமதி</translation>
     </message>
@@ -10653,6 +13529,7 @@ Building creation aborted.</source>
       <translation>தானியங்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../BimStatus.py" line="123"/>
       <source>Toggles the BIM Views Manager on/off</source>
       <translation type="unfinished">Toggles the BIM Views Manager on/off</translation>
@@ -10670,6 +13547,30 @@ Alt+PgUp to extend extrusionAlt+PgDown to shrink extrusionAlt+/ to switch betwee
       <translation>நட்ச் இயக்கத்தின் மதிப்பு (சுழற்சி எப்போதும் 45°). நகர்த்துவதற்கு Alt+அம்புகள் 
 Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வேண்டும் 
 ஆல்ட்+பிசிஅப் எக்ச்ட்ரூசனை நீட்டிக்க Alt+PgDown extrusionAlt+/ தானாக மற்றும் கைமுறை முறையில் மாற</translation>
+=======
+      <location filename="../../BimStatus.py" line="151"/>
+      <source>Toggle report panels on/off (Ctrl+0)</source>
+      <translation>அறிக்கை பேனல்களை ஆன்/ஆஃப் (Ctrl+0)</translation>
+    </message>
+    <message>
+      <location filename="../../BimStatus.py" line="170"/>
+      <source>Toggle BIM views panel on/off (Ctrl+9)</source>
+      <translation>BIM காட்சிகள் பேனலை இயக்க/முடக்கு (Ctrl+9)</translation>
+    </message>
+    <message>
+      <location filename="../../BimStatus.py" line="186"/>
+      <source>Toggle 3D view background between simple and gradient</source>
+      <translation>எளிய மற்றும் சாய்வு இடையே 3D காட்சி பின்னணியை மாற்றவும்</translation>
+    </message>
+    <message>
+      <location filename="../../BimStatus.py" line="212"/>
+      <source>The value of the nudge movement (rotation is always 45°).CTRL+arrows to move
+CTRL+, to rotate leftCTRL+. to rotate right
+CTRL+PgUp to extend extrusionCTRL+PgDown to shrink extrusionCTRL+/ to switch between auto and manual mode</source>
+      <translation>நட்ச் இயக்கத்தின் மதிப்பு (சுழற்சி எப்போதும் 45°). நகர்த்த CTRL+அம்புகள் 
+CTRL+, இடதுபுறம் சுழற்ற CTRL+. வலது சுழற்ற வேண்டும் 
+CTRL+PgUp எக்ச்ட்ரூசனை நீட்டிக்க</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../InitGui.py" line="43"/>
@@ -10678,15 +13579,24 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../InitGui.py" line="44"/>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimViews.py" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM</source>
       <translation>BIM</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="808"/>
+=======
+      <location filename="../../InitGui.py" line="675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Snapping</source>
       <translation>ச்னாப்பிங்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimBox.py" line="81"/>
       <location filename="../../bimcommands/BimImagePlane.py" line="81"/>
       <source>%1 pick first point</source>
@@ -10705,25 +13615,49 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     <message>
       <location filename="../../bimcommands/BimBox.py" line="174"/>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="48"/>
+=======
+      <location filename="../../bimcommands/BimBox.py" line="153"/>
+      <source>Box dimensions</source>
+      <translation>பெட்டியின் பரிமாணங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimIfcQuantities.py" line="48"/>
+      <location filename="../../bimcommands/BimBox.py" line="156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <translation>நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimBox.py" line="183"/>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="49"/>
+=======
+      <location filename="../../bimcommands/BimIfcQuantities.py" line="49"/>
+      <location filename="../../bimcommands/BimBox.py" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width</source>
       <translation>அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimBox.py" line="192"/>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="50"/>
+=======
+      <location filename="../../bimcommands/BimIfcQuantities.py" line="50"/>
+      <location filename="../../bimcommands/BimBox.py" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height</source>
       <translation>உயரம்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimClassification.py" line="90"/>
+<<<<<<< HEAD
       <source>Search…</source>
       <translation>தேடுங்கள்…</translation>
+=======
+      <source>Search...</source>
+      <translation>தேடல்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../bimcommands/BimClassification.py" line="91"/>
@@ -10808,15 +13742,26 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>புதிய பல பொருட்களை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimIfcProperties.py" line="206"/>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="247"/>
       <location filename="../../bimcommands/BimIfcElements.py" line="139"/>
+=======
+      <location filename="../../bimcommands/BimIfcElements.py" line="139"/>
+      <location filename="../../bimcommands/BimIfcQuantities.py" line="247"/>
+      <location filename="../../bimcommands/BimIfcProperties.py" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label</source>
       <translation>சிட்டை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimIfcProperties.py" line="207"/>
       <location filename="../../bimcommands/BimIfcElements.py" line="140"/>
+=======
+      <location filename="../../bimcommands/BimIfcElements.py" line="140"/>
+      <location filename="../../bimcommands/BimIfcProperties.py" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>IFC type</source>
       <translation>IFC வகை</translation>
     </message>
@@ -10826,8 +13771,13 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimIfcExplorer.py" line="60"/>
       <location filename="../../nativeifc/__init__.py" line="42"/>
+=======
+      <location filename="../../nativeifc/ifc_tools.py" line="60"/>
+      <location filename="../../bimcommands/BimIfcExplorer.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>IfcOpenShell was not found on this system. IFC support is disabled</source>
       <translation>IfcOpenShell இந்த அமைப்பில் காணப்படவில்லை. IFC உதவி முடக்கப்பட்டுள்ளது</translation>
     </message>
@@ -10888,6 +13838,14 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>மெச் காட்சியை ஆன்/ஆஃப் செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimIfcExplorer.py" line="186"/>
+      <source>Select an IFC file</source>
+      <translation>IFC கோப்பைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcExplorer.py" line="188"/>
       <source>IFC files (*.ifc)</source>
       <translation>IFC கோப்புகள் (*.ifc)</translation>
@@ -10909,11 +13867,14 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>மற்றொரு IFC கோப்பைத் திறக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimIfcExplorer.py" line="186"/>
       <source>Select an IFC File</source>
       <translation>IFC கோப்பைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimIfcExplorer.py" line="228"/>
       <source>IfcSite element was not found in %s. Unable to explore.</source>
       <translation>IfcSite உறுப்பு %s இல் காணப்படவில்லை. ஆராய முடியவில்லை.</translation>
@@ -10960,7 +13921,11 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimIfcProperties.py" line="685"/>
+<<<<<<< HEAD
       <source>New Property Set</source>
+=======
+      <source>New property set</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>புதிய சொத்து தொகுப்பு</translation>
     </message>
     <message>
@@ -10990,8 +13955,13 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="186"/>
+<<<<<<< HEAD
       <source>Add quantity set…</source>
       <translation>அளவைச் சேர்…</translation>
+=======
+      <source>Add quantity set...</source>
+      <translation>அளவு தொகுப்பைச் சேர்...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="203"/>
@@ -11004,72 +13974,124 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>பொருள்% 1க்கான அளவு அமைப்புகளைச் சேமிக்க முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimImagePlane.py" line="54"/>
+=======
+      <location filename="../../bimcommands/BimImagePlane.py" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Image</source>
       <translation>படத்தைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimImagePlane.py" line="56"/>
+=======
+      <location filename="../../bimcommands/BimImagePlane.py" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Image file (*.png *.jpg *.bmp)</source>
       <translation>படக் கோப்பு (*.png *.jpg *.bmp)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimImagePlane.py" line="83"/>
       <source>%1 pick opposite point</source>
       <translation>% 1 எதிர் புள்ளியைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimLayers.py" line="203"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warning: The new layer was added to the project</source>
       <translation>எச்சரிக்கை: திட்டத்தில் புதிய அடுக்கு சேர்க்கப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="209"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There is no IFC project in this document</source>
       <translation>இந்த ஆவணத்தில் IFC திட்டம் எதுவும் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="312"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>On</source>
       <translation>அன்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="313"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="314"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line width</source>
       <translation>வரி அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="315"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draw style</source>
       <translation>வரைதல் பாணி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="316"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line color</source>
       <translation>வரி நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="317"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face color</source>
       <translation>முக நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="318"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transparency</source>
       <translation>வெளிப்படைத்தன்மை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="319"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="317"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line print color</source>
       <translation>வரி அச்சு நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="341"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Layer</source>
       <translation>புதிய அடுக்கு</translation>
     </message>
@@ -11086,15 +14108,25 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     <message>
       <location filename="../../bimcommands/BimLibrary.py" line="187"/>
       <location filename="../../bimcommands/BimLibrary.py" line="190"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="937"/>
       <location filename="../../bimcommands/BimLibrary.py" line="941"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="921"/>
+      <location filename="../../bimcommands/BimLibrary.py" line="925"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preview</source>
       <translation>முன்னோட்டம்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimLibrary.py" line="193"/>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="927"/>
       <location filename="../../bimcommands/BimLibrary.py" line="930"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="911"/>
+      <location filename="../../bimcommands/BimLibrary.py" line="914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>விருப்பங்கள்</translation>
     </message>
@@ -11129,6 +14161,7 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>பிழை: பதிவிறக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="678"/>
       <source>%1 pick insertion point</source>
       <translation type="unfinished">%1 pick insertion point</translation>
@@ -11140,75 +14173,152 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimLibrary.py" line="702"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="675"/>
+      <source>Insertion point</source>
+      <translation>செருகும் புள்ளி</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimLibrary.py" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Origin</source>
       <translation>தோற்றம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="703"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="687"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top left</source>
       <translation>மேல் இடது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="704"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top center</source>
       <translation>மேல் நடுவண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="705"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="689"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top right</source>
       <translation>மேல் வலது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="706"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Middle left</source>
       <translation>நடுத்தர இடது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="707"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="691"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Middle center</source>
       <translation>நடுத்தர நடுவண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="708"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Middle right</source>
       <translation>நடுத்தர வலது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="709"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="693"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bottom left</source>
       <translation>கீழ் இடது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="710"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="694"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bottom center</source>
       <translation>கீழ் நடுவண்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="711"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="695"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bottom right</source>
       <translation>கீழே வலது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="817"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="801"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not fetch library contents</source>
       <translation>நூலக உள்ளடக்கங்களைப் பெற முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="821"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No results fetched from online library</source>
       <translation>நிகழ்நிலை லைப்ரரியில் இருந்து முடிவுகள் எதுவும் எடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLibrary.py" line="879"/>
+=======
+      <location filename="../../bimcommands/BimLibrary.py" line="863"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warning, this can take several minutes!</source>
       <translation>முன்னறிவிப்பு, இதற்கு சில நிமிடங்கள் ஆகலாம்!</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimMaterial.py" line="88"/>
+      <source>Select material</source>
+      <translation>பொருள் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimMaterial.py" line="122"/>
       <source>Clears the search field</source>
       <translation>தேடல் புலத்தை அழிக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimMaterial.py" line="107"/>
+      <source>Search Objects</source>
+      <translation>பொருள்களைத் தேடுங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimMaterial.py" line="108"/>
+      <source>Searches for objects in the tree</source>
+      <translation>மரத்தில் உள்ள பொருட்களைத் தேடுகிறது</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimMaterial.py" line="129"/>
       <source> Material Operations</source>
       <translation>பொருள் செயல்பாடுகள்</translation>
@@ -11219,6 +14329,14 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>புதிய பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimMaterial.py" line="141"/>
+      <source>Create new Multi-Material</source>
+      <translation>புதிய மல்டி மெட்டீரியலை உருவாக்கவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimMaterial.py" line="148"/>
       <source>Merge Duplicates</source>
       <translation>நகல்களை ஒன்றிணைக்கவும்</translation>
@@ -11229,8 +14347,13 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>பயன்படுத்தப்படாததை நீக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="95"/>
       <location filename="../../bimcommands/BimMaterial.py" line="175"/>
+=======
+      <location filename="../../bimcommands/BimMaterial.py" line="175"/>
+      <location filename="../../bimcommands/BimViews.py" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename</source>
       <translation>மறுபெயரிடு</translation>
     </message>
@@ -11245,12 +14368,18 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>இணைக்கவும்…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="91"/>
       <location filename="../../bimcommands/BimMaterial.py" line="181"/>
+=======
+      <location filename="../../bimcommands/BimMaterial.py" line="181"/>
+      <location filename="../../bimcommands/BimViews.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>நீக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimMaterial.py" line="88"/>
       <source>Select Material</source>
       <translation>பொருள் தேர்ந்தெடுக்கவும்</translation>
@@ -11271,6 +14400,8 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>புதிய மல்டி மெட்டீரியல்</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimMaterial.py" line="237"/>
       <location filename="../../bimcommands/BimMaterial.py" line="247"/>
       <source>Merging duplicate material</source>
@@ -11293,7 +14424,11 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimMaterial.py" line="337"/>
+<<<<<<< HEAD
       <source>Select Material to Merge To</source>
+=======
+      <source>Select material to merge to</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>ஒன்றிணைக்க வேண்டிய பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
@@ -11302,6 +14437,15 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>இந்த பொருள் பயன்படுத்தப்படுகிறது:</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimPreflight.py" line="92"/>
+      <location filename="../../bimcommands/BimPreflight.py" line="185"/>
+      <source>Press to perform the test</source>
+      <translation>சோதனையைச் செய்ய அழுத்தவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimPreflight.py" line="164"/>
       <source>Passed</source>
       <translation>தேர்ச்சி பெற்றார்</translation>
@@ -11382,12 +14526,15 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>திட்டத்தில் பின்வரும் வகைகள் காணப்படவில்லை:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimPreflight.py" line="92"/>
       <location filename="../../bimcommands/BimPreflight.py" line="185"/>
       <source>Performs the test</source>
       <translation>சோதனை நடத்துகிறது</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimPreflight.py" line="595"/>
       <source>The following BIM objects have the "Undefined" type:</source>
       <translation>பின்வரும் BIM பொருள்கள் "வரையறுக்கப்படாத" வகையைக் கொண்டுள்ளன:</translation>
@@ -11453,36 +14600,61 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>உதவிக்குறிப்பு: முடிவுகள் வயர்ஃப்ரேம் பயன்முறையில் சிறப்பாகப் பார்க்கப்படுகின்றன (மெனு காட்சிகள் -&gt; டிரா பாணி ​​-&gt; வயர்ஃப்ரேம்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="302"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Building Layout</source>
       <translation>கட்டிட அமைப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="315"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Building Outline</source>
       <translation>கட்டிட அவுட்லைன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="334"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Building Label</source>
       <translation>கட்டிட சிட்டை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="344"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical Axes</source>
       <translation>செங்குத்து அச்சுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="355"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Axes</source>
       <translation>கிடைமட்ட அச்சுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="365"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axes</source>
       <translation>அச்சுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="376"/>
       <source>Zero Level Height</source>
       <translation>சீரோ லெவல் உயரம்</translation>
@@ -11499,25 +14671,41 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimProjectManager.py" line="390"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Level</source>
       <translation>நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="451"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Preset</source>
       <translation>முன்னமைவை சேமிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="452"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preset name</source>
       <translation>முன்னமைக்கப்பட்ட பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="507"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="496"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User preset</source>
       <translation>பயனர் முன்னமைவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="661"/>
       <source>Save Template File</source>
       <translation>டெம்ப்ளேட் கோப்பை சேமிக்கவும்</translation>
@@ -11529,21 +14717,46 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimProjectManager.py" line="796"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Template successfully loaded into the current document</source>
       <translation>தற்போதைய ஆவணத்தில் டெம்ப்ளேட் வெற்றிகரமாக ஏற்றப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="436"/>
       <location filename="../../nativeifc/ifc_viewproviders.py" line="156"/>
+=======
+      <location filename="../../nativeifc/ifc_viewproviders.py" line="156"/>
+      <location filename="../../bimcommands/BimProjectManager.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Group</source>
       <translation>புதிய குழு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="670"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="650"/>
+      <source>Save template file</source>
+      <translation>டெம்ப்ளேட் கோப்பை சேமிக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimProjectManager.py" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Template saved successfully</source>
       <translation>டெம்ப்ளேட் வெற்றிகரமாக சேமிக்கப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="672"/>
+      <source>Open template file</source>
+      <translation>டெம்ப்ளேட் கோப்பைத் திறக்கவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../bimcommands/BimReorder.py" line="52"/>
       <source>You must choose a group object before using this command</source>
       <translation>இந்த கட்டளையைப் பயன்படுத்துவதற்கு முன், நீங்கள் ஒரு குழு பொருளைத் தேர்ந்தெடுக்க வேண்டும்</translation>
@@ -11570,7 +14783,11 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../bimcommands/BimSetup.py" line="631"/>
+<<<<<<< HEAD
       <source>IfcOpenShell Not Found</source>
+=======
+      <source>IfcOpenShell not found</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>IfcOpenShell கிடைக்கவில்லை</translation>
     </message>
     <message>
@@ -11584,22 +14801,35 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>ஒரு பிளானர் பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimSlab.py" line="65"/>
       <source>%1 select a planar object</source>
       <translation type="unfinished">%1 select a planar object</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimSlab.py" line="81"/>
+=======
+      <location filename="../../bimcommands/BimSlab.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slab</source>
       <translation>பலகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTDPage.py" line="61"/>
       <source>Select Page Template</source>
       <translation>பக்க டெம்ப்ளேட்டைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimTDPage.py" line="73"/>
+=======
+      <location filename="../../bimcommands/BimTDPage.py" line="62"/>
+      <source>Select page template</source>
+      <translation>பக்க டெம்ப்ளேட்டைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimTDPage.py" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Template</source>
       <translation>டெம்ப்ளேட்</translation>
     </message>
@@ -11614,112 +14844,199 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>டுடோரியலை அணுக முடியவில்லை. இணைய இணைப்பைச் சரிபார்க்கவும் (இது ஒரு முறை மட்டுமே தேவைப்படும்).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTutorial.py" line="160"/>
+=======
+      <location filename="../../bimcommands/BimTutorial.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Downloading images…</source>
       <translation>படங்களைப் பதிவிறக்குகிறது…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTutorial.py" line="244"/>
       <source>BIM Tutorial - Step</source>
       <translation>BIM பயிற்சி - படி</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimUnclone.py" line="138"/>
+=======
+      <location filename="../../bimcommands/BimTutorial.py" line="242"/>
+      <source>BIM Tutorial - step</source>
+      <translation>BIM பயிற்சி - படி</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimUnclone.py" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft clones are not supported yet!</source>
       <translation>வரைவு குளோன்கள் இன்னும் ஆதரிக்கப்படவில்லை!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimUnclone.py" line="142"/>
+=======
+      <location filename="../../bimcommands/BimUnclone.py" line="140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected object is not a clone</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருள் நகலி அல்ல</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimUnclone.py" line="145"/>
+=======
+      <location filename="../../bimcommands/BimUnclone.py" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select exactly one object</source>
       <translation>சரியாக ஒரு பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="93"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Isolate</source>
       <translation>தனிமைப்படுத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="124"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="120"/>
+      <source>Creates a new level</source>
+      <translation>ஒரு புதிய நிலை உருவாக்குகிறது</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimViews.py" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new working plane proxy</source>
       <translation>புதிய வேலை செய்யும் விமான ப்ராக்சியை உருவாக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="125"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deletes the selected item</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உருப்படியை நீக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="88"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active</source>
       <translation>செயலில்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="89"/>
       <source>New Level Above</source>
       <translation>புதிய நிலை மேலே</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimViews.py" line="90"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="90"/>
+      <source>New Level</source>
+      <translation>புதிய நிலை</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimViews.py" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Working Plane Proxy</source>
       <translation>புதிய வேலை செய்யும் விமான பதிலாள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="92"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Visibility</source>
       <translation>தெரிவுநிலையை நிலைமாற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="94"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save View Position</source>
       <translation>காட்சி நிலையை சேமிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="121"/>
       <source>Creates a new level above the highest existing one</source>
       <translation>தற்போதுள்ள உயர்ந்த நிலையை விட புதிய நிலையை உருவாக்குகிறது</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimViews.py" line="128"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of selected items</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உருப்படிகளின் தெரிவுநிலையை மாற்றுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="131"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turns all items off except the selected ones</source>
       <translation>தேர்ந்தெடுக்கப்பட்டவற்றைத் தவிர அனைத்து பொருட்களையும் முடக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="134"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the current camera position to the selected items</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உருப்படிகளில் தற்போதைய கேமரா நிலையைச் சேமிக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="135"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Renames the selected item</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உருப்படியை மறுபெயரிடுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="136"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates the selected item</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உருப்படியை செயல்படுத்துகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="162"/>
       <source>BIM Views Manager</source>
       <translation>BIM காட்சிகள் மேலாளர்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimViews.py" line="310"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Views</source>
       <translation>2D காட்சிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimViews.py" line="323"/>
+=======
+      <location filename="../../bimcommands/BimViews.py" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sheets</source>
       <translation>தாள்கள்</translation>
     </message>
@@ -11744,52 +15061,93 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>காட்சிப்படுத்த எந்த மாற்றமும் இல்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="75"/>
       <source>IfcOpenShell Update</source>
       <translation>IfcOpenShell புதுப்பிப்பு</translation>
     </message>
     <message>
       <location filename="../../nativeifc/ifc_openshell.py" line="79"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="73"/>
+      <source>IfcOpenShell update</source>
+      <translation>IfcOpenShell புதுப்பிப்பு</translation>
+    </message>
+    <message>
+      <location filename="../../nativeifc/ifc_openshell.py" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The update is installed in your FreeCAD's user directory and will not affect the rest of your system.</source>
       <translation>புதுப்பிப்பு உங்கள் FreeCAD இன் பயனர் கோப்பகத்தில் நிறுவப்பட்டுள்ளது மற்றும் உங்கள் கணினியின் மற்ற பகுதிகளை பாதிக்காது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="81"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="79"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An update to your installed IfcOpenShell version is available</source>
       <translation>நீங்கள் நிறுவிய IfcOpenShell பதிப்பிற்கான புதுப்பிப்பு கிடைக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="83"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Would you like to install that update?</source>
       <translation>அந்த புதுப்பிப்பை நிறுவ விரும்புகிறீர்களா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="87"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your version of IfcOpenShell is already up to date</source>
       <translation>உங்கள் IfcOpenShell பதிப்பு ஏற்கனவே புதுப்பித்த நிலையில் உள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="90"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="88"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No existing IfcOpenShell installation found on this system.</source>
       <translation>இந்த கணினியில் ஏற்கனவே IfcOpenShell நிறுவல் இல்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="92"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Would you like to install the most recent version?</source>
       <translation>அண்மைக் கால பதிப்பை நிறுவ விரும்புகிறீர்களா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="99"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>IfcOpenShell is not installed, and FreeCAD failed to find a suitable version to install. You can still install IfcOpenShell manually, visit https://wiki.freecad.org/IfcOpenShell for further instructions.</source>
       <translation>IfcOpenShell நிறுவப்படவில்லை, மேலும் FreeCAD நிறுவுவதற்கு பொருத்தமான பதிப்பைக் கண்டறிய முடியவில்லை. நீங்கள் இன்னும் IfcOpenShell ஐ கைமுறையாக நிறுவலாம், மேலும் வழிமுறைகளுக்கு https://wiki.freecad.org/IfcOpenShell ஐப் பார்வையிடவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="107"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>IfcOpenShell update successfully installed.</source>
       <translation>IfcOpenShell புதுப்பிப்பு வெற்றிகரமாக நிறுவப்பட்டது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="155"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to run pip. Ensure pip is installed on your system.</source>
       <translation>பிப்பை இயக்க முடியவில்லை. உங்கள் கணினியில் பைப் நிறுவப்பட்டுள்ளதை உறுதிசெய்யவும்.</translation>
     </message>
@@ -11805,6 +15163,7 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
     </message>
     <message>
       <location filename="../../nativeifc/ifc_status.py" line="78"/>
+<<<<<<< HEAD
       <source>Add IFC property…</source>
       <translation>IFC சொத்தை சேர்…</translation>
     </message>
@@ -11812,6 +15171,15 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <location filename="../../nativeifc/ifc_status.py" line="83"/>
       <source>Add standard IFC Property Set…</source>
       <translation>நிலையான IFC சொத்து தொகுப்பைச் சேர்…</translation>
+=======
+      <source>Add IFC property...</source>
+      <translation>IFC சொத்தை சேர்...</translation>
+    </message>
+    <message>
+      <location filename="../../nativeifc/ifc_status.py" line="83"/>
+      <source>Add standard IFC Property Set...</source>
+      <translation>நிலையான IFC சொத்து தொகுப்பைச் சேர்...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../nativeifc/ifc_status.py" line="140"/>
@@ -11839,22 +15207,38 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>சொத்து ஏற்கனவே உள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimDrawingView.py" line="81"/>
+=======
+      <location filename="../../bimcommands/BimDrawingView.py" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Viewed lines</source>
       <translation>பார்த்த வரிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimDrawingView.py" line="85"/>
+=======
+      <location filename="../../bimcommands/BimDrawingView.py" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut lines</source>
       <translation>வரிகளை வெட்டுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_psets.py" line="377"/>
+=======
+      <location filename="../../nativeifc/ifc_psets.py" line="376"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing property</source>
       <translation>சொத்துக்களை அகற்றுதல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_psets.py" line="382"/>
+=======
+      <location filename="../../nativeifc/ifc_psets.py" line="381"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing property set</source>
       <translation>சொத்து தொகுப்பை அகற்றுதல்</translation>
     </message>
@@ -11869,7 +15253,11 @@ Alt+, இடது Alt+ சுழற்ற. வலது சுழற்ற வ�
       <translation>பிழை: சரியாக ஒரு அடிப்படை முகத்தைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTDView.py" line="81"/>
+=======
+      <location filename="../../bimcommands/BimTDView.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No section view, Draft object, or page found or selected in the document</source>
       <translation>ஆவணத்தில் பிரிவு பார்வை, வரைவு பொருள் அல்லது பக்கம் எதுவும் காணப்படவில்லை அல்லது தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
@@ -11992,21 +15380,32 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <source>Save IFC File As…</source>
       <translation>IFC கோப்பை இவ்வாறு சேமி...</translation>
     </message>
+<<<<<<< HEAD
     <message>
       <location filename="../../bimcommands/BimLink.py" line="30"/>
       <source>Select an object to link</source>
       <translation>இணைக்க ஒரு பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Arch_RebarTools</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="416"/>
+=======
+      <location filename="../../InitGui.py" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reinforcement Tools</source>
       <translation>வலுவூட்டல் கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="417"/>
+=======
+      <location filename="../../InitGui.py" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reinforcement tools</source>
       <translation>வலுவூட்டல் கருவிகள்</translation>
     </message>
@@ -12020,19 +15419,32 @@ Please check your FreeCAD installation or provide a custom template under menu P
     </message>
     <message>
       <location filename="../../bimcommands/BimBackground.py" line="42"/>
+<<<<<<< HEAD
       <source>Toggles the 3D View background between simple and gradient</source>
       <translation>எளிய மற்றும் சாய்வு இடையே 3D காட்சி பின்னணியை மாற்றுகிறது</translation>
+=======
+      <source>Toggles the background of the 3D view between simple and gradient</source>
+      <translation>எளிய மற்றும் சாய்வு இடையே 3D காட்சியின் பின்னணியை மாற்றுகிறது</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>BIM_Beam</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimBeam.py" line="49"/>
+=======
+      <location filename="../../bimcommands/BimBeam.py" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beam</source>
       <translation>பீம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimBeam.py" line="50"/>
+=======
+      <location filename="../../bimcommands/BimBeam.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a beam between two points</source>
       <translation>இரண்டு புள்ளிகளுக்கு இடையில் ஒரு கற்றை உருவாக்குகிறது</translation>
     </message>
@@ -12079,12 +15491,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Clone</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimClone.py" line="46"/>
+=======
+      <location filename="../../bimcommands/BimClone.py" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clone</source>
       <translation>நகலி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimClone.py" line="49"/>
+=======
+      <location filename="../../bimcommands/BimClone.py" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clones selected objects to another location</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருட்களை மற்றொரு இடத்திற்கு நகலி செய்கிறது</translation>
     </message>
@@ -12092,12 +15512,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Column</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimColumn.py" line="49"/>
+=======
+      <location filename="../../bimcommands/BimColumn.py" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Column</source>
       <translation>நெடுவரிசை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimColumn.py" line="50"/>
+=======
+      <location filename="../../bimcommands/BimColumn.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a column at a specified location</source>
       <translation>ஒரு குறிப்பிட்ட இடத்தில் ஒரு நெடுவரிசையை உருவாக்குகிறது</translation>
     </message>
@@ -12168,8 +15596,13 @@ Please check your FreeCAD installation or provide a custom template under menu P
     <name>BIM_Diff</name>
     <message>
       <location filename="../../bimcommands/BimDiff.py" line="38"/>
+<<<<<<< HEAD
       <source>IFC Shape Diff</source>
       <translation type="unfinished">IFC Shape Diff</translation>
+=======
+      <source>IFC Diff</source>
+      <translation>IFC வேறுபாடு</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../bimcommands/BimDiff.py" line="41"/>
@@ -12198,8 +15631,13 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>பிறரால் பயன்படுத்தப்படாத அனைத்து பொருட்களையும் குப்பைத் தொட்டியில் இருந்து நீக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimEmptyTrash.py" line="38"/>
       <location filename="../../bimcommands/BimTrash.py" line="78"/>
+=======
+      <location filename="../../bimcommands/BimTrash.py" line="78"/>
+      <location filename="../../bimcommands/BimEmptyTrash.py" line="38"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty Trash</source>
       <translation>வெறுமை குப்பை</translation>
     </message>
@@ -12474,12 +15912,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Rewire</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimRewire.py" line="38"/>
+=======
+      <location filename="../../bimcommands/BimRewire.py" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rewire</source>
       <translation>ரீவையர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimRewire.py" line="39"/>
+=======
+      <location filename="../../bimcommands/BimRewire.py" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recreates wires from selected objects</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருட்களிலிருந்து கம்பிகளை மீண்டும் உருவாக்குகிறது</translation>
     </message>
@@ -12500,12 +15946,21 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Sketch</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimSketch.py" line="37"/>
       <source>New Sketch</source>
       <translation>புதிய ச்கெட்ச்</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimSketch.py" line="40"/>
+=======
+      <location filename="../../bimcommands/BimSketch.py" line="38"/>
+      <source>Sketch</source>
+      <translation>ஓவியம்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimSketch.py" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new sketch in the current working plane</source>
       <translation>தற்போது வேலை செய்யும் விமானத்தில் ஒரு புதிய ஓவியத்தை உருவாக்குகிறது</translation>
     </message>
@@ -12565,12 +16020,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Tutorial</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTutorial.py" line="51"/>
+=======
+      <location filename="../../bimcommands/BimTutorial.py" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM Tutorial</source>
       <translation>BIM பயிற்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimTutorial.py" line="54"/>
+=======
+      <location filename="../../bimcommands/BimTutorial.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts or continues the BIM in-game tutorial</source>
       <translation>BIM இன்-கேம் டுடோரியலைத் தொடங்குகிறது அல்லது தொடர்கிறது</translation>
     </message>
@@ -12649,8 +16112,13 @@ Please check your FreeCAD installation or provide a custom template under menu P
     </message>
     <message>
       <location filename="../../bimcommands/BimWPCommands.py" line="87"/>
+<<<<<<< HEAD
       <source>Aligns the view to the current item in BIM Views Manager or to the current working plane</source>
       <translation>BIM காட்சிகள் மேலாளரில் உள்ள தற்போதைய உருப்படி அல்லது தற்போதைய வேலை செய்யும் விமானத்திற்கு பார்வையை சீரமைக்கிறது</translation>
+=======
+      <source>Aligns the view to the current item in BIM Views window or to the current working plane</source>
+      <translation>BIM காட்சிகள் சாளரத்தில் உள்ள தற்போதைய உருப்படி அல்லது தற்போதைய வேலை செய்யும் விமானத்திற்கு பார்வையை சீரமைக்கிறது</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -12662,8 +16130,13 @@ Please check your FreeCAD installation or provide a custom template under menu P
     </message>
     <message>
       <location filename="../../nativeifc/ifc_commands.py" line="54"/>
+<<<<<<< HEAD
       <source>IFC File Diff</source>
       <translation type="unfinished">IFC File Diff</translation>
+=======
+      <source>IFC Diff</source>
+      <translation>IFC வேறுபாடு</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -12734,12 +16207,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>IFC_UpdateIOS</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="44"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows a dialog to update IfcOpenShell</source>
       <translation>IfcOpenShell ஐப் புதுப்பிக்க ஒரு உரையாடலைக் காட்டுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../nativeifc/ifc_openshell.py" line="46"/>
+=======
+      <location filename="../../nativeifc/ifc_openshell.py" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>IfcOpenShell Update</source>
       <translation>IfcOpenShell புதுப்பிப்பு</translation>
     </message>
@@ -12762,6 +16243,21 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>கட்டம் சதுரத்தின் இயல்பு அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="108"/>
+      <source>Main grid line every</source>
+      <translation>மெயின் கிரிட் லைன் ஒவ்வொன்றும்</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="337"/>
+      <location filename="../ui/dialogSetup.ui" line="489"/>
+      <location filename="../ui/dialogSetup.ui" line="546"/>
+      <source>0 </source>
+      <translation>0</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="152"/>
       <source>Default text size</source>
       <translation>இயல்புநிலை உரை அளவு</translation>
@@ -12792,6 +16288,14 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>காப்பு கோப்புகளின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="290"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default line width. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Part colors &amp;gt; Default line width, Draft &amp;gt; Visual settings &amp;gt; Default line width&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;இயல்புநிலை வரி அகலம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;காட்சி &amp;gt; பகுதி வண்ணங்கள் &amp;gt; இயல்புநிலை வரி அகலம், வரைவு &amp;gt; காட்சி அமைப்புகள் &amp;gt; இயல்புநிலை வரி அகலம்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="293"/>
       <source> px</source>
       <translation>px</translation>
@@ -12802,6 +16306,7 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>இயல்பு எழுத்துரு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="71"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check this to make FreeCAD start with a new blank document. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Create new document at start up&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FreeCADஐ புதிய வெற்று ஆவணத்துடன் தொடங்குவதற்கு இதைச் சரிபார்க்கவும். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;பொது &amp;gt; ஆவணம் &amp;gt; தொடக்கத்தில் புதிய ஆவணத்தை உருவாக்கவும்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -12922,35 +16427,66 @@ Please check your FreeCAD installation or provide a custom template under menu P
     </message>
     <message>
       <location filename="../ui/dialogSetup.ui" line="575"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto (continuously adapts to the current view)</source>
       <translation>தானியங்கு (தற்போதைய காட்சிக்கு தொடர்ந்து மாற்றியமைக்கிறது)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="580"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top (XY)</source>
       <translation>மேல் (XY)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="585"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="584"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Front (XZ)</source>
       <translation>முன் (XZ)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="590"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="589"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Side (YZ)</source>
       <translation>பக்க (YZ)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="637"/>
       <source>&lt;b&gt;IfcOpenShell&lt;/b&gt; is missing on your system. IfcOpenShell is needed to import or export IFC files to/from FreeCAD. Check &lt;a href="https://www.freecad.org/wiki/Arch_IFC"&gt;this wiki page&lt;/a&gt; to know more, or &lt;a href="#install"&gt;download and install it&lt;/a&gt; directly.&lt;/p&gt;</source>
       <translation>உங்கள் கணினியில் &lt;b&gt;IfcOpenShell&lt;/b&gt; இல்லை. FreeCADக்கு/இலிருந்து IFC கோப்புகளை இறக்குமதி செய்ய அல்லது ஏற்றுமதி செய்ய IfcOpenShell தேவை. மேலும் அறிய &lt;a href="https://www.freecad.org/wiki/Arch_IFC"&gt;இந்த விக்கி பக்கத்தைப்&lt;/a&gt; பார்க்கவும் அல்லது &lt;a href="#install"&gt;இதை நேரடியாக பதிவிறக்கி நிறுவவும்&lt;/a&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="223"/>
       <source>Default grid position</source>
       <translation>இயல்புநிலை கட்டம் நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="556"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default font. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Font family, TechDraw &amp;gt; TechDraw 1 &amp;gt; Label Font&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;இயல்பு எழுத்துரு. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; உரைகள் மற்றும் பரிமாணங்கள் &amp;gt; எழுத்துரு குடும்பம், TechDraw &amp;gt; TechDraw 1 &amp;gt; எழுத்துரு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; சிட்டை</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="543"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default dimension arrow size. Location in preferences: &lt;span style=" font-weight:600;"&gt;TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow size, Draft &amp;gt; Texts and dimensions &amp;gt; Arrow size&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;இயல்புநிலை பரிமாண அம்பு அளவு. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;TechDraw &amp;gt; TechDraw 2 &amp;gt; அம்பு அளவு, வரைவு &amp;gt; உரைகள் மற்றும் பரிமாணங்கள் &amp;gt; அம்புக்குறி அளவு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="23"/>
       <source>This dialog will help set FreeCAD up for efficient BIM workflow by setting a couple FreeCAD options. This dialog can be accessed again anytime from menu Manage -&gt; Setup, and more options are available under the edit -&gt; preferences menu.</source>
       <translation>இந்த உரையாடல் இரண்டு FreeCAD விருப்பங்களை அமைப்பதன் மூலம் திறமையான BIM பணிப்பாய்வுக்காக FreeCAD ஐ அமைக்க உதவும். இந்த உரையாடலை எப்போது வேண்டுமானாலும் நிர்வகி -&gt; அமைவு என்ற மெனுவிலிருந்து மீண்டும் அணுகலாம், மேலும் திருத்து -&gt; விருப்பத்தேர்வுகள் மெனுவின் கீழ் கூடுதல் விருப்பங்கள் கிடைக்கும்.</translation>
@@ -12976,6 +16512,14 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>யுஎச்/இம்பீரியல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="115"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The preferred unit that will be used everywhere: in dialogs, measurements and dimensions. However, any other unit can be entered anytime. Changing the default unit system anytime will not cause any modification to the model. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Default unit system&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;எல்லா இடங்களிலும் பயன்படுத்தப்படும் விருப்பமான அலகு: உரையாடல்கள், அளவீடுகள் மற்றும் பரிமாணங்களில். இருப்பினும், வேறு எந்த யூனிட்டையும் எப்போது வேண்டுமானாலும் உள்ளிடலாம். இயல்புநிலை அலகு அமைப்பை எப்போது வேண்டுமானாலும் மாற்றுவது மாதிரியில் எந்த மாற்றத்தையும் ஏற்படுத்தாது. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;பொது &amp;gt; இயல்புநிலை அலகு அமைப்பு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="119"/>
       <source>Millimeters</source>
       <translation>மில்லிமீட்டர்கள்</translation>
@@ -12996,6 +16540,19 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>கட்டிடக்கலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="166"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number of decimals preferred in the interface controls and measurements. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Units &amp;gt; Number of decimals&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;இடைமுகக் கட்டுப்பாடுகள் மற்றும் அளவீடுகளில் விருப்பமான தசமங்களின் எண்ணிக்கை. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;பொது &amp;gt; அலகுகள் &amp;gt; தசமங்களின் எண்ணிக்கை&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="189"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Default dimension style. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Arrow style, TechDraw &amp;gt; TechDraw 2 &amp;gt; Arrow Style&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;இயல்புநிலை பரிமாண நடை. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; உரைகள் மற்றும் பரிமாணங்கள் &amp;gt; அம்பு நடை, TechDraw &amp;gt; TechDraw 2 &amp;gt; அம்பு நடை&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="193"/>
       <source>dot</source>
       <translation>புள்ளி</translation>
@@ -13016,6 +16573,14 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>தடித்த சாய்வு</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="356"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of faces in the 3D view. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Shape color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3D காட்சியில் முகங்களின் இயல்புநிலை நிறம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;காட்சி &amp;gt; பகுதி/பகுதி வடிவமைப்பு நிறம் &amp;gt; வடிவ தோற்றம் &amp;gt; வடிவ நிறம்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="363"/>
       <source>Construction</source>
       <translation>கட்டுமானம்</translation>
@@ -13031,11 +16596,27 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>முகங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="384"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color for helper objects such as grids and axes. Location in preferences: &lt;span style=" font-weight:600;"&gt;BIM  &amp;gt; Defaults &amp;gt; Helper colors&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;கட்டங்கள் மற்றும் அச்சுகள் போன்ற உதவிப் பொருட்களுக்கான இயல்புநிலை நிறம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;BIM &amp;gt; இயல்புநிலைகள் &amp;gt; உதவி நிறங்கள்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="391"/>
       <source>Lines</source>
       <translation>வரிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="398"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of lines in the 3D view. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Part/Part Design Color &amp;gt; Shape Appearance &amp;gt; Default line color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3D காட்சியில் உள்ள வரிகளின் இயல்புநிலை நிறம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;காட்சி &amp;gt; பகுதி/பகுதி வடிவமைப்பு நிறம் &amp;gt; வடிவ தோற்றம் &amp;gt; இயல்புநிலை வரி நிறம்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="419"/>
       <source>Gradient bottom</source>
       <translation>கீழே சாய்வு</translation>
@@ -13051,6 +16632,14 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>உரை</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="447"/>
+      <source>The background color when simple color is enabled</source>
+      <translation>எளிய வண்ணம் இயக்கப்படும் போது பின்னணி வண்ணம்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="463"/>
       <source>The altitude of the camera when a blank file is created. Recommended values are between 5 (view a few centimeters wide) and 5000 (view a few meters wide)</source>
       <translation>வெற்று கோப்பு உருவாக்கப்படும் போது கேமராவின் உயரம். பரிந்துரைக்கப்பட்ட மதிப்புகள் 5 (சில சென்டிமீட்டர் அகலத்தைப் பார்க்கவும்) மற்றும் 5000 (சில மீட்டர் அகலத்தைப் பார்க்கவும்)</translation>
@@ -13066,16 +16655,41 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;புதிய கோப்புகளுக்குப் பயன்படுத்த விருப்ப உரிமம். &amp;quot;அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை&amp;quot; உரிமம் விருப்பமில்லை என்றால். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;பொது &amp;gt; ஆவணம் &amp;gt; இயல்புநிலை உரிமம்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="564"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default author for new files</source>
       <translation>புதிய கோப்புகளுக்கான இயல்புநிலை ஆசிரியர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="636"/>
+      <source>&lt;b&gt;IfcOpenShell&lt;/b&gt; is missing on your system. IfcOpenShell is needed to import or export IFC files to/from FreeCAD. Check &lt;a href="https://www.freecad.org/wiki/Arch_IFC"&gt;this wiki page&lt;/a&gt; to know more, or &lt;a href="#install"&gt;download and install it&lt;/a&gt; directly.&lt;/p&gt;</source>
+      <translation>உங்கள் கணினியில் &lt;b&gt;IfcOpenShell&lt;/b&gt; இல்லை. FreeCADக்கு/இலிருந்து IFC கோப்புகளை இறக்குமதி செய்ய அல்லது ஏற்றுமதி செய்ய IfcOpenShell தேவை. மேலும் அறிய &lt;a href="https://www.freecad.org/wiki/Arch_IFC"&gt;இந்த விக்கி பக்கத்தைப்&lt;/a&gt; பார்க்கவும் அல்லது &lt;a href="#install"&gt;இதை நேரடியாக பதிவிறக்கி நிறுவவும்&lt;/a&gt;.&lt;/p&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="176"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;How many small squares between each main line of the grid. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Grid and snapping &amp;gt; Main line every&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;கட்டத்தின் ஒவ்வொரு முதன்மையான வரிக்கும் இடையே எத்தனை சிறிய சதுரங்கள். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; கட்டம் மற்றும் ச்னாப்பிங் &amp;gt; ஒவ்வொரு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; முதன்மை வரி</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="179"/>
       <source> square(s)</source>
       <translation>சதுர(கள்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="303"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The number of backup files to keep when saving a file. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Maximum number of backup files&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;கோப்பைச் சேமிக்கும் போது வைத்திருக்க வேண்டிய காப்புப் பிரதி கோப்புகளின் எண்ணிக்கை. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;பொது &amp;gt; ஆவணம் &amp;gt; காப்புப் பிரதி கோப்புகளின் அதிகபட்ச எண்ணிக்கை&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="510"/>
       <source>All rights reserved (no specific license)</source>
       <translation>அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை (குறிப்பிட்ட உரிமம் இல்லை)</translation>
@@ -13086,22 +16700,52 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>புதிய கோப்புகளுக்கான இயல்புநிலை உரிமம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="334"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This is the size of the smallest square of the grid. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Grid and snapping &amp;gt; Grid spacing&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;இது கட்டத்தின் மிகச்சிறிய சதுரத்தின் அளவு. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; கட்டம் மற்றும் ச்னாப்பிங் &amp;gt; கட்ட இடைவெளி&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="349"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default color of construction geometry. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; General &amp;gt; Construction geometry color&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;கட்டுமான வடிவவியலின் இயல்புநிலை நிறம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; பொது &amp;gt; கட்டுமான வடிவியல் நிறம்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="486"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default size of texts and dimension texts. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Texts and dimensions &amp;gt; Font size, TechDraw &amp;gt; TechDraw 2 &amp;gt; Font size&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;உரைகள் மற்றும் பரிமாண உரைகளின் இயல்புநிலை அளவு. விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; உரைகள் மற்றும் பரிமாணங்கள் &amp;gt; எழுத்துரு அளவு, TechDraw &amp;gt; TechDraw 2 &amp;gt; எழுத்துரு அளவு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="499"/>
       <source>Default dimension arrow size</source>
       <translation>இயல்புநிலை பரிமாண அம்பு அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="604"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;Tip&lt;/span&gt;: The appropriate snapping modes on the Snapping toolbar can be set. Enabling only the snap positions needed will make drawing in FreeCAD considerably faster.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-weight:600;"&gt;உதவிக்குறிப்பு&lt;/span&gt;: Snapping கருவிப்பட்டியில் பொருத்தமான ச்னாப்பிங் முறைகளை அமைக்கலாம். தேவையான ச்னாப் நிலைகளை மட்டும் இயக்கினால், FreeCADல் வரைதல் கணிசமான வேகத்தை அதிகரிக்கும்.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="614"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;Tip&lt;/b&gt;: The currently installed FreeCAD version is %1. Consider using the &lt;a href="https://github.com/FreeCAD/FreeCAD/releases"&gt;&lt;span style=" text-decoration: underline; color:#0000ff;"&gt;latest development version %2&lt;/span&gt;&lt;/a&gt;, which brings all the latest improvements to FreeCAD.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;b&gt;உதவிக்குறிப்பு&lt;/b&gt;: தற்போது நிறுவப்பட்ட FreeCAD பதிப்பு %1 ஆகும். &lt;a href="https://github.com/FreeCAD/FreeCAD/FreeCAD/releases"&gt;&lt;span style="text-decoration: underline; color:#0000ff;"&gt;சமீபத்திய மேம்பாடு பதிப்பு %2&lt;/span&gt;&lt;/a&gt; ஐப் பயன்படுத்தவும், இது FreeCAD க்கு அனைத்து அண்மைக் கால மேம்பாடுகளையும் கொண்டு வருகிறது.&lt;/p&gt;&lt;/body&gt;&lt;/html</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="627"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="626"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Missing Workbenches</source>
       <translation>பணிப்பெட்டிகள் காணவில்லை</translation>
     </message>
@@ -13128,11 +16772,48 @@ Please check your FreeCAD installation or provide a custom template under menu P
       <translation>இயல்புநிலை கேமரா உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/dialogSetup.ui" line="571"/>
+=======
+      <location filename="../ui/dialogSetup.ui" line="71"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Check this to make FreeCAD start with a new blank document. Location in preferences: &lt;span style=" font-weight:600;"&gt;General &amp;gt; Document &amp;gt; Create new document at startup&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FreeCADஐ புதிய வெற்று ஆவணத்துடன் தொடங்குவதற்கு இதைச் சரிபார்க்கவும். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;பொது &amp;gt; ஆவணம் &amp;gt; தொடக்கத்தில் புதிய ஆவணத்தை உருவாக்கவும்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="405"/>
+      <source>Gradient top:</source>
+      <translation>சாய்வு மேல்:</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="412"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The top color of the 3D view background gradient. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3D காட்சி பின்னணி சாய்வின் மேல் வண்ணம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;காட்சி &amp;gt; நிறங்கள் &amp;gt; வண்ண சாய்வு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="426"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The bottom color of the 3D view background gradient. Location in preferences: &lt;span style=" font-weight:600;"&gt;Display &amp;gt; Colors &amp;gt; Color gradient&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3D காட்சி பின்னணி சாய்வின் கீழ் வண்ணம். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;காட்சி &amp;gt; நிறங்கள் &amp;gt; வண்ண சாய்வு&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Where the grid appears at FreeCAD startup. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; General &amp;gt; Default working plane&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FreeCAD தொடக்கத்தில் கட்டம் தோன்றும் இடத்தில். விருப்பத்தேர்வுகளில் இருப்பிடம்: &lt;span style="font-weight:600;"&gt;வரைவு &amp;gt; பொது &amp;gt; இயல்புநிலை வேலை செய்யும் விமானம்&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/dialogSetup.ui" line="454"/>
+      <source>The color to use for texts and dimensions</source>
+      <translation>உரைகள் மற்றும் பரிமாணங்களுக்கு பயன்படுத்த வேண்டிய வண்ணம்</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="253"/>
+      <source>3D view background</source>
+      <translation>3D காட்சி பின்னணி</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/dialogSetup.ui" line="267"/>
       <source>Geometry color</source>
       <translation>வடிவியல் நிறம்</translation>
@@ -13154,20 +16835,43 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_DrawingView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimDrawingView.py" line="45"/>
+=======
+      <location filename="../../bimcommands/BimDrawingView.py" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Drawing</source>
       <translation>2டி வரைதல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimDrawingView.py" line="49"/>
+=======
+      <location filename="../../bimcommands/BimDrawingView.py" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a drawing container to contain elements of a 2D view</source>
       <translation>2D காட்சியின் கூறுகளைக் கொண்டிருக்கும் வரைதல் கொள்கலனை உருவாக்குகிறது</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>BIM_GenericTools</name>
     <message>
       <location filename="../../InitGui.py" line="371"/>
+=======
+    <name>BIMStatusWidget</name>
+    <message>
+      <location filename="../../BimStatus.py" line="129"/>
+      <source>BIM status widget</source>
+      <comment>A context menu action used to show or hide this toolbar widget</comment>
+      <translation>BIM நிலை விட்செட்</translation>
+    </message>
+  </context>
+  <context>
+    <name>BIM_GenericTools</name>
+    <message>
+      <location filename="../../InitGui.py" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Generic 3D Tools</source>
       <translation>பொதுவான 3D கருவிகள்</translation>
     </message>
@@ -13175,7 +16879,11 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Create2DViews</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../InitGui.py" line="384"/>
+=======
+      <location filename="../../InitGui.py" line="291"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create 2D Views</source>
       <translation>2D காட்சிகளை உருவாக்கவும்</translation>
     </message>
@@ -13196,12 +16904,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>Arch_ToggleIfcBrepFlag</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="378"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="372"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle IFC B-Rep Flag</source>
       <translation>IFC பி-பிரதிநிதி கொடியை நிலைமாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="381"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Forces an object to be exported as B-rep or not</source>
       <translation>ஒரு பொருளை B-rep ஆக அல்லது ஏற்றுமதி செய்ய கட்டாயப்படுத்துகிறது</translation>
     </message>
@@ -13209,12 +16925,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>Arch_IfcSpreadsheet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="467"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New IFC Spreadsheet</source>
       <translation>புதிய IFC விரிதாள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimArchUtils.py" line="471"/>
+=======
+      <location filename="../../bimcommands/BimArchUtils.py" line="465"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a spreadsheet to store IFC properties of an object</source>
       <translation>ஒரு பொருளின் IFC பண்புகளை சேமிக்க விரிதாளை உருவாக்குகிறது</translation>
     </message>
@@ -13233,6 +16957,22 @@ Please check your FreeCAD installation or provide a custom template under menu P
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>BIM_Compound</name>
+    <message>
+      <location filename="../../bimcommands/BimCompound.py" line="38"/>
+      <source>Create Compound</source>
+      <translation>கலவையை உருவாக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimCompound.py" line="39"/>
+      <source>Create a compound of several shapes</source>
+      <translation>பல வடிவங்களின் கலவையை உருவாக்கவும்</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>BIM_DimensionAligned</name>
     <message>
       <location filename="../../bimcommands/BimDimensions.py" line="43"/>
@@ -13326,12 +17066,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_Layers</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="57"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Manage Layers</source>
       <translation>அடுக்குகளை நிர்வகிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimLayers.py" line="60"/>
+=======
+      <location filename="../../bimcommands/BimLayers.py" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets/modifies the different layers of your BIM project</source>
       <translation>உங்கள் BIM திட்டத்தின் வெவ்வேறு அடுக்குகளை அமைக்கிறது/மாற்றுகிறது</translation>
     </message>
@@ -13339,12 +17087,20 @@ Please check your FreeCAD installation or provide a custom template under menu P
   <context>
     <name>BIM_ProjectManager</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="53"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Setup Project</source>
       <translation>அமைப்பு திட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../bimcommands/BimProjectManager.py" line="54"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates or manages a BIM project</source>
       <translation>BIM திட்டத்தை உருவாக்குகிறது அல்லது நிர்வகிக்கிறது</translation>
     </message>
@@ -13405,8 +17161,13 @@ Please check your FreeCAD installation or provide a custom template under menu P
     <name>BIM_SimpleCopy</name>
     <message>
       <location filename="../../bimcommands/BimSimpleCopy.py" line="38"/>
+<<<<<<< HEAD
       <source>Simple Copy</source>
       <translation>எளிய நகல்</translation>
+=======
+      <source>Create Simple Copy</source>
+      <translation>எளிய நகலை உருவாக்கவும்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../bimcommands/BimSimpleCopy.py" line="39"/>
@@ -13432,6 +17193,22 @@ select both the view and the page before executing the command.</source>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>BIM_TogglePanels</name>
+    <message>
+      <location filename="../../bimcommands/BimTogglePanels.py" line="40"/>
+      <source>Toggle Bottom Panels</source>
+      <translation>கீழ் பேனல்களை நிலைமாற்று</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimTogglePanels.py" line="41"/>
+      <source>Toggles bottom dock panels on/off</source>
+      <translation>கீழே டாக் பேனல்களை ஆன்/ஆஃப் செய்யும்</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>BIM_Welcome</name>
     <message>
       <location filename="../../bimcommands/BimWelcome.py" line="39"/>
@@ -13546,8 +17323,13 @@ select both the view and the page before executing the command.</source>
     </message>
     <message>
       <location filename="../ui/dialogClassification.ui" line="212"/>
+<<<<<<< HEAD
       <source>XML or IFC files of several classification systems can be downloaded from &lt;a href="https://github.com/IfcOpenShell/IfcOpenShell/tree/v0.8.0/src/bonsai/bonsai/bim/data/classifications"&gt;https://github.com/IfcOpenShell/IfcOpenShell/tree/v0.8.0/src/bonsai/bonsai/bim/data/classifications&lt;/a&gt; and placed in %s</source>
       <translation>பல வகைப்பாடு அமைப்புகளின் நீகுமொ அல்லது IFC கோப்புகளை &lt;a இலிருந்து பதிவிறக்கம் செய்யலாம் href="https://github.com/IfcOpenShell/IfcOpenShell/tree/v0.8.0/src/bonsai/bonsai/bim/data/classifications "&gt;https://github.com/IfcOpenShell/IfcOpenShell/tree/v0.8.0/src/bonsai/bonsai/bim/data/classifications&lt;/a&gt; மற்றும் %s இல் வைக்கப்பட்டது</translation>
+=======
+      <source>XML or IFC files of several classification systems can be downloaded from &lt;a href="https://github.com/Moult/IfcClassification"&gt;https://github.com/Moult/IfcClassification&lt;/a&gt; and placed in %s</source>
+      <translation>பல வகைப்பாடு அமைப்புகளின் நீகுமொ அல்லது IFC கோப்புகளை &lt;a href="https://github.com/Moult/IfcClassification"&gt;https://github.com/Moult/IfcClassification&lt;/a&gt; இலிருந்து பதிவிறக்கம் செய்து %s இல் வைக்கலாம்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -13558,6 +17340,7 @@ select both the view and the page before executing the command.</source>
       <translation>IFC வேறுபாடு</translation>
     </message>
   </context>
+<<<<<<< HEAD
   <context>
     <name>Command</name>
     <message>
@@ -13813,4 +17596,6 @@ Do you want to proceed?</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட முகத்தில் ஒரு கவரிங் (தரை பூச்சு, உறைப்பூச்சு) உருவாக்குகிறது</translation>
     </message>
   </context>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 </TS>

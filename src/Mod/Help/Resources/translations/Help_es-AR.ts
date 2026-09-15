@@ -158,12 +158,20 @@ Esto sólo se aplica si Markdown está seleccionado arriba.</translation>
   <context>
     <name>Help</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="74"/>
+=======
+      <location filename="../../Help.py" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contents for this page could not be retrieved. Please check settings under menu Edit → Preferences → General → Help</source>
       <translation>No se pudo recuperar el contenido de esta página. Por favor, compruebe la configuración en el menú Editar → Preferencias → General → Ayuda</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="78"/>
+=======
+      <location filename="../../Help.py" line="79"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help files location could not be determined. Please check settings under menu Edit → Preferences → General → Help</source>
       <translation>No se ha podido determinar la ubicación de los archivos de ayuda. Por favor, compruebe la configuración en el menú Editar → Preferencias → General → Ayuda</translation>
     </message>

@@ -22,7 +22,12 @@
  *                                                                         *
  ***************************************************************************/
 
+<<<<<<< HEAD
 #pragma once
+=======
+#ifndef ROBOT_ROBOT6AXIS_H
+#define ROBOT_ROBOT6AXIS_H
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 #include "kdl_cp/chain.hpp"
 #include "kdl_cp/jntarray.hpp"
@@ -93,3 +98,8 @@ protected:
 };
 
 }  // namespace Robot
+<<<<<<< HEAD
+=======
+
+#endif  // ROBOT_ROBOT6AXIS_H
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

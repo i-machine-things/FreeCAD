@@ -34,6 +34,10 @@ import FreeCADGui as Gui
 import datetime
 from datetime import date
 import csv
+<<<<<<< HEAD
+=======
+import codecs
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from fractions import Fraction
 import os.path
 import TechDraw
@@ -531,7 +535,11 @@ class TaskFillTemplateFields:
         transactionName = QtCore.QT_TRANSLATE_NOOP(
             "Techdraw_FillTemplateFields", "Fill template fields"
         )
+<<<<<<< HEAD
         App.ActiveDocument.openTransaction(transactionName)
+=======
+        App.setActiveTransaction(transactionName)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         i = 0
         for cb in self.checkBoxList:
             if cb.isChecked():

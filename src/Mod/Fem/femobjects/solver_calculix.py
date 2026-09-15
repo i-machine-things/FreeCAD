@@ -369,6 +369,7 @@ class SolverCalculiX(base_fempythonobject.BaseFemPythonObject):
             except Base.PropertyError:
                 prop.add_to_object(obj)
 
+<<<<<<< HEAD
             # change GeometricalNonlinearity and MaterialNonlinearity types
             if prop.name == "MaterialNonlinearity":
                 prop.handle_change_type(
@@ -378,6 +379,8 @@ class SolverCalculiX(base_fempythonobject.BaseFemPythonObject):
                 prop.handle_change_type(
                     obj, "App::PropertyEnumeration", lambda x: False if x == "linear" else True
                 )
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             if prop.name == "EigenmodeLowLimit":
                 prop.handle_change_type(obj, "App::PropertyFloatConstraint", lambda x: f"{x} Hz")
             if prop.name == "EigenmodeHighLimit":
@@ -389,7 +392,10 @@ class SolverCalculiX(base_fempythonobject.BaseFemPythonObject):
             # Migrate group of properties for old projects
             if obj.getGroupOfProperty(prop.name) != prop.group:
                 obj.setGroupOfProperty(prop.name, prop.group)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         # remove old properties
         try:
             obj.AutomaticIncrementation = not obj.getPropertyByName(

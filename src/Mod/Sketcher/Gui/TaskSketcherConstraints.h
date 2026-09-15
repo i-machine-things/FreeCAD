@@ -228,7 +228,11 @@ private:
                                                             // constraints associated with the
                                                             // selected geometry
     ConstraintFilterList* filterList;
+<<<<<<< HEAD
     fastsignals::advanced_scoped_connection changedSketchView;
+=======
+    boost::signals2::scoped_connection changedSketchView;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     // Buffering structures
     std::unordered_map<int, ConstraintItem*> constraintMap;

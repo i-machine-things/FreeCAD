@@ -334,9 +334,154 @@ void SoBrepEdgeSet::GLRender(SoGLRenderAction* action)
     }
 
     bool hasColorOverride = (ctx2 && !ctx2->colors.empty());
+<<<<<<< HEAD
 
     if (ctx && ctx->highlightIndex == std::numeric_limits<int>::max() && !ctx->isSelectAll()) {
         if (ctx->selectionIndex.empty()) {
+=======
+    if (hasColorOverride) {
+        // Special handling for edge color overrides (e.g. highlighting specific edges).
+        // We initially attempted to use the same logic as SoBrepFaceSet (setting
+        // SoMaterialBindingElement::PER_PART_INDEXED and populating SoLazyElement arrays).
+        // However, this proved brittle for SoIndexedLineSet, causing persistent crashes
+        // in SoMaterialBundle/SoGLLazyElement (SIGSEGV) due to internal Coin3D state
+        // mismatches when mixing Lit (default) and Unlit (highlighted) states.
+        //
+        // To ensure stability, we bypass the base class GLRender entirely and perform
+        // a manual dual-pass render using direct OpenGL calls:
+        // Pass 1: Render default lines using the current Coin3D state (Lighting enabled).
+        // Pass 2: Render highlighted lines with Lighting disabled to ensure bright, flat colors.
+        state->push();
+
+        const SoCoordinateElement* coords;
+        const SbVec3f* normals;
+        const int32_t* cindices;
+        const int32_t* nindices;
+        const int32_t* tindices;
+        const int32_t* mindices;
+        int numcindices;
+        SbBool normalCacheUsed;
+
+        // We request normals (true) because default lines need them for lighting
+        this->getVertexData(
+            state,
+            coords,
+            normals,
+            cindices,
+            nindices,
+            tindices,
+            mindices,
+            numcindices,
+            true,
+            normalCacheUsed
+        );
+
+        const SbVec3f* coords3d = coords->getArrayPtr3();
+
+        // Apply the default material settings (Standard Lighting/Material)
+        // This ensures default lines look correct (e.g. Black)
+        SoMaterialBundle mb(action);
+        mb.sendFirst();
+
+        // We will collect highlighted segments to render them in a second pass
+        // so we don't have to switch GL state constantly.
+        struct HighlightSegment
+        {
+            int startIndex;
+            Base::Color color;
+        };
+        std::vector<HighlightSegment> highlights;
+
+        int linecount = 0;
+        int i = 0;
+
+        // --- PASS 1: Render Default Lines (Lit) ---
+        while (i < numcindices) {
+            int startIndex = i;
+
+            // Check if this line index has an override color
+            const Base::Color* pColor = nullptr;
+            auto it = ctx2->colors.find(linecount);
+            if (it != ctx2->colors.end()) {
+                pColor = &it->second;
+            }
+            else {
+                // Check for wildcard color
+                auto it_all = ctx2->colors.find(-1);
+                if (it_all != ctx2->colors.end()) {
+                    pColor = &it_all->second;
+                }
+            }
+
+            if (pColor) {
+                // This is a highlighted line. Save it for Pass 2.
+                highlights.push_back({startIndex, *pColor});
+
+                // Skip over the indices for this line
+                while (i < numcindices && cindices[i] >= 0) {
+                    i++;
+                }
+                i++;  // skip the -1 separator
+            }
+            else {
+                // This is a default line. Render immediately with current (Lit) state.
+                glBegin(GL_LINE_STRIP);
+                while (i < numcindices) {
+                    int32_t idx = cindices[i++];
+                    if (idx < 0) {
+                        break;
+                    }
+
+                    if (idx < coords->getNum()) {
+                        if (normals) {
+                            glNormal3fv((const GLfloat*)(normals + idx));
+                        }
+                        glVertex3fv((const GLfloat*)(coords3d + idx));
+                    }
+                }
+                glEnd();
+            }
+            linecount++;
+        }
+
+        // --- PASS 2: Render Highlighted Lines (Unlit) ---
+        if (!highlights.empty()) {
+            // Disable lighting and textures so the color is flat and bright
+            glPushAttrib(GL_LIGHTING_BIT | GL_CURRENT_BIT | GL_ENABLE_BIT);
+            glDisable(GL_LIGHTING);
+            glDisable(GL_TEXTURE_2D);
+
+            for (const auto& segment : highlights) {
+                // Apply the explicit color from the map
+                // Note: FreeCAD Base::Color transparency is 0.0 (opaque) to 1.0 (transparent)
+                // OpenGL Alpha is 1.0 (opaque) to 0.0 (transparent)
+                glColor4f(segment.color.r, segment.color.g, segment.color.b, 1.0f - segment.color.a);
+
+                glBegin(GL_LINE_STRIP);
+                int j = segment.startIndex;
+                while (j < numcindices) {
+                    int32_t idx = cindices[j++];
+                    if (idx < 0) {
+                        break;
+                    }
+
+                    if (idx < coords->getNum()) {
+                        glVertex3fv((const GLfloat*)(coords3d + idx));
+                    }
+                }
+                glEnd();
+            }
+            glPopAttrib();
+        }
+
+        // Do NOT call inherited::GLRender(action). We have handled all rendering manually.
+        state->pop();
+        return;
+    }
+
+    if (ctx && ctx->highlightIndex == std::numeric_limits<int>::max()) {
+        if (ctx->selectionIndex.empty() || ctx->isSelectAll()) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             if (ctx2) {
                 ctx2->selectionColor = ctx->highlightColor;
                 renderSelection(action, ctx2);

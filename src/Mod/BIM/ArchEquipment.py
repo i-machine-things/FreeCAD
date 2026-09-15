@@ -54,6 +54,7 @@ else:
     # \endcond
 
 
+<<<<<<< HEAD
 if FreeCAD.GuiUp:
 
     class EquipmentTaskPanel(ArchComponent.ComponentOptionsTaskPanel):
@@ -67,6 +68,8 @@ if FreeCAD.GuiUp:
             super().__init__(obj, property_definitions)
 
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 class _Equipment(ArchComponent.Component):
     "The Equipment object"
 

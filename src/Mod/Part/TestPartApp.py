@@ -37,8 +37,11 @@ from parttests.regression_tests import RegressionTests
 from parttests.TopoShapeListTest import TopoShapeListTest
 from parttests.TopoShapeTest import TopoShapeTest
 from parttests.TestPartMirror import TestPartMirroringRegression
+<<<<<<< HEAD
 from parttests.TestFaceMakerUnifiedPlanar import *
 from parttests.TestFaceMakerUnifiedNonPlanar import *
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 
 # ---------------------------------------------------------------------------
@@ -1262,6 +1265,7 @@ class PartExtrusionTests(unittest.TestCase):
 
     def tearDown(self):
         FreeCAD.closeDocument("PartExtrusionTest")
+<<<<<<< HEAD
 
 
 class PartFaceMakerBuildFaceTests(unittest.TestCase):
@@ -1319,3 +1323,5 @@ class PartFaceMakerBuildFaceTests(unittest.TestCase):
             2,
             f"Expected >=2 faces in InternalShape, got {len(sk.InternalShape.Faces)}",
         )
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

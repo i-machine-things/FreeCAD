@@ -329,6 +329,13 @@ void TaskHoleParameters::holeTypeChanged(int index)
 
     ui->ThreadGroupBox->setVisible(isModeled || isCosmetic);
 
+<<<<<<< HEAD
+=======
+    ui->ThreadFit->setHidden(isThreaded);
+    ui->labelThreadClearance->setHidden(isThreaded);
+
+    ui->ThreadGroupBox->setVisible(isThreaded);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // update view not active if modeling threads
     // this will also ensure that the feature is recomputed.
     ui->UpdateView->setVisible(isModeled);
@@ -338,7 +345,11 @@ void TaskHoleParameters::holeTypeChanged(int index)
     ui->CustomClearanceWidget->setVisible(isModeled);
     ui->CustomThreadClearance->setEnabled(pcHole->UseCustomThreadClearance.getValue());
 
+<<<<<<< HEAD
     ui->ThreadDepthWidget->setVisible(isModeled || isCosmetic);
+=======
+    ui->ThreadDepthWidget->setVisible(isThreaded);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     ui->ThreadDepthDimensionWidget->setVisible(
         std::string(pcHole->ThreadDepthType.getValueAsString()) == "Dimension"
     );

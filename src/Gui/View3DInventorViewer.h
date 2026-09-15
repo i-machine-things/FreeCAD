@@ -703,7 +703,10 @@ private:
     // stuff needed to draw the fps counter
     bool fpsEnabled;
     QLabel* fpsCounter = nullptr;
+<<<<<<< HEAD
     QTimer* fpsUpdateTimer = nullptr;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     unsigned long previousAxisLetterColor = 0;
     bool vboEnabled;
     bool naviCubeEnabled;

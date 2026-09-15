@@ -227,6 +227,7 @@ void MeasureBase::onDocumentRestored()
     recompute();
 }
 
+<<<<<<< HEAD
 bool Measure::isDatum(const App::DocumentObject& ob)
 {
     if (!ob.isValid()) {
@@ -235,6 +236,8 @@ bool Measure::isDatum(const App::DocumentObject& ob)
     return ob.isDerivedFrom<App::DatumElement>() || ob.isDerivedFrom<Part::Datum>();
 }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 // Python Drawing feature ---------------------------------------------------------
 
 namespace App

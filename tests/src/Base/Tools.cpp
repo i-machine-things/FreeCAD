@@ -124,6 +124,7 @@ TEST(BaseToolsSuite, TestEscapeEncodeString)
     EXPECT_EQ(Base::Tools::escapeEncodeString("a\rb"), "a\\rb");
     EXPECT_EQ(Base::Tools::escapeEncodeString("plain"), "plain");
 }
+<<<<<<< HEAD
 
 TEST(BaseToolsSuite, TestEscapeEncodeFilename)
 {
@@ -139,6 +140,8 @@ TEST(BaseToolsSuite, TestCurrentDateTimeStringUtcIso)
     static const std::regex re("^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$");
     EXPECT_TRUE(std::regex_match(s, re));
 }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 TEST(BaseToolsSuite, TestGetIdentifier)
 {
     // ASCII and edge cases

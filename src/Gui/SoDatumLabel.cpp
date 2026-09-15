@@ -133,6 +133,7 @@ void appendArrowTriangle(
     SbVec3f unitDir = dir;
     unitDir.normalize();
 
+<<<<<<< HEAD
     const SbVec3f normal(unitDir[1], -unitDir[0], 0);
     const SbVec3f arrowLeft = base - length * unitDir + width * normal;
     const SbVec3f arrowRight = base - length * unitDir - width * normal;
@@ -141,6 +142,14 @@ void appendArrowTriangle(
     vertices.push_back(withZ(arrowLeft, ZARROW_TEXT_OFFSET));
     vertices.push_back(withZ(arrowRight, ZARROW_TEXT_OFFSET));
     counts.push_back(3);
+=======
+    // Draw arrowheads at elevated Z to render ON TOP of geometry lines
+    glBegin(GL_TRIANGLES);
+    glVertex3f(base[0], base[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(arrowLeft[0], arrowLeft[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(arrowRight[0], arrowRight[1], ZARROW_TEXT_OFFSET);
+    glEnd();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 
@@ -1612,11 +1621,33 @@ bool SoDatumLabel::prepareRenderScene(SoState* state)
     }
 
     const SbVec3f* points = this->pnts.getValues(0);
+<<<<<<< HEAD
     const auto type = static_cast<Type>(datumtype.getValue());
     const int numPoints = this->pnts.getNum();
     const bool isDistance = type == DISTANCE || type == DISTANCEX || type == DISTANCEY;
     if (isDistance && numPoints < 2) {
         SoDebugError::postWarning("SoDatumLabel::GLRender", "Too few points to render distance label");
+=======
+
+    state->push();
+
+    // Set General OpenGL Properties
+    glPushAttrib(GL_ENABLE_BIT | GL_PIXEL_MODE_BIT | GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glDisable(GL_LIGHTING);
+    glDisable(GL_CULL_FACE);
+
+    // Enable depth testing so constraint lines use the sketch-local Z carried by their
+    // input points. That keeps them above coplanar model geometry while still rendering
+    // below sketch elements in the normal scene.
+    glEnable(GL_DEPTH_TEST);
+
+    // Enable Anti-alias
+    if (action->isSmoothing()) {
+        glEnable(GL_LINE_SMOOTH);
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        glHint(GL_LINE_SMOOTH_HINT, GL_NICEST);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
 
     ensureCoinGeometry(points, numPoints);
@@ -1726,6 +1757,327 @@ void SoDatumLabel::getDimension(float scale, int& srcw, int& srch)
     this->imgWidth = aspectRatio * (float)this->imgHeight;
 }
 
+<<<<<<< HEAD
+=======
+void SoDatumLabel::drawDistance(const SbVec3f* points, float& angle, SbVec3f& textOffset)
+{
+    SoDatumLabel::DistanceGeometry geom = this->calculateDistanceGeometry(points);
+
+    angle = geom.angle;
+    textOffset = geom.textOffset;
+
+    // Get the colour
+    const SbColor& t = textColor.getValue();
+
+    // Set GL Properties
+    glLineWidth(this->lineWidth.getValue());
+    glColor3f(t[0], t[1], t[2]);
+
+    // Perp Lines
+    glBegin(GL_LINES);
+    if (this->param1.getValue() != 0.) {
+        glVertex(geom.p1);
+        glVertex(geom.perp1);
+
+        glVertex(geom.p2);
+        glVertex(geom.perp2);
+    }
+
+    glVertex(geom.par1);
+    glVertex(geom.par2);
+
+    glVertex(geom.par3);
+    glVertex(geom.par4);
+    glEnd();
+
+    // Draw the arrowheads at elevated Z to render ON TOP of geometry lines
+    glBegin(GL_TRIANGLES);
+    glVertex3f(geom.par1[0], geom.par1[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar1[0], geom.ar1[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar2[0], geom.ar2[1], ZARROW_TEXT_OFFSET);
+
+    glVertex3f(geom.par4[0], geom.par4[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar3[0], geom.ar3[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar4[0], geom.ar4[1], ZARROW_TEXT_OFFSET);
+    glEnd();
+
+    if (this->datumtype.getValue() == DISTANCE) {
+        drawDistance(points);
+    }
+}
+
+void SoDatumLabel::drawDistance(const SbVec3f* points)
+{
+    // Draw arc helpers if needed
+    float range1 = this->param4.getValue();
+    if (range1 != 0.0) {
+        float startAngle1 = this->param3.getValue();
+        float radius1 = this->param5.getValue();
+        SbVec3f center1 = points[2];
+        glDrawArc(center1, radius1, startAngle1, startAngle1 + range1);
+    }
+
+    float range2 = this->param7.getValue();
+    if (range2 != 0.0) {
+        float startAngle2 = this->param6.getValue();
+        float radius2 = this->param8.getValue();
+        SbVec3f center2 = points[3];
+        glDrawArc(center2, radius2, startAngle2, startAngle2 + range2);
+    }
+}
+
+void SoDatumLabel::drawRadiusOrDiameter(const SbVec3f* points, float& angle, SbVec3f& textOffset)
+{
+    // Use shared geometry calculation
+    DiameterGeometry geom = calculateDiameterGeometry(points);
+
+    angle = geom.angle;
+    textOffset = geom.textOffset;
+
+    // Draw the Lines
+    glBegin(GL_LINES);
+    glVertex(geom.p1);
+    glVertex(geom.pnt1);
+
+    glVertex(geom.pnt2);
+    glVertex(geom.p2);
+    glEnd();
+
+    // Draw arrowhead at elevated Z to render ON TOP of geometry lines
+    glBegin(GL_TRIANGLES);
+    glVertex3f(geom.ar0[0], geom.ar0[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar1[0], geom.ar1[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar2[0], geom.ar2[1], ZARROW_TEXT_OFFSET);
+    glEnd();
+
+    if (geom.isDiameter) {
+        // Draw second arrowhead at elevated Z
+        glBegin(GL_TRIANGLES);
+        glVertex3f(geom.ar0_1[0], geom.ar0_1[1], ZARROW_TEXT_OFFSET);
+        glVertex3f(geom.ar1_1[0], geom.ar1_1[1], ZARROW_TEXT_OFFSET);
+        glVertex3f(geom.ar2_1[0], geom.ar2_1[1], ZARROW_TEXT_OFFSET);
+        glEnd();
+    }
+
+    // Draw arc helpers if needed
+    if (geom.startRange != 0.0) {
+        glDrawArc(geom.center, geom.radius, geom.startAngle, geom.startAngle + geom.startRange);
+    }
+
+    if (geom.endRange != 0.0) {
+        glDrawArc(geom.center, geom.radius, geom.endAngle, geom.endAngle + geom.endRange);
+    }
+}
+
+void SoDatumLabel::drawAngle(const SbVec3f* points, float& angle, SbVec3f& textOffset)
+{
+    // use shared geometry calculation
+    AngleGeometry geom = calculateAngleGeometry(points);
+
+    angle = geom.angle;
+    textOffset = geom.textOffset;
+
+    // draw arc segments
+    glDrawArc(geom.p0, geom.r, geom.startangle, geom.startangle + geom.range / 2.0 - geom.textMargin);
+    glDrawArc(geom.p0, geom.r, geom.startangle + geom.range / 2.0 + geom.textMargin, geom.endangle);
+
+    // draw extension lines
+    glDrawLine(geom.pnt1, geom.pnt2);
+    glDrawLine(geom.pnt3, geom.pnt4);
+
+    // draw arrowheads
+    glDrawArrow(geom.startArrowBase, geom.dirStart, geom.arrowWidth, geom.arrowLength);
+    glDrawArrow(geom.endArrowBase, geom.dirEnd, geom.arrowWidth, geom.arrowLength);
+}
+
+void SoDatumLabel::drawSymmetric(const SbVec3f* points)
+{
+    // use shared geometry calculation
+    SymmetricGeometry geom = calculateSymmetricGeometry(points);
+
+    // draw first constraint line (at constraint Z)
+    glBegin(GL_LINES);
+    glVertex3f(geom.p1[0], geom.p1[1], ZCONSTR);
+    glVertex3f(geom.ar0[0], geom.ar0[1], ZCONSTR);
+    glEnd();
+
+    // draw first arrowhead at elevated Z to render ON TOP of geometry lines
+    glBegin(GL_LINES);
+    glVertex3f(geom.ar0[0], geom.ar0[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar1[0], geom.ar1[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar0[0], geom.ar0[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar2[0], geom.ar2[1], ZARROW_TEXT_OFFSET);
+    glEnd();
+
+    // draw second constraint line (at constraint Z)
+    glBegin(GL_LINES);
+    glVertex3f(geom.p2[0], geom.p2[1], ZCONSTR);
+    glVertex3f(geom.ar3[0], geom.ar3[1], ZCONSTR);
+    glEnd();
+
+    // draw second arrowhead at elevated Z to render ON TOP of geometry lines
+    glBegin(GL_LINES);
+    glVertex3f(geom.ar3[0], geom.ar3[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar4[0], geom.ar4[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar3[0], geom.ar3[1], ZARROW_TEXT_OFFSET);
+    glVertex3f(geom.ar5[0], geom.ar5[1], ZARROW_TEXT_OFFSET);
+    glEnd();
+}
+
+void SoDatumLabel::drawArcLength(const SbVec3f* points, float& angle, SbVec3f& textOffset)
+{
+    // use shared geometry calculation
+    ArcLengthGeometry geom = calculateArcLengthGeometry(points);
+
+    // set output parameters
+    angle = geom.angle;
+    textOffset = geom.textOffset;
+
+    // draw arc
+    glDrawArc(geom.arcCenter, geom.arcRadius, geom.startangle, geom.endangle);
+
+    // draw lines
+    glDrawLine(geom.pnt1, geom.pnt2);
+    glDrawLine(geom.pnt3, geom.pnt4);
+
+    // create the arrowheads
+    float arrowLength = geom.margin * 2;
+    float arrowWidth = geom.margin * 0.5F;
+
+    glDrawArrow(geom.pnt2, geom.dirStart, arrowWidth, arrowLength);
+    glDrawArrow(geom.pnt4, geom.dirEnd, arrowWidth, arrowLength);
+}
+
+// NOLINTNEXTLINE
+void SoDatumLabel::drawText(SoState* state, int srcw, int srch, float angle, const SbVec3f& textOffset)
+{
+    SbVec2s imgsize;
+    int nc {};
+    const unsigned char* dataptr = this->image.getValue(imgsize, nc);
+
+    // Get the camera z-direction
+    const SbViewVolume& vv = SoViewVolumeElement::get(state);
+    SbVec3f z = vv.zVector();
+
+    bool flip = norm.getValue().dot(z) > std::numeric_limits<float>::epsilon();
+
+    static bool init = false;
+    static bool npot = false;
+    if (!init) {
+        init = true;
+        std::string ext = reinterpret_cast<const char*>(glGetString(GL_EXTENSIONS));  // NOLINT
+        npot = (ext.find("GL_ARB_texture_non_power_of_two") != std::string::npos);
+    }
+
+    int w = srcw;
+    int h = srch;
+    if (!npot) {
+        // make power of two
+        if ((w & (w - 1)) != 0) {
+            int i = 1;
+            while (i < 8) {
+                if ((w >> i) == 0) {
+                    break;
+                }
+                i++;
+            }
+            w = (1 << i);
+        }
+        // make power of two
+        if ((h & (h - 1)) != 0) {
+            int i = 1;
+            while (i < 8) {
+                if ((h >> i) == 0) {
+                    break;
+                }
+                i++;
+            }
+            h = (1 << i);
+        }
+    }
+
+    glDisable(GL_DEPTH_TEST);
+    glEnable(GL_TEXTURE_2D);  // Enable Textures
+    glEnable(GL_BLEND);
+
+    // glGenTextures/glBindTexture was commented out but it must be active, see:
+    // #0000971: Tracing over a background image in Sketcher: image is overwritten by first
+    // dimensional constraint text #0001185: Planer image changes to number graphic when a part
+    // design constraint is made after the planar image
+    //
+    // Copy the text bitmap into memory and bind
+    GLuint myTexture {};
+    // generate a texture
+    glGenTextures(1, &myTexture);
+    glBindTexture(GL_TEXTURE_2D, myTexture);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+
+    if (!npot) {
+        QImage imagedata(w, h, QImage::Format_ARGB32_Premultiplied);
+        imagedata.fill(0x00000000);
+        int sx = (w - srcw) / 2;
+        int sy = (h - srch) / 2;
+        glTexImage2D(
+            GL_TEXTURE_2D,
+            0,
+            nc,
+            w,
+            h,
+            0,
+            GL_RGBA,
+            GL_UNSIGNED_BYTE,
+            (const GLvoid*)imagedata.bits()
+        );
+        glTexSubImage2D(
+            GL_TEXTURE_2D,
+            0,
+            sx,
+            sy,
+            srcw,
+            srch,
+            GL_RGBA,
+            GL_UNSIGNED_BYTE,
+            (const GLvoid*)dataptr
+        );
+    }
+    else {
+        glTexImage2D(GL_TEXTURE_2D, 0, nc, srcw, srch, 0, GL_RGBA, GL_UNSIGNED_BYTE, (const GLvoid*)dataptr);
+    }
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    glMatrixMode(GL_MODELVIEW);
+    glPushMatrix();
+
+    // Apply a rotation and translation matrix
+    glTranslatef(textOffset[0], textOffset[1], textOffset[2]);
+    glRotatef(Base::toDegrees<GLfloat>(angle), 0, 0, 1);
+    glBegin(GL_QUADS);
+
+    glColor3f(1.F, 1.F, 1.F);
+
+    glTexCoord2f(flip ? 0.F : 1.F, 1.F);
+    glVertex2f(-this->imgWidth / 2, this->imgHeight / 2);
+    glTexCoord2f(flip ? 0.F : 1.F, 0.F);
+    glVertex2f(-this->imgWidth / 2, -this->imgHeight / 2);
+    glTexCoord2f(flip ? 1.F : 0.F, 0.F);
+    glVertex2f(this->imgWidth / 2, -this->imgHeight / 2);
+    glTexCoord2f(flip ? 1.F : 0.F, 1.F);
+    glVertex2f(this->imgWidth / 2, this->imgHeight / 2);
+
+    glEnd();
+
+    // Reset the Mode
+    glPopMatrix();
+
+    // wmayer: see bug report below which is caused by generating but not
+    // deleting the texture.
+    // #0000721: massive memory leak when dragging an unconstrained model
+    glDeleteTextures(1, &myTexture);
+}
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 void SoDatumLabel::setPoints(SbVec3f p1, SbVec3f p2)
 {
     pnts.setNum(2);

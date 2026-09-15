@@ -200,7 +200,10 @@ class Arch_Window:
 
         SketchArch = False
 
+<<<<<<< HEAD
         self.wp._restore()
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         FreeCAD.activeDraftCommand = None
         FreeCADGui.Snapper.off()
         self.tracker.off()

@@ -580,11 +580,16 @@ def add_object(document, otype=None, oname="IfcObject"):
             obj.ViewObject.ShowLabel = False
             obj.ViewObject.Proxy = ifc_viewproviders.ifc_vp_buildingpart(obj.ViewObject)
             obj.ViewObject.Proxy.attach(obj.ViewObject)
+<<<<<<< HEAD
         for p in list(obj.PropertiesList):
             group = obj.getGroupOfProperty(p)
             if group == "IFC Attributes" or group == "Children":
                 obj.removeProperty(p)
             elif (group == "BuildingPart") and (p not in PRESERVED_BUILDINGPART_PROPERTIES):
+=======
+        for p in obj.PropertiesList:
+            if obj.getGroupOfProperty(p) in ["BuildingPart", "IFC Attributes", "Children"]:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 obj.removeProperty(p)
         obj.Proxy = ifc_objects.ifc_object(otype)
     else:  # default case, standard IFC object

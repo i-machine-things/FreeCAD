@@ -877,37 +877,61 @@
       <location filename="../../AttacherTexts.cpp" line="170"/>
       <source>Align XY-plane to osculating circle of an edge. Optional vertex link defines where.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>Centro del circulo osculador de una arista. Enlace opcional del vértice define dónde.</translation>
+=======
+      <translation type="unfinished">Align XY-plane to osculating circle of an edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="189"/>
       <source>XY-plane by 3 points</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>Plano XY por 3 puntos</translation>
+=======
+      <translation type="unfinished">XY-plane by 3 points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="190"/>
       <source>Align XY-plane to pass through three vertices.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>Alinea el plano XY para que pase por tres vértices.</translation>
+=======
+      <translation type="unfinished">Align XY-plane to pass through three vertices.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="198"/>
       <source>XZ-plane by 3 points</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>Plano XZ por 3 puntos</translation>
+=======
+      <translation type="unfinished">XZ-plane by 3 points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="199"/>
       <source>Align XZ-plane to pass through 3 points; X axis will pass through two first points.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>Alinea el plano XZ para que pase por 3 puntos; el eje X pasará por los dos primeros puntos.</translation>
+=======
+      <translation type="unfinished">Align XZ-plane to pass through 3 points; X axis will pass through two first points.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="209"/>
       <source>Specialty mode for folding polyhedra. Select 4 edges in order: foldable edge, fold line, other fold line, other foldable edge. XY-plane will be aligned to folding the first edge.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>Modo especial para el plegado de poliedros. Seleccione 4 aristas en orden: arista plegable, línea de plegado, otra línea de plegado, otra arista plegable. El plano XY se alineará con la primera arista plegada.</translation>
+=======
+      <translation type="unfinished">Specialty mode for folding polyhedra. Select 4 edges in order: foldable edge, fold line, other fold line, other foldable edge. XY-plane will be aligned to folding the first edge.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="219"/>
@@ -1174,22 +1198,38 @@
   <context>
     <name>CmdBoxSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2394"/>
+=======
+      <location filename="../../Command.cpp" line="2407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2395"/>
+=======
+      <location filename="../../Command.cpp" line="2408"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Box Selection</source>
       <translation>Selección de caja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2396"/>
+=======
+      <location filename="../../Command.cpp" line="2409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects elements in the 3D view using a box selection</source>
       <translation>Selecciona elementos en la vista 3D mediante una caja de selección</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2398"/>
+=======
+      <location filename="../../Command.cpp" line="2411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Box selection</source>
       <translation>Cuadro de selección</translation>
     </message>
@@ -1197,17 +1237,29 @@
   <context>
     <name>CmdCheckGeometry</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2316"/>
+=======
+      <location filename="../../Command.cpp" line="2329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2317"/>
+=======
+      <location filename="../../Command.cpp" line="2330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check Geometry</source>
       <translation>Comprobar geometría</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2318"/>
+=======
+      <location filename="../../Command.cpp" line="2331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analyzes the selected shapes for errors</source>
       <translation>Analiza las formas seleccionadas en busca de errores</translation>
     </message>
@@ -1215,17 +1267,29 @@
   <context>
     <name>CmdColorPerFace</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2350"/>
+=======
+      <location filename="../../Command.cpp" line="2363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2351"/>
+=======
+      <location filename="../../Command.cpp" line="2364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Appearance per &amp;Face</source>
       <translation>Apariencia por &amp;cara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2352"/>
+=======
+      <location filename="../../Command.cpp" line="2365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the appearance of individual faces of the selected object</source>
       <translation>Establece la apariencia de las caras individuales del objeto seleccionado</translation>
     </message>
@@ -1233,11 +1297,382 @@
   <context>
     <name>CmdPartBoolean</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1403"/>
+=======
+      <location filename="../../Command.cpp" line="1416"/>
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+      <location filename="../../Command.cpp" line="1417"/>
+      <source>Boolean Operation</source>
+      <translation>Operación Booleana</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1418"/>
+      <source>Applies a boolean operations with the selected shapes</source>
+      <translation type="unfinished">Applies a boolean operations with the selected shapes</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartBox</name>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="113"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="114"/>
+      <location filename="../../CommandParametric.cpp" line="125"/>
+      <location filename="../../CommandParametric.cpp" line="130"/>
+      <source>Cube</source>
+      <translation>Cubo</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="115"/>
+      <source>Creates a solid cube</source>
+      <translation type="unfinished">Creates a solid cube</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartBox2</name>
+    <message>
+      <location filename="../../Command.cpp" line="133"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="134"/>
+      <source>Box Fix 1</source>
+      <translation type="unfinished">Box Fix 1</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="135"/>
+      <source>Creates a solid box</source>
+      <translation type="unfinished">Creates a solid box</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartBox3</name>
+    <message>
+      <location filename="../../Command.cpp" line="176"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="177"/>
+      <source>Box Fix 2</source>
+      <translation type="unfinished">Box Fix 2</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="178"/>
+      <source>Creates a solid box</source>
+      <translation type="unfinished">Creates a solid box</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartBuilder</name>
+    <message>
+      <location filename="../../Command.cpp" line="1715"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1716"/>
+      <source>Shape Builder</source>
+      <translation type="unfinished">Shape Builder</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1718"/>
+      <source>Advanced utility to create shapes</source>
+      <translation>Utilidad avanzada para crear formas</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartChamfer</name>
+    <message>
+      <location filename="../../Command.cpp" line="1620"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1621"/>
+      <source>Chamfer</source>
+      <translation>Bisel</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1622"/>
+      <source>Chamfers the selected edges of a shape</source>
+      <translation>Bisela las aristas seleccionadas de una forma</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCommon</name>
+    <message>
+      <location filename="../../Command.cpp" line="390"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="391"/>
+      <source>Intersection</source>
+      <translation>Intersección</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="392"/>
+      <source>Intersects the selected shapes</source>
+      <translation type="unfinished">Intersects the selected shapes</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCompCompoundTools</name>
+    <message>
+      <location filename="../../Command.cpp" line="817"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="818"/>
+      <source>Compound Tools</source>
+      <translation type="unfinished">Compound Tools</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="819"/>
+      <source>Compound tools for working with multiple shapes</source>
+      <translation type="unfinished">Compound tools for working with multiple shapes</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCompJoinFeatures</name>
+    <message>
+      <location filename="../../Command.cpp" line="568"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="569"/>
+      <source>Join Shapes</source>
+      <translation type="unfinished">Join Shapes</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="571"/>
+      <source>Joins the selected walled shapes</source>
+      <translation type="unfinished">Joins the selected walled shapes</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCompOffset</name>
+    <message>
+      <location filename="../../Command.cpp" line="1936"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1937"/>
+      <source>Offset</source>
+      <translation>Desfase</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1938"/>
+      <source>Tools to offset shapes (construct parallel shapes)</source>
+      <translation>Herramientas para desfasar formas (construir formas paralelas)</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCompSplitFeatures</name>
+    <message>
+      <location filename="../../Command.cpp" line="682"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="683"/>
+      <source>Split Shapes</source>
+      <translation type="unfinished">Split Shapes</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="685"/>
+      <source>Shape splitting and compsolid creation tools</source>
+      <translation type="unfinished">Shape splitting and compsolid creation tools</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCompound</name>
+    <message>
+      <location filename="../../Command.cpp" line="934"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="935"/>
+      <source>Compound</source>
+      <translation>Compuesto</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="936"/>
+      <source>Compounds the selected shapes</source>
+      <translation type="unfinished">Compounds the selected shapes</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCone</name>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="201"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="202"/>
+      <location filename="../../CommandParametric.cpp" line="213"/>
+      <location filename="../../CommandParametric.cpp" line="218"/>
+      <source>Cone</source>
+      <translation>Cono</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="203"/>
+      <source>Creates a solid cone</source>
+      <translation type="unfinished">Creates a solid cone</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCrossSections</name>
+    <message>
+      <location filename="../../Command.cpp" line="1676"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1677"/>
+      <source>Cross-Sections</source>
+      <translation type="unfinished">Cross-Sections</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1678"/>
+      <source>Creates cross-sections</source>
+      <translation type="unfinished">Creates cross-sections</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCut</name>
+    <message>
+      <location filename="../../Command.cpp" line="314"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="315"/>
+      <source>Cut</source>
+      <translation>Cortar</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="316"/>
+      <source>Cuts 2 selected shapes</source>
+      <translation type="unfinished">Cuts 2 selected shapes</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartCylinder</name>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="69"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="70"/>
+      <location filename="../../CommandParametric.cpp" line="81"/>
+      <location filename="../../CommandParametric.cpp" line="86"/>
+      <source>Cylinder</source>
+      <translation>Cilindro</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="71"/>
+      <source>Creates a solid cylinder</source>
+      <translation type="unfinished">Creates a solid cylinder</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartDefeaturing</name>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="460"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="461"/>
+      <source>Defeaturing</source>
+      <translation>Herramienta de reparación/edición para eliminar características de objetos</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="462"/>
+      <source>Removes the selected features from a shape</source>
+      <translation type="unfinished">Removes the selected features from a shape</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartElementCopy</name>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="357"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="358"/>
+      <source>Shape Element Copy</source>
+      <translation>Copia de elemento de forma</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="359"/>
+      <source>Creates a non-parametric copy of the selected shape element</source>
+      <translation type="unfinished">Creates a non-parametric copy of the selected shape element</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartExport</name>
+    <message>
+      <location filename="../../Command.cpp" line="1140"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1141"/>
+      <source>Export CAD File</source>
+      <translation>Exportar archivo CAD</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1143"/>
+      <source>Exports to a CAD file</source>
+      <translation>Exporta a un archivo CAD</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartExtrude</name>
+    <message>
+      <location filename="../../Command.cpp" line="1448"/>
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1449"/>
+      <source>Extrude</source>
+      <translation>Extruir</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1450"/>
+      <source>Extrudes the selected sketch or profile</source>
+      <translation>Extruye el croquis o perfil seleccionado</translation>
+    </message>
+  </context>
+  <context>
+    <name>CmdPartFillet</name>
+    <message>
+      <location filename="../../Command.cpp" line="1592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
+      <source>Part</source>
+      <translation>Pieza</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1404"/>
       <source>Boolean Operation</source>
       <translation>Operación Booleana</translation>
@@ -1602,11 +2037,18 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="1580"/>
+=======
+      <location filename="../../Command.cpp" line="1593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillet</source>
       <translation>Redondeo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1581"/>
+=======
+      <location filename="../../Command.cpp" line="1594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillets the selected edges of a shape</source>
       <translation>Redondea los bordes seleccionados de una forma</translation>
     </message>
@@ -1650,17 +2092,29 @@
   <context>
     <name>CmdPartImportCurveNet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1188"/>
+=======
+      <location filename="../../Command.cpp" line="1196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1189"/>
+=======
+      <location filename="../../Command.cpp" line="1197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Curve Network</source>
       <translation>Importa una curva de red</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1191"/>
+=======
+      <location filename="../../Command.cpp" line="1199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imports a curve network</source>
       <translation>Importa una curva de red</translation>
     </message>
@@ -1668,17 +2122,29 @@
   <context>
     <name>CmdPartLoft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1732"/>
+=======
+      <location filename="../../Command.cpp" line="1745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1733"/>
+=======
+      <location filename="../../Command.cpp" line="1746"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loft</source>
       <translation>Puente</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1734"/>
+=======
+      <location filename="../../Command.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lofts the selected profiles</source>
       <translation type="unfinished">Lofts the selected profiles</translation>
     </message>
@@ -1686,17 +2152,29 @@
   <context>
     <name>CmdPartMakeFace</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1492"/>
+=======
+      <location filename="../../Command.cpp" line="1505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1493"/>
+=======
+      <location filename="../../Command.cpp" line="1506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face From Wires</source>
       <translation>Cara desde alambres</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1494"/>
+=======
+      <location filename="../../Command.cpp" line="1507"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a face from the selected wires (e.g. from a sketch)</source>
       <translation>Crea una cara a partir de los alambres seleccionados (p. ej., a partir de un croquis)</translation>
     </message>
@@ -1704,17 +2182,29 @@
   <context>
     <name>CmdPartMakeSolid</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1241"/>
+=======
+      <location filename="../../Command.cpp" line="1256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1242"/>
+=======
+      <location filename="../../Command.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Convert to Solid</source>
       <translation>Convertir a sólido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1243"/>
+=======
+      <location filename="../../Command.cpp" line="1258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Converts the selected shell or compound to a solid</source>
       <translation>Convierte la cáscara o el compuesto seleccionado en un sólido</translation>
     </message>
@@ -1722,17 +2212,29 @@
   <context>
     <name>CmdPartMirror</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1635"/>
+=======
+      <location filename="../../Command.cpp" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1636"/>
+=======
+      <location filename="../../Command.cpp" line="1649"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirror</source>
       <translation>Espejo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1637"/>
+=======
+      <location filename="../../Command.cpp" line="1650"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirrors the selected shape</source>
       <translation>Refleja la forma seleccionada</translation>
     </message>
@@ -1740,17 +2242,29 @@
   <context>
     <name>CmdPartOffset</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1790"/>
+=======
+      <location filename="../../Command.cpp" line="1803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1791"/>
+=======
+      <location filename="../../Command.cpp" line="1804"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>3D Offset</source>
       <translation>Desplazamiento 3D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1792"/>
+=======
+      <location filename="../../Command.cpp" line="1805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offsets shapes in 3D</source>
       <translation>Desplazamientos de formas en 3D</translation>
     </message>
@@ -1758,17 +2272,29 @@
   <context>
     <name>CmdPartOffset2D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1857"/>
+=======
+      <location filename="../../Command.cpp" line="1870"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1858"/>
+=======
+      <location filename="../../Command.cpp" line="1871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Offset</source>
       <translation>Desplazamiento 2D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1859"/>
+=======
+      <location filename="../../Command.cpp" line="1872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offsets planar shapes in 2D</source>
       <translation>Desplaza formas planas en 2D</translation>
     </message>
@@ -1830,17 +2356,29 @@
   <context>
     <name>CmdPartProjectionOnSurface</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2424"/>
+=======
+      <location filename="../../Command.cpp" line="2437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2425"/>
+=======
+      <location filename="../../Command.cpp" line="2438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Project on Surface</source>
       <translation>Proyectar en superficie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2426"/>
+=======
+      <location filename="../../Command.cpp" line="2439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Projects edges, wires, or faces of one shape
 onto a face of another shape.
 The camera view determines the direction
@@ -1854,17 +2392,29 @@ de la proyección.</translation>
   <context>
     <name>CmdPartRefineShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="386"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="387"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Refine Shape</source>
       <translation>Redefine la forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="388"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a refined copy of the selected shapes</source>
       <translation>Crea una copia refinada de las formas seleccionadas</translation>
     </message>
@@ -1872,17 +2422,29 @@ de la proyección.</translation>
   <context>
     <name>CmdPartReverseShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1334"/>
+=======
+      <location filename="../../Command.cpp" line="1349"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1335"/>
+=======
+      <location filename="../../Command.cpp" line="1350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse Shapes</source>
       <translation>Formas inversas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1336"/>
+=======
+      <location filename="../../Command.cpp" line="1351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverses the orientation of the selected shapes</source>
       <translation>Invierte la orientación de las formas seleccionadas</translation>
     </message>
@@ -1890,17 +2452,29 @@ de la proyección.</translation>
   <context>
     <name>CmdPartRevolve</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1551"/>
+=======
+      <location filename="../../Command.cpp" line="1564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1552"/>
+=======
+      <location filename="../../Command.cpp" line="1565"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolve</source>
       <translation>Revolución</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1553"/>
+=======
+      <location filename="../../Command.cpp" line="1566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolves the selected shape</source>
       <translation>Gira la forma seleccionada</translation>
     </message>
@@ -1908,17 +2482,29 @@ de la proyección.</translation>
   <context>
     <name>CmdPartRuledSurface</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2172"/>
+=======
+      <location filename="../../Command.cpp" line="2185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2173"/>
+=======
+      <location filename="../../Command.cpp" line="2186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ruled Surface</source>
       <translation>Superficie reglada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2174"/>
+=======
+      <location filename="../../Command.cpp" line="2187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a ruled surface between 2 selected wires</source>
       <translation>Crea una superficie regida entre 2 alambres seleccionados</translation>
     </message>
@@ -1998,18 +2584,32 @@ de la proyección.</translation>
   <context>
     <name>CmdPartSphere</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="160"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="161"/>
       <location filename="../../CommandParametric.cpp" line="171"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="158"/>
+      <location filename="../../CommandParametric.cpp" line="169"/>
+      <location filename="../../CommandParametric.cpp" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sphere</source>
       <translation>Esfera</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="162"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a solid sphere</source>
       <translation>Crea una esfera sólida</translation>
     </message>
@@ -2017,17 +2617,29 @@ de la proyección.</translation>
   <context>
     <name>CmdPartSweep</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1761"/>
+=======
+      <location filename="../../Command.cpp" line="1774"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1762"/>
+=======
+      <location filename="../../Command.cpp" line="1775"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweep</source>
       <translation>Barrido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1763"/>
+=======
+      <location filename="../../Command.cpp" line="1776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweeps profiles along a wire</source>
       <translation>Barre perfiles a lo largo de un cable</translation>
     </message>
@@ -2035,27 +2647,47 @@ de la proyección.</translation>
   <context>
     <name>CmdPartThickness</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2025"/>
+=======
+      <location filename="../../Command.cpp" line="2038"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2026"/>
+=======
+      <location filename="../../Command.cpp" line="2039"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness</source>
       <translation>Espesor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2027"/>
+=======
+      <location filename="../../Command.cpp" line="2040"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes the selected faces and offsets the remaining shape outward to add thickness</source>
       <translation>Elimina las caras seleccionadas y desplaza la forma restante hacia afuera para añadir grosor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2086"/>
+=======
+      <location filename="../../Command.cpp" line="2099"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>Selección Incorrecta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2087"/>
+=======
+      <location filename="../../Command.cpp" line="2100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected shape is not a solid</source>
       <translation>La forma seleccionada no es sólida</translation>
     </message>
@@ -2063,18 +2695,32 @@ de la proyección.</translation>
   <context>
     <name>CmdPartTorus</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="248"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="249"/>
       <location filename="../../CommandParametric.cpp" line="259"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="246"/>
+      <location filename="../../CommandParametric.cpp" line="257"/>
+      <location filename="../../CommandParametric.cpp" line="262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Torus</source>
       <translation>Toroide</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="250"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a solid torus</source>
       <translation>Crea un toro sólido</translation>
     </message>
@@ -2082,17 +2728,29 @@ de la proyección.</translation>
   <context>
     <name>CmdPartTransformedCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="328"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="329"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transformed Copy</source>
       <translation>Copia transformada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="330"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a non-parametric copy with transformed placement of the selected shapes</source>
       <translation>Crea una copia no paramétrica con la disposición transformada de las formas seleccionadas</translation>
     </message>
@@ -2131,69 +2789,121 @@ de la proyección.</translation>
       <translation>Corte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1097"/>
+=======
+      <location filename="../../Command.cpp" line="1101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Part</source>
       <translation>Importar Parte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1214"/>
+=======
+      <location filename="../../Command.cpp" line="1225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Curve Net</source>
       <translation type="unfinished">Import Curve Net</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1348"/>
+=======
+      <location filename="../../Command.cpp" line="1363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse</source>
       <translation>Invertir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1511"/>
+=======
+      <location filename="../../Command.cpp" line="1524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make face</source>
       <translation>Hacer cara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1817"/>
+=======
+      <location filename="../../Command.cpp" line="1830"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Offset</source>
       <translation>Hacer desfase</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1885"/>
+=======
+      <location filename="../../Command.cpp" line="1898"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make 2D Offset</source>
       <translation>Hacer desfase 2D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2094"/>
+=======
+      <location filename="../../Command.cpp" line="2107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Thickness</source>
       <translation>Dar espesor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2283"/>
+=======
+      <location filename="../../Command.cpp" line="2296"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create ruled surface</source>
       <translation>Crear superficie reglada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2536"/>
+=======
+      <location filename="../../Command.cpp" line="2549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add coordinate system</source>
       <translation>Añadir sistema de coordenadas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2575"/>
+=======
+      <location filename="../../Command.cpp" line="2587"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add datum plane</source>
       <translation>Añadir plano de referencia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2609"/>
+=======
+      <location filename="../../Command.cpp" line="2620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add datum line</source>
       <translation>Añadir línea de referencia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2643"/>
+=======
+      <location filename="../../Command.cpp" line="2653"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add datum point</source>
       <translation>Añadir punto de referencia</translation>
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="70"/>
       <source>Create Cylinder</source>
+<<<<<<< HEAD
       <translation>Crear cilindro</translation>
+=======
+      <translation type="unfinished">Create Cylinder</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="200"/>
@@ -2201,27 +2911,47 @@ de la proyección.</translation>
       <translation>Puntos desde geometría</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="405"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Refine shape</source>
       <translation>Refinar forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="475"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="474"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defeaturing</source>
       <translation>Herramienta de reparación/edición para eliminar características de objetos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ShapeFromMesh.cpp" line="76"/>
+=======
+      <location filename="../../ShapeFromMesh.cpp" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Convert mesh</source>
       <translation>Convertir malla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1579"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit attachment</source>
       <translation>Editar adjunto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFaceAppearances.cpp" line="523"/>
+=======
+      <location filename="../../TaskFaceAppearances.cpp" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change face colors</source>
       <translation>Cambiar colores de cara</translation>
     </message>
@@ -2231,43 +2961,76 @@ de la proyección.</translation>
       <translation>Puente</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="266"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge</source>
       <translation>Arista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="308"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wire</source>
       <translation>Alambre</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="363"/>
       <location filename="../../TaskShapeBuilder.cpp" line="417"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="364"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="418"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Cara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="482"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="483"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shell</source>
       <translation>Carcasa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="540"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="541"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solid</source>
       <translation>Sólido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="417"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweep</source>
       <translation>Barrido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgProjectionOnSurface.cpp" line="1620"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="1603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Project on surface</source>
       <translation>Proyectar en superficie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirror.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit mirror</source>
       <translation>Editar reflejo</translation>
     </message>
@@ -2300,6 +3063,14 @@ de la proyección.</translation>
       <translation>Referencia 4</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="101"/>
+      <source>Attachment mode</source>
+      <translation>Modo de adjunción</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="124"/>
       <source>Attachment Offset in its Local Coordinate System</source>
       <translation>Desplazamiento del adjunto en su sistema de coordenadas local</translation>
@@ -2307,38 +3078,65 @@ de la proyección.</translation>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="235"/>
       <source>Around X-axis</source>
+<<<<<<< HEAD
       <translation>Alrededor del eje X</translation>
+=======
+      <translation type="unfinished">Around X-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="254"/>
       <source>Rotation around the X-axis
 Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>Rotación alrededor del eje X.
 Nota: La posición se expresa en el espacio local del objeto al que se adjunta.</translation>
+=======
+      <translation type="unfinished">Rotation around the X-axis
+Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="280"/>
       <source>Around Y-axis</source>
+<<<<<<< HEAD
       <translation>Alrededor del eje Y</translation>
+=======
+      <translation type="unfinished">Around Y-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="299"/>
       <source>Rotation around the Y-axis
 Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>Rotación alrededor del eje Y.
 Nota: La posición se expresa en el espacio local del objeto al que se adjunta.</translation>
+=======
+      <translation type="unfinished">Rotation around the Y-axis
+Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="325"/>
       <source>Around Z-axis</source>
+<<<<<<< HEAD
       <translation>Alrededor del eje Z</translation>
+=======
+      <translation type="unfinished">Around Z-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="344"/>
       <source>Rotation around the Z-axis
 Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>Rotación alrededor del eje Z.
 Nota: La posición se expresa en el espacio local del objeto al que se adjunta.</translation>
+=======
+      <translation type="unfinished">Rotation around the Z-axis
+Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="158"/>
@@ -2348,6 +3146,7 @@ Nota: La posición se expresa en el espacio local del objeto al que se adjunta.<
       <translation>Nota: La ubicación se expresa en el espacio local del objeto que se adjunta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="101"/>
       <source>Attachment Mode</source>
       <translation>Modo adjunto</translation>
@@ -2366,6 +3165,21 @@ Nota: La posición se expresa en el espacio local del objeto al que se adjunta.<
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="203"/>
       <source>In Z-direction</source>
       <translation>En dirección Z</translation>
+=======
+      <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="136"/>
+      <source>In X-direction</source>
+      <translation type="unfinished">In X-direction</translation>
+    </message>
+    <message>
+      <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="171"/>
+      <source>In Y-direction</source>
+      <translation type="unfinished">In Y-direction</translation>
+    </message>
+    <message>
+      <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="203"/>
+      <source>In Z-direction</source>
+      <translation type="unfinished">In Z-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="367"/>
@@ -2428,7 +3242,11 @@ Nota: La posición se expresa en el espacio local del objeto al que se adjunta.<
     <message>
       <location filename="../../CrossSections.cpp" line="341"/>
       <source>Cannot compute cross-sections</source>
+<<<<<<< HEAD
       <translation>No se pueden calcular las secciones transversales</translation>
+=======
+      <translation type="unfinished">Cannot compute cross-sections</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2542,7 +3360,11 @@ Nota: La posición se expresa en el espacio local del objeto al que se adjunta.<
   <context>
     <name>PartGui::DlgChamferEdges</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="1208"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chamfer Edges</source>
       <translation>Biselar Aristas</translation>
     </message>
@@ -2684,7 +3506,11 @@ el tamaño del archivo STEP resultante.</translation>
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="71"/>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="260"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select</source>
       <translation>Seleccionar</translation>
     </message>
@@ -2811,17 +3637,29 @@ Si ambas longitudes son cero, se utiliza la magnitud de la dirección.</translat
       <translation>Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="230"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selecting…</source>
       <translation>Seleccionar…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="506"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document '%1' doesn't exist.</source>
       <translation type="unfinished">The document '%1' doesn't exist.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="567"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creating extrusion failed.
 %1</source>
       <translation>Error al crear la extrusión.
@@ -2829,36 +3667,60 @@ Si ambas longitudes son cero, se utiliza la magnitud de la dirección.</translat
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="575"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creating Extrusion failed.
 %1</source>
       <translation>Error al crear la extrusión.
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="647"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object not found: %1</source>
       <translation>Objeto no encontrado: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="712"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No shapes selected for extrusion.</source>
       <translation>No se ha seleccionado ninguna forma para la extrusión.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="779"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot determine normal vector of shape to be extruded. Use other mode. 
 
 (%1)</source>
       <translation>No se puede determinar el vector normal de la forma que se va a extruir. Utilice otro modo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="732"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="729"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unknown error</source>
       <translation>Error desconocido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="739"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extrusion direction link is invalid.
 
 %1</source>
@@ -2867,17 +3729,29 @@ Si ambas longitudes son cero, se utiliza la magnitud de la dirección.</translat
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="746"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction mode is to use an edge, but no edge is linked.</source>
       <translation>El modo de dirección debe utilizar una arista, pero la arista no está vinculada.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="794"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="791"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extrusion direction vector is zero-length. It must be non-zero.</source>
       <translation>El vector de dirección de extrusión es de longitud cero. Debe ser distinto de cero.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="812"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total extrusion length is zero (length1 == -length2). It must be nonzero.</source>
       <translation>Longitud total de extrusión es cero (length1 == - length2). Esta debe ser distinta de cero.</translation>
     </message>
@@ -2955,12 +3829,24 @@ Si ambas longitudes son cero, se utiliza la magnitud de la dirección.</translat
       <translation>Tipo de chaflán</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="292"/>
+      <source>Length:</source>
+      <translation>Longitud:</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgFilletEdges.cpp" line="296"/>
       <source>Edges to chamfer</source>
       <translation>Aristas a bisel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="987"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="988"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start length</source>
       <translation>Longitud inicial</translation>
     </message>
@@ -3006,7 +3892,11 @@ Si ambas longitudes son cero, se utiliza la magnitud de la dirección.</translat
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="304"/>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="990"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start radius</source>
       <translation>Radio inicial</translation>
     </message>
@@ -3016,19 +3906,32 @@ Si ambas longitudes son cero, se utiliza la magnitud de la dirección.</translat
       <translation>Radio final</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="819"/>
       <location filename="../../DlgFilletEdges.cpp" line="882"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="820"/>
+      <location filename="../../DlgFilletEdges.cpp" line="883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge%1</source>
       <translation>Arista%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="292"/>
       <location filename="../../DlgFilletEdges.cpp" line="977"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="978"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <translation>Longitud</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="1040"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1041"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No valid shape is selected.
 Select a valid shape in the drop-down box first.</source>
       <translation>No se ha seleccionado ninguna forma válida.
@@ -3036,7 +3939,11 @@ Select a valid shape in the drop-down box first.</source>
 Primero, seleccione una forma válida en el menú desplegable.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="1098"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1099"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No edge entity is checked to fillet.
 Check one or more edge entities first.</source>
       <translation>No se ha seleccionado ninguna arista para redondear
@@ -3044,17 +3951,29 @@ Primero seleccione una o más aristas.</translation>
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="142"/>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="980"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="981"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Radio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="1039"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1040"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No shape selected</source>
       <translation>Ninguna forma seleccionada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="1097"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1098"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No edge selected</source>
       <translation>No hay arista seleccionada</translation>
     </message>
@@ -3335,6 +4254,22 @@ Primero seleccione una o más aristas.</translation>
       <location filename="../../DlgPartImportIges.ui" line="54"/>
       <source>Search File</source>
       <translation>Buscar archivo</translation>
+<<<<<<< HEAD
+=======
+    </message>
+  </context>
+  <context>
+    <name>PartGui::DlgPartImportIgesImp</name>
+    <message>
+      <location filename="../../DlgPartImportIgesImp.cpp" line="72"/>
+      <source>IGES</source>
+      <translation>IGES</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPartImportIgesImp.cpp" line="72"/>
+      <source>All Files</source>
+      <translation>Todos los Archivos</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3353,6 +4288,17 @@ Primero seleccione una o más aristas.</translation>
       <location filename="../../DlgPartImportStep.ui" line="54"/>
       <source>Search File</source>
       <translation>Buscar archivo</translation>
+<<<<<<< HEAD
+=======
+    </message>
+  </context>
+  <context>
+    <name>PartGui::DlgPartImportStepImp</name>
+    <message>
+      <location filename="../../DlgPartImportStepImp.cpp" line="72"/>
+      <source>All Files</source>
+      <translation>Todos los Archivos</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3363,84 +4309,136 @@ Primero seleccione una o más aristas.</translation>
       <translation>Primitivas Geométricas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="23"/>
       <source>Select the type of geometric primitive to create</source>
       <translation>Seleccione el tipo de primitiva geométrica a crear</translation>
     </message>
     <message>
       <location filename="../../DlgPrimitives.ui" line="36"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="33"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="298"/>
       <source>Plane</source>
       <translation>Plano</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="45"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="392"/>
       <source>Box</source>
       <translation>Caja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="54"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="509"/>
       <source>Cylinder</source>
       <translation>Cilindro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="63"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="628"/>
       <source>Cone</source>
       <translation>Cono</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="72"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="742"/>
       <source>Sphere</source>
       <translation>Esfera</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="81"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="876"/>
       <source>Ellipsoid</source>
       <translation>Elipsoide</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="90"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="87"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1010"/>
       <source>Torus</source>
       <translation>Toroide</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="99"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1131"/>
       <source>Prism</source>
       <translation>Prisma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="108"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1324"/>
       <source>Wedge</source>
       <translation>Cuña</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="117"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1471"/>
       <source>Helix</source>
       <translation>Hélice</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="126"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1579"/>
       <source>Spiral</source>
       <translation>Espiral</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="135"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1678"/>
       <source>Circle</source>
       <translation>Círculo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="144"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1787"/>
       <source>Ellipse</source>
       <translation>Elipse</translation>
@@ -3451,13 +4449,21 @@ Primero seleccione una o más aristas.</translation>
       <translation>Punto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="162"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1983"/>
       <source>Line</source>
       <translation>Línea</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="171"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1875"/>
       <source>Regular polygon</source>
       <translation>Polígono regular</translation>
@@ -3808,9 +4814,15 @@ Primero seleccione una o más aristas.</translation>
       <translation>Cachar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="1855"/>
       <source>Distance between consecutive turns of the helix</source>
       <translation>Distancia entre vueltas consecutivas de la hélice</translation>
+=======
+      <location filename="../../DlgPrimitives.ui" line="1802"/>
+      <source>Coordinate system</source>
+      <translation>Sistema de coordenadas</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPrimitives.ui" line="1878"/>
@@ -4053,9 +5065,15 @@ Primero seleccione una o más aristas.</translation>
       <translation>Ningún documento activo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.cpp" line="2651"/>
       <source>C&amp;reate</source>
       <translation>Crear</translation>
+=======
+      <location filename="../../DlgPrimitives.cpp" line="2648"/>
+      <source>&amp;Create</source>
+      <translation>&amp;Crear</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4136,17 +5154,29 @@ Primero seleccione una o más aristas.</translation>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgProjectionOnSurface.cpp" line="141"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Projection object</source>
       <translation>Objeto de proyección</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgProjectionOnSurface.cpp" line="168"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No active document</source>
       <translation>Ningún documento activo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgProjectionOnSurface.cpp" line="174"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot create a projection object</source>
       <translation>No se puede crear un objeto de proyección</translation>
     </message>
@@ -4192,17 +5222,29 @@ Primero seleccione una o más aristas.</translation>
     <message>
       <location filename="../../DlgRevolution.ui" line="149"/>
       <source>X-Direction</source>
+<<<<<<< HEAD
       <translation>Dirección X</translation>
+=======
+      <translation type="unfinished">X-Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="190"/>
       <source>Y-Direction</source>
+<<<<<<< HEAD
       <translation>Dirección Y</translation>
+=======
+      <translation type="unfinished">Y-Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="228"/>
       <source>Z-Direction</source>
+<<<<<<< HEAD
       <translation>Dirección Z</translation>
+=======
+      <translation type="unfinished">Z-Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="250"/>
@@ -4231,24 +5273,46 @@ Primero seleccione una o más aristas.</translation>
       <translation>Crear sólido</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../DlgRevolution.cpp" line="541"/>
+      <source>Select reference</source>
+      <translation>Seleccionar referencia</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgRevolution.ui" line="318"/>
       <source>Symmetric angle</source>
       <translation>Ángulo simétrico</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="201"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object not found: %1</source>
       <translation>Objeto no encontrado: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="285"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a shape for revolution.</source>
       <translation>Seleccione una forma para la revolución.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="304"/>
       <location filename="../../DlgRevolution.cpp" line="314"/>
       <location filename="../../DlgRevolution.cpp" line="324"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="303"/>
+      <location filename="../../DlgRevolution.cpp" line="313"/>
+      <location filename="../../DlgRevolution.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolution axis link is invalid.
 
 %1</source>
@@ -4257,23 +5321,40 @@ Primero seleccione una o más aristas.</translation>
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="324"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unknown error</source>
       <translation>Error desconocido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="336"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolution axis direction is zero-length. It must be non-zero.</source>
       <translation>Dirección del eje de revolución de longitud cero. Debe ser distinta de cero.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="349"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolution angle span is zero. It must be non-zero.</source>
       <translation>Un tramo del ángulo de revolución es cero. Debe ser distinto de cero.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="516"/>
       <location filename="../../DlgRevolution.cpp" line="524"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="515"/>
+      <location filename="../../DlgRevolution.cpp" line="523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creating Revolve failed.
 
 %1</source>
@@ -4282,9 +5363,15 @@ Primero seleccione una o más aristas.</translation>
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgRevolution.cpp" line="538"/>
       <source>Selecting… (Line or Arc)</source>
       <translation>Seleccionar… (Línea o Arco)</translation>
+=======
+      <location filename="../../DlgRevolution.cpp" line="536"/>
+      <source>Selecting… (line or arc)</source>
+      <translation type="unfinished">Selecting… (line or arc)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4330,12 +5417,20 @@ Primero seleccione una o más aristas.</translation>
       <translation>Establecer una desviación demasiado pequeña hace que la teselación tome más tiempo y por lo tanto, congela o ralentiza la interfaz de usuario.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="113"/>
+=======
+      <location filename="../../DlgSettings3DViewPartImp.cpp" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle deflection</source>
       <translation>Desviación angular</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="114"/>
+=======
+      <location filename="../../DlgSettings3DViewPartImp.cpp" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Setting a too small angle deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</source>
       <translation>Establecer una desviación de ángulo demasiado pequeña hace que la teselación tome más tiempo y por lo tanto, congela o ralentiza la interfaz de usuario.</translation>
     </message>
@@ -4358,7 +5453,11 @@ Primero seleccione una o más aristas.</translation>
       <translation>Refinar automáticamente el modelo después de la operación booleana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="148"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add name of base object</source>
       <translation>Agregar nombre del objeto base</translation>
     </message>
@@ -4366,11 +5465,14 @@ Primero seleccione una o más aristas.</translation>
       <location filename="../../DlgSettingsGeneral.ui" line="18"/>
       <source>Model Settings</source>
       <translation>Configuración del modelo</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="33"/>
       <source>Validates the geometry (BRep) after every boolean operation to detect errors. Note: This may slow down performance on complex models.</source>
       <translation>Valida la geometría (BRep) después de cada operación booleana para detectar errores. Nota: Esto puede ralentizar el rendimiento en modelos complejos.</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="58"/>
@@ -4383,6 +5485,7 @@ Primero seleccione una o más aristas.</translation>
       <translation>Refinar automáticamente el modelo después de aplicar las operaciones</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="83"/>
       <source>Automatically runs a refinement pass after creating Part Design features to remove unnecessary edges and clean up the geometry</source>
       <translation>Ejecuta automáticamente un pase de refinamiento después de crear las características de diseño de piezas para eliminar los bordes innecesarios y limpiar la geometría</translation>
@@ -4394,55 +5497,83 @@ Primero seleccione una o más aristas.</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="133"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object Naming</source>
       <translation>Nomenclatura de objetos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="145"/>
       <source>Currently not implemented: this option does not yet modify automatically generated Part feature names</source>
       <translation>Actualmente no está implementada: esta opción aún no modifica los nombres de las características de las piezas generados automáticamente</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="164"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Features Settings</source>
       <translation>Configuración de características</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="178"/>
       <source>Specifies which profile geometry types are accepted by the Part Design Hole feature</source>
       <translation>Especifica qué tipos de geometría de perfil acepta la función de orificio de Diseño de Piezas</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="181"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default profile type for holes</source>
       <translation>Tipo de perfil predeterminado para agujeros</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="194"/>
       <source>Specifies which sketch elements (points, circles, or arcs) the Hole tool should automatically detect and use as hole centers</source>
       <translation>Especifica qué elementos del croquis (puntos, círculos o arcos) debe detectar y utilizar automáticamente la herramienta Agujero como centros de agujeros</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="207"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circles and arcs</source>
       <translation>Círculos y arcos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="212"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points, circles and arcs</source>
       <translation>Puntos, círculos y arcos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="217"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points</source>
       <translation>Puntos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="236"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch to task panel when entering Part Design workbench</source>
       <translation>Cambie al panel de tareas al ingresar al entorno de trabajo de Diseño de Piezas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="258"/>
       <source>Always open the attachment dialog when creating a new sketch in Part Design, regardless of selection or holding the Shift key. Without this, only a single face or datum plane selection skips the dialog.</source>
       <translation>Abra siempre el cuadro de diálogo de adjuntos al crear un nuevo boceto en Diseño de Piezas, independientemente de la selección o de si mantiene presionada la tecla Mayús. Sin esto, solo la selección de una sola cara o plano de referencia omitirá el cuadro de diálogo.</translation>
@@ -4484,15 +5615,38 @@ Primero seleccione una o más aristas.</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="361"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="206"/>
+      <source>Show final result by default when editing features</source>
+      <translation type="unfinished">Show final result by default when editing features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="219"/>
+      <source>Show transparent preview overlay by default when editing features</source>
+      <translation type="unfinished">Show transparent preview overlay by default when editing features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="235"/>
+      <source>Highlight the profile used to create features</source>
+      <translation type="unfinished">Highlight the profile used to create features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Experimental</source>
       <translation>Experimental</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="367"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>These settings are experimental and may result in decreased stability, problems and undefined behaviors</source>
       <translation>Esta configuración es experimental y puede resultar en una menor estabilidad, más problemas y comportamientos indefinidos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="383"/>
       <source>Show interactive draggers when editing features</source>
       <translation>Mostrar controles deslizantes interactivos al editar funciones</translation>
@@ -4569,11 +5723,33 @@ Primero seleccione una o más aristas.</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="280"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="276"/>
+      <source>Show interactive draggers when editing features</source>
+      <translation type="unfinished">Show interactive draggers when editing features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="292"/>
+      <source>Disable recompute while dragging</source>
+      <translation type="unfinished">Disable recompute while dragging</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="172"/>
+      <source>Automatically switch to the task panel when the Part Design workbench is activated</source>
+      <translation type="unfinished">Automatically switch to the task panel when the Part Design workbench is activated</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preview</source>
       <translation>Vista previa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="105"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Allow multiple solids in Part Design bodies by default</source>
       <translation>Permitir varios sólidos en los cuerpos de diseño de piezas de forma predeterminada</translation>
     </message>
@@ -4904,8 +6080,13 @@ se utilizará el vector normal del plano de croquis</translation>
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="199"/>
+<<<<<<< HEAD
       <source>Too Few Elements</source>
       <translation>Elementos insuficientes</translation>
+=======
+      <source>Too few elements</source>
+      <translation>Muy pocos elementos</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="200"/>
@@ -4987,7 +6168,11 @@ se utilizará el vector normal del plano de croquis</translation>
     </message>
     <message>
       <location filename="../../Mirroring.ui" line="150"/>
+<<<<<<< HEAD
       <location filename="../../Mirroring.cpp" line="241"/>
+=======
+      <location filename="../../Mirroring.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selecting</source>
       <translation>Seleccionando</translation>
     </message>
@@ -4997,17 +6182,30 @@ se utilizará el vector normal del plano de croquis</translation>
       <translation>Reflejar plano de referencia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Mirroring.cpp" line="236"/>
       <source>Select Reference</source>
       <translation>Selecciona referencia</translation>
     </message>
     <message>
       <location filename="../../Mirroring.cpp" line="313"/>
+=======
+      <location filename="../../Mirroring.cpp" line="235"/>
+      <source>Select reference</source>
+      <translation>Seleccionar referencia</translation>
+    </message>
+    <message>
+      <location filename="../../Mirroring.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a shape for mirroring.</source>
       <translation>Seleccione una forma para reflejarla.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Mirroring.cpp" line="321"/>
+=======
+      <location filename="../../Mirroring.cpp" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No such document '%1'.</source>
       <translation>No existe el documento '%1'.</translation>
     </message>
@@ -5015,7 +6213,11 @@ se utilizará el vector normal del plano de croquis</translation>
   <context>
     <name>PartGui::OffsetWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskOffset.cpp" line="228"/>
+=======
+      <location filename="../../TaskOffset.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input error</source>
       <translation>Error de entrada</translation>
     </message>
@@ -5023,17 +6225,29 @@ se utilizará el vector normal del plano de croquis</translation>
   <context>
     <name>PartGui::ResultModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="364"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Nombre</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="366"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Tipo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="368"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Error</translation>
     </message>
@@ -5171,22 +6385,47 @@ solo los cortes creados serán visibles</translation>
   <context>
     <name>PartGui::ShapeBuilderWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="224"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsupported</source>
       <translation>No soportado</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="224"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Box selection for shells is not supported</source>
       <translation>No se admite la selección de casillas para cascarones</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="233"/>
       <location filename="../../TaskShapeBuilder.cpp" line="252"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="234"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="253"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="282"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="324"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="379"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="433"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="499"/>
+      <source>Wrong selection</source>
+      <translation>Selección Incorrecta</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="234"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select two vertices</source>
       <translation>Seleccionar dos vértices</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="233"/>
       <location filename="../../TaskShapeBuilder.cpp" line="252"/>
       <location filename="../../TaskShapeBuilder.cpp" line="281"/>
@@ -5200,51 +6439,91 @@ solo los cortes creados serán visibles</translation>
     <message>
       <location filename="../../TaskShapeBuilder.cpp" line="281"/>
       <location filename="../../TaskShapeBuilder.cpp" line="378"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="282"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select at least 1 edge</source>
       <translation>Seleccione al menos 1 borde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="432"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select at least 2 faces</source>
       <translation>Seleccione al menos 2 caras</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="498"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select only 1 shape object</source>
       <translation>Seleccione solo 1 objeto de forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="570"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="571"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select vertices</source>
       <translation>Seleccione vértices</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="577"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a closed loop of edges</source>
       <translation>Seleccione un bucle cerrado de aristas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="323"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select three or more vertices</source>
       <translation>Seleccione tres o más vértices</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="556"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select two vertices to create an edge</source>
       <translation>Seleccione dos vértices para crear una arista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="563"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select adjacent edges</source>
       <translation>Seleccione aristas adyacentes</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="584"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="585"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select adjacent faces</source>
       <translation>Seleccionar caras adyacentes</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="591"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All shape types can be selected</source>
       <translation>Todos los tipos de forma pueden ser seleccionados</translation>
     </message>
@@ -5263,10 +6542,19 @@ solo los cortes creados serán visibles</translation>
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="376"/>
+<<<<<<< HEAD
+=======
+      <source>Too few elements</source>
+      <translation>Muy pocos elementos</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="376"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>At least one edge or wire is required.</source>
       <translation>Se requiere al menos una arista o alambre.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="383"/>
       <source>Select at least 1 edge from a single object.</source>
       <translation>Seleccione al menos 1 arista de un solo objeto.</translation>
@@ -5284,6 +6572,20 @@ solo los cortes creados serán visibles</translation>
     <message>
       <location filename="../../TaskSweep.cpp" line="393"/>
       <source>Wrong Selection</source>
+=======
+      <location filename="../../TaskSweep.cpp" line="382"/>
+      <source>Invalid selection</source>
+      <translation>Selección inválida</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="383"/>
+      <source>Select at least 1 edge from a single object.</source>
+      <translation type="unfinished">Select at least 1 edge from a single object.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="393"/>
+      <source>Wrong selection</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>Selección Incorrecta</translation>
     </message>
     <message>
@@ -5292,27 +6594,51 @@ solo los cortes creados serán visibles</translation>
       <translation>'%1' no puede usarse como perfil y trayectoria.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="431"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input error</source>
       <translation>Error de entrada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="472"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Done</source>
       <translation>Hecho</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="475"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="481"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select one or more connected edges in the 3D view and press 'Done'</source>
       <translation>Seleccione uno o más bordes conectados en la vista 3D y presione "Listo"</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="499"/>
       <location filename="../../TaskSweep.cpp" line="507"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="505"/>
+      <location filename="../../TaskSweep.cpp" line="513"/>
+      <source>Sweep path</source>
+      <translation>Trayectoria de barrido</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="505"/>
+      <location filename="../../TaskSweep.cpp" line="513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected sweep path is invalid.</source>
       <translation>La trayectoria de barrido seleccionada es inválida.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="499"/>
       <location filename="../../TaskSweep.cpp" line="507"/>
       <source>Sweep Path</source>
@@ -5320,11 +6646,18 @@ solo los cortes creados serán visibles</translation>
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="519"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="525"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex/Wire</source>
       <translation type="unfinished">Vertex/Wire</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="520"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweep</source>
       <translation>Barrido</translation>
     </message>
@@ -5357,6 +6690,14 @@ solo los cortes creados serán visibles</translation>
       <translation>Referencia 4</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../TaskAttacher.ui" line="101"/>
+      <source>Attachment mode</source>
+      <translation>Modo de adjunción</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskAttacher.ui" line="124"/>
       <source>Attachment Offset in its Local Coordinate System</source>
       <translation>Desplazamiento del adjunto en su sistema de coordenadas local</translation>
@@ -5380,47 +6721,87 @@ of the object being attached</source>
       <translation>Modo adjunto</translation>
     </message>
     <message>
+      <location filename="../../TaskAttacher.ui" line="136"/>
+      <source>In X-direction</source>
+      <translation type="unfinished">In X-direction</translation>
+    </message>
+    <message>
       <location filename="../../TaskAttacher.ui" line="172"/>
       <source>In Y-direction</source>
+<<<<<<< HEAD
       <translation>En dirección Y</translation>
+=======
+      <translation type="unfinished">In Y-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="208"/>
       <source>In Z-direction</source>
+<<<<<<< HEAD
       <translation>En dirección Z</translation>
+=======
+      <translation type="unfinished">In Z-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="244"/>
       <source>Around X-axis</source>
+<<<<<<< HEAD
       <translation>Alrededor del eje X</translation>
+=======
+      <translation type="unfinished">Around X-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="257"/>
       <source>Rotation around the local X-axis. The offset is expressed in the local coordinate system
 of the object being attached.</source>
+<<<<<<< HEAD
       <translation>Rotación alrededor del eje X local. El desplazamiento se expresa en el sistema de coordenadas local del objeto al que se adjunta.</translation>
+=======
+      <translation type="unfinished">Rotation around the local X-axis. The offset is expressed in the local coordinate system
+of the object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="283"/>
       <source>Around Y-axis</source>
+<<<<<<< HEAD
       <translation>Alrededor del eje Y</translation>
+=======
+      <translation type="unfinished">Around Y-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="296"/>
       <source>Rotation around the local Y-axis. The offset is expressed in the local coordinate system
 of the object being attached.</source>
+<<<<<<< HEAD
       <translation>Rotación alrededor del eje Y local. El desplazamiento se expresa en el sistema de coordenadas local del objeto al que se adjunta.</translation>
+=======
+      <translation type="unfinished">Rotation around the local Y-axis. The offset is expressed in the local coordinate system
+of the object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="322"/>
       <source>Around Z-axis</source>
+<<<<<<< HEAD
       <translation>Alrededor del eje Z</translation>
+=======
+      <translation type="unfinished">Around Z-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="335"/>
       <source>Rotation around the local Z-axis. The offset is expressed in the local coordinate system
 of the object being attached.</source>
+<<<<<<< HEAD
       <translation>Rotación alrededor del eje Z local. El desplazamiento se expresa en el sistema de coordenadas local del objeto al que se adjunta.</translation>
+=======
+      <translation type="unfinished">Rotation around the local Z-axis. The offset is expressed in the local coordinate system
+of the object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="358"/>
@@ -5433,41 +6814,80 @@ of the object being attached.</source>
       <translation>Invertir lados</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="413"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>OCC error: %1</source>
       <translation>Error OCC: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="416"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>unknown error</source>
       <translation>error desconocido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="419"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="408"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Attachment mode failed: %1</source>
       <translation>Modo adjunto fallido: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="424"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not attached</source>
       <translation>No adjuntado</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="432"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Attached with mode %1</source>
       <translation>Adjunto con el modo %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1027"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="425"/>
+      <source>Attachment offset (in its local coordinate system):</source>
+      <translation>Desplazamiento del adjunto (en su sistema de coordenadas local):</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="426"/>
+      <source>Attachment offset (inactive - not attached):</source>
+      <translation>Desplazamiento del archivo adjunto (inactivo - no adjunto):</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1009"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selecting…</source>
       <translation>Seleccionar…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="930"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Cara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="436"/>
       <source>Attachment Offset (in its local coordinate system):</source>
       <translation>Desplazamiento del adjunto (en su sistema de coordenadas local):</translation>
@@ -5479,36 +6899,63 @@ of the object being attached.</source>
     </message>
     <message>
       <location filename="../../TaskAttacher.cpp" line="937"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="922"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge</source>
       <translation>Arista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="944"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="929"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex</source>
       <translation>Vértice</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1033"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reference%1</source>
       <translation>Referencia%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1102"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1084"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not editable because rotation of AttachmentOffset is bound by expressions.</source>
       <translation>No editable porque la rotación del DesfaseAdjunto está vinculada por expresiones.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1185"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reference combinations:</source>
       <translation>Combinaciones de referencia:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1207"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 (add %2)</source>
       <translation>%1 (Agregar %2)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1210"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 (add more references)</source>
       <translation>%1 (agregar más referencias)</translation>
     </message>
@@ -5516,28 +6963,49 @@ of the object being attached.</source>
   <context>
     <name>PartGui::TaskCheckGeometryDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1189"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape Content</source>
       <translation>Contenido de Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1201"/>
       <location filename="../../TaskCheckGeometry.cpp" line="1456"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1200"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="1455"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Settings</source>
       <translation>Configuración</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1211"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default: false</source>
       <translation>Por defecto: false</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1218"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run boolean operation check</source>
       <translation>Ejecutar comprobación de operación booleana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1220"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extra boolean operations check that can sometimes find errors that
 the standard BRep geometry check misses. These errors do not always
 mean the checked object is unusable.  Default: false</source>
@@ -5546,164 +7014,289 @@ la verificación estándar de la geometría BRep falla. Estos errores no siempre
 significan que el objeto comprobado es inutilizable. Por defecto: false</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1229"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Single-threaded</source>
       <translation>De un solo hilo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1231"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run the geometry check in a single thread.  This is slower,
 but more stable.  Default: false</source>
       <translation>Ejecute la comprobación de geometría en un solo hilo. Esto es mas lento pero más estable. Predeterminado: falso</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1244"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Log errors</source>
       <translation>Registro de Errores</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1245"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Log errors to report view.  Default: true</source>
       <translation>Registro de errores para vista de reportes. Por defecto: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1256"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expand shape content</source>
       <translation>Expandir contenido de forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1258"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expand shape content.  Changes will take effect next time you use 
 the check geometry tool.  Default: false</source>
       <translation>Expandir contenido de forma. Los cambios tendrán efecto la próxima vez que utilices 
 la herramienta de verificación de geometría. Por defecto: false</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1271"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Advanced shape content</source>
       <translation>Contenido avanzado de forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1273"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show advanced shape content.  Changes will take effect next time you use 
 the check geometry tool.  Default: false</source>
       <translation>Muestra el contenido avanzado de la forma. Los cambios tendrán efecto la próxima vez que utilices 
 la herramienta de verificación de geometría. Por defecto: false</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1285"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
 Individual boolean operation checks:</source>
       <translation>
 Comprobación de operaciones booleanas individuales:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1288"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bad type</source>
       <translation>Tipo incorrecto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1300"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Self-intersect</source>
       <translation>Autointersección</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1312"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too small edge</source>
       <translation>Borde demasiado pequeño</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1324"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nonrecoverable face</source>
       <translation>Cara no recuperable</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1336"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continuity</source>
       <translation>Continuidad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1348"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Incompatibility of face</source>
       <translation>Incompatibilidad de la cara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1360"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Incompatibility of vertex</source>
       <translation>Incompatibilidad de vértices</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1372"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Incompatibility of edge</source>
       <translation>Incompatibilidad del borde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1384"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid curve on surface</source>
       <translation>Curva no válida en la superficie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1455"/>
       <source>Run Check</source>
       <translation>Ejecutar comprobación</translation>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="1289"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for bad argument types.  Default: true</source>
       <translation>Chequear tipos de argumentos incorrectos. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1208"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip this settings page</source>
       <translation>Omitir esta página de configuración</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1210"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip this settings page and run the geometry check automatically</source>
       <translation>Omita esta página de configuración y ejecute la comprobación de geometría automáticamente</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1301"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for self-intersections.  Default: true</source>
       <translation>Chequear autointersecciones. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1313"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for edges that are too small.  Default: true</source>
       <translation>Chequear aristas demasiado pequeñas. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1325"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for nonrecoverable faces.  Default: true</source>
       <translation>Chequear caras irrecuperables. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1337"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for continuity.  Default: true</source>
       <translation>Chequear continuidad. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1349"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for incompatible faces.  Default: true</source>
       <translation>Chequear caras incompatibles. Predeterminadoo: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1361"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for incompatible vertices.  Default: true</source>
       <translation>Chequear vértices incompatibles. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1373"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1372"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for incompatible edges.  Default: true</source>
       <translation>Chequear aristas incompatibles. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1385"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check for invalid curves on surfaces.  Default: true</source>
       <translation>Chequear curvas inválidas en superficies. Predeterminado: verdadero</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1467"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1454"/>
+      <source>Run check</source>
+      <translation>Ejecutar verificación</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Results</source>
       <translation>Resultados</translation>
     </message>
@@ -5711,11 +7304,16 @@ Comprobación de operaciones booleanas individuales:</translation>
   <context>
     <name>PartGui::TaskCheckGeometryResults</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="403"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check Geometry Results</source>
       <translation>Comprueba los resultados de la geometría</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="426"/>
       <source>Check is running…</source>
       <translation>La comprobación se está realizando…</translation>
@@ -5727,47 +7325,93 @@ Comprobación de operaciones booleanas individuales:</translation>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="458"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="425"/>
+      <source>Check is running…</source>
+      <translation type="unfinished">Check is running…</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="454"/>
+      <source>Boolean operation check…</source>
+      <translation type="unfinished">Boolean operation check…</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check geometry</source>
       <translation>Comprobar geometría</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="490"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Null shape</source>
       <translation>Forma nula</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="491"/>
       <location filename="../../TaskCheckGeometry.cpp" line="503"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="490"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="502"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skipped</source>
       <translation>Omitido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="502"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Infinite shape</source>
       <translation>Forma infinita</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="529"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid</source>
       <translation>Inválido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="555"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Checking</source>
       <translation>Comprobando</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="579"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No errors</source>
       <translation>Sin errores</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="591"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="590"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 processed out of %2 selected</source>
       <translation>%1 procesados de %2 seleccionados</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="592"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%n invalid shapes.</source>
       <translation>
         <numerusform>%n forma no válida.</numerusform>
@@ -5775,32 +7419,56 @@ Comprobación de operaciones booleanas individuales:</translation>
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="593"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>to report view.</source>
       <translation>para informar la vista.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="740"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="739"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global minimum</source>
       <translation>Mínimo global</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="748"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global average</source>
       <translation>Promedio global</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="756"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global maximum</source>
       <translation>Máximo global</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="715"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="714"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Checked object</source>
       <translation>Objeto marcado</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="732"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="731"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tolerance information</source>
       <translation>Información de tolerancia</translation>
     </message>
@@ -5808,11 +7476,16 @@ Comprobación de operaciones booleanas individuales:</translation>
   <context>
     <name>PartGui::TaskDlgAttacher</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1471"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1432"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Attachment</source>
       <translation>Adjunto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1492"/>
       <source>%1 select reference</source>
       <translation>%1 Seleccionar referencia</translation>
@@ -5824,6 +7497,9 @@ Comprobación de operaciones booleanas individuales:</translation>
     </message>
     <message>
       <location filename="../../TaskAttacher.cpp" line="1648"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1514"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum dialog: input error</source>
       <translation>Diálogo de referencia: error de entrada</translation>
     </message>
@@ -6008,7 +7684,11 @@ Comprobación de operaciones booleanas individuales:</translation>
       <translation>Ángulo fijo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="545"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="551"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select at least 1 profile and an edge or wire
 in the 3D view for the sweep path.</source>
       <translation>Seleccione al menos 1 perfil y un borde o alambre en la vista 3D para la trayectoria de barrido.</translation>
@@ -6046,8 +7726,13 @@ in the 3D view for the sweep path.</source>
     <name>PartGui::ThicknessWidget</name>
     <message>
       <location filename="../../TaskThickness.cpp" line="96"/>
+<<<<<<< HEAD
       <location filename="../../TaskThickness.cpp" line="335"/>
       <location filename="../../TaskThickness.cpp" line="398"/>
+=======
+      <location filename="../../TaskThickness.cpp" line="333"/>
+      <location filename="../../TaskThickness.cpp" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness</source>
       <translation>Espesor</translation>
     </message>
@@ -6062,7 +7747,11 @@ in the 3D view for the sweep path.</source>
       <translation>Hecho</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskThickness.cpp" line="297"/>
+=======
+      <location filename="../../TaskThickness.cpp" line="295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input error</source>
       <translation>Error de entrada</translation>
     </message>
@@ -6072,8 +7761,13 @@ in the 3D view for the sweep path.</source>
     <message>
       <location filename="../../../BasicShapes/ViewProviderShapes.py" line="51"/>
       <location filename="../../../BasicShapes/ViewProviderShapes.py" line="59"/>
+<<<<<<< HEAD
       <location filename="../../ViewProvider.cpp" line="53"/>
       <location filename="../../ViewProviderPrimitive.cpp" line="55"/>
+=======
+      <location filename="../../ViewProviderPrimitive.cpp" line="54"/>
+      <location filename="../../ViewProvider.cpp" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit %1</source>
       <translation>Editar %1</translation>
     </message>
@@ -6096,6 +7790,19 @@ in the 3D view for the sweep path.</source>
       <translation>Importar-Exportar</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="333"/>
+      <location filename="../../Command.cpp" line="410"/>
+      <location filename="../../Command.cpp" line="510"/>
+      <location filename="../../Command.cpp" line="952"/>
+      <location filename="../../Command.cpp" line="1015"/>
+      <location filename="../../Command.cpp" line="2290"/>
+      <source>Wrong selection</source>
+      <translation>Selección Incorrecta</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="350"/>
       <location filename="../../Command.cpp" line="427"/>
       <location filename="../../Command.cpp" line="527"/>
@@ -6109,6 +7816,7 @@ in the 3D view for the sweep path.</source>
       <translation>Selecciones 2 formas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="333"/>
       <location filename="../../Command.cpp" line="410"/>
       <location filename="../../Command.cpp" line="510"/>
@@ -6119,6 +7827,8 @@ in the 3D view for the sweep path.</source>
       <translation>Selección Incorrecta</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="351"/>
       <location filename="../../Command.cpp" line="428"/>
       <location filename="../../Command.cpp" line="528"/>
@@ -6143,6 +7853,7 @@ Continue?</source>
       <translation>Seleccione al menos una forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1080"/>
       <location filename="../../Command.cpp" line="1150"/>
       <source>STEP with colors</source>
@@ -6156,62 +7867,79 @@ Continue?</source>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1201"/>
+=======
+      <location filename="../../Command.cpp" line="1210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All CAD Files</source>
       <translation>Todos los archivos CAD</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2278"/>
+=======
+      <location filename="../../Command.cpp" line="1214"/>
+      <source>All Files</source>
+      <translation>Todos los Archivos</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2291"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select either 2 edges or 2 wires.</source>
       <translation>Seleccione 2 bordes o 2 cables.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="83"/>
       <location filename="../../TaskAttacher.cpp" line="116"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="73"/>
+      <location filename="../../TaskAttacher.cpp" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No reference selected</source>
       <translation>Ninguna referencia seleccionada</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="82"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="81"/>
       <source>Face</source>
       <translation>Cara</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="84"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="83"/>
       <source>Edge</source>
       <translation>Arista</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="85"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="84"/>
       <source>Vertex</source>
       <translation>Vértice</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="78"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="77"/>
       <source>Compound</source>
       <translation>Compuesto</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="79"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="78"/>
       <source>Compound solid</source>
       <translation>Sólido compuesto</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="80"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="79"/>
       <source>Solid</source>
       <translation>Sólido</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="81"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="80"/>
       <source>Shell</source>
       <translation>Carcasa</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="83"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="82"/>
       <source>Wire</source>
       <translation>Alambre</translation>
     </message>
     <message>
-      <location filename="../../TaskCheckGeometry.cpp" line="86"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="85"/>
       <source>Shape</source>
       <translation>Forma</translation>
     </message>
@@ -6221,6 +7949,7 @@ Continue?</source>
       <translation>No hay error</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="103"/>
       <source>Invalid point on curve</source>
       <translation>Punto no válido en la curva</translation>
@@ -6257,30 +7986,80 @@ Continue?</source>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="112"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="104"/>
+      <source>Invalid point on curve on surface</source>
+      <translation type="unfinished">Invalid point on curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="106"/>
+      <source>Invalid point on surface</source>
+      <translation type="unfinished">Invalid point on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="107"/>
+      <source>No 3D curve</source>
+      <translation type="unfinished">No 3D curve</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="108"/>
+      <source>Multiple 3D curves</source>
+      <translation type="unfinished">Multiple 3D curves</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="109"/>
+      <source>Invalid 3D curve</source>
+      <translation type="unfinished">Invalid 3D curve</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="110"/>
+      <source>No curve on surface</source>
+      <translation type="unfinished">No curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid curve on surface</source>
       <translation>Curva no válida en la superficie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="114"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid curve on closed surface</source>
       <translation>Curva no válida en superficie cerrada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="116"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid same range flag</source>
       <translation type="unfinished">Invalid same range flag</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="117"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid same parameter flag</source>
       <translation type="unfinished">Invalid same parameter flag</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="118"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid degenerated flag</source>
       <translation type="unfinished">Invalid degenerated flag</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="119"/>
       <source>Free edge</source>
       <translation>Arista libre</translation>
@@ -6362,25 +8141,121 @@ Continue?</source>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="135"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="118"/>
+      <source>Free edge</source>
+      <translation type="unfinished">Free edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="119"/>
+      <source>Invalid multi-connexity</source>
+      <translation type="unfinished">Invalid multi-connexity</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="120"/>
+      <source>Invalid range</source>
+      <translation type="unfinished">Invalid range</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="121"/>
+      <source>Empty wire</source>
+      <translation>Alambre vacío</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="122"/>
+      <source>Redundant edge</source>
+      <translation type="unfinished">Redundant edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="123"/>
+      <source>Self-intersecting wire</source>
+      <translation>Alambre autointersecado</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="124"/>
+      <source>No surface</source>
+      <translation type="unfinished">No surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="125"/>
+      <source>Invalid wire</source>
+      <translation>Alambre inválido</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="126"/>
+      <source>Redundant wire</source>
+      <translation>Alambre redundante</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="127"/>
+      <source>Intersecting wires</source>
+      <translation>Alambres intersecados</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="128"/>
+      <source>Invalid imbrication of wires</source>
+      <translation>Imbricación de alambres inválida</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="129"/>
+      <source>Empty shell</source>
+      <translation type="unfinished">Empty shell</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="130"/>
+      <source>Redundant face</source>
+      <translation type="unfinished">Redundant face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="131"/>
+      <source>Unorientable shape</source>
+      <translation type="unfinished">Unorientable shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="132"/>
+      <source>Not closed</source>
+      <translation type="unfinished">Not closed</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="133"/>
+      <source>Not connected</source>
+      <translation type="unfinished">Not connected</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-shape not in shape</source>
       <translation type="unfinished">Sub-shape not in shape</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="136"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bad orientation</source>
       <translation>Mala orientación</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="137"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bad orientation of sub-shape</source>
       <translation>Mala orientación de la subforma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="138"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid tolerance value</source>
       <translation>Valor de tolerancia no válido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="139"/>
       <source>Check failed</source>
       <translation>Falló la comprobación</translation>
@@ -6452,36 +8327,133 @@ Continue?</source>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="178"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="138"/>
+      <source>Check failed</source>
+      <translation type="unfinished">Check failed</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="147"/>
+      <source>No result</source>
+      <translation>Sin resultado</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="150"/>
+      <source>Out of enum range:</source>
+      <translation type="unfinished">Out of enum range:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="162"/>
+      <source>Boolean operation: unknown check</source>
+      <translation type="unfinished">Boolean operation: unknown check</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="163"/>
+      <source>Boolean operation: bad type</source>
+      <translation type="unfinished">Boolean operation: bad type</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="164"/>
+      <source>Boolean operation: self-intersection found</source>
+      <translation type="unfinished">Boolean operation: self-intersection found</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="165"/>
+      <source>Boolean operation: edge too small</source>
+      <translation type="unfinished">Boolean operation: edge too small</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="166"/>
+      <source>Boolean operation: non-recoverable face</source>
+      <translation type="unfinished">Boolean operation: non-recoverable face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="168"/>
+      <source>Boolean operation: incompatibility of vertex</source>
+      <translation type="unfinished">Boolean operation: incompatibility of vertex</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="171"/>
+      <source>Boolean operation: incompatibility of edge</source>
+      <translation type="unfinished">Boolean operation: incompatibility of edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="174"/>
+      <source>Boolean operation: incompatibility of face</source>
+      <translation type="unfinished">Boolean operation: incompatibility of face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="176"/>
+      <source>Boolean operation: aborted</source>
+      <translation type="unfinished">Boolean operation: aborted</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="179"/>
+      <source>Boolean operation: invalid curve on surface</source>
+      <translation type="unfinished">Boolean operation: invalid curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="181"/>
+      <source>Boolean operation: not valid</source>
+      <translation type="unfinished">Boolean operation: not valid</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Boolean operation: GeomAbs_C0</source>
       <translation>Operación booleana: GeomAbs_C0</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="858"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid</source>
       <translation>Inválido</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirror.cpp" line="85"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Mirror Plane</source>
       <translation>Editar plano de espejo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirror.cpp" line="307"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Fillet</source>
       <translation>Editar redondeo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirror.cpp" line="428"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Chamfer</source>
       <translation>Editar chaflán</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirror.cpp" line="568"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit offset</source>
       <translation>Editar desfase</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirror.cpp" line="658"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="653"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit thickness</source>
       <translation>Editar espesor</translation>
     </message>
@@ -6492,8 +8464,13 @@ Continue?</source>
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="185"/>
+<<<<<<< HEAD
       <source>Distance in Parameter Space</source>
       <translation>Distancia en el espacio de parámetros</translation>
+=======
+      <source>Distance in parameter space</source>
+      <translation>Distancia en el espacio del parámetro</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="186"/>
@@ -6501,12 +8478,25 @@ Continue?</source>
       <translation>Introducir distancia:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderExt.cpp" line="994"/>
+=======
+      <location filename="../../ViewProviderAttachExtension.cpp" line="100"/>
+      <source>Attachment Editor</source>
+      <translation>Editor de adjuntos</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderExt.cpp" line="1005"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Appearance per Face</source>
       <translation>Apariencia por cara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjectOnSurface.cpp" line="53"/>
+=======
+      <location filename="../../ViewProviderProjectOnSurface.cpp" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Projection</source>
       <translation>Editar proyección</translation>
     </message>
@@ -6576,6 +8566,62 @@ Continue?</source>
       <source>Edit Attachment</source>
       <translation type="unfinished">Edit Attachment</translation>
     </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="71"/>
+      <source>Delete %1 content?</source>
+      <translation type="unfinished">Delete %1 content?</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="72"/>
+      <source>The %1 '%2' has %3. Do you want to delete them as well?</source>
+      <translation type="unfinished">The %1 '%2' has %3. Do you want to delete them as well?</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="236"/>
+      <source>base and tool objects</source>
+      <translation type="unfinished">base and tool objects</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="239"/>
+      <source>base object</source>
+      <translation>objeto base</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="242"/>
+      <source>tool object</source>
+      <translation type="unfinished">tool object</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="247"/>
+      <source>Boolean operation</source>
+      <translation type="unfinished">Boolean operation</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="342"/>
+      <location filename="../../ViewProviderBoolean.cpp" line="486"/>
+      <source>%1 input objects</source>
+      <translation type="unfinished">%1 input objects</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="346"/>
+      <source>Fusion</source>
+      <translation>Fusión</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderBoolean.cpp" line="490"/>
+      <source>Intersection</source>
+      <translation>Intersección</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderCompound.cpp" line="76"/>
+      <source>Delete compound content?</source>
+      <translation type="unfinished">Delete compound content?</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderCompound.cpp" line="77"/>
+      <source>The compound '%1' has %2 child objects. Do you want to delete them as well?</source>
+      <translation type="unfinished">The compound '%1' has %2 child objects. Do you want to delete them as well?</translation>
+    </message>
   </context>
   <context>
     <name>Workbench</name>
@@ -6607,7 +8653,11 @@ Continue?</source>
     <message>
       <location filename="../../Workbench.cpp" line="39"/>
       <source>Boolean Tools</source>
+<<<<<<< HEAD
       <translation>Herramientas booleanas</translation>
+=======
+      <translation type="unfinished">Boolean Tools</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="40"/>
@@ -6717,10 +8767,17 @@ Continue?</source>
       <translation>Selección incorrecta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BOPTools/SplitFeatures.py" line="198"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="402"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="644"/>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="137"/>
+=======
+      <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="137"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="198"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="402"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continue</source>
       <translation>Continuo</translation>
     </message>
@@ -6913,112 +8970,200 @@ for collision or distance filtering.</translation>
       <translation>Tipo de forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="32"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="33"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertices</source>
       <translation>Vértices</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="34"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edges</source>
       <translation>Aristas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="35"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="36"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wires</source>
       <translation>Alambres</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="36"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Faces</source>
       <translation>Caras</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="37"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="38"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shells</source>
       <translation>Carcasas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="38"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solids</source>
       <translation>Sólidos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="41"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>CompSolids</source>
       <translation>CompSolids</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="46"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Compounds</source>
       <translation>Compuestos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="50"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shapes</source>
       <translation>Formas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="75"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area</source>
       <translation>Área</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="88"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Volume</source>
       <translation>Volumen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="95"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mass</source>
       <translation>Masa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="102"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <translation>Longitud</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="109"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Radio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="116"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Curve center</source>
       <translation>Curva central</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="123"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continuity</source>
       <translation>Continuidad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="130"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center of mass</source>
       <translation>Centro de masa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="151"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Is closed</source>
       <translation>Está cerrado</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="158"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orientation</source>
       <translation>Orientación</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="176"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global center of mass</source>
       <translation>Centro global de masa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="194"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global placement</source>
       <translation>Ubicación global</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="196"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Placement</source>
       <translation>Ubicación</translation>
     </message>
@@ -7118,17 +9263,29 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>CmdPartScale</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1463"/>
+=======
+      <location filename="../../Command.cpp" line="1476"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1464"/>
+=======
+      <location filename="../../Command.cpp" line="1477"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale</source>
       <translation>Escala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1465"/>
+=======
+      <location filename="../../Command.cpp" line="1478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scales the selected shape</source>
       <translation>Escala la forma seleccionada</translation>
     </message>
@@ -7144,12 +9301,20 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>Part::FaceMakerSimple</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMaker.cpp" line="338"/>
+=======
+      <location filename="../../../App/FaceMaker.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simple</source>
       <translation>Simple</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMaker.cpp" line="343"/>
+=======
+      <location filename="../../../App/FaceMaker.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Makes separate plane face from every wire independently. No support for holes; wires can be on different planes.</source>
       <translation>Hace caras planas separadas para cada alambre independientemente. No hay soporte para agujeros; los alambres pueden estar en diferentes planos.</translation>
     </message>
@@ -7157,14 +9322,24 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>Part::FaceMakerBullseye</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMakerBullseye.cpp" line="60"/>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bull's-eye facemaker</source>
       <translation>Ojo de Buey vía algoritmo Facemaker</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMakerBullseye.cpp" line="65"/>
       <source>Supports making planar faces with holes with islands in them</source>
       <translation>Soportes para la creación de caras planas con agujeros con islas en su interior</translation>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="66"/>
+      <source>Supports making planar faces with holes with islands in them</source>
+      <translation type="unfinished">Supports making planar faces with holes with islands in them</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7177,18 +9352,30 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
     <message>
       <location filename="../../../App/FaceMakerCheese.cpp" line="262"/>
       <source>Supports making planar faces with holes, but no islands inside holes</source>
+<<<<<<< HEAD
       <translation>Permite crear caras planas con agujeros, pero sin islas dentro de los agujeros</translation>
+=======
+      <translation type="unfinished">Supports making planar faces with holes, but no islands inside holes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Part::FaceMakerExtrusion</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrusion.cpp" line="427"/>
+=======
+      <location filename="../../../App/FeatureExtrusion.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part Extrude facemaker</source>
       <translation>Extrusión de Pieza vía algoritmo Facemaker</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrusion.cpp" line="432"/>
+=======
+      <location filename="../../../App/FeatureExtrusion.cpp" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Supports making faces with holes, does not support nesting.</source>
       <translation>Admite hacer caras con agujeros, no admite anidar.</translation>
     </message>
@@ -7290,17 +9477,29 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>CmdPartCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2524"/>
+=======
+      <location filename="../../Command.cpp" line="2537"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2525"/>
+=======
+      <location filename="../../Command.cpp" line="2538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coordinate System</source>
       <translation>Sistema de coordenadas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2526"/>
+=======
+      <location filename="../../Command.cpp" line="2539"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a coordinate system that can be attached to other objects</source>
       <translation>Crea un sistema de coordenadas que se puede adjuntar a otros objetos</translation>
     </message>
@@ -7308,17 +9507,29 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>CmdPartDatums</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2667"/>
+=======
+      <location filename="../../Command.cpp" line="2676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2668"/>
+=======
+      <location filename="../../Command.cpp" line="2677"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datums</source>
       <translation>Textos de cotas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2670"/>
+=======
+      <location filename="../../Command.cpp" line="2679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a datum object (coordinate system, plane, line, or point) that can be attached to other objects</source>
       <translation>Crea un objeto de referencia (sistema de coordenadas, plano, línea, punto) que se puede adjuntar a otros objetos</translation>
     </message>
@@ -7326,7 +9537,11 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>Exceptions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/Geometry.cpp" line="6723"/>
+=======
+      <location filename="../../../App/Geometry.cpp" line="6656"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to guess intersection of curves. Try adding a coincident constraint between the vertices of the curves you are intending to fillet.</source>
       <translation>No se puede determinar la intersección de las curvas. Intente añadir una restricción de coincidencia entre los vértices de las curvas que desea redondear.</translation>
     </message>
@@ -7334,17 +9549,29 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>CmdPartDatumPlane</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2563"/>
+=======
+      <location filename="../../Command.cpp" line="2575"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2564"/>
+=======
+      <location filename="../../Command.cpp" line="2576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum Plane</source>
       <translation>Plano de referencia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2565"/>
+=======
+      <location filename="../../Command.cpp" line="2577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a datum plane that can be attached to other objects</source>
       <translation>Crea un plano de referencia que se puede adjuntar a otros objetos</translation>
     </message>
@@ -7352,17 +9579,29 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>CmdPartDatumLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2597"/>
+=======
+      <location filename="../../Command.cpp" line="2608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2598"/>
+=======
+      <location filename="../../Command.cpp" line="2609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum Line</source>
       <translation>Línea de referencia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2599"/>
+=======
+      <location filename="../../Command.cpp" line="2610"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a datum line that can be attached to other objects</source>
       <translation>Crea una línea de referencia que se puede adjuntar a otros objetos</translation>
     </message>
@@ -7370,17 +9609,29 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>CmdPartDatumPoint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2631"/>
+=======
+      <location filename="../../Command.cpp" line="2641"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part</source>
       <translation>Pieza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2632"/>
+=======
+      <location filename="../../Command.cpp" line="2642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum Point</source>
       <translation>Punto de referencia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2633"/>
+=======
+      <location filename="../../Command.cpp" line="2643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a datum point that can be attached to other objects</source>
       <translation>Crea un punto de referencia que se puede adjuntar a otros objetos</translation>
     </message>
@@ -7550,25 +9801,43 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>Part::FaceMakerRing</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMakerBullseye.cpp" line="367"/>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ring facemaker</source>
       <translation>Constructor de caras. Anillo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMakerBullseye.cpp" line="372"/>
       <source>Supports making planar faces with holes and holes as faces</source>
       <translation>Soportes para la fabricación de caras planas con agujeros y agujeros como caras</translation>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="376"/>
+      <source>Supports making planar faces with holes and holes as faces</source>
+      <translation type="unfinished">Supports making planar faces with holes and holes as faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartSectionCut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2460"/>
+=======
+      <location filename="../../Command.cpp" line="2473"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Persiste&amp;nt Section Cut</source>
       <translation>Corta sección persistente</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2461"/>
+=======
+      <location filename="../../Command.cpp" line="2474"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new object as a boolean intersection of all visible shapes and the selected axis planes</source>
       <translation>Crea un nuevo objeto como una intersección booleana de todas las formas visibles y los planos de ejes seleccionados</translation>
     </message>
@@ -7628,12 +9897,20 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
   <context>
     <name>PartCmdRemoveSelectionGate</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandFilter.cpp" line="273"/>
+=======
+      <location filename="../../CommandFilter.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Selection Filters</source>
       <translation>Sin filtros de selección</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandFilter.cpp" line="274"/>
+=======
+      <location filename="../../CommandFilter.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clears all selection filters</source>
       <translation>Borra todos los filtros de selección</translation>
     </message>
@@ -7669,7 +9946,11 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="50"/>
       <source>Reverse the direction of the pattern.</source>
+<<<<<<< HEAD
       <translation>Invierte la dirección del patrón.</translation>
+=======
+      <translation type="unfinished">Reverse the direction of the pattern.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="68"/>
@@ -7695,7 +9976,11 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="141"/>
       <source>Add spacing to create spacing patterns.</source>
+<<<<<<< HEAD
       <translation>Agregue espacios para crear patrones de espaciado.</translation>
+=======
+      <translation type="unfinished">Add spacing to create spacing patterns.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="158"/>
@@ -7703,11 +9988,16 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
       <translation>Apariciones</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PatternParametersWidget.cpp" line="78"/>
+=======
+      <location filename="../../PatternParametersWidget.cpp" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axis</source>
       <translation>Eje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PatternParametersWidget.cpp" line="79"/>
       <location filename="../../PatternParametersWidget.cpp" line="81"/>
       <source>Total Angle</source>
@@ -7734,6 +10024,17 @@ Se eliminarán los volúmenes superpuestos de las figuras.</translation>
       <location filename="../../PatternParametersWidget.cpp" line="942"/>
       <source>Reset spacing</source>
       <translation type="unfinished">Reset spacing</translation>
+=======
+      <location filename="../../PatternParametersWidget.cpp" line="408"/>
+      <location filename="../../PatternParametersWidget.cpp" line="504"/>
+      <source>Spacing %1</source>
+      <translation type="unfinished">Spacing %1</translation>
+    </message>
+    <message>
+      <location filename="../../PatternParametersWidget.cpp" line="424"/>
+      <source>Remove this spacing definition.</source>
+      <translation type="unfinished">Remove this spacing definition.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>

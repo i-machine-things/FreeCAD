@@ -530,10 +530,14 @@ void EditModeCoinManager::ParameterObserver::initParameters()
          [this](const std::string& param) { updateConstraintPresentationParameters(param); }},
         {"ViewScalingFactor", [this](const std::string&) { Client.updateElementSizeParameters(); }},
         {"MarkerSize", [this](const std::string&) { Client.updateElementSizeParameters(); }},
+<<<<<<< HEAD
         {"EditSketcherFontName", [this](const std::string&) { Client.updateElementSizeParameters(); }},
         {"EditSketcherFontSize", [this](const std::string&) { Client.updateElementSizeParameters(); }},
         {"ConstraintIconHitPadding",
          [this](const std::string&) { Client.updateElementSizeParameters(); }},
+=======
+        {"EditSketcherFontSize", [this](const std::string&) { Client.updateElementSizeParameters(); }},
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         {"EdgeWidth",
          [this, &drawingParameters = Client.drawingParameters](const std::string& param) {
              updateWidth(drawingParameters.CurveWidth, param, 2);

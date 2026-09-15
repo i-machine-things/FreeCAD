@@ -322,10 +322,14 @@ std::shared_ptr<Material> MaterialManagerLocal::getMaterialByPath(const QString&
             if (!materialLibrary) {
                 continue;
             }
+<<<<<<< HEAD
             if (cleanPath.startsWith(
                     materialLibrary->getDirectory(),
                     materialLibrary->caseSensitivity()
                 )) {
+=======
+            if (cleanPath.startsWith(materialLibrary->getDirectory())) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 try {
                     return materialLibrary->getMaterialByPath(cleanPath);
                 }

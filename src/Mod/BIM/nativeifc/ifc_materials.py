@@ -89,7 +89,11 @@ def load_materials(obj):
 
     show_material(obj)
     if isinstance(obj, FreeCAD.DocumentObject) and hasattr(obj, "Group"):
+<<<<<<< HEAD
         for child in obj.Group:
+=======
+        for child in group:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             load_materials(child)
     elif isinstance(obj, FreeCAD.Document):
         for child in obj.Objects:

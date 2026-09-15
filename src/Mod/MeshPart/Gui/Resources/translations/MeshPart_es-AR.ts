@@ -217,9 +217,15 @@
       <source>Press 'Start', then pick points on the mesh; when enough points have been set, right-click and choose 'Create'. Repeat this process to create more splines. Close this task panel to complete the operation.
 
 This command only works with a Mesh object, not a regular face or surface. To convert an object to a mesh use the tools of the Mesh workbench.</source>
+<<<<<<< HEAD
       <translation>Pulse «Iniciar» y seleccione puntos en la malla. Cuando haya seleccionado suficientes puntos, haga clic derecho y elija «Crear». Repita este proceso para crear más curvas. Cierre este panel para finalizar la operación.
 
 Este comando solo funciona con objetos de malla, pero no con caras o superficies regulares. Para convertir un objeto en una malla, utilice las herramientas del entorno de trabajo de malla.</translation>
+=======
+      <translation type="unfinished">Press 'Start', then pick points on the mesh; when enough points have been set, right-click and choose 'Create'. Repeat this process to create more splines. Close this task panel to complete the operation.
+
+This command only works with a Mesh object, not a regular face or surface. To convert an object to a mesh use the tools of the Mesh workbench.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskCurveOnMesh.ui" line="38"/>
@@ -496,9 +502,14 @@ Un valor en el rango de 0.2-10.</translation>
       <location filename="../../Tessellation.cpp" line="280"/>
       <source>Error: body without a tip selected.
 Either set the tip of the body or select a different shape.</source>
+<<<<<<< HEAD
       <translation>Error: se ha seleccionado un cuerpo sin punta.
 
 Defina la punta del cuerpo o seleccione una forma diferente.</translation>
+=======
+      <translation type="unfinished">Error: body without a tip selected.
+Either set the tip of the body or select a different shape.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Tessellation.cpp" line="288"/>
@@ -542,12 +553,20 @@ Seleccione otra forma.</translation>
     <message>
       <location filename="../../Command.cpp" line="105"/>
       <source>Trim With Plane</source>
+<<<<<<< HEAD
       <translation>Recortar con plano</translation>
+=======
+      <translation type="unfinished">Trim With Plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="106"/>
       <source>Select the side to keep</source>
+<<<<<<< HEAD
       <translation>Seleccione el lado que desea conservar</translation>
+=======
+      <translation type="unfinished">Select the side to keep</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="108"/>

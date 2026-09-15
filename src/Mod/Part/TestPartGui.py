@@ -87,6 +87,7 @@ class PartGuiViewProviderTestCases(unittest.TestCase):
         FreeCAD.closeDocument("PartGuiTest")
 
 
+<<<<<<< HEAD
 class ProjectionOnSurfaceTestCases(unittest.TestCase):
     def setUp(self):
         self.Doc = FreeCAD.newDocument("ProjectionOnSurface")
@@ -134,6 +135,8 @@ class ProjectionOnSurfaceTestCases(unittest.TestCase):
         FreeCAD.closeDocument("ProjectionOnSurface")
 
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 class PartMirrorGuiTestCases(unittest.TestCase):
     def setUp(self):
         self.Doc = FreeCAD.newDocument("PartMirrorGuiTest")

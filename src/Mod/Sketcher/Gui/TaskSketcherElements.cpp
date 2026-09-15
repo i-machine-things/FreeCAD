@@ -2116,8 +2116,12 @@ void TaskSketcherElements::slotElementsChanged()
 
         elementMap[itemN->ElementNbr] = itemN;
 
+<<<<<<< HEAD
         setItemVisibility(itemN, groupedGeoIds);
         ++i;
+=======
+        setItemVisibility(itemN);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
 
     const std::vector<Part::Geometry*>& ext_vals =
@@ -2224,7 +2228,11 @@ void TaskSketcherElements::slotElementsChanged()
 
             elementMap[itemN->ElementNbr] = itemN;
 
+<<<<<<< HEAD
             setItemVisibility(itemN, groupedGeoIds);
+=======
+            setItemVisibility(itemN);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
     }
 }

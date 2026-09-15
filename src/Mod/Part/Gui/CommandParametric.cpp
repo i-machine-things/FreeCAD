@@ -82,7 +82,11 @@ void CmdPartCylinder::activated(int iMsg)
     Q_UNUSED(iMsg);
     std::string name = qApp->translate("CmdPartCylinder", "Cylinder").toUtf8().toStdString();
     name = Base::Tools::escapeEncodeString(name);
+<<<<<<< HEAD
     openCommand(name);
+=======
+    openCommand(name.c_str());
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     runCommand(Doc, "App.ActiveDocument.addObject(\"Part::Cylinder\",\"Cylinder\")");
     QString cmd = QStringLiteral("App.ActiveDocument.ActiveObject.Label = \"%1\"")
@@ -126,7 +130,11 @@ void CmdPartBox::activated(int iMsg)
     Q_UNUSED(iMsg);
     std::string name = qApp->translate("CmdPartBox", "Cube").toUtf8().toStdString();
     name = Base::Tools::escapeEncodeString(name);
+<<<<<<< HEAD
     openCommand(name);
+=======
+    openCommand(name.c_str());
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     runCommand(Doc, "App.ActiveDocument.addObject(\"Part::Box\",\"Box\")");
     QString cmd = QStringLiteral("App.ActiveDocument.ActiveObject.Label = \"%1\"")
@@ -170,7 +178,11 @@ void CmdPartSphere::activated(int iMsg)
     Q_UNUSED(iMsg);
     std::string name = qApp->translate("CmdPartSphere", "Sphere").toUtf8().toStdString();
     name = Base::Tools::escapeEncodeString(name);
+<<<<<<< HEAD
     openCommand(name);
+=======
+    openCommand(name.c_str());
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     runCommand(Doc, "App.ActiveDocument.addObject(\"Part::Sphere\",\"Sphere\")");
     QString cmd = QStringLiteral("App.ActiveDocument.ActiveObject.Label = \"%1\"")
@@ -214,7 +226,11 @@ void CmdPartCone::activated(int iMsg)
     Q_UNUSED(iMsg);
     std::string name = qApp->translate("CmdPartCone", "Cone").toUtf8().toStdString();
     name = Base::Tools::escapeEncodeString(name);
+<<<<<<< HEAD
     openCommand(name);
+=======
+    openCommand(name.c_str());
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     runCommand(Doc, "App.ActiveDocument.addObject(\"Part::Cone\",\"Cone\")");
     QString cmd = QStringLiteral("App.ActiveDocument.ActiveObject.Label = \"%1\"")
@@ -258,7 +274,11 @@ void CmdPartTorus::activated(int iMsg)
     Q_UNUSED(iMsg);
     std::string name = qApp->translate("CmdPartTorus", "Torus").toUtf8().toStdString();
     name = Base::Tools::escapeEncodeString(name);
+<<<<<<< HEAD
     openCommand(name);
+=======
+    openCommand(name.c_str());
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     runCommand(Doc, "App.ActiveDocument.addObject(\"Part::Torus\",\"Torus\")");
     QString cmd = QStringLiteral("App.ActiveDocument.ActiveObject.Label = \"%1\"")

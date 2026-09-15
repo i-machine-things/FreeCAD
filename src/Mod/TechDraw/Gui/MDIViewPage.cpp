@@ -95,9 +95,12 @@ MDIViewPage::MDIViewPage(ViewProviderPage* pageVp, Gui::Document* doc, QWidget* 
     m_toggleFrameAction = new QAction(tr("Toggle &Frames"), this);
     connect(m_toggleFrameAction, &QAction::triggered, this, &MDIViewPage::toggleFrame);
 
+<<<<<<< HEAD
     m_toggleGridAction = new QAction(tr("Toggle &Grid"), this);
     connect(m_toggleGridAction, &QAction::triggered, this, &MDIViewPage::toggleGrid);
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     m_exportSVGAction = new QAction(tr("&Export SVG"), this);
 
     connect(m_exportSVGAction, &QAction::triggered, this, qOverload<>(&MDIViewPage::saveSVG));
@@ -468,7 +471,10 @@ void MDIViewPage::contextMenuEvent(QContextMenuEvent* event)
 {
     if (isContextualMenuEnabled) {
         QMenu menu;
+<<<<<<< HEAD
         menu.addAction(m_toggleGridAction);
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         menu.addAction(m_toggleFrameAction);
         menu.addAction(m_toggleKeepUpdatedAction);
         menu.addAction(m_exportSVGAction);
@@ -486,11 +492,14 @@ void MDIViewPage::contextMenuEvent(QContextMenuEvent* event)
 
 void MDIViewPage::toggleFrame() { m_vpPage->toggleFrameState(); }
 
+<<<<<<< HEAD
 void MDIViewPage::toggleGrid()
 {
     m_vpPage->ShowGrid.setValue(!m_vpPage->ShowGrid.getValue());
 }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 void MDIViewPage::toggleKeepUpdated()
 {
     bool state = m_vpPage->getDrawPage()->KeepUpdated.getValue();

@@ -117,12 +117,15 @@ void MultiCommon::Restore(Base::XMLReader& reader)
     if (Base::getVersion(reader.ProgramVersion) == Base::Version::v1_0) {
         Behavior.setValue(CommonOfFirstAndRest);
     }
+<<<<<<< HEAD
 
     // The Refine property was added in FreeCAD 0.17, so any file before that will not have it set.
     // For these files, the appropriate default value is false.
     if (Base::getVersion(reader.ProgramVersion) < Base::Version::v0_17) {
         Refine.setValue(false);
     }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 App::DocumentObjectExecReturn* MultiCommon::execute()

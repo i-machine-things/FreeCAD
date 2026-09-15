@@ -903,6 +903,7 @@ for ProjectionGroups</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_9">
       <item>
+<<<<<<< HEAD
        <layout class="QGridLayout" name="gridLayout_8" columnstretch="1,0,0">
         <item row="1" column="2">
          <widget class="Gui::PrefDoubleSpinBox" name="psb_SnapFactor">
@@ -930,6 +931,9 @@ for ProjectionGroups</string>
           </property>
          </widget>
         </item>
+=======
+       <layout class="QGridLayout" name="gridLayout_8" columnstretch="1,0,2">
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         <item row="0" column="0">
          <widget class="Gui::PrefCheckBox" name="cb_SnapViews">
           <property name="toolTip">
@@ -968,6 +972,41 @@ for ProjectionGroups</string>
           </property>
          </widget>
         </item>
+<<<<<<< HEAD
+=======
+        <item row="1" column="2">
+         <widget class="Gui::PrefDoubleSpinBox" name="psb_SnapFactor">
+          <property name="toolTip">
+           <string>When dragging a view, if it is within this fraction of view size of the correct alignment, it will snap into alignment.</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+          <property name="value">
+           <double>0.050000000000000</double>
+          </property>
+          <property name="prefEntry" stdset="0">
+           <cstring>SnapLimitFactor</cstring>
+          </property>
+          <property name="prefPath" stdset="0">
+           <cstring>/Mod/TechDraw/General</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         <item row="1" column="0">
          <widget class="QLabel" name="label_3">
           <property name="text">
@@ -992,6 +1031,7 @@ for ProjectionGroups</string>
           <property name="prefPath" stdset="0">
            <cstring>/Mod/TechDraw/General</cstring>
           </property>
+<<<<<<< HEAD
          </widget>
         </item>
         <item row="1" column="1">
@@ -1034,6 +1074,8 @@ for ProjectionGroups</string>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: Snapping settings for dimensions are on the dimensions tab.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
          </widget>
         </item>
        </layout>

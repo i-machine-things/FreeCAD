@@ -28,7 +28,10 @@
 #include <map>
 #include <vector>
 #include <string>
+<<<<<<< HEAD
 #include <memory>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <limits>
 #include <Base/Persistence.h>
 

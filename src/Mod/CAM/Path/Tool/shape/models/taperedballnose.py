@@ -26,6 +26,10 @@ from .base import ToolBitShape
 
 class ToolBitShapeTaperedBallNose(ToolBitShape):
     name: str = "TaperedBallNose"
+<<<<<<< HEAD
+=======
+    aliases = ("taperedballnose",)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     @classmethod
     def schema(cls) -> Mapping[str, Tuple[str, str]]:

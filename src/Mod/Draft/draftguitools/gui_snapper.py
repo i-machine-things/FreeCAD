@@ -1061,12 +1061,20 @@ class Snapper:
             # get the stored objects to calculate intersections
             for obj_name, sub_name in zip(self.lastObj, self.lastObjSubelements):
                 obj = App.ActiveDocument.getObject(obj_name)
+<<<<<<< HEAD
                 if obj and (obj.isDerivedFrom("Part::Feature") or utils.get_type(obj) == "Axis"):
+=======
+                if obj and (obj.isDerivedFrom("Part::Feature") or (Draft.getType(obj) == "Axis")):
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     # obj sub is face, shape is edge:
                     if "Face" in sub_name and shape.ShapeType == "Edge":
                         face = obj.Shape.Faces[int(sub_name[4:]) - 1]
                         try:
+<<<<<<< HEAD
                             pts = geo_intersections.findIntersection(face, shape)
+=======
+                            pts = DraftGeomUtils.findIntersection(face, shape)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                             for pt in pts:
                                 snaps.append([pt, "intersection", self.toWP(pt)])
                         except Exception:
@@ -1077,7 +1085,11 @@ class Snapper:
                     elif shape.ShapeType == "Face":
                         edge = obj.Shape.Edges[int(sub_name[4:]) - 1]
                         try:
+<<<<<<< HEAD
                             pts = geo_intersections.findIntersection(edge, shape)
+=======
+                            pts = DraftGeomUtils.findIntersection(edge, shape)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                             for pt in pts:
                                 snaps.append([pt, "intersection", self.toWP(pt)])
                         except Exception:

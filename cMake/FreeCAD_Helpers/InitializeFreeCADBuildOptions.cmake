@@ -10,11 +10,16 @@ macro(InitializeFreeCADBuildOptions)
     option(FREECAD_USE_EXTERNAL_KDL "Use system installed orocos-kdl instead of the bundled." OFF)
     option(FREECAD_USE_EXTERNAL_ONDSELSOLVER "Use system installed OndselSolver instead of git submodule." OFF)
     option(FREECAD_USE_EXTERNAL_E57FORMAT "Use system installed libE57Format instead of the bundled." OFF)
+<<<<<<< HEAD
     option(FREECAD_USE_EXTERNAL_PYCXX "Use system installed PyCXX, located using pkgconfig" OFF)
     option(FREECAD_USE_EXTERNAL_CLIPPER2 "Use system installed Clipper2" OFF)
     option(FREECAD_USE_EXTERNAL_KDTREE "Use system installed libkdtree++" OFF)
     option(FREECAD_USE_EXTERNAL_JSON "Use system installed nlohmann_json" OFF)
     option(FREECAD_USE_EXTERNAL_COIN_PIVY "Use system installed Coin and Pivy instead of the bundled versions." OFF)
+=======
+    option(FREECAD_USE_EXTERNAL_GTEST "Use system installed Google Test and Google Mock" OFF)
+    option(FREECAD_USE_EXTERNAL_PYCXX "Use system installed PyCXX, located using pkgconfig" OFF)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     option(FREECAD_USE_FREETYPE "Builds the features using FreeType libs" ON)
     option(FREECAD_CHECK_PIVY "Check for pivy version using Python at build time" ON)
     option(FREECAD_PARALLEL_COMPILE_JOBS "Compilation jobs pool size to fit memory limitations.")
@@ -215,6 +220,15 @@ macro(InitializeFreeCADBuildOptions)
         option(FREECAD_USE_PCL "Build the features that use PCL libs" OFF)
     endif(NOT MSVC)
 
+<<<<<<< HEAD
+=======
+    # if this is set override some options
+    if (FREECAD_BUILD_DEBIAN)
+        # A Debian package for SMESH doesn't exist
+        #set(FREECAD_USE_EXTERNAL_SMESH ON )
+    endif (FREECAD_BUILD_DEBIAN)
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     if(BUILD_FEM OR BUILD_MESH_PART)
         set(FREECAD_USE_SMESH ON)
         if(FREECAD_USE_EXTERNAL_SMESH)

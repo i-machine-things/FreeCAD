@@ -22,18 +22,18 @@
   <context>
     <name>CmdPointsExport</name>
     <message>
-      <location filename="../../Command.cpp" line="150"/>
+      <location filename="../../Command.cpp" line="151"/>
       <source>Points</source>
       <translation>Tylko punkty</translation>
     </message>
     <message>
-      <location filename="../../Command.cpp" line="151"/>
+      <location filename="../../Command.cpp" line="152"/>
       <source>Export Points…</source>
       <translation>Eksportuj punkty…</translation>
     </message>
     <message>
-      <location filename="../../Command.cpp" line="152"/>
-      <location filename="../../Command.cpp" line="154"/>
+      <location filename="../../Command.cpp" line="153"/>
+      <location filename="../../Command.cpp" line="155"/>
       <source>Exports a point cloud</source>
       <translation>Eksportuje chmurę punktów</translation>
     </message>
@@ -113,7 +113,7 @@
   <context>
     <name>Command</name>
     <message>
-      <location filename="../../Command.cpp" line="93"/>
+      <location filename="../../Command.cpp" line="94"/>
       <source>Import points</source>
       <translation>Importuj punkty</translation>
     </message>
@@ -262,18 +262,37 @@
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="81"/>
       <location filename="../../Command.cpp" line="168"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point formats</source>
       <translation>Formaty punktu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="113"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+      <source>All Files</source>
+      <translation>Wszystkie pliki</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points not at Origin</source>
       <translation>Punkty poza początkiem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="115"/>
+=======
+      <location filename="../../Command.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The bounding box of the imported points does not contain the origin. Translate it to the origin?</source>
       <translation>Ramka otaczająca importowanych punktów nie zawiera początku. Czy chcesz przesunąć ją do początku?</translation>
     </message>

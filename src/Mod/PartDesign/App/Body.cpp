@@ -44,7 +44,10 @@ PROPERTY_SOURCE(PartDesign::Body, Part::BodyBase)
 
 Body::Body()
 {
+<<<<<<< HEAD
     BaseFeature.setScope(App::LinkScope::Global);
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     ADD_PROPERTY_TYPE(AllowCompound, (true), "Base", App::Prop_None, "Allow multiple solids in Body");
 
     _GroupTouched.setStatus(App::Property::Output, true);
@@ -353,7 +356,10 @@ std::vector<App::DocumentObject*> Body::removeObject(App::DocumentObject* featur
         // Check if the next feature is pointing to the one being deleted
         if (nextPD->BaseFeature.getValue() == feature) {
             nextPD->BaseFeature.setValue(prevSolidFeature);
+<<<<<<< HEAD
             nextPD->onBaseFeatureRerouted(feature, prevSolidFeature);
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
     }
 

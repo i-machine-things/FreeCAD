@@ -73,7 +73,11 @@ public:
      * transactions from different document, so that they can be undone/redone
      * together.
      */
+<<<<<<< HEAD
     explicit Transaction(int id = NullTransaction);
+=======
+    explicit Transaction(int id = 0);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     ~Transaction() override;
 
@@ -122,6 +126,7 @@ public:
     void renameProperty(TransactionalObject* Obj, const Property* pcProp, const char* oldName);
 
     /**
+<<<<<<< HEAD
      * @brief Arrange moving a property.
      *
      * @param[in] Obj The object from which the property is moved.
@@ -137,6 +142,8 @@ public:
     );
 
     /**
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
      * @brief Record adding or removing a property from an object.
      *
      * @param[in] Obj The object to add or remove the property from.
@@ -240,6 +247,7 @@ public:
     void renameProperty(const Property* pcProp, const char* oldName);
 
     /**
+<<<<<<< HEAD
      * @brief Arrange moving a property.
      *
      * @param[in] pcProp The property that is moved.
@@ -249,6 +257,8 @@ public:
     void arrangeMoveProperty(const Property* pcProp, TransactionalObject* target, Property* newProp);
 
     /**
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
      * @brief Add or remove a property from the object.
      *
      * @param[in] prop The property to add or remove.

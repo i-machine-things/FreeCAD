@@ -23,6 +23,7 @@
 
 #include "PreviewUpdateScheduler.h"
 
+<<<<<<< HEAD
 #include <Base/Console.h>
 #include <Base/Exception.h>
 
@@ -30,6 +31,8 @@
 
 FC_LOG_LEVEL_INIT("Part", true, true);
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 using namespace PartGui;
 
 QtPreviewUpdateScheduler::QtPreviewUpdateScheduler(QObject* parent)
@@ -63,6 +66,7 @@ void QtPreviewUpdateScheduler::flush()
         }
 
         if (auto* previewExtension = object->getExtensionByType<Part::PreviewExtension>(true)) {
+<<<<<<< HEAD
             try {
                 previewExtension->updatePreview();
             }
@@ -72,6 +76,9 @@ void QtPreviewUpdateScheduler::flush()
             catch (Base::Exception& e) {
                 FC_ERR("Preview update failed: " << e.what());
             }
+=======
+            previewExtension->updatePreview();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
     }
 }

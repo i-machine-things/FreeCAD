@@ -9,17 +9,17 @@
       <translation>Gotowe</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="94"/>
+      <location filename="../../FirstStartWidget.cpp" line="95"/>
       <source>Welcome to %1</source>
       <translation>Witaj w %1</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="97"/>
+      <location filename="../../FirstStartWidget.cpp" line="98"/>
       <source>Set your basic configuration options below.</source>
       <translation>Ustaw podstawowe opcje konfiguracji poniżej.</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="98"/>
+      <location filename="../../FirstStartWidget.cpp" line="99"/>
       <source>These options (and many more) can be changed later in the preferences.</source>
       <translation>Opcje te (i wiele więcej) można później zmienić w preferencjach.</translation>
     </message>
@@ -63,87 +63,155 @@
   <context>
     <name>StartGui::StartView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="217"/>
+=======
+      <location filename="../../StartView.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open File</source>
       <translation>Otwórz plik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="227"/>
+=======
+      <location filename="../../StartView.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assembly</source>
       <translation>Złożenie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Draft</source>
       <translation>Rysunek roboczy 2D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a 2D Draft document</source>
       <translation>Tworzy dokument 2D środowiska Rysunek Roboczy</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="235"/>
+=======
+      <location filename="../../StartView.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM/Architecture</source>
       <translation>BIM / Architektura</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="212"/>
+=======
+      <location filename="../../StartView.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty File</source>
       <translation>Pusty plik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="213"/>
+=======
+      <location filename="../../StartView.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new empty FreeCAD file</source>
       <translation>Tworzy nowy pusty plik FreeCAD</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="218"/>
+=======
+      <location filename="../../StartView.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens an existing CAD file or 3D model</source>
       <translation>Otwiera istniejący plik CAD lub model 3D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="222"/>
+=======
+      <location filename="../../StartView.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parametric Body</source>
       <translation>Część parametryczna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="223"/>
+=======
+      <location filename="../../StartView.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a body with the Part Design workbench</source>
       <translation>Tworzy Zawartość w środowisku pracy Projekt Części</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="228"/>
+=======
+      <location filename="../../StartView.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an assembly project</source>
       <translation>Tworzy projekt złożenia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="236"/>
+=======
+      <location filename="../../StartView.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an architectural project</source>
       <translation>Tworzy projekt architektoniczny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="520"/>
+=======
+      <location filename="../../StartView.cpp" line="509"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New File</source>
       <translation>Nowy plik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="522"/>
+=======
+      <location filename="../../StartView.cpp" line="510"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Examples</source>
       <translation>Przykłady</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="524"/>
+=======
+      <location filename="../../StartView.cpp" line="511"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recent Files</source>
       <translation>Ostatnio używane pliki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="539"/>
+=======
+      <location filename="../../StartView.cpp" line="527"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open First Start Setup</source>
       <translation>Otwórz ustawienia pierwszego uruchomienia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="540"/>
+=======
+      <location filename="../../StartView.cpp" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not show this Start page again (start with blank screen)</source>
       <translation>Nie pokazuj ponownie tej strony startowej (uruchom z pustym ekranem)</translation>
     </message>
@@ -151,7 +219,11 @@
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="514"/>
+=======
+      <location filename="../../StartView.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start</source>
       <translation>Start</translation>
     </message>
@@ -159,44 +231,76 @@
   <context>
     <name>StartGui::ThemeSelectorWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Classic</source>
       <translation>FreeCAD klasyczny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Dark</source>
       <translation>FreeCAD ciemny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="117"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Light</source>
       <translation>FreeCAD jasny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="251"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Theme</source>
       <translation>Motyw</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="254"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Looking for more themes? You can obtain them using &lt;a href="freecad:Std_AddonMgr"&gt;Addon Manager&lt;/a&gt;.</source>
       <translation>Szukasz więcej motywów? Możesz je otrzymać za pomocą &lt;a href="freecad:Std_AddonMgr"&gt;Menedżera dodatków&lt;/a&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="261"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Dark</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD ciemny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="262"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Light</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD jasny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="263"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Classic</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD klasyczny</translation>
@@ -261,7 +365,11 @@ Wiele folderów można dodać za pomocą ";;" do oddzielania ścieżek.</transla
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../AppStartGui.cpp" line="139"/>
+=======
+      <location filename="../../AppStartGui.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start</source>
       <translation>Start</translation>
     </message>

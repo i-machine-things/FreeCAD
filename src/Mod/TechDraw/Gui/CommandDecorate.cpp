@@ -126,6 +126,7 @@ bool CmdTechDrawToggleFrame::isActive()
 }
 
 //===========================================================================
+<<<<<<< HEAD
 // TechDraw_ToggleGrid
 //===========================================================================
 
@@ -162,6 +163,8 @@ bool CmdTechDrawToggleGrid::isActive()
 }
 
 //===========================================================================
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 // TechDraw_Hatch
 //===========================================================================
 
@@ -402,7 +405,10 @@ void CreateTechDrawCommandsDecorate()
     rcCmdMgr.addCommand(new CmdTechDrawGeometricHatch());
     rcCmdMgr.addCommand(new CmdTechDrawImage());
     rcCmdMgr.addCommand(new CmdTechDrawToggleFrame());
+<<<<<<< HEAD
     rcCmdMgr.addCommand(new CmdTechDrawToggleGrid());
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 //    rcCmdMgr.addCommand(new CmdTechDrawLeaderLine());
 //    rcCmdMgr.addCommand(new CmdTechDrawRichTextAnnotation());

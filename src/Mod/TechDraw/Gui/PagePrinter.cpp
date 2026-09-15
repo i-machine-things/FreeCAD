@@ -372,6 +372,10 @@ void PagePrinter::printPdf(ViewProviderPage* vpPage, const std::string& file)
     // set up the pdfwriter
     QPdfWriter pdfWriter(outputFile);
     pdfWriter.setPdfVersion(Gui::Dialog::DlgSettingsPDF::evaluatePDFVersion());
+<<<<<<< HEAD
+=======
+    QPageLayout pageLayout = pdfWriter.pageLayout();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     QString documentName = QString::fromUtf8(vpPage->getDrawPage()->getNameInDocument());
     pdfWriter.setTitle(documentName);
     // default pdfWriter dpi is 1200. no need to set?

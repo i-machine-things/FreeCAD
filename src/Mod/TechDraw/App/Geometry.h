@@ -474,6 +474,7 @@ class TechDrawExport GeometryUtils
 
         static std::vector<FacePtr> removeNestedHoles(const std::vector<FacePtr>& holes);
         static std::vector<int> findNestedFaceIndices(const std::vector<FacePtr>& holes);
+<<<<<<< HEAD
 
         static std::string getGeomTypeName(GeomType typeEnumValue);
         static gp_Pnt midPoint(const opencascade::handle<Geom_TrimmedCurve>& curve);
@@ -484,3 +485,11 @@ class TechDrawExport GeometryUtils
 };
 
 } //end namespace TechDraw
+=======
+};
+
+} //end namespace TechDraw
+
+#endif //TECHDRAW_GEOMETRY_H
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

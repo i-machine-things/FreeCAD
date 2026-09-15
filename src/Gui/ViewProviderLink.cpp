@@ -3290,7 +3290,11 @@ bool ViewProviderLink::initDraggingPlacement()
 
     dragCtx = std::make_unique<DraggerContext>();
 
+<<<<<<< HEAD
     dragCtx->preTransform = getDocument()->getEditingTransform();
+=======
+    dragCtx->preTransform = doc->getEditingTransform();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     const auto& pla = getObject()->getPlacementProperty()->getValue();
 
     // Cancel out our own transformation from the editing transform, because

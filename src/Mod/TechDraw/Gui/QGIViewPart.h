@@ -127,10 +127,17 @@ public:
     virtual double getLineWidth();
     virtual double getVertexSize();
 
+<<<<<<< HEAD
     bool hideCenterMarks() const;
 
     void setMovableFlag() override;
     void setMovableFlagProjGroupItem();
+=======
+    bool isExporting() const;
+    bool hideCenterMarks() const;
+
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 protected:
     bool sceneEventFilter(QGraphicsItem *watched, QEvent *event) override;
@@ -165,3 +172,9 @@ private:
 };
 
 } // namespace
+<<<<<<< HEAD
+=======
+
+#endif // DRAWINGGUI_QGRAPHICSITEMVIEWPART_H
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

@@ -872,6 +872,14 @@ Poništite odabir, za korištenje koordinatnog sustava radne ravnine</translatio
       <location filename="../ui/TaskSelectPlane.ui" line="14"/>
       <source>Working Plane Setup</source>
       <translation>Postavljanje Radne ravnine</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../ui/TaskSelectPlane.ui" line="20"/>
+      <source>Choose an option below. Or define a working plane by selecting 3 vertices, 1 or more shapes, or a working plane proxy, and then confirm with a click in the 3D view.</source>
+      <translation>Odaberite opciju u nastavku. Ili definirajte radnu ravninu odabirom 3 vrha, 1 ili više oblika ili posrednika radne ravnine, a zatim potvrdite klikom u 3D prikazu.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/TaskSelectPlane.ui" line="30"/>
@@ -1110,10 +1118,10 @@ orijentacija. Ako nije odabrana nijedna točka, ravnina
       <translation>Širina linije</translation>
     </message>
     <message>
-      <location filename="../ui/TaskSelectPlane.ui" line="253"/>
       <location filename="../ui/TaskPanel_SetStyle.ui" line="174"/>
       <location filename="../ui/TaskPanel_SetStyle.ui" line="199"/>
       <location filename="../ui/TaskPanel_SetStyle.ui" line="402"/>
+      <location filename="../ui/TaskSelectPlane.ui" line="253"/>
       <source> px</source>
       <translation> px</translation>
     </message>
@@ -1761,6 +1769,10 @@ sadrže definicije uzoraka koje će se dodati standardnim uzorcima</translation>
       <location filename="../ui/preferences-drafttexts.ui" line="653"/>
       <location filename="../ui/preferences-drafttexts.ui" line="682"/>
       <location filename="../ui/preferences-drafttexts.ui" line="711"/>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/preferences-dxf.ui" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>mm</source>
       <translation>mm</translation>
     </message>
@@ -2095,8 +2107,13 @@ dodaće se žičani okvir originalnog oblika</translation>
     </message>
     <message>
       <location filename="../ui/preferences-svg.ui" line="120"/>
+<<<<<<< HEAD
       <source>Apply cuts</source>
       <translation type="unfinished">Apply cuts</translation>
+=======
+      <source>Apply Cuts</source>
+      <translation>Primjeni rezove</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/preferences-svg.ui" line="140"/>
@@ -3018,6 +3035,7 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
       <location filename="../ui/preferences-draftinterface.ui" line="683"/>
       <source>Recenter</source>
       <translation>Ponovo centriraj</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../ui/preferences-draftinterface.ui" line="696"/>
@@ -3051,6 +3069,41 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
     </message>
     <message>
       <location filename="../ui/preferences-draftinterface.ui" line="759"/>
+=======
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="759"/>
+      <source>D</source>
+      <translation>D</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="781"/>
+      <source>UI Options</source>
+      <translation>UI opcije</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="787"/>
+      <source>If checked, the Draft Snap toolbar will only be visible during commands</source>
+      <translation>Ako je označeno, Nacrt-Uhvati alatna traka bit će vidljiva samo tijekom naredbi</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="790"/>
+      <source>Only show the Draft Snap toolbar during commands</source>
+      <translation>Prikaži alatnu traku Privuci na Nacrt samo tijekom naredbi</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="806"/>
+      <source>If checked, the Draft Snap Widget is displayed in the Draft Status Bar</source>
+      <translation>Ako je označeno, dodatak Privuci na Nacrtu se prikazuje u statusnoj traci Nacrta</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="809"/>
+      <source>Show the Draft Snap Widget in the Draft Workbench</source>
+      <translation>Prikaži dodatak Privuci na Nacrt u radnom prostoru Nacrt</translation>
+    </message>
+    <message>
+      <location filename="../ui/preferences-draftinterface.ui" line="825"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, the Draft Scale Widget is displayed in the Draft Status Bar</source>
       <translation>Ako je označeno, dodatak Privuci na Nacrtu se prikazuje u statusnoj traci Nacrta</translation>
     </message>
@@ -3073,8 +3126,13 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
       <translation>Globalna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="752"/>
       <location filename="../../DraftGui.py" line="1142"/>
+=======
+      <location filename="../../DraftGui.py" line="641"/>
+      <location filename="../../DraftGui.py" line="998"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continue</source>
       <translation>Nastavi</translation>
     </message>
@@ -3104,10 +3162,17 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
       <translation>Odaberite Rub</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="809"/>
       <location filename="../../draftguitools/gui_rotate.py" line="289"/>
       <location filename="../../draftguitools/gui_move.py" line="218"/>
       <location filename="../../draftguitools/gui_scale.py" line="226"/>
+=======
+      <location filename="../../DraftGui.py" line="698"/>
+      <location filename="../../draftguitools/gui_rotate.py" line="284"/>
+      <location filename="../../draftguitools/gui_move.py" line="214"/>
+      <location filename="../../draftguitools/gui_scale.py" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy</source>
       <translation>Kopiraj</translation>
     </message>
@@ -3117,86 +3182,156 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
       <translation>Obriši</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="988"/>
       <location filename="../../draftmake/make_sketch.py" line="124"/>
       <location filename="../../draftmake/make_sketch.py" line="140"/>
+=======
+      <location filename="../../WorkingPlane.py" line="906"/>
+      <location filename="../../draftmake/make_sketch.py" line="121"/>
+      <location filename="../../draftmake/make_sketch.py" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All shapes must be coplanar</source>
       <translation>Svi oblici moraju biti komplanarni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="995"/>
+=======
+      <location filename="../../WorkingPlane.py" line="913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected shapes must define a plane</source>
       <translation>Odabrani oblici moraju definirati ravninu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1081"/>
       <location filename="../../WorkingPlane.py" line="1691"/>
       <location filename="../../WorkingPlane.py" line="1692"/>
+=======
+      <location filename="../../WorkingPlane.py" line="999"/>
+      <location filename="../../WorkingPlane.py" line="1575"/>
+      <location filename="../../WorkingPlane.py" line="1576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top</source>
       <translation>Gore</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1093"/>
       <location filename="../../WorkingPlane.py" line="1713"/>
       <location filename="../../WorkingPlane.py" line="1714"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1011"/>
+      <location filename="../../WorkingPlane.py" line="1597"/>
+      <location filename="../../WorkingPlane.py" line="1598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Front</source>
       <translation>Ispred</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1112"/>
       <location filename="../../WorkingPlane.py" line="1735"/>
       <location filename="../../WorkingPlane.py" line="1736"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1030"/>
+      <location filename="../../WorkingPlane.py" line="1619"/>
+      <location filename="../../WorkingPlane.py" line="1620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Side</source>
       <translation>Strana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1335"/>
       <location filename="../../WorkingPlane.py" line="1669"/>
       <location filename="../../WorkingPlane.py" line="1670"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1253"/>
+      <location filename="../../WorkingPlane.py" line="1553"/>
+      <location filename="../../WorkingPlane.py" line="1554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto</source>
       <translation>Automatski</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1336"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current working plane: Auto</source>
       <translation>Aktualna radna ravnina:Automatski</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1852"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current working plane:</source>
       <translation>Aktualna radna ravnina:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1423"/>
       <location filename="../../WorkingPlane.py" line="1456"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1331"/>
+      <location filename="../../WorkingPlane.py" line="1360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected shapes do not define a plane</source>
       <translation>Odabrani oblici ne definiraju ravninu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1816"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No previous working plane</source>
       <translation>nema prethodne radne ravnine</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1827"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No next working plane</source>
       <translation>Nema slijedne radne ravnine</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1856"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axes:</source>
       <translation>Osi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1863"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position:</source>
       <translation>Položaj:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="669"/>
       <location filename="../../DraftGui.py" line="698"/>
       <location filename="../../DraftGui.py" line="1849"/>
       <location filename="../../DraftGui.py" line="1867"/>
+=======
+      <location filename="../../DraftGui.py" line="553"/>
+      <location filename="../../DraftGui.py" line="582"/>
+      <location filename="../../DraftGui.py" line="1688"/>
+      <location filename="../../DraftGui.py" line="1706"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../draftguitools/gui_groups.py" line="273"/>
       <source>None</source>
       <translation>Prazno</translation>
@@ -3243,8 +3378,13 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
       <translation>Kut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="713"/>
       <location filename="../../DraftGui.py" line="1125"/>
+=======
+      <location filename="../../DraftGui.py" line="602"/>
+      <location filename="../../DraftGui.py" line="981"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Polumjer</translation>
     </message>
@@ -3264,12 +3404,20 @@ ako odgovaraju osi X, Y ili Z globalnog koordinatnog sustava</translation>
       <translation>Uključivanje/isključivanje konstrukcijskog moda</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1076"/>
+=======
+      <location filename="../../DraftGui.py" line="935"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label Type</source>
       <translation>Vrsta oznake</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1126"/>
+=======
+      <location filename="../../DraftGui.py" line="982"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of Circle</source>
       <translation>Polumjer kruga</translation>
     </message>
@@ -3306,7 +3454,16 @@ ako je prva točka za postavljanje</translation>
       <translation>Kut aktualnog odjeljka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="714"/>
+=======
+      <location filename="../../DraftGui.py" line="598"/>
+      <source>Locks the current angle</source>
+      <translation>Zaključaj trenutni kut</translation>
+    </message>
+    <message>
+      <location filename="../../DraftGui.py" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of the circle</source>
       <translation>Polumjer kruga</translation>
     </message>
@@ -3328,12 +3485,20 @@ Poništite odabir, za korištenje koordinatnog sustava radne ravnine</translatio
       <translation>Završava aktualni crtež ili operaciju uređivanja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2082"/>
+=======
+      <location filename="../../DraftGui.py" line="1913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Modify Objects</source>
       <translation>Modificiraj objekte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2240"/>
+=======
+      <location filename="../../DraftGui.py" line="2070"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Facebinder Elements</source>
       <translation>Elementi povezivača lica</translation>
     </message>
@@ -3425,83 +3590,152 @@ Nije dostupno ako je omogućena postavka 'Koristi primitive komponenata'.</trans
       <translation>Ako je označeno, umjesto cijelih objekata će se mijenjati podelementi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="849"/>
       <location filename="../../DraftGui.py" line="1855"/>
       <location filename="../../DraftGui.py" line="1873"/>
+=======
+      <location filename="../../DraftGui.py" line="738"/>
+      <location filename="../../DraftGui.py" line="1694"/>
+      <location filename="../../DraftGui.py" line="1712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Autogroup off</source>
       <translation>Automatsko grupiranje isključeno</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="983"/>
       <location filename="../../draftguitools/gui_lines.py" line="73"/>
+=======
+      <location filename="../../DraftGui.py" line="842"/>
+      <location filename="../../draftguitools/gui_lines.py" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line</source>
       <translation>Linija</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="998"/>
+=======
+      <location filename="../../DraftGui.py" line="857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DWire</source>
       <translation>DWire</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1021"/>
+=======
+      <location filename="../../DraftGui.py" line="880"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circle</source>
       <translation>Krug</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1026"/>
+=======
+      <location filename="../../DraftGui.py" line="885"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arc</source>
       <translation>Luk</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1031"/>
       <location filename="../../draftguitools/gui_rotate.py" line="291"/>
+=======
+      <location filename="../../DraftGui.py" line="890"/>
+      <location filename="../../draftguitools/gui_rotate.py" line="286"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate</source>
       <translation>Rotiraj</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1037"/>
+=======
+      <location filename="../../DraftGui.py" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point</source>
       <translation>Točka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1074"/>
+=======
+      <location filename="../../DraftGui.py" line="933"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label</source>
       <translation>Oznaka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1093"/>
       <location filename="../../draftguitools/gui_offset.py" line="247"/>
       <location filename="../../draftguitools/gui_offset.py" line="262"/>
       <location filename="../../draftguitools/gui_offset.py" line="325"/>
+=======
+      <location filename="../../DraftGui.py" line="952"/>
+      <location filename="../../draftguitools/gui_offset.py" line="243"/>
+      <location filename="../../draftguitools/gui_offset.py" line="258"/>
+      <location filename="../../draftguitools/gui_offset.py" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset</source>
       <translation>Pomak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1098"/>
       <location filename="../../DraftGui.py" line="1118"/>
       <location filename="../../draftguitools/gui_trimex.py" line="224"/>
+=======
+      <location filename="../../DraftGui.py" line="957"/>
+      <location filename="../../DraftGui.py" line="974"/>
+      <location filename="../../draftguitools/gui_trimex.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Udaljenost</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1099"/>
       <location filename="../../DraftGui.py" line="1119"/>
       <location filename="../../draftguitools/gui_trimex.py" line="225"/>
+=======
+      <location filename="../../DraftGui.py" line="958"/>
+      <location filename="../../DraftGui.py" line="975"/>
+      <location filename="../../draftguitools/gui_trimex.py" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset distance</source>
       <translation>Udaljenost pomaka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1115"/>
+=======
+      <location filename="../../DraftGui.py" line="971"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trimex</source>
       <translation>Promjeni dužinu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1219"/>
       <location filename="../../DraftGui.py" line="1221"/>
       <location filename="../../DraftGui.py" line="1222"/>
       <location filename="../../DraftGui.py" line="1224"/>
       <location filename="../../DraftGui.py" line="1225"/>
       <location filename="../../DraftGui.py" line="1226"/>
+=======
+      <location filename="../../DraftGui.py" line="1078"/>
+      <location filename="../../DraftGui.py" line="1080"/>
+      <location filename="../../DraftGui.py" line="1081"/>
+      <location filename="../../DraftGui.py" line="1083"/>
+      <location filename="../../DraftGui.py" line="1084"/>
+      <location filename="../../DraftGui.py" line="1085"/>
+      <location filename="../../drafttaskpanels/task_shapestring.py" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../drafttaskpanels/task_shapestring.py" line="123"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="124"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="125"/>
@@ -3509,12 +3743,22 @@ Nije dostupno ako je omogućena postavka 'Koristi primitive komponenata'.</trans
       <translation>Lokalno {}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1228"/>
       <location filename="../../DraftGui.py" line="1229"/>
       <location filename="../../DraftGui.py" line="1230"/>
       <location filename="../../DraftGui.py" line="1232"/>
       <location filename="../../DraftGui.py" line="1233"/>
       <location filename="../../DraftGui.py" line="1234"/>
+=======
+      <location filename="../../DraftGui.py" line="1087"/>
+      <location filename="../../DraftGui.py" line="1088"/>
+      <location filename="../../DraftGui.py" line="1089"/>
+      <location filename="../../DraftGui.py" line="1091"/>
+      <location filename="../../DraftGui.py" line="1092"/>
+      <location filename="../../DraftGui.py" line="1093"/>
+      <location filename="../../drafttaskpanels/task_shapestring.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../drafttaskpanels/task_shapestring.py" line="119"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="120"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="121"/>
@@ -3522,22 +3766,38 @@ Nije dostupno ako je omogućena postavka 'Koristi primitive komponenata'.</trans
       <translation>Globalno {}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1863"/>
+=======
+      <location filename="../../DraftGui.py" line="1702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Autogroup:</source>
       <translation>Automatsko grupiranje:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2237"/>
+=======
+      <location filename="../../DraftGui.py" line="2067"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Faces</source>
       <translation>Plohe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2238"/>
+=======
+      <location filename="../../DraftGui.py" line="2068"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Ukloniti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2239"/>
+=======
+      <location filename="../../DraftGui.py" line="2069"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add</source>
       <translation>Dodaj</translation>
     </message>
@@ -3603,11 +3863,20 @@ Pokušajte premjestiti DWG datoteku na put direktorija bez razmaka i neengleskih
 ili pokušajte spremiti u nižu DWG verziju.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1462"/>
       <location filename="../../WorkingPlane.py" line="1463"/>
       <location filename="../../WorkingPlane.py" line="1762"/>
       <location filename="../../WorkingPlane.py" line="1763"/>
       <location filename="../../draftutils/init_draft_statusbar.py" line="81"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1366"/>
+      <location filename="../../WorkingPlane.py" line="1367"/>
+      <location filename="../../WorkingPlane.py" line="1646"/>
+      <location filename="../../WorkingPlane.py" line="1647"/>
+      <location filename="../../draftutils/init_draft_statusbar.py" line="67"/>
+      <location filename="../../draftutils/init_draft_statusbar.py" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../draftutils/init_draft_statusbar.py" line="96"/>
       <location filename="../../draftutils/init_draft_statusbar.py" line="110"/>
       <location filename="../../draftutils/init_draft_statusbar.py" line="198"/>
@@ -3647,6 +3916,7 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>Postavite prilagođenu skalu napomena u formatu x:x, x=x</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/groups.py" line="101"/>
       <location filename="../../draftutils/gui_utils.py" line="916"/>
       <location filename="../../draftutils/utils.py" line="1141"/>
@@ -3664,42 +3934,90 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <location filename="../../draftmake/make_dimension.py" line="604"/>
       <location filename="../../draftmake/make_text.py" line="95"/>
       <location filename="../../draftmake/make_text.py" line="178"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="915"/>
+      <location filename="../../draftutils/utils.py" line="1073"/>
+      <location filename="../../draftutils/groups.py" line="100"/>
+      <location filename="../../draftmake/make_patharray.py" line="178"/>
+      <location filename="../../draftmake/make_patharray.py" line="327"/>
+      <location filename="../../draftmake/make_array.py" line="84"/>
+      <location filename="../../draftmake/make_label.py" line="200"/>
+      <location filename="../../draftmake/make_pointarray.py" line="91"/>
+      <location filename="../../draftmake/make_dimension.py" line="265"/>
+      <location filename="../../draftmake/make_dimension.py" line="354"/>
+      <location filename="../../draftmake/make_dimension.py" line="482"/>
+      <location filename="../../draftmake/make_dimension.py" line="603"/>
+      <location filename="../../draftmake/make_layer.py" line="55"/>
+      <location filename="../../draftmake/make_layer.py" line="145"/>
+      <location filename="../../draftmake/make_text.py" line="94"/>
+      <location filename="../../draftmake/make_text.py" line="177"/>
+      <location filename="../../draftfunctions/cut.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No active document. Aborting.</source>
       <translation>Nema aktivnog dokumenta. Prekid.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/groups.py" line="137"/>
       <location filename="../../draftutils/gui_utils.py" line="924"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="923"/>
+      <location filename="../../draftutils/groups.py" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: object {} not in document.</source>
       <translation>Pogrešan unos: objekt {} nije u dokumentu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="176"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to insert new object into a scaled part</source>
       <translation>Nije moguće umetnuti novi objekt u skalirani dio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="284"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Symbol not implemented. Using a default symbol.</source>
       <translation>Simbol nije implementiran. Korištenje zadanog simbola.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="798"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>image is Null</source>
       <translation>slika je Ništavna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="806"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>filename does not exist on the system or in the resource file</source>
       <translation>naziv datoteke ne postoji na sustavu ili u datoteci resursa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="865"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="864"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>unable to load texture</source>
       <translation>nije moguće učitati teksturu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="932"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="931"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Does not have 'ViewObject.RootNode'.</source>
       <translation>Nema 'ViewObject.RootNode'.</translation>
     </message>
@@ -3807,6 +4125,7 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>Odaberite poziciju teksta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_labels.py" line="243"/>
       <source>%1 pick arrow point</source>
       <translation type="unfinished">%1 pick arrow point</translation>
@@ -3826,6 +4145,12 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <location filename="../../draftguitools/gui_dimensions.py" line="122"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="77"/>
       <location filename="../../draftguitools/gui_lines.py" line="95"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="75"/>
+      <location filename="../../draftguitools/gui_lines.py" line="93"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="70"/>
+      <location filename="../../draftguitools/gui_dimensions.py" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick first point</source>
       <translation>Odaberite prvu točku</translation>
     </message>
@@ -3872,6 +4197,7 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>Višestruka (izlomljena) linija</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_splines.py" line="153"/>
       <location filename="../../draftguitools/gui_splines.py" line="158"/>
       <location filename="../../draftguitools/gui_beziers.py" line="158"/>
@@ -3881,6 +4207,17 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <location filename="../../draftguitools/gui_lines.py" line="266"/>
       <location filename="../../draftguitools/gui_lines.py" line="274"/>
       <location filename="../../draftguitools/gui_lines.py" line="285"/>
+=======
+      <location filename="../../draftguitools/gui_splines.py" line="151"/>
+      <location filename="../../draftguitools/gui_splines.py" line="156"/>
+      <location filename="../../draftguitools/gui_beziers.py" line="159"/>
+      <location filename="../../draftguitools/gui_beziers.py" line="162"/>
+      <location filename="../../draftguitools/gui_lines.py" line="237"/>
+      <location filename="../../draftguitools/gui_lines.py" line="247"/>
+      <location filename="../../draftguitools/gui_lines.py" line="254"/>
+      <location filename="../../draftguitools/gui_lines.py" line="262"/>
+      <location filename="../../draftguitools/gui_lines.py" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick next point</source>
       <translation>Odaberite slijedeću točku</translation>
     </message>
@@ -3957,9 +4294,17 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>Odaberite krajnju točku</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_move.py" line="252"/>
       <source>%1 pick start point</source>
       <translation type="unfinished">%1 pick start point</translation>
+=======
+      <location filename="../../draftguitools/gui_rotate.py" line="240"/>
+      <location filename="../../draftguitools/gui_move.py" line="191"/>
+      <location filename="../../draftguitools/gui_scale.py" line="123"/>
+      <source>No valid subelements selected</source>
+      <translation>Nema valjanih izabranih pod elemenata</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_move.py" line="256"/>
@@ -3979,18 +4324,32 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>Pomicanje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_polygons.py" line="90"/>
       <location filename="../../draftguitools/gui_arcs.py" line="94"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="91"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick center point</source>
       <translation>Odaberite točku središta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_polygons.py" line="208"/>
       <location filename="../../draftguitools/gui_polygons.py" line="219"/>
       <location filename="../../draftguitools/gui_polygons.py" line="282"/>
       <location filename="../../draftguitools/gui_arcs.py" line="269"/>
       <location filename="../../draftguitools/gui_arcs.py" line="286"/>
       <location filename="../../draftguitools/gui_arcs.py" line="430"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="268"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="285"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="429"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="206"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="217"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick radius</source>
       <translation>Odaberite polumjer</translation>
     </message>
@@ -4023,6 +4382,7 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
     </message>
     <message>
       <location filename="../../draftguitools/gui_tool_utils.py" line="76"/>
+<<<<<<< HEAD
       <source>Hold %1 constrain</source>
       <translation type="unfinished">Hold %1 constrain</translation>
     </message>
@@ -4035,6 +4395,23 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <location filename="../../draftguitools/gui_tool_utils.py" line="86"/>
       <source>Hold %1 radial dimension</source>
       <translation type="unfinished">Hold %1 radial dimension</translation>
+=======
+      <source>%1 constrain</source>
+      <translation>%1 ograničiti</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_tool_utils.py" line="83"/>
+      <source>%1 snap</source>
+      <translation>%1 uhvati se na</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_tool_utils.py" line="100"/>
+      <source>%1/%2/%3 switch constraint</source>
+      <translation>%1/%2/%3 promijeni ograničenje
+
+
+7%3 </translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_tool_utils.py" line="93"/>
@@ -4077,6 +4454,7 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>%1 prebaci na slijedeće</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_tool_utils.py" line="162"/>
       <source>%1 / hold %2 select edge</source>
       <translation type="unfinished">%1 / hold %2 select edge</translation>
@@ -4095,6 +4473,16 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
     <message>
       <location filename="../../draftguitools/gui_polygons.py" line="314"/>
       <location filename="../../draftguitools/gui_arcs.py" line="492"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="487"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="310"/>
+      <source>%1 pick center</source>
+      <translation>%1 odaberi središte</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_arcs.py" line="489"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick radius</source>
       <translation>%1 odaberi polumjer</translation>
     </message>
@@ -4145,16 +4533,28 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <translation>Stvori luk iz 3 točke</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_rectangles.py" line="219"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="222"/>
       <location filename="../../draftguitools/gui_arcs.py" line="658"/>
       <location filename="../../draftguitools/gui_lines.py" line="318"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="220"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="655"/>
+      <location filename="../../draftguitools/gui_lines.py" line="306"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick first point</source>
       <translation>%1 odaberi početnu točku</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_arcs.py" line="662"/>
       <location filename="../../draftguitools/gui_lines.py" line="322"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="659"/>
+      <location filename="../../draftguitools/gui_lines.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick second point</source>
       <translation>%1 odaberi drugu točku</translation>
     </message>
@@ -4227,6 +4627,14 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <location filename="../../draftguitools/gui_annotationstyleeditor.py" line="71"/>
       <source>Annotation Style Editor</source>
       <translation>Uređivač stilova napomena</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_annotationstyleeditor.py" line="223"/>
+      <source>New Style</source>
+      <translation>Novi stil</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_annotationstyleeditor.py" line="224"/>
@@ -4269,6 +4677,14 @@ ili pokušajte spremiti u nižu DWG verziju.</translation>
       <location filename="../../draftguitools/gui_annotationstyleeditor.py" line="271"/>
       <source>This style is used by some objects in this document. Proceed?</source>
       <translation>Ovaj stil je korišten od nekih objekata u ovom dokumentu. Nastavi?</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_annotationstyleeditor.py" line="297"/>
+      <source>Rename Style</source>
+      <translation>Preimenovanje stila</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_annotationstyleeditor.py" line="298"/>
@@ -4694,6 +5110,7 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <location filename="../../draftguitools/gui_edit_draft_objects.py" line="432"/>
       <source>Invert Arc</source>
       <translation>Obrni luk</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../draftguitools/gui_edit_draft_objects.py" line="694"/>
@@ -4704,6 +5121,28 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <location filename="../../draftguitools/gui_edit_draft_objects.py" line="696"/>
       <source>Make Tangent</source>
       <translation>Napravi tangencijalno</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_edit_draft_objects.py" line="679"/>
+      <source>Make Sharp</source>
+      <translation>Napravi oštro</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_edit_draft_objects.py" line="681"/>
+      <source>Make Tangent</source>
+      <translation>Napravi tangencijalno</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_edit_draft_objects.py" line="685"/>
+      <source>Make Symmetric</source>
+      <translation>Napravi simetrično</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_edit_draft_objects.py" line="694"/>
+      <source>Reverse Curve</source>
+      <translation>Obrni krivu</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_edit_draft_objects.py" line="700"/>
@@ -4784,14 +5223,24 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Napravi Elipsu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_rectangles.py" line="208"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="211"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="209"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick opposite point</source>
       <translation>Odaberi suprotnu točku</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_rectangles.py" line="223"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="226"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="224"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick opposite point</source>
       <translation>%1 odaberite suprotnu točku</translation>
     </message>
@@ -5053,125 +5502,223 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Vraćanje na niži stupanj</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="235"/>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="406"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="200"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="364"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="185"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="341"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="234"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="405"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="192"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="343"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="171"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object:</source>
       <translation>Objekt:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="95"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar Array</source>
       <translation>Polarna matrica</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="189"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements must be at least 2</source>
       <translation>Broj elemenata mora biti najmanje 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="197"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The angle is above 360 degrees. It is set to this value to proceed.</source>
       <translation>Kut je iznad 360 stupnjeva. Postavljen je na ovu vrijednost, za nastavak.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="204"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The angle is below -360 degrees. It is set to this value to proceed.</source>
       <translation>Kut je ispod -360 stupnjeva. Postavljen je na ovu vrijednost, za nastavak.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="259"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Polar Array</source>
       <translation>Stvori polarnu matricu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="377"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="335"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="312"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="376"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="314"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fuse:</source>
       <translation>Spoji:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="348"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Link array:</source>
       <translation>Stvori niz poveznica:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="342"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements:</source>
       <translation>Broj elemenata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="343"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar angle:</source>
       <translation>Polarni kut:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="371"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="346"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="350"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center of rotation:</source>
       <translation>Centar rotacije:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="93"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orthogonal Array</source>
       <translation>Ortogonalna matrica</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="227"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements must be at least 1</source>
       <translation>Broj elemenata mora biti najmanje 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="245"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>In linear mode, at least 1 axis must be selected</source>
       <translation>U linearnom načinu rada mora biti odabrana barem jedna os</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="317"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Orthogonal Array</source>
       <translation>Stvori Ortogonalnu matricu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="390"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="325"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="389"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create link array:</source>
       <translation>Stvori matricu Poveznice:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="408"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of X elements:</source>
       <translation>Broj X elemenata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="411"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval X:</source>
       <translation>Interval X:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="413"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of Y elements:</source>
       <translation>Broj Y elemenata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="416"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval Y:</source>
       <translation>Interval Y:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="418"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of Z elements:</source>
       <translation>Broj Z elemenata:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="421"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval Z:</source>
       <translation>Interval Z:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="437"/>
       <source>Switch to Ortho Mode</source>
       <translation>Prebaci se na Okomito način rada</translation>
@@ -5191,21 +5738,54 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
     <message>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="458"/>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="496"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="436"/>
+      <source>Switch to Ortho Mode</source>
+      <translation>Prebaci se na Okomito način rada</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="453"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="491"/>
+      <source>X-Axis</source>
+      <translation>X - Os</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="455"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="493"/>
+      <source>Y-Axis</source>
+      <translation>Y - Os</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="457"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="495"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z-Axis</source>
       <translation>Z-os</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="460"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch to Linear Mode</source>
       <translation>Prebaci se na Linearni način rada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="531"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="530"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements</source>
       <translation>Broj elemenata</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="532"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="531"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval</source>
       <translation>Interval</translation>
     </message>
@@ -5215,21 +5795,34 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Oblik Teksta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/params.py" line="536"/>
+=======
+      <location filename="../../draftutils/params.py" line="505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default</source>
       <translation>Inicijalno</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="206"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radial distance is zero. Resulting array may not look correct.</source>
       <translation>Radijalna udaljenost je nula. Rezultirajući niz možda neće izgledati ispravno.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="208"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radial distance is negative. It is made positive to proceed.</source>
       <translation>Radijalna udaljenost je negativna. biti će pozitivno napravljeno za nastaviti.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="95"/>
       <source>Circular Array</source>
       <translation>Kružna matrica</translation>
@@ -5260,31 +5853,83 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
     </message>
     <message>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="219"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="92"/>
+      <source>Circular Array</source>
+      <translation>Kružna matrica</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="222"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="180"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="163"/>
+      <source>At least 1 element must be selected</source>
+      <translation>Barem 1 stavka mora biti označena</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="184"/>
+      <source>Number of layers must be at least 2</source>
+      <translation>Broj slojeva mora biti najmanje 2</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="233"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="191"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="170"/>
+      <source>Selection is not suitable for array</source>
+      <translation>Odabir nije prikladan za matricu</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="204"/>
+      <source>Tangential distance cannot be 0</source>
+      <translation>Tangencijalna udaljenost ne može biti 0</translation>
+    </message>
+    <message>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tangential distance is negative. It is made positive to proceed.</source>
       <translation>Tangencijalna udaljenost je negativna. biti će pozitivno napravljena za nastaviti.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="278"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Circular Array</source>
       <translation>Stvori kružnu matricu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="365"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radial distance:</source>
       <translation>Radijalna udaljenost:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="366"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tangential distance:</source>
       <translation>Tangencijalna udaljenost:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="367"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of concentric circles:</source>
       <translation>Broj koncentričnih kružnica:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="368"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Symmetry parameter:</source>
       <translation>Parametar simetrije:</translation>
     </message>
@@ -5418,12 +6063,21 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Nije moguće generirati oblik:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="111"/>
       <location filename="../../draftmake/make_pointarray.py" line="97"/>
       <location filename="../../draftmake/make_patharray.py" line="184"/>
       <location filename="../../draftmake/make_patharray.py" line="333"/>
       <location filename="../../draftmake/make_orthoarray.py" line="149"/>
       <location filename="../../draftmake/make_circulararray.py" line="135"/>
+=======
+      <location filename="../../draftmake/make_patharray.py" line="183"/>
+      <location filename="../../draftmake/make_patharray.py" line="332"/>
+      <location filename="../../draftmake/make_orthoarray.py" line="148"/>
+      <location filename="../../draftmake/make_polararray.py" line="97"/>
+      <location filename="../../draftmake/make_pointarray.py" line="96"/>
+      <location filename="../../draftmake/make_circulararray.py" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: base_object not in document.</source>
       <translation>Pogrešan unos: osnovni_objekt nije u dokumentu.</translation>
     </message>
@@ -5434,6 +6088,7 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Pogrešan unos: staza_objekt nije u dokumentu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="123"/>
       <location filename="../../draftmake/make_patharray.py" line="195"/>
       <location filename="../../draftmake/make_patharray.py" line="266"/>
@@ -5442,10 +6097,21 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <location filename="../../draftmake/make_orthoarray.py" line="139"/>
       <location filename="../../draftmake/make_label.py" line="317"/>
       <location filename="../../draftmake/make_layer.py" line="185"/>
+=======
+      <location filename="../../draftmake/make_patharray.py" line="194"/>
+      <location filename="../../draftmake/make_patharray.py" line="265"/>
+      <location filename="../../draftmake/make_patharray.py" line="272"/>
+      <location filename="../../draftmake/make_patharray.py" line="342"/>
+      <location filename="../../draftmake/make_orthoarray.py" line="138"/>
+      <location filename="../../draftmake/make_label.py" line="316"/>
+      <location filename="../../draftmake/make_polararray.py" line="109"/>
+      <location filename="../../draftmake/make_layer.py" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: must be a number.</source>
       <translation>Pogrešan unos: mora bit broj.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="135"/>
       <location filename="../../draftmake/make_patharray.py" line="202"/>
       <location filename="../../draftmake/make_patharray.py" line="253"/>
@@ -5461,6 +6127,23 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <location filename="../../draftmake/make_dimension.py" line="610"/>
       <location filename="../../draftmake/make_dimension.py" line="635"/>
       <location filename="../../draftmake/make_dimension.py" line="642"/>
+=======
+      <location filename="../../draftmake/make_patharray.py" line="201"/>
+      <location filename="../../draftmake/make_patharray.py" line="252"/>
+      <location filename="../../draftmake/make_patharray.py" line="259"/>
+      <location filename="../../draftmake/make_label.py" line="208"/>
+      <location filename="../../draftmake/make_polararray.py" line="115"/>
+      <location filename="../../draftmake/make_dimension.py" line="271"/>
+      <location filename="../../draftmake/make_dimension.py" line="277"/>
+      <location filename="../../draftmake/make_dimension.py" line="284"/>
+      <location filename="../../draftmake/make_dimension.py" line="396"/>
+      <location filename="../../draftmake/make_dimension.py" line="417"/>
+      <location filename="../../draftmake/make_dimension.py" line="535"/>
+      <location filename="../../draftmake/make_dimension.py" line="609"/>
+      <location filename="../../draftmake/make_dimension.py" line="634"/>
+      <location filename="../../draftmake/make_dimension.py" line="641"/>
+      <location filename="../../draftmake/make_circulararray.py" line="156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: must be a vector.</source>
       <translation>Pogrešan unos: mora biti vektor.</translation>
     </message>
@@ -5487,9 +6170,15 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Ulaz: jedna vrijednost proširena na vektor.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="117"/>
       <location filename="../../draftmake/make_orthoarray.py" line="113"/>
       <location filename="../../draftmake/make_circulararray.py" line="153"/>
+=======
+      <location filename="../../draftmake/make_orthoarray.py" line="112"/>
+      <location filename="../../draftmake/make_polararray.py" line="103"/>
+      <location filename="../../draftmake/make_circulararray.py" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: must be an integer number.</source>
       <translation>Pogrešan unos: mora biti cijeli broj.</translation>
     </message>
@@ -5697,16 +6386,28 @@ Konačni kut bit će osnovni kut plus ovaj iznos.</translation>
       <translation>Pogrešan unos: mora biti broj između 0 i 100.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_clone.py" line="71"/>
       <location filename="../../draftviewproviders/view_hatch.py" line="87"/>
       <location filename="../../draftviewproviders/view_base.py" line="470"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="284"/>
+=======
+      <location filename="../../draftviewproviders/view_base.py" line="469"/>
+      <location filename="../../draftviewproviders/view_hatch.py" line="86"/>
+      <location filename="../../draftviewproviders/view_clone.py" line="70"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Uredi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wire.py" line="208"/>
       <location filename="../../draftviewproviders/view_base.py" line="475"/>
+=======
+      <location filename="../../draftviewproviders/view_base.py" line="474"/>
+      <location filename="../../draftviewproviders/view_wire.py" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flatten</source>
       <translation>Spljošti</translation>
     </message>
@@ -6130,6 +6831,19 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <location filename="../../draftobjects/hatch.py" line="149"/>
       <source>PAT file not found</source>
       <translation>PAT datoteka nije pronađena</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../draftobjects/hatch.py" line="144"/>
+      <source>Specified PAT file is not a file</source>
+      <translation>Navedena PAT datoteka  nije datoteka</translation>
+    </message>
+    <message>
+      <location filename="../../draftobjects/hatch.py" line="148"/>
+      <source>Specified file type is not supported</source>
+      <translation>Navedeni tip datoteke nije podržan</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftobjects/hatch.py" line="152"/>
@@ -6145,6 +6859,7 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <location filename="../../draftobjects/hatch.py" line="158"/>
       <source>Pattern not found in PAT file</source>
       <translation>Uzorak nije pronađen u PAT datoteci</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../draftobjects/hatch.py" line="243"/>
@@ -6155,6 +6870,8 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <location filename="../../draftguitools/gui_field_locks.py" line="90"/>
       <source>Keeps the value fixed during 3D input. The lock icon or a double-click unlocks the field.</source>
       <translation type="unfinished">Keeps the value fixed during 3D input. The lock icon or a double-click unlocks the field.</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6163,6 +6880,7 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <location filename="../../InitGui.py" line="106"/>
       <source>Draft Creation</source>
       <translation>Izrada nacrta</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../InitGui.py" line="109"/>
@@ -6181,6 +6899,26 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
     </message>
     <message>
       <location filename="../../InitGui.py" line="118"/>
+=======
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="115"/>
+      <source>Draft Annotation</source>
+      <translation>Napomena nacrta</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="118"/>
+      <source>Draft Modification</source>
+      <translation>Izmjene nacrta</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="121"/>
+      <source>Draft Utility</source>
+      <translation>Alati nacrta</translation>
+    </message>
+    <message>
+      <location filename="../../InitGui.py" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft Snap</source>
       <translation>Privuci na nacrtu</translation>
     </message>
@@ -6204,6 +6942,24 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <source>&amp;Utilities</source>
       <translation>&amp;Uslužni programi</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+      <location filename="../../draftutils/init_tools.py" line="55"/>
+      <source>Arc Tools</source>
+      <translation>Alati luka</translation>
+    </message>
+    <message>
+      <location filename="../../draftutils/init_tools.py" line="64"/>
+      <source>Bézier Tools</source>
+      <translation>Bezier alati</translation>
+    </message>
+    <message>
+      <location filename="../../draftutils/init_tools.py" line="95"/>
+      <source>Array Tools</source>
+      <translation>Alati matrice</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Draft</name>
@@ -6259,16 +7015,28 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <translation>Nagib</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="157"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="137"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="133"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="156"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="129"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>True</source>
       <translation>Točno</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="159"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="141"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="137"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="158"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="133"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>False</source>
       <translation>Netočno</translation>
     </message>
@@ -6328,12 +7096,20 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <translation>_B-krivulja.napraviGeometriju: zatvoreno s istom prvom/zadnjom točkom. Geometrija se ne ažurira.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="106"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Writing camera position</source>
       <translation>Zapiši položaj kamere</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="124"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Writing objects shown/hidden state</source>
       <translation>Zapiši stanje objekata prikazan/skriven</translation>
     </message>
@@ -6364,9 +7140,20 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <translation>Boja Linije</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_layers.py" line="405"/>
       <source>Face Color</source>
       <translation>Boja lica</translation>
+=======
+      <location filename="../../draftguitools/gui_layers.py" line="403"/>
+      <source>Face Color</source>
+      <translation>Boja lica</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_layers.py" line="405"/>
+      <source>Line Print Color</source>
+      <translation>Boja ispisa linije</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_layers.py" line="407"/>
@@ -6454,7 +7241,16 @@ Da biste omogućili FreeCAD-u preuzimanje ovih biblioteka, odgovorite s Da.</tra
       <translation>Stvori klon</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_offset.py" line="333"/>
+=======
+      <location filename="../../draftguitools/gui_hatch.py" line="61"/>
+      <source>Choose a base object before using this command</source>
+      <translation>Odaberite osnovni objekt prije korištenja ove naredbe</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_offset.py" line="329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset direction is not defined. Move the mouse on either side of the object first to indicate a direction.</source>
       <translation>Smjer pomaka nije definiran. Prvo pomaknite miš s obje strane objekta kako biste naznačili smjer</translation>
     </message>
@@ -7060,20 +7856,36 @@ označi Točno za spajanje ili Netočno za složeni spoj</translation>
       <translation>Polumjer kruga</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/polygon.py" line="67"/>
       <location filename="../../draftobjects/ellipse.py" line="64"/>
       <location filename="../../draftobjects/rectangle.py" line="61"/>
       <location filename="../../draftobjects/circle.py" line="61"/>
+=======
+      <location filename="../../draftobjects/ellipse.py" line="63"/>
+      <location filename="../../draftobjects/circle.py" line="60"/>
+      <location filename="../../draftobjects/rectangle.py" line="60"/>
+      <location filename="../../draftobjects/polygon.py" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a face</source>
       <translation>Napravite lice</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/wire.py" line="90"/>
       <location filename="../../draftobjects/polygon.py" line="70"/>
       <location filename="../../draftobjects/bspline.py" line="57"/>
       <location filename="../../draftobjects/rectangle.py" line="70"/>
       <location filename="../../draftobjects/bezcurve.py" line="66"/>
       <location filename="../../draftobjects/circle.py" line="64"/>
+=======
+      <location filename="../../draftobjects/wire.py" line="88"/>
+      <location filename="../../draftobjects/bspline.py" line="56"/>
+      <location filename="../../draftobjects/circle.py" line="63"/>
+      <location filename="../../draftobjects/bezcurve.py" line="65"/>
+      <location filename="../../draftobjects/rectangle.py" line="69"/>
+      <location filename="../../draftobjects/polygon.py" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The area of this object</source>
       <translation>Područje ovog objekta</translation>
     </message>
@@ -7098,16 +7910,28 @@ označi Točno za spajanje ili Netočno za složeni spoj</translation>
       <translation>Kako se poligon mora nacrtati iz kontrolnog kruga</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/wire.py" line="78"/>
       <location filename="../../draftobjects/polygon.py" line="61"/>
       <location filename="../../draftobjects/rectangle.py" line="55"/>
+=======
+      <location filename="../../draftobjects/wire.py" line="76"/>
+      <location filename="../../draftobjects/rectangle.py" line="54"/>
+      <location filename="../../draftobjects/polygon.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius to use to fillet the corners</source>
       <translation>Radijus koji se koristi za zaobljavanje uglova</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/wire.py" line="81"/>
       <location filename="../../draftobjects/polygon.py" line="64"/>
       <location filename="../../draftobjects/rectangle.py" line="58"/>
+=======
+      <location filename="../../draftobjects/wire.py" line="79"/>
+      <location filename="../../draftobjects/rectangle.py" line="57"/>
+      <location filename="../../draftobjects/polygon.py" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Size of the chamfer to give to the corners</source>
       <translation>Veličina fasete na uglovima</translation>
     </message>
@@ -7133,18 +7957,32 @@ označi Točno za spajanje ili Netočno za složeni spoj</translation>
       <translation>Faktor rotacije prepletene matrice.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/pointarray.py" line="112"/>
       <location filename="../../draftobjects/array.py" line="325"/>
       <location filename="../../draftobjects/pathtwistedarray.py" line="150"/>
       <location filename="../../draftobjects/patharray.py" line="262"/>
+=======
+      <location filename="../../draftobjects/pathtwistedarray.py" line="149"/>
+      <location filename="../../draftobjects/pointarray.py" line="111"/>
+      <location filename="../../draftobjects/array.py" line="324"/>
+      <location filename="../../draftobjects/patharray.py" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the individual array elements (only for Link arrays)</source>
       <translation>Prikaži pojedinačne elemente niza (samo za vezane nizove)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/pointarray.py" line="118"/>
       <location filename="../../draftobjects/array.py" line="148"/>
       <location filename="../../draftobjects/pathtwistedarray.py" line="159"/>
       <location filename="../../draftobjects/patharray.py" line="269"/>
+=======
+      <location filename="../../draftobjects/pathtwistedarray.py" line="158"/>
+      <location filename="../../draftobjects/pointarray.py" line="117"/>
+      <location filename="../../draftobjects/array.py" line="147"/>
+      <location filename="../../draftobjects/patharray.py" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The placement for each array element</source>
       <translation>Položaj za svaki element niza</translation>
     </message>
@@ -7274,8 +8112,13 @@ Kada se koristi spremljeni stil neka od svojstava pregleda će se moći samo či
 ona će se moći mijenjati samo promjenom stila pomoću 'Urednika za Anotacijske Stilove'.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/array.py" line="101"/>
       <location filename="../../draftobjects/patharray.py" line="220"/>
+=======
+      <location filename="../../draftobjects/array.py" line="100"/>
+      <location filename="../../draftobjects/patharray.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base object that will be duplicated</source>
       <translation>Osnovni objekt koji će biti dupliciran</translation>
     </message>
@@ -7390,10 +8233,17 @@ Inače kopije će imati istu orijetaciju kao i originalni Osnovni objekt.</trans
  - Kružni: stavlja kopije u koncentrične kružne slojeve oko osnovnog objekta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/pointarray.py" line="86"/>
       <location filename="../../draftobjects/array.py" line="129"/>
       <location filename="../../draftobjects/pathtwistedarray.py" line="120"/>
       <location filename="../../draftobjects/patharray.py" line="255"/>
+=======
+      <location filename="../../draftobjects/pathtwistedarray.py" line="119"/>
+      <location filename="../../draftobjects/pointarray.py" line="85"/>
+      <location filename="../../draftobjects/array.py" line="128"/>
+      <location filename="../../draftobjects/patharray.py" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies if the copies should be fused together if they touch each other (slower)</source>
       <translation>Određuje dali kopije trebaju srasti ako se dodiruju (sporije)</translation>
     </message>
@@ -7960,34 +8810,60 @@ svojstava 'Početni Kut' i 'Završni Kut'.</translation>
       <translation>Boja teksta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="78"/>
       <location filename="../../draftviewproviders/view_text.py" line="61"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="77"/>
+      <location filename="../../draftviewproviders/view_text.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line spacing (relative to font size)</source>
       <translation>Razmak između redaka (u odnosu na veličinu fonta)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="61"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical alignment</source>
       <translation>Uspravno poravnanje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="69"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="68"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum number of characters on each line of the text box</source>
       <translation>Maksimalni broj znakova u svakom retku tekstnog okvira</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="73"/>
       <location filename="../../draftviewproviders/view_text.py" line="56"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="72"/>
+      <location filename="../../draftviewproviders/view_text.py" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal alignment</source>
       <translation>Vodoravno poravnanje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="91"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of frame around the text of this object</source>
       <translation>Vrsta okvira oko teksta ovog objekta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="96"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Display a leader line or not</source>
       <translation>Prikaži ili sakrij vodilice</translation>
     </message>
@@ -8117,18 +8993,32 @@ Ostavite prazno za zadane postavke sustava.
 Upotrijebite 'arch' za prisilno označavanje US luka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wire.py" line="67"/>
       <location filename="../../draftviewproviders/view_wire.py" line="80"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="144"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="159"/>
+=======
+      <location filename="../../draftviewproviders/view_wire.py" line="66"/>
+      <location filename="../../draftviewproviders/view_wire.py" line="79"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="143"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arrow size</source>
       <translation>Veličina strelice</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wire.py" line="72"/>
       <location filename="../../draftviewproviders/view_wire.py" line="85"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="149"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="166"/>
+=======
+      <location filename="../../draftviewproviders/view_wire.py" line="71"/>
+      <location filename="../../draftviewproviders/view_wire.py" line="84"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="148"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arrow type</source>
       <translation>Vrsta strelice</translation>
     </message>
@@ -8162,12 +9052,20 @@ izvan linije dimenzije</translation>
       <translation>Prikazuje liniju dimenzije i strelice</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="52"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The display length of this section plane</source>
       <translation>Dužina prikaza ove presječne ravnine</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="55"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the arrows of this section plane</source>
       <translation>Veličina strelica  ove presječne ravnine</translation>
     </message>
@@ -8175,6 +9073,18 @@ izvan linije dimenzije</translation>
       <location filename="../../draftviewproviders/view_rectangle.py" line="46"/>
       <source>Defines a texture image (overrides hatch patterns)</source>
       <translation>Definira teksture slike (nadjačava uzorak šrafure)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+  </context>
+  <context>
+    <name>Command</name>
+    <message>
+      <location filename="../../draftviewproviders/view_base.py" line="502"/>
+      <location filename="../../draftviewproviders/view_hatch.py" line="92"/>
+      <source>Transform</source>
+      <translation>Transformiraj</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -9006,6 +9916,7 @@ Najbolje za pregled vrlo velikih datoteka s maksimalnim performansama.</translat
       <location filename="../ui/preferences-dxf-import.ui" line="136"/>
       <source>Do not show this dialog again</source>
       <translation>Ne prikazuj više ovaj dijalog</translation>
+<<<<<<< HEAD
     </message>
   </context>
   <context>
@@ -9014,6 +9925,8 @@ Najbolje za pregled vrlo velikih datoteka s maksimalnim performansama.</translat
       <location filename="../../Init.py" line="35"/>
       <source>Flattened SVG</source>
       <translation type="unfinished">Flattened SVG</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

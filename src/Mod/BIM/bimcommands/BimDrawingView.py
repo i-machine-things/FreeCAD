@@ -67,6 +67,7 @@ class BIM_DrawingView:
         FreeCADGui.addModule("Draft")
         FreeCADGui.addModule("WorkingPlane")
         s = FreeCADGui.Selection.getSelection()
+<<<<<<< HEAD
         section = None
         if len(s) == 1 and Draft.getType(s[0]) == "SectionPlane":
             section = s[0]
@@ -87,6 +88,29 @@ class BIM_DrawingView:
             FreeCADGui.doCommand('cobj.ProjectionMode = "Cutfaces"')
             FreeCADGui.doCommand("cobj.ViewObject.LineWidth = " + str(cut_lines_width))
             FreeCADGui.doCommand("obj.addObject(cobj)")
+=======
+        if len(s) == 1:
+            s = s[0]
+            if Draft.getType(s) == "SectionPlane":
+                FreeCADGui.doCommand(
+                    "vobj = Draft.make_shape2dview(FreeCAD.ActiveDocument." + s.Name + ")"
+                )
+                FreeCADGui.doCommand("vobj.Label = " + repr(translate("BIM", "Viewed lines")))
+                FreeCADGui.doCommand("vobj.InPlace = False")
+                FreeCADGui.doCommand("obj.addObject(vobj)")
+                bb = FreeCAD.BoundBox()
+                for so in s.Objects:
+                    if hasattr(so, "Shape"):
+                        bb.add(so.Shape.BoundBox)
+                if bb.isInside(s.Shape.CenterOfMass):
+                    FreeCADGui.doCommand(
+                        "cobj = Draft.make_shape2dview(FreeCAD.ActiveDocument." + s.Name + ")"
+                    )
+                    FreeCADGui.doCommand("cobj.Label = " + repr(translate("BIM", "Cut lines")))
+                    FreeCADGui.doCommand("cobj.InPlace = False")
+                    FreeCADGui.doCommand('cobj.ProjectionMode = "Cutfaces"')
+                    FreeCADGui.doCommand("obj.addObject(cobj)")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         FreeCAD.ActiveDocument.commitTransaction()
         FreeCAD.ActiveDocument.recompute()
 

@@ -519,6 +519,14 @@ void StartupPostProcess::activateWorkbench()
         mainWindow->loadWindowSettings();
     }
 
+<<<<<<< HEAD
+=======
+    // initialize spaceball.
+    if (auto fcApp = qobject_cast<GUIApplicationNativeEventAware*>(qtApp)) {
+        fcApp->initSpaceball(mainWindow);
+    }
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // Now run the background autoload, for workbenches that should be loaded at startup, but not
     // displayed to the user immediately
     autoloadModules(wb);

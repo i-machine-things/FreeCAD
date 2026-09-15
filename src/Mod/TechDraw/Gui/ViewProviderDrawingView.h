@@ -27,7 +27,10 @@
 
 #include <fastsignals/signal.h>
 
+<<<<<<< HEAD
 #include <Base/ProgramVersion.h>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <Gui/Document.h>
 #include <Gui/ViewProviderDocumentObject.h>
 #include <Mod/TechDraw/App/DrawView.h>
@@ -107,6 +110,7 @@ public:
     std::vector<App::DocumentObject*> claimChildren() const override;
 
     void fixColorAlphaValues();
+<<<<<<< HEAD
     bool checkMinimumDocumentVersion(Base::Version minimumVersion) const
         { return checkMinimumDocumentVersion(this->getDocument()->getDocument(), minimumVersion); }
 
@@ -115,6 +119,11 @@ public:
     //! Document.xml file.
     //! (ex <Document SchemaVersion="4" ProgramVersion="1.2R44322 +1 (Git)" FileVersion="1" StringHasher="1">)
     static bool checkMinimumDocumentVersion(App::Document* toBeChecked, Base::Version minimumVersion);
+=======
+    bool checkMiniumumDocumentVersion(int minMajor, int minMinor) const
+        { return checkMiniumumDocumentVersion(this->getDocument()->getDocument(), minMajor, minMinor); }
+    static bool checkMiniumumDocumentVersion(App::Document* toBeChecked, int minMajor, int minMinor);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 
 private:

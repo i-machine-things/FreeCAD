@@ -930,6 +930,7 @@ class DraftToolBar:
             target.setFocus()
             target.setSelection(0, self.number_length(target.text()))
 
+<<<<<<< HEAD
     def _first_unlocked_point_field(self):
         """Return the first visible, enabled, unlocked point-entry field.
 
@@ -947,6 +948,8 @@ class DraftToolBar:
                 return widget
         return self.xValue
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     def number_length(self, st):
         nl = len(st)
         for char in st[::-1]:
@@ -1155,6 +1158,10 @@ class DraftToolBar:
             self.state.append(self.pointButton.isVisible())
             self.state.append(self.lengthValue.isVisible())
             self.state.append(self.angleValue.isVisible())
+<<<<<<< HEAD
+=======
+            self.state.append(self.angleLock.isVisible())
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             self.state.append(self.isRelative.isVisible())
             self.state.append(self.isGlobal.isVisible())
             self.hideXYZ()
@@ -1183,8 +1190,15 @@ class DraftToolBar:
                 if self.state[10]:
                     self.angleValue.show()
                 if self.state[11]:
+<<<<<<< HEAD
                     self.isRelative.show()
                 if self.state[12]:
+=======
+                    self.angleLock.show()
+                if self.state[12]:
+                    self.isRelative.show()
+                if self.state[13]:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     self.isGlobal.show()
                 self.state = None
 

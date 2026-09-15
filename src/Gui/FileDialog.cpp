@@ -63,6 +63,7 @@
 
 using namespace Gui;
 
+<<<<<<< HEAD
 namespace
 {
 QString getActiveDocumentDirectory()
@@ -102,6 +103,8 @@ QString getPreferredDialogDirectory()
 }
 }  // namespace
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 // An raii-helper struct to disable actions while dialogs are open
 // At least on macos, shortcuts for enabled actions will still trigger while dialogs are open
 struct ActionDisabler
@@ -141,6 +144,7 @@ struct ActionDisabler
 };
 
 
+<<<<<<< HEAD
 DialogOptions::Backend DialogOptions::fileDialogBackend()
 {
     if (dontUseNativeFileDialog()) {
@@ -153,6 +157,8 @@ DialogOptions::Backend DialogOptions::fileDialogBackend()
 #endif
 }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 bool DialogOptions::dontUseNativeFileDialog()
 {
 #if defined(USE_QT_DIALOGS)
@@ -543,9 +549,14 @@ QString FileDialog::getSaveFileName(
 )
 {
     ActionDisabler actionDisabler {};
+<<<<<<< HEAD
     qsizetype actuallySelectedFilterIndex = selectedFilterIndex != nullptr ? *selectedFilterIndex
                                                                            : -1;
     QString suggestedPath = startPath;
+=======
+
+    QString dirName = dir;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     bool hasFilename = false;
     if (suggestedPath.isEmpty()) {
         suggestedPath = getPreferredDialogDirectory();
@@ -578,8 +589,15 @@ QString FileDialog::getSaveFileName(
         windowTitle = FileDialog::tr("Save As");
     }
 
+<<<<<<< HEAD
     options |= QFileDialog::HideNameFilterDetails;
 
+=======
+
+    // NOTE: We must not change the specified file name afterwards as we may return the name of an
+    // already existing file. Hence we must extract the first matching suffix from the filter list
+    // and append it before showing the file dialog.
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     QString file;
     if (DialogOptions::dontUseNativeFileDialog()) {
         const bool showPatterns = FileDialogInternal::getPreferShowFilterPatterns();
@@ -674,12 +692,16 @@ QString FileDialog::getExistingDirectory(
 )
 {
     ActionDisabler actionDisabler {};
+<<<<<<< HEAD
     QString dirName = dir;
     if (dirName.isEmpty()) {
         dirName = getPreferredDialogDirectory();
     }
 
     QString path = QFileDialog::getExistingDirectory(parent, caption, dirName, options);
+=======
+    QString path = QFileDialog::getExistingDirectory(parent, caption, dir, options);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // valid path was selected
     if (!path.isEmpty()) {
         QDir d(path);

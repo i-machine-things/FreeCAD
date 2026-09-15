@@ -170,11 +170,19 @@ public:
     static bool snapDetailHighlights();
     static double detailSnapRadius();
 
+<<<<<<< HEAD
     static bool showCenterMarks();
     static bool printCenterMarks();
 
     static bool fixColorAlphaOnLoad();
 
+=======
+    static bool fixColorAlphaOnLoad();
+
+    static bool showCenterMarks();
+    static bool printCenterMarks();
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 };
 
 

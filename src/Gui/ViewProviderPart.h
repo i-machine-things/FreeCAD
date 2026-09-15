@@ -22,8 +22,13 @@
 
 #pragma once
 
+<<<<<<< HEAD
 #include "ActiveObjectList.h"
 #include "ViewProviderGeometryObject.h"
+=======
+#include "ViewProviderDragger.h"
+#include "ActiveObjectList.h"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include "ViewProviderOriginGroup.h"
 #include "ViewProviderFeaturePython.h"
 

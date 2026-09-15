@@ -67,7 +67,15 @@ string(JSON PACKAGE_VERSION_PATCH GET ${VERSION_JSON} "version_patch")
 string(JSON PACKAGE_VERSION_SUFFIX GET ${VERSION_JSON} "version_suffix")
 string(JSON PACKAGE_BUILD_VERSION GET ${VERSION_JSON} "build_version")
 
+<<<<<<< HEAD
 project(${_PROJECT_NAME})
+=======
+set(PACKAGE_VERSION_MAJOR "1")
+set(PACKAGE_VERSION_MINOR "1")
+set(PACKAGE_VERSION_PATCH "3") # number of patch release (e.g. "4" for the 0.18.4 release)
+set(PACKAGE_VERSION_SUFFIX "") # either "dev" for development snapshot or "" (empty string)
+set(PACKAGE_BUILD_VERSION "0") # used when the same FreeCAD version will be re-released (for example using an updated LibPack)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 string(TIMESTAMP PACKAGE_COPYRIGHT_YEAR "%Y")
 
 set(PACKAGE_VERSION "${PACKAGE_VERSION_MAJOR}.${PACKAGE_VERSION_MINOR}.${PACKAGE_VERSION_PATCH}")

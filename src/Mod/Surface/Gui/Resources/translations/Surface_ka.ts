@@ -6,7 +6,11 @@
     <message>
       <location filename="../../TaskFillingEdge.ui" line="20"/>
       <source>Edge Constraints</source>
+<<<<<<< HEAD
       <translation>წიბოს შეზრუდვები</translation>
+=======
+      <translation type="unfinished">Edge Constraints</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingEdge.ui" line="26"/>
@@ -16,7 +20,11 @@
     <message>
       <location filename="../../TaskFillingEdge.ui" line="29"/>
       <source>Non-Boundary Edges</source>
+<<<<<<< HEAD
       <translation>არასაზღვრის წიბოები</translation>
+=======
+      <translation type="unfinished">Non-Boundary Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingEdge.ui" line="46"/>
@@ -54,12 +62,20 @@
     <message>
       <location filename="../../TaskFilling.ui" line="20"/>
       <source>Boundaries</source>
+<<<<<<< HEAD
       <translation>საზღვრები</translation>
+=======
+      <translation type="unfinished">Boundaries</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="28"/>
       <source>Support Surface</source>
+<<<<<<< HEAD
       <translation>საყრდენი ზედაპირი</translation>
+=======
+      <translation type="unfinished">Support Surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="44"/>
@@ -69,7 +85,11 @@
     <message>
       <location filename="../../TaskFilling.ui" line="47"/>
       <source>Boundary Edges</source>
+<<<<<<< HEAD
       <translation>საზღვრის წიბოები</translation>
+=======
+      <translation type="unfinished">Boundary Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="64"/>
@@ -114,7 +134,11 @@
       <location filename="../../TaskSections.ui" line="14"/>
       <location filename="../../TaskSections.ui" line="23"/>
       <source>Sectional Edges</source>
+<<<<<<< HEAD
       <translation>სექციური წიბოები</translation>
+=======
+      <translation type="unfinished">Sectional Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSections.ui" line="20"/>
@@ -147,7 +171,11 @@
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="26"/>
       <source>Fill Type</source>
+<<<<<<< HEAD
       <translation>შევსების ტიპი</translation>
+=======
+      <translation type="unfinished">Fill Type</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="38"/>
@@ -157,7 +185,11 @@
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="48"/>
       <source>Coons</source>
+<<<<<<< HEAD
       <translation>კუნსის ზედაპირი</translation>
+=======
+      <translation type="unfinished">Coons</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="55"/>
@@ -182,6 +214,7 @@
     <message>
       <location filename="../../TaskGeomFillSurface.cpp" line="222"/>
       <source>Flip orientation</source>
+<<<<<<< HEAD
       <translation>ორიენტაციის გადაბრუნება</translation>
     </message>
     <message>
@@ -192,10 +225,23 @@
     <message>
       <location filename="../../TaskGeomFillSurface.cpp" line="385"/>
       <location filename="../../TaskGeomFillSurface.cpp" line="393"/>
+=======
+      <translation type="unfinished">Flip orientation</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="378"/>
+      <source>Too many edges</source>
+      <translation type="unfinished">Too many edges</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="379"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool requires two, three or four edges</source>
       <translation type="unfinished">The tool requires two, three or four edges</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="392"/>
       <source>Too less edges</source>
       <translation>მეტისმეტად ცოტა წიბო</translation>
@@ -204,6 +250,16 @@
       <location filename="../../TaskGeomFillSurface.cpp" line="404"/>
       <source>Invalid object</source>
       <translation>არასწორი ობიექტი</translation>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="386"/>
+      <source>Too less edges</source>
+      <translation type="unfinished">Too less edges</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="398"/>
+      <source>Invalid object</source>
+      <translation type="unfinished">Invalid object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -211,7 +267,11 @@
     <message>
       <location filename="../../TaskFillingVertex.ui" line="14"/>
       <source>Vertex Constraints</source>
+<<<<<<< HEAD
       <translation>წვეროს შეზღუდვები</translation>
+=======
+      <translation type="unfinished">Vertex Constraints</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingVertex.ui" line="20"/>
@@ -221,17 +281,29 @@
     <message>
       <location filename="../../TaskFillingVertex.ui" line="23"/>
       <source>Non-Boundary Vertices</source>
+<<<<<<< HEAD
       <translation>არასაზღვრის წვეროები</translation>
+=======
+      <translation type="unfinished">Non-Boundary Vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingVertex.ui" line="40"/>
       <source>Add Vertex</source>
+<<<<<<< HEAD
       <translation>წვეროს დამატება</translation>
+=======
+      <translation type="unfinished">Add Vertex</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingVertex.ui" line="59"/>
       <source>Remove Vertex</source>
+<<<<<<< HEAD
       <translation>წვეროს წაშლა</translation>
+=======
+      <translation type="unfinished">Remove Vertex</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -239,12 +311,20 @@
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="14"/>
       <source>Blend Curve</source>
+<<<<<<< HEAD
       <translation>შერევის მრუდი</translation>
+=======
+      <translation type="unfinished">Blend Curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="20"/>
       <source>Start Edge</source>
+<<<<<<< HEAD
       <translation>საწყისი წიბო</translation>
+=======
+      <translation type="unfinished">Start Edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="26"/>
@@ -273,13 +353,21 @@
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="113"/>
       <source>End Edge</source>
+<<<<<<< HEAD
       <translation>წიბოს ბოლო</translation>
+=======
+      <translation type="unfinished">End Edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>SurfaceGui::FillingVertexPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingVertex.cpp" line="127"/>
+=======
+      <location filename="../../TaskFillingVertex.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>მოცილება</translation>
     </message>
@@ -294,7 +382,11 @@
     <message>
       <location filename="../../Command.cpp" line="55"/>
       <source>Surface Cut</source>
+<<<<<<< HEAD
       <translation>ზედაპირის ამოჭრა</translation>
+=======
+      <translation type="unfinished">Surface Cut</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="56"/>
@@ -331,22 +423,39 @@ vertices that are not on the boundary.</translation>
       <location filename="../../Command.cpp" line="166"/>
       <location filename="../../Command.cpp" line="345"/>
       <source>Create surface</source>
+<<<<<<< HEAD
       <translation>ზედაპირის შექმნა</translation>
+=======
+      <translation type="unfinished">Create surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="248"/>
       <source>Blend Curve</source>
+<<<<<<< HEAD
       <translation>შერევის მრუდი</translation>
+=======
+      <translation type="unfinished">Blend Curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="303"/>
       <source>Extend surface</source>
+<<<<<<< HEAD
       <translation>ზედაპირის გაფართოება</translation>
     </message>
     <message>
       <location filename="../../Blending/TaskBlendCurve.cpp" line="410"/>
       <source>Edit blending curve</source>
       <translation>შერევის მრუდის ჩასწორება</translation>
+=======
+      <translation type="unfinished">Extend surface</translation>
+    </message>
+    <message>
+      <location filename="../../Blending/TaskBlendCurve.cpp" line="409"/>
+      <source>Edit blending curve</source>
+      <translation type="unfinished">Edit blending curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -359,7 +468,11 @@ vertices that are not on the boundary.</translation>
     <message>
       <location filename="../../Command.cpp" line="149"/>
       <source>Fill Boundary Curves</source>
+<<<<<<< HEAD
       <translation>სასაზღვრო მრუდების შევსება</translation>
+=======
+      <translation type="unfinished">Fill Boundary Curves</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="150"/>
@@ -397,7 +510,11 @@ This command only works with a mesh object.</translation>
     <message>
       <location filename="../../Command.cpp" line="221"/>
       <source>Blend Curve</source>
+<<<<<<< HEAD
       <translation>შერევის მრუდი</translation>
+=======
+      <translation type="unfinished">Blend Curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="222"/>
@@ -415,7 +532,11 @@ This command only works with a mesh object.</translation>
     <message>
       <location filename="../../Command.cpp" line="287"/>
       <source>Extend Face</source>
+<<<<<<< HEAD
       <translation>ზედაპირის გაფართოება</translation>
+=======
+      <translation type="unfinished">Extend Face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="288"/>
@@ -433,7 +554,11 @@ This command only works with a mesh object.</translation>
     <message>
       <location filename="../../Command.cpp" line="316"/>
       <source>Select a single face</source>
+<<<<<<< HEAD
       <translation>აირჩიეთ ერთი ზედაპირი</translation>
+=======
+      <translation type="unfinished">Select a single face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -457,17 +582,30 @@ This command only works with a mesh object.</translation>
   <context>
     <name>SurfaceGui::FillingEdgePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="133"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>მოცილება</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="329"/>
       <source>Invalid object</source>
       <translation>არასწორი ობიექტი</translation>
     </message>
     <message numerus="yes">
       <location filename="../../TaskFillingEdge.cpp" line="407"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="326"/>
+      <source>Invalid object</source>
+      <translation type="unfinished">Invalid object</translation>
+    </message>
+    <message numerus="yes">
+      <location filename="../../TaskFillingEdge.cpp" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has %n adjacent face(s)</source>
       <translation type="unfinished">
         <numerusform>Edge has %n adjacent face(s)</numerusform>
@@ -475,19 +613,30 @@ This command only works with a mesh object.</translation>
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="411"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>არცერთი</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="432"/>
       <source>Edge has no adjacent faces</source>
       <translation>წიბოს მეზობელი ზედაპირები არ აქვს</translation>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="431"/>
+      <source>Edge has no adjacent faces</source>
+      <translation type="unfinished">Edge has no adjacent faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
       <location filename="../../TaskFilling.cpp" line="63"/>
       <source>Edit Filling</source>
@@ -495,13 +644,26 @@ This command only works with a mesh object.</translation>
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.cpp" line="667"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="64"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
+      <source>Edit Filling</source>
+      <translation type="unfinished">Edit Filling</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Surface</source>
       <translation>ზედაპირი</translation>
     </message>
     <message>
       <location filename="../../TaskSections.cpp" line="59"/>
       <source>Edit Sections</source>
+<<<<<<< HEAD
       <translation>ჭრილების ჩასწორება</translation>
+=======
+      <translation type="unfinished">Edit Sections</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Blending/ViewProviderBlendCurve.cpp" line="47"/>
@@ -512,21 +674,37 @@ This command only works with a mesh object.</translation>
   <context>
     <name>SurfaceGui::FillingPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="281"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>მოცილება</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="497"/>
       <source>Invalid object</source>
       <translation>არასწორი ობიექტი</translation>
+=======
+      <location filename="../../TaskFilling.cpp" line="494"/>
+      <source>Invalid object</source>
+      <translation type="unfinished">Invalid object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message numerus="yes">
       <location filename="../../TaskFilling.cpp" line="615"/>
       <source>Edge has %n adjacent faces</source>
+<<<<<<< HEAD
       <translation>
         <numerusform>წიბოს აქვს %n მეზობელი ზედაპირი</numerusform>
         <numerusform>წიბოს აქვს %n მეზობელი ზედაპირი</numerusform>
+=======
+      <translation type="unfinished">
+        <numerusform>Edge has %n adjacent faces</numerusform>
+        <numerusform>Edge has %n adjacent faces</numerusform>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       </translation>
     </message>
     <message>
@@ -537,20 +715,34 @@ This command only works with a mesh object.</translation>
     <message>
       <location filename="../../TaskFilling.cpp" line="640"/>
       <source>Edge has no adjacent faces</source>
+<<<<<<< HEAD
       <translation>წიბოს მეზობელი ზედაპირები არ აქვს</translation>
+=======
+      <translation type="unfinished">Edge has no adjacent faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>SurfaceGui::SectionsPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="279"/>
+=======
+      <location filename="../../TaskSections.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>მოცილება</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="424"/>
       <source>Invalid object</source>
       <translation>არასწორი ობიექტი</translation>
+=======
+      <location filename="../../TaskSections.cpp" line="420"/>
+      <source>Invalid object</source>
+      <translation type="unfinished">Invalid object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

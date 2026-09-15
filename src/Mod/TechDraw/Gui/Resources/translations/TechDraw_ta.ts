@@ -51,24 +51,41 @@
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="979"/>
+<<<<<<< HEAD
       <source>Adds a cosmetic line that passes through 2 selected points</source>
       <translation type="unfinished">Adds a cosmetic line that passes through 2 selected points</translation>
+=======
+      <source>Add a cosmetic line that passes through 2 selected points</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட 2 புள்ளிகள் வழியாக செல்லும் ஒரு ஒப்பனை வரியைச் சேர்க்கவும்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdTechDraw3PtAngleDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1777"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1742"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1778"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle Dimension From 3 Points</source>
       <translation>3 புள்ளிகளில் இருந்து கோண பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1779"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1744"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts an angle dimension between 3 selected points</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 3 புள்ளிகளுக்கு இடையே கோண பரிமாணத்தைச் செருகுகிறது</translation>
     </message>
@@ -76,12 +93,20 @@
   <context>
     <name>CmdTechDrawActiveView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="702"/>
+=======
+      <location filename="../../Command.cpp" line="696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="703"/>
+=======
+      <location filename="../../Command.cpp" line="697"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active View</source>
       <translation>செயலில் காட்சி</translation>
     </message>
@@ -89,17 +114,29 @@
   <context>
     <name>CmdTechDrawAngleDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1730"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1695"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1731"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle Dimension</source>
       <translation>கோண பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1732"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1697"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts an angle dimension between two edges</source>
       <translation>இரண்டு விளிம்புகளுக்கு இடையே ஒரு கோண பரிமாணத்தை செருகுகிறது</translation>
     </message>
@@ -125,17 +162,29 @@
   <context>
     <name>CmdTechDrawArchView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1673"/>
+=======
+      <location filename="../../Command.cpp" line="1661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1674"/>
+=======
+      <location filename="../../Command.cpp" line="1662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM View</source>
       <translation>BIM காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1675"/>
+=======
+      <location filename="../../Command.cpp" line="1663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a view of a BIM section plane</source>
       <translation>BIM பிரிவு விமானத்தின் காட்சியைச் செருகுகிறது</translation>
     </message>
@@ -143,17 +192,29 @@
   <context>
     <name>CmdTechDrawBalloon</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1281"/>
+=======
+      <location filename="../../Command.cpp" line="1274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1282"/>
+=======
+      <location filename="../../Command.cpp" line="1275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Balloon Annotation</source>
       <translation>பலூன் சிறுகுறிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1283"/>
+=======
+      <location filename="../../Command.cpp" line="1276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a new balloon annotation in the selected view</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட காட்சியில் புதிய பலூன் சிறுகுறிப்பைச் செருகும்</translation>
     </message>
@@ -177,24 +238,41 @@
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="649"/>
+<<<<<<< HEAD
       <source>Centerline on Face</source>
       <translation type="unfinished">Centerline on Face</translation>
+=======
+      <source>Centerline Faces</source>
+      <translation>சென்டர்லைன் முகங்கள்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdTechDrawClipGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1345"/>
+=======
+      <location filename="../../Command.cpp" line="1338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1346"/>
+=======
+      <location filename="../../Command.cpp" line="1339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clip Group</source>
       <translation>கிளிப் குழு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1347"/>
+=======
+      <location filename="../../Command.cpp" line="1340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a new clip group for the selected view</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட காட்சிக்கு புதிய கிளிப் குழுவைச் செருகுகிறது</translation>
     </message>
@@ -202,17 +280,29 @@
   <context>
     <name>CmdTechDrawClipGroupAdd</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1382"/>
+=======
+      <location filename="../../Command.cpp" line="1375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1383"/>
+=======
+      <location filename="../../Command.cpp" line="1376"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add View To Clip Group</source>
       <translation>கிளிப் குழுவில் காட்சியைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1384"/>
+=======
+      <location filename="../../Command.cpp" line="1377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds the selected view to a clip group</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட காட்சியை கிளிப் குழுவில் சேர்க்கிறது</translation>
     </message>
@@ -220,17 +310,29 @@
   <context>
     <name>CmdTechDrawClipGroupRemove</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1466"/>
+=======
+      <location filename="../../Command.cpp" line="1459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1467"/>
+=======
+      <location filename="../../Command.cpp" line="1460"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove From Clip Group</source>
       <translation>கிளிப் குழுவிலிருந்து நீக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1468"/>
+=======
+      <location filename="../../Command.cpp" line="1461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes a view based on the selected clip group</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட கிளிப் குழுவின் அடிப்படையில் பார்வையை நீக்குகிறது</translation>
     </message>
@@ -238,17 +340,29 @@
   <context>
     <name>CmdTechDrawComplexSection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="888"/>
+=======
+      <location filename="../../Command.cpp" line="882"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="889"/>
+=======
+      <location filename="../../Command.cpp" line="883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Complex Section View</source>
       <translation>சிக்கலான பகுதி பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="890"/>
+=======
+      <location filename="../../Command.cpp" line="884"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a complex section view based on the selected view in the current page</source>
       <translation>தற்போதைய பக்கத்தில் தேர்ந்தெடுக்கப்பட்ட பார்வையின் அடிப்படையில் ஒரு சிக்கலான பிரிவு காட்சியை செருகும்</translation>
     </message>
@@ -329,17 +443,29 @@
   <context>
     <name>CmdTechDrawDetailView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1014"/>
+=======
+      <location filename="../../Command.cpp" line="1008"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1015"/>
+=======
+      <location filename="../../Command.cpp" line="1009"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Detail View</source>
       <translation>விரிவான பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1016"/>
+=======
+      <location filename="../../Command.cpp" line="1010"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a new detail view based on the selected view in the current page</source>
       <translation>தற்போதைய பக்கத்தில் தேர்ந்தெடுக்கப்பட்ட காட்சியின் அடிப்படையில் புதிய விவரக் காட்சியைச் செருகும்</translation>
     </message>
@@ -347,17 +473,29 @@
   <context>
     <name>CmdTechDrawDiameterDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1533"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1534"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter Dimension</source>
       <translation>விட்டம் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1535"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a diameter dimension of a circular edge or arc</source>
       <translation>வட்ட விளிம்பு அல்லது வளைவின் விட்டம் பரிமாணத்தைச் செருகுகிறது</translation>
     </message>
@@ -365,17 +503,29 @@
   <context>
     <name>CmdTechDrawDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1393"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1394"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension</source>
       <translation>பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1395"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts new contextual dimensions to the selection.
 Depending on your selection you might have several dimensions available. You can cycle through them using the M key.
 Left clicking on empty space will validate the current dimension. Right clicking or pressing Esc will cancel.</source>
@@ -387,17 +537,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawDraftView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1606"/>
+=======
+      <location filename="../../Command.cpp" line="1597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1607"/>
+=======
+      <location filename="../../Command.cpp" line="1598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft View</source>
       <translation>வரைவு காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1609"/>
+=======
+      <location filename="../../Command.cpp" line="1600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a view of a Draft object</source>
       <extracomment>&quot;Draft&quot; is a workbench and should not be translated</extracomment>
       <translation>வரைவு பொருளின் பார்வையைச் செருகுகிறது</translation>
@@ -406,35 +568,67 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExportPageDXF</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1864"/>
+=======
+      <location filename="../../Command.cpp" line="1850"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File</source>
       <translation>கோப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1865"/>
+=======
+      <location filename="../../Command.cpp" line="1851"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export Page as DXF</source>
       <translation>பக்கத்தை DXF ஆக ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1866"/>
       <source>Exports the current page as a DXF</source>
       <translation>தற்போதைய பக்கத்தை DXF ஆக ஏற்றுமதி செய்கிறது</translation>
     </message>
+=======
+      <location filename="../../Command.cpp" line="1852"/>
+      <source>Exports the current page as a DXF</source>
+      <translation>தற்போதைய பக்கத்தை DXF ஆக ஏற்றுமதி செய்கிறது</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1885"/>
+      <source>Save DXF file</source>
+      <translation>DXF கோப்பை சேமிக்கவும்</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CmdTechDrawExportPageSVG</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1821"/>
+=======
+      <location filename="../../Command.cpp" line="1807"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File</source>
       <translation>கோப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1822"/>
+=======
+      <location filename="../../Command.cpp" line="1808"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export Page as SVG</source>
       <translation>பக்கத்தை SVG ஆக ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1823"/>
+=======
+      <location filename="../../Command.cpp" line="1809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports the current page as an SVG</source>
       <translation>தற்போதைய பக்கத்தை SVG ஆக ஏற்றுமதி செய்கிறது</translation>
     </message>
@@ -442,17 +636,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtendShortenLineGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1756"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1757"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extend Line</source>
       <translation>வரியை நீட்டவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1758"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1742"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extends a selected cosmetic line or centerline at both ends by the specified delta distance</source>
       <translation>குறிப்பிட்ட டெல்டா தூரத்தின் மூலம் தேர்ந்தெடுக்கப்பட்ட அழகுக் கோடு அல்லது மையக் கோட்டை இரு முனைகளிலும் விரிவுபடுத்துகிறது</translation>
     </message>
@@ -460,17 +666,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionAreaAnnotation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1851"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1835"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1852"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1836"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area Annotation</source>
       <translation>பகுதி சிறுகுறிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1853"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1837"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculates the area of multiple selected faces</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பல முகங்களின் பகுதியைக் கணக்கிடுகிறது</translation>
     </message>
@@ -478,17 +696,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCascadeDimensionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1135"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1136"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Horizontal Dimensions</source>
       <translation>கேச்கேட் கிடைமட்ட பரிமாணங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1137"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Evenly spaces the selected horizontal dimensions:&lt;br&gt;- Specify the cascade spacing (optional)&lt;br&gt;- Select two or more horizontal dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட கிடைமட்ட பரிமாணங்களை சமமாக இடுகிறது:&lt;br&gt;- அடுக்கு இடைவெளியைக் குறிப்பிடவும் (விரும்பினால்)&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட கிடைமட்ட பரிமாணங்களைத் தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணம் நிலையை வரையறுக்கிறது&lt;br&gt;- இந்தக் கருவியைக் சொடுக்கு செய்யவும்</translation>
     </message>
@@ -496,19 +726,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCascadeHorizDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="957"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="941"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="958"/>
       <location filename="../../CommandExtensionDims.cpp" line="1212"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="942"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Horizontal Dimensions</source>
       <translation>கேச்கேட் கிடைமட்ட பரிமாணங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="959"/>
       <location filename="../../CommandExtensionDims.cpp" line="1213"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="943"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Evenly spaces the selected horizontal dimensions:&lt;br&gt;- Specify the cascade spacing (optional)&lt;br&gt;- Select two or more horizontal dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட கிடைமட்ட பரிமாணங்களை சமமாக இடுகிறது:&lt;br&gt;- அடுக்கு இடைவெளியைக் குறிப்பிடவும் (விரும்பினால்)&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட கிடைமட்ட பரிமாணங்களைத் தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணம் நிலையை வரையறுக்கிறது&lt;br&gt;- இந்தக் கருவியைக் சொடுக்கு செய்யவும்</translation>
     </message>
@@ -516,19 +760,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCascadeObliqueDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1099"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1083"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1100"/>
       <location filename="../../CommandExtensionDims.cpp" line="1230"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1084"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1214"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Oblique Dimensions</source>
       <translation>அடுக்கு சாய்வான பரிமாணங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1101"/>
       <location filename="../../CommandExtensionDims.cpp" line="1231"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1085"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Evenly spaces the selected oblique dimensions:&lt;br&gt;- Specify the cascade spacing (optional)&lt;br&gt;- Select two or more parallel oblique dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட சாய்ந்த பரிமாணங்களை சமமாக இடுகிறது:&lt;br&gt;- அடுக்கு இடைவெளியைக் குறிப்பிடவும் (விரும்பினால்)&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட இணையான சாய்ந்த பரிமாணங்களைத் தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணம் நிலையை வரையறுக்கிறது&lt;br&gt;- இந்தக் கருவியைக் சொடுக்கு செய்யவும்</translation>
     </message>
@@ -536,19 +794,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCascadeVertDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1024"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1008"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1025"/>
       <location filename="../../CommandExtensionDims.cpp" line="1221"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1009"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Vertical Dimensions</source>
       <translation>அடுக்கு செங்குத்து பரிமாணங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1026"/>
       <location filename="../../CommandExtensionDims.cpp" line="1222"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1010"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Evenly spaces the selected vertical dimensions:&lt;br&gt;- Specify the cascade spacing (optional)&lt;br&gt;- Select two or more vertical dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட செங்குத்து பரிமாணங்களை சமமாக இடுகிறது:&lt;br&gt;- அடுக்கு இடைவெளியைக் குறிப்பிடவும் (விரும்பினால்)&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட செங்குத்து பரிமாணங்களைத் தேர்ந்தெடுக்கவும்&lt;br&gt;- முதல் பரிமாணம் நிலையை வரையறுக்கிறது&lt;br&gt;- இந்தக் கருவியைக் சொடுக்கு செய்யவும்</translation>
     </message>
@@ -556,17 +828,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionChamferDimensionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2117"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2118"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2102"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Chamfer Dimension</source>
       <translation>கிடைமட்ட சேம்பர் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2119"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a horizontal size and angle dimension for a chamfer from 2 selected vertices</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 2 செங்குத்துகளிலிருந்து சேம்பருக்கான கிடைமட்ட அளவு மற்றும் கோண பரிமாணத்தை செருகும்</translation>
     </message>
@@ -574,17 +858,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionChangeLineAttributes</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="753"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="754"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="742"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change Line Attributes</source>
       <translation>வரி பண்புகளை மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="755"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes the selected cosmetic lines and centerlines to the specified attributes</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட ஒப்பனைக் கோடுகள் மற்றும் மையக் கோடுகளை குறிப்பிட்ட பண்புக்கூறுகளுக்கு மாற்றுகிறது</translation>
     </message>
@@ -592,23 +888,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCircleCenterLines</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="260"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="261"/>
       <location filename="../../CommandExtensionPack.cpp" line="358"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="249"/>
+      <location filename="../../CommandExtensionPack.cpp" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circle Centerlines</source>
       <translation>வட்ட மையக் கோடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="262"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds centerlines to the selected circles and arcs</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வட்டங்கள் மற்றும் வளைவுகளுக்கு மையக் கோடுகளைச் சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="359"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds centerlines to selected circles and arcs:</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வட்டங்கள் மற்றும் வளைவுகளுக்கு மையக் கோட்டைச் சேர்க்கவும்:</translation>
     </message>
@@ -616,17 +929,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCircleCenterLinesGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="291"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="292"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circle Centerlines</source>
       <translation>வட்ட மையக் கோடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="293"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds centerlines to selected circles and arcs</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வட்டங்கள் மற்றும் வளைவுகளுக்கு மையக் கோட்டைச் சேர்க்கவும்</translation>
     </message>
@@ -634,17 +959,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateChainDimensionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1509"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1493"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1510"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Chain Dimension</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1511"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1495"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a sequence of aligned horizontal dimensions to at least three selected vertices, where the first two define the direction</source>
       <translation>குறைந்தது மூன்று தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளுக்கு சீரமைக்கப்பட்ட கிடைமட்ட பரிமாணங்களின் வரிசையைச் செருகுகிறது, இதில் முதல் இரண்டு திசையை வரையறுக்கிறது</translation>
     </message>
@@ -652,17 +989,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateCoordDimensionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1879"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1863"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1880"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1864"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Coordinate Dimension</source>
       <translation>கிடைமட்ட ஒருங்கிணைப்பு பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1881"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1865"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds evenly spaced horizontal dimensions between 3 or more vertices aligned to a shared baseline</source>
       <translation>பகிரப்பட்ட அடிப்படைக்கு சீரமைக்கப்பட்ட 3 அல்லது அதற்கு மேற்பட்ட செங்குத்துகளுக்கு இடையே சம இடைவெளி கிடைமட்ட பரிமாணங்களை சேர்க்கிறது</translation>
     </message>
@@ -670,23 +1019,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateHorizChainDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1289"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1290"/>
       <location filename="../../CommandExtensionDims.cpp" line="1583"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1274"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Chain Dimension</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1291"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a sequence of aligned horizontal dimensions to at least three selected vertices</source>
       <translation>குறைந்தது மூன்று தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளுக்கு சீரமைக்கப்பட்ட கிடைமட்ட பரிமாணங்களின் வரிசையைச் செருகும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1584"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1568"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a sequence of aligned horizontal dimensions to at least three selected vertices, where the first two define the direction</source>
       <translation>குறைந்தது மூன்று தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளுக்கு சீரமைக்கப்பட்ட கிடைமட்ட பரிமாணங்களின் வரிசையைச் செருகுகிறது, இதில் முதல் இரண்டு திசையை வரையறுக்கிறது</translation>
     </message>
@@ -694,19 +1060,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateHorizChamferDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2020"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2004"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2021"/>
       <location filename="../../CommandExtensionDims.cpp" line="2183"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2005"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Chamfer Dimension</source>
       <translation>கிடைமட்ட சேம்பர் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2022"/>
       <location filename="../../CommandExtensionDims.cpp" line="2184"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2006"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a horizontal size and angle dimension for a chamfer from 2 selected vertices</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 2 செங்குத்துகளிலிருந்து சேம்பருக்கான கிடைமட்ட அளவு மற்றும் கோண பரிமாணத்தை செருகும்</translation>
     </message>
@@ -714,19 +1094,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateHorizCoordDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1654"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1638"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1655"/>
       <location filename="../../CommandExtensionDims.cpp" line="1952"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1639"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1936"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Coordinate Dimension</source>
       <translation>கிடைமட்ட ஒருங்கிணைப்பு பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1656"/>
       <location filename="../../CommandExtensionDims.cpp" line="1953"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1640"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1937"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds evenly spaced horizontal dimensions between 3 or more vertices aligned to a shared baseline</source>
       <translation>பகிரப்பட்ட அடிப்படைக்கு சீரமைக்கப்பட்ட 3 அல்லது அதற்கு மேற்பட்ட செங்குத்துகளுக்கு இடையே சம இடைவெளி கிடைமட்ட பரிமாணங்களை சேர்க்கிறது</translation>
     </message>
@@ -734,17 +1128,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateLengthArc</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2211"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2212"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arc Length Dimension</source>
       <translation>ஆர்க் நீளம் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2213"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts an arc length dimension to the selected arc</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வளைவில் வில் நீள பரிமாணத்தை செருகும்</translation>
     </message>
@@ -752,19 +1158,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateObliqueChainDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1477"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1478"/>
       <location filename="../../CommandExtensionDims.cpp" line="1593"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1462"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Oblique Chain Dimension</source>
       <translation>சாய்ந்த சங்கிலி பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1479"/>
       <location filename="../../CommandExtensionDims.cpp" line="1594"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1463"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a sequence of aligned oblique dimensions to at least three selected vertices, where the first two define the direction</source>
       <translation>குறைந்தது மூன்று தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளுக்கு சீரமைக்கப்பட்ட சாய்ந்த பரிமாணங்களின் வரிசையைச் செருகுகிறது, இதில் முதல் இரண்டு திசையை வரையறுக்கிறது</translation>
     </message>
@@ -772,19 +1192,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateObliqueCoordDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1848"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1832"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1849"/>
       <location filename="../../CommandExtensionDims.cpp" line="1962"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1833"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1946"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Oblique Coordinate Dimension</source>
       <translation>சாய்ந்த ஒருங்கிணைப்பு பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1850"/>
       <location filename="../../CommandExtensionDims.cpp" line="1963"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1834"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1947"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds evenly spaced oblique dimensions between 3 or more vertices aligned to a shared baseline</source>
       <translation>பகிரப்பட்ட அடிப்படைக்கு சீரமைக்கப்பட்ட 3 அல்லது அதற்கு மேற்பட்ட செங்குத்துகளுக்கு இடையே சமமான இடைவெளியில் சாய்ந்த பரிமாணங்களைச் சேர்க்கிறது</translation>
     </message>
@@ -792,23 +1226,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateVertChainDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1355"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1356"/>
       <location filename="../../CommandExtensionDims.cpp" line="1588"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1340"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical Chain Dimension</source>
       <translation>செங்குத்து சங்கிலி பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1357"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1341"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a sequence of aligned vertical dimensions to at least three selected vertices</source>
       <translation>குறைந்தது மூன்று தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளுக்கு சீரமைக்கப்பட்ட செங்குத்து பரிமாணங்களின் வரிசையைச் செருகும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1589"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1573"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a sequence of aligned vertical dimensions to at least three selected vertices, where the first two define the direction</source>
       <translation>குறைந்தது மூன்று தேர்ந்தெடுக்கப்பட்ட செங்குத்துகளுக்கு சீரமைக்கப்பட்ட செங்குத்து பரிமாணங்களின் வரிசையைச் செருகுகிறது, இதில் முதல் இரண்டு திசையை வரையறுக்கிறது</translation>
     </message>
@@ -816,19 +1267,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateVertChamferDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2086"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2070"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2087"/>
       <location filename="../../CommandExtensionDims.cpp" line="2188"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2071"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical Chamfer Dimension</source>
       <translation>செங்குத்து சேம்பர் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2088"/>
       <location filename="../../CommandExtensionDims.cpp" line="2189"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2072"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a vertical size and angle dimension for a chamfer from 2 selected vertices</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 2 செங்குத்துகளிலிருந்து ஒரு அறைக்கு செங்குத்து பக்கங்களையும் கோண பரிமாணத்தையும் செருகவும்</translation>
     </message>
@@ -836,19 +1301,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCreateVertCoordDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1723"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1707"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1724"/>
       <location filename="../../CommandExtensionDims.cpp" line="1957"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1708"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1941"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical Coordinate Dimension</source>
       <translation>செங்குத்து ஒருங்கிணைப்பு பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1725"/>
       <location filename="../../CommandExtensionDims.cpp" line="1958"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1709"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1942"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds evenly spaced vertical dimensions between 3 or more vertices aligned to a shared baseline</source>
       <translation>பகிரப்பட்ட அடிப்படைக்கு சீரமைக்கப்பட்ட 3 அல்லது அதற்கு மேற்பட்ட செங்குத்துகளுக்கு இடையே சம இடைவெளி செங்குத்து பரிமாணங்களைச் சேர்க்கிறது</translation>
     </message>
@@ -856,17 +1335,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionCustomizeFormat</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2260"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2261"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Customize Format Label</source>
       <translation>வடிவமைப்பு லேபிளைத் தனிப்பயனாக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2262"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Customizes the format label of a selected dimension or balloon</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பரிமாணம் அல்லது பலூனின் வடிவமைப்பு லேபிளைத் தனிப்பயனாக்கும்</translation>
     </message>
@@ -874,19 +1365,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionDecreaseDecimal</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="492"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="476"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="493"/>
       <location filename="../../CommandExtensionDims.cpp" line="594"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="477"/>
+      <location filename="../../CommandExtensionDims.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Decrease Decimal Places</source>
       <translation>தசம இடங்களைக் குறைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="494"/>
       <location filename="../../CommandExtensionDims.cpp" line="595"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="478"/>
+      <location filename="../../CommandExtensionDims.cpp" line="579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Decreases the number of decimal places of the dimension</source>
       <translation>பரிமாணத்தின் தசம இடங்களின் எண்ணிக்கையைக் குறைக்கிறது</translation>
     </message>
@@ -894,17 +1399,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionDrawCirclesGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1213"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1214"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic 1 Point Circle</source>
       <translation>ஒப்பனை 1 புள்ளி வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1215"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic circle based on two vertices, where the first selection is the centerpoint and the second is the radius</source>
       <translation>இரண்டு செங்குத்துகளின் அடிப்படையில் ஒரு அழகுசாதன வட்டத்தைச் சேர்க்கிறது, இதில் முதல் தேர்வு மையப்புள்ளியாகவும், இரண்டாவது ஆரம்</translation>
     </message>
@@ -912,23 +1429,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionDrawCosmArc</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1059"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1048"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1060"/>
       <location filename="../../CommandExtensionPack.cpp" line="1316"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1049"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Arc</source>
       <translation>ஒப்பனை ஆர்க்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1061"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1050"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic counter clockwise arc based on three vertices, where the first selection is the center point and the second is the radius and start point</source>
       <translation>முதல் தேர்வு மையப் புள்ளியாகவும், இரண்டாவது ஆரம் மற்றும் தொடக்கப் புள்ளியாகவும் இருக்கும் மூன்று செங்குத்துகளின் அடிப்படையில் ஒரு ஒப்பனை எதிர் கடிகார வளைவைச் சேர்க்கிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1317"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic counter clockwise arc based on three vertices, where the first selection is the center point and the second is the radius and start point.</source>
       <translation>முதல் தேர்வு மையப் புள்ளியாகவும், இரண்டாவது ஆரம் மற்றும் தொடக்கப் புள்ளியாகவும் இருக்கும் மூன்று செங்குத்துகளின் அடிப்படையில் ஒரு ஒப்பனை எதிர் கடிகார வளைவைச் சேர்க்கிறது.</translation>
     </message>
@@ -936,23 +1470,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionDrawCosmCircle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1119"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1120"/>
       <location filename="../../CommandExtensionPack.cpp" line="1301"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1109"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1290"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic 2 Point Circle</source>
       <translation>ஒப்பனை 2 புள்ளி வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1121"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic circle based on two selected vertices, where the first is the center point and the second is the radius</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட இரண்டு செங்குத்துகளின் அடிப்படையில் ஒரு ஒப்பனை வட்டத்தைச் சேர்க்கிறது, இதில் முதலாவது மையப் புள்ளி மற்றும் இரண்டாவது ஆரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1303"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1292"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic circle based on two vertices, where the first selection is the centerpoint and the second is the radius</source>
       <translation>இரண்டு செங்குத்துகளின் அடிப்படையில் ஒரு அழகுசாதன வட்டத்தைச் சேர்க்கிறது, இதில் முதல் தேர்வு மையப்புள்ளியாகவும், இரண்டாவது ஆரம்</translation>
     </message>
@@ -960,19 +1511,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionDrawCosmCircle3Points</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1181"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1170"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1183"/>
       <location filename="../../CommandExtensionPack.cpp" line="1311"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1172"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic circle that passes through 3 selected perimeter points</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 3 சுற்றளவு புள்ளிகள் வழியாகச் செல்லும் ஒரு ஒப்பனை வட்டத்தைச் சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1182"/>
       <location filename="../../CommandExtensionPack.cpp" line="1309"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1171"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic 3 Point Circle</source>
       <translation>ஒப்பனை 3 புள்ளி வட்டம்</translation>
     </message>
@@ -980,19 +1545,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionExtendLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1692"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1693"/>
       <location filename="../../CommandExtensionPack.cpp" line="1823"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1677"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1807"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extend Line</source>
       <translation>வரியை நீட்டவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1694"/>
       <location filename="../../CommandExtensionPack.cpp" line="1824"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1678"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1808"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extends a selected cosmetic line or centerline at both ends by the specified delta distance</source>
       <translation>குறிப்பிட்ட டெல்டா தூரத்தின் மூலம் தேர்ந்தெடுக்கப்பட்ட அழகுக் கோடு அல்லது மையக் கோட்டை இரு முனைகளிலும் விரிவுபடுத்துகிறது</translation>
     </message>
@@ -1000,23 +1579,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionHoleCircle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="175"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="170"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="176"/>
       <location filename="../../CommandExtensionPack.cpp" line="364"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="171"/>
+      <location filename="../../CommandExtensionPack.cpp" line="352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bolt Circle Centerlines</source>
       <translation>போல்ட் சர்க்கிள் சென்டர்லைன்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="177"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds centerlines to a circular pattern of three or more selected circles</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட மூன்று அல்லது அதற்கு மேற்பட்ட வட்டங்களின் வட்ட வடிவில் மையக் கோடுகளைச் சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="365"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds centerlines to a circular pattern of selected circles</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வட்டங்களின் வட்ட வடிவில் மையக் கோடுகளைச் சேர்க்கிறது</translation>
     </message>
@@ -1024,19 +1620,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionIncreaseDecimal</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="461"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="445"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="462"/>
       <location filename="../../CommandExtensionDims.cpp" line="589"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="446"/>
+      <location filename="../../CommandExtensionDims.cpp" line="573"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increase Decimal Places</source>
       <translation>தசம இடங்களை அதிகரிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="463"/>
       <location filename="../../CommandExtensionDims.cpp" line="590"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="447"/>
+      <location filename="../../CommandExtensionDims.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increases the number of decimal places of the dimension</source>
       <translation>பரிமாணத்தின் தசம இடங்களின் எண்ணிக்கையை அதிகரிக்கிறது</translation>
     </message>
@@ -1044,17 +1654,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionIncreaseDecreaseGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="523"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="507"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="524"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increase Decimal Places</source>
       <translation>தசம இடங்களை அதிகரிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="525"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="509"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increases the number of decimal places of the dimension</source>
       <translation>பரிமாணத்தின் தசம இடங்களின் எண்ணிக்கையை அதிகரிக்கிறது</translation>
     </message>
@@ -1062,19 +1684,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionInsertDiameter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="164"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="148"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="165"/>
       <location filename="../../CommandExtensionDims.cpp" line="394"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="149"/>
+      <location filename="../../CommandExtensionDims.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert &apos;⌀&apos; Prefix</source>
       <translation>&apos;⌀&apos; முன்னொட்டைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="166"/>
       <location filename="../../CommandExtensionDims.cpp" line="395"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="150"/>
+      <location filename="../../CommandExtensionDims.cpp" line="379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a &apos;⌀&apos; symbol at the beginning of the dimension</source>
       <translation>பரிமாணத்தின் தொடக்கத்தில் &apos;⌀&apos; குறியீட்டைச் செருகும்</translation>
     </message>
@@ -1082,17 +1718,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionInsertPrefixGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="314"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="315"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert &apos;⌀&apos; Prefix</source>
       <translation>&apos;⌀&apos; முன்னொட்டைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="316"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a &apos;⌀&apos; symbol at the beginning of the dimension text</source>
       <translation>பரிமாண உரையின் தொடக்கத்தில் &apos;⌀&apos; குறியீட்டைச் செருகும்</translation>
     </message>
@@ -1100,19 +1748,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionInsertSquare</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="195"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="196"/>
       <location filename="../../CommandExtensionDims.cpp" line="399"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="180"/>
+      <location filename="../../CommandExtensionDims.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert &apos;□&apos; Prefix</source>
       <translation>&apos;□&apos; முன்னொட்டைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="197"/>
       <location filename="../../CommandExtensionDims.cpp" line="400"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="181"/>
+      <location filename="../../CommandExtensionDims.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a &apos;□&apos; symbol at the beginning of the dimension</source>
       <translation>பரிமாணத்தின் தொடக்கத்தில் &apos;□&apos; குறியீட்டைச் செருகும்</translation>
     </message>
@@ -1120,17 +1782,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionLinePPGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1458"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1459"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Parallel Line</source>
       <translation>ஒப்பனை இணை கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1460"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic line parallel to the selected line through the selected vertex</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உச்சியின் மூலம் தேர்ந்தெடுக்கப்பட்ட வரிக்கு இணையாக ஒரு ஒப்பனை வரியைச் சேர்க்கிறது</translation>
     </message>
@@ -1138,23 +1812,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionLineParallel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1395"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1396"/>
       <location filename="../../CommandExtensionPack.cpp" line="1526"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1385"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1515"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Parallel Line</source>
       <translation>ஒப்பனை இணை கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1397"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic circle to 3 selected vertices</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 3 செங்குத்துகளுக்கு ஒரு ஒப்பனை வட்டத்தைச் சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1528"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1517"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic line parallel to the selected line through the selected vertex</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உச்சியின் மூலம் தேர்ந்தெடுக்கப்பட்ட வரிக்கு இணையாக ஒரு ஒப்பனை வரியைச் சேர்க்கிறது</translation>
     </message>
@@ -1162,19 +1853,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionLinePerpendicular</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1426"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1427"/>
       <location filename="../../CommandExtensionPack.cpp" line="1532"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1416"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1521"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Perpendicular Line</source>
       <translation>ஒப்பனை செங்குத்து கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1429"/>
       <location filename="../../CommandExtensionPack.cpp" line="1534"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1418"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic line perpendicular to the selected line through the selected vertex</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட உச்சியின் மூலம் தேர்ந்தெடுக்கப்பட்ட வரிக்கு செங்குத்தாக ஒரு அழகுக் கோட்டைச் சேர்க்கிறது</translation>
     </message>
@@ -1182,17 +1887,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionLockUnlockView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1557"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1546"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1558"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1547"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle View Lock</source>
       <translation>காட்சிப் பூட்டை நிலைமாற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1559"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Locks or unlocks the position of the selected views</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட காட்சிகளின் நிலையைப் பூட்டுகிறது அல்லது திறக்கிறது</translation>
     </message>
@@ -1200,17 +1917,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionPosChainDimensionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="808"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="809"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Align Horizontal Chain Dimensions</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணங்களை சீரமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="810"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="794"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the horizontal dimensions to create a chain dimension:&lt;br&gt;- Select two or more horizontal dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>சங்கிலி பரிமாணத்தை உருவாக்க கிடைமட்ட பரிமாணங்களை சீரமைக்கிறது:&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட கிடைமட்ட பரிமாணங்களை தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணமானது நிலையை வரையறுக்கிறது&lt;br&gt;- இந்த கருவியை சொடுக்கு செய்யவும்</translation>
     </message>
@@ -1218,11 +1947,16 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionPosHorizChainDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="644"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="645"/>
       <source>Align Horizontal Chain Dimensions</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணங்களை சீரமைக்கவும்</translation>
@@ -1230,11 +1964,24 @@ Left clicking on empty space will validate the current dimension. Right clicking
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="646"/>
       <location filename="../../CommandExtensionDims.cpp" line="885"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="629"/>
+      <source>Align Chain Dimensions Horizontally</source>
+      <translation>சங்கிலி பரிமாணங்களை கிடைமட்டமாக சீரமைக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../CommandExtensionDims.cpp" line="630"/>
+      <location filename="../../CommandExtensionDims.cpp" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the horizontal dimensions to create a chain dimension:&lt;br&gt;- Select two or more horizontal dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>சங்கிலி பரிமாணத்தை உருவாக்க கிடைமட்ட பரிமாணங்களை சீரமைக்கிறது:&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட கிடைமட்ட பரிமாணங்களை தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணமானது நிலையை வரையறுக்கிறது&lt;br&gt;- இந்த கருவியை சொடுக்கு செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="884"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="868"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position Horizontal Chain Dimensions</source>
       <translation>நிலை கிடைமட்ட சங்கிலி பரிமாணங்கள்</translation>
     </message>
@@ -1242,23 +1989,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionPosObliqueChainDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="773"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="774"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Align Oblique Chain Dimensions</source>
       <translation>சாய்ந்த சங்கிலி பரிமாணங்களை சீரமைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="775"/>
       <location filename="../../CommandExtensionDims.cpp" line="901"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="759"/>
+      <location filename="../../CommandExtensionDims.cpp" line="885"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the oblique dimensions to create a chain dimension:&lt;br&gt;- Select two or more parallel oblique dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>சங்கிலி பரிமாணத்தை உருவாக்க சாய்ந்த பரிமாணங்களை சீரமைக்கிறது:&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட இணையான சாய்ந்த பரிமாணங்களைத் தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணம் நிலையை வரையறுக்கிறது&lt;br&gt;- இந்தக் கருவியைக் சொடுக்கு செய்யவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="900"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="884"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position Oblique Chain Dimensions</source>
       <translation>நிலை சாய்ந்த சங்கிலி பரிமாணங்கள்</translation>
     </message>
@@ -1266,11 +2030,16 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionPosVertChainDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="706"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="707"/>
       <source>Align Vertical Chain Dimensions</source>
       <translation type="unfinished">Align Vertical Chain Dimensions</translation>
@@ -1278,11 +2047,24 @@ Left clicking on empty space will validate the current dimension. Right clicking
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="708"/>
       <location filename="../../CommandExtensionDims.cpp" line="893"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="691"/>
+      <source>Align Chain Dimensions Vertically</source>
+      <translation>செயின் பரிமாணங்களை செங்குத்தாக சீரமைக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../CommandExtensionDims.cpp" line="692"/>
+      <location filename="../../CommandExtensionDims.cpp" line="877"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the vertical dimensions to create a chain dimension:&lt;br&gt;- Select two or more vertical dimensions&lt;br&gt;- The first dimension defines the position&lt;br&gt;- Click this tool</source>
       <translation>செயின் பரிமாணத்தை உருவாக்க செங்குத்து பரிமாணங்களை சீரமைக்கிறது:&lt;br&gt;- இரண்டு அல்லது அதற்கு மேற்பட்ட செங்குத்து பரிமாணங்களை தேர்ந்தெடு&lt;br&gt;- முதல் பரிமாணமானது நிலையை வரையறுக்கிறது&lt;br&gt;- இந்த கருவியை சொடுக்கு செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="892"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="876"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position Vertical Chain Dimensions</source>
       <translation>நிலை செங்குத்து சங்கிலி பரிமாணங்கள்</translation>
     </message>
@@ -1290,17 +2072,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionRemovePrefixChar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="283"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="284"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove Prefix</source>
       <translation>முன்னொட்டை அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="285"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes the prefix symbols at the beginning of the dimension</source>
       <translation>பரிமாணத்தின் தொடக்கத்தில் உள்ள முன்னொட்டு குறியீடுகளை நீக்குகிறது</translation>
     </message>
@@ -1308,17 +2102,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionSelectLineAttributes</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="721"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="722"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="710"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Line Attributes, Cascade Spacing and Delta Distance</source>
       <translation>வரி பண்புக்கூறுகள், அடுக்கு இடைவெளி மற்றும் டெல்டா தூரத்தைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="723"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Configures the default attributes for cosmetic lines and centerlines, including cascade spacing and delta distance</source>
       <translation>கேச்கேட் இடைவெளி மற்றும் டெல்டா தூரம் உட்பட ஒப்பனைக் கோடுகள் மற்றும் மையக் கோடுகளுக்கான இயல்புநிலை பண்புக்கூறுகளை உள்ளமைக்கிறது</translation>
     </message>
@@ -1326,19 +2132,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionShortenLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1724"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1725"/>
       <location filename="../../CommandExtensionPack.cpp" line="1828"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1709"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shorten Line</source>
       <translation>வரியை சுருக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1726"/>
       <location filename="../../CommandExtensionPack.cpp" line="1829"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1710"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shortens a selected cosmetic line or centerline at both ends by the specified delta distance</source>
       <translation>குறிப்பிட்ட டெல்டா தூரத்தால் தேர்ந்தெடுக்கப்பட்ட ஒப்பனைக் கோடு அல்லது இரு முனைகளிலும் மையக் கோட்டைக் குறைக்கிறது</translation>
     </message>
@@ -1346,19 +2166,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionThreadBoltBottom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="561"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="562"/>
       <location filename="../../CommandExtensionPack.cpp" line="696"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="550"/>
+      <location filename="../../CommandExtensionPack.cpp" line="684"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Bolt Bottom View</source>
       <translation>காச்மெடிக் த்ரெட் போல்ட் பாட்டம் வியூ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="564"/>
       <location filename="../../CommandExtensionPack.cpp" line="698"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="552"/>
+      <location filename="../../CommandExtensionPack.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic thread to the top or bottom view of the selected bolts/screws/rods</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட போல்ட்/ச்க்ரூகள்/தண்டுகளின் மேல் அல்லது கீழ் பார்வையில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
     </message>
@@ -1366,19 +2200,33 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionThreadBoltSide</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="458"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="459"/>
       <location filename="../../CommandExtensionPack.cpp" line="688"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="447"/>
+      <location filename="../../CommandExtensionPack.cpp" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Bolt Side View</source>
       <translation>ஒப்பனை நூல் போல்ட் பக்கக் காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="460"/>
       <location filename="../../CommandExtensionPack.cpp" line="691"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="448"/>
+      <location filename="../../CommandExtensionPack.cpp" line="679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic thread to the side view of a bolt/screw/rod between two selected parallel lines</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட இரண்டு இணை கோடுகளுக்கு இடையே ஒரு போல்ட்/ச்க்ரூ/தடியின் பக்க காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
     </message>
@@ -1386,23 +2234,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionThreadHoleBottom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="510"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="511"/>
       <location filename="../../CommandExtensionPack.cpp" line="681"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="499"/>
+      <location filename="../../CommandExtensionPack.cpp" line="669"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Hole Bottom View</source>
       <translation>காச்மெட்டிக் த்ரெட் ஓல் பாட்டம் வியூ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="512"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic thread to the top or bottom view of selected holes or circles</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட துளைகள் அல்லது வட்டங்களின் மேல் அல்லது கீழ் காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="684"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic thread to the top or bottom view of holes or circles</source>
       <translation>துளைகள் அல்லது வட்டங்களின் மேல் அல்லது கீழ் காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
     </message>
@@ -1410,23 +2275,40 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionThreadHoleSide</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="407"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="408"/>
       <location filename="../../CommandExtensionPack.cpp" line="674"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="396"/>
+      <location filename="../../CommandExtensionPack.cpp" line="662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Hole Side View</source>
       <translation>ஒப்பனை நூல் துளை பக்கக் காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="409"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic thread to the side view of a hole or circle</source>
       <translation>துளை அல்லது வட்டத்தின் பக்கக் காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="676"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="664"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic thread to the side view of a selected hole between two selected parallel lines</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட இரண்டு இணைக் கோடுகளுக்கு இடையே தேர்ந்தெடுக்கப்பட்ட துளையின் பக்கக் காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
     </message>
@@ -1434,35 +2316,61 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtensionThreadsGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="593"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="581"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="594"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="582"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Hole Side View</source>
       <translation>ஒப்பனை நூல் துளை பக்கக் காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="595"/>
       <source>Adds a cosmetic thread to the side view of a selected hole between two selected parallel lines</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட இரண்டு இணைக் கோடுகளுக்கு இடையே தேர்ந்தெடுக்கப்பட்ட துளையின் பக்கக் காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கிறது</translation>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="583"/>
+      <source>Add a cosmetic thread to the side view of a selected hole between two selected parallel lines</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட இரண்டு இணைக் கோடுகளுக்கு இடையே தேர்ந்தெடுக்கப்பட்ட துளையின் பக்கக் காட்சியில் ஒரு ஒப்பனை நூலைச் சேர்க்கவும்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdTechDrawExtensionVertexAtIntersection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="811"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="812"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="800"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Intersection Vertices</source>
       <translation>ஒப்பனை குறுக்குவெட்டு முனைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="814"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="802"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds cosmetic vertices at the intersections of selected edges</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்புகளின் குறுக்குவெட்டுகளில் ஒப்பனை செங்குத்துகளைச் சேர்க்கிறது</translation>
     </message>
@@ -1470,27 +2378,47 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawExtentGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1872"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1837"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1873"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1838"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extent Dimension</source>
       <translation>விரிவாக்க அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1874"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1839"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a dimension showing the extent (overall length) of an object or feature</source>
       <translation>ஒரு பொருள் அல்லது அம்சத்தின் அளவை (ஒட்டுமொத்த நீளம்) காட்டும் பரிமாணத்தைச் செருகுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1940"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1905"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal extent</source>
       <translation>கிடைமட்ட அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1945"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1910"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical extent</source>
       <translation>செங்குத்து அளவு</translation>
     </message>
@@ -1504,8 +2432,13 @@ Left clicking on empty space will validate the current dimension. Right clicking
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="679"/>
+<<<<<<< HEAD
       <source>Centerline on Face</source>
       <translation type="unfinished">Centerline on Face</translation>
+=======
+      <source>Centerline Between 2 Faces</source>
+      <translation>2 முகங்களுக்கு இடையே மையக்கோடு</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="680"/>
@@ -1516,17 +2449,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawGeometricHatch</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="269"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="233"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="270"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Geometric Hatch</source>
       <translation>வடிவியல் அட்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="271"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="235"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies a geometric hatch pattern to the selected faces</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட முகங்களுக்கு வடிவியல் ஏட்ச் பேட்டர்னைப் பயன்படுத்துகிறது</translation>
     </message>
@@ -1534,17 +2479,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawHatch</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="174"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="175"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Image Hatch</source>
       <translation>பட அட்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="176"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies a hatch pattern to the selected faces using an image file</source>
       <translation>படக் கோப்பைப் பயன்படுத்தி தேர்ந்தெடுக்கப்பட்ட முகங்களுக்கு அட்ச் பேட்டர்னைப் பயன்படுத்துகிறது</translation>
     </message>
@@ -1552,17 +2509,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawHorizontalDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1628"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1599"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1629"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Length Dimension</source>
       <translation>கிடைமட்ட நீளம் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1630"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a horizontal length dimension of an edge or distance between two points</source>
       <translation>ஒரு விளிம்பின் கிடைமட்ட நீள பரிமாணத்தை அல்லது இரண்டு புள்ளிகளுக்கு இடையே உள்ள தூரத்தை செருகும்</translation>
     </message>
@@ -1570,43 +2539,86 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawHorizontalExtentDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1966"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1931"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1967"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1932"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal Extent Dimension</source>
       <translation>கிடைமட்ட அளவு பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1968"/>
       <source>Inserts a dimension showing the horizontal extent (overall length) of an object or feature</source>
       <translation type="unfinished">Inserts a dimension showing the horizontal extent (overall length) of an object or feature</translation>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1933"/>
+      <source>Inserts a dimension showing the horizontal extent (overall length) of an object or feature.</source>
+      <translation>ஒரு பொருள் அல்லது அம்சத்தின் கிடைமட்ட அளவை (ஒட்டுமொத்த நீளம்) காட்டும் பரிமாணத்தைச் செருகுகிறது.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdTechDrawImage</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="340"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="341"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bitmap Image</source>
       <translation>பிட்மேப் படம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="342"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a bitmap from a file into the current page</source>
       <translation>தற்போதைய பக்கத்தில் ஒரு கோப்பிலிருந்து பிட்மேப்பைச் செருகுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="344"/>
       <source>Insert bitmap from a file into a page</source>
       <translation>ஒரு கோப்பிலிருந்து ஒரு பக்கத்தில் பிட்மேப்பைச் செருகவும்</translation>
     </message>
+=======
+      <location filename="../../CommandDecorate.cpp" line="308"/>
+      <source>Insert bitmap from a file into a page</source>
+      <translation>ஒரு கோப்பிலிருந்து ஒரு பக்கத்தில் பிட்மேப்பைச் செருகவும்</translation>
+    </message>
+    <message>
+      <location filename="../../CommandDecorate.cpp" line="323"/>
+      <source>Select an image file</source>
+      <translation>படக் கோப்பைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../CommandDecorate.cpp" line="325"/>
+      <source>Image files (*.jpg *.jpeg *.png *.bmp);;All files (*)</source>
+      <translation>படக் கோப்புகள் (*.jpg *.jpeg *.png *.bmp);; அனைத்து கோப்புகளும் (*)</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CmdTechDrawLeaderLine</name>
@@ -1629,17 +2641,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawLengthDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1581"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1552"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1582"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1553"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length Dimension</source>
       <translation>நீளம் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1583"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a length dimension of an edge or distance between two points</source>
       <translation>ஒரு விளிம்பின் நீள பரிமாணத்தை அல்லது இரண்டு புள்ளிகளுக்கு இடையே உள்ள தூரத்தை செருகுகிறது</translation>
     </message>
@@ -1665,17 +2689,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawPageDefault</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="108"/>
+=======
+      <location filename="../../Command.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="109"/>
+=======
+      <location filename="../../Command.cpp" line="108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Page</source>
       <translation>புதிய பக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="110"/>
+=======
+      <location filename="../../Command.cpp" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new page with the default template</source>
       <translation>இயல்புநிலை டெம்ப்ளேட்டுடன் புதிய பக்கத்தை உருவாக்குகிறது</translation>
     </message>
@@ -1683,35 +2719,72 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawPageTemplate</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="168"/>
+=======
+      <location filename="../../Command.cpp" line="167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="169"/>
+=======
+      <location filename="../../Command.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Page From Template</source>
       <translation>டெம்ப்ளேட்டிலிருந்து புதிய பக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="170"/>
       <source>Creates a new page from a custom template</source>
       <translation>தனிப்பயன் டெம்ப்ளேட்டிலிருந்து புதிய பக்கத்தை உருவாக்குகிறது</translation>
     </message>
+=======
+      <location filename="../../Command.cpp" line="169"/>
+      <source>Creates a new page from a custom template</source>
+      <translation>தனிப்பயன் டெம்ப்ளேட்டிலிருந்து புதிய பக்கத்தை உருவாக்குகிறது</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="181"/>
+      <source>Select a template file</source>
+      <translation>டெம்ப்ளேட் கோப்பைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="182"/>
+      <source>Template (*.svg)</source>
+      <translation>டெம்ப்ளேட் (*.svg)</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CmdTechDrawPrintAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="273"/>
+=======
+      <location filename="../../Command.cpp" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="274"/>
+=======
+      <location filename="../../Command.cpp" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print All Pages</source>
       <translation>அனைத்து பக்கங்களையும் அச்சிடுக</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="275"/>
+=======
+      <location filename="../../Command.cpp" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Prints all pages with the print dialog</source>
       <translation>அச்சு உரையாடலுடன் அனைத்து பக்கங்களையும் அச்சிடுகிறது</translation>
     </message>
@@ -1719,17 +2792,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawProjectShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1928"/>
+=======
+      <location filename="../../Command.cpp" line="1914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1929"/>
+=======
+      <location filename="../../Command.cpp" line="1915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Project Shape</source>
       <translation>திட்ட வடிவம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1930"/>
+=======
+      <location filename="../../Command.cpp" line="1916"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a projected geometry of the selected object in the 3D view from the current camera angle</source>
       <translation>தற்போதைய கேமரா கோணத்தில் இருந்து 3D காட்சியில் தேர்ந்தெடுக்கப்பட்ட பொருளின் திட்டமிடப்பட்ட வடிவவியலை உருவாக்குகிறது</translation>
     </message>
@@ -1737,17 +2822,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawProjectionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1058"/>
+=======
+      <location filename="../../Command.cpp" line="1052"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1059"/>
+=======
+      <location filename="../../Command.cpp" line="1053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Projection Group</source>
       <translation>திட்டக் குழு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1060"/>
+=======
+      <location filename="../../Command.cpp" line="1054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts multiple new linked views of the selected objects in the current page</source>
       <translation>தற்போதைய பக்கத்தில் தேர்ந்தெடுக்கப்பட்ட பொருள்களின் பல புதிய இணைக்கப்பட்ட காட்சிகளைச் செருகும்</translation>
     </message>
@@ -1773,17 +2870,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawRadiusDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1485"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1486"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius Dimension</source>
       <translation>ஆரம் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1487"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a radius dimension of a circular edge or arc</source>
       <translation>வட்ட விளிம்பு அல்லது வளைவின் ஆரம் பரிமாணத்தைச் செருகுகிறது</translation>
     </message>
@@ -1791,17 +2900,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawRedrawPage</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="237"/>
+=======
+      <location filename="../../Command.cpp" line="236"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="238"/>
+=======
+      <location filename="../../Command.cpp" line="237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Redraw Page</source>
       <translation>பக்கத்தை மீண்டும் வரையவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="239"/>
+=======
+      <location filename="../../Command.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Redraws the current page</source>
       <translation>தற்போதைய பக்கத்தை மீண்டும் வரைகிறது</translation>
     </message>
@@ -1827,27 +2948,47 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawSectionGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="733"/>
+=======
+      <location filename="../../Command.cpp" line="727"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="734"/>
+=======
+      <location filename="../../Command.cpp" line="728"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section View (Simple or Complex)</source>
       <translation>பிரிவு பார்வை (எளிய அல்லது சிக்கலானது)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="735"/>
+=======
+      <location filename="../../Command.cpp" line="729"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a simple or complex section view in the current page</source>
       <translation>தற்போதைய பக்கத்தில் எளிய அல்லது சிக்கலான பிரிவு காட்சியை செருகும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="799"/>
+=======
+      <location filename="../../Command.cpp" line="793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section View</source>
       <translation>பகுதி பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="803"/>
+=======
+      <location filename="../../Command.cpp" line="797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Complex Section View</source>
       <translation>சிக்கலான பகுதி பார்வை</translation>
     </message>
@@ -1855,17 +2996,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawSectionView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="825"/>
+=======
+      <location filename="../../Command.cpp" line="819"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="826"/>
+=======
+      <location filename="../../Command.cpp" line="820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section View</source>
       <translation>பகுதி பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="827"/>
+=======
+      <location filename="../../Command.cpp" line="821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a new section view based on the selected view in the current page</source>
       <translation>தற்போதைய பக்கத்தில் தேர்ந்தெடுக்கப்பட்ட பார்வையின் அடிப்படையில் ஒரு புதிய பிரிவு காட்சியை செருகும்</translation>
     </message>
@@ -1891,17 +3044,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawSpreadsheetView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1746"/>
+=======
+      <location filename="../../Command.cpp" line="1734"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1747"/>
+=======
+      <location filename="../../Command.cpp" line="1735"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spreadsheet View</source>
       <translation>விரிதாள் காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1748"/>
+=======
+      <location filename="../../Command.cpp" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a view of a spreadsheet in the current page</source>
       <translation>தற்போதைய பக்கத்தில் விரிதாளின் காட்சியைச் செருகும்</translation>
     </message>
@@ -2037,17 +3202,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawSymbol</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1539"/>
+=======
+      <location filename="../../Command.cpp" line="1532"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1540"/>
+=======
+      <location filename="../../Command.cpp" line="1533"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert SVG</source>
       <translation>SVG ஐச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1541"/>
+=======
+      <location filename="../../Command.cpp" line="1534"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a symbol from an SVG file</source>
       <translation>SVG கோப்பிலிருந்து ஒரு சின்னத்தைச் செருகுகிறது</translation>
     </message>
@@ -2055,17 +3232,29 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawVerticalDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1679"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1680"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical Length Dimension</source>
       <translation>செங்குத்து நீளம் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1681"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1649"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a vertical length dimension of an edge or distance between two points</source>
       <translation>ஒரு விளிம்பின் செங்குத்து நீள பரிமாணத்தை அல்லது இரண்டு புள்ளிகளுக்கு இடையே உள்ள தூரத்தை செருகுகிறது</translation>
     </message>
@@ -2073,35 +3262,61 @@ Left clicking on empty space will validate the current dimension. Right clicking
   <context>
     <name>CmdTechDrawVerticalExtentDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2091"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2056"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2092"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2057"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical Extent Dimension</source>
       <translation>செங்குத்து அளவு பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2093"/>
       <source>Inserts a dimension showing the vertical extent (overall length) of an object or feature</source>
       <translation type="unfinished">Inserts a dimension showing the vertical extent (overall length) of an object or feature</translation>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2058"/>
+      <source>Inserts a dimension showing the vertical extent (overall length) of an object or feature.</source>
+      <translation>ஒரு பொருள் அல்லது அம்சத்தின் செங்குத்து அளவை (ஒட்டுமொத்த நீளம்) காட்டும் பரிமாணத்தைச் செருகுகிறது.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdTechDrawView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="298"/>
+=======
+      <location filename="../../Command.cpp" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="299"/>
+=======
+      <location filename="../../Command.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New View</source>
       <translation>புதிய பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="300"/>
+=======
+      <location filename="../../Command.cpp" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a new view into the current page based on the selected object in the tree view or 3D view.
 If no object is selected, a file browser opens to select an SVG or image file.</source>
       <translation>ட்ரீ வியூ அல்லது 3டி பார்வையில் தேர்ந்தெடுக்கப்பட்ட பொருளின் அடிப்படையில் தற்போதைய பக்கத்தில் புதிய காட்சியைச் செருகும். 
@@ -2129,72 +3344,129 @@ If no object is selected, a file browser opens to select an SVG or image file.</
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="124"/>
       <location filename="../../Command.cpp" line="193"/>
+=======
+      <location filename="../../Command.cpp" line="123"/>
+      <location filename="../../Command.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drawing create page</source>
       <translation>வரைதல் பக்கத்தை உருவாக்குதல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="363"/>
       <location filename="../../Command.cpp" line="1720"/>
+=======
+      <location filename="../../Command.cpp" line="360"/>
+      <location filename="../../Command.cpp" line="1708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create BIM view</source>
       <translation>BIM காட்சியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="485"/>
+=======
+      <location filename="../../Command.cpp" line="480"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create image</source>
       <translation>படத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="503"/>
+=======
+      <location filename="../../Command.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create view</source>
       <translation>காட்சியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="651"/>
+=======
+      <location filename="../../Command.cpp" line="645"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create broken view</source>
       <translation>உடைந்த காட்சியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1907"/>
       <location filename="../../PagePrinter.cpp" line="444"/>
+=======
+      <location filename="../../Command.cpp" line="1893"/>
+      <location filename="../../PagePrinter.cpp" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save page to DXF</source>
       <translation>பக்கத்தை DXF இல் சேமிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="463"/>
       <location filename="../../Command.cpp" line="1570"/>
+=======
+      <location filename="../../Command.cpp" line="455"/>
+      <location filename="../../Command.cpp" line="1560"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Symbol</source>
       <translation>சின்னத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1142"/>
+=======
+      <location filename="../../Command.cpp" line="1136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create projection group</source>
       <translation>திட்டக் குழுவை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1363"/>
+=======
+      <location filename="../../Command.cpp" line="1356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create clip</source>
       <translation>கிளிப்பை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1435"/>
+=======
+      <location filename="../../Command.cpp" line="1428"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add clip group</source>
       <translation>கிளிப் குழுவைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1506"/>
+=======
+      <location filename="../../Command.cpp" line="1499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove clip group</source>
       <translation>கிளிப் குழுவை அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1644"/>
+=======
+      <location filename="../../Command.cpp" line="1634"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create DraftView</source>
       <translation>வரைவு காட்சியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="343"/>
       <location filename="../../Command.cpp" line="1772"/>
+=======
+      <location filename="../../Command.cpp" line="342"/>
+      <location filename="../../Command.cpp" line="1760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create spreadsheet view</source>
       <translation>விரிதாள் காட்சியை உருவாக்கவும்</translation>
     </message>
@@ -2205,6 +3477,7 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="360"/>
+<<<<<<< HEAD
       <source>Add Quadrant vertices</source>
       <translation type="unfinished">Add Quadrant vertices</translation>
     </message>
@@ -2215,81 +3488,146 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../TaskRichAnno.cpp" line="153"/>
+=======
+      <source>Quadrant vertices</source>
+      <translation>நாற்கர முனைகள்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../CommandAnnotate.cpp" line="543"/>
       <source>Create Annotation</source>
       <translation>சிறுகுறிப்பை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="473"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="468"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Extent dimension</source>
       <translation>விரிவாக்க பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="811"/>
       <location filename="../../CommandCreateDims.cpp" line="1276"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="789"/>
+      <location filename="../../CommandCreateDims.cpp" line="1246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add horizontal chain dimensions</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="816"/>
       <location filename="../../CommandCreateDims.cpp" line="843"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="794"/>
+      <location filename="../../CommandCreateDims.cpp" line="821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add horizontal coordinate dimensions</source>
       <translation>கிடைமட்ட ஒருங்கிணைப்பு பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="820"/>
       <location filename="../../CommandCreateDims.cpp" line="824"/>
       <location filename="../../CommandCreateDims.cpp" line="828"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="798"/>
+      <location filename="../../CommandCreateDims.cpp" line="802"/>
+      <location filename="../../CommandCreateDims.cpp" line="806"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add 3-points angle dimension</source>
       <translation>3 புள்ளிகள் கோண பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="838"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="816"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add horizontal chain dimension</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="864"/>
       <location filename="../../CommandCreateDims.cpp" line="879"/>
       <location filename="../../CommandCreateDims.cpp" line="894"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="842"/>
+      <location filename="../../CommandCreateDims.cpp" line="857"/>
+      <location filename="../../CommandCreateDims.cpp" line="872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add length dimension</source>
       <translation>நீள பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1030"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1008"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add edge length dimension</source>
       <translation>விளிம்பு நீள பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="247"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert dimension</source>
       <translation>பரிமாணத்தைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="780"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add area dimension</source>
       <translation>பகுதி பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="791"/>
       <location filename="../../CommandCreateDims.cpp" line="1094"/>
       <location filename="../../CommandCreateDims.cpp" line="1195"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="769"/>
+      <location filename="../../CommandCreateDims.cpp" line="1064"/>
+      <location filename="../../CommandCreateDims.cpp" line="1165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distance dimension</source>
       <translation>தூர பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="800"/>
       <location filename="../../CommandCreateDims.cpp" line="906"/>
       <location filename="../../CommandCreateDims.cpp" line="1175"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="778"/>
+      <location filename="../../CommandCreateDims.cpp" line="884"/>
+      <location filename="../../CommandCreateDims.cpp" line="1145"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distanceX chamfer dimension</source>
       <translation>தூரம்எக்ச் சேம்பர் பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="853"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="831"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add point to line distance dimension</source>
       <translation>வரி தூர பரிமாணத்திற்கு புள்ளியைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="869"/>
       <location filename="../../CommandCreateDims.cpp" line="884"/>
       <location filename="../../CommandCreateDims.cpp" line="922"/>
@@ -2298,162 +3636,297 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../CommandCreateDims.cpp" line="986"/>
       <location filename="../../CommandCreateDims.cpp" line="1020"/>
       <location filename="../../CommandCreateDims.cpp" line="1041"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="847"/>
+      <location filename="../../CommandCreateDims.cpp" line="862"/>
+      <location filename="../../CommandCreateDims.cpp" line="900"/>
+      <location filename="../../CommandCreateDims.cpp" line="915"/>
+      <location filename="../../CommandCreateDims.cpp" line="930"/>
+      <location filename="../../CommandCreateDims.cpp" line="964"/>
+      <location filename="../../CommandCreateDims.cpp" line="998"/>
+      <location filename="../../CommandCreateDims.cpp" line="1019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add extent dimension</source>
       <translation>அளவு பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="917"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add angle dimension</source>
       <translation>கோண பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="932"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="910"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add circle to line distance dimension</source>
       <translation>கோட்டின் தூர பரிமாணத்தில் வட்டத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="947"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="925"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add ellipse to line distance dimension</source>
       <translation>கோட்டின் தூர பரிமாணத்தில் நீள்வட்டத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="971"/>
       <location filename="../../CommandCreateDims.cpp" line="1005"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="949"/>
+      <location filename="../../CommandCreateDims.cpp" line="983"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add arc length dimension</source>
       <translation>வில் நீள பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="981"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="959"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add circle to circle distance dimension</source>
       <translation>வட்டத்தின் தூர பரிமாணத்தில் வட்டத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1015"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="993"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add ellipse to ellipse distance dimension</source>
       <translation>நீள்வட்ட தூர பரிமாணத்தில் நீள்வட்டத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1079"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1049"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add radius dimension</source>
       <translation>ஆரம் பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1083"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add diameter dimension</source>
       <translation>விட்டம் பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1178"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1148"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distanceX dimension</source>
       <translation>தூரம் ஃச் பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1185"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distanceY chamfer dimension</source>
       <translation>தூரம்ஒய் சேம்பர் பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1188"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distanceY dimension</source>
       <translation>தூரம் பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1233"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distanceX extent dimension</source>
       <translation>தூரம் ஃச் அளவு பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1238"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add distanceY extent dimension</source>
       <translation>தூரம் அளவு பரிமாணத்தைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1280"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add horizontal coord dimensions</source>
       <translation>கிடைமட்ட ஒருங்கிணைப்பு பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1287"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add vertical chain dimensions</source>
       <translation>செங்குத்து சங்கிலி பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1291"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1261"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add vertical coord dimensions</source>
       <translation>செங்குத்து கோட் பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1297"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add oblique chain dimensions</source>
       <translation>சாய்ந்த சங்கிலி பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1301"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add oblique coord dimensions</source>
       <translation>சாய்ந்த கூட்டு பரிமாணங்களைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1368"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension</source>
       <translation>பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1998"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1963"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Dimension DistanceX</source>
       <translation>DistanceX பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2000"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1965"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Dimension DistanceY</source>
       <translation>பரிமாண தூரத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2293"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create dimension</source>
       <translation>பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHatch.cpp" line="201"/>
+=======
+      <location filename="../../TaskHatch.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Hatch</source>
       <translation>அட்ச் உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHatch.cpp" line="239"/>
+=======
+      <location filename="../../TaskHatch.cpp" line="237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Update Hatch</source>
       <translation>அட்ச் புதுப்பிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="221"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove old hatch</source>
       <translation>பழைய அட்ச் அகற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="299"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create GeomHatch</source>
       <translation>GeomHatch ஐ உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="374"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="334"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Image</source>
       <translation>படத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QGIViewBalloon.cpp" line="511"/>
+=======
+      <location filename="../../QGIViewBalloon.cpp" line="506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag Balloon</source>
       <translation>பலூனை இழுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QGIViewDimension.cpp" line="337"/>
+=======
+      <location filename="../../QGIViewDimension.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag Dimension</source>
       <translation>இழுவை பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QGSPage.cpp" line="585"/>
+=======
+      <location filename="../../QGSPage.cpp" line="610"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Balloon</source>
       <translation>பலூனை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskActiveView.cpp" line="75"/>
+=======
+      <location filename="../../TaskActiveView.cpp" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create ActiveView</source>
       <translation>ActiveView ஐ உருவாக்கவும்</translation>
     </message>
@@ -2498,13 +3971,31 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>தலைவரைத் திருத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../TaskRichAnno.cpp" line="287"/>
+      <source>Create Anno</source>
+      <translation>ஆண்டு உருவாக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskRichAnno.cpp" line="349"/>
+      <source>Edit Anno</source>
+      <translation>ஆண்டைத் திருத்து</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskComplexSection.cpp" line="553"/>
       <source>Create Complex Section</source>
       <translation>சிக்கலான பகுதியை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSectionView.cpp" line="573"/>
       <location filename="../../TaskComplexSection.cpp" line="649"/>
+=======
+      <location filename="../../TaskComplexSection.cpp" line="648"/>
+      <location filename="../../TaskSectionView.cpp" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Section View</source>
       <translation>பகுதிக் காட்சியைத் திருத்து</translation>
     </message>
@@ -2514,132 +4005,236 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>காச்மெடிக் வெர்டெக்சைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="255"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Remove Prefix</source>
       <translation>TechDraw அகற்று முன்னொட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="259"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove Prefix</source>
       <translation>முன்னொட்டை அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="433"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increase/Decrease Decimal</source>
       <translation>தசமத்தை அதிகரிக்கவும்/குறைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="618"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="602"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position Horizontal Chain Dimension</source>
       <translation>நிலை கிடைமட்ட சங்கிலி பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="679"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position Vert Chain Dimension</source>
       <translation>நிலை வெர்ட் செயின் பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="741"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="725"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position Oblique Chain Dimension</source>
       <translation>நிலை சாய்ந்த சங்கிலி பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="927"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="911"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Horizontal Dimension</source>
       <translation>கேச்கேட் கிடைமட்ட பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="993"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="977"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Vertical Dimension</source>
       <translation>அடுக்கு செங்குத்து பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1060"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1044"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cascade Oblique Dimension</source>
       <translation>கேச்கேட் சாய்ந்த பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1259"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Horizontal Chain Dimension</source>
       <translation>கிடைமட்ட சங்கிலி பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1324"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Vert Chain dimension</source>
       <translation>வெர்ட் செயின் பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1389"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1373"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create oblique chain dimension</source>
       <translation>சாய்ந்த சங்கிலி பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1618"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1602"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Horizontal Coord Dimension</source>
       <translation>கிடைமட்ட ஒருங்கிணைப்பு பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1686"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1670"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create vert coord dimension</source>
       <translation>vert coord பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1756"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create oblique coord dimension</source>
       <translation>சாய்ந்த கூட்டு பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1987"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1971"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Horizontal Chamfer Dimension</source>
       <translation>கிடைமட்ட சேம்பர் பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2053"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2037"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Vert Chamfer Dimension</source>
       <translation>வெர்ட் சேம்பர் பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2228"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Arc Length Dimension</source>
       <translation>ஆர்க் நீளம் பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="209"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circle Centerlines</source>
       <translation>வட்ட மையக் கோடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="387"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Thread Hole Side</source>
       <translation>TechDraw Thread Hole பக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="390"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Hole Side</source>
       <translation>ஒப்பனை நூல் துளை பக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="438"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Thread Bolt Side</source>
       <translation>TechDraw த்ரெட் போல்ட் சைட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="441"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Bolt Side</source>
       <translation>ஒப்பனை நூல் போல்ட் பக்க</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="490"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Thread Hole Bottom</source>
       <translation>TechDraw Thread Hole கீழே</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="541"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="529"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Thread Bolt Bottom</source>
       <translation>TechDraw த்ரெட் போல்ட் பாட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="544"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="532"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Thread Bolt Bottom</source>
       <translation>ஒப்பனை நூல் போல்ட் பாட்டம்</translation>
     </message>
@@ -2649,112 +4244,200 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>TechDraw துளை வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="131"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bolt circle centerlines</source>
       <translation>போல்ட் வட்டத்தின் மையக் கோடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="206"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw circle centerlines</source>
       <translation>TechDraw வட்ட மையக் கோடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="493"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="481"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic thread hole bottom</source>
       <translation>ஒப்பனை நூல் துளை கீழே</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="767"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw change line attributes</source>
       <translation>TechDraw வரி பண்புகளை மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="770"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change line attributes</source>
       <translation>வரி பண்புகளை மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="826"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="814"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw cosmetic intersection vertices</source>
       <translation>TechDraw ஒப்பனை குறுக்குவெட்டு முனைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="829"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic intersection vertices</source>
       <translation>ஒப்பனை குறுக்குவெட்டு முனைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1022"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1011"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw cosmetic arc</source>
       <translation>TechDraw காச்மெடிக் ஆர்க்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1025"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1014"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic arc</source>
       <translation>ஒப்பனை வில்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1091"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1080"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw cosmetic circle</source>
       <translation>TechDraw ஒப்பனை வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1094"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1083"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Circle</source>
       <translation>ஒப்பனை வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1150"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Cosmetic Circle 3 Points</source>
       <translation>TechDraw Cosmetic Circle 3 புள்ளிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1153"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Circle 3 Points</source>
       <translation>ஒப்பனை வட்டம் 3 புள்ளிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1339"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Cosmetic Line Parallel/Perpendicular</source>
       <translation>TechDraw ஒப்பனைக் கோடு இணை/செங்குத்தாக</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1342"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic Line Parallel/Perpendicular</source>
       <translation>ஒப்பனைக் கோடு இணை/செங்குத்தாக</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1574"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lock/Unlock View</source>
       <translation>பூட்டு/திறத்தல் பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1603"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Extend/Shorten Line</source>
       <translation>TechDraw நீட்டிப்பு/கோடு சுருக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1606"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extend/shorten line</source>
       <translation>வரியை நீட்டவும்/குறுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1865"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1849"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Calculate Selected Area</source>
       <translation>TechDraw தேர்ந்தெடுக்கப்பட்ட பகுதியைக் கணக்கிடவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1991"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1980"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Calculate Selected Arc Length</source>
       <translation>TechDraw தேர்ந்தெடுக்கப்பட்ட வில் நீளத்தைக் கணக்கிடவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1907"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1891"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculate Face Area</source>
       <translation>முகத்தின் பகுதியைக் கணக்கிடுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="2028"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="2017"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculate Edge Length</source>
       <translation>விளிம்பு நீளத்தைக் கணக்கிடுங்கள்</translation>
     </message>
@@ -2977,62 +4660,111 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>மேலும் செயல்பாடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="96"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard</source>
       <translation>அடிப்படை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="97"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heading 1</source>
       <translation>தலைப்பு 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="98"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heading 2</source>
       <translation>தலைப்பு 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="99"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heading 3</source>
       <translation>தலைப்பு 3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="100"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heading 4</source>
       <translation>தலைப்பு 4</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="101"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Monospace</source>
       <translation>மினிவேன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="161"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove character formatting</source>
       <translation>எழுத்து வடிவமைப்பை அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="166"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove all formatting</source>
       <translation>அனைத்து வடிவமைப்பையும் அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="170"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit document source</source>
       <translation>ஆவண மூலத்தைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="256"/>
       <source>Document Source</source>
       <translation type="unfinished">Document Source</translation>
     </message>
     <message>
       <location filename="../../mrichtextedit.cpp" line="353"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="255"/>
+      <source>Document source</source>
+      <translation>ஆவண சான்று</translation>
+    </message>
+    <message>
+      <location filename="../../mrichtextedit.cpp" line="352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a link</source>
       <translation>இணைப்பை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../mrichtextedit.cpp" line="354"/>
+=======
+      <location filename="../../mrichtextedit.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link URL:</source>
       <translation>இணைப்பு URL:</translation>
     </message>
@@ -3050,6 +4782,7 @@ If no object is selected, a file browser opens to select an SVG or image file.</
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="635"/>
       <location filename="../../Command.cpp" line="645"/>
       <location filename="../../Command.cpp" line="862"/>
@@ -3068,6 +4801,26 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../Command.cpp" line="1701"/>
       <location filename="../../Command.cpp" line="1707"/>
       <location filename="../../Command.cpp" line="1766"/>
+=======
+      <location filename="../../Command.cpp" line="629"/>
+      <location filename="../../Command.cpp" line="639"/>
+      <location filename="../../Command.cpp" line="856"/>
+      <location filename="../../Command.cpp" line="973"/>
+      <location filename="../../Command.cpp" line="980"/>
+      <location filename="../../Command.cpp" line="985"/>
+      <location filename="../../Command.cpp" line="1023"/>
+      <location filename="../../Command.cpp" line="1122"/>
+      <location filename="../../Command.cpp" line="1388"/>
+      <location filename="../../Command.cpp" line="1405"/>
+      <location filename="../../Command.cpp" line="1410"/>
+      <location filename="../../Command.cpp" line="1419"/>
+      <location filename="../../Command.cpp" line="1472"/>
+      <location filename="../../Command.cpp" line="1491"/>
+      <location filename="../../Command.cpp" line="1614"/>
+      <location filename="../../Command.cpp" line="1689"/>
+      <location filename="../../Command.cpp" line="1695"/>
+      <location filename="../../Command.cpp" line="1754"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../CommandAnnotate.cpp" line="115"/>
       <location filename="../../CommandAnnotate.cpp" line="120"/>
       <location filename="../../CommandAnnotate.cpp" line="311"/>
@@ -3101,26 +4854,48 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>தவறான தேர்வு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="430"/>
+=======
+      <location filename="../../Command.cpp" line="590"/>
+      <source>Empty selection</source>
+      <translation>வெற்று தேர்வு</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To insert a view from existing objects, select them before invoking this tool. Without a selection, a file browser will open to insert an SVG or image file.</source>
       <translation>ஏற்கனவே உள்ள பொருட்களிலிருந்து பார்வையைச் செருக, இந்தக் கருவியைத் தொடங்குவதற்கு முன் அவற்றைத் தேர்ந்தெடுக்கவும். தேர்வு இல்லாமல், SVG அல்லது படக் கோப்பைச் செருக கோப்பு உலாவி திறக்கும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="435"/>
+=======
+      <location filename="../../Command.cpp" line="430"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not show this message again</source>
       <translation>இந்த செய்தியை மீண்டும் காட்ட வேண்டாம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="453"/>
+=======
+      <location filename="../../Command.cpp" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a SVG or Image file to open</source>
       <translation>திறக்க SVG அல்லது படக் கோப்பைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="449"/>
+=======
+      <location filename="../../Command.cpp" line="447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>SVG or Image files</source>
       <translation>SVG அல்லது படக் கோப்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="182"/>
       <source>Select a template file</source>
       <translation type="unfinished">Select a template file</translation>
@@ -3137,48 +4912,108 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../Command.cpp" line="992"/>
+=======
+      <location filename="../../Command.cpp" line="986"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No profile object found in selection</source>
       <translation>தேர்வில் சுயவிவரப் பொருள் எதுவுமில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1413"/>
+=======
+      <location filename="../../Command.cpp" line="1406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select exactly one view to add to clip group</source>
       <translation>கிளிப் குழுவில் சேர்க்க, சரியாக ஒரு காட்சியைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1480"/>
+=======
+      <location filename="../../Command.cpp" line="1473"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select exactly one view to remove from clip group</source>
       <translation>கிளிப் குழுவிலிருந்து அகற்ற, சரியாக ஒரு காட்சியைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1849"/>
+=======
+      <location filename="../../Command.cpp" line="1835"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD could not find a page to export</source>
       <translation>FreeCAD மூலம் ஏற்றுமதி செய்வதற்கான பக்கத்தைக் கண்டறிய முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="597"/>
+=======
+      <location filename="../../Command.cpp" line="1190"/>
+      <location filename="../../Command.cpp" line="1197"/>
+      <location filename="../../Command.cpp" line="1205"/>
+      <location filename="../../Command.cpp" line="1217"/>
+      <location filename="../../CommandDecorate.cpp" line="377"/>
+      <location filename="../../CommandDecorate.cpp" line="384"/>
+      <location filename="../../CommandDecorate.cpp" line="391"/>
+      <location filename="../../TaskDimRepair.cpp" line="137"/>
+      <location filename="../../TaskDimRepair.cpp" line="148"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1865"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1994"/>
+      <location filename="../../CommandCreateDims.cpp" line="1972"/>
+      <location filename="../../CommandCreateDims.cpp" line="1988"/>
+      <location filename="../../CommandCreateDims.cpp" line="2110"/>
+      <location filename="../../CommandCreateDims.cpp" line="2162"/>
+      <location filename="../../CommandCreateDims.cpp" line="2177"/>
+      <location filename="../../CommandCreateDims.cpp" line="2329"/>
+      <location filename="../../CommandCreateDims.cpp" line="2337"/>
+      <location filename="../../CommandCreateDims.cpp" line="2346"/>
+      <source>Incorrect selection</source>
+      <translation>தவறான தேர்வு</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select objects to break or a base view and break definition objects</source>
       <translation>உடைக்க பொருள்களைத் தேர்ந்தெடுக்கவும் அல்லது அடிப்படைக் காட்சி மற்றும் வரையறை பொருள்களை உடைக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="636"/>
+=======
+      <location filename="../../Command.cpp" line="630"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No break objects found in this selection</source>
       <translation>இந்தத் தேர்வில் உடைப்புப் பொருள்கள் எதுவும் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="646"/>
       <location filename="../../Command.cpp" line="1129"/>
+=======
+      <location filename="../../Command.cpp" line="640"/>
+      <location filename="../../Command.cpp" line="1123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No shapes, groups, or links in this selection</source>
       <translation>இந்தத் தேர்வில் வடிவங்கள், குழுக்கள் அல்லது இணைப்புகள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="745"/>
       <location filename="../../Command.cpp" line="838"/>
       <location filename="../../Command.cpp" line="901"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../CommandStack.cpp" line="73"/>
       <location filename="../../CommandStack.cpp" line="189"/>
       <location filename="../../CommandStack.cpp" line="249"/>
       <location filename="../../CommandStack.cpp" line="309"/>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="739"/>
+      <location filename="../../Command.cpp" line="832"/>
+      <location filename="../../Command.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../CommandAnnotate.cpp" line="100"/>
       <location filename="../../CommandAnnotate.cpp" line="161"/>
       <location filename="../../CommandAnnotate.cpp" line="213"/>
@@ -3194,6 +5029,7 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../CommandAnnotate.cpp" line="1260"/>
       <location filename="../../CommandAnnotate.cpp" line="1341"/>
       <location filename="../../CommandAnnotate.cpp" line="1407"/>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1499"/>
       <location filename="../../CommandCreateDims.cpp" line="1547"/>
       <location filename="../../CommandCreateDims.cpp" line="1595"/>
@@ -3217,13 +5053,44 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../CommandExtensionPack.cpp" line="1225"/>
       <location filename="../../CommandExtensionPack.cpp" line="1470"/>
       <location filename="../../CommandExtensionPack.cpp" line="1768"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="290"/>
+      <location filename="../../CommandExtensionPack.cpp" line="593"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1214"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1459"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1752"/>
+      <location filename="../../CommandExtensionDims.cpp" line="310"/>
+      <location filename="../../CommandExtensionDims.cpp" line="519"/>
+      <location filename="../../CommandExtensionDims.cpp" line="807"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1135"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1506"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1875"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2113"/>
+      <location filename="../../CommandCreateDims.cpp" line="1470"/>
+      <location filename="../../CommandCreateDims.cpp" line="1518"/>
+      <location filename="../../CommandCreateDims.cpp" line="1566"/>
+      <location filename="../../CommandCreateDims.cpp" line="1614"/>
+      <location filename="../../CommandCreateDims.cpp" line="1662"/>
+      <location filename="../../CommandCreateDims.cpp" line="1709"/>
+      <location filename="../../CommandCreateDims.cpp" line="1756"/>
+      <location filename="../../CommandCreateDims.cpp" line="1803"/>
+      <location filename="../../CommandCreateDims.cpp" line="1850"/>
+      <location filename="../../CommandCreateDims.cpp" line="1946"/>
+      <location filename="../../CommandCreateDims.cpp" line="2071"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Task in progress</source>
       <translation>பணி நடந்து கொண்டிருக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="746"/>
       <location filename="../../Command.cpp" line="839"/>
       <location filename="../../Command.cpp" line="902"/>
+=======
+      <location filename="../../Command.cpp" line="740"/>
+      <location filename="../../Command.cpp" line="833"/>
+      <location filename="../../Command.cpp" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../CommandAnnotate.cpp" line="101"/>
       <location filename="../../CommandAnnotate.cpp" line="162"/>
       <location filename="../../CommandAnnotate.cpp" line="214"/>
@@ -3239,6 +5106,7 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../CommandAnnotate.cpp" line="1261"/>
       <location filename="../../CommandAnnotate.cpp" line="1342"/>
       <location filename="../../CommandAnnotate.cpp" line="1408"/>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="327"/>
       <location filename="../../CommandExtensionDims.cpp" line="536"/>
       <location filename="../../CommandExtensionDims.cpp" line="824"/>
@@ -3246,58 +5114,107 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../CommandExtensionDims.cpp" line="1523"/>
       <location filename="../../CommandExtensionDims.cpp" line="1892"/>
       <location filename="../../CommandExtensionDims.cpp" line="2130"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="311"/>
+      <location filename="../../CommandExtensionDims.cpp" line="520"/>
+      <location filename="../../CommandExtensionDims.cpp" line="808"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1136"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1507"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1876"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close active task dialog and try again</source>
       <translation>செயலில் உள்ள பணி உரையாடலை மூடிவிட்டு மீண்டும் முயற்சிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="863"/>
       <location filename="../../Command.cpp" line="1030"/>
+=======
+      <location filename="../../Command.cpp" line="857"/>
+      <location filename="../../Command.cpp" line="1024"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select at least 1 DrawViewPart object as base</source>
       <translation>குறைந்தபட்சம் 1 DrawViewPart பொருளை அடிப்படையாகத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="980"/>
+=======
+      <location filename="../../Command.cpp" line="974"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No base view selected</source>
       <translation>அடிப்படைக் காட்சி எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="987"/>
+=======
+      <location filename="../../Command.cpp" line="981"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No base view, shapes, groups, or links in this selection</source>
       <translation>இந்தத் தேர்வில் அடிப்படைக் காட்சி, வடிவங்கள், குழுக்கள் அல்லது இணைப்புகள் எதுவும் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1198"/>
       <location filename="../../CommandCreateDims.cpp" line="2371"/>
+=======
+      <location filename="../../Command.cpp" line="1191"/>
+      <location filename="../../CommandCreateDims.cpp" line="2330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select an object first</source>
       <translation>முதலில் ஒரு பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1205"/>
       <location filename="../../CommandCreateDims.cpp" line="2379"/>
+=======
+      <location filename="../../Command.cpp" line="1198"/>
+      <location filename="../../CommandCreateDims.cpp" line="2338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many objects selected</source>
       <translation>பல பொருள்கள் தேர்ந்தெடுக்கப்பட்டுள்ளன</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1213"/>
+=======
+      <location filename="../../Command.cpp" line="1206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a page first</source>
       <translation>முதலில் ஒரு பக்கத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1225"/>
+=======
+      <location filename="../../Command.cpp" line="1218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No view of a part in selection</source>
       <translation>தேர்வில் ஒரு பகுதியின் பார்வை இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1396"/>
+=======
+      <location filename="../../Command.cpp" line="1389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select one clip group and one view</source>
       <translation>ஒரு கிளிப் குழுவையும் ஒரு பார்வையையும் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1885"/>
+=======
+      <location filename="../../Command.cpp" line="1871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Page contains a BIM view which will not be exported. Continue?</source>
       <translation>பக்கம் ஏற்றுமதி செய்யப்படாத BIM காட்சியைக் கொண்டுள்ளது. தொடரவா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1899"/>
       <source>Save DXF file</source>
       <translation type="unfinished">Save DXF file</translation>
@@ -3314,50 +5231,96 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../Command.cpp" line="1418"/>
+=======
+      <location filename="../../Command.cpp" line="1411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select exactly one clip group</source>
       <translation>ஒரு கிளிப் குழுவைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1427"/>
+=======
+      <location filename="../../Command.cpp" line="1420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clip and view must be from same page</source>
       <translation>கிளிப் மற்றும் பார்வை ஒரே பக்கத்திலிருந்து இருக்க வேண்டும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1499"/>
+=======
+      <location filename="../../Command.cpp" line="1492"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View does not belong to a clip</source>
       <translation>காட்சி கிளிப்புக்குச் சொந்தமானது அல்ல</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1624"/>
+=======
+      <location filename="../../Command.cpp" line="1554"/>
+      <source>Scalable vector graphic</source>
+      <translation>அளவிடக்கூடிய வெக்டர் கிராஃபிக்</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1554"/>
+      <source>All files</source>
+      <translation>அனைத்து கோப்புகள்</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select at least one object</source>
       <translation>குறைந்தபட்சம் ஒரு பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1702"/>
+=======
+      <location filename="../../Command.cpp" line="1690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select only 1 BIM section plane</source>
       <translation>1 BIM பிரிவு விமானத்தை மட்டும் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1708"/>
+=======
+      <location filename="../../Command.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No BIM section plane in selection</source>
       <translation>தேர்வில் BIM பிரிவு வானூர்தி இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1767"/>
+=======
+      <location filename="../../Command.cpp" line="1755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select exactly one spreadsheet object</source>
       <translation>ஒரு விரிதாள் பொருளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1848"/>
+=======
+      <location filename="../../Command.cpp" line="1834"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No drawing page</source>
       <translation>வரைதல் பக்கம் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1884"/>
+=======
+      <location filename="../../Command.cpp" line="1870"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot export selection</source>
       <translation>தேர்வை ஏற்றுமதி செய்ய முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1500"/>
       <location filename="../../CommandCreateDims.cpp" line="1548"/>
       <location filename="../../CommandCreateDims.cpp" line="1596"/>
@@ -3369,76 +5332,139 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../CommandCreateDims.cpp" line="1886"/>
       <location filename="../../CommandCreateDims.cpp" line="1982"/>
       <location filename="../../CommandCreateDims.cpp" line="2107"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1471"/>
+      <location filename="../../CommandCreateDims.cpp" line="1519"/>
+      <location filename="../../CommandCreateDims.cpp" line="1567"/>
+      <location filename="../../CommandCreateDims.cpp" line="1615"/>
+      <location filename="../../CommandCreateDims.cpp" line="1663"/>
+      <location filename="../../CommandCreateDims.cpp" line="1710"/>
+      <location filename="../../CommandCreateDims.cpp" line="1757"/>
+      <location filename="../../CommandCreateDims.cpp" line="1804"/>
+      <location filename="../../CommandCreateDims.cpp" line="1851"/>
+      <location filename="../../CommandCreateDims.cpp" line="1947"/>
+      <location filename="../../CommandCreateDims.cpp" line="2072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close the active task dialog and try again</source>
       <translation>செயலில் உள்ள பணி உரையாடலை மூடிவிட்டு மீண்டும் முயற்சிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2008"/>
       <location filename="../../CommandCreateDims.cpp" line="2198"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1973"/>
+      <location filename="../../CommandCreateDims.cpp" line="2163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No view of a part in selection.</source>
       <translation>தேர்வில் ஒரு பகுதியின் பார்வை இல்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2050"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot make 2D extent dimension from selection</source>
       <translation>தேர்விலிருந்து 2D அளவு பரிமாணத்தை உருவாக்க முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2066"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2031"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot make 3D extent dimension from selection</source>
       <translation>தேர்விலிருந்து 3D அளவு பரிமாணத்தை உருவாக்க முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2146"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There is no dimension in your selection</source>
       <translation>உங்கள் தேர்வில் எந்த பரிமாணமும் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2213"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2178"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot make 2D dimension from selection</source>
       <translation>தேர்விலிருந்து 2D பரிமாணத்தை உருவாக்க முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2220"/>
       <source>Cannot make 3D dimension without 3d references</source>
       <translation type="unfinished">Cannot make 3D dimension without 3d references</translation>
     </message>
     <message>
       <location filename="../../CommandCreateDims.cpp" line="2235"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot make 3D dimension from selection</source>
       <translation>தேர்வில் இருந்து 3D பரிமாணத்தை உருவாக்க முடியாது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2248"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ellipse curve warning</source>
       <translation>நீள்வட்ட வளைவு முன்னறிவிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2259"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>B-spline curve warning</source>
       <translation>பி-ச்ப்லைன் வளைவு முன்னறிவிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2270"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>B-spline curve error</source>
       <translation>பி-ச்ப்லைன் வளைவு பிழை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2271"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected edge is a B-spline and a radius/diameter cannot be calculated.</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பு B-ச்ப்லைன் மற்றும் ஒரு ஆரம்/விட்டம் கணக்கிட முடியாது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2388"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a page first.</source>
       <translation>முதலில் ஒரு பக்கத்தை உருவாக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1562"/>
+=======
+      <location filename="../../Command.cpp" line="1551"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose an SVG file to open</source>
       <translation>திறக்க SVG கோப்பைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1197"/>
       <location filename="../../Command.cpp" line="1204"/>
       <location filename="../../Command.cpp" line="1212"/>
@@ -3465,6 +5491,19 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../TaskDimension.cpp" line="551"/>
       <location filename="../../TaskDimRepair.cpp" line="137"/>
       <location filename="../../TaskDimRepair.cpp" line="148"/>
+=======
+      <location filename="../../Command.cpp" line="447"/>
+      <source>All Files</source>
+      <translation>அனைத்து கோப்புகள்</translation>
+    </message>
+    <message>
+      <location filename="../../CommandDecorate.cpp" line="398"/>
+      <location filename="../../CommandDecorate.cpp" line="404"/>
+      <location filename="../../TaskDimension.cpp" line="551"/>
+      <location filename="../../CommandCreateDims.cpp" line="2014"/>
+      <location filename="../../CommandCreateDims.cpp" line="2030"/>
+      <location filename="../../CommandCreateDims.cpp" line="2193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../CommandAlign.cpp" line="53"/>
       <source>Incorrect Selection</source>
       <translation>தவறான தேர்வு</translation>
@@ -3477,17 +5516,29 @@ If no object is selected, a file browser opens to select an SVG or image file.</
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2249"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected edge is an Ellipse. Value will be approximate. Continue?</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பு ஒரு நீள்வட்டமாகும். மதிப்பு தோராயமாக இருக்கும். தொடரவா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2260"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected edge is a B-spline. Value will be approximate. Continue?</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பு பி-ச்ப்லைன் ஆகும். மதிப்பு தோராயமாக இருக்கும். தொடரவா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2024"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection contains both 2D and 3D geometry</source>
       <translation>தேர்வில் 2D மற்றும் 3D வடிவியல் உள்ளது</translation>
     </message>
@@ -3501,43 +5552,73 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../CommandStack.cpp" line="369"/>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1001"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Task In Progress</source>
       <translation>பணி நடந்து கொண்டிருக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="119"/>
       <location filename="../../CommandExtensionPack.cpp" line="127"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw hole circle</source>
       <translation>TechDraw துளை வட்டம்</translation>
     </message>
     <message>
       <location filename="../../CommandStack.cpp" line="370"/>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="303"/>
       <location filename="../../CommandExtensionPack.cpp" line="606"/>
       <location filename="../../CommandExtensionPack.cpp" line="1002"/>
       <location filename="../../CommandExtensionPack.cpp" line="1226"/>
       <location filename="../../CommandExtensionPack.cpp" line="1471"/>
       <location filename="../../CommandExtensionPack.cpp" line="1769"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="291"/>
+      <location filename="../../CommandExtensionPack.cpp" line="594"/>
+      <location filename="../../CommandExtensionPack.cpp" line="990"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1215"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1460"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1753"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close active task dialog and try again.</source>
       <translation>செயலில் உள்ள பணி உரையாடலை மூடிவிட்டு மீண்டும் முயற்சிக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="901"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="889"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection is empty.</source>
       <translation>தேர்வு காலியாக உள்ளது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="924"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="912"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You must select a base View for the circle.</source>
       <translation>வட்டத்திற்கான அடிப்படைக் காட்சியைத் தேர்ந்தெடுக்க வேண்டும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="946"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="934"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection is not a Cosmetic Circle or a Cosmetic Arc of Circle.</source>
       <translation>தேர்வு என்பது காச்மெட்டிக் சர்க்கிள் அல்லது காச்மெடிக் ஆர்க் ஆஃப் சர்க்கிள் அல்ல.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="120"/>
       <source>Can not make hole circle for %1</source>
       <translation type="unfinished">Can not make hole circle for %1</translation>
@@ -3565,16 +5646,29 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../CommandExtensionPack.cpp" line="1882"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="970"/>
+      <source>Please select a center for the circle.</source>
+      <translation>வட்டத்திற்கான மையத்தைத் தேர்ந்தெடுக்கவும்.</translation>
+    </message>
+    <message>
+      <location filename="../../CommandExtensionPack.cpp" line="1866"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No faces in selection</source>
       <translation>தேர்வில் முகங்கள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="2006"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1995"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No edges in selection</source>
       <translation>தேர்வில் விளிம்புகள் இல்லை</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionPack.cpp" line="2220"/>
+<<<<<<< HEAD
       <source>TechDraw create thread circle</source>
       <translation type="unfinished">TechDraw create thread circle</translation>
     </message>
@@ -3585,21 +5679,34 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../CommandExtensionPack.cpp" line="2238"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw thread hole side</source>
       <translation>TechDraw நூல் துளை பக்க</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="2239"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="2221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select 2 straight lines</source>
       <translation>2 நேர் கோடுகளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="768"/>
       <location filename="../../CommandAnnotate.cpp" line="1021"/>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="900"/>
       <location filename="../../CommandExtensionPack.cpp" line="923"/>
       <location filename="../../CommandExtensionPack.cpp" line="945"/>
       <location filename="../../CommandExtensionPack.cpp" line="981"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="888"/>
+      <location filename="../../CommandExtensionPack.cpp" line="911"/>
+      <location filename="../../CommandExtensionPack.cpp" line="933"/>
+      <location filename="../../CommandExtensionPack.cpp" line="969"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong Selection</source>
       <translation>தவறான தேர்வு</translation>
     </message>
@@ -3736,16 +5843,25 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation type="unfinished">Need a TechDraw Page for this command</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="209"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replace hatch?</source>
       <translation>அட்சை மாற்றவா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="210"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Some faces in the selection are already hatched. Replace?</source>
       <translation>தேர்வில் சில முகங்கள் ஏற்கனவே பொறிக்கப்பட்டுள்ளன. மாற்றவா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="359"/>
       <source>Image files</source>
       <translation>பட கோப்புகள்</translation>
@@ -3757,61 +5873,123 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../CommandDecorate.cpp" line="419"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a face first</source>
       <translation>முதலில் ஒரு முகத்தைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="426"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No TechDraw object in selection</source>
       <translation>தேர்வில் TechDraw பொருள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="433"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a page to insert</source>
       <translation>செருகுவதற்கு ஒரு பக்கத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandDecorate.cpp" line="440"/>
       <location filename="../../CommandDecorate.cpp" line="446"/>
+=======
+      <location filename="../../CommandDecorate.cpp" line="399"/>
+      <location filename="../../CommandDecorate.cpp" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No faces to hatch in this selection</source>
       <translation>இந்தத் தேர்வில் பொறிக்க முகங்கள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DrawGuiUtil.cpp" line="309"/>
+=======
+      <location filename="../../DrawGuiUtil.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No page found</source>
       <translation>பக்கம் எதுவுமில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DrawGuiUtil.cpp" line="310"/>
+=======
+      <location filename="../../DrawGuiUtil.cpp" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Drawing Pages available.</source>
       <translation>வரைதல் பக்கங்கள் இல்லை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DrawGuiUtil.cpp" line="415"/>
+=======
+      <location filename="../../DrawGuiUtil.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No page selected</source>
       <translation>பக்கம் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DrawGuiUtil.cpp" line="416"/>
+=======
+      <location filename="../../DrawGuiUtil.cpp" line="414"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This function needs a page.</source>
       <translation>இந்தச் செயல்பாட்டிற்கு ஒரு பக்கம் தேவை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="619"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="316"/>
+      <source>PDF (*.pdf)</source>
+      <translation type="unfinished">PDF (*.pdf)</translation>
+    </message>
+    <message>
+      <location filename="../../MDIViewPage.cpp" line="317"/>
+      <location filename="../../MDIViewPage.cpp" line="549"/>
+      <source>All Files (*.*)</source>
+      <translation>அனைத்து கோப்புகளும் (*.*)</translation>
+    </message>
+    <message>
+      <location filename="../../MDIViewPage.cpp" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export Page as PDF</source>
       <translation>பக்கத்தை PDF ஆக ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="538"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="502"/>
+      <location filename="../../MDIViewPage.cpp" line="524"/>
+      <source>All files (*.*)</source>
+      <translation>அனைத்துக் கோப்புகள் (*.*)</translation>
+    </message>
+    <message>
+      <location filename="../../MDIViewPage.cpp" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export page as SVG</source>
       <translation>பக்கத்தை SVG ஆக ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="561"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export page as DXF</source>
       <translation>பக்கத்தை DXF ஆக ஏற்றுமதி செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="602"/>
       <source>Unable to Write File</source>
       <translation type="unfinished">Unable to Write File</translation>
@@ -3825,16 +6003,34 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../ViewProviderTemplate.cpp" line="201"/>
       <location filename="../../ViewProviderProjGroup.cpp" line="160"/>
       <location filename="../../ViewProviderPage.cpp" line="219"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="551"/>
+      <source>Export page as PDF</source>
+      <translation>பக்கத்தை PDF ஆக ஏற்றுமதி செய்யவும்</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderProjGroup.cpp" line="159"/>
+      <location filename="../../ViewProviderTemplate.cpp" line="201"/>
+      <location filename="../../ViewProviderPage.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Are you sure you want to continue?</source>
       <translation>நீங்கள் நிச்சயமாக தொடர விரும்புகிறீர்களா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPage.cpp" line="239"/>
+=======
+      <location filename="../../ViewProviderPage.cpp" line="237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Drawing</source>
       <translation>வரைபடத்தைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPage.cpp" line="241"/>
+=======
+      <location filename="../../ViewProviderPage.cpp" line="239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Keep Updated</source>
       <translation>புதுப்பித்த நிலையில் இருங்கள்</translation>
     </message>
@@ -3849,7 +6045,12 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>தலைமை வரியைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.cpp" line="376"/>
+=======
+      <location filename="../../TaskRichAnno.cpp" line="237"/>
+      <location filename="../../QGIRichAnno.cpp" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rich text editor</source>
       <translation>பணக்கார உரை ஆசிரியர்</translation>
     </message>
@@ -3859,17 +6060,34 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>புதிய ஒப்பனை வெர்டெக்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskActiveView.cpp" line="230"/>
+=======
+      <location filename="../../SymbolChooser.cpp" line="59"/>
+      <source>Select a symbol</source>
+      <translation>ஒரு சின்னத்தைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert Active View</source>
       <translation>செயலில் உள்ள காட்சியைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskActiveView.cpp" line="274"/>
+=======
+      <location filename="../../TaskActiveView.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No 3D Viewer</source>
       <translation>3D பார்வையாளர் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskActiveView.cpp" line="275"/>
+=======
+      <location filename="../../TaskActiveView.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Can not find a 3D viewer</source>
       <translation>3D வியூவரைக் கண்டுபிடிக்க முடியவில்லை</translation>
     </message>
@@ -3899,14 +6117,24 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>சிக்கலான பகுதியைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSectionView.cpp" line="228"/>
       <location filename="../../TaskComplexSection.cpp" line="215"/>
+=======
+      <location filename="../../TaskComplexSection.cpp" line="215"/>
+      <location filename="../../TaskSectionView.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current View Direction</source>
       <translation>தற்போதைய பார்வை திசை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSectionView.cpp" line="229"/>
       <location filename="../../TaskComplexSection.cpp" line="216"/>
+=======
+      <location filename="../../TaskComplexSection.cpp" line="216"/>
+      <location filename="../../TaskSectionView.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The view direction in BaseView coordinates</source>
       <translation>BaseView ஒருங்கிணைப்புகளில் பார்வை திசை</translation>
     </message>
@@ -3921,8 +6149,13 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>SectionNormal, Direction மற்றும்/அல்லது XDirection என்பதைச் சரிபார்க்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSectionView.cpp" line="640"/>
       <location filename="../../TaskComplexSection.cpp" line="716"/>
+=======
+      <location filename="../../TaskComplexSection.cpp" line="714"/>
+      <location filename="../../TaskSectionView.cpp" line="638"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operation Failed</source>
       <translation>ஆபரேசன் தோல்வியடைந்தது</translation>
     </message>
@@ -3958,154 +6191,278 @@ If no object is selected, a file browser opens to select an SVG or image file.</
     </message>
     <message>
       <location filename="../../ViewProviderBalloon.cpp" line="86"/>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDimension.cpp" line="139"/>
+=======
+      <location filename="../../ViewProviderDimension.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit %1</source>
       <translation>திருத்த % 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="110"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Insert Prefix</source>
       <translation>TechDraw செருகு முன்னொட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="144"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="116"/>
+      <source>Repeat count</source>
+      <translation>மீண்டும் எண்ணிக்கை</translation>
+    </message>
+    <message>
+      <location filename="../../CommandExtensionDims.cpp" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert Prefix</source>
       <translation>முன்னொட்டைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="429"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Increase/Decrease Decimal</source>
       <translation>TechDraw தசம அதிகரிப்பு/குறைவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="614"/>
       <location filename="../../CommandExtensionDims.cpp" line="623"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="598"/>
+      <location filename="../../CommandExtensionDims.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw PosHorizChainDimension</source>
       <translation type="unfinished">TechDraw PosHorizChainDimension</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="624"/>
       <location filename="../../CommandExtensionDims.cpp" line="933"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="608"/>
+      <location filename="../../CommandExtensionDims.cpp" line="917"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No horizontal dimensions selected</source>
       <translation>கிடைமட்ட பரிமாணங்கள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="675"/>
       <location filename="../../CommandExtensionDims.cpp" line="684"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="659"/>
+      <location filename="../../CommandExtensionDims.cpp" line="668"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw PosVertChainDimension</source>
       <translation type="unfinished">TechDraw PosVertChainDimension</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="685"/>
       <location filename="../../CommandExtensionDims.cpp" line="999"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="669"/>
+      <location filename="../../CommandExtensionDims.cpp" line="983"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No vertical dimensions selected</source>
       <translation>செங்குத்து பரிமாணங்கள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="737"/>
       <location filename="../../CommandExtensionDims.cpp" line="746"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="721"/>
+      <location filename="../../CommandExtensionDims.cpp" line="730"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw PosObliqueChainDimension</source>
       <translation type="unfinished">TechDraw PosObliqueChainDimension</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="747"/>
       <location filename="../../CommandExtensionDims.cpp" line="1066"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="731"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1050"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No oblique dimensions selected</source>
       <translation>சாய்ந்த பரிமாணங்கள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="923"/>
       <location filename="../../CommandExtensionDims.cpp" line="932"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="907"/>
+      <location filename="../../CommandExtensionDims.cpp" line="916"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw CascadeHorizDimension</source>
       <translation type="unfinished">TechDraw CascadeHorizDimension</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="989"/>
       <location filename="../../CommandExtensionDims.cpp" line="998"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="973"/>
+      <location filename="../../CommandExtensionDims.cpp" line="982"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw CascadeVertDimension</source>
       <translation type="unfinished">TechDraw CascadeVertDimension</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1056"/>
       <location filename="../../CommandExtensionDims.cpp" line="1065"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1040"/>
+      <location filename="../../CommandExtensionDims.cpp" line="1049"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw CascadeObliqueDimension</source>
       <translation type="unfinished">TechDraw CascadeObliqueDimension</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1255"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Horizontal Chain Dimension</source>
       <translation>TechDraw கிடைமட்ட சங்கிலி பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1320"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Vertical Chain Dimension</source>
       <translation>TechDraw செங்குத்து சங்கிலி பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1385"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1369"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Oblique Chain Dimension</source>
       <translation>TechDraw சாய்ந்த சங்கிலி பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1614"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Horizontal Coordinate Dimension</source>
       <translation>TechDraw கிடைமட்ட ஒருங்கிணைப்பு பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1683"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Vertical Coord dimension</source>
       <translation>TechDraw செங்குத்து ஒருங்கிணைப்பு பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2381"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No sub-elements selected</source>
       <translation>துணை உறுப்புகள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="1752"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Oblique Coord Dimension</source>
       <translation>TechDraw சாய்வான ஒருங்கிணைப்பு பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="117"/>
       <source>Prefix Text</source>
       <translation type="unfinished">Prefix Text</translation>
     </message>
     <message>
       <location filename="../../CommandExtensionDims.cpp" line="1983"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="1967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Horizontal Chamfer Dimension</source>
       <translation>TechDraw கிடைமட்ட சேம்பர் பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2049"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2033"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Vertical Chamfer Dimension</source>
       <translation>TechDraw செங்குத்து சேம்பர் பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2224"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Create Arc Length Dimension</source>
       <translation>TechDraw ஆர்க் நீள பரிமாணத்தை உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2272"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="2256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw Customize Format</source>
       <translation>TechDraw Customize வடிவம்</translation>
     </message>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="1022"/>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2345"/>
       <location filename="../../CommandExtensionPack.cpp" line="2146"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="2135"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection is empty</source>
       <translation>தேர்வு காலியாக உள்ளது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="2361"/>
       <location filename="../../CommandExtensionPack.cpp" line="2153"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="2142"/>
+      <location filename="../../CommandExtensionDims.cpp" line="2345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No object selected</source>
       <translation>பொருள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="128"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fewer than three circles selected</source>
       <translation>மூன்றுக்கும் குறைவான வட்டங்கள் தேர்ந்தெடுக்கப்பட்டன</translation>
     </message>
@@ -4140,12 +6497,20 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>%1 வரி அகலத்தை வரையறுக்கிறது: மெல்லிய: %2 வரைகலை: %3 தடிமன்:%4</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHatch.cpp" line="95"/>
+=======
+      <location filename="../../TaskHatch.cpp" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Face Hatch</source>
       <translation>ஃபேச் அட்ச் உருவாக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHatch.cpp" line="107"/>
+=======
+      <location filename="../../TaskHatch.cpp" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Face Hatch</source>
       <translation>Face Hatch ஐ திருத்து</translation>
     </message>
@@ -4232,7 +6597,11 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>அளவுரு பிழை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PagePrinter.cpp" line="279"/>
+=======
+      <location filename="../../PagePrinter.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document Name:</source>
       <translation>ஆவணத்தின் பெயர்:</translation>
     </message>
@@ -4267,16 +6636,25 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <translation>சென்டர்லைனைத் திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.cpp" line="117"/>
+=======
+      <location filename="../../TaskRichAnno.cpp" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rich Text Editor</source>
       <translation>பணக்கார உரை ஆசிரியர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.cpp" line="156"/>
+=======
+      <location filename="../../TaskRichAnno.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rich Text Creator</source>
       <translation>வளமான உரையை உருவாக்கியவர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.cpp" line="374"/>
       <source>Rich text creator</source>
       <translation type="unfinished">Rich text creator</translation>
@@ -4295,6 +6673,11 @@ If no object is selected, a file browser opens to select an SVG or image file.</
       <location filename="../../SymbolChooser.cpp" line="59"/>
       <source>Select a Symbol</source>
       <translation type="unfinished">Select a Symbol</translation>
+=======
+      <location filename="../../TemplateTextField.cpp" line="54"/>
+      <source>Click to update text</source>
+      <translation>உரையைப் புதுப்பிக்க சொடுக்கு செய்யவும்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4307,16 +6690,25 @@ it has a weld symbol that would become broken.</source>
 அது உடைந்து போகும் ஒரு வெல்ட் அடையாளம் உள்ளது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderViewPart.cpp" line="392"/>
+=======
+      <location filename="../../ViewProviderViewPart.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close open dialog before deleting detail object</source>
       <translation>விவரமான பொருளை நீக்கும் முன் திறந்த உரையாடலை மூடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderViewPart.cpp" line="407"/>
+=======
+      <location filename="../../ViewProviderViewPart.cpp" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You cannot delete this view because it has one or more dependent views that would become broken.</source>
       <translation>இந்தக் காட்சியை நீக்க முடியாது, ஏனெனில் அதில் ஒன்று அல்லது அதற்கு மேற்பட்ட சார்பு பார்வைகள் உடைந்து போகும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderTemplate.cpp" line="205"/>
       <location filename="../../ViewProviderWeld.cpp" line="143"/>
       <location filename="../../ViewProviderProjGroup.cpp" line="146"/>
@@ -4329,45 +6721,87 @@ it has a weld symbol that would become broken.</source>
       <location filename="../../ViewProviderProjGroupItem.cpp" line="174"/>
       <location filename="../../ViewProviderProjGroupItem.cpp" line="182"/>
       <location filename="../../ViewProviderProjGroupItem.cpp" line="190"/>
+=======
+      <location filename="../../ViewProviderProjGroup.cpp" line="145"/>
+      <location filename="../../ViewProviderProjGroup.cpp" line="162"/>
+      <location filename="../../ViewProviderWeld.cpp" line="143"/>
+      <location filename="../../ViewProviderLeader.cpp" line="212"/>
+      <location filename="../../ViewProviderTemplate.cpp" line="205"/>
+      <location filename="../../ViewProviderViewPart.cpp" line="382"/>
+      <location filename="../../ViewProviderViewPart.cpp" line="397"/>
+      <location filename="../../ViewProviderPage.cpp" line="220"/>
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="154"/>
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="163"/>
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="171"/>
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object dependencies</source>
       <translation>பொருள் சார்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjGroupItem.cpp" line="162"/>
+=======
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You cannot delete the anchor view of a projection group.</source>
       <translation>ப்ரொசெக்சன் குழுவின் ஆங்கர் காட்சியை நீங்கள் நீக்க முடியாது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjGroupItem.cpp" line="171"/>
+=======
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="160"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You cannot delete this view because it has a section view that would become broken.</source>
       <translation>இந்த காட்சியை நீங்கள் நீக்க முடியாது, ஏனெனில் இது ஒரு பகுதி பார்வையை உடைத்துவிடும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjGroupItem.cpp" line="179"/>
+=======
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You cannot delete this view because it has a detail view that would become broken.</source>
       <translation>இந்த காட்சியை நீங்கள் நீக்க முடியாது, ஏனெனில் இது ஒரு விரிவான பார்வையை உடையது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjGroupItem.cpp" line="187"/>
+=======
+      <location filename="../../ViewProviderProjGroupItem.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You cannot delete this view because it has a leader line that would become broken.</source>
       <translation>இந்தக் காட்சியை நீங்கள் நீக்க முடியாது, ஏனெனில் அதில் ஒரு லீடர் கோடு உடைந்து போகும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPage.cpp" line="211"/>
+=======
+      <location filename="../../ViewProviderPage.cpp" line="209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The page is not empty, therefore the
 following referencing objects might be lost:</source>
       <translation>பக்கம் காலியாக இல்லை, எனவே தி 
 பின்வரும் குறிப்பு பொருள்கள் இழக்கப்படலாம்:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjGroup.cpp" line="139"/>
+=======
+      <location filename="../../ViewProviderProjGroup.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group cannot be deleted because its items have the following
 section or detail views, or leader lines that would get broken:</source>
       <translation>குழுவை நீக்க முடியாது, ஏனெனில் அதன் உருப்படிகள் பின்வருவனவற்றைக் கொண்டுள்ளன 
 பிரிவு அல்லது விவரக் காட்சிகள் அல்லது லீடர் கோடுகள் உடைந்து போகும்:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderProjGroup.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderProjGroup.cpp" line="153"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The projection group is not empty, therefore
 the following referencing objects might be lost:</source>
       <translation>எனவே, திட்டக் குழு காலியாக இல்லை 
@@ -4389,6 +6823,7 @@ it has a tile weld that would become broken.</source>
   <context>
     <name>TaskActiveView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskActiveView.ui" line="14"/>
       <source>Form</source>
       <translation>படிவம்</translation>
@@ -4405,10 +6840,29 @@ it has a tile weld that would become broken.</source>
     </message>
     <message>
       <location filename="../../TaskActiveView.ui" line="70"/>
+=======
+      <location filename="../../TaskActiveView.ui" line="26"/>
+      <source>Active View</source>
+      <translation>செயலில் காட்சி</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="44"/>
+      <source>Crops captured image to this width</source>
+      <translation>இந்த அகலத்திற்குப் படம் பிடிக்கப்பட்டது</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="73"/>
+      <source>Select a color for solid background</source>
+      <translation>திடமான பின்னணிக்கு வண்ணத்தைத் தேர்ந்தெடுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Crop to height</source>
       <translation>உயரத்திற்கு பயிர் செய்யுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskActiveView.ui" line="89"/>
       <source>Crops the captured image to this width</source>
       <translation type="unfinished">Crops the captured image to this width</translation>
@@ -4454,6 +6908,42 @@ it has a tile weld that would become broken.</source>
       <source>Crop to width</source>
       <translation>அகலத்திற்கு செதுக்கவும்</translation>
     </message>
+=======
+      <location filename="../../TaskActiveView.ui" line="100"/>
+      <source>Use 3D background</source>
+      <translation>3D பின்னணியைப் பயன்படுத்தவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="116"/>
+      <source>Crops captured image to this height</source>
+      <translation>இந்த உயரத்திற்கு பயிர்கள் படம் பிடித்தன</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="139"/>
+      <source>Solid background</source>
+      <translation>உறுதியான பின்னணி</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="149"/>
+      <source>No background</source>
+      <translation>பின்னணி இல்லை</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="162"/>
+      <source>Crop to width</source>
+      <translation>அகலத்திற்கு செதுக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="169"/>
+      <source>Crop image</source>
+      <translation>படத்தை செதுக்கு</translation>
+    </message>
+    <message>
+      <location filename="../../TaskActiveView.ui" line="136"/>
+      <source>Paint background yes/no</source>
+      <translation>பெயிண்ட் பின்னணி ஆம்/இல்லை</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>TaskMoveView</name>
@@ -4662,32 +7152,56 @@ This directory will be used for the symbol selection.</source>
       <translation>பிழைத்திருத்த பிரிவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="80"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge fuzz</source>
       <translation>எட்ச் ஃபச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="87"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, FreeCAD will use the new face finder algorithm. If not checked, FreeCAD will use the legacy face finder algorithm.</source>
       <translation>சரிபார்க்கப்பட்டால், FreeCAD புதிய முகம் கண்டுபிடிப்பான் அல்காரிதத்தைப் பயன்படுத்தும். சரிபார்க்கப்படாவிட்டால், FreeCAD மரபு முகம் கண்டுபிடிப்பான் அல்காரிதத்தைப் பயன்படுத்தும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="90"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use new face finder algorithm</source>
       <translation>புதிய முகம் கண்டுபிடிப்பான் அல்காரிதத்தைப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="112"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dump intermediate results during detail view processing</source>
       <translation>விரிவான பார்வை செயலாக்கத்தின் போது இடைநிலை முடிவுகளை டம்ப் செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="115"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Debug detail</source>
       <translation>பிழைத்திருத்த விவரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="134"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, TechDraw will attempt to build faces using the
 line segments returned by the hidden line removal algorithm.
 Faces must be detected in order to use hatching, but there
@@ -4698,84 +7212,148 @@ can be a performance penalty in complex models.</source>
 சிக்கலான மாதிரிகளில் செயல்திறன் அபராதமாக இருக்கலாம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="140"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Detect faces</source>
       <translation>முகங்களைக் கண்டறியவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="182"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Validate shapes</source>
       <translation>வடிவங்களை சரிபார்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="204"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Allow crazy edges</source>
       <translation>பைத்தியம் விளிம்புகளை அனுமதிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="217"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Issue progress messages while building view geometry</source>
       <translation>காட்சி வடிவவியலை உருவாக்கும்போது முன்னேற்றச் செய்திகளை வெளியிடவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="220"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Report progress</source>
       <translation>முன்னேற்றத்தைப் புகாரளிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="233"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of times FreeCAD should try to remove overlapping edges returned by the hidden line removal algorithm. A value of 0 indicates no scrubbing, 1 indicates a single pass and 2 indicates a second pass should be performed. Values above 2 are generally not productive. Each pass adds to the time required to produce the drawing.</source>
       <translation>மறைக்கப்பட்ட வரி அகற்றும் வழிமுறையால் திரும்பப்பெறும் விளிம்புகளை அகற்ற FreeCAD எத்தனை முறை முயற்சிக்க வேண்டும். 0 இன் மதிப்பு ச்க்ரப்பிங் இல்லை என்பதைக் குறிக்கிறது, 1 ஒற்றை பாச் என்பதைக் குறிக்கிறது மற்றும் 2 இரண்டாவது பாச் செய்யப்பட வேண்டும் என்பதைக் குறிக்கிறது. 2க்கு மேல் உள்ள மதிப்புகள் பொதுவாக விளைவாக்கம் செய்யாது. ஒவ்வொரு பாசும் வரைபடத்தை உருவாக்க தேவையான நேரத்தை சேர்க்கிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="263"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overlap edges scrub passes</source>
       <translation>ஓவர்லேப் எட்ச்ச் ச்க்ரப் பாச்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="275"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mark fuzz</source>
       <translation>மார்க் ஃபச்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="311"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Max SVG hatch tiles</source>
       <translation>அதிகபட்ச SVG அட்ச் ஓடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="321"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Debug bad shape</source>
       <translation>தவறான வடிவத்தை பிழைத்திருத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="345"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Perform a fuse operation on input shapes before section view processing</source>
       <translation>பகுதி காட்சி செயலாக்கத்திற்கு முன் உள்ளீட்டு வடிவங்களில் உருகி செயல்பாட்டைச் செய்யவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="348"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fuse before section</source>
       <translation>பிரிவுக்கு முன் உருகி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="421"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Size of selection area around edges
 Each unit is approximately 0.1mm wide</source>
       <translation>விளிம்புகளைச் சுற்றியுள்ள தேர்வுப் பகுதியின் அளவு 
 ஒவ்வொரு அலகும் தோராயமாக 0.1மிமீ அகலம் கொண்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="453"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show section edges</source>
       <translation>பிரிவு விளிம்புகளைக் காட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="469"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum PAT hatch segments</source>
       <translation>அதிகபட்ச PAT அட்ச் பிரிவுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="476"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Limits the number of 64×64 pixel SVG tiles used to hatch a single face.
 For large scales, errors may occur due to excessive tiling.
 Increase the limit if necessary.</source>
@@ -4784,22 +7362,38 @@ Increase the limit if necessary.</source>
 தேவைப்பட்டால் வரம்பை அதிகரிக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="511"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose non-conflicting key bindings as some combinations of OS and navigation style key bindings may conflict with the default modifier keys for balloon dragging and view snapping override.</source>
       <translation>OS மற்றும் வழிசெலுத்தல் பாணி விசை பிணைப்புகள் சில சேர்க்கைகள் பலூன் இழுத்தல் மற்றும் ச்னாப்பிங் மேலெழுதுவதற்கான இயல்புநிலை மாற்றி விசைகளுடன் முரண்படலாம் என்பதால் முரண்பாடற்ற விசை பிணைப்புகளைத் தேர்வு செய்யவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="525"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="515"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use default</source>
       <translation>இயல்புநிலையைப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="542"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="532"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Balloon drag</source>
       <translation>பலூன் இழுத்தல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="450"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Highlights border of section cut in section views</source>
       <translation>பிரிவு காட்சிகளில் வெட்டப்பட்ட பிரிவின் எல்லையை முன்னிலைப்படுத்துகிறது</translation>
     </message>
@@ -4809,98 +7403,170 @@ Increase the limit if necessary.</source>
       <translation>இந்த பெட்டியை தேர்வு செய்தால், மரத்தில் உள்ள ஒரு பக்கத்தில் இருமுறை சொடுக்கு செய்தால் தானாகவே TechDraw க்கு மாறி பக்கம் தெரியும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="156"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, the system will attempt to automatically correct dimension references when the model changes.</source>
       <translation>சரிபார்க்கப்பட்டால், மாதிரி மாறும்போது, ​​கணினி தானாகவே பரிமாணக் குறிப்புகளைச் சரிசெய்ய முயற்சிக்கும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="162"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto-correct dimension references</source>
       <translation>தானியங்கு-சரியான பரிமாண குறிப்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="178"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, input shapes will be checked for errors before use and invalid shapes will be skipped by the shape extractor. Checking for errors is slower, but can prevent crashes from some geometry problems.
 </source>
       <translation>சரிபார்த்தால், உள்ளீட்டு வடிவங்கள் பயன்பாட்டிற்கு முன் பிழைகள் சரிபார்க்கப்படும் மற்றும் தவறான வடிவங்கள் வடிவ பிரித்தெடுத்தல் மூலம் தவிர்க்கப்படும். பிழைகளைச் சரிபார்ப்பது மெதுவாக இருக்கும், ஆனால் சில வடிவியல் சிக்கல்களில் இருந்து விபத்துகளைத் தடுக்கலாம்.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="201"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Include edges with unexpected geometry (zero length etc.) in results</source>
       <translation>முடிவுகளில் எதிர்பாராத வடிவவியலுடன் (பூச்சிய நீளம் போன்றவை) விளிம்புகளைச் சேர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="318"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, shapes that fail validation will be saved as BREP files for later analysis.</source>
       <translation>சரிபார்க்கப்பட்டால், சரிபார்ப்பில் தோல்வியுற்ற வடிவங்கள் பின்னர் பகுப்பாய்வுக்காக BREP கோப்புகளாகச் சேமிக்கப்படும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="522"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="512"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check this box to use the default modifier keys. Uncheck this box to set a different key combination.</source>
       <translation>இயல்புநிலை மாற்றி விசைகளைப் பயன்படுத்த இந்தப் பெட்டியைச் சரிபார்க்கவும். வேறு விசை கலவையை அமைக்க இந்தப் பெட்டியைத் தேர்வுநீக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="373"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection area around center marks
 Each unit is approx. 0.1 mm wide</source>
       <translation>மையக் குறிகளைச் சுற்றியுள்ள பகுதிகளைத் தேர்ந்தெடுக்கவும் 
 ஒவ்வொரு அலகு சுமார். 0.1 மிமீ அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="282"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum hatch line segments to use
 when hatching a face with a PAT pattern</source>
       <translation>பயன்படுத்த வேண்டிய அதிகபட்ச அட்ச் லைன் பிரிவுகள் 
 PAT வடிவத்துடன் முகத்தை குஞ்சு பொரிக்கும் போது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="514"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Behaviour Overrides</source>
       <translation>நடத்தை மீறுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="549"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="539"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check this box to include the Alt key in the modifiers.</source>
       <translation>மாற்றியமைப்பாளர்களில் மாற்று விசையைச் சேர்க்க இந்தப் பெட்டியைத் தேர்வு செய்யவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="552"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="542"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Alt</source>
       <translation>மாற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="559"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check this box to include the Shift key in the modifiers.</source>
       <translation>மாற்றியமைப்பாளர்களில் உயர்த்து விசையைச் சேர்க்க இந்தப் பெட்டியைச் சரிபார்க்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="562"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="552"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shift</source>
       <translation>உயர்த்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="569"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check this box to include the Meta/Start/Super key in the modifiers.</source>
       <translation>மாற்றியமைப்பாளர்களில் மெட்டா/ச்டார்ட்/சூப்பர் விசையைச் சேர்க்க இந்தப் பெட்டியைச் சரிபார்க்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="572"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Meta</source>
       <translation>மெட்டா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="579"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="569"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check this box to include the Control key in the modifiers.</source>
       <translation>மாற்றியமைப்பாளர்களில் கட்டுப்பாட்டு விசையைச் சேர்க்க இந்தப் பெட்டியைத் தேர்வு செய்யவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="582"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Control</source>
       <translation>கட்டுப்பாடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="600"/>
+=======
+      <location filename="../../DlgPrefsTechDrawAdvanced.ui" line="590"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; Items in &lt;span style=&quot; font-style:italic;&quot;&gt;italics&lt;/span&gt; are default values for new objects. They have no effect on existing objects.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;குறிப்பு:&lt;/span&gt; &lt;span style=&quot;font-style:italic;&quot;&gt;சாய்வுகளில்&lt;/span&gt; உருப்படிகள் புதிய பொருள்களுக்கான இயல்புநிலை மதிப்புகள். அவை ஏற்கனவே உள்ள பொருட்களில் எந்த விளைவையும் ஏற்படுத்தாது.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -5438,7 +8104,11 @@ for using drawings as a 1:1 cutting guide.
       <translation>ஐஎச்ஓ பரிமாணங்களுக்கான பரிமாணக் கோடு மற்றும் பரிமாண உரைக்கு இடையே உள்ள இடைவெளி அளவைக் கட்டுப்படுத்துகிறது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="545"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensions.ui" line="542"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tools</source>
       <translation>கருவிகள்</translation>
     </message>
@@ -5603,12 +8273,20 @@ Multiplier of &apos;Font size&apos;</source>
 வரி அகலத்தால் பெருக்கப்படும் மதிப்பு வரி இடைவெளி.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="551"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensions.ui" line="548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimensioning tools</source>
       <translation>பரிமாண கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="558"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensions.ui" line="555"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose the type of dimensioning tools shown in the toolbar:
 ‘Single tool’ provides one unified tool for all dimension types (Distance, X/Y, Angle, Radius) with others in a drop-down.
 ‘Separated tools’ displays individual tools for each dimension type.
@@ -5621,12 +8299,20 @@ This affects only the toolbar; all tools remain available via the menu and short
 இது கருவிப்பட்டியை மட்டுமே பாதிக்கிறது; அனைத்தும் கருவிகள் remain available வழிமம் the பட்டியல் and shortcuts.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="569"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensions.ui" line="566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension tool diameter/radius mode</source>
       <translation>பரிமாண கருவி விட்டம்/ஆரம் பயன்முறை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="576"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensions.ui" line="573"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>While using the dimension tool you may choose how to handle circles and arcs:
 &apos;Auto&apos;: The tool will apply radius to arcs and diameter to circles.
 &apos;Diameter&apos;: The tool will apply diameter to all.
@@ -5637,6 +8323,7 @@ This affects only the toolbar; all tools remain available via the menu and short
  &apos;ஆரம்&apos;: கருவி அனைத்துக்கும் ஆரம் பொருந்தும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="595"/>
       <source>Snapping</source>
       <translation>ச்னாப்பிங்</translation>
@@ -5678,36 +8365,63 @@ This affects only the toolbar; all tools remain available via the menu and short
     </message>
     <message>
       <location filename="../../DlgPrefsTechDrawDimensions.ui" line="529"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensions.ui" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; Items in &lt;span style=&quot; font-style:italic;&quot;&gt;italics&lt;/span&gt; are default values for new objects. They have no effect on existing objects.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;குறிப்பு:&lt;/span&gt; &lt;span style=&quot;font-style:italic;&quot;&gt;சாய்வுகளில்&lt;/span&gt; உருப்படிகள் புதிய பொருள்களுக்கான இயல்புநிலை மதிப்புகள். அவை ஏற்கனவே உள்ள பொருட்களில் எந்த விளைவையும் ஏற்படுத்தாது.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="164"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Single tool</source>
       <translation>ஒற்றை கருவி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="165"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Separated tools</source>
       <translation>பிரிக்கப்பட்ட கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="166"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Both</source>
       <translation>இரண்டும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="184"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto</source>
       <translation>தானியங்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="185"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter</source>
       <translation>விட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="186"/>
+=======
+      <location filename="../../DlgPrefsTechDrawDimensionsImp.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>ஆரம்</translation>
     </message>
@@ -5949,17 +8663,59 @@ Changes have இல்லை விளைவு on existing dimensions.</transla
       <translation>3D கேமரா திசையைப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="936"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="853"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Control when the view boundary frames and labels are displayed.&lt;/p&gt;&lt;p&gt;Auto: Show on hover, On: Always show, Off: Never show.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Control when the view boundary frames and labels are displayed.&lt;/p&gt;&lt;p&gt;Auto: Show on hover, On: Always show, Off: Never show.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="863"/>
+      <source>Auto</source>
+      <translation>தானியங்கு</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="868"/>
+      <source>On</source>
+      <translation>அன்று</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="873"/>
+      <source>Off</source>
+      <translation>அணை</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="878"/>
+      <source>Manual</source>
+      <translation type="unfinished">Manual</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="886"/>
+      <source>View frames mode</source>
+      <translation type="unfinished">View frames mode</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="910"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Snaps views into alignment when being dragged</source>
       <translation>இழுக்கப்படும் போது காட்சிகளை சீரமைக்கும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="939"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Snap view alignment</source>
       <translation>ச்னாப் காட்சி சீரமைப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="958"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="932"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Snap detail highlights</source>
       <translation>ச்னாப் விவரம் சிறப்பம்சங்கள்</translation>
     </message>
@@ -6004,21 +8760,39 @@ Changes have இல்லை விளைவு on existing dimensions.</transla
       <translation>ச்னாப்பிங்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="955"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="929"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check this box if you want detail view highlights to snap to the nearest vertex when dragging.</source>
       <translation>இழுக்கும் போது அருகிலுள்ள உச்சிக்கு விவரக் காட்சி சிறப்பம்சங்கள் ச்னாப் செய்யப்பட வேண்டுமெனில் இந்தப் பெட்டியைத் தேர்வு செய்யவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="974"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="948"/>
+      <source>When dragging a view, if it is within this fraction of view size of the correct alignment, it will snap into alignment.</source>
+      <translation>ஒரு காட்சியை இழுக்கும்போது, ​​அது சரியான சீரமைப்பின் இந்தப் பகுதியின் பார்வை அளவுக்குள் இருந்தால், அது சீரமைக்கப்படும்.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="980"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View snapping factor</source>
       <translation>ச்னாப்பிங் காரணியைக் காண்க</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="929"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="987"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Highlight snapping factor</source>
       <translation>ச்னாப்பிங் காரணியை முன்னிலைப்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="853"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Control when the view boundary frames and labels are displayed.&lt;/p&gt;&lt;p&gt;Auto: Show on hover, On: Always show, Off: Never show.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Control when the view boundary frames and labels are displayed.&lt;/p&gt;&lt;p&gt;Auto: Show on hover, On: Always show, Off: Never show.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -6055,16 +8829,23 @@ Changes have இல்லை விளைவு on existing dimensions.</transla
     </message>
     <message>
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="981"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="994"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Controls the snap radius for highlights. Vertex must be within this factor times the highlight size to be a snap target.</source>
       <translation>Controls the snap ஆரம் க்கு highlights. ஒரு ச்னாப் டார்கெட்டாக இருக்க, உச்சம் காட்டும் அளவு இந்த காரணி மடங்குக்குள் இருக்க வேண்டும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="1035"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: Snapping settings for dimensions are on the dimensions tab.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: Snapping settings for dimensions are on the dimensions tab.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
       <location filename="../../DlgPrefsTechDrawGeneral.ui" line="1071"/>
+=======
+      <location filename="../../DlgPrefsTechDrawGeneral.ui" line="1042"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Note:&lt;/span&gt; Items in &lt;span style=&quot; font-style:italic;&quot;&gt;italics&lt;/span&gt; are default values for new objects. They have no effect on existing objects.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;குறிப்பு:&lt;/span&gt; &lt;span style=&quot;font-style:italic;&quot;&gt;சாய்வுகளில்&lt;/span&gt; உருப்படிகள் புதிய பொருள்களுக்கான இயல்புநிலை மதிப்புகள். அவை ஏற்கனவே உள்ள பொருட்களில் எந்த விளைவையும் ஏற்படுத்தாது.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -6300,65 +9081,109 @@ Fast, but result is a collection of short straight lines.</source>
   <context>
     <name>TechDrawGui::MDIViewPage</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="92"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Keep Updated</source>
       <translation>நிலைமாற்றி &amp; புதுப்பித்த நிலையில் வைத்திருங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="95"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Frames</source>
       <translation type="unfinished">Toggle &amp;Frames</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="98"/>
       <source>Toggle &amp;Grid</source>
       <translation type="unfinished">Toggle &amp;Grid</translation>
     </message>
     <message>
       <location filename="../../MDIViewPage.cpp" line="101"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Export SVG</source>
       <translation>&amp;ஏற்றுமதி SVG</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="105"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export DXF</source>
       <translation>ஏற்றுமதி DXF</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="109"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export PDF</source>
       <translation>PDFஐ ஏற்றுமதி செய்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="113"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print All Pages</source>
       <translation>அனைத்து பக்கங்களையும் அச்சிடுக</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="428"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Different orientation</source>
       <translation>வேறு திசை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="429"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The printer uses a different orientation than the drawing.
 Do you want to continue?</source>
       <translation>அச்சுப்பொறி வரைபடத்தை விட வேறுபட்ட நோக்குநிலையைப் பயன்படுத்துகிறது. 
 தொடர வேண்டுமா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="438"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Different paper size</source>
       <translation>வேறு பக்க அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="439"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The printer uses a different paper size than the drawing.
 Do you want to continue?</source>
       <translation>அச்சுப்பொறி, வரைதல் விட வேறு காகித அளவு பயன்படுத்துகிறது. தொடர விரும்புகிறீர்களா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MDIViewPage.cpp" line="1161"/>
+=======
+      <location filename="../../MDIViewPage.cpp" line="1094"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected:</source>
       <translation>தேர்ந்தெடுக்கப்பட்டது:</translation>
     </message>
@@ -6394,106 +9219,208 @@ Do you want to continue?</source>
       <translation>பலூன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="20"/>
       <source>Annotation</source>
       <translation>சிறுகுறிப்பு</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="36"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="29"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Text to be displayed</source>
       <translation>உரை காட்டப்பட வேண்டும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="50"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color for text</source>
       <translation>உரைக்கான வண்ணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="64"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="57"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Font size</source>
       <translation>எழுத்துரு அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="83"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Font size for text</source>
       <translation>உரைக்கான எழுத்துரு அளவு</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="102"/>
+<<<<<<< HEAD
       <source>Bubble Appearance</source>
       <translation type="unfinished">Bubble Appearance</translation>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="118"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape of the balloon bubble</source>
       <translation>பலூன் குமிழியின் வடிவம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="122"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circular</source>
       <translation>சுற்றறிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="131"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>எதுவுமில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="140"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Triangle</source>
       <translation>முக்கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="149"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inspection</source>
       <translation>ஆய்வு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="158"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hexagon</source>
       <translation>அறுகோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="167"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Square</source>
       <translation>நாற்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="176"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="160"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rectangle</source>
       <translation>செவ்வகம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="185"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line</source>
       <translation>வரி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="197"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape scale</source>
       <translation>வடிவ அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="210"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="213"/>
+      <source>End symbol</source>
+      <translation>முடிவு அடையாளம்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="227"/>
+      <source>End symbol scale</source>
+      <translation>முடிவு சின்ன அளவு</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="259"/>
+      <source>Line visible</source>
+      <translation>கோடு தெரியும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="266"/>
+      <source>Controls whether the leader line is visible or not</source>
+      <translation>லீடர் லைன் தெரிகிறதா இல்லையா என்பதைக் கட்டுப்படுத்துகிறது</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="286"/>
+      <source>Line width</source>
+      <translation>வரி அகலம்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="324"/>
+      <source>Leader kink length</source>
+      <translation>தலைவர் கின்க் நீளம்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bubble shape scale factor</source>
       <translation>குமிழி வடிவ அளவு காரணி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="29"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="22"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Text</source>
       <translation>உரை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="43"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="36"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Text color</source>
       <translation>உரை நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="111"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bubble shape</source>
       <translation>குமிழி வடிவம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="229"/>
       <source>Leader Line</source>
       <translation>லீடர் லைன்</translation>
@@ -6510,20 +9437,42 @@ Do you want to continue?</source>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="305"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End symbol for the balloon line</source>
       <translation>பலூன் கோட்டின் முடிவு அடையாளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="247"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End symbol scale factor</source>
       <translation>முடிவு சின்ன அளவு காரணி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="275"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="273"/>
+      <source>False</source>
+      <translation>பொய்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="278"/>
+      <source>True</source>
+      <translation>உண்மை</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBalloon.ui" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Leader line width</source>
       <translation>தலைவர் வரி அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBalloon.ui" line="312"/>
       <source>Symbol scale</source>
       <translation type="unfinished">Symbol scale</translation>
@@ -6535,6 +9484,9 @@ Do you want to continue?</source>
     </message>
     <message>
       <location filename="../../TaskBalloon.ui" line="338"/>
+=======
+      <location filename="../../TaskBalloon.ui" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length of balloon leader line kink</source>
       <translation>பலூன் லீடர் கோட்டின் நீளம்</translation>
     </message>
@@ -6542,37 +9494,75 @@ Do you want to continue?</source>
   <context>
     <name>TechDrawGui::TaskCenterLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="55"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Elements</source>
       <translation>கூறுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="89"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orientation</source>
       <translation>நோக்குநிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="98"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical</source>
       <translation>செங்குத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="117"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal</source>
       <translation>கிடைமட்ட</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="137"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligned</source>
       <translation>சீரமைக்கப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="207"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="261"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate</source>
       <translation>சுழற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="275"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="274"/>
+      <source>Rotate line +CCW or -CW</source>
+      <translation>வரியை சுழற்று +CCW அல்லது -CW</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCenterLine.ui" line="303"/>
+      <source>Make the line a little longer.</source>
+      <translation>வரியை சிறிது நீளமாக்குங்கள்.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCenterLine.ui" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color</source>
       <translation>வண்ணம்</translation>
     </message>
@@ -6582,27 +9572,43 @@ Do you want to continue?</source>
       <translation>மையக்கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="32"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="29"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base view</source>
       <translation>அடிப்படை பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="77"/>
       <source>The centerline is positioned at the center of the combined bounding box of the selected elements</source>
       <translation type="unfinished">The centerline is positioned at the center of the combined bounding box of the selected elements</translation>
     </message>
     <message>
       <location filename="../../TaskCenterLine.ui" line="95"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top to bottom line</source>
       <translation>மேலிருந்து கீழ் வரி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="114"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Left to right line</source>
       <translation>இடமிருந்து வலது கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="130"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
          Centerline between:
          - Lines: equidistant from both lines and at half the angle between them
@@ -6614,6 +9620,7 @@ Do you want to continue?</source>
 - புள்ளிகள்: இரண்டு புள்ளிகளிலிருந்தும் சம தூரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="150"/>
       <source>Position</source>
       <translation type="unfinished">Position</translation>
@@ -6645,26 +9652,55 @@ Do you want to continue?</source>
     </message>
     <message>
       <location filename="../../TaskCenterLine.ui" line="303"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Weight</source>
       <translation>எடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="310"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Style</source>
       <translation>நடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="161"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shift horizontal</source>
       <translation>கிடைமட்டமாக மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="200"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="222"/>
+      <source>Move line +up or -down</source>
+      <translation>வரி +மேலே அல்லது -கீழே நகர்த்தவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCenterLine.ui" line="241"/>
+      <source>Move line -left or +right</source>
+      <translation>வரியை நகர்த்தவும் -இடது அல்லது +வலது</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCenterLine.ui" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shift vertical</source>
       <translation>செங்குத்தாக மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCenterLine.ui" line="233"/>
+=======
+      <location filename="../../TaskCenterLine.ui" line="290"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extend by</source>
       <translation>மூலம் நீட்டவும்</translation>
     </message>
@@ -6825,12 +9861,20 @@ Do you want to continue?</source>
     </message>
     <message>
       <location filename="../../TaskComplexSection.cpp" line="555"/>
+<<<<<<< HEAD
       <location filename="../../TaskComplexSection.cpp" line="704"/>
+=======
+      <location filename="../../TaskComplexSection.cpp" line="702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>ComplexSection</source>
       <translation>சிக்கலான பிரிவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskComplexSection.cpp" line="715"/>
+=======
+      <location filename="../../TaskComplexSection.cpp" line="713"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Can not continue. Object * %1 or %2 not found.</source>
       <translation>தொடர முடியாது. பொருள் *% 1 அல்லது% 2 காணப்படவில்லை.</translation>
     </message>
@@ -6843,11 +9887,16 @@ Do you want to continue?</source>
       <translation>ஒப்பனை வெர்டெக்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCosVertex.ui" line="29"/>
+=======
+      <location filename="../../TaskCosVertex.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base view</source>
       <translation>அடிப்படை பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCosVertex.ui" line="85"/>
       <location filename="../../TaskCosVertex.cpp" line="111"/>
       <location filename="../../TaskCosVertex.cpp" line="156"/>
@@ -6857,23 +9906,50 @@ Do you want to continue?</source>
     </message>
     <message>
       <location filename="../../TaskCosVertex.ui" line="114"/>
+=======
+      <location filename="../../TaskCosVertex.ui" line="66"/>
+      <location filename="../../TaskCosVertex.cpp" line="111"/>
+      <source>Point Picker</source>
+      <translation>பாயிண்ட் பிக்கர்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCosVertex.ui" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position from the view center</source>
       <translation>பார்வை மையத்தில் இருந்து நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCosVertex.ui" line="117"/>
+=======
+      <location filename="../../TaskCosVertex.ui" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position</source>
       <translation>பதவி</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../TaskCosVertex.cpp" line="156"/>
+      <location filename="../../TaskCosVertex.cpp" line="248"/>
+      <source>Pick points</source>
+      <translation>புள்ளிகளைத் தேர்ந்தெடுங்கள்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskCosVertex.cpp" line="170"/>
       <source>Pick a point for cosmetic vertex</source>
       <translation>ஒப்பனை உச்சிக்கு ஒரு புள்ளியைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
       <location filename="../../TaskCosVertex.cpp" line="173"/>
+<<<<<<< HEAD
       <source>Escape Picking</source>
       <translation type="unfinished">Escape Picking</translation>
+=======
+      <source>Escape picking</source>
+      <translation>எச்கேப் பிக்கிங்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskCosVertex.cpp" line="201"/>
@@ -7237,62 +10313,112 @@ Do you want to continue?</source>
       <translation>விவரம் ஆங்கர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="184"/>
+=======
+      <location filename="../../TaskDetail.ui" line="32"/>
+      <source>Base View</source>
+      <translation>அடிப்படைக் காட்சி</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDetail.ui" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskDetail.cpp" line="252"/>
       <source>Drag Highlight</source>
       <translation>ஐலைட்டை இழுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="230"/>
+=======
+      <location filename="../../TaskDetail.ui" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>ஆரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="42"/>
+=======
+      <location filename="../../TaskDetail.ui" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Detail view</source>
       <translation>விரிவான பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="181"/>
+=======
+      <location filename="../../TaskDetail.ui" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables dragging of the detail highlight to a new position</source>
       <translation>விவரங்களின் சிறப்பம்சத்தை புதிய நிலைக்கு இழுப்பதை இயக்குகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="237"/>
+=======
+      <location filename="../../TaskDetail.ui" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale type</source>
       <translation>அளவுகோல் வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="79"/>
+=======
+      <location filename="../../TaskDetail.ui" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reference label</source>
       <translation>குறிப்பு சிட்டை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="253"/>
+=======
+      <location filename="../../TaskDetail.ui" line="140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale factor for detail view</source>
       <translation>விரிவான பார்வைக்கான அளவுகோல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="150"/>
+=======
+      <location filename="../../TaskDetail.ui" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y-position of detail highlight within view</source>
       <translation>பார்வையில் விவரம் சிறப்பம்சத்தின் Y-நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="272"/>
+=======
+      <location filename="../../TaskDetail.ui" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale factor</source>
       <translation>அளவு காரணி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="291"/>
+=======
+      <location filename="../../TaskDetail.ui" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Size of detail view</source>
       <translation>விவரமான பார்வையின் அளவு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="114"/>
+=======
+      <location filename="../../TaskDetail.ui" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X position of detail highlight within view</source>
       <translation>பார்வையில் விவரம் சிறப்பம்சத்தின் ஃச் நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="35"/>
       <source>Base view</source>
       <translation>அடிப்படை பார்வை</translation>
@@ -7309,6 +10435,9 @@ Do you want to continue?</source>
     </message>
     <message>
       <location filename="../../TaskDetail.ui" line="205"/>
+=======
+      <location filename="../../TaskDetail.ui" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Page: scale factor of page is used
 Automatic: if the detail view is larger than the page,
                    it will be scaled down to fit into the page
@@ -7319,22 +10448,38 @@ Custom: custom scale factor is used</source>
 தனிப்பயன்: தனிப்பயன் அளவு காரணி பயன்படுத்தப்படுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="212"/>
+=======
+      <location filename="../../TaskDetail.ui" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Page</source>
       <translation>பக்கம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="217"/>
+=======
+      <location filename="../../TaskDetail.ui" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Automatic</source>
       <translation>தானியங்கி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="222"/>
+=======
+      <location filename="../../TaskDetail.ui" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom</source>
       <translation>தனிப்பயன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDetail.ui" line="72"/>
+=======
+      <location filename="../../TaskDetail.ui" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reference</source>
       <translation>குறிப்பு</translation>
     </message>
@@ -7537,6 +10682,7 @@ by negative value of &apos;Overtolerance&apos;.</source>
     </message>
     <message>
       <location filename="../../TaskDimension.ui" line="330"/>
+<<<<<<< HEAD
       <source>Override Angles</source>
       <translation type="unfinished">Override Angles</translation>
     </message>
@@ -7568,33 +10714,92 @@ by negative value of &apos;Overtolerance&apos;.</source>
     </message>
     <message>
       <location filename="../../TaskDimension.ui" line="390"/>
+=======
+      <source>Lines</source>
+      <translation>வரிகள்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="338"/>
+      <source>Use override angles if checked. Use default angles if unchecked.</source>
+      <translation>சரிபார்க்கப்பட்டால், மேலெழுதப்பட்ட கோணங்களைப் பயன்படுத்தவும். தேர்வு செய்யாவிட்டால் இயல்புநிலை கோணங்களைப் பயன்படுத்தவும்.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="341"/>
+      <source>Override angles</source>
+      <translation>கோணங்களை மேலெழுதவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension line angle</source>
       <translation>பரிமாணக் கோடு கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimension.ui" line="351"/>
+=======
+      <location filename="../../TaskDimension.ui" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of dimension line with drawing X axis (degrees)</source>
       <translation>வரைதல் ஃச் அச்சுடன் பரிமாணக் கோட்டின் கோணம் (டிகிரிகள்)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimension.ui" line="383"/>
       <location filename="../../TaskDimension.ui" line="426"/>
+=======
+      <location filename="../../TaskDimension.ui" line="371"/>
+      <source>Set dimension line angle to default (orthographic view)</source>
+      <translation>பரிமாணக் கோடு கோணத்தை இயல்புநிலையாக அமைக்கவும் (எழுத்துக் காட்சி)</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="374"/>
+      <location filename="../../TaskDimension.ui" line="417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use Default</source>
       <translation>இயல்புநிலையைப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimension.ui" line="344"/>
       <location filename="../../TaskDimension.ui" line="373"/>
+=======
+      <location filename="../../TaskDimension.ui" line="381"/>
+      <source>Set dimension line angle to match selected edge or vertices</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பு அல்லது செங்குத்துகளுடன் பொருந்த பரிமாணக் கோடு கோணத்தை அமைக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="384"/>
+      <location filename="../../TaskDimension.ui" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use Selection</source>
       <translation>தேர்வைப் பயன்படுத்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimension.ui" line="416"/>
+=======
+      <location filename="../../TaskDimension.ui" line="414"/>
+      <source>Set extension line angle to default (orthographic)</source>
+      <translation>நீட்டிப்புக் கோடு கோணத்தை இயல்புநிலையாக அமைக்கவும் (எழுத்துக்கள்)</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="424"/>
+      <source>Set extension line angle to match selected edge or vertices</source>
+      <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்பு அல்லது செங்குத்துகளுடன் பொருந்துமாறு நீட்டிப்புக் கோடு கோணத்தை அமைக்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimension.ui" line="391"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extension line angle</source>
       <translation>நீட்டிப்பு வரி கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimension.ui" line="397"/>
+=======
+      <location filename="../../TaskDimension.ui" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of extension lines with drawing X axis (degrees)</source>
       <translation>வரைதல் ஃச் அச்சுடன் (டிகிரிகள்) நீட்டிப்புக் கோடுகளின் கோணம்</translation>
     </message>
@@ -7753,24 +10958,40 @@ by negative value of &apos;Overtolerance&apos;.</source>
       <translation>லீடர் லைன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="91"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Discard Changes</source>
       <translation>மாற்றங்களை நிராகரிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="84"/>
       <location filename="../../TaskLeaderLine.cpp" line="224"/>
       <location filename="../../TaskLeaderLine.cpp" line="499"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick Points</source>
       <translation>புள்ளிகளைத் தேர்ந்தெடுங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="41"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="38"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base view</source>
       <translation>அடிப்படை பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="79"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>First pick the start point of the line,
 then at least one more point.
 You can pick further points to get line segments.</source>
@@ -7779,92 +11000,175 @@ You can pick further points to get line segments.</source>
 வரிப் பிரிவுகளைப் பெற நீங்கள் மேலும் புள்ளிகளைத் தேர்ந்தெடுக்கலாம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="210"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="149"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start symbol</source>
       <translation>தொடக்க அடையாளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="111"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End symbol</source>
       <translation>முடிவு அடையாளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="244"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color</source>
       <translation>வண்ணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="223"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line color</source>
       <translation>வரி நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="274"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width</source>
       <translation>அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="127"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line width</source>
       <translation>வரி அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="237"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Style</source>
       <translation>நடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="146"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line style</source>
       <translation>வரி நடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="100"/>
       <source>Appearance</source>
       <translation>தோற்றம்</translation>
     </message>
     <message>
       <location filename="../../TaskLeaderLine.ui" line="153"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No line</source>
       <translation>வரி இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="162"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continuous</source>
       <translation>தொடர்ச்சியான</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="171"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="296"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dash</source>
       <translation>கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="180"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dot</source>
       <translation>புள்ளி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="189"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DashDot</source>
       <translation type="unfinished">DashDot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.ui" line="198"/>
+=======
+      <location filename="../../TaskLeaderLine.ui" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DashDotDot</source>
       <translation>DashDotDyot</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../TaskLeaderLine.cpp" line="224"/>
+      <location filename="../../TaskLeaderLine.cpp" line="499"/>
+      <source>Pick points</source>
+      <translation>புள்ளிகளைத் தேர்ந்தெடுங்கள்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLeaderLine.cpp" line="272"/>
+      <location filename="../../TaskLeaderLine.cpp" line="513"/>
+      <location filename="../../TaskLeaderLine.cpp" line="686"/>
+      <location filename="../../TaskLeaderLine.cpp" line="757"/>
+      <location filename="../../TaskLeaderLine.cpp" line="779"/>
+      <source>Edit points</source>
+      <translation>புள்ளிகளைத் திருத்தவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskLeaderLine.cpp" line="530"/>
       <location filename="../../TaskLeaderLine.cpp" line="582"/>
       <source>Pick a starting point for leader line</source>
       <translation>லீடர் வரிசைக்கான தொடக்கப் புள்ளியைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../TaskLeaderLine.cpp" line="533"/>
+      <source>Save points</source>
+      <translation>புள்ளிகளைச் சேமிக்கவும்</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskLeaderLine.cpp" line="565"/>
       <source>Click and drag markers to adjust leader line</source>
       <translation>லீடர் லைனைச் சரிசெய்ய குறிப்பான்களைக் சொடுக்கு செய்து இழுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLeaderLine.cpp" line="272"/>
       <location filename="../../TaskLeaderLine.cpp" line="513"/>
       <location filename="../../TaskLeaderLine.cpp" line="686"/>
@@ -7883,6 +11187,12 @@ You can pick further points to get line segments.</source>
       <location filename="../../TaskLeaderLine.cpp" line="585"/>
       <source>Save Changes</source>
       <translation type="unfinished">Save Changes</translation>
+=======
+      <location filename="../../TaskLeaderLine.cpp" line="568"/>
+      <location filename="../../TaskLeaderLine.cpp" line="585"/>
+      <source>Save changes</source>
+      <translation>மாற்றங்களைச் சேமிக்கவும்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLeaderLine.cpp" line="616"/>
@@ -7908,11 +11218,16 @@ You can pick further points to get line segments.</source>
       <translation>வரி ஒப்பனை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="37"/>
+=======
+      <location filename="../../TaskLineDecor.ui" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View</source>
       <translation>பார்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="44"/>
       <source>Selection</source>
       <translation>தேர்வு</translation>
@@ -7924,30 +11239,55 @@ You can pick further points to get line segments.</source>
     </message>
     <message>
       <location filename="../../TaskLineDecor.ui" line="87"/>
+=======
+      <location filename="../../TaskLineDecor.ui" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The use of the Qt line style is being phased out. Use a standard line style instead.</source>
       <translation>கியுடி வரி பாணியின் பயன்பாடு படிப்படியாக நீக்கப்படுகிறது. அதற்கு பதிலாக நிலையான வரி பாணியைப் பயன்படுத்தவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="103"/>
+=======
+      <location filename="../../TaskLineDecor.ui" line="145"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness of pattern lines</source>
       <translation>மாதிரிக் கோடுகளின் தடிமன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="113"/>
+=======
+      <location filename="../../TaskLineDecor.ui" line="52"/>
+      <source>Lines</source>
+      <translation>வரிகள்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLineDecor.ui" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Style</source>
       <translation>நடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="120"/>
+=======
+      <location filename="../../TaskLineDecor.ui" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color</source>
       <translation>வண்ணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="127"/>
+=======
+      <location filename="../../TaskLineDecor.ui" line="45"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Weight</source>
       <translation>எடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLineDecor.ui" line="145"/>
       <source>Visible</source>
       <translation>தெரியும்</translation>
@@ -7959,6 +11299,21 @@ You can pick further points to get line segments.</source>
         <numerusform>%n line(s)</numerusform>
         <numerusform>%n line(s)</numerusform>
       </translation>
+=======
+      <location filename="../../TaskLineDecor.ui" line="158"/>
+      <source>Visible</source>
+      <translation>தெரியும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLineDecor.ui" line="72"/>
+      <source>False</source>
+      <translation>பொய்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLineDecor.ui" line="77"/>
+      <source>True</source>
+      <translation>உண்மை</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -8357,31 +11712,72 @@ using the given X/Y spacings</source>
   <context>
     <name>TechDrawGui::TaskRichAnno</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="14"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rich Text Annotation Block</source>
       <translation>பணக்கார உரை சிறுகுறிப்பு தொகுதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="24"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="74"/>
+      <source>Maximal width, if -1 then automatic width</source>
+      <translation>அதிகபட்ச அகலம், -1 என்றால் தானியங்கி அகலம்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskRichAnno.ui" line="102"/>
+      <source>Start Rich Text Editor</source>
+      <translation>ரிச் டெக்ச்ட் எடிட்டரைத் தொடங்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskRichAnno.ui" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base feature</source>
       <translation>அடிப்படை நற்பொருத்தம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="155"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="67"/>
+      <source>Max width</source>
+      <translation>அதிகபட்ச அகலம்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskRichAnno.ui" line="121"/>
+      <source>Show frame</source>
+      <translation>சட்டத்தைக் காட்டு</translation>
+    </message>
+    <message>
+      <location filename="../../TaskRichAnno.ui" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color</source>
       <translation>வண்ணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="162"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="148"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line color</source>
       <translation>வரி நிறம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="38"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width</source>
       <translation>அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="45"/>
       <source>Maximal width of the annotation block, if -1 then automatic width</source>
       <translation type="unfinished">Maximal width of the annotation block, if -1 then automatic width</translation>
@@ -8398,51 +11794,95 @@ using the given X/Y spacings</source>
     </message>
     <message>
       <location filename="../../TaskRichAnno.ui" line="92"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line width</source>
       <translation>வரி அகலம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="108"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Style</source>
       <translation>நடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="115"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line style</source>
       <translation>வரி நடை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="122"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>NoLine</source>
       <translation>நோலைன்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="127"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continuous</source>
       <translation>தொடர்ச்சியான</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="132"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dash</source>
       <translation>கோடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="137"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dot</source>
       <translation>புள்ளி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="142"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DashDot</source>
       <translation type="unfinished">DashDot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.ui" line="147"/>
+=======
+      <location filename="../../TaskRichAnno.ui" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DashDotDot</source>
       <translation>DashDotDyot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRichAnno.cpp" line="661"/>
+=======
+      <location filename="../../TaskRichAnno.cpp" line="178"/>
+      <source>Input the annotation text directly or start the rich text editor</source>
+      <translation>சிறுகுறிப்பு உரையை நேரடியாக உள்ளிடவும் அல்லது பணக்கார உரை திருத்தியைத் தொடங்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskRichAnno.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>RichTextAnnotation</source>
       <translation type="unfinished">RichTextAnnotation</translation>
     </message>
@@ -8578,7 +12018,11 @@ using the given X/Y spacings</source>
       <translation>விண்ணப்பிக்க எதுவும் இல்லை. எந்தப் பகுதியின் திசையும் இன்னும் தேர்ந்தெடுக்கப்படவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSectionView.cpp" line="639"/>
+=======
+      <location filename="../../TaskSectionView.cpp" line="637"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Can not continue. Object * %1 or %2 not found.</source>
       <translation>தொடர முடியாது. பொருள் *% 1 அல்லது% 2 காணப்படவில்லை.</translation>
     </message>
@@ -8749,27 +12193,49 @@ using the given X/Y spacings</source>
       <translation>உரை பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgTemplateField.ui" line="35"/>
       <source>Name</source>
       <translation>பெயர்</translation>
     </message>
     <message>
       <location filename="../../DlgTemplateField.ui" line="50"/>
+=======
+      <location filename="../../DlgTemplateField.ui" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Value</source>
       <translation>மதிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgTemplateField.ui" line="88"/>
       <source>Applies autofill to this field</source>
       <translation type="unfinished">Applies autofill to this field</translation>
     </message>
     <message>
       <location filename="../../DlgTemplateField.ui" line="101"/>
+=======
+      <location filename="../../DlgTemplateField.ui" line="52"/>
+      <source>Reapplies auto-fill to this field</source>
+      <translation>இந்தப் புலத்தில் தானாக நிரப்புதல் மீண்டும் பொருந்தும்</translation>
+    </message>
+    <message>
+      <location filename="../../DlgTemplateField.ui" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The autofill replacement value</source>
       <translation>தானியங்கு நிரப்பு மாற்று மதிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgTemplateField.ui" line="91"/>
+=======
+      <location filename="../../DlgTemplateField.ui" line="35"/>
+      <source>TextLabel</source>
+      <translation>உரை சிட்டை</translation>
+    </message>
+    <message>
+      <location filename="../../DlgTemplateField.ui" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Autofill</source>
       <translation>தானாக நிரப்பு</translation>
     </message>
@@ -8777,12 +12243,20 @@ using the given X/Y spacings</source>
   <context>
     <name>TechDraw_ExtensionremovePrefixChar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="409"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove Prefix</source>
       <translation>முன்னொட்டை அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="410"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="394"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes the prefix symbols at the beginning of the dimension</source>
       <translation>பரிமாணத்தின் தொடக்கத்தில் உள்ள முன்னொட்டு குறியீடுகளை நீக்குகிறது</translation>
     </message>
@@ -9026,11 +12500,16 @@ using the given X/Y spacings</source>
       <translation>பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimRepair.ui" line="38"/>
+=======
+      <location filename="../../TaskDimRepair.ui" line="28"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimRepair.ui" line="91"/>
       <source>Replace References With Selection</source>
       <translation type="unfinished">Replace References With Selection</translation>
@@ -9053,45 +12532,94 @@ using the given X/Y spacings</source>
     <message>
       <location filename="../../TaskDimRepair.ui" line="31"/>
       <location filename="../../TaskDimRepair.ui" line="241"/>
+=======
+      <location filename="../../TaskDimRepair.ui" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label</source>
       <translation>சிட்டை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimRepair.ui" line="127"/>
+=======
+      <location filename="../../TaskDimRepair.ui" line="86"/>
+      <source>Replace references with current selection</source>
+      <translation>தற்போதைய தேர்வு மூலம் குறிப்புகளை மாற்றவும்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimRepair.ui" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The view that owns this dimension</source>
       <translation>இந்த பரிமாணத்திற்கு சொந்தமான பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimRepair.ui" line="178"/>
+=======
+      <location filename="../../TaskDimRepair.ui" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The sub-elements of the view that define the geometry for this dimension</source>
       <translation>இந்த பரிமாணத்திற்கான வடிவவியலை வரையறுக்கும் பார்வையின் துணை கூறுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimRepair.ui" line="140"/>
       <location filename="../../TaskDimRepair.ui" line="236"/>
+=======
+      <location filename="../../TaskDimRepair.ui" line="98"/>
+      <source>References 2D</source>
+      <translation>குறிப்புகள் 2D</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimRepair.ui" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object</source>
       <translation>பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDimRepair.ui" line="153"/>
       <source>Geometry</source>
       <translation>வடிவியல்</translation>
     </message>
+=======
+      <location filename="../../TaskDimRepair.ui" line="138"/>
+      <source>Geometry</source>
+      <translation>வடிவியல்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimRepair.ui" line="187"/>
+      <source>References 3D</source>
+      <translation>குறிப்புகள் 3D</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CmdTechDrawDimensionRepair</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2129"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2094"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2130"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2095"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Repair Dimension References</source>
       <translation>ரிப்பேர் பரிமாண குறிப்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="2131"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="2096"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Repairs broken or incorrect dimension references</source>
       <translation>உடைந்த அல்லது தவறான பரிமாண குறிப்புகளை சரிசெய்கிறது</translation>
     </message>
@@ -9485,19 +13013,33 @@ there is an open task dialog.</source>
   <context>
     <name>CmdTechDrawCosmeticCircle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="871"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="859"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="872"/>
       <location filename="../../CommandExtensionPack.cpp" line="1294"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="860"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cosmetic 1 Point Circle</source>
       <translation>ஒப்பனை 1 புள்ளி வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="873"/>
       <location filename="../../CommandExtensionPack.cpp" line="1296"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="861"/>
+      <location filename="../../CommandExtensionPack.cpp" line="1285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a cosmetic circle based on a selected centerpoint</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட மையப்புள்ளியின் அடிப்படையில் ஒரு ஒப்பனை வட்டத்தைச் சேர்க்கிறது</translation>
     </message>
@@ -9505,17 +13047,29 @@ there is an open task dialog.</source>
   <context>
     <name>CmdTechDrawExtensionArcLengthAnnotation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1976"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1965"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1977"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1966"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arc Length Annotation</source>
       <translation>வில் நீள சிறுகுறிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionPack.cpp" line="1978"/>
+=======
+      <location filename="../../CommandExtensionPack.cpp" line="1967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts an annotation with the calculated arc length of the selected edges</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட விளிம்புகளின் கணக்கிடப்பட்ட வில் நீளத்துடன் சிறுகுறிப்பைச் செருகுகிறது</translation>
     </message>
@@ -9528,6 +13082,7 @@ there is an open task dialog.</source>
       <translation>ஒப்பனை வெர்டெக்ச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAddOffsetVertex.ui" line="29"/>
       <source>Reference</source>
       <translation>குறிப்பு</translation>
@@ -9539,15 +13094,23 @@ there is an open task dialog.</source>
     </message>
     <message>
       <location filename="../../TaskAddOffsetVertex.ui" line="45"/>
+=======
+      <location filename="../../TaskAddOffsetVertex.ui" line="31"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position from the view center</source>
       <translation>பார்வை மையத்தில் இருந்து நிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAddOffsetVertex.ui" line="48"/>
+=======
+      <location filename="../../TaskAddOffsetVertex.ui" line="34"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position</source>
       <translation>பதவி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAddOffsetVertex.ui" line="59"/>
       <source>The X offset distance from the source vertex</source>
       <translation type="unfinished">The X offset distance from the source vertex</translation>
@@ -9561,13 +13124,37 @@ there is an open task dialog.</source>
       <location filename="../../TaskAddOffsetVertex.ui" line="79"/>
       <source>Y</source>
       <translation>ஒய்</translation>
+=======
+      <location filename="../../TaskAddOffsetVertex.ui" line="48"/>
+      <source>X-offset</source>
+      <translation>எக்ச்-ஆஃப்செட்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAddOffsetVertex.ui" line="55"/>
+      <source>Y-offset</source>
+      <translation>ஒய்-ஆஃப்செட்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAddOffsetVertex.ui" line="72"/>
+      <source>Enter X offset value</source>
+      <translation>ஃச் ஆஃப்செட் மதிப்பை உள்ளிடவும்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>TechDraw_AddOffsetVertex</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/CommandVertexCreations.py" line="81"/>
       <location filename="../../../TechDrawTools/TaskAddOffsetVertex.py" line="47"/>
+=======
+      <location filename="../../../TechDrawTools/TaskAddOffsetVertex.py" line="45"/>
+      <source>Add offset vertex</source>
+      <translation>ஆஃப்செட் வெர்டெக்சைச் சேர்க்கவும்</translation>
+    </message>
+    <message>
+      <location filename="../../../TechDrawTools/CommandVertexCreations.py" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset Vertex</source>
       <translation>ஆஃப்செட் வெர்டெக்ச்</translation>
     </message>
@@ -9580,27 +13167,47 @@ there is an open task dialog.</source>
   <context>
     <name>TechDraw_FillTemplateFields</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="138"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fill Template Fields In </source>
       <translation>டெம்ப்ளேட் புலங்களை நிரப்பவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="145"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Update</source>
       <translation>புதுப்பிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="405"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Update All</source>
       <translation>அனைத்தையும் புதுப்பிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/CommandFillTemplateFields.py" line="49"/>
+=======
+      <location filename="../../../TechDrawTools/CommandFillTemplateFields.py" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Update Template Fields</source>
       <translation>டெம்ப்ளேட் புலங்களைப் புதுப்பிக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/CommandFillTemplateFields.py" line="53"/>
+=======
+      <location filename="../../../TechDrawTools/CommandFillTemplateFields.py" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Uses document info to populate the template fields</source>
       <translation>டெம்ப்ளேட் புலங்களை நிரப்ப ஆவணத் தகவலைப் பயன்படுத்துகிறது</translation>
     </message>
@@ -9608,27 +13215,47 @@ there is an open task dialog.</source>
   <context>
     <name>Techdraw_FillTemplateFields</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="81"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> file does not contain the correct field names therefore exiting</source>
       <translation>கோப்பில் சரியான புலப் பெயர்கள் இல்லை எனவே வெளியேறுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="87"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="88"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> file has not been found therefore exiting</source>
       <translation>கோப்பு கண்டுபிடிக்கப்படவில்லை எனவே வெளியேறுகிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="108"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View or projection group missing</source>
       <translation>பார்வை அல்லது முன்கணிப்பு குழு இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="445"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Corresponding template fields missing</source>
       <translation>தொடர்புடைய டெம்ப்ளேட் புலங்கள் இல்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="534"/>
+=======
+      <location filename="../../../TechDrawTools/TaskFillTemplateFields.py" line="535"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fill template fields</source>
       <translation>டெம்ப்ளேட் புலங்களை நிரப்பவும்</translation>
     </message>
@@ -9888,19 +13515,33 @@ there is an open task dialog.</source>
   <context>
     <name>CmdTechDrawExtensionInsertRepetition</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="226"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="227"/>
       <location filename="../../CommandExtensionDims.cpp" line="404"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="211"/>
+      <location filename="../../CommandExtensionDims.cpp" line="388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert &apos;n×&apos; Prefix</source>
       <translation>&apos;n×&apos; முன்னொட்டைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExtensionDims.cpp" line="228"/>
       <location filename="../../CommandExtensionDims.cpp" line="405"/>
+=======
+      <location filename="../../CommandExtensionDims.cpp" line="212"/>
+      <location filename="../../CommandExtensionDims.cpp" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a repeated feature count at the beginning of the dimension</source>
       <translation>பரிமாணத்தின் தொடக்கத்தில் மறுநிகழ்வு அம்ச எண்ணிக்கையைச் செருகும்</translation>
     </message>
@@ -9916,14 +13557,22 @@ there is an open task dialog.</source>
   <context>
     <name>TaskDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDimension.cpp" line="326"/>
+=======
+      <location filename="../../ViewProviderDimension.cpp" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You cannot delete this dimension now because
 there is an open task dialog.</source>
       <translation>இந்த பரிமாணத்தை உங்களால் இப்போது நீக்க முடியாது ஏனெனில் 
 ஒரு திறந்த பணி உரையாடல் உள்ளது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDimension.cpp" line="329"/>
+=======
+      <location filename="../../ViewProviderDimension.cpp" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Can Not Delete</source>
       <translation>நீக்க முடியாது</translation>
     </message>
@@ -9931,17 +13580,29 @@ there is an open task dialog.</source>
   <context>
     <name>CmdTechDrawBrokenView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="553"/>
+=======
+      <location filename="../../Command.cpp" line="547"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="554"/>
+=======
+      <location filename="../../Command.cpp" line="548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Broken View</source>
       <translation>உடைந்த பார்வை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="555"/>
+=======
+      <location filename="../../Command.cpp" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a new broken view for the selected objects or base view and break definition objects</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருள்கள் அல்லது அடிப்படைக் காட்சி மற்றும் முறிவு வரையறை பொருள்களுக்கு புதிய உடைந்த காட்சியைச் செருகும்</translation>
     </message>
@@ -9949,22 +13610,38 @@ there is an open task dialog.</source>
   <context>
     <name>TechDrawGui::DirectionEditDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskProjGroup.cpp" line="968"/>
+=======
+      <location filename="../../TaskProjGroup.cpp" line="966"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction</source>
       <translation>திசை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskProjGroup.cpp" line="1005"/>
+=======
+      <location filename="../../TaskProjGroup.cpp" line="1003"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>OK</source>
       <translation>சரி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskProjGroup.cpp" line="1006"/>
+=======
+      <location filename="../../TaskProjGroup.cpp" line="1004"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cancel</source>
       <translation>ரத்துசெய்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskProjGroup.cpp" line="1012"/>
+=======
+      <location filename="../../TaskProjGroup.cpp" line="1010"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate by</source>
       <translation>மூலம் சுழற்று</translation>
     </message>
@@ -9972,12 +13649,20 @@ there is an open task dialog.</source>
   <context>
     <name>CmdTechDrawCompDimensionTools</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1432"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension</source>
       <translation>பரிமாணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1433"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension tools</source>
       <translation>பரிமாண கருவிகள்</translation>
     </message>
@@ -9985,17 +13670,29 @@ there is an open task dialog.</source>
   <context>
     <name>CmdTechDrawAreaDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1824"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1789"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TechDraw</source>
       <translation>டெக் டிரா</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1825"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1790"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area Annotation</source>
       <translation>பகுதி சிறுகுறிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1826"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1791"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts an annotation showing the area of a selected face</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட முகத்தின் பகுதியைக் காட்டும் சிறுகுறிப்பைச் செருகுகிறது</translation>
     </message>
@@ -10155,7 +13852,11 @@ there is an open task dialog.</source>
   <context>
     <name>TechDraw_SectionView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="800"/>
+=======
+      <location filename="../../Command.cpp" line="794"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a simple section view</source>
       <translation>எளிய பிரிவு காட்சியை செருகுகிறது</translation>
     </message>
@@ -10163,7 +13864,11 @@ there is an open task dialog.</source>
   <context>
     <name>TechDraw_ComplexSection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="805"/>
+=======
+      <location filename="../../Command.cpp" line="799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inserts a complex section view</source>
       <translation>சிக்கலான பகுதி காட்சியை செருகுகிறது</translation>
     </message>
@@ -10219,7 +13924,11 @@ there is an open task dialog.</source>
   <context>
     <name>TechDraw_HorizontalExtent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1942"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1907"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert horizontal extent dimension</source>
       <translation>கிடைமட்ட அளவு பரிமாணத்தைச் செருகவும்</translation>
     </message>
@@ -10227,7 +13936,11 @@ there is an open task dialog.</source>
   <context>
     <name>TechDraw_VerticalExtentDimension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandCreateDims.cpp" line="1946"/>
+=======
+      <location filename="../../CommandCreateDims.cpp" line="1911"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert vertical extent dimension</source>
       <translation>செங்குத்து அளவு பரிமாணத்தைச் செருகவும்</translation>
     </message>
@@ -10268,6 +13981,7 @@ there is an open task dialog.</source>
     <name>TechDrawGui::TaskDimRepair</name>
     <message>
       <location filename="../../TaskDimRepair.cpp" line="79"/>
+<<<<<<< HEAD
       <source>Object</source>
       <translation>பொருள்</translation>
     </message>
@@ -10280,6 +13994,20 @@ there is an open task dialog.</source>
       <location filename="../../TaskDimRepair.cpp" line="79"/>
       <source>Sub-Element</source>
       <translation type="unfinished">Sub-Element</translation>
+=======
+      <source>Object name</source>
+      <translation>பொருளின் பெயர்</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimRepair.cpp" line="79"/>
+      <source>Object label</source>
+      <translation>பொருள் சிட்டை</translation>
+    </message>
+    <message>
+      <location filename="../../TaskDimRepair.cpp" line="79"/>
+      <source>Sub-element</source>
+      <translation>துணை உறுப்பு</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskDimRepair.cpp" line="245"/>
@@ -10288,6 +14016,17 @@ there is an open task dialog.</source>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>TechDrawGui::TaskDlgLineDecor</name>
+    <message>
+      <location filename="../../TaskLineDecor.cpp" line="463"/>
+      <source>Restore invisible lines</source>
+      <translation>கண்ணுக்கு தெரியாத வரிகளை மீட்டெடுக்கவும்</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>CmdMidpoints</name>
     <message>
       <location filename="../../CommandAnnotate.cpp" line="279"/>
@@ -10304,6 +14043,25 @@ there is an open task dialog.</source>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>Cmd2LineCenterLine</name>
+    <message>
+      <location filename="../../CommandAnnotate.cpp" line="653"/>
+      <source>Centerline 2 Lines</source>
+      <translation>மையக்கோடு 2 கோடுகள்</translation>
+    </message>
+  </context>
+  <context>
+    <name>Cmd2PointCenterLine</name>
+    <message>
+      <location filename="../../CommandAnnotate.cpp" line="657"/>
+      <source>Centerline 2 Points</source>
+      <translation>மையக்கோடு 2 புள்ளிகள்</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>CmdTechDrawToggleFrame</name>
     <message>
       <location filename="../../CommandDecorate.cpp" line="75"/>
@@ -10312,6 +14070,7 @@ there is an open task dialog.</source>
     </message>
     <message>
       <location filename="../../CommandDecorate.cpp" line="76"/>
+<<<<<<< HEAD
       <source>Toggle View Frames</source>
       <translation type="unfinished">Toggle View Frames</translation>
     </message>
@@ -10361,6 +14120,11 @@ there is an open task dialog.</source>
       <location filename="../../TaskLineDecor.cpp" line="454"/>
       <source>Restore Invisible Lines</source>
       <translation>கண்ணுக்கு தெரியாத வரிகளை மீட்டெடுக்கவும்</translation>
+=======
+      <location filename="../../CommandDecorate.cpp" line="77"/>
+      <source>Turn View Frames On/Off</source>
+      <translation type="unfinished">Turn View Frames On/Off</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

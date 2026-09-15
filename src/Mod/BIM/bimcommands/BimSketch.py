@@ -53,6 +53,7 @@ class BIM_Sketch:
         from draftutils import utils
         from FreeCAD import Units
 
+<<<<<<< HEAD
         doc = FreeCAD.ActiveDocument
         doc.openTransaction(translate("Arch", "Create Sketch"))
         wp = WorkingPlane.get_working_plane()  # also updates the grid
@@ -60,6 +61,13 @@ class BIM_Sketch:
         sk.Placement = wp.get_placement()
         sk.MapMode = "Deactivated"
         gui_utils.autogroup(sk)
+=======
+        wp = WorkingPlane.get_working_plane()  # also updates the grid
+        sk = FreeCAD.ActiveDocument.addObject("Sketcher::SketchObject", "Sketch")
+        sk.Placement = wp.get_placement()
+        sk.MapMode = "Deactivated"
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if not params.get_param("BIMSketchPlacementOnly", path="Mod/BIM"):
             sk.ViewObject.LineWidth = params.get_param_view("DefaultShapeLineWidth")
             sk.ViewObject.PointSize = params.get_param_view("DefaultShapePointSize")
@@ -70,7 +78,10 @@ class BIM_Sketch:
             if getattr(FreeCADGui, "Snapper", None) and FreeCADGui.Snapper.grid.Visible:
                 sk.ViewObject.GridSize = Units.Quantity(params.get_param("gridSpacing"))
                 sk.ViewObject.ShowGrid = True
+<<<<<<< HEAD
         doc.commitTransaction()
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         FreeCADGui.ActiveDocument.setEdit(sk.Name)
         FreeCADGui.activateWorkbench("SketcherWorkbench")

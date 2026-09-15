@@ -43,6 +43,11 @@ public:
     ~FemSolverObject() override;
 
     App::PropertyLinkList Results;
+<<<<<<< HEAD
+=======
+    App::PropertyPythonObject Tool;
+    App::PropertyPath WorkingDirectory;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // Attributes are implemented in the FemSolverObjectPython
 
     /// returns the type name of the ViewProvider

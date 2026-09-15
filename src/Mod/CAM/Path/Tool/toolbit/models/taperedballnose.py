@@ -20,7 +20,10 @@
 ################################################################################
 import FreeCAD
 import Path
+<<<<<<< HEAD
 from typing import Optional, Mapping
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from ...shape import ToolBitShapeTaperedBallNose
 from ..mixins import RotaryToolBitMixin, CuttingToolMixin
 from .base import ToolBit
@@ -29,6 +32,7 @@ from .base import ToolBit
 class ToolBitTaperedBallNose(ToolBit, CuttingToolMixin, RotaryToolBitMixin):
     SHAPE_CLASS = ToolBitShapeTaperedBallNose
 
+<<<<<<< HEAD
     def __init__(
         self,
         tool_bit_shape: ToolBitShapeTaperedBallNose,
@@ -38,6 +42,12 @@ class ToolBitTaperedBallNose(ToolBit, CuttingToolMixin, RotaryToolBitMixin):
         Path.Log.track(f"ToolBitTaperedBallNose __init__ called with id: {id}")
         super().__init__(tool_bit_shape, id=id, attrs=attrs)
         self._init_cutting_properties(self.obj)
+=======
+    def __init__(self, shape: ToolBitShapeTaperedBallNose, id: str | None = None):
+        Path.Log.track(f"ToolBitTaperedBallNose __init__ called with shape: {shape}, id: {id}")
+        super().__init__(shape, id=id)
+        CuttingToolMixin.__init__(self, self.obj)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     @property
     def summary(self) -> str:

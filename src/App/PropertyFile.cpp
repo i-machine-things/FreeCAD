@@ -71,6 +71,27 @@ bool isPlainFileName(const std::string& name)
 }
 }  // namespace
 
+namespace
+{
+/**
+ * @brief Check that an embedded file name from a restored document is a plain basename.
+ *
+ * PropertyFileIncluded::Save() always stores basenames (via FileInfo::fileName()), so a
+ * document that carries a name with any directory component, an absolute path, or a
+ * <tt>.</tt>/<tt>..</tt> reference is malicious.
+ *
+ * @param[in] name The file name taken from the document XML.
+ * @return @c true if @p name is a safe basename, @c false if it must be rejected.
+ */
+bool isPlainFileName(const std::string& name)
+{
+    if (name == "." || name == "..") {
+        return false;
+    }
+    return Base::FileInfo(name).fileName() == name;
+}
+}  // namespace
+
 //**************************************************************************
 // PropertyFileIncluded
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

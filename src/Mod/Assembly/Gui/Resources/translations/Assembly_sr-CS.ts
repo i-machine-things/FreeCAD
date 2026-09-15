@@ -19,12 +19,18 @@
     <message>
       <location filename="../../../CommandInsertLink.py" line="55"/>
       <source>&lt;p&gt;Inserts a component into the active assembly. This will create dynamic links to parts, bodies, primitives, and assemblies. To insert external components, make sure that the file is &lt;b&gt;open in the current session&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Insert by left clicking items in the list.&lt;/li&gt;&lt;li&gt;Remove by right clicking items in the list.&lt;/li&gt;&lt;li&gt;Press shift to add several instances of the component while clicking on the view.&lt;/li&gt;&lt;/ul&gt;</source>
-      <translation>&lt;p&gt;Ubaci komponentu u aktivni sklop. Ovo napravi veze prema delovima, telima, primitivima i sklopovima. Da bi ubacio spoljne komponente, uveri se da je datoteka &lt;b&gt;otvorena u trenutnoj sesiji&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ubaci levim klikom miša na stavke u listi.&lt;/li&gt;&lt;li&gt;Ukloni desnim klikom miša na stavke u listi.&lt;/li&gt;&lt;li&gt;</translation>
+      <translation>&lt;p&gt;Ubacuje komponentu u aktivni sklop. Time se kreiraju dinamičke veze ka delovima, telima, primitivima i sklopovima. Da biste ubacili vanjske komponente, uverite se da je fajl &lt;b&gt;otvoren u trenutnoj sesiji&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Ubacite pomoću levog klika miša na stavke u listi.&lt;/li&gt;&lt;li&gt;Izbacite pomoću desnog klika miša na stavke u listi.&lt;/li&gt;&lt;li&gt;Držite SHIFT da biste dodali više instanci komponente dok klikćete na pogled.&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="80"/>
       <source>Insert Component</source>
       <translation>Umetni komponentu</translation>
+=======
+      <location filename="../../../CommandInsertLink.py" line="81"/>
+      <source>Component</source>
+      <translation>Komponenta</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -48,37 +54,65 @@
       <translation type="unfinished">Assembly</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active object</source>
       <translation>Aktivni objekat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn flexible</source>
       <translation>Okreni fleksibilno</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="156"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently rigid. This will make it flexible instead.</source>
       <translation>Podsklop je trenutno krut. Ovo će ga napraviti fleksibilnim.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="160"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn rigid</source>
       <translation>Okreni kruto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="162"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
       <translation>Podsklop je trenutno fleksibilan. Ovo će ga napraviti krutim.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="329"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>N/A</source>
       <translation>N/A</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="353"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not supported</source>
       <translation>Nije podržano</translation>
     </message>
@@ -130,7 +164,11 @@
     </message>
     <message>
       <location filename="../../../JointObject.py" line="55"/>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1896"/>
+=======
+      <location filename="../../../JointObject.py" line="1793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Rastojanje</translation>
     </message>
@@ -170,32 +208,52 @@
       <translation>Remeni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="818"/>
+=======
+      <location filename="../../../JointObject.py" line="812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Broken link in: </source>
       <translation>Neispravna veza u: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1238"/>
       <source>Edit Joint</source>
       <translation type="unfinished">Edit Joint</translation>
     </message>
     <message>
       <location filename="../../../JointObject.py" line="1704"/>
+=======
+      <location filename="../../../JointObject.py" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select 2 elements from 2 separate parts</source>
       <translation>Potrebno je izabrati 2 elementa sa 2 različita dela</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1898"/>
+=======
+      <location filename="../../../JointObject.py" line="1795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 1</source>
       <translation>Poluprečnik 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1900"/>
+=======
+      <location filename="../../../JointObject.py" line="1797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread pitch</source>
       <translation>Korak navoja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1902"/>
+=======
+      <location filename="../../../JointObject.py" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pitch radius</source>
       <translation>Podeoni poluprečnik</translation>
     </message>
@@ -255,52 +313,92 @@
       <translation>Ovo ime je već u upotrebi. Izaberi drugo ime.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Opcije</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="372"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-assembly children: the children of sub-assemblies will be included in the bill of materials</source>
       <translation>Delovi podsklopova: u sastavnici će se pojaviti delovi podsklopova</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="378"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parts children: the children of parts will be added to the bill of materials</source>
       <translation>Komponente unutar kontejnera Deo: u sastavnici će se pojaviti i komponente unutar kontejnera Deo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="384"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only parts: adds only part containers and sub-assemblies to the bill of materials. Solids like Part Design bodies, fasteners, or Part workbench primitives are ignored.</source>
       <translation>Samo kontejneri Deo: u sastavnici će se pojaviti samo kontejneri Deo i podsklopovi. Puna tela modelirana u okruženju Konstruisanje delova, komponente iz gvožđare ili primitivi iz okruženja Delovi biće ignorisani.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="386"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Columns</source>
       <translation>Kolone</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="399"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
       <translation>Sopstvene kolone: 'Opis' i ostale kolone koje dodate pomoću opcije 'Dodaj kolonu' neće biti prepisane. Ako naziv kolone počinje sa '.' nakon čega sledi naziv svojstva (npr. '.Dužina'), kolona će biti automatski popunjena vrednošću tog svojstva. Ove kolone se mogu preimenovati dvostrukim klikom ili pritiskom na tipku F2 (preimenovanje kolone će obrisati njihove podatke).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="405"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Any column (custom or not), can be deleted by pressing the Delete key</source>
       <translation>Bilo koja kolona (sopstvena ili ne) može biti obrisana pritiskom na tipku Del</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="407"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export</source>
       <translation>Izvezi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="414"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported file format can be customized in the Spreadsheet workbench preferences</source>
       <translation>Format izvezene datoteke možete prilagoditi u podešavanjima radnog okruženja Tabele</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="393"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto columns :  (Index, Quantity, Name...) are populated automatically. Any modification you make will be overridden. These columns cannot be renamed.</source>
       <translation>Automatske kolone: (Indeks, Količina, Naziv...) se popunjavaju automatski. Svaka promena koju napraviš biće poništena. Ove kolone se ne mogu preimenovati.</translation>
     </message>
@@ -682,23 +780,40 @@ SLOPE definiše nagib prelaza između 0 i H1, i H2 do 0 oko vremena = T1 i T2 re
       <translation>{order} referenci spoja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1288"/>
+=======
+      <location filename="../../../JointObject.py" line="1221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object to ground</source>
       <translation>Objekat koji treba napraviti nepokretnim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="376"/>
       <location filename="../../../CommandCreateView.py" line="413"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="368"/>
+      <location filename="../../../CommandCreateView.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects moved by the move</source>
       <translation>Objekti koji se pomeraju prilikom pomeranja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="388"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is the movement of the move. The end placement is the result of the start placement * this placement.</source>
       <translation>Pomeranje tokom pomeranja. Krajnji položaj je rezultat početnog položaja * ovog položaja.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="397"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of the move</source>
       <translation>Vrsta pomeranja</translation>
     </message>
@@ -974,52 +1089,104 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
   <context>
     <name>AssemblyGui::ViewProviderAssembly</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object is associated to one or more joints.</source>
       <translation>Objektu su pridruženi jedan ili više spojeva.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="215"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to move the object and delete associated joints?</source>
       <translation>Da li želiš pomeriti objekat i obrisati pridružene spojeve?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1088"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move part</source>
       <translation>Pomeri deo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1805"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1679"/>
+      <source>ViewProviderAssembly</source>
+      <comment>and %1 more</comment>
+      <translation>ViewProviderAssembly</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty Assembly</source>
       <translation>Prazan sklop</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1817"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Over-constrained:</source>
       <translation>Previše ograničena skica:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1825"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malformed joints:</source>
       <translation>Oštećeni spojevi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1790"/>
       <source>and %1 more</source>
       <translation>i %1 više</translation>
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1849"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1717"/>
+      <source>Redundant joints:</source>
+      <translation>Suvišni spojevi:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1725"/>
+      <source>Partially redundant:</source>
+      <translation>Delimično suviše ograničena skica:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver failed to converge</source>
       <translation>Solver nije uspeo da se približi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1857"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Under-constrained:</source>
       <translation>Nedovoljno ograničena skica:</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1859"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%n Degrees of Freedom</source>
       <translation>
         <numerusform>%n Stepeni slobode</numerusform>
@@ -1028,7 +1195,11 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1863"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully constrained</source>
       <translation>Potpuno ograničena skica</translation>
     </message>
@@ -1163,7 +1334,11 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
   <context>
     <name>Assembly::AssemblyLink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AssemblyLink.cpp" line="704"/>
+=======
+      <location filename="../../../App/AssemblyLink.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Joints</source>
       <translation>Spojevi</translation>
     </message>
@@ -1171,7 +1346,11 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="168"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Rigid</source>
       <translation>Uklj/Isklj krutost</translation>
     </message>
@@ -1507,14 +1686,24 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
   <context>
     <name>Assembly_ToggleGrounded</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="430"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Grounded</source>
       <translation>Napravi nepokretnim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="436"/>
       <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</source>
       <translation>&lt;p&gt;Nepokretni deo.&lt;/p&gt;&lt;p&gt;Pravljenje dela nepokretnim trajno zaključava njegov položaj u sklopu, sprečavajući bilo kakvu translaciju ili rotaciju.</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="437"/>
+      <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation. You need at least one grounded part before starting to assemble.</source>
+      <translation>&lt;p&gt;Nepokretni deo.&lt;/p&gt;&lt;p&gt;Pravljenje dela nepokretnim trajno zaključava njegov položaj u sklopu, sprečavajući bilo kakvu translaciju ili rotaciju. Potrebno je imati u sklopu najmanje jedan nepokretan deo pre nego što se on počne sastavljati.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1551,12 +1740,20 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
       <translation>Umetni komponentu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="222"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Partially loaded</source>
       <translation>Delimično učitan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="615"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully load document</source>
       <translation>Potpuno učitan dokument</translation>
     </message>
@@ -1570,6 +1767,7 @@ Datoteke se zovu „runPreDrag.asmt“ i „dragging.log“ i nalaze se u podraz
     </message>
     <message>
       <location filename="../../TaskAssemblyMessages.cpp" line="56"/>
+<<<<<<< HEAD
       <source>Selects these conflicting joints</source>
       <translation>Izaberi konfliktne spojeve</translation>
     </message>
@@ -1722,6 +1920,25 @@ Napomena: Trenutno se biraju samo delovi bez spojeva, delovi sa spojevima koji i
       <location filename="../../Commands.cpp" line="312"/>
       <source>Selects all joints referencing the selected component</source>
       <translation>Izaberi sve spojeve koji se odnose na izabranu komponentu</translation>
+=======
+      <source>Click to select these conflicting joints.</source>
+      <translation>Klikni da bi izabrao konfliktne spojeve.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="59"/>
+      <source>Click to select these redundant joints.</source>
+      <translation>Klikni da bi izabrao suvišne spojeve.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="63"/>
+      <source>The assembly has unconstrained components giving rise to those Degrees Of Freedom. Click to select these unconstrained components.</source>
+      <translation>Sklop ima nedovoljno ograničene delove koji prouzrokuju neželjene stepene slobode. Kliknite da biste izabrali ove nedovoljno ograničene delove.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="68"/>
+      <source>Click to select these malformed joints.</source>
+      <translation>Klikni da bi izabrao oštećene spojeve.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

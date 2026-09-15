@@ -153,7 +153,11 @@
     <message>
       <location filename="../../DlgDisplayProperties.ui" line="199"/>
       <source>Line width</source>
+<<<<<<< HEAD
       <translation>Leithead líne</translation>
+=======
+      <translation type="unfinished">Line width</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgDisplayProperties.ui" line="237"/>
@@ -183,7 +187,11 @@
     <message>
       <location filename="../../DlgDisplayProperties.ui" line="389"/>
       <source>Line color</source>
+<<<<<<< HEAD
       <translation>Dath líne</translation>
+=======
+      <translation type="unfinished">Line color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgDisplayProperties.ui" line="338"/>
@@ -196,7 +204,11 @@
     <message>
       <location filename="../../DlgInspectAppearance.ui" line="14"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgInspectAppearance.ui" line="35"/>
@@ -249,46 +261,63 @@
       <translation>Dath scaipthe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgInspectAppearance.cpp" line="204"/>
       <source>Defines the base color of a surface when illuminated by light. It represents how the object scatters light evenly in all directions, independent of the viewer’s angle. This property will influence the material color the most.</source>
       <translation>Sainmhíníonn sé bun-dath dromchla nuair a bhíonn solas air. Léiríonn sé an chaoi a scaipeann an réad solas go cothrom i ngach treo, beag beann ar uillinn an lucht féachana. Is é an airí seo a mbeidh an tionchar is mó aige ar dhath an ábhair.</translation>
     </message>
     <message>
       <location filename="../../DlgInspectAppearance.cpp" line="215"/>
+=======
+      <location filename="../../DlgInspectAppearance.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ambient color</source>
       <translation>Dath comhthimpeallach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgInspectAppearance.cpp" line="217"/>
       <source>Defines the color of a surface under indirect, uniform lighting, representing how it appears when illuminated only by ambient light in a scene, without directional light, shading, or highlights</source>
       <translation>Sainmhíníonn sé dath dromchla faoi shoilsiú indíreach, aonfhoirmeach, rud a léiríonn an chuma atá air nuair a bhíonn sé soilsithe ag solas comhthimpeallach amháin i radharc, gan solas treorach, scáthú ná buaicphointí</translation>
     </message>
     <message>
       <location filename="../../DlgInspectAppearance.cpp" line="228"/>
+=======
+      <location filename="../../DlgInspectAppearance.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Emissive color</source>
       <translation>Dath astaíochta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgInspectAppearance.cpp" line="230"/>
       <source>Defines the color of a surface that appears to emit as if it were a light source, independent of external lighting, making the object look self-illuminated. Set to black to have no emissive color.</source>
       <translation>Sainmhíníonn sé dath dromchla a bhfuil cuma air go n-astaíonn sé amhail is dá mba fhoinse solais é, neamhspleách ar shoilsiú seachtrach, rud a fhágann go bhfuil cuma féin-soilsithe ar an réad. Socraigh go dubh le nach mbeidh aon dath astaíochta ann.</translation>
     </message>
     <message>
       <location filename="../../DlgInspectAppearance.cpp" line="241"/>
+=======
+      <location filename="../../DlgInspectAppearance.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specular color</source>
       <translation>Dath lonrach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgInspectAppearance.cpp" line="243"/>
       <source>Defines the color and intensity of the bright, mirror-like highlights that appear on shiny or reflective surfaces when light hits them directly. Set to bright colors for shiny objects.</source>
       <translation>Sainmhíníonn sé dath agus déine na mbuaicphointí geala, scáthánacha a thaispeántar ar dhromchlaí lonracha nó frithchaiteacha nuair a bhuaileann solas iad go díreach. Socraigh go dathanna geala le haghaidh rudaí lonracha.</translation>
     </message>
     <message>
       <location filename="../../DlgInspectAppearance.cpp" line="254"/>
+=======
+      <location filename="../../DlgInspectAppearance.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shininess</source>
       <translation>Lonrúlacht</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgInspectAppearance.cpp" line="256"/>
       <source>Defines the size and sharpness of specular highlights on a surface. Higher values produce small, sharp highlights, while lower values create broad, soft highlights. Note that the highlight intensity is defined by specular color.</source>
       <translation>Sainmhíníonn sé méid agus géire na mbuaicphointí lonracha ar dhromchla. Cruthaíonn luachanna níos airde buaicphointí beaga, géara, agus cruthaíonn luachanna níos ísle buaicphointí leathana, boga. Tabhair faoi deara go sainmhínítear déine na mbuaicphointí le dath lonrach.</translation>
@@ -303,13 +332,23 @@
       <source>Defines how much light passes through an object, making it partially or fully see-through</source>
       <translation>Sainmhíníonn sé cé mhéad solais a théann trí réad, rud a fhágann go bhfuil sé trédhearcach go páirteach nó go hiomlán</translation>
     </message>
+=======
+      <location filename="../../DlgInspectAppearance.cpp" line="248"/>
+      <source>Transparency</source>
+      <translation>Trédhearcacht</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>MatGui::DlgInspectMaterial</name>
     <message>
       <location filename="../../DlgInspectMaterial.ui" line="14"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgInspectMaterial.ui" line="35"/>
@@ -461,7 +500,11 @@
     <message>
       <location filename="../../DlgInspectMaterial.cpp" line="333"/>
       <source>No</source>
+<<<<<<< HEAD
       <translation>Níl</translation>
+=======
+      <translation type="unfinished">No</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgInspectMaterial.cpp" line="333"/>
@@ -641,11 +684,16 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
     <message>
       <location filename="../../ImageEdit.ui" line="111"/>
       <source>Width</source>
+<<<<<<< HEAD
       <translation>Leithead</translation>
+=======
+      <translation type="unfinished">Width</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ImageEdit.cpp" line="195"/>
       <source>Select an image</source>
+<<<<<<< HEAD
       <translation>Roghnaigh íomhá</translation>
     </message>
     <message>
@@ -659,6 +707,19 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
       <location filename="../../ImageEdit.cpp" line="224"/>
       <source>All files</source>
       <translation>Gach comhad</translation>
+=======
+      <translation type="unfinished">Select an image</translation>
+    </message>
+    <message>
+      <location filename="../../ImageEdit.cpp" line="206"/>
+      <source>Image files (*.jpg *.jpeg *.png *.bmp);;All files (*)</source>
+      <translation type="unfinished">Image files (*.jpg *.jpeg *.png *.bmp);;All files (*)</translation>
+    </message>
+    <message>
+      <location filename="../../ImageEdit.cpp" line="218"/>
+      <source>Image files (*.svg);;All files (*)</source>
+      <translation>Comhaid íomhá (*.svg);;Gach comhad (*)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -715,68 +776,121 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
       <translation>Fillteán Nua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="97"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>Scrios</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="199"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
       <translation>D’fhéadfadh sé go mbeadh doiciméid eile briste má dhéantar iad a shábháil thar an gcomhad bunaidh. Ní mholtar é seo.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="223"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save as new material</source>
       <translation>Sábháil mar ábhar nua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="196"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save over &apos;%1&apos;?</source>
       <translation>Sábháil thar &apos;%1&apos;?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="221"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Save as New Material</source>
       <translation>Deimhnigh Sábháil mar Ábhar Nua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="226"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This material already exists in this library. Save as a new material?</source>
       <translation>Tá an t-ábhar seo sa leabharlann seo cheana féin. Sábháil mar ábhar nua?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="248"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Save as Copy</source>
       <translation>Deimhnigh Sábháil mar Chóip</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="250"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save as copy</source>
       <translation>Sábháil mar chóip</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="253"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</source>
       <translation>Ní mholtar cóip a shábháil mar d’fhéadfadh sé doiciméid eile a mhilleadh. Moltar é a shábháil mar ábhar nua.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="256"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Copy</source>
       <translation>Sábháil Cóip</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="257"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save As New</source>
       <translation>Sábháil Mar Nua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="489"/>
       <location filename="../../MaterialSave.cpp" line="499"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="488"/>
+      <location filename="../../MaterialSave.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New folder</source>
       <translation>Fillteán nua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="539"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Context Menu</source>
       <translation>Roghchlár Comhthéacs</translation>
     </message>
@@ -1098,7 +1212,11 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
     <message>
       <location filename="../ui/materials-editor.ui" line="70"/>
       <source>Open…</source>
+<<<<<<< HEAD
       <translation>Oscail…</translation>
+=======
+      <translation type="unfinished">Open…</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/materials-editor.ui" line="80"/>
@@ -1134,7 +1252,11 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
   <context>
     <name>QDockWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgMaterialImp.cpp" line="57"/>
+=======
+      <location filename="../../DlgMaterialImp.cpp" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Material</source>
       <translation>Ábhar</translation>
     </message>
@@ -1154,23 +1276,40 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
       <translation>Ábhar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="193"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Overwrite</source>
       <translation>Deimhnigh Forscríobh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="383"/>
       <location filename="../../MaterialSave.cpp" line="384"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="382"/>
+      <location filename="../../MaterialSave.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No writeable library</source>
       <translation>Gan aon leabharlann inscríofa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="571"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete &apos;%1&apos;?</source>
       <translation>Scrios &apos;%1&apos;?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="575"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing this will also remove all contents.</source>
       <translation>Má bhaintear é seo, bainfear an t-ábhar go léir freisin.</translation>
     </message>
@@ -1196,8 +1335,13 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
     </message>
     <message>
       <location filename="../../Array2D.cpp" line="170"/>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="568"/>
       <location filename="../../ListEdit.cpp" line="142"/>
+=======
+      <location filename="../../ListEdit.cpp" line="142"/>
+      <location filename="../../MaterialSave.cpp" line="567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Delete</source>
       <translation>Deimhnigh Scriosadh</translation>
     </message>
@@ -1439,6 +1583,7 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
       <translation>Gach ábhar</translation>
     </message>
   </context>
+<<<<<<< HEAD
   <context>
     <name>Command</name>
     <message>
@@ -1447,4 +1592,6 @@ Mura bhfuil tic sa bhosca seo, déanfar iad a shórtáil de réir a n-ainm.</tra
       <translation>Ábhar Socraithe</translation>
     </message>
   </context>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 </TS>

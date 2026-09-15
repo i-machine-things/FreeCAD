@@ -78,7 +78,11 @@
     <message>
       <location filename="../../Command.cpp" line="102"/>
       <source>Reverse Engineering</source>
+<<<<<<< HEAD
       <translation>Visszafejtés</translation>
+=======
+      <translation>Fordított tervezés</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="103"/>
@@ -104,6 +108,14 @@
       <translation>Drótháló a háló szegélyből…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="532"/>
+      <source>Wire From Mesh Boundary…</source>
+      <translation>Drótháló a háló szegélyből…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="533"/>
       <source>Creates a wire from mesh boundaries</source>
       <translation>Drótháló létrehozása a háló szegélyeiből</translation>
@@ -140,6 +152,14 @@
       <translation>Háló szakaszolás…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="420"/>
+      <source>Mesh Segmentation…</source>
+      <translation>Háló szakaszolás…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="421"/>
       <source>Creates separate mesh segments based on surface types</source>
       <translation>Külön hálószakaszokat hoz létre felülettípusok alapján</translation>
@@ -158,6 +178,14 @@
       <translation>Összetevőkből</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="482"/>
+      <source>From Components</source>
+      <translation>Összetevőkből</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="483"/>
       <source>Creates mesh segments from components</source>
       <translation>Háló szakaszok létrehozása az összetevőkből</translation>
@@ -176,6 +204,14 @@
       <translation>Háló szakaszolás…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="452"/>
+      <source>Manual Segmentation…</source>
+      <translation>Háló szakaszolás…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="453"/>
       <source>Creates mesh segments manually</source>
       <translation>Háló szakaszok létrehozása kézzel</translation>
@@ -186,7 +222,11 @@
     <message>
       <location filename="../../Command.cpp" line="633"/>
       <source>Reverse Engineering</source>
+<<<<<<< HEAD
       <translation>Visszafejtés</translation>
+=======
+      <translation>Fordított tervezés</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="634"/>
@@ -238,7 +278,11 @@
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="242"/>
+<<<<<<< HEAD
       <location filename="../../FitBSplineCurve.cpp" line="152"/>
+=======
+      <location filename="../../FitBSplineCurve.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit B-spline</source>
       <translation>B-görbe illesztése</translation>
     </message>
@@ -338,8 +382,13 @@
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="171"/>
       <location filename="../../FitBSplineSurface.cpp" line="249"/>
+<<<<<<< HEAD
       <source>Input Error</source>
       <translation>Beviteli hiba</translation>
+=======
+      <source>Input error</source>
+      <translation>Bemeneti hiba</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="215"/>
@@ -381,8 +430,13 @@
     </message>
     <message>
       <location filename="../../Poisson.cpp" line="94"/>
+<<<<<<< HEAD
       <source>Input Error</source>
       <translation>Beviteli hiba</translation>
+=======
+      <source>Input error</source>
+      <translation>Bemeneti hiba</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>

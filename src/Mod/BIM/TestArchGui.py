@@ -30,7 +30,10 @@ from bimtests.TestArchBuildingPartGui import TestArchBuildingPartGui
 from bimtests.TestArchStairsGui import TestArchStairsGui
 from bimtests.TestArchReportGui import TestArchReportGui
 from bimtests.TestArchSiteGui import TestArchSiteGui
+<<<<<<< HEAD
 from bimtests.TestArchWallGui import TestArchWallGui
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from bimtests.TestArchWindowGui import TestArchWindowGui
 from bimtests.TestWebGLExportGui import TestWebGLExportGui
 from bimtests.TestArchCoveringGui import TestArchCoveringGui

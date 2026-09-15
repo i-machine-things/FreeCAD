@@ -38,6 +38,10 @@ SHAPEMAP = {
     "vbit": "Conical",
     "chamfer": "Snubnose",
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 SHAPEMAP_REVERSE = {
     "Ballnose": "ballend",  # Default to ballend when deserializing Ballnose
     "Cylindrical": "endmill",

@@ -22,9 +22,14 @@
  *                                                                         *
  ***************************************************************************/
 
-#include <limits>
 #include <cmath>
 #include <initializer_list>
+#include <limits>
+<<<<<<< HEAD
+#include <cmath>
+#include <initializer_list>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <numbers>
 #include <optional>
 #include <utility>
@@ -5135,8 +5140,12 @@ void CmdSketcherConstrainCoincidentUnified::applyConstraintCoincident(std::vecto
         return;
     }
 
+<<<<<<< HEAD
     // undo command open
     openCommand(QT_TRANSLATE_NOOP("Command", "Add coincident constraint"));
+=======
+    Gui::Command::openCommand(QT_TRANSLATE_NOOP("Command", "Add coincident constraint"));
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     if (substituteConstraintCombinationsCoincident(Obj, GeoId1, PosId1, GeoId2, PosId2)) {}
     else if (isCoincidentSelectionValid(Obj, GeoId1, PosId1, GeoId2, PosId2)) {

@@ -588,11 +588,24 @@ void QGIView::hoverLeaveEvent(QGraphicsSceneHoverEvent *event)
 //! this graphic item's scene position.
 void QGIView::updatePositionFromFeatureXY()
 {
+<<<<<<< HEAD
     if (getViewObject()) {
         m_inhibitSnapOnPosChange = true;
         double xFeat = Rez::guiX(getViewObject()->X.getValue());
         double yFeat = Rez::guiX(getViewObject()->Y.getValue());
         setPos(xFeat, -yFeat);
+=======
+    double newX = xPos;
+    double newY = -yPos;
+    double oldX = pos().x();
+    double oldY = pos().y();
+
+    if (TechDraw::DrawUtil::fpCompare(newX, oldX) &&
+        TechDraw::DrawUtil::fpCompare(newY, oldY)) {
+        return;
+    } else {
+        setPos(newX, newY);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
 }
 
@@ -612,9 +625,23 @@ QGIViewClip* QGIView::getClipGroup()
 //! called from ViewProvider when feature properties change.
 void QGIView::updateView(bool forceUpdate)
 {
+<<<<<<< HEAD
     Q_UNUSED(forceUpdate);
 
     setMovableFlag();
+=======
+            //allow/prevent dragging
+    if (getViewObject()->isLocked()) {
+        setFlag(QGraphicsItem::ItemIsMovable, false);
+    } else {
+        setFlag(QGraphicsItem::ItemIsMovable, true);
+    }
+
+    if (getViewObject() && forceUpdate) {
+        setPosition(Rez::guiX(getViewObject()->X.getValue()),
+                    Rez::guiX(getViewObject()->Y.getValue()));
+    }
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     double appRotation = getViewObject()->Rotation.getValue();
     double guiRotation = rotation();
@@ -686,6 +713,17 @@ void QGIView::toggleCache(bool state)
 
 void QGIView::draw()
 {
+<<<<<<< HEAD
+=======
+    double xFeat, yFeat;
+    if (getViewObject()) {
+        xFeat = Rez::guiX(getViewObject()->X.getValue());
+        yFeat = Rez::guiX(getViewObject()->Y.getValue());
+        if (!getViewObject()->LockPosition.getValue()) {
+            setPosition(xFeat, yFeat);
+        }
+    }
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     if (isVisible()) {
         show();
     } else {
@@ -1164,6 +1202,7 @@ bool QGIView::isExporting() const
     return scenePage->getExportingAny();
 }
 
+<<<<<<< HEAD
 void QGIView::setMovableFlag()
 {
     if (getViewObject()->isLocked()) {
@@ -1173,6 +1212,8 @@ void QGIView::setMovableFlag()
     }
 }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 //! Retrieves objects of type T with given indexes
 template <typename T>
 std::vector<T> QGIView::getObjects(std::vector<int> indexes)

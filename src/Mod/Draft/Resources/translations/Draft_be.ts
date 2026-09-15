@@ -1088,10 +1088,10 @@ will be moved to the center of the view.</source>
       <translation>Шырыня лініі</translation>
     </message>
     <message>
-      <location filename="../ui/TaskSelectPlane.ui" line="253"/>
       <location filename="../ui/TaskPanel_SetStyle.ui" line="174"/>
       <location filename="../ui/TaskPanel_SetStyle.ui" line="199"/>
       <location filename="../ui/TaskPanel_SetStyle.ui" line="402"/>
+      <location filename="../ui/TaskSelectPlane.ui" line="253"/>
       <source> px</source>
       <translation> пікселяў</translation>
     </message>
@@ -1742,6 +1742,10 @@ pattern definitions to be added to the standard patterns</source>
       <location filename="../ui/preferences-drafttexts.ui" line="653"/>
       <location filename="../ui/preferences-drafttexts.ui" line="682"/>
       <location filename="../ui/preferences-drafttexts.ui" line="711"/>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/preferences-dxf.ui" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>mm</source>
       <translation>мм</translation>
     </message>
@@ -3056,8 +3060,13 @@ if they match the X, Y or Z axis of the global coordinate system</source>
       <translation>Глабальны</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="752"/>
       <location filename="../../DraftGui.py" line="1142"/>
+=======
+      <location filename="../../DraftGui.py" line="641"/>
+      <location filename="../../DraftGui.py" line="998"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continue</source>
       <translation>Працягнуць</translation>
     </message>
@@ -3087,10 +3096,17 @@ if they match the X, Y or Z axis of the global coordinate system</source>
       <translation>Абраць рабро</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="809"/>
       <location filename="../../draftguitools/gui_rotate.py" line="289"/>
       <location filename="../../draftguitools/gui_move.py" line="218"/>
       <location filename="../../draftguitools/gui_scale.py" line="226"/>
+=======
+      <location filename="../../DraftGui.py" line="698"/>
+      <location filename="../../draftguitools/gui_rotate.py" line="284"/>
+      <location filename="../../draftguitools/gui_move.py" line="214"/>
+      <location filename="../../draftguitools/gui_scale.py" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy</source>
       <translation>Скапіраваць</translation>
     </message>
@@ -3100,86 +3116,156 @@ if they match the X, Y or Z axis of the global coordinate system</source>
       <translation>Сцерці</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="988"/>
       <location filename="../../draftmake/make_sketch.py" line="124"/>
       <location filename="../../draftmake/make_sketch.py" line="140"/>
+=======
+      <location filename="../../WorkingPlane.py" line="906"/>
+      <location filename="../../draftmake/make_sketch.py" line="121"/>
+      <location filename="../../draftmake/make_sketch.py" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All shapes must be coplanar</source>
       <translation>Усе фігуры павінны быць у адной плоскасці</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="995"/>
+=======
+      <location filename="../../WorkingPlane.py" line="913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected shapes must define a plane</source>
       <translation>Абраныя фігуры павінны вызначаць плоскасць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1081"/>
       <location filename="../../WorkingPlane.py" line="1691"/>
       <location filename="../../WorkingPlane.py" line="1692"/>
+=======
+      <location filename="../../WorkingPlane.py" line="999"/>
+      <location filename="../../WorkingPlane.py" line="1575"/>
+      <location filename="../../WorkingPlane.py" line="1576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top</source>
       <translation>Зверху</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1093"/>
       <location filename="../../WorkingPlane.py" line="1713"/>
       <location filename="../../WorkingPlane.py" line="1714"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1011"/>
+      <location filename="../../WorkingPlane.py" line="1597"/>
+      <location filename="../../WorkingPlane.py" line="1598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Front</source>
       <translation>Спераду</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1112"/>
       <location filename="../../WorkingPlane.py" line="1735"/>
       <location filename="../../WorkingPlane.py" line="1736"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1030"/>
+      <location filename="../../WorkingPlane.py" line="1619"/>
+      <location filename="../../WorkingPlane.py" line="1620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Side</source>
       <translation>Бок</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1335"/>
       <location filename="../../WorkingPlane.py" line="1669"/>
       <location filename="../../WorkingPlane.py" line="1670"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1253"/>
+      <location filename="../../WorkingPlane.py" line="1553"/>
+      <location filename="../../WorkingPlane.py" line="1554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto</source>
       <translation>Аўтаматычнае</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1336"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current working plane: Auto</source>
       <translation>Бягучая працоўная плоскасць: аўтаматычна</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1852"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current working plane:</source>
       <translation>Бягучая працоўная плоскасць:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1423"/>
       <location filename="../../WorkingPlane.py" line="1456"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1331"/>
+      <location filename="../../WorkingPlane.py" line="1360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected shapes do not define a plane</source>
       <translation>Абраныя фігуры не вызначаюць плоскасць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1816"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No previous working plane</source>
       <translation>Без папярэдняй працоўнай плоскасці</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1827"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No next working plane</source>
       <translation>Без наступнай працоўнай плоскасці</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1856"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axes:</source>
       <translation>Восі:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1863"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position:</source>
       <translation>Становішча:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="669"/>
       <location filename="../../DraftGui.py" line="698"/>
       <location filename="../../DraftGui.py" line="1849"/>
       <location filename="../../DraftGui.py" line="1867"/>
+=======
+      <location filename="../../DraftGui.py" line="553"/>
+      <location filename="../../DraftGui.py" line="582"/>
+      <location filename="../../DraftGui.py" line="1688"/>
+      <location filename="../../DraftGui.py" line="1706"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../draftguitools/gui_groups.py" line="273"/>
       <source>None</source>
       <translation>Нічога</translation>
@@ -3226,8 +3312,13 @@ if they match the X, Y or Z axis of the global coordinate system</source>
       <translation>Вугал</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="713"/>
       <location filename="../../DraftGui.py" line="1125"/>
+=======
+      <location filename="../../DraftGui.py" line="602"/>
+      <location filename="../../DraftGui.py" line="981"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Радыус</translation>
     </message>
@@ -3247,12 +3338,20 @@ if they match the X, Y or Z axis of the global coordinate system</source>
       <translation>Пераключае будаўнічы рэжым</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1076"/>
+=======
+      <location filename="../../DraftGui.py" line="935"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label Type</source>
       <translation>Тып меткі</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1126"/>
+=======
+      <location filename="../../DraftGui.py" line="982"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of Circle</source>
       <translation>Радыус акружнасці</translation>
     </message>
@@ -3310,12 +3409,20 @@ Uncheck to use working plane coordinate system</source>
       <translation>Скончыць бягучую аперацыю малявання чарцяжа ці змены</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2082"/>
+=======
+      <location filename="../../DraftGui.py" line="1913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Modify Objects</source>
       <translation>Змяніць аб'екты</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2240"/>
+=======
+      <location filename="../../DraftGui.py" line="2070"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Facebinder Elements</source>
       <translation>Элементы злучаных паверхняў</translation>
     </message>
@@ -3407,83 +3514,152 @@ Not available if the 'Use Part Primitives' preference is enabled</source>
       <translation>Калі птушка, замест цэлых аб'ектаў будуць змененыя ўкладзеныя элементы</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="849"/>
       <location filename="../../DraftGui.py" line="1855"/>
       <location filename="../../DraftGui.py" line="1873"/>
+=======
+      <location filename="../../DraftGui.py" line="738"/>
+      <location filename="../../DraftGui.py" line="1694"/>
+      <location filename="../../DraftGui.py" line="1712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Autogroup off</source>
       <translation>Аўтаматычнае групаванне выключана</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="983"/>
       <location filename="../../draftguitools/gui_lines.py" line="73"/>
+=======
+      <location filename="../../DraftGui.py" line="842"/>
+      <location filename="../../draftguitools/gui_lines.py" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line</source>
       <translation>Лінія</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="998"/>
+=======
+      <location filename="../../DraftGui.py" line="857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DWire</source>
       <translation>Ломаная лінія</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1021"/>
+=======
+      <location filename="../../DraftGui.py" line="880"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circle</source>
       <translation>Акружнасць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1026"/>
+=======
+      <location filename="../../DraftGui.py" line="885"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arc</source>
       <translation>Дуга</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1031"/>
       <location filename="../../draftguitools/gui_rotate.py" line="291"/>
+=======
+      <location filename="../../DraftGui.py" line="890"/>
+      <location filename="../../draftguitools/gui_rotate.py" line="286"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate</source>
       <translation>Павярнуць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1037"/>
+=======
+      <location filename="../../DraftGui.py" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point</source>
       <translation>Кропка</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1074"/>
+=======
+      <location filename="../../DraftGui.py" line="933"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label</source>
       <translation>Метка</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1093"/>
       <location filename="../../draftguitools/gui_offset.py" line="247"/>
       <location filename="../../draftguitools/gui_offset.py" line="262"/>
       <location filename="../../draftguitools/gui_offset.py" line="325"/>
+=======
+      <location filename="../../DraftGui.py" line="952"/>
+      <location filename="../../draftguitools/gui_offset.py" line="243"/>
+      <location filename="../../draftguitools/gui_offset.py" line="258"/>
+      <location filename="../../draftguitools/gui_offset.py" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset</source>
       <translation>Зрушэнне</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1098"/>
       <location filename="../../DraftGui.py" line="1118"/>
       <location filename="../../draftguitools/gui_trimex.py" line="224"/>
+=======
+      <location filename="../../DraftGui.py" line="957"/>
+      <location filename="../../DraftGui.py" line="974"/>
+      <location filename="../../draftguitools/gui_trimex.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Адлегласць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1099"/>
       <location filename="../../DraftGui.py" line="1119"/>
       <location filename="../../draftguitools/gui_trimex.py" line="225"/>
+=======
+      <location filename="../../DraftGui.py" line="958"/>
+      <location filename="../../DraftGui.py" line="975"/>
+      <location filename="../../draftguitools/gui_trimex.py" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset distance</source>
       <translation>Адлегласць зрушэння</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1115"/>
+=======
+      <location filename="../../DraftGui.py" line="971"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trimex</source>
       <translation>Абрэзаць / падоўжыць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1219"/>
       <location filename="../../DraftGui.py" line="1221"/>
       <location filename="../../DraftGui.py" line="1222"/>
       <location filename="../../DraftGui.py" line="1224"/>
       <location filename="../../DraftGui.py" line="1225"/>
       <location filename="../../DraftGui.py" line="1226"/>
+=======
+      <location filename="../../DraftGui.py" line="1078"/>
+      <location filename="../../DraftGui.py" line="1080"/>
+      <location filename="../../DraftGui.py" line="1081"/>
+      <location filename="../../DraftGui.py" line="1083"/>
+      <location filename="../../DraftGui.py" line="1084"/>
+      <location filename="../../DraftGui.py" line="1085"/>
+      <location filename="../../drafttaskpanels/task_shapestring.py" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../drafttaskpanels/task_shapestring.py" line="123"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="124"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="125"/>
@@ -3491,12 +3667,22 @@ Not available if the 'Use Part Primitives' preference is enabled</source>
       <translation>Лакальны {}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1228"/>
       <location filename="../../DraftGui.py" line="1229"/>
       <location filename="../../DraftGui.py" line="1230"/>
       <location filename="../../DraftGui.py" line="1232"/>
       <location filename="../../DraftGui.py" line="1233"/>
       <location filename="../../DraftGui.py" line="1234"/>
+=======
+      <location filename="../../DraftGui.py" line="1087"/>
+      <location filename="../../DraftGui.py" line="1088"/>
+      <location filename="../../DraftGui.py" line="1089"/>
+      <location filename="../../DraftGui.py" line="1091"/>
+      <location filename="../../DraftGui.py" line="1092"/>
+      <location filename="../../DraftGui.py" line="1093"/>
+      <location filename="../../drafttaskpanels/task_shapestring.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../drafttaskpanels/task_shapestring.py" line="119"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="120"/>
       <location filename="../../drafttaskpanels/task_shapestring.py" line="121"/>
@@ -3504,22 +3690,38 @@ Not available if the 'Use Part Primitives' preference is enabled</source>
       <translation>Глабальны {}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="1863"/>
+=======
+      <location filename="../../DraftGui.py" line="1702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Autogroup:</source>
       <translation>Аўтаматычнае групаванне:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2237"/>
+=======
+      <location filename="../../DraftGui.py" line="2067"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Faces</source>
       <translation>Грані</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2238"/>
+=======
+      <location filename="../../DraftGui.py" line="2068"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Выдаліць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DraftGui.py" line="2239"/>
+=======
+      <location filename="../../DraftGui.py" line="2069"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add</source>
       <translation>Дадаць</translation>
     </message>
@@ -3583,11 +3785,20 @@ or try saving to a lower DWG version.</source>
 Паспрабуйце перамясціць файл DWG у шлях да каталогу без прабелаў і неангламоўных знакаў, альбо паспрабуйце захаваць у больш ранняй версіі DWG.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkingPlane.py" line="1462"/>
       <location filename="../../WorkingPlane.py" line="1463"/>
       <location filename="../../WorkingPlane.py" line="1762"/>
       <location filename="../../WorkingPlane.py" line="1763"/>
       <location filename="../../draftutils/init_draft_statusbar.py" line="81"/>
+=======
+      <location filename="../../WorkingPlane.py" line="1366"/>
+      <location filename="../../WorkingPlane.py" line="1367"/>
+      <location filename="../../WorkingPlane.py" line="1646"/>
+      <location filename="../../WorkingPlane.py" line="1647"/>
+      <location filename="../../draftutils/init_draft_statusbar.py" line="67"/>
+      <location filename="../../draftutils/init_draft_statusbar.py" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../draftutils/init_draft_statusbar.py" line="96"/>
       <location filename="../../draftutils/init_draft_statusbar.py" line="110"/>
       <location filename="../../draftutils/init_draft_statusbar.py" line="198"/>
@@ -3627,6 +3838,7 @@ or try saving to a lower DWG version.</source>
       <translation>Задайце карыстальніцкі маштаб заметкі ў фармаце x:x, x=x</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/groups.py" line="101"/>
       <location filename="../../draftutils/gui_utils.py" line="916"/>
       <location filename="../../draftutils/utils.py" line="1141"/>
@@ -3644,42 +3856,90 @@ or try saving to a lower DWG version.</source>
       <location filename="../../draftmake/make_dimension.py" line="604"/>
       <location filename="../../draftmake/make_text.py" line="95"/>
       <location filename="../../draftmake/make_text.py" line="178"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="915"/>
+      <location filename="../../draftutils/utils.py" line="1073"/>
+      <location filename="../../draftutils/groups.py" line="100"/>
+      <location filename="../../draftmake/make_patharray.py" line="178"/>
+      <location filename="../../draftmake/make_patharray.py" line="327"/>
+      <location filename="../../draftmake/make_array.py" line="84"/>
+      <location filename="../../draftmake/make_label.py" line="200"/>
+      <location filename="../../draftmake/make_pointarray.py" line="91"/>
+      <location filename="../../draftmake/make_dimension.py" line="265"/>
+      <location filename="../../draftmake/make_dimension.py" line="354"/>
+      <location filename="../../draftmake/make_dimension.py" line="482"/>
+      <location filename="../../draftmake/make_dimension.py" line="603"/>
+      <location filename="../../draftmake/make_layer.py" line="55"/>
+      <location filename="../../draftmake/make_layer.py" line="145"/>
+      <location filename="../../draftmake/make_text.py" line="94"/>
+      <location filename="../../draftmake/make_text.py" line="177"/>
+      <location filename="../../draftfunctions/cut.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No active document. Aborting.</source>
       <translation>Без бягучага дакументу. Перарываецца.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/groups.py" line="137"/>
       <location filename="../../draftutils/gui_utils.py" line="924"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="923"/>
+      <location filename="../../draftutils/groups.py" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: object {} not in document.</source>
       <translation>Няправільны ўвод: аб'ект {} адсутнічае ў дакуменце.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="176"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to insert new object into a scaled part</source>
       <translation>Немагчыма ўставіць новы аб'ект у маштабаваную дэталь</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="284"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Symbol not implemented. Using a default symbol.</source>
       <translation>Знак не рэалізаваны. Ужыты першапачатковы знак.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="798"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>image is Null</source>
       <translation>выява пустая</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="806"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>filename does not exist on the system or in the resource file</source>
       <translation>імя файла не існуе ні ў сістэме, ні ў файле рэсурсаў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="865"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="864"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>unable to load texture</source>
       <translation>немагчыма загрузіць тэкстуру</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/gui_utils.py" line="932"/>
+=======
+      <location filename="../../draftutils/gui_utils.py" line="931"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Does not have 'ViewObject.RootNode'.</source>
       <translation>Не мае 'ViewObject.RootNode'.</translation>
     </message>
@@ -3791,6 +4051,7 @@ or try saving to a lower DWG version.</source>
       <translation>Выберыце становішча тэксту</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_labels.py" line="243"/>
       <source>%1 pick arrow point</source>
       <translation>Выбраць кропку стрэлкі %1</translation>
@@ -3810,6 +4071,12 @@ or try saving to a lower DWG version.</source>
       <location filename="../../draftguitools/gui_dimensions.py" line="122"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="77"/>
       <location filename="../../draftguitools/gui_lines.py" line="95"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="75"/>
+      <location filename="../../draftguitools/gui_lines.py" line="93"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="70"/>
+      <location filename="../../draftguitools/gui_dimensions.py" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick first point</source>
       <translation>Выберыце першую кропку</translation>
     </message>
@@ -3856,6 +4123,7 @@ or try saving to a lower DWG version.</source>
       <translation>Ломаная лінія</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_splines.py" line="153"/>
       <location filename="../../draftguitools/gui_splines.py" line="158"/>
       <location filename="../../draftguitools/gui_beziers.py" line="158"/>
@@ -3865,6 +4133,17 @@ or try saving to a lower DWG version.</source>
       <location filename="../../draftguitools/gui_lines.py" line="266"/>
       <location filename="../../draftguitools/gui_lines.py" line="274"/>
       <location filename="../../draftguitools/gui_lines.py" line="285"/>
+=======
+      <location filename="../../draftguitools/gui_splines.py" line="151"/>
+      <location filename="../../draftguitools/gui_splines.py" line="156"/>
+      <location filename="../../draftguitools/gui_beziers.py" line="159"/>
+      <location filename="../../draftguitools/gui_beziers.py" line="162"/>
+      <location filename="../../draftguitools/gui_lines.py" line="237"/>
+      <location filename="../../draftguitools/gui_lines.py" line="247"/>
+      <location filename="../../draftguitools/gui_lines.py" line="254"/>
+      <location filename="../../draftguitools/gui_lines.py" line="262"/>
+      <location filename="../../draftguitools/gui_lines.py" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick next point</source>
       <translation>Выберыце наступную кропку</translation>
     </message>
@@ -3941,6 +4220,7 @@ or try saving to a lower DWG version.</source>
       <translation>Выберыце апошнюю кропку</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_move.py" line="252"/>
       <source>%1 pick start point</source>
       <translation>Выбраць пачатковую кропку %1</translation>
@@ -3954,6 +4234,11 @@ or try saving to a lower DWG version.</source>
       <location filename="../../draftguitools/gui_rotate.py" line="245"/>
       <location filename="../../draftguitools/gui_move.py" line="195"/>
       <location filename="../../draftguitools/gui_scale.py" line="126"/>
+=======
+      <location filename="../../draftguitools/gui_rotate.py" line="240"/>
+      <location filename="../../draftguitools/gui_move.py" line="191"/>
+      <location filename="../../draftguitools/gui_scale.py" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No valid subelements selected</source>
       <translation>Без дапушчальных укладзеных элементаў</translation>
     </message>
@@ -3963,18 +4248,32 @@ or try saving to a lower DWG version.</source>
       <translation>Рухаць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_polygons.py" line="90"/>
       <location filename="../../draftguitools/gui_arcs.py" line="94"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="91"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick center point</source>
       <translation>Выберыце цэнтральную кропку</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_polygons.py" line="208"/>
       <location filename="../../draftguitools/gui_polygons.py" line="219"/>
       <location filename="../../draftguitools/gui_polygons.py" line="282"/>
       <location filename="../../draftguitools/gui_arcs.py" line="269"/>
       <location filename="../../draftguitools/gui_arcs.py" line="286"/>
       <location filename="../../draftguitools/gui_arcs.py" line="430"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="268"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="285"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="429"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="206"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="217"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick radius</source>
       <translation>Выберыце радыус</translation>
     </message>
@@ -4061,6 +4360,7 @@ or try saving to a lower DWG version.</source>
       <translation>%1 пераключыць бесперапыннасць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_tool_utils.py" line="162"/>
       <source>%1 / hold %2 select edge</source>
       <translation>%1 / трымаць %2 абранае рабро</translation>
@@ -4075,6 +4375,18 @@ or try saving to a lower DWG version.</source>
       <location filename="../../draftguitools/gui_arcs.py" line="490"/>
       <source>%1 pick center</source>
       <translation>Выбраць цэнтр %1</translation>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="487"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="310"/>
+      <source>%1 pick center</source>
+      <translation>%1 выбраць цэнтр</translation>
+    </message>
+    <message>
+      <location filename="../../draftguitools/gui_arcs.py" line="489"/>
+      <location filename="../../draftguitools/gui_polygons.py" line="312"/>
+      <source>%1 pick radius</source>
+      <translation>%1 выбраць радыус</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../draftguitools/gui_polygons.py" line="314"/>
@@ -4129,16 +4441,28 @@ or try saving to a lower DWG version.</source>
       <translation>Стварыць дугу з трох кропак</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_rectangles.py" line="219"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="222"/>
       <location filename="../../draftguitools/gui_arcs.py" line="658"/>
       <location filename="../../draftguitools/gui_lines.py" line="318"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="220"/>
+      <location filename="../../draftguitools/gui_arcs.py" line="655"/>
+      <location filename="../../draftguitools/gui_lines.py" line="306"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick first point</source>
       <translation>Выбраць першую кропку %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_arcs.py" line="662"/>
       <location filename="../../draftguitools/gui_lines.py" line="322"/>
+=======
+      <location filename="../../draftguitools/gui_arcs.py" line="659"/>
+      <location filename="../../draftguitools/gui_lines.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick second point</source>
       <translation>Выбраць другую кропку %1</translation>
     </message>
@@ -4768,14 +5092,24 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Стварыць эліпс</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_rectangles.py" line="208"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="211"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="209"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick opposite point</source>
       <translation>Выберыце супрацьлеглую кропку</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftguitools/gui_rectangles.py" line="223"/>
       <location filename="../../draftguitools/gui_ellipses.py" line="226"/>
+=======
+      <location filename="../../draftguitools/gui_ellipses.py" line="224"/>
+      <location filename="../../draftguitools/gui_rectangles.py" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 pick opposite point</source>
       <translation>%1 выбраць супрацьлеглую кропку</translation>
     </message>
@@ -5037,159 +5371,287 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Разбіць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="235"/>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="406"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="200"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="364"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="185"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="341"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="234"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="405"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="192"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="343"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="171"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object:</source>
       <translation>Аб'ект:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="95"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar Array</source>
       <translation>Палярная сетка</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="189"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements must be at least 2</source>
       <translation>Колькасць элементаў павінна быць не менш за два</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="197"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The angle is above 360 degrees. It is set to this value to proceed.</source>
       <translation>Вугал перавышае 360 градусаў. Для працягу зададзена гэтае значэнне.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="204"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The angle is below -360 degrees. It is set to this value to proceed.</source>
       <translation>Вугал ніжэй 360 градусаў. Для працягу зададзена гэтае значэнне.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="259"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Polar Array</source>
       <translation>Стварыць палярны масіў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="377"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="335"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="312"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="376"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="314"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fuse:</source>
       <translation>Аб'яднаць:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="348"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Link array:</source>
       <translation>Стварыць Сетку спасылак:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="342"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements:</source>
       <translation>Колькасць элементаў:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_polararray.py" line="343"/>
+=======
+      <location filename="../../drafttaskpanels/task_polararray.py" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar angle:</source>
       <translation>Палярны вугал:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="371"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="346"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="350"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center of rotation:</source>
       <translation>Цэнтр вярчэння:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="93"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orthogonal Array</source>
       <translation>Артаганальны масіў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="227"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements must be at least 1</source>
       <translation>Колькасць элементаў павінна быць не менш за адзін</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="245"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>In linear mode, at least 1 axis must be selected</source>
       <translation>У лінейным рэжыме неабходна выбраць па меншай меры адну вось</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="317"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Orthogonal Array</source>
       <translation>Стварыць артаганальны масіў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="390"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="325"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="389"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create link array:</source>
       <translation>Стварыць сетку спасылак:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="408"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of X elements:</source>
       <translation>Колькасць элементаў X:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="411"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval X:</source>
       <translation>Інтэрвал X:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="413"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of Y elements:</source>
       <translation>Колькасць элементаў Y:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="416"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval Y:</source>
       <translation>Інтэрвал Y:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="418"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of Z elements:</source>
       <translation>Колькасць элементаў Z:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="421"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval Z:</source>
       <translation>Інтэрвал Z:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="437"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="436"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch to Ortho Mode</source>
       <translation>Пераключыць у артаганальны рэжым</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="454"/>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="492"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="453"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X-Axis</source>
       <translation>Вось X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="456"/>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="494"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="455"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="493"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y-Axis</source>
       <translation>Вось Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="458"/>
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="496"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="457"/>
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="495"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z-Axis</source>
       <translation>Вось Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="460"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switch to Linear Mode</source>
       <translation>Пераключыць у лінейны рэжым</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="531"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="530"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of elements</source>
       <translation>Колькасць элементаў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="532"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="531"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Interval</source>
       <translation>Інтэрвал</translation>
     </message>
@@ -5199,76 +5661,136 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Контур радка</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftutils/params.py" line="536"/>
+=======
+      <location filename="../../draftutils/params.py" line="505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default</source>
       <translation>Першапачаткова</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="206"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radial distance is zero. Resulting array may not look correct.</source>
       <translation>Радыяльная адлегласць - нуль. Выніковы масіў можа выглядаць няправільна.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="208"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radial distance is negative. It is made positive to proceed.</source>
       <translation>Радыяльная адлегласць адмоўная. Прынята станоўчае значэнне, каб працягнуць.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="95"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circular Array</source>
       <translation>Кругавы масіў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="223"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="188"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="177"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="222"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="180"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>At least 1 element must be selected</source>
       <translation>Павінны быць абраны, па меншай меры, адзін элемент</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="192"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of layers must be at least 2</source>
       <translation>Колькасць пластоў павінна быць не менш за два</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="234"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="199"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="184"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="233"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="191"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="170"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection is not suitable for array</source>
       <translation>Выбар не падыходзіць для масіву</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="212"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tangential distance cannot be 0</source>
       <translation>Тангенцыйная адлегласць не можа быць нулявой</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="219"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tangential distance is negative. It is made positive to proceed.</source>
       <translation>Тангенцыйная адлегласць адмоўная. Прынята станоўчае значэнне, каб працягнуць.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="278"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Circular Array</source>
       <translation>Стварыць круглы масіў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="365"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radial distance:</source>
       <translation>Радыяльная адлегласць:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="366"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tangential distance:</source>
       <translation>Тангенцыйная адлегласць:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="367"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of concentric circles:</source>
       <translation>Колькасць канцентрычных акружнасцяў:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_circulararray.py" line="368"/>
+=======
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Symmetry parameter:</source>
       <translation>Налады сіметрыі:</translation>
     </message>
@@ -5406,12 +5928,21 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Не атрымалася зрабіць фігуру:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="111"/>
       <location filename="../../draftmake/make_pointarray.py" line="97"/>
       <location filename="../../draftmake/make_patharray.py" line="184"/>
       <location filename="../../draftmake/make_patharray.py" line="333"/>
       <location filename="../../draftmake/make_orthoarray.py" line="149"/>
       <location filename="../../draftmake/make_circulararray.py" line="135"/>
+=======
+      <location filename="../../draftmake/make_patharray.py" line="183"/>
+      <location filename="../../draftmake/make_patharray.py" line="332"/>
+      <location filename="../../draftmake/make_orthoarray.py" line="148"/>
+      <location filename="../../draftmake/make_polararray.py" line="97"/>
+      <location filename="../../draftmake/make_pointarray.py" line="96"/>
+      <location filename="../../draftmake/make_circulararray.py" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: base_object not in document.</source>
       <translation>Няправільны ўвод: адсутнічае base_object у дакуменце.</translation>
     </message>
@@ -5422,6 +5953,7 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Няправільны ўвод: адсутнічае path_object у дакуменце.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="123"/>
       <location filename="../../draftmake/make_patharray.py" line="195"/>
       <location filename="../../draftmake/make_patharray.py" line="266"/>
@@ -5430,10 +5962,21 @@ The final angle will be the base angle plus this amount.</source>
       <location filename="../../draftmake/make_orthoarray.py" line="139"/>
       <location filename="../../draftmake/make_label.py" line="317"/>
       <location filename="../../draftmake/make_layer.py" line="185"/>
+=======
+      <location filename="../../draftmake/make_patharray.py" line="194"/>
+      <location filename="../../draftmake/make_patharray.py" line="265"/>
+      <location filename="../../draftmake/make_patharray.py" line="272"/>
+      <location filename="../../draftmake/make_patharray.py" line="342"/>
+      <location filename="../../draftmake/make_orthoarray.py" line="138"/>
+      <location filename="../../draftmake/make_label.py" line="316"/>
+      <location filename="../../draftmake/make_polararray.py" line="109"/>
+      <location filename="../../draftmake/make_layer.py" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: must be a number.</source>
       <translation>Няправільны ўвод: павінен быць лік.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="135"/>
       <location filename="../../draftmake/make_patharray.py" line="202"/>
       <location filename="../../draftmake/make_patharray.py" line="253"/>
@@ -5449,6 +5992,23 @@ The final angle will be the base angle plus this amount.</source>
       <location filename="../../draftmake/make_dimension.py" line="610"/>
       <location filename="../../draftmake/make_dimension.py" line="635"/>
       <location filename="../../draftmake/make_dimension.py" line="642"/>
+=======
+      <location filename="../../draftmake/make_patharray.py" line="201"/>
+      <location filename="../../draftmake/make_patharray.py" line="252"/>
+      <location filename="../../draftmake/make_patharray.py" line="259"/>
+      <location filename="../../draftmake/make_label.py" line="208"/>
+      <location filename="../../draftmake/make_polararray.py" line="115"/>
+      <location filename="../../draftmake/make_dimension.py" line="271"/>
+      <location filename="../../draftmake/make_dimension.py" line="277"/>
+      <location filename="../../draftmake/make_dimension.py" line="284"/>
+      <location filename="../../draftmake/make_dimension.py" line="396"/>
+      <location filename="../../draftmake/make_dimension.py" line="417"/>
+      <location filename="../../draftmake/make_dimension.py" line="535"/>
+      <location filename="../../draftmake/make_dimension.py" line="609"/>
+      <location filename="../../draftmake/make_dimension.py" line="634"/>
+      <location filename="../../draftmake/make_dimension.py" line="641"/>
+      <location filename="../../draftmake/make_circulararray.py" line="156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: must be a vector.</source>
       <translation>Няправільны ўвод: павінен быць вектар.</translation>
     </message>
@@ -5475,9 +6035,15 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Увод: адно значэнне, які пашыраны ў вектар.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftmake/make_polararray.py" line="117"/>
       <location filename="../../draftmake/make_orthoarray.py" line="113"/>
       <location filename="../../draftmake/make_circulararray.py" line="153"/>
+=======
+      <location filename="../../draftmake/make_orthoarray.py" line="112"/>
+      <location filename="../../draftmake/make_polararray.py" line="103"/>
+      <location filename="../../draftmake/make_circulararray.py" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong input: must be an integer number.</source>
       <translation>Няправільны ўвод: павінен быць цэлы лік.</translation>
     </message>
@@ -5685,16 +6251,28 @@ The final angle will be the base angle plus this amount.</source>
       <translation>Няправільны ўвод: павінен быць лік ад 0 да 100.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_clone.py" line="71"/>
       <location filename="../../draftviewproviders/view_hatch.py" line="87"/>
       <location filename="../../draftviewproviders/view_base.py" line="470"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="284"/>
+=======
+      <location filename="../../draftviewproviders/view_base.py" line="469"/>
+      <location filename="../../draftviewproviders/view_hatch.py" line="86"/>
+      <location filename="../../draftviewproviders/view_clone.py" line="70"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Змяніць</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wire.py" line="208"/>
       <location filename="../../draftviewproviders/view_base.py" line="475"/>
+=======
+      <location filename="../../draftviewproviders/view_base.py" line="474"/>
+      <location filename="../../draftviewproviders/view_wire.py" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flatten</source>
       <translation>Звядзенне</translation>
     </message>
@@ -6244,16 +6822,28 @@ To enabled FreeCAD to download these libraries, answer Yes.</source>
       <translation>Ухіл</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="157"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="137"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="133"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="156"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="129"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>True</source>
       <translation>Ісціна</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../drafttaskpanels/task_orthoarray.py" line="159"/>
       <location filename="../../drafttaskpanels/task_circulararray.py" line="141"/>
       <location filename="../../drafttaskpanels/task_polararray.py" line="137"/>
+=======
+      <location filename="../../drafttaskpanels/task_orthoarray.py" line="158"/>
+      <location filename="../../drafttaskpanels/task_circulararray.py" line="133"/>
+      <location filename="../../drafttaskpanels/task_polararray.py" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>False</source>
       <translation>Хлусня</translation>
     </message>
@@ -6313,12 +6903,20 @@ To enabled FreeCAD to download these libraries, answer Yes.</source>
       <translation>_BSpline.createGeometry: Замкнуты з той жа першай/апошняй кропкай. Геаметрыя не абноўлена.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="106"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Writing camera position</source>
       <translation>Запісвае становішча камеры</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="124"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Writing objects shown/hidden state</source>
       <translation>Запіс аб'ектаў у паказаным/схаваным стане</translation>
     </message>
@@ -7043,20 +7641,36 @@ set True for fusion or False for compound</source>
       <translation>Радыус акружнасці</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/polygon.py" line="67"/>
       <location filename="../../draftobjects/ellipse.py" line="64"/>
       <location filename="../../draftobjects/rectangle.py" line="61"/>
       <location filename="../../draftobjects/circle.py" line="61"/>
+=======
+      <location filename="../../draftobjects/ellipse.py" line="63"/>
+      <location filename="../../draftobjects/circle.py" line="60"/>
+      <location filename="../../draftobjects/rectangle.py" line="60"/>
+      <location filename="../../draftobjects/polygon.py" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a face</source>
       <translation>Стварыць грань</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/wire.py" line="90"/>
       <location filename="../../draftobjects/polygon.py" line="70"/>
       <location filename="../../draftobjects/bspline.py" line="57"/>
       <location filename="../../draftobjects/rectangle.py" line="70"/>
       <location filename="../../draftobjects/bezcurve.py" line="66"/>
       <location filename="../../draftobjects/circle.py" line="64"/>
+=======
+      <location filename="../../draftobjects/wire.py" line="88"/>
+      <location filename="../../draftobjects/bspline.py" line="56"/>
+      <location filename="../../draftobjects/circle.py" line="63"/>
+      <location filename="../../draftobjects/bezcurve.py" line="65"/>
+      <location filename="../../draftobjects/rectangle.py" line="69"/>
+      <location filename="../../draftobjects/polygon.py" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The area of this object</source>
       <translation>Плошча аб'екту</translation>
     </message>
@@ -7081,16 +7695,28 @@ set True for fusion or False for compound</source>
       <translation>Як шматкутнік павінен быць начэрчаны з кантрольнай акружнасці</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/wire.py" line="78"/>
       <location filename="../../draftobjects/polygon.py" line="61"/>
       <location filename="../../draftobjects/rectangle.py" line="55"/>
+=======
+      <location filename="../../draftobjects/wire.py" line="76"/>
+      <location filename="../../draftobjects/rectangle.py" line="54"/>
+      <location filename="../../draftobjects/polygon.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius to use to fillet the corners</source>
       <translation>Радыус, які ўжываецца для акругленых кутоў</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/wire.py" line="81"/>
       <location filename="../../draftobjects/polygon.py" line="64"/>
       <location filename="../../draftobjects/rectangle.py" line="58"/>
+=======
+      <location filename="../../draftobjects/wire.py" line="79"/>
+      <location filename="../../draftobjects/rectangle.py" line="57"/>
+      <location filename="../../draftobjects/polygon.py" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Size of the chamfer to give to the corners</source>
       <translation>Памер фаскі для кутоў</translation>
     </message>
@@ -7116,18 +7742,32 @@ set True for fusion or False for compound</source>
       <translation>Каэфіцыент павароту скручанай сеткі.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/pointarray.py" line="112"/>
       <location filename="../../draftobjects/array.py" line="325"/>
       <location filename="../../draftobjects/pathtwistedarray.py" line="150"/>
       <location filename="../../draftobjects/patharray.py" line="262"/>
+=======
+      <location filename="../../draftobjects/pathtwistedarray.py" line="149"/>
+      <location filename="../../draftobjects/pointarray.py" line="111"/>
+      <location filename="../../draftobjects/array.py" line="324"/>
+      <location filename="../../draftobjects/patharray.py" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the individual array elements (only for Link arrays)</source>
       <translation>Паказваць асобныя элементы масіва (толькі для 'Сетак спасылак')</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/pointarray.py" line="118"/>
       <location filename="../../draftobjects/array.py" line="148"/>
       <location filename="../../draftobjects/pathtwistedarray.py" line="159"/>
       <location filename="../../draftobjects/patharray.py" line="269"/>
+=======
+      <location filename="../../draftobjects/pathtwistedarray.py" line="158"/>
+      <location filename="../../draftobjects/pointarray.py" line="117"/>
+      <location filename="../../draftobjects/array.py" line="147"/>
+      <location filename="../../draftobjects/patharray.py" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The placement for each array element</source>
       <translation>Размяшчэнне кожнага элемента масіва</translation>
     </message>
@@ -7245,8 +7885,13 @@ they will only be editable by changing the style through the 'Annotation style e
 Пры ўжыванні захаванага стылю некаторыя ўласцівасці прадстаўлення стануць даступныя толькі для чытання; іх можна будзе мяняць, толькі калі змяніць стыль з дапамогай інструмента 'Сродак праўкі стыляў заметкі'.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/array.py" line="101"/>
       <location filename="../../draftobjects/patharray.py" line="220"/>
+=======
+      <location filename="../../draftobjects/array.py" line="100"/>
+      <location filename="../../draftobjects/patharray.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base object that will be duplicated</source>
       <translation>Асноўны аб'ект, які будзе паўторацца</translation>
     </message>
@@ -7361,10 +8006,17 @@ Otherwise the copies will have the same orientation as the original Base object.
 - Кругавы: размяшчае копіі канцэнтрычнымі акружнасці вакол асноўнага аб'екту.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftobjects/pointarray.py" line="86"/>
       <location filename="../../draftobjects/array.py" line="129"/>
       <location filename="../../draftobjects/pathtwistedarray.py" line="120"/>
       <location filename="../../draftobjects/patharray.py" line="255"/>
+=======
+      <location filename="../../draftobjects/pathtwistedarray.py" line="119"/>
+      <location filename="../../draftobjects/pointarray.py" line="85"/>
+      <location filename="../../draftobjects/array.py" line="128"/>
+      <location filename="../../draftobjects/patharray.py" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specifies if the copies should be fused together if they touch each other (slower)</source>
       <translation>Паказвае, ці павінны копіі быць аб'яднаныя разам, калі яны датычацца адзін аднаго (павольна)</translation>
     </message>
@@ -7919,34 +8571,60 @@ the 'First Angle' and 'Last Angle' properties.</source>
       <translation>Колер тэксту</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="78"/>
       <location filename="../../draftviewproviders/view_text.py" line="61"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="77"/>
+      <location filename="../../draftviewproviders/view_text.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line spacing (relative to font size)</source>
       <translation>Міжрадковы інтэрвал (адносна памеру шрыфту)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="61"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical alignment</source>
       <translation>Вертыкальнае выраўноўванне</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="69"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="68"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum number of characters on each line of the text box</source>
       <translation>Найбольшая колькасць знакаў у кожным радку тэкставага поля</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="73"/>
       <location filename="../../draftviewproviders/view_text.py" line="56"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="72"/>
+      <location filename="../../draftviewproviders/view_text.py" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal alignment</source>
       <translation>Гарызантальнае выраўноўванне</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="91"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of frame around the text of this object</source>
       <translation>Тып каркасу вакол тэксту аб'екту</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_label.py" line="96"/>
+=======
+      <location filename="../../draftviewproviders/view_label.py" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Display a leader line or not</source>
       <translation>Адлюстраваць лінію зноскі, ці не</translation>
     </message>
@@ -8074,18 +8752,32 @@ Use 'arch' to force US arch notation</source>
 Ужывайце 'arch' для абазначэння архітэктурнай ЗША</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wire.py" line="67"/>
       <location filename="../../draftviewproviders/view_wire.py" line="80"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="144"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="159"/>
+=======
+      <location filename="../../draftviewproviders/view_wire.py" line="66"/>
+      <location filename="../../draftviewproviders/view_wire.py" line="79"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="143"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arrow size</source>
       <translation>Памер стрэлкі</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wire.py" line="72"/>
       <location filename="../../draftviewproviders/view_wire.py" line="85"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="149"/>
       <location filename="../../draftviewproviders/view_draft_annotation.py" line="166"/>
+=======
+      <location filename="../../draftviewproviders/view_wire.py" line="71"/>
+      <location filename="../../draftviewproviders/view_wire.py" line="84"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="148"/>
+      <location filename="../../draftviewproviders/view_draft_annotation.py" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arrow type</source>
       <translation>Тып стрэлкі</translation>
     </message>
@@ -8117,12 +8809,20 @@ beyond the dimension line</source>
       <translation>Паказаць лінію вымярэння і стрэлкі</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="52"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The display length of this section plane</source>
       <translation>Даўжыня адлюстравання плоскасці перасеку</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../draftviewproviders/view_wpproxy.py" line="55"/>
+=======
+      <location filename="../../draftviewproviders/view_wpproxy.py" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The size of the arrows of this section plane</source>
       <translation>Памер стрэлак плоскасці перасеку</translation>
     </message>
@@ -8133,6 +8833,18 @@ beyond the dimension line</source>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>Command</name>
+    <message>
+      <location filename="../../draftviewproviders/view_base.py" line="502"/>
+      <location filename="../../draftviewproviders/view_hatch.py" line="92"/>
+      <source>Transform</source>
+      <translation>Пераўтварыць</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>QObject</name>
     <message>
       <location filename="../../InitGui.py" line="145"/>

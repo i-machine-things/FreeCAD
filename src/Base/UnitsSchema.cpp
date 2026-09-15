@@ -22,7 +22,10 @@
  ************************************************************************/
 
 #include <cmath>
+<<<<<<< HEAD
 #include <algorithm>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <iomanip>
 #include <limits>
 #include <memory>

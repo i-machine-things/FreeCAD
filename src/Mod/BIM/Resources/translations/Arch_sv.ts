@@ -410,11 +410,19 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
       <translation>Håll dig inloggad över FreeCAD-sessioner</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../ui/dialogListWidget.ui" line="14"/>
       <location filename="../ui/DialogDisplayText.ui" line="14"/>
       <location filename="../ui/dialogPhases.ui" line="14"/>
       <location filename="../ui/dialogExport.ui" line="14"/>
       <location filename="../ui/dialogQuantitySurveying.ui" line="14"/>
+=======
+      <location filename="../ui/DialogDisplayText.ui" line="14"/>
+      <location filename="../ui/dialogExport.ui" line="14"/>
+      <location filename="../ui/dialogListWidget.ui" line="14"/>
+      <location filename="../ui/dialogQuantitySurveying.ui" line="14"/>
+      <location filename="../ui/dialogPhases.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Dialog</source>
       <translation>Dialog</translation>
     </message>
@@ -456,8 +464,13 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
       <translation>Visa endast matchningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../ui/dialogLayersIFC.ui" line="53"/>
       <location filename="../ui/dialogIfcProperties.ui" line="141"/>
+=======
+      <location filename="../ui/dialogIfcProperties.ui" line="141"/>
+      <location filename="../ui/dialogLayersIFC.ui" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../ui/dialogIfcQuantities.ui" line="80"/>
       <source>Select All</source>
       <translation>Välj alla</translation>
@@ -568,8 +581,8 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
       <translation>Förhindrar ytterligare uppmaningar när du skapar nya FreeCAD-dokument. Nya dokument kommer inte att konverteras till IFC automatiskt, men konvertering är fortfarande möjlig senare via Utils → Skapa IFC-projekt.</translation>
     </message>
     <message>
-      <location filename="../ui/dialogConvertDocument.ui" line="43"/>
       <location filename="../ui/dialogCreateProject.ui" line="30"/>
+      <location filename="../ui/dialogConvertDocument.ui" line="43"/>
       <source>Do not ask again</source>
       <translation>Fråga inte igen</translation>
     </message>
@@ -745,8 +758,13 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
     </message>
     <message>
       <location filename="../ui/dialogLayersIFC.ui" line="46"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../ui/dialogProjectManager.ui" line="679"/>
       <location filename="../ui/dialogPhases.ui" line="55"/>
+=======
+      <location filename="../ui/dialogPhases.ui" line="55"/>
+      <location filename="../ui/dialogProjectManager.ui" line="679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Delete</source>
       <translation>Ta bort</translation>
     </message>
@@ -783,10 +801,17 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
       <translation>Avbryt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../ui/dialogLayersIFC.ui" line="104"/>
       <location filename="../ui/dialogProjectManager.ui" line="717"/>
       <location filename="../ui/dialogQuantitySurveying.ui" line="26"/>
       <location filename="../ui/dialogPreflightResults.ui" line="103"/>
+=======
+      <location filename="../ui/dialogPreflightResults.ui" line="103"/>
+      <location filename="../ui/dialogLayersIFC.ui" line="104"/>
+      <location filename="../ui/dialogQuantitySurveying.ui" line="26"/>
+      <location filename="../ui/dialogProjectManager.ui" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>OK</source>
       <translation>OK</translation>
     </message>
@@ -1179,8 +1204,8 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
       <translation>Nedan visas de faser som för närvarande är konfigurerade för denna modell</translation>
     </message>
     <message>
-      <location filename="../ui/dialogProjectManager.ui" line="665"/>
       <location filename="../ui/dialogPhases.ui" line="48"/>
+      <location filename="../ui/dialogProjectManager.ui" line="665"/>
       <source>Add</source>
       <translation>Lägg till</translation>
     </message>
@@ -1286,12 +1311,16 @@ i det projektet, oavsett om de är expanderade eller inte.</translation>
       <translation>Rymdinformation</translation>
     </message>
     <message>
+      <location filename="../ui/dialogSpaces.ui" line="92"/>
       <location filename="../ui/dialogProjectManager.ui" line="457"/>
       <location filename="../ui/dialogProjectManager.ui" line="480"/>
       <location filename="../ui/dialogProjectManager.ui" line="493"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../ui/dialogProjectManager.ui" line="506"/>
       <location filename="../ui/dialogProjectManager.ui" line="615"/>
       <location filename="../ui/dialogSpaces.ui" line="92"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>0</source>
       <translation>0</translation>
     </message>
@@ -2580,11 +2609,14 @@ p, li { blanksteg: pre-wrap; }
       <location filename="../ui/preferences-arch.ui" line="276"/>
       <source>If this is checked, flat groups of faces will be force-flattened, resulting in possible gaps and non-solid results</source>
       <translation>Om detta alternativ kryssas för, kommer platta grupper av ytor bli tvångsutplattade. Detta kan resultera i att geometri får hål eller inte längre är kropp</translation>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
     </message>
     <message>
       <location filename="../ui/preferences-arch.ui" line="14"/>
       <source>General</source>
       <translation>Allmänt</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     </message>
     <message>
       <location filename="../ui/preferences-arch.ui" line="45"/>
@@ -3384,9 +3416,9 @@ Om du använder Netgen, se till att det är tillgängligt.</translation>
       <translation>Tessellering</translation>
     </message>
     <message>
-      <location filename="../ui/preferences-webgl.ui" line="26"/>
-      <location filename="../ui/preferences-ifc-export.ui" line="35"/>
       <location filename="../ui/preferences-dae.ui" line="26"/>
+      <location filename="../ui/preferences-ifc-export.ui" line="35"/>
+      <location filename="../ui/preferences-webgl.ui" line="26"/>
       <source>Export Options</source>
       <translation>Exportalternativ</translation>
     </message>
@@ -3813,6 +3845,7 @@ Standardmallen finns på följande plats:
       <translation>Kategori</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchCoveringGui.py" line="524"/>
       <source>Solid Tiles</source>
       <translation>Solida plattor</translation>
@@ -3983,10 +4016,17 @@ Standardmallen finns på följande plats:
       <location filename="../../bimcommands/BimWindow.py" line="451"/>
       <location filename="../../bimcommands/BimProfile.py" line="106"/>
       <location filename="../../bimcommands/BimPanel.py" line="204"/>
+=======
+      <location filename="../../ArchStructure.py" line="561"/>
+      <location filename="../../bimcommands/BimProfile.py" line="90"/>
+      <location filename="../../bimcommands/BimWindow.py" line="431"/>
+      <location filename="../../bimcommands/BimPanel.py" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Preset</source>
       <translation>Förval</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchCoveringGui.py" line="847"/>
       <source>Use standard corner or center alignment relative to the boundary</source>
       <translation>Använd standardjustering mot hörn eller mitt i förhållande till gränsen</translation>
@@ -4077,10 +4117,18 @@ Standardmallen finns på följande plats:
       <location filename="../../ArchPanel.py" line="576"/>
       <location filename="../../bimcommands/BimWall.py" line="507"/>
       <location filename="../../bimcommands/BimPanel.py" line="214"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1719"/>
+      <location filename="../../ArchStructure.py" line="570"/>
+      <location filename="../../ArchCommands.py" line="1332"/>
+      <location filename="../../bimcommands/BimWall.py" line="341"/>
+      <location filename="../../bimcommands/BimPanel.py" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Length</source>
       <translation>Längd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchCoveringGui.py" line="1001"/>
       <source>The width of the tiles</source>
       <translation>Plattornas bredd</translation>
@@ -4096,10 +4144,17 @@ Standardmallen finns på följande plats:
       <location filename="../../ArchPanel.py" line="577"/>
       <location filename="../../bimcommands/BimWall.py" line="514"/>
       <location filename="../../bimcommands/BimPanel.py" line="221"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1720"/>
+      <location filename="../../ArchStructure.py" line="584"/>
+      <location filename="../../bimcommands/BimWall.py" line="348"/>
+      <location filename="../../bimcommands/BimPanel.py" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Width</source>
       <translation>Bredd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchCoveringGui.py" line="1007"/>
       <source>The width of the joints between tiles</source>
       <translation>Bredden på fogarna mellan plattorna</translation>
@@ -4253,6 +4308,12 @@ Standardmallen finns på följande plats:
       <location filename="../../ArchRoof.py" line="1088"/>
       <location filename="../../ArchPrecast.py" line="1721"/>
       <location filename="../../bimcommands/BimWall.py" line="521"/>
+=======
+      <location filename="../../ArchPrecast.py" line="1721"/>
+      <location filename="../../ArchRoof.py" line="1084"/>
+      <location filename="../../ArchStructure.py" line="591"/>
+      <location filename="../../bimcommands/BimWall.py" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Height</source>
       <translation>Höjd</translation>
     </message>
@@ -4552,8 +4613,19 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Överhäng</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../Arch.py" line="1153"/>
       <location filename="../../ArchRoof.py" line="1072"/>
+=======
+      <location filename="../../bimcommands/BimSpace.py" line="70"/>
+      <location filename="../../bimcommands/BimRoof.py" line="93"/>
+      <source>Please select a base object</source>
+      <translation>Välj ett basobjekt</translation>
+    </message>
+    <message>
+      <location filename="../../ArchRoof.py" line="1068"/>
+      <location filename="../../Arch.py" line="1143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Roof</source>
       <translation>Tak</translation>
     </message>
@@ -4568,13 +4640,17 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>IdRel</translation>
     </message>
     <message>
-      <location filename="../../ArchWindowPresets.py" line="563"/>
+      <location filename="../../ArchWindowPresets.py" line="554"/>
       <source>Door</source>
       <translation>Dörr</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1202"/>
       <location filename="../../ArchWindowPresets.py" line="566"/>
+=======
+      <location filename="../../ArchWindowPresets.py" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Opening</source>
       <translation>Öppnar</translation>
     </message>
@@ -4685,9 +4761,15 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Ogiltig rotnod i</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchReference.py" line="991"/>
       <source>Choose Reference File</source>
       <translation>Välj referensfil</translation>
+=======
+      <location filename="../../ArchReference.py" line="909"/>
+      <source>External reference</source>
+      <translation>Extern referens</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     </message>
     <message>
       <location filename="../../ArchReference.py" line="911"/>
@@ -4721,6 +4803,14 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Referensfiler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
+=======
+      <location filename="../../ArchReference.py" line="991"/>
+      <source>Choose reference file</source>
+      <translation>Välj referensfil</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimReference.py" line="56"/>
       <source>Create external reference</source>
       <translation>Skapa extern referens</translation>
@@ -4793,7 +4883,11 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="109"/>
       <location filename="../../bimcommands/BimWindow.py" line="136"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimWindow.py" line="213"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Create Window</source>
       <translation>Skapa fönster</translation>
     </message>
@@ -4803,53 +4897,93 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Välj en yta på ett befintligt objekt eller välj en förinställning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimWindow.py" line="171"/>
       <source>%1 pick point on host</source>
       <translation>%1 välj punkt på värdobjektet</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimWindow.py" line="263"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Window not based on sketch. Window not aligned or resized.</source>
       <translation>Fönstret är inte baserat på skissen. Fönstret är inte justerat eller storleksanpassat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimWindow.py" line="282"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>No Width and/or Height constraint in window sketch. Window not resized.</source>
       <translation>Ingen begränsning av bredd och/eller höjd i fönsterskissen. Fönstret har inte ändrats i storlek.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimWindow.py" line="285"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>No window found. Cannot continue.</source>
       <translation>Inget fönster hittades. Det går inte att fortsätta.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimWindow.py" line="404"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="380"/>
+      <source>Window options</source>
+      <translation>Alternativ för fönster</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimWindow.py" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Auto include in host object</source>
       <translation>Automatisk inkludering i värdobjekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimWindow.py" line="413"/>
+=======
+      <location filename="../../bimcommands/BimWindow.py" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Sill height</source>
       <translation>Höjd på tröskel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1099"/>
       <location filename="../../ArchWindow.py" line="1745"/>
+=======
+      <location filename="../../ArchWindow.py" line="1078"/>
+      <location filename="../../ArchWindow.py" line="1681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Invert Opening Direction</source>
       <translation>Invertera öppningsriktningen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1114"/>
       <location filename="../../ArchWindow.py" line="1748"/>
+=======
+      <location filename="../../ArchWindow.py" line="1089"/>
+      <location filename="../../ArchWindow.py" line="1684"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Invert Hinge Position</source>
       <translation>Invertera gångjärnets position</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1176"/>
+=======
+      <location filename="../../ArchWindow.py" line="1151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>This window has no defined opening</source>
       <translation>Detta fönster har ingen definierad öppning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1191"/>
       <location filename="../../bimcommands/BimWindow.py" line="400"/>
       <source>Window Options</source>
@@ -4858,65 +4992,111 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
     <message>
       <location filename="../../ArchWindow.py" line="1505"/>
       <location filename="../../ArchWindow.py" line="1556"/>
+=======
+      <location filename="../../ArchWindow.py" line="1441"/>
+      <location filename="../../ArchWindow.py" line="1492"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Get selected edge</source>
       <translation>Få vald kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1658"/>
+=======
+      <location filename="../../ArchWindow.py" line="1594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Unable to create component</source>
       <translation>Det går inte att skapa en komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1696"/>
       <source>Window Elements</source>
       <translation>Fönsterelement</translation>
     </message>
     <message>
       <location filename="../../ArchWindow.py" line="1697"/>
+=======
+      <location filename="../../ArchWindow.py" line="1632"/>
+      <source>Window elements</source>
+      <translation>Fönsterelement</translation>
+    </message>
+    <message>
+      <location filename="../../ArchWindow.py" line="1633"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Hole wire</source>
       <translation>Håltråd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1704"/>
+=======
+      <location filename="../../ArchWindow.py" line="1640"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The number of the wire that defines a hole in the host object. A value of zero will automatically adopt the largest wire</source>
       <translation>Numret på den tråd som definierar ett hål i värdobjektet. Ett värde på noll kommer automatiskt att anta den största tråden</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1705"/>
+=======
+      <location filename="../../ArchWindow.py" line="1641"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Pick Selected</source>
       <translation>Välj vald</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1711"/>
+=======
+      <location filename="../../ArchWindow.py" line="1647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Create/Update Component</source>
       <translation>Skapa/Uppdatera komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1715"/>
+=======
+      <location filename="../../ArchWindow.py" line="1651"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Create new Component</source>
       <translation>Skapa ny komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1719"/>
+=======
+      <location filename="../../ArchWindow.py" line="1655"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Frame depth</source>
       <translation>Ramdjup</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1721"/>
       <source>Hinge/Track</source>
       <translation>Gångjärn/skena</translation>
     </message>
     <message>
       <location filename="../../ArchWindow.py" line="1730"/>
+=======
+      <location filename="../../ArchWindow.py" line="1666"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If this is checked, the window's Frame property value will be added to the value entered here</source>
       <translation>Om detta är markerat kommer fönstrets Frame-egenskapsvärde att läggas till det värde som anges här</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1738"/>
+=======
+      <location filename="../../ArchWindow.py" line="1674"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If this is checked, the window's Offset property value will be added to the value entered here</source>
       <translation>Om detta är markerat kommer fönstrets Offset-egenskapsvärde att läggas till det värde som anges här</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1742"/>
       <source>Retrieves the selected edge</source>
       <translation>Hämtar den valda kanten</translation>
@@ -4927,20 +5107,35 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <location filename="../../ArchSpace.py" line="954"/>
       <location filename="../../ArchAxis.py" line="985"/>
       <location filename="../../ArchComponent.py" line="2463"/>
+=======
+      <location filename="../../ArchWindow.py" line="1642"/>
+      <location filename="../../ArchSpace.py" line="944"/>
+      <location filename="../../ArchAxis.py" line="955"/>
+      <location filename="../../ArchComponent.py" line="2384"/>
+      <location filename="../../ArchSectionPlane.py" line="1737"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchAxisSystem.py" line="338"/>
       <source>Remove</source>
       <translation>Ta bort</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1707"/>
       <location filename="../../ArchSpace.py" line="949"/>
       <location filename="../../ArchAxis.py" line="986"/>
       <location filename="../../ArchComponent.py" line="2464"/>
+=======
+      <location filename="../../ArchWindow.py" line="1643"/>
+      <location filename="../../ArchSpace.py" line="938"/>
+      <location filename="../../ArchAxis.py" line="956"/>
+      <location filename="../../ArchComponent.py" line="2385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchAxisSystem.py" line="339"/>
       <source>Add</source>
       <translation>Lägg till</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSchedule.py" line="765"/>
       <location filename="../../ArchSectionPlane.py" line="1549"/>
       <location filename="../../ArchWindow.py" line="1708"/>
@@ -4953,37 +5148,77 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <location filename="../../ArchComponent.py" line="1971"/>
       <location filename="../../ArchIFCView.py" line="63"/>
       <location filename="../../ArchAxisSystem.py" line="222"/>
+=======
+      <location filename="../../ArchWindow.py" line="1644"/>
+      <location filename="../../ArchGrid.py" line="384"/>
+      <location filename="../../ArchAxis.py" line="788"/>
+      <location filename="../../ArchMaterial.py" line="470"/>
+      <location filename="../../ArchMaterial.py" line="797"/>
+      <location filename="../../ArchSite.py" line="1294"/>
+      <location filename="../../ArchComponent.py" line="1915"/>
+      <location filename="../../ArchSectionPlane.py" line="1504"/>
+      <location filename="../../ArchAxisSystem.py" line="222"/>
+      <location filename="../../ArchReference.py" line="717"/>
+      <location filename="../../ArchIFCView.py" line="63"/>
+      <location filename="../../ArchSchedule.py" line="766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Edit</source>
       <translation>Redigera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1712"/>
+=======
+      <location filename="../../ArchWindow.py" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Base 2D object</source>
       <translation>Bas 2D-objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1713"/>
       <location filename="../../ArchWindow.py" line="1718"/>
+=======
+      <location filename="../../ArchWindow.py" line="1649"/>
+      <location filename="../../ArchWindow.py" line="1654"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Wires</source>
       <translation>Ledningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1714"/>
       <location filename="../../ArchComponent.py" line="2471"/>
+=======
+      <location filename="../../ArchWindow.py" line="1650"/>
+      <location filename="../../ArchComponent.py" line="2392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Components</source>
       <translation>Komponenter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1716"/>
       <location filename="../../ArchMaterial.py" line="895"/>
       <location filename="../../ArchMaterial.py" line="921"/>
+=======
+      <location filename="../../ArchWindow.py" line="1652"/>
+      <location filename="../../ArchMaterial.py" line="879"/>
+      <location filename="../../ArchMaterial.py" line="905"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Name</source>
       <translation>Namn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1717"/>
       <location filename="../../ArchCommands.py" line="1730"/>
       <location filename="../../ArchComponent.py" line="2539"/>
+=======
+      <location filename="../../ArchWindow.py" line="1653"/>
+      <location filename="../../ArchComponent.py" line="2460"/>
+      <location filename="../../ArchCommands.py" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimIfcProperties.py" line="478"/>
       <source>Type</source>
       <translation>Typ</translation>
@@ -5000,34 +5235,70 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Tjocklek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1720"/>
       <location filename="../../ArchPrecast.py" line="1725"/>
       <location filename="../../bimcommands/BimWall.py" line="537"/>
+=======
+      <location filename="../../ArchWindow.py" line="1656"/>
+      <location filename="../../ArchPrecast.py" line="1725"/>
+      <location filename="../../bimcommands/BimWall.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Offset</source>
       <translation>Förskjutning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1722"/>
+=======
+      <location filename="../../ArchWindow.py" line="1657"/>
+      <source>Hinge</source>
+      <translation>Gångjärn</translation>
+    </message>
+    <message>
+      <location filename="../../ArchWindow.py" line="1658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Opening mode</source>
       <translation>Öppningsläge</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1723"/>
+=======
+      <location filename="../../ArchWindow.py" line="1659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>+ Frame property</source>
       <translation>+ Ram egendom</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1731"/>
+=======
+      <location filename="../../ArchWindow.py" line="1667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>+ Offset property</source>
       <translation>+ Offset-egenskap</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1739"/>
+=======
+      <location filename="../../ArchWindow.py" line="1675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Get Selected Edge</source>
       <translation>Få utvalda kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../Arch.py" line="141"/>
+=======
+      <location filename="../../ArchWindow.py" line="1678"/>
+      <source>Press to retrieve the selected edge</source>
+      <translation>Tryck för att hämta den valda kanten</translation>
+    </message>
+    <message>
+      <location filename="../../Arch.py" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Axis System</source>
       <translation>Axis-system</translation>
     </message>
@@ -5047,10 +5318,17 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Välj minst en axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../Arch.py" line="101"/>
       <location filename="../../ArchAxis.py" line="984"/>
       <location filename="../../ArchComponent.py" line="2470"/>
       <location filename="../../ArchAxisSystem.py" line="337"/>
+=======
+      <location filename="../../ArchAxis.py" line="954"/>
+      <location filename="../../ArchComponent.py" line="2391"/>
+      <location filename="../../ArchAxisSystem.py" line="337"/>
+      <location filename="../../Arch.py" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Axes</source>
       <translation>Axlar</translation>
     </message>
@@ -5060,10 +5338,17 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Axis systemkomponenter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../importers/importJSON.py" line="62"/>
       <location filename="../../importers/importOBJ.py" line="300"/>
       <location filename="../../importers/importOBJ.py" line="338"/>
       <location filename="../../importers/importWebGL.py" line="371"/>
+=======
+      <location filename="../../importers/importOBJ.py" line="301"/>
+      <location filename="../../importers/importOBJ.py" line="339"/>
+      <location filename="../../importers/importWebGL.py" line="371"/>
+      <location filename="../../importers/importJSON.py" line="62"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Successfully written</source>
       <translation>Framgångsrikt skrivet</translation>
     </message>
@@ -5168,9 +5453,15 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Skapa multi-material</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../Arch.py" line="539"/>
       <location filename="../../ArchMaterial.py" line="896"/>
       <location filename="../../ArchMaterial.py" line="922"/>
+=======
+      <location filename="../../ArchMaterial.py" line="880"/>
+      <location filename="../../ArchMaterial.py" line="906"/>
+      <location filename="../../Arch.py" line="533"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Material</source>
       <translation>Material</translation>
     </message>
@@ -6209,18 +6500,31 @@ Om Run = 0 beräknas Run så att höjden blir densamma som för den relativa pro
       <translation>Objektet har inte inställbara IFC-attribut</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSchedule.py" line="988"/>
       <location filename="../../ArchSchedule.py" line="1013"/>
       <location filename="../../ArchCommands.py" line="1731"/>
       <location filename="../../ArchComponent.py" line="2540"/>
+=======
+      <location filename="../../ArchComponent.py" line="2461"/>
+      <location filename="../../ArchCommands.py" line="1702"/>
+      <location filename="../../ArchSchedule.py" line="989"/>
+      <location filename="../../ArchSchedule.py" line="1014"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimIfcProperties.py" line="479"/>
       <source>Value</source>
       <translation>Värde</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSchedule.py" line="989"/>
       <location filename="../../ArchSchedule.py" line="1015"/>
       <location filename="../../ArchCommands.py" line="1732"/>
+=======
+      <location filename="../../ArchCommands.py" line="1703"/>
+      <location filename="../../ArchSchedule.py" line="990"/>
+      <location filename="../../ArchSchedule.py" line="1016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Unit</source>
       <translation>Enhet</translation>
     </message>
@@ -6297,22 +6601,38 @@ Skapandet av våningen avbröts.</translation>
       <translation>Hittade en form som innehåller kurvor, triangulering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../importers/importOBJ.py" line="449"/>
+=======
+      <location filename="../../importers/importOBJ.py" line="450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Successfully imported</source>
       <translation>Framgångsrikt importerad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1132"/>
+=======
+      <location filename="../../ArchComponent.py" line="1120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Error computing the shape of this object</source>
       <translation>Fel vid beräkning av formen på detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1158"/>
+=======
+      <location filename="../../ArchComponent.py" line="1146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>has no solid</source>
       <translation>har ingen kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1167"/>
+=======
+      <location filename="../../ArchComponent.py" line="1155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>has an invalid shape</source>
       <translation>har en ogiltig form</translation>
     </message>
@@ -6323,38 +6643,77 @@ Skapandet av våningen avbröts.</translation>
       <location filename="../../ArchPrecast.py" line="605"/>
       <location filename="../../ArchPrecast.py" line="773"/>
       <location filename="../../ArchPrecast.py" line="894"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1171"/>
+=======
+      <location filename="../../ArchComponent.py" line="1159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>has a null shape</source>
       <translation>har en nollform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1565"/>
+=======
+      <location filename="../../ArchComponent.py" line="1397"/>
+      <source>Could not project face from {self.obj.Label}
+</source>
+      <translation>Kunde inte projicera yta från {self.obj.Label}
+</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="1410"/>
+      <source>Could not determine if a face from {self.obj.Label} is vertical: normalAt() failed
+</source>
+      <translation>Kunde inte avgöra om en yta från {self.obj.Label} är vertikal: normalAt() misslyckades
+</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="1518"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Error computing areas for {self.obj.Label}: unable to project or make face with normal {face.normalAt(0, 0)}. Area values will be reset to 0.
 </source>
       <translation>Fel vid beräkning av områden för {self.obj.Label}: det går inte att projicera eller skapa en yta med normal {face.normalAt(0, 0)}. Areavärdena kommer att återställas till 0.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2465"/>
+=======
+      <location filename="../../ArchComponent.py" line="2386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Components of This Object</source>
       <translation>Komponenter i detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2475"/>
+=======
+      <location filename="../../ArchComponent.py" line="2396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Edit IFC Properties</source>
       <translation>Redigera IFC-egenskaper</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2476"/>
+=======
+      <location filename="../../ArchComponent.py" line="2397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Edit Standard Code</source>
       <translation>Redigera standardkod</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1310"/>
+=======
+      <location filename="../../ArchComponent.py" line="1296"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Wrong base type</source>
       <translation>Fel typ av bas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSite.py" line="1053"/>
       <source>Solar Diagrams</source>
       <translation>Soldiagram</translation>
@@ -6506,21 +6865,35 @@ Python-modulen ladybug eller pysolar krävs.</translation>
     <message>
       <location filename="../../ArchSite.py" line="1594"/>
       <location filename="../../ArchComponent.py" line="1978"/>
+=======
+      <location filename="../../ArchSite.py" line="1300"/>
+      <location filename="../../ArchComponent.py" line="1922"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Toggle Subcomponents</source>
       <translation>Växla underkomponenter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2108"/>
+=======
+      <location filename="../../ArchComponent.py" line="2052"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Closing Sketch edit</source>
       <translation>Avslutning skiss edit</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchCommands.py" line="315"/>
       <location filename="../../ArchComponent.py" line="2462"/>
+=======
+      <location filename="../../ArchComponent.py" line="2383"/>
+      <location filename="../../ArchCommands.py" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Component</source>
       <translation>Komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1435"/>
       <source>Could not project face{face_name} from {self.obj.Label}
 </source>
@@ -6552,61 +6925,112 @@ Python-modulen ladybug eller pysolar krävs.</translation>
       <location filename="../../ArchComponent.py" line="2132"/>
       <location filename="../../bimcommands/BimSpace.py" line="71"/>
       <location filename="../../bimcommands/BimRoof.py" line="94"/>
+=======
+      <location filename="../../ArchComponent.py" line="2076"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Select a base object</source>
       <translation>Välj ett basobjekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2466"/>
+=======
+      <location filename="../../ArchComponent.py" line="1498"/>
+      <source>Error computing areas for {self.obj.Label}: unable to project non-planar faces with holes. Area values will be reset to 0.
+</source>
+      <translation>Fel vid beräkning av ytor för {self.obj.Label}: det går inte att projicera icke-planära ytor med hål. Ytvärdena återställs till 0.
+</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="2387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Base component</source>
       <translation>Baskomponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2467"/>
+=======
+      <location filename="../../ArchComponent.py" line="2388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Additions</source>
       <translation>Tillägg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2468"/>
+=======
+      <location filename="../../ArchComponent.py" line="2389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Subtractions</source>
       <translation>Subtraktioner</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2469"/>
+=======
+      <location filename="../../ArchComponent.py" line="2390"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Objects</source>
       <translation>Objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2472"/>
+=======
+      <location filename="../../ArchComponent.py" line="2393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Fixtures</source>
       <translation>Fixturer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2473"/>
+=======
+      <location filename="../../ArchComponent.py" line="2394"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Group</source>
       <translation>Grupp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2474"/>
+=======
+      <location filename="../../ArchComponent.py" line="2395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Hosts</source>
       <translation>Värdar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2538"/>
+=======
+      <location filename="../../ArchComponent.py" line="2459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimIfcProperties.py" line="477"/>
       <source>Property</source>
       <translation>Fastighet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2546"/>
+=======
+      <location filename="../../ArchComponent.py" line="2467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Add property</source>
       <translation>Lägg till fastighet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2550"/>
+=======
+      <location filename="../../ArchComponent.py" line="2471"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Add property set</source>
       <translation>Lägg till egenskapsset</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2551"/>
       <source>New…</source>
       <translation>Nytt…</translation>
@@ -6623,12 +7047,24 @@ Python-modulen ladybug eller pysolar krävs.</translation>
     </message>
     <message>
       <location filename="../../ArchComponent.py" line="2700"/>
+=======
+      <location filename="../../ArchComponent.py" line="2472"/>
+      <source>New...</source>
+      <translation>Ny...</translation>
+    </message>
+    <message>
+      <location filename="../../ArchComponent.py" line="2623"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimIfcProperties.py" line="634"/>
       <source>New property</source>
       <translation>Ny objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="2737"/>
+=======
+      <location filename="../../ArchComponent.py" line="2660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimIfcProperties.py" line="683"/>
       <source>New property set</source>
       <translation>Nya fastigheter</translation>
@@ -6660,97 +7096,174 @@ Python-modulen ladybug eller pysolar krävs.</translation>
       <translation>Skapa sektionsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1775"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1509"/>
+      <source>Toggle Cutview</source>
+      <translation>Växla klippvy</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSectionPlane.py" line="1730"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Scope</source>
       <translation>Omfång</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1778"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Placement and Visuals</source>
       <translation>Placering och synlighet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1781"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Objects seen by this section plane</source>
       <translation>Objekt sedda av detta sektionsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1787"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1742"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Removes highlighted objects from the list above</source>
       <translation>Tar bort framhävda objekt från listan ovan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1788"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Add Selected</source>
       <translation>Lägg till markerad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1793"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1748"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Adds selected objects to the scope of this section plane</source>
       <translation>Lägger till valda objekt till omfånget för detta sektionsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1794"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1749"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Cut View</source>
       <translation>Snittvy</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1801"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Creates a live cut in the 3D view, hiding geometry on one side of the plane to see inside your model</source>
       <translation>Skapar ett live-snitt i 3D-vyn och döljer geometrin på ena sidan av planet så att du kan se inuti modellen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1802"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotate by 90°</source>
       <translation>Rotera 90°</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1806"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1761"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotates the plane around its local X-axis</source>
       <translation>Roterar planet runt sin lokala X-axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1810"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1765"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotates the plane around its local Y-axis</source>
       <translation>Roterar planet runt sin lokala Y-axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1814"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotates the plane around its local Z-axis</source>
       <translation>Roterar planet runt sin lokala Z-axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1815"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Resize to Fit</source>
       <translation>Storleksändra för att passa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1821"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Recenter Plane</source>
       <translation>Omcentrera plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1803"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotate X</source>
       <translation>Rotera X</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1554"/>
       <source>Toggle Cut View</source>
       <translation>Växla snittvy</translation>
     </message>
     <message>
       <location filename="../../ArchSectionPlane.py" line="1807"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotate Y</source>
       <translation>Rotera Y</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1811"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Rotate Z</source>
       <translation>Rotera Z</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1820"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1775"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Resizes the plane to fit the objects in the list above</source>
       <translation>Ändra storlek på planet så att det passar objekten i listan ovan</translation>
     </message>
@@ -6762,7 +7275,11 @@ Python-modulen ladybug eller pysolar krävs.</translation>
       <translation>Centrera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1826"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1781"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Centers the plane on the objects in the list above</source>
       <translation>Centrerar planet på objekten i listan ovan</translation>
     </message>
@@ -6948,6 +7465,7 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Felmeddelande: Det går inte att modifiera basobjektet för denna vägg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWall.py" line="642"/>
       <source>Cannot create or update {obj.Label} as its length, height or width is zero, and there are no solids in its additions</source>
       <translation>Det går inte att skapa eller uppdatera {obj.Label} eftersom dess längd, höjd eller bredd är noll och det inte finns några solider i dess additioner</translation>
@@ -6965,6 +7483,9 @@ Skapandet av byggnaden avbröts.</translation>
     </message>
     <message>
       <location filename="../../ArchWall.py" line="2115"/>
+=======
+      <location filename="../../ArchWall.py" line="1755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Flip Direction</source>
       <translation>Åt vilket håll ska den vändas åt</translation>
     </message>
@@ -7182,8 +7703,12 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Ny prisgrupp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="1186"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchMaterial.py" line="100"/>
+      <location filename="../../ArchBuildingPart.py" line="1186"/>
       <source>Reorder Children Alphabetically</source>
       <translation>Ordna om barnen i alfabetisk ordning</translation>
     </message>
@@ -7360,6 +7885,22 @@ Skapandet av byggnaden avbröts.</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
+=======
+    <name>Arch_Structure</name>
+    <message>
+      <location filename="../../ArchStructure.py" line="329"/>
+      <source>Structure</source>
+      <translation>Struktur</translation>
+    </message>
+    <message>
+      <location filename="../../ArchStructure.py" line="334"/>
+      <source>Creates a structure from scratch or from a selected object (sketch, wire, face or solid)</source>
+      <translation>Skapar en struktur från grunden eller från ett utvalt objekt (skiss, tråd, yta eller kropp)</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     <name>App::Property</name>
     <message>
       <location filename="../../ArchStructure.py" line="683"/>
@@ -7425,15 +7966,24 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Höjden eller extruderingsdjupet för detta element. Behåll 0 för automatisk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWall.py" line="272"/>
       <location filename="../../ArchStructure.py" line="811"/>
+=======
+      <location filename="../../ArchStructure.py" line="911"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchPanel.py" line="209"/>
+      <location filename="../../ArchWall.py" line="272"/>
       <source>The normal extrusion direction of this object (keep (0,0,0) for automatic normal)</source>
       <translation>Den normala extruderingsriktningen för detta objekt (behåll (0,0,0) för automatisk normal)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchStructure.py" line="819"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchPrecast.py" line="101"/>
+      <location filename="../../ArchStructure.py" line="919"/>
       <source>The structural nodes of this element</source>
       <translation>De strukturella noderna för detta element</translation>
     </message>
@@ -7506,28 +8056,48 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Om sant är elementet inriktat mot axlarna</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchEquipment.py" line="97"/>
+=======
+      <location filename="../../ArchEquipment.py" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The model description of this equipment</source>
       <translation>Modellbeskrivning av denna utrustning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchEquipment.py" line="105"/>
+=======
+      <location filename="../../ArchEquipment.py" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The URL of the product page of this equipment</source>
       <translation>URL till produktsidan för den här utrustningen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchEquipment.py" line="113"/>
+=======
+      <location filename="../../ArchEquipment.py" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchMaterial.py" line="208"/>
       <source>A standard code (MasterFormat, OmniClass,…)</source>
       <translation>En standardkod (MasterFormat, OmniClass, ...)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchEquipment.py" line="121"/>
+=======
+      <location filename="../../ArchEquipment.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Additional snap points for this equipment</source>
       <translation>Ytterligare snäpp-punkter för denna utrustning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchEquipment.py" line="131"/>
+=======
+      <location filename="../../ArchEquipment.py" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The electric power needed by this equipment in Watts</source>
       <translation>Den elektriska effekt som behövs för denna utrustning i watt</translation>
     </message>
@@ -7539,8 +8109,12 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Typen av denna byggnad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="230"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchFloor.py" line="236"/>
+      <location filename="../../ArchBuildingPart.py" line="230"/>
       <source>The height of this object</source>
       <translation>Höjden på detta objekt</translation>
     </message>
@@ -7555,26 +8129,45 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Nivån på (0,0,0) punkten för denna nivå</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="258"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchFloor.py" line="244"/>
+      <location filename="../../ArchBuildingPart.py" line="258"/>
       <source>The computed floor area of this floor</source>
       <translation>Den beräknade golvytan för denna våning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="266"/>
       <location filename="../../ArchComponent.py" line="250"/>
+=======
+      <location filename="../../ArchComponent.py" line="258"/>
+      <location filename="../../ArchBuildingPart.py" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>An optional description for this component</source>
       <translation>En valfri beskrivning för denna komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="274"/>
       <location filename="../../ArchComponent.py" line="258"/>
+=======
+      <location filename="../../ArchComponent.py" line="266"/>
+      <location filename="../../ArchBuildingPart.py" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>An optional tag for this component</source>
       <translation>En valfri tagg för denna komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="282"/>
       <location filename="../../ArchSectionPlane.py" line="1005"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="958"/>
+      <location filename="../../ArchBuildingPart.py" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The shape of this object</source>
       <translation>Formen på detta objekt</translation>
     </message>
@@ -7594,148 +8187,265 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>En MaterialName:SolidIndexesList-karta som relaterar materialnamn med solidindex som ska användas när man refererar till detta objekt från andra filer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="547"/>
       <location filename="../../ArchSectionPlane.py" line="1177"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1130"/>
+      <location filename="../../ArchBuildingPart.py" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The line width of this object</source>
       <translation>Linjebredden för detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="556"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="531"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>An optional unit to express levels</source>
       <translation>En valfri enhet för att uttrycka nivåer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="564"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="539"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>A transformation to apply to the level mark</source>
       <translation>En transformation som ska tillämpas på nivåmarkeringen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="575"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="550"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, show the level</source>
       <translation>Om sant, visa nivån</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="584"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, show the unit on the level tag</source>
       <translation>Om det är sant, visa enheten på nivåtaggen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="594"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="569"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, display offset will affect the origin mark too</source>
       <translation>Om true, kommer displayförskjutningen även att påverka ursprungsmärket</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="602"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, the object's label is displayed</source>
       <translation>Om true, visas objektets etikett</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="611"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The font to be used for texts</source>
       <translation>Det typsnitt som ska användas för texter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="620"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The font size of texts</source>
       <translation>Teckenstorlek för texter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="631"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="606"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The individual face colors</source>
       <translation>De individuella ytfärgerna</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="644"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, when activated, the working plane will automatically adapt to this level</source>
       <translation>Om true, när den är aktiverad, kommer arbetsplanet automatiskt att anpassas till denna nivå</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="655"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="630"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If set to True, the working plane will be kept on Auto mode</source>
       <translation>Om den är inställd på True kommer arbetsplanet att hållas i Auto-läge</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="665"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="640"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Camera position data associated with this object</source>
       <translation>Kamerapositionsdata associerade med detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="677"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="652"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If set, the view stored in this object will be restored on double-click</source>
       <translation>Om den är inställd kommer vyn som lagrats i detta objekt att återställas vid dubbelklick</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="687"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If True, double-clicking this object in the tree activates it</source>
       <translation>Om True, dubbelklickar du på detta objekt i trädet och aktiverar det</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="701"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If this is enabled, the OpenInventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.</source>
       <translation>Om detta är aktiverat sparas OpenInventor-representationen av detta objekt i FreeCAD-filen, vilket gör det möjligt att referera till det i andra filer i lättviktsläge.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="712"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="687"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>A slot to save the OpenInventor representation of this object, if enabled</source>
       <translation>En plats för att spara OpenInventor-representationen av detta objekt, om den är aktiverad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="726"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, show the objects contained in this Building Part will adopt these line, color and transparency settings</source>
       <translation>Om sant, visa de objekt som ingår i denna byggnadsdel kommer att anta dessa inställningar för linje, färg och transparens</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="734"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The line width of child objects</source>
       <translation>Linjebredd för underordnade objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="743"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="718"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The line color of child objects</source>
       <translation>Linjefärg för underordnade objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="752"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="727"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The shape appearance of child objects</source>
       <translation>Barnobjektens formutseende</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="762"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The transparency of child objects</source>
       <translation>Transparensen hos underordnade objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="773"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Cut the view above this level</source>
       <translation>Klipp ut vyn ovanför denna nivå</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="783"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The distance between the level plane and the cut line</source>
       <translation>Avståndet mellan nivåplanet och snittlinjen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="792"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Turn cutting on when activating this level</source>
       <translation>Slå på skärning när du aktiverar denna nivå</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="805"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="779"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The capture box for newly created objects expressed as [XMin,YMin,ZMin,XMax,YMax,ZMax]</source>
       <translation>Fångstboxen för nyskapade objekt uttryckt som [XMin,YMin,ZMin,XMax,YMax,ZMax]</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="813"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="787"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Turns auto group box on/off</source>
       <translation>Slår på/av automatisk gruppbox</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="821"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Automatically set size from contents</source>
       <translation>Ställ automatiskt in storlek utifrån innehåll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="829"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>A margin to use when autosize is turned on</source>
       <translation>En marginal som ska användas när autosize är aktiverat</translation>
     </message>
@@ -7802,9 +8512,20 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Total storlek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchProfile.py" line="528"/>
       <source>T-nut slot width</source>
       <translation>T-mutter spårbredd</translation>
+=======
+      <location filename="../../ArchProfile.py" line="521"/>
+      <source>T-nut slot width</source>
+      <translation>T-mutter spårbredd</translation>
+    </message>
+    <message>
+      <location filename="../../ArchProfile.py" line="528"/>
+      <source>T-nut slot depth</source>
+      <translation>T-mutter spårdjup</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     </message>
     <message>
       <location filename="../../ArchProfile.py" line="535"/>
@@ -7894,19 +8615,37 @@ Skapandet av byggnaden avbröts.</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="656"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="232"/>
+=======
+      <location filename="../../ArchComponent.py" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Other shapes that are appended to this object</source>
       <translation>Andra former som är kopplade till detta objekt</translation>
     </message>
     <message>
       <location filename="../../ArchSite.py" line="666"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="242"/>
+=======
+      <location filename="../../ArchComponent.py" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Other shapes that are subtracted from this object</source>
       <translation>Andra former som subtraheras från detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSite.py" line="676"/>
       <location filename="../../ArchComponent.py" line="337"/>
+=======
+      <location filename="../../ArchComponent.py" line="277"/>
+      <source>An optional standard (OmniClass, etc…) code for this component</source>
+      <translation>En valfri standardkod (OmniClass, etc...) för denna komponent</translation>
+    </message>
+    <message>
+      <location filename="../../ArchSite.py" line="676"/>
+      <location filename="../../ArchComponent.py" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The area of the projection of this object onto the XY plane</source>
       <translation>Området för projektionen av detta objekt på XY-planet</translation>
     </message>
@@ -8207,7 +8946,11 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Höjden på detta fönster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="183"/>
+=======
+      <location filename="../../ArchWindow.py" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The normal direction of this window</source>
       <translation>Den normala riktningen för detta fönster</translation>
     </message>
@@ -8267,7 +9010,11 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Visa öppningssymboler på höjden om sådana finns</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchWindow.py" line="1423"/>
+=======
+      <location filename="../../ArchWindow.py" line="1380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The number of the wire that defines the hole. A value of 0 means automatic</source>
       <translation>Numret på den tråd som definierar hålet. Ett värde på 0 innebär automatisk</translation>
     </message>
@@ -9148,8 +9895,12 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Om True, läggs ytterligare rader med varje enskilt objekt till i resultaten</translation>
     </message>
     <message>
+      <location filename="../../ArchSectionPlane.py" line="950"/>
       <location filename="../../ArchFloor.py" line="253"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="997"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The placement of this object</source>
       <translation>Placeringen av detta objekt</translation>
     </message>
@@ -9239,16 +9990,25 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>En transformation som ska tillämpas på varje etikett</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="216"/>
+=======
+      <location filename="../../ArchComponent.py" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The base object this component is built upon</source>
       <translation>Basobjektet som denna komponent är byggd på</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="224"/>
+=======
+      <location filename="../../ArchComponent.py" line="232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The object this component is cloning</source>
       <translation>Objektet som denna komponent klonar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="269"/>
       <source>An optional standard (OmniClass, etc.) code for this component</source>
       <translation>En valfri standardkod (OmniClass osv.) för den här komponenten</translation>
@@ -9256,41 +10016,72 @@ Skapandet av byggnaden avbröts.</translation>
     <message>
       <location filename="../../ArchComponent.py" line="277"/>
       <location filename="../../ArchComponent.py" line="288"/>
+=======
+      <location filename="../../ArchComponent.py" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>A material for this object</source>
       <translation>Ett material för detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="305"/>
+=======
+      <location filename="../../ArchComponent.py" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Specifies if moving this object moves its base instead</source>
       <translation>Anger om flyttning av detta objekt flyttar dess bas istället</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="317"/>
+=======
+      <location filename="../../ArchComponent.py" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Specifies if this object must move together when its host is moved</source>
       <translation>Anger om detta objekt måste flytta tillsammans när dess värd flyttas</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="326"/>
+=======
+      <location filename="../../ArchComponent.py" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The area of all vertical faces of this object</source>
       <translation>Området för alla vertikala ytor av detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="346"/>
+=======
+      <location filename="../../ArchComponent.py" line="342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The perimeter length of the horizontal area</source>
       <translation>Omkretslängden för den horisontella ytan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="357"/>
+=======
+      <location filename="../../ArchComponent.py" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>An optional higher-resolution mesh or shape for this object</source>
       <translation>Ett valfritt nät eller en form med högre upplösning för detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="368"/>
+=======
+      <location filename="../../ArchComponent.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>An optional axis or axis system on which this object should be duplicated</source>
       <translation>En valfri axel eller ett valfritt axelsystem på vilket detta objekt ska dupliceras</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchComponent.py" line="1631"/>
+=======
+      <location filename="../../ArchComponent.py" line="1575"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Use the material color as this object's shape color, if available</source>
       <translation>Använd materialfärgen som formfärg för objektet, om den finns tillgänglig</translation>
     </message>
@@ -9370,80 +10161,141 @@ Skapandet av byggnaden avbröts.</translation>
       <translation>Formen på armeringsjärnet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1016"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="969"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The objects that must be considered by this section plane. Empty means the whole document.</source>
       <translation>De objekt som måste beaktas av detta avsnitt plan. Tomt betyder hela dokumentet.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1027"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="980"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If false, non-solids will be cut too, with possible wrong results.</source>
       <translation>Om den är felaktig kommer även icke-fasta ämnen att skäras bort, vilket kan leda till felaktiga resultat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1039"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="992"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If True, resulting views will be clipped to the section plane area.</source>
       <translation>Om True, kommer resulterande vyer att klippas till sektionsplanets område.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1050"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1003"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>If true, the color of the objects material will be used to fill cut areas.</source>
       <translation>Om true, kommer färgen på objektets material att användas för att fylla utskurna områden.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1062"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Geometry further than this value will be cut off. Keep zero for unlimited.</source>
       <translation>Geometri längre bort än detta värde kommer att klippas bort. Håll noll för obegränsat.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1135"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The display length of this section plane</source>
       <translation>Visningslängden för detta sektionsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1147"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The display height of this section plane</source>
       <translation>Visningshöjden för detta sektionsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1159"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The size of the arrows of this section plane</source>
       <translation>Storleken på pilarna i detta sektionsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1168"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The transparency of this object</source>
       <translation>Transparensen för detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1186"/>
       <location filename="../../ArchSectionPlane.py" line="1203"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1139"/>
+      <location filename="../../ArchSectionPlane.py" line="1156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Show the cut in the 3D view</source>
       <translation>Visa snittet i 3D-vyn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1194"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The color of this object</source>
       <translation>Färgen på detta objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1214"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>The distance between the cut plane and the actual view cut (keep this a very small value but not zero)</source>
       <translation>Avståndet mellan snittplanet och det faktiska snittet (håll detta till ett mycket litet värde, men inte noll)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1223"/>
+=======
+      <location filename="../../ArchSectionPlane.py" line="1176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Show the label in the 3D view</source>
       <translation>Visa etiketten i 3D-vyn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1231"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchSpace.py" line="579"/>
+      <location filename="../../ArchSectionPlane.py" line="1184"/>
       <source>The name of the font</source>
       <translation>Namnet på teckensnittet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchSectionPlane.py" line="1240"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../ArchSpace.py" line="597"/>
+      <location filename="../../ArchSectionPlane.py" line="1193"/>
       <source>The size of the text font</source>
       <translation>Storleken på textens teckensnitt</translation>
     </message>
@@ -9871,7 +10723,11 @@ Skapandet av byggnaden avbröts.</translation>
   <context>
     <name>Draft</name>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../ArchBuildingPart.py" line="1232"/>
+=======
+      <location filename="../../ArchBuildingPart.py" line="1250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Writing camera position</source>
       <translation>Skriva kameraposition</translation>
     </message>
@@ -10618,6 +11474,19 @@ Skapandet av byggnaden avbröts.</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
+=======
+    <name>Command</name>
+    <message>
+      <location filename="../../ArchAxis.py" line="798"/>
+      <location filename="../../ArchSite.py" line="1314"/>
+      <location filename="../../ArchIFCView.py" line="73"/>
+      <source>Transform</source>
+      <translation>Omvandla</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     <name>QObject</name>
     <message>
       <location filename="../../InitGui.py" line="598"/>
@@ -10811,9 +11680,15 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
       <translation>Skapa ett nytt multimaterial</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimIfcProperties.py" line="206"/>
       <location filename="../../bimcommands/BimIfcQuantities.py" line="247"/>
       <location filename="../../bimcommands/BimIfcElements.py" line="139"/>
+=======
+      <location filename="../../bimcommands/BimIfcElements.py" line="139"/>
+      <location filename="../../bimcommands/BimIfcQuantities.py" line="247"/>
+      <location filename="../../bimcommands/BimIfcProperties.py" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Label</source>
       <translation>Etikett</translation>
     </message>
@@ -10829,8 +11704,13 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
       <translation>Material</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimIfcExplorer.py" line="60"/>
       <location filename="../../nativeifc/__init__.py" line="42"/>
+=======
+      <location filename="../../nativeifc/ifc_tools.py" line="60"/>
+      <location filename="../../bimcommands/BimIfcExplorer.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>IfcOpenShell was not found on this system. IFC support is disabled</source>
       <translation>IfcOpenShell hittades inte på det här systemet. IFC-stöd är inaktiverat</translation>
     </message>
@@ -11232,8 +12112,12 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
       <translation>Ta bort oanvänd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimViews.py" line="95"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimMaterial.py" line="175"/>
+      <location filename="../../bimcommands/BimViews.py" line="96"/>
       <source>Rename</source>
       <translation>Byt namn</translation>
     </message>
@@ -11248,8 +12132,12 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
       <translation>Sammanfoga till…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimViews.py" line="91"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimMaterial.py" line="181"/>
+      <location filename="../../bimcommands/BimViews.py" line="92"/>
       <source>Delete</source>
       <translation>Ta bort</translation>
     </message>
@@ -11456,36 +12344,61 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
       <translation>Tips: Resultaten visas bäst i trådramsläget (menyn Vyer -&gt; Ritstil -&gt; Trådram)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="302"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Building Layout</source>
       <translation>Byggnadens layout</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="315"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Building Outline</source>
       <translation>Byggnadskontur</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="334"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Building Label</source>
       <translation>Byggnadsetikett</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="344"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Vertical Axes</source>
       <translation>Vertikala axlar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="355"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Horizontal Axes</source>
       <translation>Horisontella axlar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="365"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Axes</source>
       <translation>Axlar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="376"/>
       <source>Zero Level Height</source>
       <translation>Nollnivåns höjd</translation>
@@ -11502,25 +12415,41 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimProjectManager.py" line="390"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Level</source>
       <translation>Nivå</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="451"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Save Preset</source>
       <translation>Spara förinställning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="452"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Preset name</source>
       <translation>Förinställningens namn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="507"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="496"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>User preset</source>
       <translation>Förinställd användare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="661"/>
       <source>Save Template File</source>
       <translation>Spara mallfil</translation>
@@ -11532,21 +12461,45 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
     </message>
     <message>
       <location filename="../../bimcommands/BimProjectManager.py" line="796"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Template successfully loaded into the current document</source>
       <translation>Mallen har lästs in i det aktuella dokumentet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="436"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../nativeifc/ifc_viewproviders.py" line="156"/>
+      <location filename="../../bimcommands/BimProjectManager.py" line="431"/>
       <source>New Group</source>
       <translation>Ny prisgrupp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <location filename="../../bimcommands/BimProjectManager.py" line="670"/>
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="650"/>
+      <source>Save template file</source>
+      <translation>Spara mallfilen</translation>
+    </message>
+    <message>
+      <location filename="../../bimcommands/BimProjectManager.py" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <source>Template saved successfully</source>
       <translation>Mall sparad framgångsrikt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
+=======
+      <location filename="../../bimcommands/BimProjectManager.py" line="672"/>
+      <source>Open template file</source>
+      <translation>Öppna mallfilen</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../../bimcommands/BimReorder.py" line="52"/>
       <source>You must choose a group object before using this command</source>
       <translation>Du måste välja ett gruppobjekt innan du använder det här kommandot</translation>
@@ -11813,8 +12766,13 @@ Alt+/ för att växla mellan automatiskt och manuellt läge</translation>
     </message>
     <message>
       <location filename="../../nativeifc/ifc_status.py" line="83"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <source>Add standard IFC Property Set…</source>
       <translation>Lägg till standardiserad IFC-egenskapsuppsättning …</translation>
+=======
+      <source>Add standard IFC Property Set...</source>
+      <translation>Lägg till standard IFC egenskap Set...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     </message>
     <message>
       <location filename="../../nativeifc/ifc_status.py" line="140"/>
@@ -12171,8 +13129,13 @@ Kontrollera din FreeCAD-installation eller ange en anpassad mall under menyn Ins
     <name>BIM_Diff</name>
     <message>
       <location filename="../../bimcommands/BimDiff.py" line="38"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <source>IFC Shape Diff</source>
       <translation>IFC-formjämförelse</translation>
+=======
+      <source>IFC Diff</source>
+      <translation>IFC-jämförelse</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     </message>
     <message>
       <location filename="../../bimcommands/BimDiff.py" line="41"/>
@@ -12201,8 +13164,8 @@ Kontrollera din FreeCAD-installation eller ange en anpassad mall under menyn Ins
       <translation>Tar bort alla objekt från papperskorgen som inte används av någon annan</translation>
     </message>
     <message>
-      <location filename="../../bimcommands/BimEmptyTrash.py" line="38"/>
       <location filename="../../bimcommands/BimTrash.py" line="78"/>
+      <location filename="../../bimcommands/BimEmptyTrash.py" line="38"/>
       <source>Empty Trash</source>
       <translation>Töm papperskorgen</translation>
     </message>
@@ -12665,8 +13628,13 @@ Kontrollera din FreeCAD-installation eller ange en anpassad mall under menyn Ins
     </message>
     <message>
       <location filename="../../nativeifc/ifc_commands.py" line="54"/>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
       <source>IFC File Diff</source>
       <translation>IFC-filjämförelse</translation>
+=======
+      <source>IFC Diff</source>
+      <translation>IFC-jämförelse</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
     </message>
   </context>
   <context>
@@ -13074,6 +14042,19 @@ Kontrollera din FreeCAD-installation eller ange en anpassad mall under menyn Ins
       <translation>Standardförfattare för nya filer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/BIM/Resources/translations/Arch_sv.ts
+=======
+      <location filename="../ui/dialogSetup.ui" line="636"/>
+      <source>&lt;b&gt;IfcOpenShell&lt;/b&gt; is missing on your system. IfcOpenShell is needed to import or export IFC files to/from FreeCAD. Check &lt;a href="https://www.freecad.org/wiki/Arch_IFC"&gt;this wiki page&lt;/a&gt; to know more, or &lt;a href="#install"&gt;download and install it&lt;/a&gt; directly.&lt;/p&gt;</source>
+      <translation>&lt;b&gt;IfcOpenShell&lt;/b&gt; saknas på ditt system. IfcOpenShell behövs för att importera eller exportera IFC-filer till/från FreeCAD. Läs mer på &lt;a href="https://www.freecad.org/wiki/Arch_IFC"&gt;den här wiki-sidan&lt;/a&gt; eller &lt;a href="#install"&gt;ladda ner och installera det&lt;/a&gt; direkt.&lt;/p&gt;</translation>
+    </message>
+    <message>
+      <location filename="../ui/dialogSetup.ui" line="176"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;How many small squares between each main line of the grid. Location in preferences: &lt;span style=" font-weight:600;"&gt;Draft &amp;gt; Grid and snapping &amp;gt; Main line every&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hur många små rutor mellan varje huvudlinje i rutnätet. Plats i inställningar: &lt;span style=" font-weight:600;"&gt;Släppning &amp;gt; Rutnät och snäppning &amp;gt; Huvudlinje varje&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/BIM/Resources/translations/Arch_sv-SE.ts
       <location filename="../ui/dialogSetup.ui" line="179"/>
       <source> square(s)</source>
       <translation> kvadrat(er)</translation>

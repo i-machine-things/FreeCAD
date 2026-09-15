@@ -613,8 +613,11 @@ class TaskPanelPage(object):
     def resetToolController(self, job, tc):
         if self.obj is None:
             return
+<<<<<<< HEAD
         if job != self.job:
             return
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         self.obj.ToolController = tc
         self.setupToolController()
 

@@ -669,7 +669,10 @@ def _get_param_dictionary():
     # Note: incomplete!
     param_dict["Mod/BIM"] = {
         "BIMSketchPlacementOnly":      ("bool",      False),
+<<<<<<< HEAD
         "WallBaseline":                ("int",       0),
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
 
     # For the Mod/Mesh parameters we do not check the preferences:

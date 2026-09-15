@@ -137,7 +137,11 @@ def setup(doc=None, solvertype="ccxtools"):
     analysis.addObject(material_obj)
 
     # constraint tie
+<<<<<<< HEAD
     con_tie = ObjectsFem.makeConstraintTie(doc, "Tie")
+=======
+    con_tie = ObjectsFem.makeConstraintTie(doc, "ConstraintTie")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_tie.References = [
         (geom_obj, "Face2"),
         (geom_obj, "Face3"),
@@ -149,14 +153,22 @@ def setup(doc=None, solvertype="ccxtools"):
     analysis.addObject(con_tie)
     
     # constraint centrif
+<<<<<<< HEAD
     con_centrif = ObjectsFem.makeConstraintCentrif(doc, "CentrifugalForce")
+=======
+    con_centrif = ObjectsFem.makeConstraintCentrif(doc, "ConstraintCentrif")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_centrif.References = [(geom_obj, "Solid1")]
     con_centrif.RotationFrequency = "50 Hz"
     con_centrif.RotationAxis = [(axis, "Edge1")]
     analysis.addObject(con_centrif)
     
     # constraint displacement
+<<<<<<< HEAD
     con_disp = ObjectsFem.makeConstraintDisplacement(doc, "Displacement")
+=======
+    con_disp = ObjectsFem.makeConstraintDisplacement(doc, "ConstraintDisplacement")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_disp.References = [(geom_obj, ("Vertex8"))]
     analysis.addObject(con_disp)
     con_disp.zFree = False

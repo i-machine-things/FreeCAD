@@ -9,17 +9,17 @@
       <translation>Klar</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="94"/>
+      <location filename="../../FirstStartWidget.cpp" line="95"/>
       <source>Welcome to %1</source>
       <translation>Välkommen till %1</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="97"/>
+      <location filename="../../FirstStartWidget.cpp" line="98"/>
       <source>Set your basic configuration options below.</source>
       <translation>Ställ in dina grundläggande konfigurationsalternativ nedan.</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="98"/>
+      <location filename="../../FirstStartWidget.cpp" line="99"/>
       <source>These options (and many more) can be changed later in the preferences.</source>
       <translation>Dessa alternativ (och många fler) kan ändras senare i inställningarna.</translation>
     </message>
@@ -63,87 +63,155 @@
   <context>
     <name>StartGui::StartView</name>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="217"/>
+=======
+      <location filename="../../StartView.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Open File</source>
       <translation>Öppna fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="227"/>
+=======
+      <location filename="../../StartView.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Assembly</source>
       <translation>Montering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>2D Draft</source>
       <translation>2D-släppning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Creates a 2D Draft document</source>
       <translation>Skapar ett 2D-släppningsdokument</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="235"/>
+=======
+      <location filename="../../StartView.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>BIM/Architecture</source>
       <translation>BIM/Arkitektur</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="212"/>
+=======
+      <location filename="../../StartView.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Empty File</source>
       <translation>Tom fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="213"/>
+=======
+      <location filename="../../StartView.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Creates a new empty FreeCAD file</source>
       <translation>Skapar en ny tom FreeCAD-fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="218"/>
+=======
+      <location filename="../../StartView.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Opens an existing CAD file or 3D model</source>
       <translation>Öppnar en befintlig CAD-fil eller 3D-modell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="222"/>
+=======
+      <location filename="../../StartView.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Parametric Body</source>
       <translation>Parametrisk kropp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="223"/>
+=======
+      <location filename="../../StartView.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Creates a body with the Part Design workbench</source>
       <translation>Skapar en kropp med arbetsbänken Part Design</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="228"/>
+=======
+      <location filename="../../StartView.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Creates an assembly project</source>
       <translation>Skapar ett monteringsprojekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="236"/>
+=======
+      <location filename="../../StartView.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Creates an architectural project</source>
       <translation>Skapar ett arkitektoniskt projekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="520"/>
+=======
+      <location filename="../../StartView.cpp" line="509"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>New File</source>
       <translation>Ny fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="522"/>
+=======
+      <location filename="../../StartView.cpp" line="510"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Examples</source>
       <translation>Exempel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="524"/>
+=======
+      <location filename="../../StartView.cpp" line="511"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Recent Files</source>
       <translation>Senaste filer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="539"/>
+=======
+      <location filename="../../StartView.cpp" line="527"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Open First Start Setup</source>
       <translation>Öppna första startkonfigurationen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="540"/>
+=======
+      <location filename="../../StartView.cpp" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Do not show this Start page again (start with blank screen)</source>
       <translation>Visa inte denna startsida igen (börja med en tom skärm)</translation>
     </message>
@@ -151,7 +219,11 @@
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../StartView.cpp" line="514"/>
+=======
+      <location filename="../../StartView.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Start</source>
       <translation>Start</translation>
     </message>
@@ -159,44 +231,76 @@
   <context>
     <name>StartGui::ThemeSelectorWidget</name>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>FreeCAD Classic</source>
       <translation>FreeCAD Klassisk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>FreeCAD Dark</source>
       <translation>FreeCAD Mörk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="117"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>FreeCAD Light</source>
       <translation>FreeCAD Ljus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="251"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Theme</source>
       <translation>Tema</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="254"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Looking for more themes? You can obtain them using &lt;a href="freecad:Std_AddonMgr"&gt;Addon Manager&lt;/a&gt;.</source>
       <translation>Letar du efter fler teman? Du kan hämta dem med hjälp av &lt;a href="freecad:Std_AddonMgr"&gt;Tilläggshanterare&lt;/a&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="261"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>FreeCAD Dark</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD Mörk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="262"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>FreeCAD Light</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD Ljus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../ThemeSelectorWidget.cpp" line="263"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>FreeCAD Classic</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD Klassisk</translation>
@@ -261,7 +365,11 @@ Flera mappar kan läggas till med hjälp av ";;" för att separera sökvägar.</
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD:src/Mod/Start/Gui/Resources/translations/StartPage_sv.ts
       <location filename="../../AppStartGui.cpp" line="139"/>
+=======
+      <location filename="../../AppStartGui.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Start/Gui/Resources/translations/StartPage_sv-SE.ts
       <source>Start</source>
       <translation>Start</translation>
     </message>

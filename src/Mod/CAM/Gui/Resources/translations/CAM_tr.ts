@@ -455,8 +455,13 @@ Bu, temel nesnenin sınırlayıcı kutusundan alınan stok için, her yönde eks
     </message>
     <message>
       <location filename="../panels/ToolBitLibraryEdit.ui" line="203"/>
+<<<<<<< HEAD
       <source>Table of toolbits of the library</source>
       <translation type="unfinished">Table of toolbits of the library</translation>
+=======
+      <source>Table of tool bits of the library</source>
+      <translation>Kitaplığın takım uçları tablosu</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/ToolBitEditor.ui" line="14"/>
@@ -710,8 +715,13 @@ Bu, temel nesnenin sınırlayıcı kutusundan alınan stok için, her yönde eks
     </message>
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="72"/>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseLocationEdit.ui" line="43"/>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="157"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="52"/>
+      <location filename="../panels/PageBaseLocationEdit.ui" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PropertyBag.ui" line="62"/>
       <source>Add</source>
       <translation>Ekle</translation>
@@ -723,8 +733,13 @@ Bu, temel nesnenin sınırlayıcı kutusundan alınan stok için, her yönde eks
     </message>
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="82"/>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseLocationEdit.ui" line="53"/>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="167"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="62"/>
+      <location filename="../panels/PageBaseLocationEdit.ui" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PropertyBag.ui" line="48"/>
       <source>Remove</source>
       <translation>Kaldır</translation>
@@ -736,17 +751,39 @@ Bu, temel nesnenin sınırlayıcı kutusundan alınan stok için, her yönde eks
       <translation>Temizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="124"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="22"/>
+      <source>Table of hole features and the determined radius of the associated hole.
+
+Add features for processing by selecting them and then pressing &apos;Add&apos;. If a feature is accidentally added to the list, it can be removed through &apos;Remove&apos; and will no longer be processed.
+
+Reset deletes all current items from the list and fills the list with all circular holes eligible for the operation from the model. Refine the list afterwards by enabling/disabling, removing and adding features.</source>
+      <translation>Delik özelliklerinin ve ilgili deliğin belirlenen yarıçapının tablosu.
+
+İşleme dahil edilecek özellikleri seçmek ve ardından 'Ekle' düğmesine basmak suretiyle ekleyin. Bir özellik yanlışlıkla listeye eklenirse, 'Kaldır' düğmesiyle kaldırılabilir ve artık işleme dahil edilmez.
+
+Sıfırlama işlemi listedeki tüm mevcut öğeleri siler ve listeyi modeldeki işlem için uygun olan tüm dairesel deliklerle doldurur. Daha sonra özellikleri etkinleştirerek/devre dışı bırakarak, kaldırarak ve ekleyerek listeyi iyileştirebilirsiniz.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="36"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Feature</source>
       <translation>Özellik</translation>
     </message>
     <message>
       <location filename="../panels/ToolEditor.ui" line="96"/>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="129"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter</source>
       <translation>Çap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="31"/>
       <source>Sorting</source>
       <translation type="unfinished">Sorting</translation>
@@ -765,6 +802,21 @@ Bu, temel nesnenin sınırlayıcı kutusundan alınan stok için, her yönde eks
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="62"/>
       <source>Select All</source>
       <translation>Tümünü Seç</translation>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="49"/>
+      <source>Add selected items from 3D view to the list of base geometries</source>
+      <translation>3B görünümden seçili öğeleri taban geometrileri listesine ekle</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="59"/>
+      <source>Remove selected list items from the list of base geometries. The operation is no longer applied to them.</source>
+      <translation>Seçili liste öğelerini taban geometrileri listesinden kaldır. İşlem artık onlara uygulanmaz.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="69"/>
+      <source>Remove all list items and fill list with all eligible features from the job&apos;s base object.</source>
+      <translation>Listedeki tüm öğeleri kaldırın ve listeyi işin temel nesnesindeki tüm uygun özelliklerle doldurun.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="72"/>
@@ -944,14 +996,29 @@ Reset deletes all current items from the list and fills the list with all circul
       <translation>Seçili özelliğin Z değerini işlem için son derinlik olarak aktar.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageHeightsEdit.ui" line="101"/>
+=======
+      <location filename="../panels/PageHeightsEdit.ui" line="47"/>
+      <source>Safe height</source>
+      <translation>Güvenli yükseklik</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageHeightsEdit.ui" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height above which it is safe to move the tool bit with rapid movements. Below this height all lateral and downward movements are performed with feed rate speeds.</source>
       <translation>Hızlı hareketlerle takım ucunu taşımak için güvenli olan yükseklik. Bu yüksekliğin altında tüm yanal ve aşağı yönlü hareketler ilerleme hızıyla yapılır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageHeightsEdit.ui" line="126"/>
       <source>Start</source>
       <translation>Başla</translation>
+=======
+      <location filename="../panels/PageHeightsEdit.ui" line="24"/>
+      <source>Clearance height</source>
+      <translation>Açıklık yüksekliği</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/PageHeightsEdit.ui" line="133"/>
@@ -1033,12 +1100,27 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape
       <translation>Soğutucu Modu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/SetupGlobal.ui" line="180"/>
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="29"/>
+      <location filename="../panels/SetupGlobal.ui" line="180"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="29"/>
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="29"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="29"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Controller</source>
       <translation>Takım Denetleyicisi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/SetupGlobal.ui" line="249"/>
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="43"/>
+      <location filename="../panels/SetupGlobal.ui" line="249"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="33"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coolant</source>
       <translation>Soğutma sıvısı</translation>
     </message>
@@ -1060,7 +1142,16 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Seçili şekillerin içinden mi dışından mı kesileceğini belirler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="190"/>
+=======
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="227"/>
+      <source>If greater than zero it limits the helix ramp diameter, otherwise 75 percent of tool diameter is used</source>
+      <translation>Sıfırdan büyükse helisel rampa çapını sınırlar; aksi halde takım çapının %75'i kullanılır.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>How much to lift the tool up during the rapid linking moves over cleared regions. If linking path is not clear tool is raised to clearance height.</source>
       <translation>Temizlenmiş bölgelerin üzerinden yapılan hızlı bağlama hareketlerinde takımı ne kadar yukarı kaldıracağını belirler. Bağlama yolu açık değilse takım, açıklık yüksekliğine kaldırılır.</translation>
     </message>
@@ -1070,19 +1161,65 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Noktalar arasındaki doğrudan mesafeye göre takımı indirmeden bağlama yolunun azami uzunluğu. Aşılırsa, takım açıklık yüksekliğine kaldırılarak bağlantı yapılır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="291"/>
+=======
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="153"/>
+      <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter. A step over of 100% results in no overlap between two different cycles.</source>
+      <translation>Desenin her çevriminde takımın yanal olarak ne kadar ötelenileceğini belirtir; takım çapının yüzdesi olarak verilir. %100 paso, iki farklı çevrim arasında çakışma olmadığı anlamına gelir.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="244"/>
+      <source>Angle of the helix ramp entry</source>
+      <translation>Helisel rampa giriş açısı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of the helix entry cone</source>
       <translation>Helisel giriş konisi açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageToolControllerEdit.ui" line="33"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="53"/>
+      <location filename="../panels/PageOpSlotEdit.ui" line="35"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="35"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="29"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="29"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="29"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="29"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="23"/>
+      <location filename="../panels/PageOpProbeEdit.ui" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool controller</source>
       <translation>Takım denetleyicisi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageToolControllerEdit.ui" line="54"/>
       <source>The coolant mode to be used for this operation</source>
       <translation type="unfinished">The coolant mode to be used for this operation</translation>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="99"/>
+      <location filename="../panels/PageOpSlotEdit.ui" line="59"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="57"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="59"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="57"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="57"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="57"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="57"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="53"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="43"/>
+      <location filename="../panels/PageOpProbeEdit.ui" line="49"/>
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="43"/>
+      <location filename="../panels/PageOpTappingEdit.ui" line="117"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="57"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="73"/>
+      <source>Edit Tool Controller</source>
+      <translation>Takım Denetleyicisini Düzenle</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="38"/>
@@ -1100,6 +1237,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Finiş profili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="103"/>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="74"/>
       <source>How much stock to leave on the walls for this operation</source>
@@ -1175,6 +1313,25 @@ Larger values (further to the right) will calculate faster; smaller values (furt
     </message>
     <message>
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="169"/>
+=======
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="136"/>
+      <source>How much material to leave in the XY-plane (i.e. for finishing operation)</source>
+      <translation>XY düzleminde ne kadar malzeme bırakılacağı (yani finiş işlemi için)</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="146"/>
+      <source>XY stock to leave</source>
+      <translation>XY bırakma payı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="189"/>
+      <source>Helix ramp angle</source>
+      <translation>Helis rampa açısı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="244"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use outline</source>
       <translation>Dış hattı kullan</translation>
     </message>
@@ -1189,7 +1346,16 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Takımı aşağıda tutma oranı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="207"/>
+=======
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="237"/>
+      <source>Helix cone angle</source>
+      <translation>Helis koni açısı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lift distance</source>
       <translation>Kaldırma mesafesi</translation>
     </message>
@@ -1199,14 +1365,30 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Kesim bölgesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="365"/>
+=======
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="278"/>
+      <source>Helix max diameter</source>
+      <translation>Helis azami çapı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stop</source>
       <translation>Dur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpDeburrEdit.ui" line="49"/>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="42"/>
       <location filename="../panels/PageOpThreadMillingEdit.ui" line="140"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="138"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="94"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="89"/>
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction</source>
       <translation>Yön</translation>
     </message>
@@ -1237,6 +1419,8 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Gönye birleştirme</translation>
     </message>
     <message>
+      <location filename="../panels/PageOpDeburrEdit.ui" line="205"/>
+      <location filename="../panels/PageOpDeburrEdit.ui" line="232"/>
       <location filename="../panels/ToolEditor.ui" line="77"/>
       <location filename="../panels/ToolEditor.ui" line="134"/>
       <location filename="../panels/ToolEditor.ui" line="144"/>
@@ -1246,8 +1430,11 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../panels/ToolEditor.ui" line="223"/>
       <location filename="../panels/ToolEditor.ui" line="240"/>
       <location filename="../panels/ToolEditor.ui" line="280"/>
+<<<<<<< HEAD
       <location filename="../panels/PageOpDeburrEdit.ui" line="116"/>
       <location filename="../panels/PageOpDeburrEdit.ui" line="143"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>mm</source>
       <translation>mm</translation>
     </message>
@@ -1365,8 +1552,24 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>2x kılavuz ucu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpDrillingEdit.ui" line="106"/>
       <location filename="../panels/PageOpTappingEdit.ui" line="56"/>
+=======
+      <location filename="../panels/PageOpTappingEdit.ui" line="89"/>
+      <location filename="../panels/PageOpTappingEdit.ui" line="110"/>
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The tool and its settings to be used for this operation.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bu işlem için kullanılacak takım ve ayarları.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpTappingEdit.ui" line="103"/>
+      <source>ToolController</source>
+      <translation>Takım Kontrolcüsü</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpTappingEdit.ui" line="40"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Hiçbiri</translation>
     </message>
@@ -1401,6 +1604,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Dışarıda</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpHelixEdit.ui" line="47"/>
       <source>Cut mode</source>
       <translation type="unfinished">Cut mode</translation>
@@ -1430,6 +1634,29 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../panels/PageOpHelixEdit.ui" line="150"/>
       <source>How much stock to leave on the outer wall for this operation</source>
       <translation type="unfinished">How much stock to leave on the outer wall for this operation</translation>
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="101"/>
+      <source>The direction for the helix, clockwise or counterclockwise</source>
+      <translation>Helisin yönü: saat yönünde veya saat yönünün tersine</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpHelixEdit.ui" line="144"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="108"/>
+      <source>Extra offset</source>
+      <translation>Ek ofset</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpHelixEdit.ui" line="125"/>
+      <source>Specify the percent of the tool diameter each helix will be offset to the previous one. A step over of 100% means no overlap of the individual cuts.</source>
+      <translation>Her helisin bir önceki helise göre takım çapının yüzde kaçı kadar ofsetleneceğini belirtin. %100 adım aralığı, tekil kesim geçişleri arasında bindirme olmadığı anlamına gelir.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpHelixEdit.ui" line="118"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="185"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="172"/>
+      <source>Step over percent</source>
+      <translation>Yüzde üzerinden adımla</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/PageOpPocketExtEdit.ui" line="58"/>
@@ -1516,6 +1743,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Kesim Modu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpRotarySurfaceEdit.ui" line="36"/>
       <source>Climb: rotary advances in the positive direction. Conventional: rotary advances in the negative direction. Affects the sign of A in cutting moves; pick to match how the cutter engages the material on your machine.</source>
       <translation type="unfinished">Climb: rotary advances in the positive direction. Conventional: rotary advances in the negative direction. Affects the sign of A in cutting moves; pick to match how the cutter engages the material on your machine.</translation>
@@ -1635,12 +1863,21 @@ The latter can be used to face of the entire stock area to ensure uniform height
     <message>
       <location filename="../panels/PageOpHelixEdit.ui" line="58"/>
       <location filename="../panels/PageOpPocketFullEdit.ui" line="59"/>
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="105"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Climb</source>
       <translation>Tırmanma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpHelixEdit.ui" line="63"/>
       <location filename="../panels/PageOpPocketFullEdit.ui" line="64"/>
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="110"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Conventional</source>
       <translation>Geleneksel</translation>
     </message>
@@ -1650,13 +1887,48 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Desen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageToolControllerEdit.ui" line="40"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="60"/>
+      <location filename="../panels/PageOpDeburrEdit.ui" line="92"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="36"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="50"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="42"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="36"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="50"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="36"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="50"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="36"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="50"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="36"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="50"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="36"/>
+      <location filename="../panels/PageOpProbeEdit.ui" line="42"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="36"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="50"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="42"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool and its settings to be used for this operation</source>
       <translation>Bu işlem için kullanılacak takım ve ayarları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/SetupGlobal.ui" line="261"/>
       <location filename="../panels/PageToolControllerEdit.ui" line="47"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="85"/>
+      <location filename="../panels/PageOpSlotEdit.ui" line="52"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="49"/>
+      <location filename="../panels/SetupGlobal.ui" line="261"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="43"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="43"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="46"/>
+      <location filename="../panels/PageOpTappingEdit.ui" line="96"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="43"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coolant mode</source>
       <translation>Soğutma modu</translation>
     </message>
@@ -1728,6 +2000,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Açı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpMillFacingEdit.ui" line="70"/>
       <source>Rotation angle for angled facing operations</source>
       <translation type="unfinished">Rotation angle for angled facing operations</translation>
@@ -1843,6 +2116,55 @@ The latter can be used to face of the entire stock area to ensure uniform height
     </message>
     <message>
       <location filename="../panels/PageOpPocketFullEdit.ui" line="211"/>
+=======
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="178"/>
+      <source>Angle in which the pattern is applied</source>
+      <translation>Desenin uygulanacağı açı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="192"/>
+      <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter. A step over of 100% results in no overlap between two different cycles</source>
+      <translation>Desenin her çevriminde takımın yanal olarak ne kadar kaydırılacağını yüzde olarak belirtir. %100 adım aralığı, iki farklı çevrim arasında bindirme olmadığı anlamına gelir.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="211"/>
+      <source>Material allowance</source>
+      <translation>Malzeme payı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="218"/>
+      <source>The amount of material that should be left by this operation in relation to the target shape</source>
+      <translation>Hedef şekle göre bu işlem sonunda bırakılacak malzeme miktarı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="231"/>
+      <source>Specify if this operation uses a starting point</source>
+      <translation>Bu işlemin bir başlangıç noktası kullanıp kullanmadığını belirtin</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="234"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="264"/>
+      <source>Use start point</source>
+      <translation>Başlangıç noktası kullan</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="241"/>
+      <source>If selected the operation uses the outline of the selected base geometry and ignores all holes and islands</source>
+      <translation>Seçilirse işlem, seçili temel geometrinin dış hattını kullanır ve tüm delik ile adacıkları yok sayar</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="251"/>
+      <source>Clear edges</source>
+      <translation>Kenarları temizle</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="258"/>
+      <source>Min travel</source>
+      <translation>Minimum hareket</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check to skip machining regions that have already been cleared by previous operations</source>
       <translation>Önceki işlemlerle zaten boşaltılmış bölgeleri işlemeyi atlamak için işaretleyin</translation>
     </message>
@@ -1905,7 +2227,16 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Profil işleminin yönü: saat yönünde veya saat yönünün tersine</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpProfileFullEdit.ui" line="23"/>
+=======
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="121"/>
+      <source>The amount of extra material left by this operation in relation to the target shape</source>
+      <translation>Hedef şekle göre bu işlemde bırakılacak ek malzeme miktarı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="70"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut side</source>
       <translation>Kesim tarafı</translation>
     </message>
@@ -1996,7 +2327,16 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>İlk seçili özellikte kullanılacak noktayı seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSlotEdit.ui" line="32"/>
+=======
+      <location filename="../panels/PageOpSlotEdit.ui" line="42"/>
+      <source> The tool and its settings to be used for this operation</source>
+      <translation> Bu işlem için kullanılacak takım ve ayarları</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpSlotEdit.ui" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start feature reference</source>
       <translation>Başlangıç özellik referansı</translation>
     </message>
@@ -2065,9 +2405,15 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Yol başlangıcını uzat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSlotEdit.ui" line="306"/>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="62"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="51"/>
+=======
+      <location filename="../panels/PageOpSlotEdit.ui" line="352"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="105"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Layer mode</source>
       <translation>Katman modu</translation>
     </message>
@@ -2117,8 +2463,14 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Pozitif değer yolun sonunu uzatır, negatif değer kısaltır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="74"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="58"/>
+=======
+      <location filename="../panels/PageOpSlotEdit.ui" line="364"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="117"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Complete the operation in a single pass at depth, or multiple passes to final depth</source>
       <translation>İşlemi derinlikte tek pasoda bitirin ya da nihai derinliğe çoklu paso ile inin</translation>
     </message>
@@ -2138,6 +2490,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Kesme yönünü ters çevir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="30"/>
       <source>Select the algorithm to use: &apos;OCL Dropcutter*&apos;, &apos;OCL Adaptive*&apos; or &apos;Experimental&apos; (not OCL based).</source>
       <translation type="unfinished">Select the algorithm to use: &apos;OCL Dropcutter*&apos;, &apos;OCL Adaptive*&apos; or &apos;Experimental&apos; (not OCL based).</translation>
@@ -2145,12 +2498,21 @@ The latter can be used to face of the entire stock area to ensure uniform height
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="43"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="23"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="86"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="70"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bounding box</source>
       <translation>Sınırlayıcı kutu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="55"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="30"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="98"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select the overall boundary for the operation</source>
       <translation>İşlem için genel sınırı seçin</translation>
     </message>
@@ -2165,14 +2527,24 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Düzlemsel: düz, 3B yüzey taraması. Dönel: 4. eksen dönel taraması.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="81"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="65"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="124"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut pattern</source>
       <translation>Kesim deseni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="93"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="72"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="136"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the geometric clearing pattern to use for the operation</source>
       <translation>İşlemde kullanılacak geometrik boşaltma desenini ayarlayın</translation>
     </message>
@@ -2222,19 +2594,38 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Dropcutter çizgileri bu eksene paralel oluşturulur.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="113"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="165"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="156"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the Z-axis depth offset from the target surface</source>
       <translation>Hedef yüzeyden Z ekseni derinlik ofsetini ayarlayın</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSurfaceEdit.ui" line="221"/>
+=======
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="222"/>
+      <source>Stepover</source>
+      <translation>Adım aralığı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="261"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set to true if specifying a start point</source>
       <translation>Bir başlangıç noktası belirtiyorsanız true yapın</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="188"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="234"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="214"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Optimize linear paths</source>
       <translation>Doğrusal yolları optimize et</translation>
     </message>
@@ -2254,12 +2645,18 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Adım aralığı geçişlerini optimize et</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="158"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="211"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="201"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the sampling resolution. Smaller values quickly increase processing time.</source>
       <translation>Örnekleme çözünürlüğünü ayarlayın. Daha küçük değerler işlem süresini hızla artırır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="168"/>
       <source>Min Sample interval</source>
       <translation type="unfinished">Min Sample interval</translation>
@@ -2272,6 +2669,10 @@ The latter can be used to face of the entire stock area to ensure uniform height
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="185"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="231"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="211"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable optimization of linear paths (co-linear points). Removes unnecessary co-linear points from G-code output.</source>
       <translation>Doğrusal yolların (eşdoğrusal noktalar) optimizasyonunu etkinleştirir. G-code çıktısından gereksiz eşdoğrusal noktaları kaldırır.</translation>
     </message>
@@ -2286,7 +2687,16 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Derinlik sapması</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="106"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="73"/>
+      <source>Select the algorithm to use: &apos;OCL Dropcutter*&apos;, or &apos;Experimental&apos; (not OCL based).</source>
+      <translation>Kullanılacak algoritmayı seçin: 'OCL Dropcutter*' veya 'Deneysel' (OCL tabanlı değil).</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="149"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Boundary adjustment</source>
       <translation>Sınır düzeltmesi</translation>
     </message>
@@ -2300,15 +2710,25 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>Üzerinden atla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="136"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="179"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter.
 
 A step over of 100% results in no overlap between two different cycles.</source>
       <translation>Desenin her çevriminde takımın yanal olarak ne kadar kaydırılacağını, takım çapının yüzdesi cinsinden belirtin. %100 adım aralığı, iki farklı çevrim arasında bindirme olmadığı anlamına gelir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="151"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="204"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="194"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sample interval</source>
       <translation>Örnekle aralığı</translation>
     </message>
@@ -2440,7 +2860,11 @@ Default: 3 mm</source>
     </message>
     <message>
       <location filename="../panels/ToolEditor.ui" line="43"/>
+<<<<<<< HEAD
       <location filename="../panels/PageOpThreadMillingEdit.ui" line="40"/>
+=======
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="73"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Türü</translation>
     </message>
@@ -2470,7 +2894,16 @@ Default: 3 mm</source>
       <translation>Eğim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpThreadMillingEdit.ui" line="110"/>
+=======
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="36"/>
+      <source>The tool and its settings to be used for this operation.</source>
+      <translation>Bu operasyon için kullanılacak takım ve ayarları.</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>TPI</source>
       <translation>TPI</translation>
     </message>
@@ -2695,7 +3128,16 @@ Eğer yarıçap, etiketin şeklinin kendisinin destekleyebileceğinden daha büy
       <translation>Etiket Üretimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpEngraveEdit.ui" line="23"/>
+=======
+      <location filename="../panels/PageOpCustomEdit.ui" line="69"/>
+      <source>G-Code</source>
+      <translation>G-Kodu</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="70"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start at vertex</source>
       <translation>Tepe noktasından başla</translation>
     </message>
@@ -2703,6 +3145,7 @@ Eğer yarıçap, etiketin şeklinin kendisinin destekleyebileceğinden daha büy
       <location filename="../panels/PageOpEngraveEdit.ui" line="30"/>
       <source>Specify the vertex number of the underlying shape string at which engraving should start</source>
       <translation>Oyma işlemine başlanacak temel şekil telinin tepe noktası (vertex) numarasını belirtin</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../panels/PageOpCustomEdit.ui" line="23"/>
@@ -2728,6 +3171,8 @@ Eğer yarıçap, etiketin şeklinin kendisinin destekleyebileceğinden daha büy
       <location filename="../panels/PageOpCustomEdit.ui" line="69"/>
       <source>Enter the filename containing the G-code</source>
       <translation type="unfinished">Enter the filename containing the G-code</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2861,11 +3306,14 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../preferences/PathJob.ui" line="92"/>
       <source>Default curve accuracy</source>
       <translation>Varsayılan eğri doğruluğu</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../preferences/PathJob.ui" line="99"/>
       <source>Uses while calculates arcs. Smaller increases accuracy, but slows down computation</source>
       <translation type="unfinished">Uses while calculates arcs. Smaller increases accuracy, but slows down computation</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../preferences/PathJob.ui" line="131"/>
@@ -3064,6 +3512,7 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../../DlgSettingsPathColor.ui" line="396"/>
       <source>Multi-panel - reversed</source>
       <translation>Çok panelli - ters</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../DlgSettingsPathColor.ui" line="404"/>
@@ -3084,6 +3533,8 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../../DlgSettingsPathColor.ui" line="423"/>
       <source>Show editor before writing G-code</source>
       <translation type="unfinished">Show editor before writing G-code</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsPathColor.ui" line="42"/>
@@ -3179,6 +3630,7 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../preferences/Advanced.ui" line="64"/>
       <source>Suppress warning whenever a path selection mode is activated</source>
       <translation>Bir yol seçim modu etkinleştirildiğinde uyarıyı bastır</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../preferences/Advanced.ui" line="92"/>
@@ -3187,6 +3639,21 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
     </message>
     <message>
       <location filename="../preferences/Advanced.ui" line="67"/>
+=======
+    </message>
+    <message>
+      <location filename="../preferences/Advanced.ui" line="67"/>
+      <source>Suppress feed rate warning</source>
+      <translation>İlerleme hızı uyarısını bastır</translation>
+    </message>
+    <message>
+      <location filename="../preferences/Advanced.ui" line="111"/>
+      <source>OpenCAMLib</source>
+      <translation>OpenCAMLib</translation>
+    </message>
+    <message>
+      <location filename="../preferences/Advanced.ui" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Suppress selection mode warning</source>
       <translation>Seçim modu uyarısını zaptediniz</translation>
     </message>
@@ -3289,6 +3756,7 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../panels/AxisMapEdit.ui" line="76"/>
       <source>Y-&gt;C</source>
       <translation>Y-&gt;C</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../panels/AxisMapEdit.ui" line="84"/>
@@ -3299,6 +3767,8 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../panels/AxisMapEdit.ui" line="91"/>
       <source>Reverse rotary axis direction</source>
       <translation type="unfinished">Reverse rotary axis direction</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/DogboneEdit.ui" line="14"/>
@@ -3318,8 +3788,13 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
     </message>
     <message>
       <location filename="../panels/DogboneEdit.ui" line="48"/>
+<<<<<<< HEAD
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select desired style of the bone dressup:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Dogbone&lt;/span&gt; … take the shortest path to cover the corner,&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;T-bone&lt;/span&gt; … extend a certain direction until corner is covered&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select desired style of the bone dressup:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Dogbone&lt;/span&gt; … take the shortest path to cover the corner,&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;T-bone&lt;/span&gt; … extend a certain direction until corner is covered&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+=======
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select desired style of the bone dressup:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;Dogbone&lt;/span&gt; ... take the shortest path to cover the corner,&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;T-bone&lt;/span&gt; ... extend a certain direction until corner is covered&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html>&lt;head/>&lt;body>&lt;p>İstenen kemik deseni stilini seçin:&lt;/p>&lt;p>&lt;span style="font-weight:600; font-style:italic;">Köpek Kemiği&lt;/span> ... köşeyi kaplamak için en kısa yolu izleyin,&lt;/p>&lt;p>&lt;span style="font-weight:600; font-style:italic;">T-kemik&lt;/span> ... köşe kaplanana kadar belirli bir yönde uzatın&lt;/p>&lt;/body>&lt;html></translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/DogboneEdit.ui" line="52"/>
@@ -3373,8 +3848,13 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
     </message>
     <message>
       <location filename="../panels/DogboneEdit.ui" line="114"/>
+<<<<<<< HEAD
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Determines the incision length of the bone to be inserted into the profile.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;adaptive&lt;/span&gt; … the length is adapted to cover the corner based on the angle of its edges, taking the current tool radius into account (default)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;fixed&lt;/span&gt; … is the same as adaptive for straight angles. For T-bones it&apos;s the radius of the tool (R) and for dogbones it&apos;s R * (2/√2 - 1).&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;custom&lt;/span&gt; … lets you specify a custom (fixed) length below&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
       <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Determines the incision length of the bone to be inserted into the profile.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;adaptive&lt;/span&gt; … the length is adapted to cover the corner based on the angle of its edges, taking the current tool radius into account (default)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;fixed&lt;/span&gt; … is the same as adaptive for straight angles. For T-bones it&apos;s the radius of the tool (R) and for dogbones it&apos;s R * (2/√2 - 1).&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;custom&lt;/span&gt; … lets you specify a custom (fixed) length below&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+=======
+      <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Determines the incision length of the bone to be inserted into the profile.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;adaptive&lt;/span&gt; ... the length is adapted to cover the corner based on the angle of its edges, taking the current tool radius into account (default)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;fixed&lt;/span&gt; ... is the same as adaptive for straight angles. For T-bones it&apos;s the radius of the tool (R) and for dogbones it&apos;s R * (2/√2 - 1).&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; font-style:italic;&quot;&gt;custom&lt;/span&gt; ... lets you specify a custom (fixed) length below&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+      <translation>&lt;html>&lt;head/>&lt;body>&lt;p>Profilin içine yerleştirilecek kemiğin kesim uzunluğunu belirler.&lt;/p>&lt;p>&lt;span style="font-weight:600; font-style:italic;">uyarlanabilir&lt;/span> ... uzunluk, mevcut alet yarıçapı dikkate alınarak kenarlarının açısına göre köşeyi kaplayacak şekilde uyarlanır (varsayılan)&lt;/p>&lt;p>&lt;span style="font-weight:600; font-style:italic;">sabit&lt;/span> ... düz açılar için uyarlanabilir ile aynıdır. T-kemikleri için aletin yarıçapı (R) ve köpek kemiği şeklindeki aletler için R * (2/√2 - 1)'dir.&lt;/p>&lt;p>&lt;span style="font-weight:600; font-style:italic;">&lt;/span>özel&lt;/span> ... aşağıda özel (sabit) bir uzunluk belirtmenizi sağlar&lt;/p>&lt;/body>&lt;/html></translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/DogboneEdit.ui" line="121"/>
@@ -3633,6 +4113,7 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../panels/TaskPathSimulator.ui" line="55"/>
       <source>Activate/resume simulation</source>
       <translation>Simülasyonu etkinleştir/devam ettir</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../panels/TaskCAMSimulator.ui" line="127"/>
@@ -3643,6 +4124,8 @@ Ad çakışmalarının nasıl ele alınacağı için aşağıdaki dosya kaydetme
       <location filename="../panels/TaskCAMSimulator.ui" line="130"/>
       <source>Follow operations visibility</source>
       <translation type="unfinished">Follow operations visibility</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/TaskPathSimulator.ui" line="35"/>
@@ -3875,7 +4358,16 @@ FreeCAD has no knowledge of where a particular coordinate system exists within t
       <translation>Yenile</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PathEdit.ui" line="1055"/>
+=======
+      <location filename="../panels/PathEdit.ui" line="905"/>
+      <source>Template export</source>
+      <translation>Şablon dışa aktarımı</translation>
+    </message>
+    <message>
+      <location filename="../panels/PathEdit.ui" line="921"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Output file</source>
       <translation>Çıktı dosyası</translation>
     </message>
@@ -4379,6 +4871,30 @@ Default: 3 mm</source>
       <location filename="../../../InitGui.py" line="268"/>
       <source>Project Setup</source>
       <translation>Proje Kurulumu</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../InitGui.py" line="258"/>
+      <source>Tool Commands</source>
+      <translation>Takım Komutları</translation>
+    </message>
+    <message>
+      <location filename="../../../InitGui.py" line="262"/>
+      <source>New Operations</source>
+      <translation>Yeni İşlemler</translation>
+    </message>
+    <message>
+      <location filename="../../../InitGui.py" line="266"/>
+      <location filename="../../../InitGui.py" line="303"/>
+      <source>Path Modification</source>
+      <translation>Yol Değiştirme</translation>
+    </message>
+    <message>
+      <location filename="../../../InitGui.py" line="269"/>
+      <source>Helpful Tools</source>
+      <translation>Yararlı Araçlar</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../InitGui.py" line="272"/>
@@ -4417,11 +4933,24 @@ Default: 3 mm</source>
       <location filename="../../../InitGui.py" line="304"/>
       <source>Path Dressup</source>
       <translation>Yol Giydirme</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../InitGui.py" line="311"/>
       <source>Supplemental Commands</source>
       <translation>Ek Komutlar</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../InitGui.py" line="296"/>
+      <source>Supplemental Commands</source>
+      <translation>Ek Komutlar</translation>
+    </message>
+    <message>
+      <location filename="../../../InitGui.py" line="311"/>
+      <source>Specialty Operations</source>
+      <translation>Özel İşlemler</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../InitGui.py" line="326"/>
@@ -4509,7 +5038,11 @@ Default: 3 mm</source>
       <translation>Tutarlılık Denetimi Raporunu Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../PathScripts/PathUtilsGui.py" line="90"/>
+=======
+      <location filename="../../../PathScripts/PathUtilsGui.py" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose a CAM Job</source>
       <translation>Bir CAM İşi Seçin</translation>
     </message>
@@ -4555,11 +5088,14 @@ Default: 3 mm</source>
       <location filename="../../../Path/Geom.py" line="818"/>
       <source>Zero working area to process. Check your selection and settings.</source>
       <translation>İşlenecek çalışma alanı sıfır. Seçiminizi ve ayarlarınızı kontrol edin.</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Geom.py" line="888"/>
       <source>Can not restore order of faces.</source>
       <translation type="unfinished">Can not restore order of faces.</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4573,7 +5109,11 @@ Default: 3 mm</source>
     <message>
       <location filename="../../../Path/Base/SetupSheet.py" line="126"/>
       <source>Default speed for horizontal rapid moves.</source>
+<<<<<<< HEAD
       <extracomment>float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=None) bool = field(default=False) str = field(default=&quot;G54&quot;) str = field(default=&quot;off&quot;) str = Z|R for G98/G99, for drill cycles float = field(default=None) int = field(default=0) int = field(default=None)</extracomment>
+=======
+      <extracomment>float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=None) bool = field(default=False) str = field(default=&quot;G54&quot;) str = field(default=&quot;off&quot;) int = field(default=0) int = field(default=None)</extracomment>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>Yatay hızlı hareketler için varsayılan hız.</translation>
     </message>
     <message>
@@ -4629,6 +5169,7 @@ Default: 3 mm</source>
       <translation>Yeni işlemler için adım derinliğinde kullanılan ifade.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Base/SetupSheet.py" line="223"/>
       <location filename="../../../Path/Base/SetupSheet.py" line="431"/>
       <source>Default collision avoidance strategy for new operations.</source>
@@ -4638,6 +5179,12 @@ Default: 3 mm</source>
       <location filename="../../../Path/Dressup/Boundary.py" line="63"/>
       <location filename="../../../Path/Dressup/Tags.py" line="936"/>
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="57"/>
+=======
+      <location filename="../../../Path/Dressup/Tags.py" line="905"/>
+      <location filename="../../../Path/Dressup/Boundary.py" line="54"/>
+      <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="56"/>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base path to modify</source>
       <translation>Değiştirilecek temel yol</translation>
     </message>
@@ -4645,6 +5192,14 @@ Default: 3 mm</source>
       <location filename="../../../Path/Dressup/Boundary.py" line="73"/>
       <source>Solid object to be used to limit the generated Path.</source>
       <translation>Üretilen Yolu sınırlandırmak için kullanılacak katı nesne.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Boundary.py" line="74"/>
+      <source>Determines if Boundary describes an inclusion or exclusion mask.</source>
+      <translation>Sınırın (Boundary) bir dahil etme mi yoksa hariç tutma maskesi mi olduğunu belirler.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/Boundary.py" line="84"/>
@@ -4667,9 +5222,14 @@ Default: 3 mm</source>
     </message>
     <message>
       <location filename="../../../Path/Dressup/Boundary.py" line="112"/>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Boundary.py" line="169"/>
       <source>Apply offset to stock shape.</source>
       <translation type="unfinished">Apply offset to stock shape.</translation>
+=======
+      <source>Keep tool down.</source>
+      <translation>Takımı aşağıda tut.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/DogboneII.py" line="204"/>
@@ -4687,6 +5247,7 @@ Default: 3 mm</source>
       <translation>Dogbone stili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/DogboneII.py" line="244"/>
       <source>The algorithm to determine the bone length
 
@@ -4705,6 +5266,18 @@ Custom: length from Custom property</translation>
 Also non zero value limit max &apos;adaptive&apos; length</source>
       <translation type="unfinished">Dressup length if incision is set to &apos;custom&apos;
 Also non zero value limit max &apos;adaptive&apos; length</translation>
+=======
+      <location filename="../../../Path/Dressup/DogboneII.py" line="238"/>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="446"/>
+      <source>The algorithm to determine the bone length</source>
+      <translation>Dogbone uzunluğunu belirleme algoritması</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/DogboneII.py" line="247"/>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="454"/>
+      <source>Dressup length if incision is set to &apos;custom&apos;</source>
+      <translation>Kesim uzunluğu 'özel' olarak ayarlanırsa, dikim uzunluğu şu şekildedir:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/DogboneII.py" line="265"/>
@@ -4749,10 +5322,16 @@ Can be useful for multi profile operations, e.g. Pocket with ZigZagOffset patter
       <translation>Devre dışı bırakılmış tutma etiketlerinin kimlikleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Tags.py" line="981"/>
       <location filename="../../../Path/Dressup/Tags.py" line="1031"/>
       <source>Split B-Spline by arcs and ignore not vertical arcs axis (experimental).</source>
       <translation type="unfinished">Split B-Spline by arcs and ignore not vertical arcs axis (experimental).</translation>
+=======
+      <location filename="../../../Path/Dressup/Tags.py" line="950"/>
+      <source>Factor determining the # of segments used to approximate rounded tags.</source>
+      <translation>Yuvarlatılmış etiketleri yaklaştırmak için kullanılacak segment sayısını belirleyen katsayı.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="63"/>
@@ -4763,12 +5342,15 @@ Can be useful for multi profile operations, e.g. Pocket with ZigZagOffset patter
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="69"/>
       <source>The radius of the wrapped axis</source>
       <translation>Sarılan eksenin yarıçapı</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="75"/>
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="103"/>
       <source>Reverse rotary axis direction</source>
       <translation type="unfinished">Reverse rotary axis direction</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/Array.py" line="43"/>
@@ -4805,69 +5387,124 @@ Can be useful for multi profile operations, e.g. Pocket with ZigZagOffset patter
       <translation>Takım yolundan çıkış (Lead-Out) hareketini değiştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="97"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="431"/>
       <location filename="../../../Path/Op/Profile.py" line="215"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="95"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set distance which will attempts to avoid unnecessary retractions</source>
       <translation>Gereksiz geri çekilmeleri önlemeye çalışmak için mesafeyi ayarla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="103"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="297"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="101"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The style of motion into the toolpath</source>
       <translation>Takım yoluna giriş hareketinin stili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="110"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="314"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="108"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The style of motion out of the toolpath</source>
       <translation>Takım yolundan çıkış hareketinin stili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="123"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="330"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="121"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of the Lead-In (1..90)</source>
       <translation>Lead-In açısı (1..90)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="129"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="338"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="127"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of the Lead-Out (1..90)</source>
       <translation>Lead-Out açısı (1..90)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="135"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="367"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="133"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Determine length of the Lead-In</source>
       <translation>Lead-In uzunluğunu belirle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="141"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="382"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="139"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Determine length of the Lead-Out</source>
       <translation>Lead-Out uzunluğunu belirle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="147"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="400"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="145"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="390"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invert Lead-In direction</source>
       <translation>Lead-In yönünü ters çevir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="153"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="407"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="151"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invert Lead-Out direction</source>
       <translation>Lead-Out yönünü ters çevir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="159"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="414"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="157"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move start point</source>
       <translation>Başlangıç noktasını taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="165"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="421"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="163"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move end point</source>
       <translation>Bitiş noktasını taşı</translation>
     </message>
@@ -4898,6 +5535,7 @@ Only for styles: Arc, Line, Perpendicular and Tangent</translation>
       <translation>Rampa açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="71"/>
       <source>Select ramping method.
 
@@ -4921,11 +5559,38 @@ Above this depth ramps are not generated, but motion commands are passed through
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="80"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="182"/>
+      <source>Ramping Method</source>
+      <translation>Rampa yöntemi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="188"/>
+      <source>Which feed rate to use for ramping</source>
+      <translation>Rampa için kullanılacak ilerleme hızı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="194"/>
+      <source>Custom feed rate</source>
+      <translation>Özel ilerleme hızı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Should the dressup ignore motion commands above DressupStartDepth</source>
       <translation>Giydirme, DressupStartDepth üzerindeki hareket komutlarını yok saysın mı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="67"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="212"/>
+      <source>The depth where the ramp dressup is enabled. Above this ramps are not generated, but motion commands are passed through as is.</source>
+      <translation>Rampa giydirmenin etkinleştirildiği derinlik. Bu derinliğin üzerinde rampa üretilmez; hareket komutları olduğu gibi geçirilir.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The point file from the surface probing.</source>
       <translation>Yüzey prob ölçümünden gelen nokta dosyası.</translation>
     </message>
@@ -4938,6 +5603,7 @@ Above this depth ramps are not generated, but motion commands are passed through
       <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="83"/>
       <source>break segments into smaller segments of this length.</source>
       <translation>Segmentleri bu uzunlukta daha küçük segmentlere böl.</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Main/Job.py" line="122"/>
@@ -4959,6 +5625,34 @@ Above this depth ramps are not generated, but motion commands are passed through
       <location filename="../../../Path/Main/Job.py" line="150"/>
       <source>Last Time the Job was post processed</source>
       <translation>İşin son işlem uygulandığı zaman</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="116"/>
+      <source>The G-code output file for this project</source>
+      <translation>Bu proje için G-code çıktı dosyası</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="122"/>
+      <source>Select the Post Processor</source>
+      <translation>Son işlemciyi seç</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="131"/>
+      <source>Arguments for the Post Processor (specific to the script)</source>
+      <translation>Son işlemci için argümanlar (betiğe özgü)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="137"/>
+      <location filename="../../../Path/Main/Job.py" line="144"/>
+      <source>Last Time the Job was post processed</source>
+      <translation>İşin son işlem uygulandığı zaman</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="152"/>
+      <source>An optional description for this job</source>
+      <translation>Bu iş için isteğe bağlı bir açıklama</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Main/Job.py" line="158"/>
@@ -4989,12 +5683,27 @@ Above this depth ramps are not generated, but motion commands are passed through
       <location filename="../../../Path/Main/Job.py" line="197"/>
       <source>Select the Type of Job</source>
       <translation>İş türünü seçin</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Main/Job.py" line="205"/>
       <location filename="../../../Path/Main/Job.py" line="570"/>
       <source>Split output into multiple G-code files</source>
       <translation>Çıktıyı birden fazla G-code dosyasına böl</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="199"/>
+      <location filename="../../../Path/Main/Job.py" line="514"/>
+      <source>Split output into multiple G-code files</source>
+      <translation>Çıktıyı birden fazla G-code dosyasına böl</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Job.py" line="205"/>
+      <location filename="../../../Path/Main/Job.py" line="505"/>
+      <source>If multiple WCS, order the output this way</source>
+      <translation>Birden fazla WCS varsa, çıktıyı bu şekilde sırala</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Main/Job.py" line="211"/>
@@ -5038,9 +5747,15 @@ Above this depth ramps are not generated, but motion commands are passed through
       <translation>İş için tüm takım denetleyicilerinin koleksiyonu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Job.py" line="543"/>
       <location filename="../../../Path/Op/Base.py" line="296"/>
       <location filename="../../../Path/Op/Base.py" line="569"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="187"/>
+      <location filename="../../../Path/Op/Base.py" line="444"/>
+      <location filename="../../../Path/Main/Job.py" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operations Cycle Time Estimation</source>
       <translation>İşlem çevrim süresi tahmini</translation>
     </message>
@@ -5213,6 +5928,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>Hesaplama performansı ile kararlılık ve doğruluk arasındaki dengeyi etkiler. Daha büyük değerler (sağa doğru) daha hızlı hesaplar; daha küçük değerler (sola doğru) daha doğru takım yolları üretir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1619"/>
       <source>Force plunging into material inside and clearing towards the edges</source>
       <translation>Malzeme içine içten dalmayı ve kenarlara doğru temizlemeyi zorla</translation>
@@ -5248,6 +5964,11 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../../../Path/Op/PocketShape.py" line="168"/>
       <source>Uses the outline of the base geometry.</source>
       <translation>Temel geometrinin dış hattını kullanır.</translation>
+=======
+      <location filename="../../../Path/Op/Adaptive.py" line="1719"/>
+      <source>How much stock to leave in the XY plane (eg for finishing operation)</source>
+      <translation>XY düzleminde bırakılacak stok miktarı (örn. finisaj işlemi için)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Adaptive.py" line="1739"/>
@@ -5259,6 +5980,71 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../../../Path/Op/Adaptive.py" line="1878"/>
       <source>Enable the experimental model awareness feature to respect 3D geometry and prevent cutting under overhangs</source>
       <translation>3B geometriyi dikkate alıp çıkıntıların altında kesmeyi önlemek için deneysel model farkındalığı özelliğini etkinleştir</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1947"/>
+      <source>How much stock to leave along the Z axis (eg for finishing operation)</source>
+      <translation>Z ekseni boyunca bırakılacak stok miktarı (örn. finisaj işlemi için)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1737"/>
+      <source>Force plunging into material inside and clearing towards the edges</source>
+      <translation>Malzeme içine içten dalmayı ve kenarlara doğru temizlemeyi zorla</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1728"/>
+      <source>How much stock to leave along the Z axis (eg for finishing operation). This property is only used if the ModelAwareExperiment is enabled.</source>
+      <translation>Z ekseni boyunca bırakılacak stok miktarı (örn. finisaj işlemi için). Bu özellik yalnızca ModelAwareExperiment etkinse kullanılır.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1746"/>
+      <source>To take a finishing profile path at the end</source>
+      <translation>En sonda finisaj profil yolu almak için</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1752"/>
+      <location filename="../../../Path/Op/Adaptive.py" line="1762"/>
+      <source>Stop processing</source>
+      <translation>İşlemeyi durdur</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1772"/>
+      <source>Use Arcs (G2) for helix ramp</source>
+      <translation>Helis rampa için yaylar (G2) kullan</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1781"/>
+      <source>Internal input state</source>
+      <translation>Dahili giriş durumu</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1790"/>
+      <source>Internal output state</source>
+      <translation>Dahili çıkış durumu</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1801"/>
+      <source>Helix ramp entry angle (degrees)</source>
+      <translation>Helis rampa giriş açısı (derece)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1810"/>
+      <source>Helix cone angle (degrees)</source>
+      <translation>Helis koni açısı (derece)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1819"/>
+      <source>Limit helix entry diameter, if limit larger than tool diameter or 0, tool diameter is used</source>
+      <translation>Helis giriş çapını sınırla; sınır takım çapından büyükse veya 0 ise takım çapı kullanılır</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/PocketShape.py" line="67"/>
+      <location filename="../../../Path/Op/Adaptive.py" line="1828"/>
+      <source>Uses the outline of the base geometry.</source>
+      <translation>Temel geometrinin dış hattını kullanır.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Adaptive.py" line="1856"/>
@@ -5292,6 +6078,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../../../Path/Op/Gui/PathShapeTC.py" line="100"/>
       <source>Holds the diameter of the tool</source>
       <translation>Takım çapını tutar</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Base.py" line="221"/>
@@ -5340,6 +6127,93 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <location filename="../../../Path/Op/Base.py" line="290"/>
       <source>User Assigned Label</source>
       <translation>Kullanıcı atamalı etiket</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="149"/>
+      <source>Holds the max Z value of Stock</source>
+      <translation>Stokun azami Z değerini tutar</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="156"/>
+      <source>Holds the min Z value of Stock</source>
+      <translation>Stokun asgari Z değerini tutar</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="175"/>
+      <source>An optional comment for this Operation</source>
+      <translation>Bu işlem için isteğe bağlı açıklama</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="181"/>
+      <source>User Assigned Label</source>
+      <translation>Kullanıcı atamalı etiket</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="201"/>
+      <source>Base locations for this operation</source>
+      <translation>Bu işlem için temel konumlar</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="212"/>
+      <location filename="../../../Path/Op/Gui/PathShapeTC.py" line="94"/>
+      <source>The tool controller that will be used to calculate the path</source>
+      <translation>Yolu hesaplamak için kullanılacak takım denetleyicisi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="221"/>
+      <source>Coolant mode for this operation</source>
+      <translation>Bu işlem için soğutma sıvısı modu</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="229"/>
+      <source>Starting Depth of Tool- first cut depth in Z</source>
+      <translation>Takımın başlangıç derinliği: Z'de ilk kesim derinliği</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="235"/>
+      <source>Final Depth of Tool- lowest value in Z</source>
+      <translation>Takımın nihai derinliği: Z'deki en düşük değer</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="249"/>
+      <source>Starting Depth internal use only for derived values</source>
+      <translation>Başlangıç derinliği (yalnızca türetilmiş değerler için dahili kullanım)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="260"/>
+      <location filename="../../../Path/Op/Base.py" line="452"/>
+      <source>Incremental Step Down of Tool</source>
+      <translation>Takımın artımsal paso derinliği (step down)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="268"/>
+      <source>Maximum material removed on final pass.</source>
+      <translation>Son geçişte kaldırılacak en fazla malzeme.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="279"/>
+      <source>The height needed to clear clamps and obstructions</source>
+      <translation>Mengene ve engelleri aşmak için gereken yükseklik</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="285"/>
+      <source>Rapid Safety Height between locations.</source>
+      <translation>Konumlar arasında hızlı hareket güvenlik yüksekliği</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="293"/>
+      <source>The start point of this path</source>
+      <translation>Bu yolun başlangıç noktası</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="299"/>
+      <location filename="../../../Path/Op/Slot.py" line="235"/>
+      <location filename="../../../Path/Op/Surface.py" line="418"/>
+      <location filename="../../../Path/Op/Waterline.py" line="453"/>
+      <source>Make True, if specifying a Start Point</source>
+      <translation>Bir başlangıç noktası belirtiyorsanız True yapın</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Base.py" line="307"/>
@@ -5423,8 +6297,13 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <translation>Tornalama çapının üst sınırı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CAMTests/TestTestPost.py" line="657"/>
       <location filename="../../../Path/Op/Base.py" line="549"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="424"/>
+      <location filename="../../../CAMTests/TestRefactoredTestPost.py" line="665"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coolant option for this operation</source>
       <translation>Bu işlem için soğutma seçeneği</translation>
     </message>
@@ -5545,13 +6424,43 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <translation>Uç boyunu hesapla ve nihai derinlikten düş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Drilling.py" line="230"/>
+=======
+      <location filename="../../../Path/Op/Drilling.py" line="165"/>
+      <location filename="../../../Path/Op/Drilling.py" line="242"/>
+      <source>Controls tool retract height between holes in same op, Default=G98: safety height
+Use property KeepToolDown to change this</source>
+      <translation>Aynı işlemde delikler arasında takımın geri çekilme yüksekliğini kontrol eder. Varsayılan=G98: güvenlik yüksekliği
+Bunu değiştirmek için KeepToolDown özelliğini kullanın</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Drilling.py" line="174"/>
+      <source>The height where cutting feed rate starts and retract height for peck operation</source>
+      <translation>Kesme beslemesinin başladığı yükseklik ve peck işlemi için geri çekilme yüksekliği</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Drilling.py" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>How far the drilling depth is extended</source>
       <translation>Delme derinliğinin ne kadar uzatılacağı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Engrave.py" line="72"/>
       <location filename="../../../Path/Op/Vcarve.py" line="409"/>
+=======
+      <location filename="../../../Path/Op/Drilling.py" line="189"/>
+      <location filename="../../../Path/Op/Drilling.py" line="231"/>
+      <location filename="../../../Path/Op/Gui/Drilling.py" line="151"/>
+      <source>Apply G99 retraction: only retract to RetractHeight between holes in this operation</source>
+      <translation>G99 geri çekmeyi uygula: bu işlemde delikler arasında yalnızca RetractHeight'a geri çek</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Engrave.py" line="70"/>
+      <location filename="../../../Path/Op/Engrave.py" line="78"/>
+      <location filename="../../../Path/Op/Vcarve.py" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additional base objects to be engraved</source>
       <translation>Kazınacak ek temel nesneler</translation>
     </message>
@@ -5559,6 +6468,7 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <location filename="../../../Path/Op/Engrave.py" line="82"/>
       <source>The vertex index to start the toolpath from</source>
       <translation>Takım yoluna başlanacak köşe (vertex) indeksi</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Engrave.py" line="89"/>
@@ -5607,6 +6517,8 @@ Automatic - Sorting wires by the nearest neighbour method, further improved with
       <location filename="../../../Path/Op/Engrave.py" line="204"/>
       <source>Use end point for sorting</source>
       <translation type="unfinished">Use end point for sorting</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/FeatureExtension.py" line="478"/>
@@ -5624,9 +6536,16 @@ Automatic - Sorting wires by the nearest neighbour method, further improved with
       <translation>Etkinleştirildiğinde bağlı uzatma kenarları tel (wire) olarak birleştirilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Helix.py" line="137"/>
       <source>The direction of the circular cuts, ClockWise (CW) or CounterClockWise (CCW)</source>
       <translation type="unfinished">The direction of the circular cuts, ClockWise (CW) or CounterClockWise (CCW)</translation>
+=======
+      <location filename="../../../Path/Op/Helix.py" line="161"/>
+      <location filename="../../../Path/Op/Helix.py" line="223"/>
+      <source>The direction of the circular cuts, ClockWise (Climb), or CounterClockWise (Conventional)</source>
+      <translation>Dairesel kesimlerin yönü: Saat yönü (Climb) veya saat yönünün tersi (Conventional)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Helix.py" line="146"/>
@@ -5634,6 +6553,7 @@ Automatic - Sorting wires by the nearest neighbour method, further improved with
       <translation>Kesime içten mi dıştan mı başlanacağı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Helix.py" line="155"/>
       <location filename="../../../Path/Op/Helix.py" line="537"/>
       <source>The direction of the circular cuts</source>
@@ -5736,6 +6656,24 @@ For External profile - profile radius</source>
       <translation type="unfinished">Set how much stock to leave on the inner wall for the operation.
 Default inner radius is Tool radius and can not be less than (-ToolRadius)
 For External profile - profile radius</translation>
+=======
+      <location filename="../../../Path/Op/Helix.py" line="141"/>
+      <source>The direction of the circular cuts, ClockWise (CW), or CounterClockWise (CCW)</source>
+      <translation>Dairesel kesimlerin yönü: Saat yönü (CW) veya saat yönünün tersi (CCW)</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Helix.py" line="176"/>
+      <location filename="../../../Path/Op/Helix.py" line="199"/>
+      <source>Starting Radius</source>
+      <translation>Başlangıç yarıçapı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Helix.py" line="185"/>
+      <location filename="../../../Path/Op/Helix.py" line="210"/>
+      <location filename="../../../Path/Op/Profile.py" line="142"/>
+      <source>Extra value to stay away from final profile- good for roughing toolpath</source>
+      <translation>Nihai profilden uzak durmak için ek değer; kaba işleme takım yolu için uygundur</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/MillFace.py" line="97"/>
@@ -5753,10 +6691,17 @@ For External profile - profile radius</translation>
       <translation>Yüzey içindeki yükseltilmiş bölgeleri frezelemeyi hariç tut.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="267"/>
       <location filename="../../../Path/Op/Surface.py" line="240"/>
       <location filename="../../../Path/Op/Pocket.py" line="67"/>
       <location filename="../../../Path/Op/Profile.py" line="119"/>
+=======
+      <location filename="../../../Path/Op/Profile.py" line="116"/>
+      <location filename="../../../Path/Op/Pocket.py" line="67"/>
+      <location filename="../../../Path/Op/Surface.py" line="240"/>
+      <location filename="../../../Path/Op/Waterline.py" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose how to process multiple Base Geometry features.</source>
       <translation>Birden çok temel geometri özelliğinin nasıl işleneceğini seçin.</translation>
     </message>
@@ -5786,9 +6731,15 @@ For External profile - profile radius</translation>
       <translation>Cep boşaltmaya merkezden mi sınırdan mı başlanacağı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/PocketBase.py" line="165"/>
       <source>Angle of the grid, line and zigzag patterns</source>
       <translation type="unfinished">Angle of the grid, line and zigzag patterns</translation>
+=======
+      <location filename="../../../Path/Op/PocketBase.py" line="160"/>
+      <source>Angle of the zigzag pattern</source>
+      <translation>Zikzak deseninin açısı</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/PocketBase.py" line="206"/>
@@ -5818,10 +6769,26 @@ Manual: uses order of shapes selection</translation>
       <translation>Yolu 3B sıralama kullan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1730"/>
       <location filename="../../../Path/Op/Adaptive.py" line="1845"/>
       <location filename="../../../Path/Op/PocketBase.py" line="195"/>
       <location filename="../../../Path/Op/PocketBase.py" line="271"/>
+=======
+      <location filename="../../../Path/Op/PocketBase.py" line="178"/>
+      <source>Attempts to avoid unnecessary retractions.</source>
+      <translation>Gereksiz geri çekilmelerden kaçınmaya çalışır.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/PocketBase.py" line="187"/>
+      <location filename="../../../Path/Op/PocketBase.py" line="256"/>
+      <source>Last Stepover Radius.  If 0, 50% of cutter is used. Tuning this can be used to improve stepover for some shapes</source>
+      <translation>Son adım aralığı yarıçapı. 0 ise kesicinin %50'si kullanılır. Bu değeri ayarlamak, bazı şekillerde adım aralığını iyileştirebilir.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/PocketBase.py" line="196"/>
+      <location filename="../../../Path/Op/PocketBase.py" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skips machining regions that have already been cleared by previous operations.</source>
       <translation>Önceki işlemlerle zaten temizlenmiş bölgelerin işlenmesini atlar.</translation>
     </message>
@@ -5851,6 +6818,7 @@ Manual: uses order of shapes selection</translation>
       <translation>Prob verilerinin yazılacağı çıktı konumu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Probe.py" line="90"/>
       <location filename="../../../Path/Op/Probe.py" line="102"/>
       <source>Limit probe area by shape. Point should be inside shape at final depth</source>
@@ -5859,6 +6827,10 @@ Manual: uses order of shapes selection</translation>
     <message>
       <location filename="../../../Path/Op/PocketBase.py" line="136"/>
       <location filename="../../../Path/Op/Profile.py" line="110"/>
+=======
+      <location filename="../../../Path/Op/Profile.py" line="107"/>
+      <location filename="../../../Path/Op/PocketBase.py" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)</source>
       <translation>Takım yolunun parça etrafında dolaşma yönü: Saat yönü (CW) veya saat yönünün tersi (CCW)</translation>
     </message>
@@ -5908,6 +6880,7 @@ Manual: uses order of shapes selection</translation>
       <translation>Çoklu paso kullanılıyorsa, her ek pasonun ilave ofseti.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Profile.py" line="206"/>
       <source>Override start point
 Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStartPoint</source>
@@ -5917,18 +6890,39 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="205"/>
       <location filename="../../../Path/Op/Surface.py" line="128"/>
+=======
+      <location filename="../../../Path/Op/Profile.py" line="327"/>
+      <source>The number of passes to do. Requires a non-zero value for Stepover</source>
+      <translation>Yapılacak paso sayısı. Adım aralığı için sıfır olmayan bir değer gerekir.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Surface.py" line="128"/>
+      <location filename="../../../Path/Op/Waterline.py" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the temporary path construction objects when module is in DEBUG mode.</source>
       <translation>Modül DEBUG kipindeyken geçici yol oluşturma nesnelerini göster.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="329"/>
       <location filename="../../../Path/Op/Surface.py" line="284"/>
+=======
+      <location filename="../../../Path/Op/Slot.py" line="148"/>
+      <location filename="../../../Path/Op/Surface.py" line="284"/>
+      <location filename="../../../Path/Op/Waterline.py" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the geometric clearing pattern to use for the operation.</source>
       <translation>Bu işlemde kullanılacak geometrik boşaltma (clearing) desenini ayarlayın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="370"/>
       <location filename="../../../Path/Op/Surface.py" line="319"/>
+=======
+      <location filename="../../../Path/Op/Slot.py" line="175"/>
+      <location filename="../../../Path/Op/Surface.py" line="319"/>
+      <location filename="../../../Path/Op/Waterline.py" line="369"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Complete the operation in a single pass at depth, or multiple passes to final depth.</source>
       <translation>İşlemi hedef derinlikte tek pasoda tamamlayın veya nihai derinliğe çoklu paso ile inin.</translation>
     </message>
@@ -5993,8 +6987,13 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>Bu işlemin takım yolu için özel başlangıç noktası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="457"/>
       <location filename="../../../Path/Op/Surface.py" line="412"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="412"/>
+      <location filename="../../../Path/Op/Waterline.py" line="447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The custom start point for the path of this operation</source>
       <translation>Bu işlemin yolu için özel başlangıç noktası</translation>
     </message>
@@ -6040,42 +7039,73 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>Düzlemsel: Düz/3B yüzey taraması. Döner: 4. eksen döner tarama.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="232"/>
       <location filename="../../../Path/Op/Surface.py" line="205"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="205"/>
+      <location filename="../../../Path/Op/Waterline.py" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Avoid cutting the last &apos;N&apos; faces in the Base Geometry list of selected faces.</source>
       <translation>Seçilen yüzeylerin temel geometri listesindeki son 'n' yüzeyi kesmekten kaçının.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="240"/>
       <location filename="../../../Path/Op/Surface.py" line="213"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="213"/>
+      <location filename="../../../Path/Op/Waterline.py" line="239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not cut internal features on avoided faces.</source>
       <translation>Kaçınılan yüzeylerdeki iç unsurları kesme.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="249"/>
       <location filename="../../../Path/Op/Surface.py" line="222"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="222"/>
+      <location filename="../../../Path/Op/Waterline.py" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Positive values push the cutter toward, or beyond, the boundary. Negative values retract the cutter away from the boundary.</source>
       <translation>Pozitif değerler kesiciyi sınıra doğru veya sınırın ötesine iter. Negatif değerler kesiciyi sınırdan geri çeker.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="258"/>
       <location filename="../../../Path/Op/Surface.py" line="231"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="231"/>
+      <location filename="../../../Path/Op/Waterline.py" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, the cutter will remain inside the boundaries of the model or selected face(s).</source>
       <translation>Doğru ise, kesici modelin veya seçilen yüzey(ler)in sınırları içinde kalır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="276"/>
       <location filename="../../../Path/Op/Surface.py" line="249"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="249"/>
+      <location filename="../../../Path/Op/Waterline.py" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Positive values push the cutter toward, or into, the feature. Negative values retract the cutter away from the feature.</source>
       <translation>Pozitif değerler kesiciyi unsura doğru veya unsurun içine iter. Negatif değerler kesiciyi unsurdan geri çeker.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="285"/>
       <location filename="../../../Path/Op/Surface.py" line="258"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="258"/>
+      <location filename="../../../Path/Op/Waterline.py" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut internal feature areas within a larger selected face.</source>
       <translation>Daha büyük bir seçili yüzey içindeki iç unsur bölgelerini kes.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="294"/>
       <source>Select the algorithm to use: OCL Dropcutter*, OCL Adaptive or Experimental (Not OCL based).</source>
       <translation type="unfinished">Select the algorithm to use: OCL Dropcutter*, OCL Adaptive or Experimental (Not OCL based).</translation>
@@ -6083,42 +7113,76 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="302"/>
       <location filename="../../../Path/Op/Surface.py" line="266"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="266"/>
+      <location filename="../../../Path/Op/Waterline.py" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select the overall boundary for the operation.</source>
       <translation>İşlem için genel sınırı seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="320"/>
       <location filename="../../../Path/Op/Surface.py" line="275"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="275"/>
+      <location filename="../../../Path/Op/Waterline.py" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the direction for the cutting tool to engage the material: Climb (ClockWise) or Conventional (CounterClockWise)</source>
       <translation>Kesicinin malzemeye giriş yönünü ayarlayın: Tırmanır (saat yönünde) veya Konvansiyonel (saat yönünün tersine)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="337"/>
       <location filename="../../../Path/Op/Surface.py" line="292"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="292"/>
+      <location filename="../../../Path/Op/Waterline.py" line="336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The yaw angle used for certain clearing patterns</source>
       <translation>Bazı boşaltma desenlerinde kullanılan yaw açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="346"/>
       <location filename="../../../Path/Op/Surface.py" line="301"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="301"/>
+      <location filename="../../../Path/Op/Waterline.py" line="345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse the cut order of the stepover paths. For circular cut patterns, begin at the outside and work toward the center.</source>
       <translation>Adım aralığı yollarının kesim sırasını tersine çevirir. Dairesel kesim desenlerinde dıştan başlayıp merkeze doğru ilerler.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="355"/>
       <location filename="../../../Path/Op/Surface.py" line="310"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="310"/>
+      <location filename="../../../Path/Op/Waterline.py" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the Z-axis depth offset from the target surface.</source>
       <translation>Hedef yüzeyden Z ekseni derinlik ofsetini ayarlayın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="376"/>
       <location filename="../../../Path/Op/Surface.py" line="325"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="325"/>
+      <location filename="../../../Path/Op/Waterline.py" line="375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the start point for the cut pattern.</source>
       <translation>Kesim deseninin başlangıç noktasını ayarlayın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="385"/>
       <location filename="../../../Path/Op/Surface.py" line="334"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="334"/>
+      <location filename="../../../Path/Op/Waterline.py" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose location of the center point for starting the cut pattern.</source>
       <translation>Kesim desenini başlatmak için merkez noktasının konumunu seçin.</translation>
     </message>
@@ -6128,12 +7192,18 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>Seçimin kenarlarını profille.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="394"/>
       <location filename="../../../Path/Op/Surface.py" line="349"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="349"/>
+      <location filename="../../../Path/Op/Waterline.py" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the sampling resolution. Smaller values quickly increase processing time.</source>
       <translation>Örnekleme çözünürlüğünü ayarlayın. Daha küçük değerler işlem süresini hızla artırır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="403"/>
       <source>Set the minimum sampling resolution. Smaller values quickly increase processing time.</source>
       <translation type="unfinished">Set the minimum sampling resolution. Smaller values quickly increase processing time.</translation>
@@ -6141,18 +7211,32 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="412"/>
       <location filename="../../../Path/Op/Surface.py" line="358"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="358"/>
+      <location filename="../../../Path/Op/Waterline.py" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the stepover percentage, based on the tool&apos;s diameter.</source>
       <translation>Takım çapına bağlı olarak adım aralığı yüzdesini ayarlayın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="421"/>
       <location filename="../../../Path/Op/Surface.py" line="367"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="367"/>
+      <location filename="../../../Path/Op/Waterline.py" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable optimization of linear paths (co-linear points). Removes unnecessary co-linear points from G-code output.</source>
       <translation>Doğrusal yolların optimizasyonunu (eş-doğrusal noktalar) etkinleştir. G-code çıktısından gereksiz eş-doğrusal noktaları kaldırır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="430"/>
       <location filename="../../../Path/Op/Surface.py" line="376"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="376"/>
+      <location filename="../../../Path/Op/Waterline.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable separate optimization of transitions between, and breaks within, each step over path.</source>
       <translation>Her adım aralığı yolu içindeki kesintileri ve yollar arası geçişleri ayrı ayrı optimize etmeyi etkinleştir.</translation>
     </message>
@@ -6162,14 +7246,24 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>`Circular` ve `CircularZigZag` kesim desenlerinde eş-düzlemli yayları G2/G3 G-code komutlarına dönüştür.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="439"/>
       <location filename="../../../Path/Op/Surface.py" line="394"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="394"/>
+      <location filename="../../../Path/Op/Waterline.py" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collinear and co-radial artifact gaps that are smaller than this threshold are closed in the path.</source>
       <translation>Bu eşik değerinden küçük olan eş-doğrusal ve eş-yarıçaplı artifakt boşluklar yol üzerinde kapatılır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="448"/>
       <location filename="../../../Path/Op/Surface.py" line="403"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="403"/>
+      <location filename="../../../Path/Op/Waterline.py" line="438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Feedback: three smallest gaps identified in the path geometry.</source>
       <translation>Geri bildirim: yol geometrisinde tespit edilen en küçük üç boşluk.</translation>
     </message>
@@ -6182,6 +7276,29 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <location filename="../../../Path/Op/ThreadMilling.py" line="362"/>
       <source>Currently only internal</source>
       <translation>Şu anda yalnızca iç (internal)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="342"/>
+      <source>Defines which standard thread was chosen</source>
+      <translation>Hangi standart dişin seçildiğini tanımlar</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="348"/>
+      <source>Set thread&apos;s major diameter</source>
+      <translation>Dişin ana çapını ayarla</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="354"/>
+      <source>Set thread&apos;s minor diameter</source>
+      <translation>Dişin küçük çapını ayarla</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="360"/>
+      <source>Set thread&apos;s pitch - used for metric threads</source>
+      <translation>Diş adımını ayarlayın - metrik dişler için kullanılır.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/ThreadMilling.py" line="369"/>
@@ -6207,6 +7324,29 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <location filename="../../../Path/Op/ThreadMilling.py" line="396"/>
       <source>Set thread&apos;s TPI (turns per inch) - used for imperial threads</source>
       <translation>Dişin TPI (inç başına dönüş sayısı) değerini ayarlayın - inç ölçü birimindeki dişler için kullanılır.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="378"/>
+      <source>Override to control how loose or tight the threads are milled</source>
+      <translation>Dişlerin ne kadar gevşek ya da sıkı işleneceğini kontrol etmek için geçersiz kılma (override).</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="384"/>
+      <source>Set how many passes are used to cut the thread</source>
+      <translation>Dişi kesmek için kaç paso kullanılacağını ayarla</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="390"/>
+      <source>Direction of thread cutting operation</source>
+      <translation>Diş kesme işleminin yönü</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/ThreadMilling.py" line="399"/>
+      <source>Set to True to get lead in and lead out arcs at the start and end of the thread cut</source>
+      <translation>Diş kesiminin başında ve sonunda giriş/çıkış yayları (lead-in/lead-out) almak için True yapın.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/ThreadMilling.py" line="405"/>
@@ -6275,7 +7415,16 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>Daha küçük değerler daha ince ve daha doğru bir ağ üretir. Daha küçük değerler işlem süresini çok artırmaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="311"/>
+=======
+      <location filename="../../../Path/Op/Waterline.py" line="293"/>
+      <source>Select the algorithm to use: OCL Dropcutter*, or Experimental (Not OCL based).</source>
+      <translation>Kullanılacak algoritmayı seçin: OCL Dropcutter* veya Deneysel (OCL tabanlı değil).</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Waterline.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set to clear last layer in a `Multi-pass` operation.</source>
       <translation>`Multi-pass` işleminde son katmanı temizlemek için ayarlayın.</translation>
     </message>
@@ -6285,8 +7434,13 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>Bu yüksekliğin üzerindeki dış waterline çizgilerini yok say.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="49"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="78"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="54"/>
+      <location filename="../../../Path/Dressup/Array.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pattern method</source>
       <translation>Desen yöntemi</translation>
     </message>
@@ -6306,6 +7460,7 @@ Should be identical for all base operations</translation>
       <location filename="../../../Path/Op/Gui/Array.py" line="132"/>
       <source>Make copies in X direction before Y in Linear 2D pattern</source>
       <translation>Lineer 2B desende Y'den önce X yönünde kopyalar oluştur</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Array.py" line="141"/>
@@ -6354,12 +7509,23 @@ If selection without sub elements:
     <message>
       <location filename="../../../Path/Dressup/Array.py" line="66"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="103"/>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Gui/Array.py" line="71"/>
+      <location filename="../../../Path/Dressup/Array.py" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of copies in X-direction in linear pattern</source>
       <translation>Lineer desende X yönündeki kopya sayısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="74"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="111"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="79"/>
+      <location filename="../../../Path/Dressup/Array.py" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of copies in Y-direction in linear pattern</source>
       <translation>Lineer desende Y yönündeki kopya sayısı</translation>
     </message>
@@ -6369,19 +7535,34 @@ If selection without sub elements:
       <translation>Lineer 2B desende Y'den önce X yönünde kopyalar oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Dressup/Array.py" line="109"/>
       <source>Percent of copies to randomly offset</source>
       <translation>Rastgele ofsetlenecek kopya yüzdesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="115"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="176"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="120"/>
+      <location filename="../../../Path/Dressup/Array.py" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum random offset of copies</source>
       <translation>Kopyalar için en büyük rastgele ofset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="121"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="188"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="126"/>
+      <location filename="../../../Path/Op/Gui/Array.py" line="209"/>
+      <location filename="../../../Path/Dressup/Array.py" line="121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Seed value for jitter randomness</source>
       <translation>Jitter rastgeleliği için seed değeri</translation>
     </message>
@@ -6391,25 +7572,44 @@ If selection without sub elements:
       <translation>Diziye alınacak takım yolları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="58"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="95"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="63"/>
+      <location filename="../../../Path/Dressup/Array.py" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The spacing between the array copies in linear pattern</source>
       <translation>Lineer desende dizi kopyaları arasındaki aralık</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="80"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="117"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="85"/>
+      <location filename="../../../Path/Dressup/Array.py" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total angle in polar pattern</source>
       <translation>Polar desende toplam açı</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Dressup/Array.py" line="88"/>
       <source>The number of copies in linear 1D and polar pattern</source>
       <translation>Lineer 1B ve polar desende kopya sayısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="94"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="123"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="99"/>
+      <location filename="../../../Path/Dressup/Array.py" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The centre of rotation in polar pattern</source>
       <translation>Polar desende dönme merkezi</translation>
     </message>
@@ -6431,26 +7631,43 @@ If selection without sub elements:
       <translation>CNC programı için yorum/not</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="308"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The unique ID of the tool shape (.fcstd)</source>
       <translation>Takım şeklinin benzersiz kimliği (.fcstd)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="318"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool shape type</source>
       <translation>Takım şekli türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="331"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="292"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The parametrized body representing the tool bit</source>
       <translation>Takım ucunu temsil eden parametreli gövde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="338"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The unique ID of the toolbit</source>
       <translation>Takım ucunun benzersiz kimliği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="355"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="840"/>
       <source>Measurement units for the tool bit</source>
@@ -6459,11 +7676,19 @@ If selection without sub elements:
     <message>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="373"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="876"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="324"/>
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="811"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool material</source>
       <translation>Takım malzemesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="816"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="767"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom property from shape: {name}</source>
       <translation>Şekilden özel özellik: {name}</translation>
     </message>
@@ -6478,9 +7703,15 @@ If selection without sub elements:
       <translation>Kesme milinin devri (RPM)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/Controller.py" line="157"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="364"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="857"/>
+=======
+      <location filename="../../../Path/Tool/Controller.py" line="83"/>
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="315"/>
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction of spindle rotation</source>
       <translation>Mil dönüş yönü</translation>
     </message>
@@ -6551,6 +7782,14 @@ If selection without sub elements:
       <location filename="../../../Path/Op/Tapping.py" line="147"/>
       <source>How far the tap depth is extended</source>
       <translation>Kılavuz derinliğinin ne kadar uzatılacağı</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="438"/>
+      <source>Bones that are not dressed up</source>
+      <translation>Dressup uygulanmamış kemikler</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/PathShapeTC.py" line="64"/>
@@ -6571,6 +7810,7 @@ If selection without sub elements:
       <location filename="../../../Path/Tool/toolbit/mixins/cutting.py" line="40"/>
       <source>Chipload per tooth</source>
       <translation>Diş başına talaş yükü (chipload)</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/Mirror.py" line="42"/>
@@ -6716,6 +7956,8 @@ If selection without sub elements:
       <location filename="../../../Path/Tool/Gui/FeedsSpeedsDialog.py" line="86"/>
       <source>Per-field provenance: which source set HorizFeed/VertFeed/SpindleSpeed</source>
       <translation type="unfinished">Per-field provenance: which source set HorizFeed/VertFeed/SpindleSpeed</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6855,6 +8097,14 @@ If selection without sub elements:
       <location filename="../../../Path/Op/Profile.py" line="621"/>
       <source>Unable to create path for face(s).</source>
       <translation>Yüz(ler) için yol oluşturulamadı.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Profile.py" line="686"/>
+      <source>Check edge selection and Final Depth requirements for profiling open edge(s).</source>
+      <translation>Açık kenar(lar) için profil oluşturma sırasında kenar seçimini ve FinalDepth gereksinimlerini kontrol edin.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6933,22 +8183,38 @@ If selection without sub elements:
       <translation>G-koda dönüştürülecek tarama verisi yok.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2692"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to identify tool for operation.</source>
       <translation>İşlem için takım belirlenemedi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2702"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to map selected tool to an OCL tool type.</source>
       <translation>Seçilen takım OCL takım türüne eşlenemedi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2714"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2698"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to translate active tool to OCL tool type.</source>
       <translation>Etkin takım OCL takım türüne dönüştürülemedi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2726"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2710"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>OCL tool not available. Cannot determine is cutter has tilt available.</source>
       <translation>OCL takımı mevcut değil. Kesicinin eğim (tilt) desteği olup olmadığı belirlenemiyor.</translation>
     </message>
@@ -7018,6 +8284,7 @@ If selection without sub elements:
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="98"/>
+<<<<<<< HEAD
       <source>OCL Adaptive</source>
       <translation type="unfinished">OCL Adaptive</translation>
     </message>
@@ -7025,6 +8292,15 @@ If selection without sub elements:
       <location filename="../../../Path/Op/Waterline.py" line="99"/>
       <source>Experimental</source>
       <translation>Deneysel</translation>
+=======
+      <source>Experimental</source>
+      <translation>Deneysel</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Waterline.py" line="101"/>
+      <source>BaseBoundBox</source>
+      <translation>Temel Sınırlayıcı Kutu</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="102"/>
@@ -7037,6 +8313,7 @@ If selection without sub elements:
       <translation>Kütük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="106"/>
       <source>CenterOfMass</source>
       <translation>Kütle Merkezi</translation>
@@ -7045,6 +8322,21 @@ If selection without sub elements:
       <location filename="../../../Path/Op/Waterline.py" line="107"/>
       <source>CenterOfBoundBox</source>
       <translation>Sınırlayıcı Kutu Merkezi</translation>
+=======
+      <location filename="../../../Path/Op/Waterline.py" line="105"/>
+      <source>CenterOfMass</source>
+      <translation>Kütle Merkezi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Waterline.py" line="106"/>
+      <source>CenterOfBoundBox</source>
+      <translation>Sınırlayıcı Kutu Merkezi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Waterline.py" line="107"/>
+      <source>XminYmin</source>
+      <translation>Xmin Ymin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="108"/>
@@ -7057,6 +8349,14 @@ If selection without sub elements:
       <translation>Özel</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Op/Waterline.py" line="111"/>
+      <source>Off</source>
+      <translation>Kapalı</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Op/Waterline.py" line="112"/>
       <source>Off</source>
       <translation>Kapalı</translation>
@@ -7064,8 +8364,13 @@ If selection without sub elements:
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="113"/>
       <location filename="../../../Path/Op/Waterline.py" line="126"/>
+<<<<<<< HEAD
       <source>Circular</source>
       <translation>Dairesel</translation>
+=======
+      <source>CircularZigZag</source>
+      <translation>Dairesel Zigzag</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="114"/>
@@ -7076,8 +8381,13 @@ If selection without sub elements:
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="115"/>
       <location filename="../../../Path/Op/Waterline.py" line="128"/>
+<<<<<<< HEAD
       <source>Line</source>
       <translation>Çizgi</translation>
+=======
+      <source>Offset</source>
+      <translation>Ofset</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="116"/>
@@ -7113,9 +8423,20 @@ If selection without sub elements:
       <translation>Hiçbiri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="134"/>
       <source>Collectively</source>
       <translation>Toplu</translation>
+=======
+      <location filename="../../../Path/Op/Waterline.py" line="133"/>
+      <source>Collectively</source>
+      <translation>Toplu</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Waterline.py" line="134"/>
+      <source>Individually</source>
+      <translation>Ayrı ayrı</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="135"/>
@@ -7201,6 +8522,7 @@ If selection without sub elements:
       <location filename="../../../Path/Op/Waterline.py" line="1038"/>
       <source>operation time is</source>
       <translation>işlem süresi:</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="1281"/>
@@ -7211,6 +8533,8 @@ If selection without sub elements:
       <location filename="../../../Path/Op/Waterline.py" line="1408"/>
       <source>Step Down above model. Skipping height : </source>
       <translation type="unfinished">Step Down above model. Skipping height : </translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7221,86 +8545,147 @@ If selection without sub elements:
       <translation>İşlemin kod üretmesini engellemek için False yapın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="316"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="321"/>
       <source>Set Workplane from Face</source>
       <translation type="unfinished">Set Workplane from Face</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Base.py" line="829"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="640"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Geometry</source>
       <translation>Tahta geometrisi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="949"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="759"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Multiple operations are labeled as</source>
       <translation>Birden fazla işlem şu şekilde etiketlenmiş:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1023"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="832"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Location</source>
       <translation>Taban Konumu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1226"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="945"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heights</source>
       <translation>Yükseklik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1168"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FinalDepth cannot be modified for this operation.
 If it is necessary to set the FinalDepth manually please select a different operation.</source>
       <translation>Bu işlem için FinalDepth değiştirilemez.
 FinalDepth'ü elle ayarlamanız gerekiyorsa lütfen farklı bir işlem seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1361"/>
       <source>Tool Controller</source>
       <translation>Takım Denetleyicisi</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Base.py" line="1398"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1038"/>
+      <source>Depths</source>
+      <translation>Derinlik</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Gui/Base.py" line="1139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameters</source>
       <translation>Çaplar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1430"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>AreaOp Operation</source>
       <translation>AreaOp İşlemi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1492"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operation</source>
       <translation>İşlem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1559"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Uncreate AreaOp Operation</source>
       <translation>AreaOp İşlemi Oluşturmayı Geri Al</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1698"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start Point Selection</source>
       <translation>Başlangıç Noktası Seçimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1699"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the start point</source>
       <translation>Başlangıç noktasını seçer</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1749"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1485"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No suitable tool controller found.
 Aborting op creation</source>
       <translation>Uygun bir takım denetleyicisi bulunamadı.
 İşlem oluşturma iptal ediliyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1753"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No tool controller, aborting op creation</source>
       <translation>Takım denetleyicisi yok; işlem oluşturma iptal ediliyor</translation>
     </message>
@@ -7349,9 +8734,15 @@ Aborting op creation</source>
       <translation>Dosya</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Custom.py" line="175"/>
       <source>Can not parse expression from line %s: %s</source>
       <translation type="unfinished">Can not parse expression from line %s: %s</translation>
+=======
+      <location filename="../../../Path/Op/Custom.py" line="187"/>
+      <source>Total invalid lines in Custom Text G-code: %s</source>
+      <translation>Özel Metin G-kodu içindeki geçersiz satır sayısı: %s</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Custom.py" line="203"/>
@@ -7369,9 +8760,15 @@ Aborting op creation</source>
       <translation>Özel Dosya G-kodu içindeki geçersiz satır sayısı: %s</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Custom.py" line="235"/>
       <source>Check lines: %s</source>
       <translation type="unfinished">Check lines: %s</translation>
+=======
+      <location filename="../../../Path/Op/Custom.py" line="219"/>
+      <source>Please check lines: %s</source>
+      <translation>Lütfen şu satırları kontrol edin: %s</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7410,6 +8807,7 @@ Aborting op creation</source>
       <translation>Döngü Seçimini Bitir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../PathCommands.py" line="62"/>
       <source>Completes the selection of edges or faces that forms a loop
 
@@ -7441,6 +8839,24 @@ or tangent edges.
 Select three or more edges: searching horizontal wires.
 
 Without sub selection all edges of the shape will be selected.</translation>
+=======
+      <location filename="../../../PathCommands.py" line="66"/>
+      <source>Completes the selection of edges that form a loop
+ Select one edge to search loop edges in horizontal plane
+ Select two edges to search loop edges in wires of the shape
+ Select one or more vertical faces to search loop faces which form the walls</source>
+      <translation>Döngü oluşturan kenarların seçimini tamamlar Yatay düzlemde döngü kenarlarını aramak için bir kenar seçin Şeklin tellerinde (wire) döngü kenarlarını aramak için iki kenar seçin Duvarları oluşturan döngü yüzlerini aramak için bir veya daha fazla dikey yüz seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../PathCommands.py" line="140"/>
+      <source>Feature Completion</source>
+      <translation>Özellik Tamamlama</translation>
+    </message>
+    <message>
+      <location filename="../../../PathCommands.py" line="141"/>
+      <source>Closed loop detection failed.</source>
+      <translation>Kapalı döngü algılama başarısız oldu.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7510,7 +8926,11 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Yay</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1727"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lead In/Out</source>
       <translation>Temel Giriş/Çıkış</translation>
     </message>
@@ -7530,9 +8950,20 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Teğet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="59"/>
       <source>Arc3d</source>
       <translation>3B Yay</translation>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="58"/>
+      <source>Arc3d</source>
+      <translation>3B Yay</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="59"/>
+      <source>ArcZ</source>
+      <translation>Z Yayı</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="60"/>
@@ -7550,9 +8981,25 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Helis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="63"/>
       <source>Line3d</source>
       <translation>3B Çizgi</translation>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="61"/>
+      <source>Line3d</source>
+      <translation>3B Çizgi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="62"/>
+      <source>LineZ</source>
+      <translation>Z Çizgisi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="63"/>
+      <source>No Retract</source>
+      <translation>Geri Çekilme Yok</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="64"/>
@@ -7575,16 +9022,26 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Dikey</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="282"/>
       <source>Can not get parameters from base operation and path</source>
       <translation type="unfinished">Can not get parameters from base operation and path</translation>
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1731"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="251"/>
+      <source>Tool controller not selected for base operation: %s</source>
+      <translation>Taban işlem için takım denetleyicisi seçilmedi: %s</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates entry and exit motions for a selected path</source>
       <translation>Seçilen bir yol için giriş ve çıkış hareketleri oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1762"/>
       <source>The selected object is not a path</source>
       <translation>Seçilen nesne bir yol değil</translation>
@@ -7593,6 +9050,21 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1767"/>
       <source>Select a profile object</source>
       <translation>Bir profil nesnesi seçin</translation>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1422"/>
+      <source>Select one toolpath object</source>
+      <translation>Bir takım yolu nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1431"/>
+      <source>Select a Profile object</source>
+      <translation>Bir Profil nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1427"/>
+      <source>The selected object is not a toolpath</source>
+      <translation>Seçilen nesne bir takım yolu değil</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7611,6 +9083,14 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Dressup/Gui/Boundary.py" line="271"/>
       <source>Creates a boundary dress-up from a selected toolpath</source>
       <translation>Seçilen takım yolundan bir sınır süslemesi (dress-up) oluşturur</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Boundary.py" line="286"/>
+      <source>Please select one toolpath object</source>
+      <translation>Lütfen bir takım yolu nesnesi seçin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7644,6 +9124,14 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Dressup/Gui/Tags.py" line="582"/>
       <source>Creates a tag dress-up object from a selected toolpath</source>
       <translation>Seçilen takım yolundan bir tutma köprüsü (tag) süslemesi oluşturur</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Tags.py" line="575"/>
+      <source>Please select one toolpath object</source>
+      <translation>Lütfen bir takım yolu nesnesi seçin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7665,7 +9153,7 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Dressup/Utils.py" line="39"/>
       <source>Select one toolpath object
 </source>
-      <translation type="unfinished">Select one toolpath object
+      <translation>Bir takım yolu nesnesi seçin
 </translation>
     </message>
     <message>
@@ -7676,24 +9164,55 @@ Without sub selection all edges of the shape will be selected.</translation>
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Utils.py" line="51"/>
       <source>The selected object is not an operation or dressup
 </source>
       <translation type="unfinished">The selected object is not an operation or dressup
 </translation>
+=======
+      <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="288"/>
+      <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="372"/>
+      <source>Select a toolpath object</source>
+      <translation>Bir takım yolu nesnesi seçin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CAM_DressupDogbone</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="332"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1323"/>
+      <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dogbone</source>
       <translation>Köpek kemiği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="336"/>
       <source>Creates a dogbone dress-up object from a selected toolpath</source>
       <translation>Seçilen takım yolundan bir dogbone süslemesi oluşturur</translation>
+=======
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1327"/>
+      <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="335"/>
+      <source>Creates a dogbone dress-up object from a selected toolpath</source>
+      <translation>Seçilen takım yolundan bir dogbone süslemesi oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1343"/>
+      <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="351"/>
+      <source>Select one toolpath object</source>
+      <translation>Bir takım yolu nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1349"/>
+      <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="357"/>
+      <source>The selected object is not a toolpath</source>
+      <translation>Seçilen nesne bir takım yolu değil</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7707,6 +9226,24 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Dressup/Gui/Dragknife.py" line="596"/>
       <source>Modifies a toolpath to add dragknife corner actions</source>
       <translation>Sürükleme bıçağı köşe hareketlerini eklemek için bir takım yolunu değiştirir</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dragknife.py" line="612"/>
+      <source>Select one toolpath object</source>
+      <translation>Bir adet takım yolu nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dragknife.py" line="623"/>
+      <source>Select a toolpath object</source>
+      <translation>Bir takım yolu nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dragknife.py" line="617"/>
+      <source>The selected object is not a toolpath</source>
+      <translation>Seçilen nesne bir takım yolu değil</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7750,7 +9287,31 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Helis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="265"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="251"/>
+      <source>Horizontal Feed Rate</source>
+      <translation>Yatay İlerleme Hızı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="255"/>
+      <source>Vertical Feed Rate</source>
+      <translation>Dikey İlerleme Hızı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="259"/>
+      <source>Ramp Feed Rate</source>
+      <translation>Rampa İlerleme Hızı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="262"/>
+      <source>Custom</source>
+      <translation>Özel</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="775"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ramp Entry</source>
       <translation>Rampa Girişi</translation>
     </message>
@@ -7758,6 +9319,24 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="269"/>
       <source>Creates a ramp entry dress-up object from a selected toolpath</source>
       <translation>Seçili takım yolundan bir rampa girişi giydirme nesnesi oluşturur</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="793"/>
+      <source>Select one toolpath object</source>
+      <translation>Bir adet takım yolu nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="802"/>
+      <source>Select a Profile object</source>
+      <translation>Bir Profil nesnesi seçin</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/RampEntry.py" line="798"/>
+      <source>The selected object is not a toolpath</source>
+      <translation>Seçilen nesne bir takım yolu değil</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7768,8 +9347,13 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Prob Noktası Dosyasını Seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="327"/>
       <location filename="../../../Path/Op/Gui/Probe.py" line="114"/>
+=======
+      <location filename="../../../Path/Op/Gui/Probe.py" line="107"/>
+      <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All Files (*.*)</source>
       <translation>Tüm dosyalar (*. *)</translation>
     </message>
@@ -7896,6 +9480,7 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Tüm dosyalar (*. *)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1471"/>
       <source>Picking: Model</source>
       <translation type="unfinished">Picking: Model</translation>
@@ -7907,46 +9492,82 @@ Without sub selection all edges of the shape will be selected.</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Job.py" line="1553"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsupported stock object %s</source>
       <translation>Desteklenmeyen stok nesnesi: %s</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1569"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsupported stock type %s (%d)</source>
       <translation>Desteklenmeyen stok türü: %s (%d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1657"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Model Selection</source>
       <translation>Model Seçimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1813"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warning</source>
       <translation>uyarı ikaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1814"/>
       <source>Add one.</source>
       <translation type="unfinished">Add one.</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Job.py" line="1815"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1664"/>
+      <source>Please add one.</source>
+      <translation>Lütfen bir tane ekleyin.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/Job.py" line="1665"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ok</source>
       <translation>Tamam</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1817"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add</source>
       <translation>Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1828"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This job has no base model.</source>
       <translation>Bu işin temel modeli yok.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1835"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This job has no tool.</source>
       <translation>Bu işin takımı yok.</translation>
     </message>
@@ -7961,7 +9582,86 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>İşler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="281"/>
+=======
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="124"/>
+      <source>Warning: Incompatible Unit Schema</source>
+      <translation>Uyarı: Uyumsuz Birim Şeması</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="138"/>
+      <source>&lt;b&gt;This document uses an improper unit schema which can result in dangerous situations and machine crashes!&lt;/b&gt;</source>
+      <translation>&lt;b&gt;Bu belgede hatalı bir birim şeması kullanılıyor; bu durum tehlikeli durumlara ve makine çarpmalarına yol açabilir!&lt;/b&gt;</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="149"/>
+      <source>Current unit schema &apos;{}&apos; expresses velocity in values &lt;i&gt;per second&lt;/i&gt;.</source>
+      <translation>Mevcut birim şeması &apos;{}&apos; hızı &lt;i>saniye başına&lt;/i> değerler cinsinden ifade eder.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="161"/>
+      <source>Please select a unit schema that expresses feed rates &lt;i&gt;per minute&lt;/i&gt; instead:</source>
+      <translation>Lütfen ilerleme hızlarını bunun yerine &lt;i&gt;dakika başına&lt;/i&gt; ifade eden bir birim şeması seçin:</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="166"/>
+      <source>Recommended Unit Schemas</source>
+      <translation>Önerilen Birim Şemaları</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="190"/>
+      <source>Keeping the current unit schema can result in dangerous G-code errors. For details please refer to the &lt;a href=&apos;https://wiki.freecad.org/CAM_Workbench#Units&apos;&gt;Units section&lt;/a&gt; of the CAM Workbench&apos;s wiki page.</source>
+      <translation>Mevcut birim şemasını korumak tehlikeli G-kod hatalarına yol açabilir. Ayrıntılar için lütfen CAM Workbench wiki sayfasının &lt;a href=&apos;https://wiki.freecad.org/CAM_Workbench#Units&amp;agt;Birimler bölümüne&amp;l;/a&gt; bakın.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="198"/>
+      <source>Change Unit Schema</source>
+      <translation>Birim Şemasını Değiştir</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="202"/>
+      <source>Keep Current Schema</source>
+      <translation>Geçerli Şemayı Koru</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="205"/>
+      <source>Don&apos;t Show Again</source>
+      <translation>Tekrar gösterme</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="234"/>
+      <source>Unit Schema Changed</source>
+      <translation>Birim Şeması Değiştirildi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="235"/>
+      <source>Unit schema successfully changed to &apos;{}&apos;.</source>
+      <translation>Birim şeması başarıyla &apos;{}&apos; olarak değiştirildi.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="243"/>
+      <source>Error</source>
+      <translation>Hata</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="244"/>
+      <source>Failed to change unit schema: {}</source>
+      <translation>Birim şeması değiştirilemedi: {}</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="249"/>
+      <source>No Selection</source>
+      <translation>Seçim Yok</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="250"/>
+      <source>Please select a unit schema.</source>
+      <translation>Lütfen bir birim şeması seçin.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Model</source>
       <translation>Model</translation>
     </message>
@@ -7971,9 +9671,15 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Saymak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="136"/>
       <source>Velocity expressed per minute (recommended for G-code)</source>
       <translation type="unfinished">Velocity expressed per minute (recommended for G-code)</translation>
+=======
+      <location filename="../../../Path/Main/Gui/JobDlg.py" line="431"/>
+      <source>&lt;none&gt;</source>
+      <translation>&lt;yok&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/JobDlg.py" line="142"/>
@@ -8027,9 +9733,16 @@ Without sub selection all edges of the shape will be selected.</translation>
   <context>
     <name>CAM_Inspect</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Inspect.py" line="136"/>
       <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows path commands in FreeCAD base units (mm/s).&lt;br&gt;Values will be converted to the desired unit during post processing.</source>
       <translation type="unfinished">&lt;b&gt;Note&lt;/b&gt;: This dialog shows path commands in FreeCAD base units (mm/s).&lt;br&gt;Values will be converted to the desired unit during post processing.</translation>
+=======
+      <location filename="../../../Path/Main/Gui/Inspect.py" line="133"/>
+      <source>&lt;b&gt;Note&lt;/b&gt;: This dialog shows path commands in FreeCAD base units (mm/s). 
+ Values will be converted to the desired unit during post processing.</source>
+      <translation>&lt;b&gt;Not&lt;/b&gt;: Bu iletişim kutusu yol komutlarını FreeCAD içinde gösterir. Satır içi değerler, son işlem sırasında istenen birime dönüştürülecektir.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="258"/>
@@ -8366,6 +10079,7 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="488"/>
       <source>Tool Controller &apos;{}&apos; is not used</source>
       <translation>Takım Denetleyici '{}' kullanılmıyor</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="653"/>
@@ -8376,6 +10090,8 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="663"/>
       <source>No model/base geometry found in job</source>
       <translation type="unfinished">No model/base geometry found in job</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Main/Sanity/Sanity.py" line="350"/>
@@ -8396,6 +10112,7 @@ Without sub selection all edges of the shape will be selected.</translation>
       <location filename="../../../Path/Main/Gui/SanityCmd.py" line="56"/>
       <source>Checks the CAM job for common errors</source>
       <translation>CAM işini yaygın hatalar için denetler</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/SanityCmd.py" line="108"/>
@@ -8427,6 +10144,8 @@ Without sub selection all edges of the shape will be selected.</translation>
 </source>
       <translation type="unfinished">=== {len(all_squawks)} issue(s) found, {len(critical_squawks)} critical ===
 </translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -8457,8 +10176,13 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Eski CAM Simülatörü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Simulator.py" line="625"/>
       <location filename="../../../Path/Main/Gui/SimulatorGL.py" line="366"/>
+=======
+      <location filename="../../../Path/Main/Gui/SimulatorGL.py" line="353"/>
+      <location filename="../../../Path/Main/Gui/Simulator.py" line="625"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simulates G-code on stock</source>
       <translation>G-kodu stok üzerinde simüle eder</translation>
     </message>
@@ -8499,17 +10223,29 @@ Without sub selection all edges of the shape will be selected.</translation>
   <context>
     <name>CAM_Operation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="486"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="362"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Hiçbiri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="487"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flood</source>
       <translation>Sulu Soğutma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="488"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mist</source>
       <translation>Sis Soğutma</translation>
     </message>
@@ -8537,6 +10273,7 @@ Without sub selection all edges of the shape will be selected.</translation>
   <context>
     <name>CAM</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="843"/>
       <source>No parent job found for operation.</source>
       <translation>İşlem için üst iş bulunamadı.</translation>
@@ -8558,15 +10295,43 @@ Without sub selection all edges of the shape will be selected.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Util.py" line="661"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="623"/>
+      <source>No parent job found for operation.</source>
+      <translation>İşlem için üst iş bulunamadı.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="628"/>
+      <source>Parent job %s doesn&apos;t have a base object</source>
+      <translation>Üst iş %s için bir temel nesne yok</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="770"/>
+      <source>No Tool Controller is selected. We need a tool to build a Path.</source>
+      <translation>Takım Denetleyici seçilmedi. Takım yolu oluşturmak için bir takıma ihtiyaç var.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="784"/>
+      <source>No Tool found or diameter is zero. We need a tool to build a Path.</source>
+      <translation>Takım bulunamadı veya çapı sıfır. Takım yolu oluşturmak için bir takıma ihtiyaç var.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="854"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Tool Controller selected.</source>
       <translation>CAM</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="664"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Error</source>
       <translation>Takım Hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="676"/>
       <source>Tool Controller feedrates required to calculate the cycle time.</source>
       <translation>Çevrim süresini hesaplamak için takım denetleyicisi ilerleme hızları gereklidir.</translation>
@@ -8578,21 +10343,46 @@ Without sub selection all edges of the shape will be selected.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Util.py" line="685"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="869"/>
+      <source>Tool Controller feedrates required to calculate the cycle time.</source>
+      <translation>Çevrim süresini hesaplamak için takım denetleyicisi ilerleme hızları gereklidir.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="872"/>
+      <source>Tool Feedrate Error</source>
+      <translation>Takım İlerleme Hızı Hatası</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Base.py" line="878"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Tool Controller Rapid Speeds on the SetupSheet for more accurate cycle times.</source>
       <translation>Daha doğru çevrim süreleri için Kurulum Sayfası'nda takım denetleyicisi hızlı hareket hızlarını ekleyin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="693"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="887"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cycletime Error</source>
       <translation>Çevrim Süresi Hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="1265"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="829"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base object %s.%s already in the list</source>
       <translation>Taban nesnesi %s.%s zaten listede</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="1275"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="839"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base object %s.%s rejected by operation</source>
       <translation>Taban nesnesi %s.%s işlem tarafından reddedildi</translation>
     </message>
@@ -8624,14 +10414,24 @@ Without sub selection all edges of the shape will be selected.</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Engrave.py" line="75"/>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Vcarve.py" line="66"/>
+=======
+      <location filename="../../../Path/Op/Gui/Vcarve.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%s is not a Base Model object of the job %s</source>
       <translation>%s, %s işinin Taban Model nesnesi değildir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Vcarve.py" line="128"/>
       <location filename="../../../Path/Op/Gui/Probe.py" line="59"/>
       <location filename="../../../Path/Op/Gui/ThreadMilling.py" line="78"/>
+=======
+      <location filename="../../../Path/Op/Gui/Probe.py" line="70"/>
+      <location filename="../../../Path/Op/Gui/ThreadMilling.py" line="113"/>
+      <location filename="../../../Path/Op/Gui/Vcarve.py" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No valid toolcontroller</source>
       <translation>Geçerli takım denetleyicisi yok</translation>
     </message>
@@ -8666,7 +10466,16 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>Bu işlem, diş frezeleme takımına sahip bir takım denetleyicisi gerektirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Post/scripts/snapmaker_legacy_post.py" line="245"/>
+=======
+      <location filename="../../../Path/Post/scripts/refactored_masso_g3_post.py" line="57"/>
+      <source>Refactored Masso G3 post processor</source>
+      <translation>Yeniden düzenlenmiş Masso G3 son işlemcisi</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Post/scripts/snapmaker_post.py" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Snapmaker post processor</source>
       <translation>Snapmaker son işlemcisi</translation>
     </message>
@@ -8676,7 +10485,11 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>SVG son işlemcisi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/library/serializers/camotics.py" line="66"/>
+=======
+      <location filename="../../../Path/Tool/library/serializers/camotics.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Camotics Tool Library</source>
       <translation>Camotics Takım Kütüphanesi</translation>
     </message>
@@ -8761,6 +10574,7 @@ Without sub selection all edges of the shape will be selected.</translation>
       <translation>FreeCAD Takımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="84"/>
       <source>Toolbit</source>
       <translation>Takım Ucu</translation>
@@ -8782,11 +10596,33 @@ Without sub selection all edges of the shape will be selected.</translation>
     </message>
     <message>
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="94"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="82"/>
+      <source>Toolbit</source>
+      <translation>Takım Ucu</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="84"/>
+      <source>Label:</source>
+      <translation>Etiket:</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="85"/>
+      <source>ID:</source>
+      <translation>Kimlik:</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Number:</source>
       <translation>Takım Numarası:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="99"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Properties</source>
       <translation>Özellikleri</translation>
     </message>
@@ -8848,9 +10684,9 @@ This will not delete the toolbits contained within it.</source>
 Bu işlem, içindeki takım uçlarını silmez.</translation>
     </message>
     <message>
+      <location filename="../../../Path/Tool/toolbit/ui/browser.py" line="289"/>
       <location filename="../../../Path/Tool/library/ui/editor.py" line="430"/>
       <location filename="../../../Path/Tool/library/ui/editor.py" line="470"/>
-      <location filename="../../../Path/Tool/toolbit/ui/browser.py" line="289"/>
       <source>Error</source>
       <translation>Hata</translation>
     </message>
@@ -8883,9 +10719,15 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <translation>uyarı ikaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/library/ui/editor.py" line="577"/>
       <source>Select a library first.</source>
       <translation type="unfinished">Select a library first.</translation>
+=======
+      <location filename="../../../Path/Tool/library/ui/editor.py" line="547"/>
+      <source>Please select a library first.</source>
+      <translation>Uyarı</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Tool/library/ui/editor.py" line="652"/>
@@ -8903,7 +10745,21 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <translation>'{file_path}' dosyasından '{current_library.label}' kütüphanesine toolbit içe aktarılamadı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/bullnose.py" line="56"/>
+=======
+      <location filename="../../../Path/Tool/library/ui/editor.py" line="622"/>
+      <source>Please select a toolbit to export.</source>
+      <translation>Dışa aktarmak için bir takım ucu seçin.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/library/ui/editor.py" line="631"/>
+      <source>Please select only one toolbit to export.</source>
+      <translation>Dışa aktarmak için yalnızca bir takım ucu seçin.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/toolbit/models/bullnose.py" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>{diameter} {flutes}-flute bullnose, {cutting_edge_height} cutting edge, {corner_radius} corner radius</source>
       <translation>{diameter} {flutes} ağızlı köşe radyuslu parmak freze, {cutting_edge_height} kesici ağız yüksekliği, {corner_radius} köşe yarıçapı</translation>
     </message>
@@ -8946,6 +10802,14 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <location filename="../../../Path/Tool/toolbit/models/tap.py" line="78"/>
       <source>{diameter} {pitch} {rotation} tap, {flutes}-flute, {cutting_edge_length} cutting edge</source>
       <translation>{diameter} {pitch} {rotation} kılavuz, {flutes} ağızlı, {cutting_edge_length} kesici ağız uzunluğu</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/toolbit/models/taperedballnose.py" line="47"/>
+      <source>{diameter} tip, {taper_angle} taper, {flutes}-flute tapered ball nose, {cutting_edge_height} cutting edge</source>
+      <translation>{diameter} uç, {taper_angle} koniklik, {flutes}-ağızlı konik küre uç, {cutting_edge_height} kesici kenar</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Inspect.py" line="100"/>
@@ -9419,22 +11283,39 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <location filename="../../../Path/Op/Adaptive.py" line="375"/>
       <source>Adaptive operation couldn&apos;t determine the boundary wire. Did you select base geometry?</source>
       <translation>Uyarlanabilir işlem sınır telini belirleyemedi. Temel geometriyi seçtiniz mi?</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Tool/toolbit/models/taperedballnose.py" line="53"/>
       <source>{diameter} tip, {taper_angle} taper, {flutes}-flute tapered ball nose, {cutting_edge_height} cutting edge</source>
       <translation>{diameter} uç, {taper_angle} koniklik, {flutes}-ağızlı konik küre uç, {cutting_edge_height} kesici kenar</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CAM_Drilling</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Drilling.py" line="72"/>
       <source>Tapping</source>
       <translation>Kılavuz Çekme</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Drilling.py" line="75"/>
+=======
+      <location filename="../../../Path/Op/Drilling.py" line="69"/>
+      <source>G98</source>
+      <translation>G98</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Drilling.py" line="70"/>
+      <source>G99</source>
+      <translation>G99</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Drilling.py" line="73"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Hiçbiri</translation>
     </message>
@@ -9624,11 +11505,14 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <location filename="../../../Path/Op/Gui/FeatureExtension.py" line="186"/>
       <source>Extensions</source>
       <translation>Uzantılar</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/PocketBase.py" line="200"/>
       <source>Set start point: %s, %s</source>
       <translation type="unfinished">Set start point: %s, %s</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -9744,6 +11628,7 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <location filename="../../../Path/Op/Slot.py" line="1080"/>
       <source>Verify slot path start and end points.</source>
       <translation>Yuva yolunun başlangıç ve bitiş noktalarını doğrulayın.</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Slot.py" line="818"/>
@@ -9769,6 +11654,23 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <location filename="../../../Path/Op/Slot.py" line="1122"/>
       <source>Can not create slot from this circle</source>
       <translation type="unfinished">Can not create slot from this circle</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Slot.py" line="926"/>
+      <source>The selected face is inaccessible.</source>
+      <translation>Seçilen yüzeye erişilemiyor.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Slot.py" line="945"/>
+      <source>Only a vertex selected. Add another feature to the Base Geometry.</source>
+      <translation>Yalnızca bir köşe seçildi. Taban Geometrisine başka bir özellik ekleyin.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Slot.py" line="969"/>
+      <source>A single selected face must have four edges minimum.</source>
+      <translation>Tek bir seçili yüzey en az dört kenara sahip olmalıdır.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Op/Slot.py" line="1126"/>
@@ -9803,7 +11705,16 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <translation>Geçerli takım yay çapından büyük.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Slot.py" line="1189"/>
+=======
+      <location filename="../../../Path/Op/Slot.py" line="1190"/>
+      <source>Failed, slot from edge only accepts lines, arcs and circles.</source>
+      <translation>Başarısız: Kenardan yuva yalnızca çizgi, yay ve daireleri kabul eder.</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Slot.py" line="1208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to determine point 1 from</source>
       <translation>Şu kaynaktan 1. nokta belirlenemedi:</translation>
     </message>
@@ -9829,12 +11740,17 @@ Bu işlem, içindeki takım uçlarını silmez.</translation>
       <translation>Geçerli ofset değeri negatif yarıçap oluşturuyor.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Slot.py" line="274"/>
+=======
+      <location filename="../../../Path/Op/Gui/Slot.py" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slot</source>
       <translation>Yuva</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Slot.py" line="284"/>
+<<<<<<< HEAD
       <source>Create a single horizontal slot between two points.
 
 Points can be specified through selected geometry or custom points.
@@ -9851,6 +11767,10 @@ Allowed selection only from one model:
   - one or two edges,
   - one horizontal or vertical face,
   - one or two vertical faces.</translation>
+=======
+      <source>Create a Slot operation from selected geometry or custom points.</source>
+      <translation>Seçilen geometriden veya özel noktalardan bir Yuva işlemi oluştur</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10185,6 +12105,7 @@ Allowed selection only from one model:
       <location filename="../../../Path/Op/Gui/Engrave.py" line="168"/>
       <source>Creates an Engraving toolpath around a Draft ShapeString</source>
       <translation>Bir Draft ShapeString çevresinde Gravür takım yolu oluşturur</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Op/Engrave.py" line="98"/>
@@ -10197,6 +12118,8 @@ Allowed selection only from one model:
       <location filename="../../../Path/Op/Engrave.py" line="161"/>
       <source>Bidirectional</source>
       <translation type="unfinished">Bidirectional</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10246,11 +12169,23 @@ Allowed selection only from one model:
       <translation>Basit Kopyalama</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/SimpleCopy.py" line="71"/>
       <source>Creates a non-parametric copy of another toolpath
 Several operations can be used with identical tool controller and coolant mode</source>
       <translation type="unfinished">Creates a non-parametric copy of another toolpath
 Several operations can be used with identical tool controller and coolant mode</translation>
+=======
+      <location filename="../../../Path/Op/Gui/SimpleCopy.py" line="68"/>
+      <source>Creates a non-parametric copy of another toolpath</source>
+      <translation>Başka bir takım yolunun parametrik olmayan bir kopyasını oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Gui/SimpleCopy.py" line="85"/>
+      <location filename="../../../Path/Op/Gui/SimpleCopy.py" line="90"/>
+      <source>Select exactly one toolpath object</source>
+      <translation>Tam olarak bir takım yolu nesnesi seçin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10287,6 +12222,7 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>Son İşlem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Post/Command.py" line="114"/>
       <source>Post Processes the selected Job</source>
       <translation type="unfinished">Post Processes the selected Job</translation>
@@ -10411,6 +12347,11 @@ Several operations can be used with identical tool controller and coolant mode</
 {}</source>
       <translation type="unfinished">{} error(s) while saving:
 {}</translation>
+=======
+      <location filename="../../../Path/Post/Command.py" line="112"/>
+      <source>Post Processes the selected job</source>
+      <translation>Seçili iş için son işlemi uygular</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10452,11 +12393,14 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/Gui/Controller.py" line="147"/>
       <source>Adds a new tool controller to the active job</source>
       <translation>Etkin işe yeni bir takım denetleyici ekler</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Tool/Gui/Controller.py" line="253"/>
       <source>Feeds and Speeds Wizard</source>
       <translation type="unfinished">Feeds and Speeds Wizard</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10496,11 +12440,24 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/library/ui/dock.py" line="61"/>
       <source>Toolbit Selector</source>
       <translation>Takım Ucu Seçici</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Tool/library/ui/dock.py" line="89"/>
       <source>Open Library Editor</source>
       <translation>Kütüphane Düzenleyicisini Aç</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/library/ui/dock.py" line="88"/>
+      <source>Open Library Editor</source>
+      <translation>Kütüphane Düzenleyicisini Aç</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/library/ui/dock.py" line="89"/>
+      <source>Add to Job</source>
+      <translation>İşe Ekle</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Tool/library/ui/dock.py" line="90"/>
@@ -10518,9 +12475,15 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>İş Bulunamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/library/ui/dock.py" line="176"/>
       <source>Create a Job first.</source>
       <translation type="unfinished">Create a Job first.</translation>
+=======
+      <location filename="../../../Path/Tool/library/ui/dock.py" line="175"/>
+      <source>Please create a Job first.</source>
+      <translation>Lütfen önce bir İş oluşturun.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10637,6 +12600,75 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Dressup/Gui/Array.py" line="64"/>
       <source>Creates an array from a selected toolpath</source>
       <translation>Seçilen takım yolundan bir dizi oluşturur</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Array.py" line="78"/>
+      <source>Select one toolpath object</source>
+      <translation>Bir takım yolu nesnesi seçin</translation>
+    </message>
+  </context>
+  <context>
+    <name>CAM:Simulator:Tooltips</name>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="268"/>
+      <source>Pause simulation</source>
+      <translation>Simülasyonu Duraklat</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="270"/>
+      <source>Play simulation</source>
+      <translation>Simülasyonu oynat</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="272"/>
+      <source>Single step simulation</source>
+      <translation>Tek adım simülasyonu</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="274"/>
+      <source>Decrease simulation speed</source>
+      <translation>Simülasyon hızını azalt</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="276"/>
+      <source>Increase simulation speed</source>
+      <translation>Simülasyon hızını artır</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="278"/>
+      <source>Show/Hide tool path</source>
+      <translation>Takım yolunu Göster/Gizle</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="279"/>
+      <source>Toggle turn table animation</source>
+      <translation>Döner tabla animasyonunu aç/kapat</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="285"/>
+      <source>Toggle ambient occlusion</source>
+      <translation>Ortam gölgelemesini aç/kapat</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="286"/>
+      <source>Toggle view simulation/model</source>
+      <translation>Simülasyon/Model görünümünü değiştir</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="292"/>
+      <source>Reset camera</source>
+      <translation>Kamerayı sıfırla</translation>
+    </message>
+  </context>
+  <context>
+    <name>CAMSimulator::DlgCAMSimulator</name>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/DlgCAMSimulator.cpp" line="340"/>
+      <source>%1 - New CAM Simulator</source>
+      <translation>%1 - Yeni CAM Simülatörü</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10716,6 +12748,7 @@ Several operations can be used with identical tool controller and coolant mode</
     </message>
     <message>
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="56"/>
+<<<<<<< HEAD
       <source>Asset Location</source>
       <translation type="unfinished">Asset Location</translation>
     </message>
@@ -10723,6 +12756,15 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="57"/>
       <source>Default path</source>
       <translation>Varsayılan yol</translation>
+=======
+      <source>Asset Directory:</source>
+      <translation>Kaynak Dizini:</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/assets/ui/preferences.py" line="64"/>
+      <source>Note: Select the directory that will contain the Tool folder with Bit/, Shape/, and Library/ subfolders.</source>
+      <translation>Not: Bit/, Shape/ ve Library/ alt klasörlerini içeren Tool klasörünün bulunacağı dizini seçin.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="65"/>
@@ -10735,10 +12777,16 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>Sıfırla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="88"/>
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="105"/>
       <source>Machines</source>
       <translation type="unfinished">Machines</translation>
+=======
+      <location filename="../../../Path/Tool/assets/ui/preferences.py" line="100"/>
+      <source>Select Asset Directory</source>
+      <translation>Kaynak Dizinini Seç</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="97"/>
@@ -10774,6 +12822,7 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="164"/>
       <source>The selected asset path is not writable.</source>
       <translation>Seçilen kaynak yolu yazılabilir değil.</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="222"/>
@@ -10784,6 +12833,8 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/assets/ui/preferences.py" line="225"/>
       <source>Are you sure you want to delete this machine file?</source>
       <translation type="unfinished">Are you sure you want to delete this machine file?</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10802,6 +12853,7 @@ Several operations can be used with identical tool controller and coolant mode</
   <context>
     <name>ToolBitShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="44"/>
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="34"/>
       <location filename="../../../Path/Tool/shape/models/custom.py" line="42"/>
@@ -10811,10 +12863,22 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/ballend.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="36"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="40"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="35"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="43"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting edge height</source>
       <translation>Kesici kenar yüksekliği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/drill.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="48"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="48"/>
@@ -10826,10 +12890,24 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/ballend.py" line="40"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="40"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="40"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/drill.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="44"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="39"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="47"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter</source>
       <translation>Çap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/drill.py" line="40"/>
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="52"/>
@@ -10843,10 +12921,26 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/ballend.py" line="44"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="48"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/drill.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="52"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="43"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="51"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/tap.py" line="45"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flutes</source>
       <translation>Kanallar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/drill.py" line="44"/>
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="56"/>
@@ -10860,10 +12954,26 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="44"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/drill.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="56"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="47"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="55"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overall tool length</source>
       <translation>Toplam takım boyu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="50"/>
@@ -10875,6 +12985,19 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="68"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="48"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="69"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="60"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="51"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/tap.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shank diameter</source>
       <translation>Sap çapı</translation>
     </message>
@@ -10884,15 +13007,26 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>Bilyalı Uç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/vbit.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/chamfer.py" line="36"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting edge angle</source>
       <translation>Kesici kenar açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/vbit.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/chamfer.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="60"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="64"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tip diameter</source>
       <translation>Uç çapı</translation>
     </message>
@@ -10907,12 +13041,18 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>Bilinmeyen özel şekil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="36"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Crest height</source>
       <translation>Tepe yüksekliği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="40"/>
       <source>Cutting diameter</source>
       <translation type="unfinished">Cutting diameter</translation>
@@ -10920,6 +13060,10 @@ Several operations can be used with identical tool controller and coolant mode</
     <message>
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="64"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="40"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting angle</source>
       <translation>Kesme açısı</translation>
     </message>
@@ -10929,19 +13073,34 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>Kırlangıç kuyruğu yüksekliği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="48"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Major diameter</source>
       <translation>Ana çap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="60"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Neck diameter</source>
       <translation>Boyun çapı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="64"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="65"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="57"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Neck length</source>
       <translation>Boyun uzunluğu</translation>
     </message>
@@ -11040,6 +13199,7 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/vbit.py" line="68"/>
       <source>V-Bit</source>
       <translation>V Uç</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="64"/>
@@ -11048,6 +13208,16 @@ Several operations can be used with identical tool controller and coolant mode</
     </message>
     <message>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="72"/>
+=======
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="65"/>
+      <source>Corner radius</source>
+      <translation>Köşe yarıçapı</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="73"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bullnose</source>
       <translation>Köşe Radyüslü</translation>
     </message>
@@ -11057,22 +13227,34 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>Kesme yarıçapı</translation>
     </message>
     <message>
-      <location filename="../../../Path/Tool/shape/models/radius.py" line="68"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="72"/>
       <source>Radius Mill</source>
       <translation>Radyüs Frezesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="54"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Included Taper angle</source>
       <translation>Tam Koniklik Açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="58"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter at top of Taper</source>
       <translation>Konik üst Çapı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="66"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tapered Ball Nose</source>
       <translation>Konik Küre Uç</translation>
     </message>
@@ -11176,9 +13358,15 @@ Several operations can be used with identical tool controller and coolant mode</
   <context>
     <name>CAM_ToolBitSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/library/ui/cmd.py" line="51"/>
       <source>Add Toolbit…</source>
       <translation type="unfinished">Add Toolbit…</translation>
+=======
+      <location filename="../../../Path/Tool/library/ui/cmd.py" line="52"/>
+      <source>Add toolbit…</source>
+      <translation>Takım ucu ekle…</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../Path/Tool/library/ui/cmd.py" line="54"/>
@@ -11231,6 +13419,7 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Op/Tapping.py" line="254"/>
       <source>Tapping Operation requires a ToolController with non-zero SpindleSpeed</source>
       <translation>Kılavuz Çekme işlemi, iş mili devri sıfır olmayan bir Takım Denetleyici gerektirir</translation>
+<<<<<<< HEAD
     </message>
   </context>
   <context>
@@ -11239,6 +13428,8 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../InitGui.py" line="178"/>
       <source>Post process Operations</source>
       <translation type="unfinished">Post process Operations</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -11247,6 +13438,7 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../InitGui.py" line="186"/>
       <source>Simulators</source>
       <translation>Simülatörler</translation>
+<<<<<<< HEAD
     </message>
   </context>
   <context>
@@ -12582,6 +14774,8 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../PathSimulator/AppGL/ViewCAMSimulator.cpp" line="238"/>
       <source>%1 - New CAM Simulator</source>
       <translation type="unfinished">%1 - New CAM Simulator</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

@@ -29,8 +29,13 @@
 #include <Bnd_Box.hxx>
 #include <algorithm>
 #include <limits>
+<<<<<<< HEAD
 #include <map>
 #include <ranges>
+=======
+#include <memory>
+#include <map>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <stack>
 #include <cmath>
 
@@ -38,6 +43,7 @@
 #include <Inventor/SbVec3f.h>
 #include <Inventor/SoPickedPoint.h>
 #include <Inventor/nodes/SoAnnotation.h>
+#include <Inventor/nodes/SoDepthBuffer.h>
 #include <Inventor/nodes/SoDrawStyle.h>
 #include <Inventor/nodes/SoGroup.h>
 #include <Inventor/nodes/SoImage.h>
@@ -1689,7 +1695,11 @@ Base::Vector3d EditModeConstraintCoinManager::seekConstraintPosition(
     float step
 )
 {
+<<<<<<< HEAD
     return norm * 0.5F * step;
+=======
+    return norm * 0.5f * step;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 void EditModeConstraintCoinManager::updateConstraintColor(
@@ -2581,7 +2591,11 @@ void EditModeConstraintCoinManager::combineConstraintIcons(IconQueue iconQueue)
 
     // Grid size needs to be slightly larger than the max merge distance to ensure
     // we catch neighbors.
+<<<<<<< HEAD
     float gridSize = std::max(1.0F, 1.1F * std::abs(scale));
+=======
+    float gridSize = std::max(1.0f, std::abs(scale) * 1.1f);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     // 2. FILTERING & PREPARATION
     // We create a list of valid indices.
@@ -2617,7 +2631,12 @@ void EditModeConstraintCoinManager::combineConstraintIcons(IconQueue iconQueue)
     // 4. CLUSTERING (Reversed Iteration)
     std::vector<bool> processed(iconQueue.size(), false);
 
+<<<<<<< HEAD
     for (int startIdx : std::views::reverse(validIndices)) {
+=======
+    for (auto it = validIndices.rbegin(); it != validIndices.rend(); ++it) {
+        int startIdx = *it;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if (processed[startIdx]) {
             continue;
         }
@@ -3061,11 +3080,20 @@ void EditModeConstraintCoinManager::createEditModeInventorNodes()
     // Render constraint icons ON TOP of geometry lines without
     // affecting depth state for other nodes (#28639).
     // See also issues #25840 and #11603.
+<<<<<<< HEAD
     auto* constrAnnotation = new SoAnnotation();
+=======
+    SoAnnotation* constrAnnotation = new SoAnnotation();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     editModeScenegraphNodes.constrGroup = new SmSwitchboard();
     editModeScenegraphNodes.constrGroup->setName("ConstraintGroup");
     constrAnnotation->addChild(editModeScenegraphNodes.constrGroup);
+<<<<<<< HEAD
+=======
+
+    editModeScenegraphNodes.EditRoot->addChild(constrAnnotation);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     editModeScenegraphNodes.EditRoot->addChild(constrAnnotation);
 

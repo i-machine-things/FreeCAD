@@ -185,23 +185,40 @@
       <translation>方向を反転</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="384"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many edges</source>
       <translation>エッジが多すぎます</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="385"/>
       <location filename="../../TaskGeomFillSurface.cpp" line="393"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="379"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool requires two, three or four edges</source>
       <translation>このツールには2から4のエッジが必要です</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="392"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too less edges</source>
       <translation>エッジが少なすぎます</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="404"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>無効なオブジェクト</translation>
     </message>
@@ -279,7 +296,11 @@
   <context>
     <name>SurfaceGui::FillingVertexPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingVertex.cpp" line="127"/>
+=======
+      <location filename="../../TaskFillingVertex.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>削除</translation>
     </message>
@@ -343,7 +364,11 @@ vertices that are not on the boundary.</source>
       <translation>サーフェスを拡張</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Blending/TaskBlendCurve.cpp" line="410"/>
+=======
+      <location filename="../../Blending/TaskBlendCurve.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit blending curve</source>
       <translation>ブレンド曲線を編集</translation>
     </message>
@@ -456,29 +481,49 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::FillingEdgePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="133"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>削除</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="329"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>無効なオブジェクト</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="407"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has %n adjacent face(s)</source>
       <translation>
         <numerusform>エッジには %n 個の隣接面があります</numerusform>
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="411"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>なし</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="432"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has no adjacent faces</source>
       <translation>エッジには隣接面がありません</translation>
     </message>
@@ -486,13 +531,22 @@ This command only works with a mesh object.</source>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
       <location filename="../../TaskFilling.cpp" line="63"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="64"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Filling</source>
       <translation>穴埋めを編集</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="667"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Surface</source>
       <translation>サーフェス</translation>
     </message>
@@ -510,12 +564,20 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::FillingPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="281"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>削除</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="497"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>無効なオブジェクト</translation>
     </message>
@@ -540,12 +602,20 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::SectionsPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="279"/>
+=======
+      <location filename="../../TaskSections.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>削除</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="424"/>
+=======
+      <location filename="../../TaskSections.cpp" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>無効なオブジェクト</translation>
     </message>

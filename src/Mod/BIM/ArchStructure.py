@@ -373,7 +373,11 @@ class _CommandStructure:
             else:
                 # metal profile
                 FreeCADGui.doCommand("p = Arch.makeProfile(" + str(self.Profile) + ")")
+<<<<<<< HEAD
                 if self.mode == StructureMode.BEAM:
+=======
+                if self.bmode:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     # horizontal
                     FreeCADGui.doCommand(
                         "s = Arch.makeStructure(p,length=" + str(self.Length) + ")"
@@ -384,6 +388,11 @@ class _CommandStructure:
                     FreeCADGui.doCommand(
                         "s = Arch.makeStructure(p,height=" + str(self.Height) + ")"
                     )
+<<<<<<< HEAD
+=======
+                    # if not self.bmode:
+                    #    FreeCADGui.doCommand('s.Placement.Rotation = FreeCAD.Rotation(-0.5,0.5,-0.5,0.5)')
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 FreeCADGui.doCommand("s.Profile = " + repr(self.Profile[2]))
         else:
             FreeCADGui.doCommand(

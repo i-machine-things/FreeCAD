@@ -9,17 +9,17 @@
       <translation>Gotovo</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="94"/>
+      <location filename="../../FirstStartWidget.cpp" line="95"/>
       <source>Welcome to %1</source>
       <translation>Dobrodošli na %1</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="97"/>
+      <location filename="../../FirstStartWidget.cpp" line="98"/>
       <source>Set your basic configuration options below.</source>
       <translation>Pre početka prvo ispod podesi svoje osnovne opcije.</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="98"/>
+      <location filename="../../FirstStartWidget.cpp" line="99"/>
       <source>These options (and many more) can be changed later in the preferences.</source>
       <translation>Ove opcije (i mnoge druge) mogu biti kasnije promenjene u Podešavanjima.</translation>
     </message>
@@ -63,87 +63,155 @@
   <context>
     <name>StartGui::StartView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="217"/>
+=======
+      <location filename="../../StartView.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open File</source>
       <translation>Otvori datoteku</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="227"/>
+=======
+      <location filename="../../StartView.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assembly</source>
       <translation>Sklop</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Draft</source>
       <translation>2D crtež</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a 2D Draft document</source>
       <translation>Napravi 2D crtež u okruženju Crtanje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="235"/>
+=======
+      <location filename="../../StartView.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM/Architecture</source>
       <translation>BIM/Arhitektura</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="212"/>
+=======
+      <location filename="../../StartView.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty File</source>
       <translation>Prazna datoteka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="213"/>
+=======
+      <location filename="../../StartView.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new empty FreeCAD file</source>
       <translation>Napravi novu praznu FreeCAD datoteku</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="218"/>
+=======
+      <location filename="../../StartView.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens an existing CAD file or 3D model</source>
       <translation>Otvori postojeću CAD datoteku ili 3D model</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="222"/>
+=======
+      <location filename="../../StartView.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parametric Body</source>
       <translation>Deo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="223"/>
+=======
+      <location filename="../../StartView.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a body with the Part Design workbench</source>
       <translation>Napravi deo u okruženju Konstruisanje delova</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="228"/>
+=======
+      <location filename="../../StartView.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an assembly project</source>
       <translation>Napravi sklop u okruženju Sklopovi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="236"/>
+=======
+      <location filename="../../StartView.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an architectural project</source>
       <translation>Napravi arhitektonski projekat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="520"/>
+=======
+      <location filename="../../StartView.cpp" line="509"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New File</source>
       <translation>Nova datoteka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="522"/>
+=======
+      <location filename="../../StartView.cpp" line="510"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Examples</source>
       <translation>Primeri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="524"/>
+=======
+      <location filename="../../StartView.cpp" line="511"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recent Files</source>
       <translation>Nedavne datoteke</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="539"/>
+=======
+      <location filename="../../StartView.cpp" line="527"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open First Start Setup</source>
       <translation>Otvori početna podešavanja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="540"/>
+=======
+      <location filename="../../StartView.cpp" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not show this Start page again (start with blank screen)</source>
       <translation>Ne prikazuj ponovo ovu početnu stranu (počni sa praznim ekranom)</translation>
     </message>
@@ -151,7 +219,11 @@
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="514"/>
+=======
+      <location filename="../../StartView.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start</source>
       <translation>Start</translation>
     </message>
@@ -159,44 +231,76 @@
   <context>
     <name>StartGui::ThemeSelectorWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Classic</source>
       <translation>FreeCAD klasični</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Dark</source>
       <translation>FreeCAD tamni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="117"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Light</source>
       <translation>FreeCAD svetli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="251"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Theme</source>
       <translation>Tema</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="254"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Looking for more themes? You can obtain them using &lt;a href="freecad:Std_AddonMgr"&gt;Addon Manager&lt;/a&gt;.</source>
       <translation>Nisi zadovoljan izborom tema? Probaj da potražiš nove pomoću &lt;a href="freecad:Std_AddonMgr"&gt;Menadžera dodataka&lt;/a&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="261"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Dark</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD tamni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="262"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Light</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD svetli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="263"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Classic</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD klasični</translation>
@@ -261,7 +365,11 @@ Ako se njihove putanje odvajaju pomoću „;;“, moguće je dodati više fascik
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../AppStartGui.cpp" line="139"/>
+=======
+      <location filename="../../AppStartGui.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start</source>
       <translation>Početak</translation>
     </message>

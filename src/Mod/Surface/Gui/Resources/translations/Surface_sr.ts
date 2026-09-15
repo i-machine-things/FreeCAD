@@ -54,7 +54,11 @@
     <message>
       <location filename="../../TaskFilling.ui" line="20"/>
       <source>Boundaries</source>
+<<<<<<< HEAD
       <translation>Граничне ивице</translation>
+=======
+      <translation>Границе</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="28"/>
@@ -142,12 +146,20 @@
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="20"/>
       <source>Filling</source>
+<<<<<<< HEAD
       <translation>Сложена закрпа</translation>
+=======
+      <translation>Попуњавање</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="26"/>
       <source>Fill Type</source>
+<<<<<<< HEAD
       <translation>Врста закрпе</translation>
+=======
+      <translation>Врста попуњавања</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="38"/>
@@ -185,23 +197,40 @@
       <translation>Обрни оријентацију</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="384"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many edges</source>
       <translation>Превише ивица</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="385"/>
       <location filename="../../TaskGeomFillSurface.cpp" line="393"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="379"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool requires two, three or four edges</source>
       <translation>Алатка захтева две, три или четири ивице</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="392"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too less edges</source>
       <translation>Премало ивица</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="404"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Неисправан објекат</translation>
     </message>
@@ -279,7 +308,11 @@
   <context>
     <name>SurfaceGui::FillingVertexPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingVertex.cpp" line="127"/>
+=======
+      <location filename="../../TaskFillingVertex.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Уклони</translation>
     </message>
@@ -312,7 +345,11 @@
     <message>
       <location filename="../../Command.cpp" line="113"/>
       <source>Filling</source>
+<<<<<<< HEAD
       <translation>Сложена закрпа</translation>
+=======
+      <translation>Попуњавање</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="114"/>
@@ -320,7 +357,11 @@
 Additionally, the surface may be constrained by edges and
 vertices that are not on the boundary.</source>
       <translation>Направи површ помоћу изабраних граничних крива тј. ивица.
+<<<<<<< HEAD
 Површ може бити присиљена да пролази кроз додатне унутрашње криве и тачке.</translation>
+=======
+Површ може бити присиљена да пролази кроз додатне криве и тачке.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -343,7 +384,11 @@ vertices that are not on the boundary.</source>
       <translation>Продужи површ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Blending/TaskBlendCurve.cpp" line="410"/>
+=======
+      <location filename="../../Blending/TaskBlendCurve.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit blending curve</source>
       <translation>Уреди криву стапања</translation>
     </message>
@@ -358,7 +403,11 @@ vertices that are not on the boundary.</source>
     <message>
       <location filename="../../Command.cpp" line="149"/>
       <source>Fill Boundary Curves</source>
+<<<<<<< HEAD
       <translation>Закрпа</translation>
+=======
+      <translation>Попуни између граничних крива</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="150"/>
@@ -456,17 +505,29 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::FillingEdgePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="133"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Уклони</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="329"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Неисправан објекат</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="407"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has %n adjacent face(s)</source>
       <translation type="unfinished">
         <numerusform>Ивица има %n суседних страница</numerusform>
@@ -475,12 +536,20 @@ This command only works with a mesh object.</source>
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="411"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Ниједан</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="432"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has no adjacent faces</source>
       <translation>Ивица нема суседних страница</translation>
     </message>
@@ -488,6 +557,7 @@ This command only works with a mesh object.</source>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
       <location filename="../../TaskFilling.cpp" line="63"/>
       <source>Edit Filling</source>
@@ -495,6 +565,15 @@ This command only works with a mesh object.</source>
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.cpp" line="667"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="64"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
+      <source>Edit Filling</source>
+      <translation>Уреди попуњавање</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Surface</source>
       <translation>Површ</translation>
     </message>
@@ -512,12 +591,20 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::FillingPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="281"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Уклони</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="497"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Неисправан објекат</translation>
     </message>
@@ -544,12 +631,20 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::SectionsPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="279"/>
+=======
+      <location filename="../../TaskSections.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Уклони</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="424"/>
+=======
+      <location filename="../../TaskSections.cpp" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Неисправан објекат</translation>
     </message>

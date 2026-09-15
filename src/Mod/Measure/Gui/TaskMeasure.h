@@ -69,8 +69,11 @@ public:
     bool reject() override;
     void reset();
     void closed() override;
+<<<<<<< HEAD
     void activate() override;
     void deactivate() override;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     bool hasSelection();
     void clearSelection();

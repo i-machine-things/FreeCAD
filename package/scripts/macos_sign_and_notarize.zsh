@@ -91,6 +91,7 @@ if ! command -v dmgbuild &> /dev/null; then
     exit 1
 fi
 
+<<<<<<< HEAD
 # A failure here is fatal: catch it as early as possible to hopefully be able to provide some kind
 # of useful diagnostic information.
 function run_codesign {
@@ -109,29 +110,45 @@ function run_codesign_extension {
         print -r -- "❌ codesign failed for extension $target" >&2
         exit 1
     fi
+=======
+function run_codesign {
+    echo "Signing $1"
+    /usr/bin/codesign --options runtime -f -s ${SIGNING_KEY_ID} --timestamp --entitlements entitlements.plist "$1"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 IFS=$'\n'
 dylibs=($(/usr/bin/find "${CONTAINING_FOLDER}/${APP_NAME}" -name "*.dylib"))
 shared_objects=($(/usr/bin/find "${CONTAINING_FOLDER}/${APP_NAME}" -name "*.so"))
 bundles=($(/usr/bin/find "${CONTAINING_FOLDER}/${APP_NAME}" -name "*.bundle"))
+<<<<<<< HEAD
 executables=($(/usr/bin/find "${CONTAINING_FOLDER}/${APP_NAME}" -type f -perm +111 -exec file {} + | grep "Mach-O 64-bit executable" | grep -v " (for architecture " | sed 's/:.*//g'))
 IFS=$' \t\n' # The default
 
 typeset -U signed_files
+=======
+executables=($(/usr/bin/find "${CONTAINING_FOLDER}/${APP_NAME}" -type f -perm +111 -exec file {} + | grep "Mach-O 64-bit executable" | sed 's/:.*//g'))
+IFS=$' \t\n' # The default
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 signed_files=("${dylibs[@]}" "${shared_objects[@]}" "${bundles[@]}" "${executables[@]}")
 
 # This list of files is generated from:
 # file `find . -type f -perm +111 -print` | grep "Mach-O 64-bit executable" | sed 's/:.*//g'
 for exe in ${signed_files}; do
+<<<<<<< HEAD
     # Skip .appex executables as they will be signed separately with their bundles
     if [[ "$exe" != */Contents/PlugIns/*.appex/* ]]; then
         run_codesign "${exe}"
     fi
+=======
+    run_codesign "${exe}"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 done
 
 # Two additional files that must be signed that aren't caught by the above searches:
 run_codesign "${CONTAINING_FOLDER}/${APP_NAME}/Contents/packages.txt"
+<<<<<<< HEAD
 
 # Sign legacy QuickLook generator if present (not built for macOS 15.0+)
 if [ -f "${CONTAINING_FOLDER}/${APP_NAME}/Contents/Library/QuickLook/QuicklookFCStd.qlgenerator/Contents/MacOS/QuicklookFCStd" ]; then
@@ -163,6 +180,9 @@ if [ -d "${CONTAINING_FOLDER}/${APP_NAME}/Contents/PlugIns" ]; then
         run_codesign_extension "${CONTAINING_FOLDER}/${APP_NAME}/Contents/PlugIns/FreeCADPreviewExtension.appex" "$PREVIEW_ENTITLEMENTS"
     fi
 fi
+=======
+run_codesign "${CONTAINING_FOLDER}/${APP_NAME}/Contents/Library/QuickLook/QuicklookFCStd.qlgenerator/Contents/MacOS/QuicklookFCStd"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 # Finally, sign the app itself (must be done last)
 run_codesign "${CONTAINING_FOLDER}/${APP_NAME}"
@@ -173,6 +193,7 @@ dmgbuild -s ${DMG_SETTINGS} -Dcontaining_folder="${CONTAINING_FOLDER}" -Dapp_nam
 
 ID_FILE="${DMG_NAME}.notarization_id"
 
+<<<<<<< HEAD
 # Total wall-clock budget for Apple to finish processing a submission. Individual "notarytool wait"
 # calls have their own shorter timeout and are retried until this budget is exhausted.
 NOTARIZATION_TIMEOUT_SECONDS="${NOTARIZATION_TIMEOUT_SECONDS:-3600}"
@@ -187,6 +208,8 @@ STAPLE_MAX_ATTEMPTS="${STAPLE_MAX_ATTEMPTS:-20}"
 # reasonable trade for weekly builds and a bad one for tagged releases.
 ALLOW_UNSTAPLED="${ALLOW_UNSTAPLED:-0}"
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 # Submit it for notarization (requires that an App Store API Key has been set up in the notarytool)
 # This is a *very slow* process, and occasionally the GitHub runners lose the internet connection for a short time
 # during the run. So in order to be fault-tolerant, this script polls, instead of using --wait
@@ -212,6 +235,7 @@ submit_notarization_request() {
   print -r -- "$id"  # ID is a string here, not an integer, so I can't just return it
 }
 
+<<<<<<< HEAD
 # Reports the submission status ("Accepted", "Invalid", "Rejected", "In Progress") on stdout, or
 # nothing at all if the query itself failed, which the caller treats as "ask again later".
 notarization_status() {
@@ -256,6 +280,48 @@ wait_for_notarization_result() {
     (( attempt++ ))
     if (( $(date +%s) >= deadline )); then
       print -r -- "🏳️ Notarization did not finish within ${NOTARIZATION_TIMEOUT_SECONDS}s, bailing out. 🏳️" >&2
+=======
+wait_for_notarization_result() {
+  local id="$1" attempt=0
+  while :; do
+    if xcrun notarytool wait "$id" --keychain-profile "${KEYCHAIN_PROFILE}" \
+          --timeout 10m --no-progress >/dev/null; then
+      return 0
+    fi
+
+    (( attempt++ ))
+    # If the failure was transient (timeout/HTTP/connection) just retry, but make sure to check to see if the problem
+    # was actually that the signing failed before retrying.
+    local tmp_json
+    tmp_json=$(mktemp)
+    trap 'rm -f "$tmp_json"' EXIT INT TERM
+
+    xcrun notarytool info "$id" --keychain-profile "${KEYCHAIN_PROFILE}" --output-format json 2>/dev/null > "$tmp_json"
+    /usr/bin/python3 - "$tmp_json" <<'PY'
+import sys, json
+try:
+    with open(sys.argv[1]) as f:
+        s = (json.load(f).get("status") or "").lower()
+    if s in ("invalid", "rejected"):
+        sys.exit(2)
+    else:
+        sys.exit(0)
+except Exception:
+    sys.exit(1)
+PY
+    rc=$?
+
+    rm -f "$tmp_json"
+
+    if [[ $rc == 2 ]]; then
+      print -r -- "Notarization was not accepted by Apple:" >&2
+      xcrun notarytool log "$id" --keychain-profile "${KEYCHAIN_PROFILE}" >&2
+      return 3
+    fi
+
+    if [[ $attempt -gt 120 ]]; then
+      print -r -- "🏳️ Notarization is taking too long, bailing out. 🏳️" >&2
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       return 4
     fi
     sleep $(( (attempt<6?2**attempt:60) + RANDOM%5 ))  # Increasing timeout plus jitter for multi-run safety
@@ -272,6 +338,7 @@ if [[ -z "$id" ]]; then
 fi
 print "Notarization submission ID: $id"
 
+<<<<<<< HEAD
 # We are getting occasional (well, really somewhat frequent) failures of the "staple" action
 # from Apple's server. I don't know if this is because of a flaky GitHub connection, or flaky
 # Apple server, or what, but we should be quite flexible in detecting and handling these failures.
@@ -350,3 +417,15 @@ if [[ "${ALLOW_UNSTAPLED}" == "1" ]]; then
   exit 0
 fi
 exit 1
+=======
+if wait_for_notarization_result "$id"; then
+  print "✅ Notarization succeeded. Stapling..."
+  xcrun stapler staple "${DMG_NAME}"
+  print "Stapled: ${DMG_NAME}"
+  rm -f "${ID_FILE}"
+else
+  rc=$?
+  print "❌ Notarization failed (code $rc)." >&2
+  exit "$rc"
+fi
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

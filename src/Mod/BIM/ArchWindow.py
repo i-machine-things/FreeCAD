@@ -297,6 +297,12 @@ class _Window(ArchComponent.Component):
         ArchComponent.Component.onDocumentRestored(self, obj)
         self.setProperties(obj, mode="ODR")
 
+<<<<<<< HEAD
+=======
+        # Add features in the SketchArch External Add-on
+        self.addSketchArchFeatures(obj, mode="ODR")
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         # During the v1.1 dev cycle an experiment with a new SillHeight handling was
         # undertaken. This did not work out as intended and was therefore reverted.
         # Related PRs:
@@ -734,6 +740,22 @@ class _Window(ArchComponent.Component):
         except:
             pass
 
+<<<<<<< HEAD
+=======
+    def appLinkExecute(self, obj, linkObj, index, linkElement):
+        """
+        Default Link Execute method() -
+        See https://forum.freecad.org/viewtopic.php?f=22&t=42184&start=10#p361124
+        @realthunder added support to Links to run Linked Scripted Object's methods()
+        """
+
+        # Add features in the SketchArch External Add-on
+        self.addSketchArchFeatures(obj, linkObj)
+
+        # Execute features in the SketchArch External Add-on
+        self.executeSketchArchFeatures(obj, linkObj)
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     def getSubFace(self):
         "returns a subface for creation of subvolume for cutting in a base object"
         # creation of subface from HoleWire (getSubWire)

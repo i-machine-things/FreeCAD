@@ -37,7 +37,10 @@
 #include <Base/Console.h>
 #include <Base/Exception.h>
 #include <Base/Interpreter.h>
+<<<<<<< HEAD
 #include <Base/Parameter.h>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <Base/ProgramVersion.h>
 #include <Base/Reader.h>
 #include <Base/Writer.h>

@@ -233,12 +233,34 @@ SbMatrix ViewProviderMeasureAngle::getMatrix()
             zAxis = adjustedVector1.Crossed(adjustedVector2);
         }
 
+<<<<<<< HEAD
         // we need left handed system, to acchive this we invert the x and z axes
         Base::Vector3d bxAxis(-xAxis.X(), -xAxis.Y(), -xAxis.Z());
         Base::Vector3d bzAxis(-zAxis.X(), -zAxis.Y(), -zAxis.Z());
         Base::Rotation rot(
             Base::Rotation::makeRotationByAxes(bxAxis, Base::Vector3d(0.0, 0.0, 0.0), bzAxis, "ZXY")
         );
+=======
+        gp_Vec thirdPoint(loc2);
+        gp_Vec originVector(dimensionOriginPoint.XYZ());
+        gp_Vec extrema2Vector(extremaPoint2.XYZ());
+        radius = (loc1 - originVector).Magnitude();
+        double legOne = (extrema2Vector - originVector).Magnitude();
+        if (legOne > Precision::Confusion() && legOne < radius) {
+            double legTwo = sqrt(pow(radius, 2) - pow(legOne, 2));
+            gp_Vec projectionVector(vector2);
+            projectionVector.Normalize();
+            projectionVector *= legTwo;
+            thirdPoint = extrema2Vector + projectionVector;
+            gp_Vec hyp(thirdPoint - originVector);
+            hyp.Normalize();
+            gp_Vec otherSide(loc1 - originVector);
+            otherSide.Normalize();
+        }
+        else {
+            thirdPoint = originVector + vector2.Normalized() * radius;
+        }
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         Base::Matrix4D m4;
         rot.getValue(m4);

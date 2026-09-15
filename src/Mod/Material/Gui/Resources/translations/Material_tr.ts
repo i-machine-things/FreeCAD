@@ -649,6 +649,7 @@ If unchecked, they will be sorted by their name.</source>
       <translation>Bir resim seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ImageEdit.cpp" line="207"/>
       <location filename="../../ImageEdit.cpp" line="223"/>
       <source>Image files</source>
@@ -659,6 +660,16 @@ If unchecked, they will be sorted by their name.</source>
       <location filename="../../ImageEdit.cpp" line="224"/>
       <source>All files</source>
       <translation>Tüm dosyalar</translation>
+=======
+      <location filename="../../ImageEdit.cpp" line="206"/>
+      <source>Image files (*.jpg *.jpeg *.png *.bmp);;All files (*)</source>
+      <translation>Resim dosyaları (*.jpg *.jpeg *.png *.bmp);;Tüm dosyalar (*)</translation>
+    </message>
+    <message>
+      <location filename="../../ImageEdit.cpp" line="218"/>
+      <source>Image files (*.svg);;All files (*)</source>
+      <translation>Resim dosyaları (*.svg);;Tüm dosyalar (*)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -720,6 +731,7 @@ If unchecked, they will be sorted by their name.</source>
       <translation>Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="199"/>
       <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
       <translation>Özgün dosyanın üzerine kaydetmek, diğer belgelerin bozulmasına neden olabilir. Bu önerilmez.</translation>
@@ -741,10 +753,34 @@ If unchecked, they will be sorted by their name.</source>
     </message>
     <message>
       <location filename="../../MaterialSave.cpp" line="226"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="198"/>
+      <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
+      <translation>Özgün dosyanın üzerine kaydetmek, diğer belgelerin bozulmasına neden olabilir. Bu önerilmez.</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="222"/>
+      <source>Save as new material</source>
+      <translation>Yeni malzeme olarak kaydet</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="195"/>
+      <source>Save over &apos;%1&apos;?</source>
+      <translation>'%1' üzerine yazılsın mı?</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="220"/>
+      <source>Confirm Save as New Material</source>
+      <translation>Yeni Malzeme Olarak Kaydetmeyi Onayla</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This material already exists in this library. Save as a new material?</source>
       <translation>Bu malzeme bu kütüphanede zaten var. Yeni bir malzeme olarak kaydedilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="248"/>
       <source>Confirm Save as Copy</source>
       <translation>Kopya Olarak Kaydetmeyi Onayla</translation>
@@ -766,17 +802,49 @@ If unchecked, they will be sorted by their name.</source>
     </message>
     <message>
       <location filename="../../MaterialSave.cpp" line="257"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="247"/>
+      <source>Confirm Save as Copy</source>
+      <translation>Kopya Olarak Kaydetmeyi Onayla</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="249"/>
+      <source>Save as copy</source>
+      <translation>Kopya olarak kaydet</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="252"/>
+      <source>Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</source>
+      <translation>Bir kopya kaydetmek, diğer belgeleri bozabileceği için önerilmez. Yeni bir malzeme olarak kaydetmeniz önerilir.</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="255"/>
+      <source>Save Copy</source>
+      <translation>Kopyayı Kaydet</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save As New</source>
       <translation>Yeni Olarak Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="489"/>
       <location filename="../../MaterialSave.cpp" line="499"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="488"/>
+      <location filename="../../MaterialSave.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New folder</source>
       <translation>Yeni klasör</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="539"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Context Menu</source>
       <translation>Bağlam Menüsü</translation>
     </message>
@@ -1154,23 +1222,40 @@ If unchecked, they will be sorted by their name.</source>
       <translation>Malzeme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="193"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Overwrite</source>
       <translation>Üzerine Yazmayı Onayla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="383"/>
       <location filename="../../MaterialSave.cpp" line="384"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="382"/>
+      <location filename="../../MaterialSave.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No writeable library</source>
       <translation>Yazılabilir kütüphane yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="571"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete &apos;%1&apos;?</source>
       <translation>'%1' silinsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="575"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing this will also remove all contents.</source>
       <translation>Bunu kaldırmak, tüm içerikleri de kaldırır.</translation>
     </message>
@@ -1198,6 +1283,10 @@ If unchecked, they will be sorted by their name.</source>
       <location filename="../../Array2D.cpp" line="170"/>
       <location filename="../../MaterialSave.cpp" line="568"/>
       <location filename="../../ListEdit.cpp" line="142"/>
+<<<<<<< HEAD
+=======
+      <location filename="../../MaterialSave.cpp" line="567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Delete</source>
       <translation>Silmeyi Onayla</translation>
     </message>
@@ -1437,6 +1526,7 @@ If unchecked, they will be sorted by their name.</source>
       <location filename="../../DlgDisplayPropertiesImp.cpp" line="190"/>
       <source>All materials</source>
       <translation>Tüm malzemeler</translation>
+<<<<<<< HEAD
     </message>
   </context>
   <context>
@@ -1445,6 +1535,8 @@ If unchecked, they will be sorted by their name.</source>
       <location filename="../../DlgMaterialImp.cpp" line="263"/>
       <source>Set Material</source>
       <translation type="unfinished">Set Material</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

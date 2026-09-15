@@ -656,8 +656,11 @@ class TaskAssemblyCreateView(QtCore.QObject):
         self.blockDraggerMove = True
         self.currentStep = None
         self.radialExplosion = False
+<<<<<<< HEAD
 
         self.viewObj.purgeTouched()
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     def accept(self):
         self.deactivate()
@@ -677,7 +680,11 @@ class TaskAssemblyCreateView(QtCore.QObject):
 
     def reject(self):
         self.deactivate()
+<<<<<<< HEAD
         Gui.ActiveDocument.abortCommand()
+=======
+        App.closeActiveTransaction(True)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         App.activeDocument().recompute()
         return True
 

@@ -4,30 +4,49 @@
   <context>
     <name>App::Property</name>
     <message>
-      <location filename="../propertyeditor/PropertyItem.cpp" line="562"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="560"/>
       <source>&lt;empty&gt;</source>
       <translation>&lt;empty&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="2445"/>
       <location filename="../propertyeditor/PropertyItem.cpp" line="2734"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2421"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>Kulma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="2449"/>
       <location filename="../propertyeditor/PropertyItem.cpp" line="2738"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2425"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axis</source>
       <translation>Akseli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="2743"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position</source>
       <translation>Sijainti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="3015"/>
       <location filename="../Dialogs/DlgAddProperty.cpp" line="376"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="376"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enum</source>
       <translation>Enum</translation>
     </message>
@@ -46,79 +65,135 @@
     </message>
     <message>
       <location filename="../CommandTest.cpp" line="706"/>
+<<<<<<< HEAD
       <source>Runs test cases to verify console messages</source>
       <translation type="unfinished">Runs test cases to verify console messages</translation>
+=======
+      <source>Run test cases to verify console messages</source>
+      <translation>Suorita testit konsoliviestien tarkistamiseksi</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderDocumentObject.cpp" line="336"/>
+=======
+      <location filename="../ViewProviderDocumentObject.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Muokkaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="910"/>
+=======
+      <location filename="../Application.cpp" line="846"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import</source>
       <translation>Tuonti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1518"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>Poista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2310"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Paste expressions</source>
       <translation>Liitä lausekkeet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="152"/>
+=======
+      <location filename="../CommandLink.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make link group</source>
       <translation>Tee linkkiryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="286"/>
+=======
+      <location filename="../CommandLink.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make link</source>
       <translation>Tee linkki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="375"/>
+=======
+      <location filename="../CommandLink.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make sub-link</source>
       <translation>Tee alilinkki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="706"/>
+=======
+      <location filename="../CommandLink.cpp" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import links</source>
       <translation>Tuo linkkejä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="754"/>
+=======
+      <location filename="../CommandLink.cpp" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import all links</source>
       <translation>Tuo kaikki linkit</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="798"/>
+=======
+      <location filename="../CommandStd.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert text document</source>
       <translation>Lisää tekstiasiakirja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="1030"/>
       <source>Create Annotation Label</source>
       <translation>Luo merkintälappu</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../CommandStructure.cpp" line="64"/>
       <source>Add a part</source>
       <translation>Lisää osa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="146"/>
+=======
+      <location filename="../CommandStructure.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add a group</source>
       <translation>Lisää ryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="215"/>
+=======
+      <location filename="../CommandStructure.cpp" line="205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add a variable set</source>
       <translation>Lisää muutujien sarja</translation>
     </message>
@@ -133,15 +208,26 @@
       <translation>Sijainti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderAnnotation.cpp" line="511"/>
       <location filename="../Transform.cpp" line="108"/>
       <location filename="../TaskTransform.cpp" line="152"/>
       <location filename="../TaskTransform.cpp" line="1069"/>
+=======
+      <location filename="../Transform.cpp" line="108"/>
+      <location filename="../TaskTransform.cpp" line="128"/>
+      <location filename="../TaskTransform.cpp" line="808"/>
+      <location filename="../ViewProviderAnnotation.cpp" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transform</source>
       <translation>Muuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3193"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle array elements</source>
       <translation>Vaihda taulun elementtejä</translation>
     </message>
@@ -152,7 +238,11 @@
       <translation>Muokkaa kuvaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="157"/>
+=======
+      <location filename="../CommandFeat.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set Random Color</source>
       <translation>Määritä satunnainen väri</translation>
     </message>
@@ -162,27 +252,43 @@
       <translation>Vaihda jäätymisen tilaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="259"/>
       <source>Toggle suppress</source>
       <translation type="unfinished">Toggle suppress</translation>
     </message>
     <message>
       <location filename="../CommandFeat.cpp" line="426"/>
+=======
+      <location filename="../CommandFeat.cpp" line="337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip recomputes</source>
       <translation>Ohita uudelleenlaskenta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="985"/>
+=======
+      <location filename="../CommandView.cpp" line="921"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Visibility</source>
       <translation>Valitse pois/päälle näkyvyys</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1020"/>
+=======
+      <location filename="../CommandView.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Transparency</source>
       <translation>Vaihda läpinäkyvyys</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1139"/>
+=======
+      <location filename="../CommandView.cpp" line="1075"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Selectability</source>
       <translation type="unfinished">Toggle Selectability</translation>
     </message>
@@ -195,77 +301,137 @@
   <context>
     <name>CommandGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="573"/>
+=======
+      <location filename="../Workbench.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File</source>
       <translation>Tiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="574"/>
+=======
+      <location filename="../Workbench.cpp" line="571"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Muokkaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="575"/>
+=======
+      <location filename="../Workbench.cpp" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>Ohje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="576"/>
+=======
+      <location filename="../Workbench.cpp" line="573"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link</source>
       <translation>Linkki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="577"/>
+=======
+      <location filename="../Workbench.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tools</source>
       <translation>Työkalut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="578"/>
+=======
+      <location filename="../Workbench.cpp" line="575"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View</source>
       <translation>Näytä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="579"/>
+=======
+      <location filename="../Workbench.cpp" line="576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Window</source>
       <translation>Ikkuna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="580"/>
+=======
+      <location filename="../Workbench.cpp" line="577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard</source>
       <translation>Standardi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="581"/>
+=======
+      <location filename="../Workbench.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="582"/>
+=======
+      <location filename="../Workbench.cpp" line="579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro</source>
       <translation>Makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="583"/>
+=======
+      <location filename="../Workbench.cpp" line="580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structure</source>
       <translation>Rakenne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="584"/>
+=======
+      <location filename="../Workbench.cpp" line="581"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard-Test</source>
       <translation>Standardi-testi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="585"/>
+=======
+      <location filename="../Workbench.cpp" line="582"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard-View</source>
       <translation>Standardi-Näkymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="586"/>
+=======
+      <location filename="../Workbench.cpp" line="583"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View</source>
       <translation>Puunäkymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="587"/>
+=======
+      <location filename="../Workbench.cpp" line="584"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Measure</source>
       <translation>Mittaa</translation>
     </message>
@@ -394,42 +560,74 @@ Tämän objektin ominaisuus viittaa muuttujajoukon ominaisuuteen.</translation>
   <context>
     <name>EditMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="301"/>
+=======
+      <location filename="../Application.h" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Default</source>
       <translation>&amp;Oletus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="302"/>
+=======
+      <location filename="../Application.h" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object will be edited using the mode defined internally to be the most appropriate for the object type</source>
       <translation>Objektia muokataan käyttäen sisäisesti määriteltyä moodia, joka on sopivin objektityypille</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="310"/>
+=======
+      <location filename="../Application.h" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trans&amp;form</source>
       <translation>&amp;Muunna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="319"/>
+=======
+      <location filename="../Application.h" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cu&amp;tting</source>
       <translation>&amp;Leikkaus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="328"/>
+=======
+      <location filename="../Application.h" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Color</source>
       <translation>&amp;Väri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="329"/>
+=======
+      <location filename="../Application.h" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object will have the color of its individual faces editable with the Appearance per Face command</source>
       <translation>Objektilla on sen yksittäisten pintojen väri, joita voi muokata 'Ulkoasu pintoja kohden' -toiminnolla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="311"/>
+=======
+      <location filename="../Application.h" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object will have its placement editable with the Std TransformManip command</source>
       <translation>Objektin sijoittelua voidaan muokata Std TransformManip -komennolla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="320"/>
+=======
+      <location filename="../Application.h" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This edit mode is implemented as available but currently does not seem to be used by any object</source>
       <translation>Tämä muokkaustila on toteutettu käytettävissä olevaksi, mutta tällä hetkellä mikään objekti ei näytä käyttävän sitä</translation>
     </message>
@@ -437,12 +635,20 @@ Tämän objektin ominaisuus viittaa muuttujajoukon ominaisuuteen.</translation>
   <context>
     <name>ExpressionLabel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../QuantitySpinBox_p.h" line="70"/>
+=======
+      <location filename="../QuantitySpinBox_p.h" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter expression… (=)</source>
       <translation>Syötä lauseke… (=)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../QuantitySpinBox_p.h" line="71"/>
+=======
+      <location filename="../QuantitySpinBox_p.h" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expression:</source>
       <translation>Lauseke:</translation>
     </message>
@@ -656,52 +862,89 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::AboutDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="326"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Credits</source>
       <translation>Tekijät</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="335"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Credits</source>
       <comment>Header for the Credits tab of the About screen</comment>
       <extracomment>Header for the Credits tab of the About screen</extracomment>
       <translation>Tekijät</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="336"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD would not be possible without the contributions of:</source>
       <translation>FreeCAD ei olisi mahdollinen ilman seuraavien tahojen vaivannäköä:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="337"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Individuals</source>
       <comment>Header for the list of individual people in the Credits list.</comment>
       <translation>Yksityishenkilöt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="349"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Organizations</source>
       <extracomment>Header for the list of companies/organizations in the Credits list.</extracomment>
       <translation>Organisaatiot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="378"/>
       <location filename="../Dialogs/DlgAbout.cpp" line="470"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="373"/>
+      <location filename="../Dialogs/DlgAbout.cpp" line="465"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>License</source>
       <translation>Lisenssi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="416"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Libraries</source>
       <translation>Kirjastot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="438"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collection</source>
       <translation>Kokoelma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="457"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="452"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Privacy Policy</source>
       <translation>Tietosuojakäytäntö</translation>
     </message>
@@ -737,12 +980,20 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::ButtonModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="295"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="291"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Button %1</source>
       <translation>Painike %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="298"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Out of range</source>
       <translation>Alueen ulkopuolella</translation>
     </message>
@@ -750,37 +1001,65 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::CameraDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="393"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Camera Settings</source>
       <translation>Kamera-asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="400"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orientation</source>
       <translation>Suunta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="414"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q0</source>
       <translation>Q0</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="424"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q1</source>
       <translation>Q1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="434"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q2</source>
       <translation>Q2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="444"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q3</source>
       <translation>Q3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="453"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current View</source>
       <translation>Nykyinen näkymä</translation>
     </message>
@@ -846,7 +1125,11 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::CommandModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="508"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Commands</source>
       <translation>Komennot</translation>
     </message>
@@ -895,7 +1178,7 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
     </message>
     <message>
       <location filename="../DemoMode.ui" line="189"/>
-      <location filename="../DemoMode.cpp" line="236"/>
+      <location filename="../DemoMode.cpp" line="237"/>
       <source>Play</source>
       <translation>Toista</translation>
     </message>
@@ -905,7 +1188,7 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
       <translation>Sulje</translation>
     </message>
     <message>
-      <location filename="../DemoMode.cpp" line="232"/>
+      <location filename="../DemoMode.cpp" line="233"/>
       <source>Stop</source>
       <translation>Pysäytä</translation>
     </message>
@@ -918,7 +1201,11 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
       <translation>Valitse ikkuna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="52"/>
+=======
+      <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Activate</source>
       <translation>&amp;Aktivoi</translation>
     </message>
@@ -930,7 +1217,11 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::DlgActivateWindowImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="55"/>
+=======
+      <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Windows</source>
       <translation>Ikkunat</translation>
     </message>
@@ -974,32 +1265,56 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
       <translation>Lisää</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="666"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="664"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid group name</source>
       <translation>Epäkelpo ryhmän nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="669"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid type name</source>
       <translation>Epäkelpo ryhmän nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="675"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid property name '%1'</source>
       <translation>Epäkelpo ominaisuuden nimi '%1'</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="678"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Property '%1' already exists</source>
       <translation>Ominaisuus '%1' on jo olemassa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="681"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1' is a constant</source>
       <translation>'%1' on vakio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="684"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1' is a unit</source>
       <translation>'%1' on yksikkö</translation>
     </message>
@@ -1054,9 +1369,15 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
       <translation>Valintaruutu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCheckableMessageBox.h" line="126"/>
       <source>Don't show me again</source>
       <translation>Älä näytä minulle enää</translation>
+=======
+      <location filename="../Dialogs/DlgCheckableMessageBox.h" line="125"/>
+      <source>Don't show me again</source>
+      <translation type="unfinished">Don't show me again</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1098,6 +1419,7 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::DlgCreateNewPreferencePackImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="183"/>
       <source>Export Configuration</source>
       <translation type="unfinished">Export Configuration</translation>
@@ -1109,6 +1431,19 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
     </message>
     <message>
       <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="195"/>
+=======
+      <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="181"/>
+      <source>Export configuration</source>
+      <translation type="unfinished">Export configuration</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="192"/>
+      <source>Pack already exists</source>
+      <translation>Paketti on jo olemassa</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A preference pack with that name already exists. Overwrite it?</source>
       <translation>Tuolla nimellä varustettu asetuspaketti on jo olemassa. Korvataanko se?</translation>
     </message>
@@ -1184,12 +1519,20 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::DlgCustomActionsImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="83"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Icons</source>
       <translation>Kuvakkeet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="83"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrot</translation>
     </message>
@@ -1220,18 +1563,47 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
       <translation>Makrotiedostoa '%1 ei löytynyt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="239"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="237"/>
+      <source>Empty macro</source>
+      <translation>Tyhjä makro</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specify the macro first</source>
       <translation>Määritä makro ensin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="244"/>
       <location filename="../Dialogs/DlgActionsImp.cpp" line="314"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="242"/>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="312"/>
+      <source>Empty text</source>
+      <translation>Tyhjä teksti</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="242"/>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specify the menu text first</source>
       <translation>Määritä valikkoteksti ensin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="309"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="307"/>
+      <source>No item selected</source>
+      <translation>Ei valittuja kohteita</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a macro item first</source>
       <translation type="unfinished">Select a macro item first</translation>
     </message>
@@ -1253,42 +1625,74 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::DlgCustomKeyboardImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="154"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type to search…</source>
       <translation type="unfinished">Type to search…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Icon</source>
       <translation>kuvake</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command</source>
       <translation>Komento</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shortcut</source>
       <translation>Pikanäppäin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default</source>
       <translation>Oletus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="280"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="280"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Title</source>
       <translation>Otsikko</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="436"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All</source>
       <translation>Kaikki</translation>
     </message>
@@ -1366,51 +1770,91 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
       <translation>&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;/head&gt;&lt;body style=" white-space: pre-wrap; font-size:7.8pt; font-weight:400; font-style:normal; text-decoration:none;"&gt;&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;"&gt;&lt;span style=" font-weight:600;"&gt;Huomautus:&lt;/span&gt; Muutokset aktivoituvat, kun lataat työpöydän&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="87"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global</source>
       <translation>Järjestelmän laajuinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="105"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command</source>
       <translation>Komento</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="72"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="223"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="70"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;Separator&gt;</source>
       <translation>&lt;Separator&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="247"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 module not loaded</source>
       <translation>%1 moduulia ei ole ladattu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="447"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="442"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New toolbar</source>
       <translation>Uusi työkalurivi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="448"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="506"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="443"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toolbar name:</source>
       <translation>Työkalurivin nimi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="462"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="520"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="457"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="515"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicated name</source>
       <translation>Monistettu nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="463"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="521"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="458"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="516"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The toolbar name '%1' is already used</source>
       <translation>Työkalurivin nimi '%1' on jo käytössä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="505"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename toolbar</source>
       <translation>Uudelleennimeä työkalurivi</translation>
     </message>
@@ -1458,27 +1902,47 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::DlgCustomizeSpaceball</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="744"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="739"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spaceball Buttons</source>
       <translation>"Spaceball" painikkeet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="750"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Spaceball present</source>
       <translation type="unfinished">No Spaceball present</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="806"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="801"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Buttons</source>
       <translation>Painikkeet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="807"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="802"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset</source>
       <translation>Palauta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="843"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="838"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print Reference</source>
       <translation>Tulosta viite</translation>
     </message>
@@ -1634,57 +2098,100 @@ napsautat vasemmalla tai oikealla painikkeella ja liikutat hiirtä ylös tai ala
   <context>
     <name>Gui::Dialog::DlgMacroExecuteImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="124"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="821"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="121"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="498"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="486"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro file</source>
       <translation>Makro-tiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="524"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="934"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1097"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="512"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="922"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Existing file</source>
       <translation>Olemassa oleva tiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="525"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1'.
 This file already exists.</source>
       <translation>"%1".
 Tämä tiedosto on jo olemassa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="533"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="521"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot create file</source>
       <translation>Tiedostoa ei voi luoda</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="534"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creation of file '%1' failed.</source>
       <translation>Tiedoston '%1' luonti epäonnistui.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="575"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete macro</source>
       <translation>Poista makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="610"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not show again</source>
       <translation>Älä näytä uudestaan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="611"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="599"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Guided Walkthrough</source>
       <translation>Opastettu kävelykierros</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="613"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This will guide you in setting up this macro in a custom global toolbar.  Instructions will be in red text inside the dialog.
 
 Note: your changes will be applied when you next switch workbenches
@@ -1695,93 +2202,163 @@ Huomautus: muutokset otetaan käyttöön, kun seuraavan kerran vaihdat työtiloj
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="694"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough instructions: Fill in missing fields (optional) then click Add, then Close</source>
       <translation>Kävelykierros: Täytä puuttuvat kentät (valinnainen) ja napsauta Lisää ja sulje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="772"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough instructions: Select macro from list, then click right arrow button (-&gt;), then Close.</source>
       <translation>Läpikulkuohjeet: Valitse makro luettelosta, napsauta nuolta oikealle (-&gt;), napsauta Sulje.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="796"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="784"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough instructions: Click New, select macro, then right arrow (-&gt;) button, then Close.</source>
       <translation>Läpikulkuohjeet: Valitse Uusi, valitse makro, napsauta nuoli oikealle (-&gt;), sitten Sulje.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="912"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="900"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Renaming Macro File</source>
       <translation>Uudelleennimetään Makrotiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="479"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Read-Only</source>
       <translation type="unfinished">Read-Only</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="499"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter a file name:</source>
       <translation type="unfinished">Enter a file name:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="576"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete the macro '%1'?</source>
       <translation type="unfinished">Delete the macro '%1'?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="668"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="656"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough, Dialog 1 of 2</source>
       <translation type="unfinished">Walkthrough, Dialog 1 of 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="736"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="724"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough, Dialog 1 of 1</source>
       <translation type="unfinished">Walkthrough, Dialog 1 of 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="736"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="724"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough, Dialog 2 of 2</source>
       <translation type="unfinished">Walkthrough, Dialog 2 of 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="913"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1078"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="901"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1066"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter new name</source>
       <translation type="unfinished">Enter new name</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="935"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1098"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="923"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1086"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1'
  already exists.</source>
       <translation>'%1'
  on jo olemassa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="941"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="929"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename Failed</source>
       <translation>Uudelleennimeäminen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="942"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to rename to '%1'.
 Perhaps a file permission error?</source>
       <translation>Ei voitu nimetä uudelleen '%1'.
 Ehkä tiedoston käyttöoikeusvirhe?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1077"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1065"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate Macro</source>
       <translation>Monista makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1104"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1092"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate Failed</source>
       <translation>Monistaminen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1105"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1093"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to duplicate to '%1'.
 Perhaps a file permission error?</source>
       <translation>Ei voitu monistaa '%1':ksi.
@@ -1824,11 +2401,19 @@ Ehkä tiedoston käyttöoikeusvirhe?</translation>
   <context>
     <name>Gui::Dialog::DlgMacroRecordImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="104"/>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="114"/>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="144"/>
       <source>Macro Recorder</source>
       <translation type="unfinished">Macro Recorder</translation>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="102"/>
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="112"/>
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="142"/>
+      <source>Macro recorder</source>
+      <translation>Makro-tallennin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="105"/>
@@ -1836,29 +2421,52 @@ Ehkä tiedoston käyttöoikeusvirhe?</translation>
       <translation type="unfinished">Specify a place to save first.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="115"/>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The macro directory does not exist. Choose another one.</source>
       <translation type="unfinished">The macro directory does not exist. Choose another one.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="130"/>
       <source>Existing Macro</source>
       <translation type="unfinished">Existing Macro</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="131"/>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The macro '%1' already exists. Overwrite it?</source>
       <translation type="unfinished">The macro '%1' already exists. Overwrite it?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="145"/>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You have no write permission for the directory. Choose another one.</source>
       <translation type="unfinished">You have no write permission for the directory. Choose another one.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="191"/>
       <source>Choose Macro Directory</source>
       <translation type="unfinished">Choose Macro Directory</translation>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="128"/>
+      <source>Existing macro</source>
+      <translation>Aiemmin luotu makro</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="189"/>
+      <source>Choose macro directory</source>
+      <translation>Valitse makron hakemisto</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1989,12 +2597,21 @@ Ehkä tiedoston käyttöoikeusvirhe?</translation>
       <translation>HTML-tiedostot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="103"/>
       <source>Access Denied</source>
       <translation type="unfinished">Access Denied</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="104"/>
+=======
+      <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="101"/>
+      <source>Access denied</source>
+      <translation>Pääsy estetty</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="102"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Access denied to '%1'
 
 Specify another directory.</source>
@@ -2095,39 +2712,69 @@ Määritä toinen hakemisto.</translation>
       <translation>Etsi seuraava</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterFind.cpp" line="313"/>
+=======
+      <location filename="../Dialogs/DlgParameterFind.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not found</source>
       <translation>Ei löydy</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterFind.cpp" line="314"/>
       <source>%1 not found. Would you like to start from the beginning?</source>
       <translation>%1 ei löytynyt. Haluatko aloittaa alusta asti?</translation>
+=======
+      <location filename="../Dialogs/DlgParameterFind.cpp" line="306"/>
+      <source>Cannot find the text: %1</source>
+      <translation type="unfinished">Cannot find the text: %1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Gui::Dialog::DlgParameterImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="70"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="247"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="68"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>Ryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="79"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="248"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="77"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="79"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="249"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="77"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Tyyppi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="79"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="250"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="77"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Value</source>
       <translation>Arvo</translation>
     </message>
@@ -2142,17 +2789,29 @@ Määritä toinen hakemisto.</translation>
       <translation>Käyttäjäparametri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="129"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Search group</source>
       <translation>Etsi ryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="472"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid input</source>
       <translation>Virheellinen syöte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="473"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="479"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid key name '%1'</source>
       <translation>Virheellinen avaimen nimi '%1'</translation>
     </message>
@@ -2173,37 +2832,65 @@ Määritä toinen hakemisto.</translation>
   <context>
     <name>Gui::Dialog::DlgPreferencePackManagementImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="109"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User-Saved Preference Packs</source>
       <translation>Käyttäjän Tallennetut Asetuspaketit</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="113"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Built-In Preference Packs</source>
       <translation>Sisäänrakennetut Asetuspaketit</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="154"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle visibility of built-in preference pack '%1'</source>
       <translation>Vaihda sisäänrakennetun Asetuspaketin '%1' näkyvyyttä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="164"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deletes the user-saved preference pack '%1'</source>
       <translation>Poista käyttäjän tallentama asetuspaketti '%1'</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="179"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the addon preference pack '%1' (use the Addon Manager to remove permanently)</source>
       <translation>Vaihda lisäosien asetuspaketin '%1' näkyvyyttä (käytä lisäosien hallintaa poistaaksesi sen pysyvästi)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="196"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete the preference pack named '%1'? This cannot be undone.</source>
       <translation>Poistetaanko asetuspaketti nimeltä '%1'? Tätä ei voi perua.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="195"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete saved preference pack?</source>
       <translation>Poista tallennettu asetuspaketti?</translation>
     </message>
@@ -2238,16 +2925,25 @@ Määritä toinen hakemisto.</translation>
   <context>
     <name>Gui::Dialog::DlgPreferencesImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="787"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="782"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset Page '%1'</source>
       <translation>Palauta sivu '%1'</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="790"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resets the user settings for the page '%1'</source>
       <translation>Palauttaa sivun '%1' käyttäjäasetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="794"/>
       <source>Reset Group '%1'</source>
       <translation>Palauta ryhmä '%1'</translation>
@@ -2259,54 +2955,107 @@ Määritä toinen hakemisto.</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="820"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="789"/>
+      <source>Reset Group '%1'</source>
+      <translation type="unfinished">Reset Group '%1'</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="797"/>
+      <source>Reset All</source>
+      <translation type="unfinished">Reset All</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="815"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear User Settings</source>
       <translation>Tyhjennä käyttäjä-asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="821"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="816"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear all your user settings?</source>
       <translation>Tyhjennetäänkö kaikki käyttäjäasetukset?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="822"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All settings will be cleared.</source>
       <translation>Kaikki asetukset tyhjennetään.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="923"/>
       <source>Wrong Parameter</source>
       <translation type="unfinished">Wrong Parameter</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="966"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="961"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart Required</source>
       <translation>Uudelleenkäynnistys vaaditaan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="967"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="962"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart FreeCAD for changes to take effect.</source>
       <translation>Käynnistä FreeCAD uudelleen, jotta muutokset astuvat voimaan.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="972"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart Now</source>
       <translation>Käynnistä uudelleen nyt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="973"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="968"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart Later</source>
       <translation>Käynnistä uudelleen myöhemmin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="799"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="794"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resets the user settings for the group '%1'</source>
       <translation>Palauttaa ryhmän '%1' käyttäjäasetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="804"/>
       <source>Resets the user settings entirely</source>
       <translation>Palauta käyttäjän asetukset kokonaan</translation>
     </message>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="799"/>
+      <source>Resets the user settings entirely</source>
+      <translation>Palauta käyttäjän asetukset kokonaan</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="918"/>
+      <source>Wrong parameter</source>
+      <translation>Väärä parametri</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::Dialog::DlgProjectInformation</name>
@@ -2517,12 +3266,20 @@ Määritä toinen hakemisto.</translation>
       <translation>Hakumalli yllä olevien tulosten suodattamiseksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPropertyLink.cpp" line="118"/>
+=======
+      <location filename="../Dialogs/DlgPropertyLink.cpp" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset</source>
       <translation>Palauta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPropertyLink.cpp" line="119"/>
+=======
+      <location filename="../Dialogs/DlgPropertyLink.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear</source>
       <translation>Tyhjennä</translation>
     </message>
@@ -2555,7 +3312,11 @@ Määritä toinen hakemisto.</translation>
   <context>
     <name>Gui::Dialog::DlgRevertToBackupConfigImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgRevertToBackupConfigImp.cpp" line="107"/>
+=======
+      <location filename="../Dialogs/DlgRevertToBackupConfigImp.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No selection in dialog, cannot load backup file</source>
       <translation>Ei valintaa valintaikkunassa, varmuuskopiotiedostoa ei voi ladata</translation>
     </message>
@@ -3194,12 +3955,20 @@ lukujen desimaalimäärä</translation>
   <context>
     <name>Gui::Dialog::DlgSettingsColorGradientImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="256"/>
+=======
+      <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong parameter</source>
       <translation>Väärä parametri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="257"/>
+=======
+      <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The maximum value must be higher than the minimum value.</source>
       <translation>Maksimiarvon pitää olla suurempi kuin minimiarvo.</translation>
     </message>
@@ -4232,62 +5001,112 @@ Zoomausaskel '1' tarkoittaa kerrointa 7,5 jokaista zoomausaskelta kohden.</trans
       <translation>Poista kosketusnäytön kallistusele käytöstä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="221"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="258"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="211"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Isometric</source>
       <translation>Isometrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="222"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="259"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="212"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimetric</source>
       <translation>Dimetrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="223"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="260"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="213"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trimetric</source>
       <translation>Trimetrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="224"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="261"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="214"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top</source>
       <translation>Yläpuoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="225"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="262"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="215"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Front</source>
       <translation>Etupuoli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="226"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="263"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="216"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Left</source>
       <translation>Vasen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="227"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="264"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="217"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Right</source>
       <translation>Oikea</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="228"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="265"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="218"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rear</source>
       <translation>Takana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="229"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="266"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="219"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bottom</source>
       <translation>Pohja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="230"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="267"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="220"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom</source>
       <translation>Mukautettu</translation>
     </message>
@@ -4730,12 +5549,16 @@ The preference system is the one set in the general preferences.</translation>
   <context>
     <name>Gui::Dialog::DlgUnitsCalculator</name>
     <message>
-      <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="145"/>
+      <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="143"/>
       <source>unknown unit:</source>
       <translation>tuntematon yksikkö:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="152"/>
+=======
+      <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>unit mismatch</source>
       <translation>yksikkö ei täsmää</translation>
     </message>
@@ -4816,12 +5639,18 @@ The 'Status' column shows whether the document could be recovered.</source>
       <translation>&amp;Viimeistele</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentRecovery.cpp" line="642"/>
       <location filename="../DocumentRecovery.cpp" line="651"/>
+=======
+      <location filename="../DocumentRecovery.cpp" line="640"/>
+      <location filename="../DocumentRecovery.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>Poista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentRecovery.cpp" line="652"/>
       <source>Delete the selected recovery documents?</source>
       <translation type="unfinished">Delete the selected recovery documents?</translation>
@@ -4849,6 +5678,39 @@ The 'Status' column shows whether the document could be recovered.</source>
       <source>Cleanup</source>
       <translation>Siivous</translation>
     </message>
+=======
+      <location filename="../DocumentRecovery.cpp" line="650"/>
+      <source>Delete the selected transient directories?</source>
+      <translation type="unfinished">Delete the selected transient directories?</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="652"/>
+      <source>When deleting the selected transient directory it is not possible to recover any files afterwards.</source>
+      <translation type="unfinished">When deleting the selected transient directory it is not possible to recover any files afterwards.</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="686"/>
+      <source>Delete all transient directories?</source>
+      <translation type="unfinished">Delete all transient directories?</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="687"/>
+      <source>When deleting all transient directories it is not possible to recover any files afterwards.</source>
+      <translation type="unfinished">When deleting all transient directories it is not possible to recover any files afterwards.</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.ui" line="42"/>
+      <location filename="../DocumentRecovery.cpp" line="649"/>
+      <location filename="../DocumentRecovery.cpp" line="685"/>
+      <source>Cleanup</source>
+      <translation>Siivous</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="704"/>
+      <source>Transient directories deleted.</source>
+      <translation>Tilapäiset hakemistot poistettu.</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::Dialog::DownloadItem</name>
@@ -4964,30 +5826,53 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::IconDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="463"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Icon Folders</source>
       <translation>Kuvakekansiot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="600"/>
       <source>Add Icon Folder</source>
       <translation type="unfinished">Add Icon Folder</translation>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="598"/>
+      <source>Add icon folder</source>
+      <translation>Lisää kuvakekansio</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Gui::Dialog::IconFolders</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="576"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add or remove custom icon folders</source>
       <translation>Lisää tai poista mukautettuja kuvakekansioita</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="628"/>
       <source>Remove Folder</source>
       <translation type="unfinished">Remove Folder</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgActionsImp.cpp" line="629"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="626"/>
+      <source>Remove folder</source>
+      <translation>Poista kansio</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="627"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing a folder only takes effect after an application restart</source>
       <translation type="unfinished">Removing a folder only takes effect after an application restart</translation>
     </message>
@@ -5056,13 +5941,20 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::ParameterGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="490"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="515"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="675"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="496"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="521"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expand</source>
       <translation>Laajenna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="593"/>
       <source>Existing Sub-Group</source>
       <translation type="unfinished">Existing Sub-Group</translation>
@@ -5084,72 +5976,144 @@ The 'Status' column shows whether the document could be recovered.</source>
     </message>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="676"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add sub-group</source>
       <translation>Lisää alaryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="677"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="543"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="683"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove group</source>
       <translation>Poista ryhmä</translation>
     </message>
     <message>
-      <location filename="../Dialogs/DlgParameterImp.cpp" line="492"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="498"/>
       <source>Add Sub-Group</source>
       <translation type="unfinished">Add Sub-Group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="493"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="537"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove Group</source>
       <translation type="unfinished">Remove Group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="494"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename Group</source>
       <translation type="unfinished">Rename Group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="496"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="502"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export Parameter</source>
       <translation type="unfinished">Export Parameter</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="497"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Parameter</source>
       <translation type="unfinished">Import Parameter</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="538"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="544"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove this parameter group?</source>
       <translation type="unfinished">Remove this parameter group?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="678"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="662"/>
+      <source>Import error</source>
+      <translation type="unfinished">Import error</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="684"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename group</source>
       <translation>Nimeä ryhmä uudelleen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="679"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export parameter</source>
       <translation>Vie parametri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="680"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import parameter</source>
       <translation>Tuo parametri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="512"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="518"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapse</source>
       <translation>Kutista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="594"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="599"/>
+      <source>Existing sub-group</source>
+      <translation>Nykyinen alaryhmä</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The sub-group '%1' already exists.</source>
       <translation>Alaryhmä "%1" on jo olemassa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="657"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="616"/>
+      <source>Export parameter to file</source>
+      <translation>Vie parametri tiedostoon</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="634"/>
+      <source>Import parameter from file</source>
+      <translation>Tuo parametri tiedostosta</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reading from '%1' failed.</source>
       <translation>'%1' lukeminen epäonnistui.</translation>
     </message>
@@ -5157,51 +6121,88 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::ParameterValue</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="706"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New</source>
       <translation>Uusi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="696"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change Value</source>
       <translation type="unfinished">Change Value</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="701"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="707"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove Key</source>
       <translation type="unfinished">Remove Key</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="702"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename Key</source>
       <translation type="unfinished">Rename Key</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="707"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="713"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New String Item</source>
       <translation type="unfinished">New String Item</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="708"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="714"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Float Item</source>
       <translation type="unfinished">New Float Item</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="709"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="715"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Integer Item</source>
       <translation type="unfinished">New Integer Item</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="710"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="716"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Unsigned Item</source>
       <translation type="unfinished">New Unsigned Item</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="711"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Boolean Item</source>
       <translation type="unfinished">New Boolean Item</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="829"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="874"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="922"/>
@@ -5216,6 +6217,22 @@ The 'Status' column shows whether the document could be recovered.</source>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="923"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="968"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1015"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="835"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="880"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="928"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="973"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1020"/>
+      <source>Existing item</source>
+      <translation>Nykyinen kohde</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="836"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="881"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="929"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="974"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1021"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The item '%1' already exists.</source>
       <translation>Kohde "%1" on jo olemassa.</translation>
     </message>
@@ -5338,12 +6355,20 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::PrintModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="722"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Button</source>
       <translation>Painike</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="725"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command</source>
       <translation>Komento</translation>
     </message>
@@ -5446,8 +6471,13 @@ The 'Status' column shows whether the document could be recovered.</source>
     </message>
     <message>
       <location filename="../TextureMapping.cpp" line="167"/>
+<<<<<<< HEAD
       <source>No 3D View</source>
       <translation type="unfinished">No 3D View</translation>
+=======
+      <source>No 3D view</source>
+      <translation>Ei 3D-näkymää</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../TextureMapping.cpp" line="167"/>
@@ -5487,44 +6517,78 @@ The 'Status' column shows whether the document could be recovered.</source>
       <translation>Näytä riippuvuudet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="121"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Depending on</source>
       <translation>Riippuu objektista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="122"/>
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="126"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="120"/>
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document</source>
       <translation>Asiakirja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="123"/>
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="127"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="121"/>
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="125"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Depended by</source>
       <translation>Riippuvuussuhde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="129"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selections</source>
       <translation>Valinnat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="135"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All</source>
       <translation>Kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="165"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Use Original Selection</source>
       <translation type="unfinished">&amp;Use Original Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="167"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ignore dependencies and proceed with the objects
 originally selected prior to opening this dialog</source>
       <translation type="unfinished">Ignore dependencies and proceed with the objects
@@ -5752,12 +6816,20 @@ originally selected prior to opening this dialog</translation>
   <context>
     <name>Gui::DocumentModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentModel.cpp" line="221"/>
+=======
+      <location filename="../DocumentModel.cpp" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Application</source>
       <translation>Sovellus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentModel.cpp" line="724"/>
+=======
+      <location filename="../DocumentModel.cpp" line="722"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Labels &amp; Attributes</source>
       <translation>Nimilaput &amp; Määritteet</translation>
     </message>
@@ -5765,7 +6837,11 @@ originally selected prior to opening this dialog</translation>
   <context>
     <name>Gui::EditorView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="216"/>
+=======
+      <location filename="../EditorView.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Modified file</source>
       <translation>Muokattu tiedosto</translation>
     </message>
@@ -5775,7 +6851,11 @@ originally selected prior to opening this dialog</translation>
       <translation>Tallentamaton asiakirja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="217"/>
+=======
+      <location filename="../EditorView.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1.
 
 This has been modified outside of the source editor. Reload it?</source>
@@ -5801,40 +6881,89 @@ Save all changes?</translation>
       <translation>Vie PDF</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="547"/>
+=======
+      <location filename="../EditorView.cpp" line="511"/>
+      <source>PDF file</source>
+      <translation>PDF-tiedosto</translation>
+    </message>
+    <message>
+      <location filename="../EditorView.cpp" line="548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>untitled[*]</source>
       <translation>Nimetön[*]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="552"/>
+=======
+      <location filename="../EditorView.cpp" line="553"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Editor</source>
       <translation> -Muokkain</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="612"/>
+=======
+      <location filename="../EditorView.cpp" line="613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 chars removed</source>
       <translation>%1 merkit poistettu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="615"/>
+=======
+      <location filename="../EditorView.cpp" line="616"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 chars added</source>
       <translation>%1 merkkiä lisätty</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="618"/>
+=======
+      <location filename="../EditorView.cpp" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Formatted</source>
       <translation>Alustettu</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>Gui::FileOptionsDialog</name>
     <message>
       <location filename="../FileDialog.cpp" line="956"/>
+=======
+    <name>Gui::FileDialog</name>
+    <message>
+      <location filename="../FileDialog.cpp" line="281"/>
+      <source>Save As</source>
+      <translation type="unfinished">Save As</translation>
+    </message>
+    <message>
+      <location filename="../FileDialog.cpp" line="376"/>
+      <location filename="../FileDialog.cpp" line="441"/>
+      <source>Open</source>
+      <translation>Avaa</translation>
+    </message>
+  </context>
+  <context>
+    <name>Gui::FileOptionsDialog</name>
+    <message>
+      <location filename="../FileDialog.cpp" line="562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extended</source>
       <translation>Laajennettu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="993"/>
+=======
+      <location filename="../FileDialog.cpp" line="598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All files (*.*)</source>
       <translation>Kaikki tiedostot (*.*)</translation>
     </message>
@@ -5870,22 +6999,38 @@ Save all changes?</translation>
   <context>
     <name>Gui::GestureNavigationStyle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="979"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="965"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tap OR click left mouse button.</source>
       <translation>Napauta TAI klikkaa hiiren vasenta painiketta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="981"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag screen with two fingers OR press right mouse button.</source>
       <translation>Vedä näyttöä kahdella sormella TAI paina hiiren oikeaa painiketta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="983"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="969"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag screen with one finger OR press left mouse button. In Sketcher and other edit modes, hold Alt in addition.</source>
       <translation>Vedä näyttöä yhdellä sormella TAI paina hiiren vasenta painiketta. Sketcher ja muut muokkaustilat, pidä myös Alt painettuna.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="988"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="974"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pinch (place two fingers on the screen and drag them apart from or towards each other) OR scroll mouse wheel OR PgUp/PgDown on keyboard.</source>
       <translation type="unfinished">Pinch (place two fingers on the screen and drag them apart from or towards each other) OR scroll mouse wheel OR PgUp/PgDown on keyboard.</translation>
     </message>
@@ -5893,47 +7038,118 @@ Save all changes?</translation>
   <context>
     <name>Gui::GraphvizView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="327"/>
+=======
+      <location filename="../GraphvizView.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz not found</source>
       <translation>Graphviz:iä ei löydy</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="334"/>
+=======
+      <location filename="../GraphvizView.cpp" line="329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz couldn't be found on your system.</source>
       <translation>Graphvizia ei löytynyt järjestelmästäsi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="335"/>
+=======
+      <location filename="../GraphvizView.cpp" line="330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Read more about it here.</source>
       <translation>Lue lisää täältä.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="336"/>
+=======
+      <location filename="../GraphvizView.cpp" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to specify its installation path if it's already installed?</source>
       <translation>Haluatko määrittää sen asennuspolun, jos se on jo asennettu?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="347"/>
+=======
+      <location filename="../GraphvizView.cpp" line="342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz installation path</source>
       <translation>Graphviz:in asennuspolun</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="387"/>
+=======
+      <location filename="../GraphvizView.cpp" line="382"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz failed</source>
       <translation>Graphviz:in käyttö epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="388"/>
+=======
+      <location filename="../GraphvizView.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz failed to create an image file</source>
       <translation>Graphviz ei pystynyt luomaan kuvatiedostoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="491"/>
       <source>Bitmap</source>
       <translation>Bittikartta</translation>
     </message>
     <message>
       <location filename="../GraphvizView.cpp" line="609"/>
+=======
+      <location filename="../GraphvizView.cpp" line="483"/>
+      <source>PNG format</source>
+      <translation>PNG-muoto</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="485"/>
+      <source>Bitmap format</source>
+      <translation>Bitmap-muoto</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="489"/>
+      <source>GIF format</source>
+      <translation>GIF-muoto</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="491"/>
+      <source>JPG format</source>
+      <translation>JPG-muoto</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="493"/>
+      <source>SVG format</source>
+      <translation>SVG-muoto</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="495"/>
+      <location filename="../GraphvizView.cpp" line="602"/>
+      <source>PDF format</source>
+      <translation>PDF-muoto</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="673"/>
+      <location filename="../GraphvizView.cpp" line="479"/>
+      <source>Graphviz format</source>
+      <translation>Graphviz-muoto</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="676"/>
+      <location filename="../GraphvizView.cpp" line="505"/>
+      <location filename="../GraphvizView.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export graph</source>
       <translation type="unfinished">Export graph</translation>
     </message>
@@ -5947,12 +7163,20 @@ Save all changes?</translation>
   <context>
     <name>Gui::InputField</name>
     <message>
+<<<<<<< HEAD
       <location filename="../InputField.cpp" line="218"/>
+=======
+      <location filename="../InputField.cpp" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Muokkaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputField.cpp" line="238"/>
+=======
+      <location filename="../InputField.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Value</source>
       <translation type="unfinished">Save Value</translation>
     </message>
@@ -5983,7 +7207,11 @@ Save all changes?</translation>
   <context>
     <name>Gui::LabelEditor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1502"/>
+=======
+      <location filename="../Widgets.cpp" line="1498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>List</source>
       <translation>Lista</translation>
     </message>
@@ -5991,6 +7219,7 @@ Save all changes?</translation>
   <context>
     <name>Gui::LocationDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="104"/>
       <location filename="../InputVector.cpp" line="118"/>
       <location filename="../InputVector.h" line="131"/>
@@ -5999,10 +7228,21 @@ Save all changes?</translation>
       <location filename="../InputVector.h" line="300"/>
       <location filename="../InputVector.h" line="475"/>
       <location filename="../InputVector.h" line="489"/>
+=======
+      <location filename="../InputVector.h" line="132"/>
+      <location filename="../InputVector.h" line="155"/>
+      <location filename="../InputVector.h" line="278"/>
+      <location filename="../InputVector.h" line="301"/>
+      <location filename="../InputVector.h" line="476"/>
+      <location filename="../InputVector.h" line="490"/>
+      <location filename="../InputVector.cpp" line="104"/>
+      <location filename="../InputVector.cpp" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="105"/>
       <location filename="../InputVector.cpp" line="119"/>
       <location filename="../InputVector.h" line="132"/>
@@ -6011,10 +7251,21 @@ Save all changes?</translation>
       <location filename="../InputVector.h" line="301"/>
       <location filename="../InputVector.h" line="476"/>
       <location filename="../InputVector.h" line="490"/>
+=======
+      <location filename="../InputVector.h" line="133"/>
+      <location filename="../InputVector.h" line="156"/>
+      <location filename="../InputVector.h" line="279"/>
+      <location filename="../InputVector.h" line="302"/>
+      <location filename="../InputVector.h" line="477"/>
+      <location filename="../InputVector.h" line="491"/>
+      <location filename="../InputVector.cpp" line="105"/>
+      <location filename="../InputVector.cpp" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="106"/>
       <location filename="../InputVector.cpp" line="120"/>
       <location filename="../InputVector.h" line="133"/>
@@ -6023,10 +7274,21 @@ Save all changes?</translation>
       <location filename="../InputVector.h" line="302"/>
       <location filename="../InputVector.h" line="477"/>
       <location filename="../InputVector.h" line="491"/>
+=======
+      <location filename="../InputVector.h" line="134"/>
+      <location filename="../InputVector.h" line="157"/>
+      <location filename="../InputVector.h" line="280"/>
+      <location filename="../InputVector.h" line="303"/>
+      <location filename="../InputVector.h" line="478"/>
+      <location filename="../InputVector.h" line="492"/>
+      <location filename="../InputVector.cpp" line="106"/>
+      <location filename="../InputVector.cpp" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="107"/>
       <location filename="../InputVector.cpp" line="123"/>
       <location filename="../InputVector.h" line="134"/>
@@ -6035,22 +7297,46 @@ Save all changes?</translation>
       <location filename="../InputVector.h" line="305"/>
       <location filename="../InputVector.h" line="478"/>
       <location filename="../InputVector.h" line="494"/>
+=======
+      <location filename="../InputVector.h" line="135"/>
+      <location filename="../InputVector.h" line="160"/>
+      <location filename="../InputVector.h" line="281"/>
+      <location filename="../InputVector.h" line="306"/>
+      <location filename="../InputVector.h" line="479"/>
+      <location filename="../InputVector.h" line="495"/>
+      <location filename="../InputVector.cpp" line="107"/>
+      <location filename="../InputVector.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User defined…</source>
       <translation type="unfinished">User defined…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="215"/>
       <location filename="../InputVector.h" line="240"/>
       <location filename="../InputVector.h" line="375"/>
       <location filename="../InputVector.h" line="564"/>
+=======
+      <location filename="../InputVector.h" line="241"/>
+      <location filename="../InputVector.h" line="376"/>
+      <location filename="../InputVector.h" line="565"/>
+      <location filename="../InputVector.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong direction</source>
       <translation>Väärä suunta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="216"/>
       <location filename="../InputVector.h" line="241"/>
       <location filename="../InputVector.h" line="376"/>
       <location filename="../InputVector.h" line="565"/>
+=======
+      <location filename="../InputVector.h" line="242"/>
+      <location filename="../InputVector.h" line="377"/>
+      <location filename="../InputVector.h" line="566"/>
+      <location filename="../InputVector.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction must not be the null vector</source>
       <translation>Suunta ei saa olla null-arvoinen vektori</translation>
     </message>
@@ -6081,17 +7367,29 @@ Save all changes?</translation>
   <context>
     <name>Gui::MacroCommand</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="419"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Command.cpp" line="1319"/>
+=======
+      <location filename="../Command.cpp" line="1271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro file doesn't exist</source>
       <translation>Makrotiedostoa ei ole olemassa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Command.cpp" line="1320"/>
+=======
+      <location filename="../Command.cpp" line="1272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No such macro file: '%1'</source>
       <translation>Ei sellaista makrotiedostoa: '%1'</translation>
     </message>
@@ -6099,12 +7397,18 @@ Save all changes?</translation>
   <context>
     <name>Gui::MainWindow</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="201"/>
       <location filename="../MainWindow.cpp" line="2659"/>
+=======
+      <location filename="../MainWindow.cpp" line="194"/>
+      <location filename="../MainWindow.cpp" line="2441"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension</source>
       <translation>Dimensio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="204"/>
       <source>Unit System</source>
       <extracomment>A context menu action used to show or hide the unit system chooser in the status bar</extracomment>
@@ -6119,16 +7423,26 @@ Save all changes?</translation>
     <message>
       <location filename="../MainWindow.cpp" line="492"/>
       <source>Input Hints</source>
+=======
+      <location filename="../MainWindow.cpp" line="430"/>
+      <source>Input hints</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <extracomment>A context menu action used to show or hide the input hints in the status bar</extracomment>
       <translation type="unfinished">Input Hints</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="532"/>
       <source>Quick Measure</source>
+=======
+      <location filename="../MainWindow.cpp" line="440"/>
+      <source>Quick measure</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <extracomment>A context menu action used to enable or disable quick measure in the status bar</extracomment>
       <translation type="unfinished">Quick Measure</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="547"/>
       <source>Toggles the bottom dock panels</source>
       <extracomment>Tooltip for the status bar button that toggles bottom dock panels</extracomment>
@@ -6143,68 +7457,121 @@ Save all changes?</translation>
     <message>
       <location filename="../MainWindow.cpp" line="576"/>
       <source>Notifications</source>
+=======
+      <location filename="../MainWindow.cpp" line="452"/>
+      <source>Notification Area</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <extracomment>A context menu action used to show or hide the 'notificationArea' toolbar widget</extracomment>
       <translation type="unfinished">Notifications</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="634"/>
+=======
+      <location filename="../MainWindow.cpp" line="495"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ready</source>
       <translation>Valmis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1429"/>
+=======
+      <location filename="../MainWindow.cpp" line="1298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close All</source>
       <translation>Sulje kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1702"/>
       <location filename="../MainWindow.cpp" line="1703"/>
       <location filename="../MainWindow.cpp" line="1704"/>
+=======
+      <location filename="../MainWindow.cpp" line="1565"/>
+      <location filename="../MainWindow.cpp" line="1566"/>
+      <location filename="../MainWindow.cpp" line="1567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles this toolbar</source>
       <translation>Näyttä tai piilota tämä työkalurivi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1723"/>
       <location filename="../MainWindow.cpp" line="1724"/>
       <location filename="../MainWindow.cpp" line="1725"/>
+=======
+      <location filename="../MainWindow.cpp" line="1586"/>
+      <location filename="../MainWindow.cpp" line="1587"/>
+      <location filename="../MainWindow.cpp" line="1588"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles this dockable window</source>
       <translation>Näytä tai piilota telakointiasema ikkunasta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1928"/>
+=======
+      <location filename="../MainWindow.cpp" line="1785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe mode enabled</source>
       <translation>Vikasietotila käytössä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1929"/>
+=======
+      <location filename="../MainWindow.cpp" line="1786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD is now running in safe mode.</source>
       <translation>FreeCADia käytetään nyt vikasietotilassa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1933"/>
+=======
+      <location filename="../MainWindow.cpp" line="1790"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe mode temporarily disables your configurations and addons. Restart the application to exit safe mode.</source>
       <translation>Vikasietotila poistaa asetukset ja lisäosat väliaikaisesti käytöstä. Käynnistä sovellus uudelleen poistuaksesi vikasietotilasta.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2381"/>
       <location filename="../MainWindow.cpp" line="2535"/>
+=======
+      <location filename="../MainWindow.cpp" line="2166"/>
+      <location filename="../MainWindow.cpp" line="2318"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsaved document</source>
       <translation>Tallentamaton asiakirja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2382"/>
+=======
+      <location filename="../MainWindow.cpp" line="2167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported object contains external link. Save the documentat least once before exporting.</source>
       <translation type="unfinished">The exported object contains external link. Save the documentat least once before exporting.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2536"/>
+=======
+      <location filename="../MainWindow.cpp" line="2319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To link to external objects, the document must be saved at least once.
 Save the document now?</source>
       <translation type="unfinished">To link to external objects, the document must be saved at least once.
 Save the document now?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="3046"/>
+=======
+      <location filename="../MainWindow.cpp" line="2649"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe Mode</source>
       <translation>Vikasietotila</translation>
     </message>
@@ -6313,22 +7680,38 @@ How do you want to proceed?</source>
       <translation>Yhtään kohdetta ei valittu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1379"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Align</source>
       <translation>&amp;Tasaus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1380"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Remove Last Point</source>
       <translation type="unfinished">&amp;Remove Last Point</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1386"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Synchronize Views</source>
       <translation type="unfinished">&amp;Synchronize Views</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1382"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1381"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Cancel</source>
       <translation>&amp;Kumoa</translation>
     </message>
@@ -6351,7 +7734,11 @@ How do you want to proceed?</source>
       <translation type="unfinished">Drag screen with one finger OR press Alt + left mouse button. In Sketcher and other edit modes, hold Alt in addition.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/MayaGestureNavigationStyle.cpp" line="108"/>
+=======
+      <location filename="../Navigation/MayaGestureNavigationStyle.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pinch (place two fingers on the screen and drag them apart from or towards each other) OR scroll mouse wheel OR press Alt + right mouse button OR PgUp/PgDown on keyboard.</source>
       <translation type="unfinished">Pinch (place two fingers on the screen and drag them apart from or towards each other) OR scroll mouse wheel OR press Alt + right mouse button OR PgUp/PgDown on keyboard.</translation>
     </message>
@@ -6359,7 +7746,11 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::ModifierLineEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="412"/>
+=======
+      <location filename="../Widgets.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Press modifier keys</source>
       <translation>Paina muokkausnäppäimiä</translation>
     </message>
@@ -6431,11 +7822,16 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::ProgressBar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../ProgressBar.cpp" line="325"/>
+=======
+      <location filename="../ProgressBar.cpp" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remaining: %1</source>
       <translation>Jäljellä: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ProgressBar.cpp" line="448"/>
       <source>Progress Indicator</source>
       <extracomment>A context menu action used to show or hide the progress indicator in the status bar</extracomment>
@@ -6443,11 +7839,18 @@ How do you want to proceed?</source>
     </message>
     <message>
       <location filename="../ProgressBar.cpp" line="559"/>
+=======
+      <location filename="../ProgressBar.cpp" line="521"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aborting</source>
       <translation>Keskeytetään</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ProgressBar.cpp" line="560"/>
+=======
+      <location filename="../ProgressBar.cpp" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Abort the operation?</source>
       <translation type="unfinished">Abort the operation?</translation>
     </message>
@@ -6473,12 +7876,20 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::PropertyEditor::LinkSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="4664"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="4580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Virhe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="4664"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="4580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object not found</source>
       <translation>Objektia ei löydy</translation>
     </message>
@@ -6595,8 +8006,13 @@ How do you want to proceed?</source>
       <translation type="unfinished">Rename Property</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1122"/>
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1314"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="991"/>
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Property Tooltip</source>
       <translation type="unfinished">Edit Property Tooltip</translation>
     </message>
@@ -6606,12 +8022,25 @@ How do you want to proceed?</source>
       <translation type="unfinished">Delete Property</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1315"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tooltip</source>
       <translation>Vihje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1154"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1199"/>
+      <source>Rename property</source>
+      <translation type="unfinished">Rename property</translation>
+    </message>
+    <message>
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Hidden</source>
       <translation type="unfinished">Show Hidden</translation>
     </message>
@@ -6621,12 +8050,25 @@ How do you want to proceed?</source>
       <translation type="unfinished">Expression</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1345"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Property name</source>
       <translation type="unfinished">Property name</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1375"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1226"/>
+      <source>Rename property group</source>
+      <translation>Nimeä ominaisuusryhmä uudelleen</translation>
+    </message>
+    <message>
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group name:</source>
       <translation>Ryhmän nimi:</translation>
     </message>
@@ -6662,126 +8104,230 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::PythonConsole</name>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="858"/>
+=======
+      <location filename="../PythonConsole.cpp" line="848"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>System exit</source>
       <translation>Poistu järjestelmästä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="859"/>
+=======
+      <location filename="../PythonConsole.cpp" line="849"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The application is still running.
 Exit without saving all data?</source>
       <translation type="unfinished">The application is still running.
 Exit without saving all data?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="873"/>
+=======
+      <location filename="../PythonConsole.cpp" line="863"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled PyCXX exception.</source>
       <translation>Käsittelemätön PyCXX poikkeus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="873"/>
       <location filename="../PythonConsole.cpp" line="876"/>
       <location filename="../PythonConsole.cpp" line="879"/>
       <location filename="../PythonConsole.cpp" line="882"/>
+=======
+      <location filename="../PythonConsole.cpp" line="863"/>
+      <location filename="../PythonConsole.cpp" line="866"/>
+      <location filename="../PythonConsole.cpp" line="869"/>
+      <location filename="../PythonConsole.cpp" line="872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Python Console</source>
       <translation type="unfinished">Python Console</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="876"/>
+=======
+      <location filename="../PythonConsole.cpp" line="866"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled FreeCAD exception.</source>
       <translation>Käsittelemätön FreeCAD poikkeus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="879"/>
+=======
+      <location filename="../PythonConsole.cpp" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled std C++ exception.</source>
       <translation>Käsittelemätön std C++-poikkeus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="882"/>
+=======
+      <location filename="../PythonConsole.cpp" line="872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled unknown C++ exception.</source>
       <translation>Käsittelemätön tuntematon C++-poikkeus.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1348"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy</source>
       <translation>K&amp;opioi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1352"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy Command</source>
       <translation type="unfinished">&amp;Copy Command</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1355"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy History</source>
       <translation type="unfinished">&amp;Copy History</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1358"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save History As…</source>
       <translation type="unfinished">Save History As…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1362"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves Python history across %1 sessions</source>
       <translation>Tallentaa Pythonin historian %1 istunnon aikana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1368"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Paste</source>
       <translation>&amp;Liitä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1373"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select All</source>
       <translation>Valitse kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1361"/>
       <location filename="../PythonConsole.cpp" line="1414"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1351"/>
+      <location filename="../PythonConsole.cpp" line="1404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save History</source>
       <translation>Tallenna historia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="496"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear Console</source>
       <translation type="unfinished">Clear Console</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1381"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert File Name…</source>
       <translation type="unfinished">Insert File Name…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1384"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1374"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Word Wrap</source>
       <translation type="unfinished">Word Wrap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1416"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro Files</source>
       <translation>Makrotiedostot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1438"/>
       <source>Insert file name</source>
       <translation>Lisää tiedostonimi</translation>
     </message>
+=======
+      <location filename="../PythonConsole.cpp" line="1428"/>
+      <source>Insert file name</source>
+      <translation>Lisää tiedostonimi</translation>
+    </message>
+    <message>
+      <location filename="../PythonConsole.cpp" line="1430"/>
+      <source>All Files</source>
+      <translation>Kaikki tiedostot</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::PythonEditor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonEditor.cpp" line="89"/>
+=======
+      <location filename="../PythonEditor.cpp" line="178"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Comment</source>
       <translation>Kommentti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonEditor.cpp" line="91"/>
+=======
+      <location filename="../PythonEditor.cpp" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Uncomment</source>
       <translation>Poista kommentti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonEditor.cpp" line="94"/>
+=======
+      <location filename="../PythonEditor.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Execute in Console</source>
       <translation type="unfinished">Execute in Console</translation>
     </message>
@@ -6789,19 +8335,27 @@ Exit without saving all data?</translation>
   <context>
     <name>Gui::RecentFilesAction</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="882"/>
       <location filename="../Action.cpp" line="891"/>
+=======
+      <location filename="../Action.cpp" line="860"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear Recent Files</source>
       <extracomment>Empties the list of recent files</extracomment>
       <translation type="unfinished">Clear Recent Files</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="892"/>
       <source>Clear the list of recent files?</source>
       <translation type="unfinished">Clear the list of recent files?</translation>
     </message>
     <message>
       <location filename="../Action.cpp" line="979"/>
+=======
+      <location filename="../Action.cpp" line="943"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open file %1</source>
       <translation>Avaa tiedosto %1</translation>
     </message>
@@ -6809,12 +8363,20 @@ Exit without saving all data?</translation>
   <context>
     <name>Gui::RecentMacrosAction</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="1153"/>
+=======
+      <location filename="../Action.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>none</source>
       <translation>ei mitään</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="1171"/>
+=======
+      <location filename="../Action.cpp" line="1135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run macro %1 (Shift+click to edit) keyboard shortcut: %2</source>
       <translation>Suorita makro %1 (Shift+napsauta muokataksesi) pikavalintaa: %2</translation>
     </message>
@@ -6845,22 +8407,38 @@ Exit without saving all data?</translation>
   <context>
     <name>Gui::SearchBar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="784"/>
+=======
+      <location filename="../EditorView.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Previous</source>
       <translation>Edellinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="785"/>
+=======
+      <location filename="../EditorView.cpp" line="818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Next</source>
       <translation>Seuraava</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="786"/>
+=======
+      <location filename="../EditorView.cpp" line="819"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Case sensitive</source>
       <translation>Merkkikokoherkkä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="787"/>
+=======
+      <location filename="../EditorView.cpp" line="820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Whole words</source>
       <translation>Kokonaiset sanat</translation>
     </message>
@@ -6873,12 +8451,20 @@ Exit without saving all data?</translation>
   <context>
     <name>Gui::SelectModule</name>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1372"/>
+=======
+      <location filename="../FileDialog.cpp" line="977"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Module</source>
       <translation type="unfinished">Select Module</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1374"/>
+=======
+      <location filename="../FileDialog.cpp" line="979"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open %1 as</source>
       <translation>Avaa kuin %1</translation>
     </message>
@@ -7043,7 +8629,11 @@ Specify another directory?</translation>
   <context>
     <name>Gui::TaskView::TaskDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskView/TaskDialog.cpp" line="96"/>
+=======
+      <location filename="../TaskView/TaskDialog.cpp" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A dialog is already open in the task panel</source>
       <translation>Valintaikkuna on jo avoinna tehtäväpaneelissa</translation>
     </message>
@@ -7065,8 +8655,13 @@ Specify another directory?</translation>
     </message>
     <message>
       <location filename="../TaskView/TaskSelectLinkProperty.cpp" line="41"/>
+<<<<<<< HEAD
       <source>Edit Selection</source>
       <translation type="unfinished">Edit Selection</translation>
+=======
+      <source>edit selection</source>
+      <translation>muokkaa valintaa</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7127,226 +8722,399 @@ Specify another directory?</translation>
   <context>
     <name>Gui::Translator</name>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="211"/>
+=======
+      <location filename="Translator.cpp" line="185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Afrikaans</source>
       <translation>Afrikaans</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="212"/>
+=======
+      <location filename="Translator.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arabic</source>
       <translation>Arabialainen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="213"/>
+=======
+      <location filename="Translator.cpp" line="187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Basque</source>
       <translation>Baski</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="214"/>
+=======
+      <location filename="Translator.cpp" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Belarusian</source>
       <translation>Valkovenäläinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="215"/>
+=======
+      <location filename="Translator.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bulgarian</source>
       <translation>Bulgarialainen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="216"/>
+=======
+      <location filename="Translator.cpp" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Catalan</source>
       <translation>Katalaani</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="217"/>
+=======
+      <location filename="Translator.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chinese (Simplified)</source>
       <oldsource>Chinese Simplified</oldsource>
       <translation type="unfinished">Chinese (Simplified)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="218"/>
+=======
+      <location filename="Translator.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chinese (Traditional)</source>
       <oldsource>Chinese Traditional</oldsource>
       <translation type="unfinished">Chinese (Traditional)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="219"/>
+=======
+      <location filename="Translator.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Croatian</source>
       <translation>Kroaatti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="220"/>
+=======
+      <location filename="Translator.cpp" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Czech</source>
       <translation>Tšekki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="222"/>
+=======
+      <location filename="Translator.cpp" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dutch</source>
       <translation>Hollanti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="223"/>
+=======
+      <location filename="Translator.cpp" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>English</source>
       <translation>Englanniksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="224"/>
+=======
+      <location filename="Translator.cpp" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Filipino</source>
       <translation>Filippiini</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="225"/>
+=======
+      <location filename="Translator.cpp" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Finnish</source>
       <translation>Suomeksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="226"/>
+=======
+      <location filename="Translator.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>French</source>
       <translation>Ranskaksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="227"/>
+=======
+      <location filename="Translator.cpp" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Galician</source>
       <translation>Galician</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="229"/>
+=======
+      <location filename="Translator.cpp" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>German</source>
       <translation>Saksaksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="230"/>
+=======
+      <location filename="Translator.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Greek</source>
       <translation>Kreikaksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="231"/>
+=======
+      <location filename="Translator.cpp" line="205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hungarian</source>
       <translation>Unkari</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="232"/>
+=======
+      <location filename="Translator.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Indonesian</source>
       <translation>Indonesia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="233"/>
+=======
+      <location filename="Translator.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Italian</source>
       <translation>Italiaksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="234"/>
+=======
+      <location filename="Translator.cpp" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Japanese</source>
       <translation>Japani</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="235"/>
+=======
+      <location filename="Translator.cpp" line="209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Kabyle</source>
       <translation>Kabyyli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="236"/>
+=======
+      <location filename="Translator.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Korean</source>
       <translation>Korealainen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="237"/>
+=======
+      <location filename="Translator.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lithuanian</source>
       <translation>Liettua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="238"/>
+=======
+      <location filename="Translator.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Norwegian</source>
       <translation>Norja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="239"/>
+=======
+      <location filename="Translator.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polish</source>
       <translation>Puola</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="240"/>
+=======
+      <location filename="Translator.cpp" line="214"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Portuguese (Brazilian)</source>
       <oldsource>Portuguese, Brazilian</oldsource>
       <translation type="unfinished">Portuguese (Brazilian)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="241"/>
+=======
+      <location filename="Translator.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Portuguese</source>
       <translation>Portugali</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="242"/>
+=======
+      <location filename="Translator.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Romanian</source>
       <translation>Romania</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="243"/>
+=======
+      <location filename="Translator.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Russian</source>
       <translation>Venäjä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="244"/>
+=======
+      <location filename="Translator.cpp" line="218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Serbian</source>
       <translation>Serbia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="245"/>
+=======
+      <location filename="Translator.cpp" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Serbian (Latin)</source>
       <oldsource>Serbian, Latin</oldsource>
       <translation type="unfinished">Serbian (Latin)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="246"/>
+=======
+      <location filename="Translator.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slovak</source>
       <translation>Slovakki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="247"/>
+=======
+      <location filename="Translator.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slovenian</source>
       <translation>Slovenia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="248"/>
+=======
+      <location filename="Translator.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spanish</source>
       <translation>Espanjaksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="249"/>
+=======
+      <location filename="Translator.cpp" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spanish (Argentina)</source>
       <oldsource>Spanish, Argentina</oldsource>
       <translation type="unfinished">Spanish (Argentina)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="250"/>
+=======
+      <location filename="Translator.cpp" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Swedish</source>
       <translation>Ruotsiksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="251"/>
+=======
+      <location filename="Translator.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turkish</source>
       <translation>Turkiksi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="252"/>
+=======
+      <location filename="Translator.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ukrainian</source>
       <translation>Ukraina</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="253"/>
+=======
+      <location filename="Translator.cpp" line="227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Valencian</source>
       <translation>Valencian</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="254"/>
+=======
+      <location filename="Translator.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vietnamese</source>
       <translation>Vietnamin kieli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="255"/>
+=======
+      <location filename="Translator.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malay</source>
       <translation type="unfinished">Malay</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="256"/>
       <source>Tamil</source>
       <translation type="unfinished">Tamil</translation>
@@ -7363,26 +9131,45 @@ Specify another directory?</translation>
     </message>
     <message>
       <location filename="Translator.cpp" line="221"/>
+=======
+      <location filename="Translator.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Danish</source>
       <translation>Tanskalainen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="228"/>
+=======
+      <location filename="Translator.cpp" line="202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Georgian</source>
       <translation>Gruusialainen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.h" line="65"/>
+=======
+      <location filename="Translator.h" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operating system</source>
       <translation>Käyttöjärjestelmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.h" line="66"/>
+=======
+      <location filename="Translator.h" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected language</source>
       <translation>Valittu kieli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.h" line="67"/>
+=======
+      <location filename="Translator.h" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>C/POSIX</source>
       <translation>C/POSIX</translation>
     </message>
@@ -7390,7 +9177,11 @@ Specify another directory?</translation>
   <context>
     <name>Gui::TreePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="4245"/>
+=======
+      <location filename="../Tree.cpp" line="4108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Search</source>
       <translation>Haku</translation>
     </message>
@@ -7398,234 +9189,420 @@ Specify another directory?</translation>
   <context>
     <name>Gui::TreeWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1312"/>
+=======
+      <location filename="../Tree.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activate Document</source>
       <translation type="unfinished">Activate Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1319"/>
+=======
+      <location filename="../Tree.cpp" line="1262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates document %1</source>
       <translation type="unfinished">Activates document %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1334"/>
+=======
+      <location filename="../Tree.cpp" line="1277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree Settings</source>
       <translation type="unfinished">Tree Settings</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1338"/>
+=======
+      <location filename="../Tree.cpp" line="1281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Description</source>
       <translation type="unfinished">Show Description</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1339"/>
+=======
+      <location filename="../Tree.cpp" line="1282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Internal Name</source>
       <translation type="unfinished">Show Internal Name</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1360"/>
+=======
+      <location filename="../Tree.cpp" line="1303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows an internal name column for items.</source>
       <translation type="unfinished">Shows an internal name column for items.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1408"/>
+=======
+      <location filename="../Tree.cpp" line="1351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>Ryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3394"/>
       <location filename="../Tree.cpp" line="3415"/>
+=======
+      <location filename="../Tree.cpp" line="3260"/>
+      <location filename="../Tree.cpp" line="3281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Virhe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3394"/>
+=======
+      <location filename="../Tree.cpp" line="3260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File does not exist.</source>
       <translation type="unfinished">File does not exist.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3415"/>
+=======
+      <location filename="../Tree.cpp" line="3281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to open directory.</source>
       <translation type="unfinished">Failed to open directory.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3894"/>
+=======
+      <location filename="../Tree.cpp" line="3762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Labels &amp; Attributes</source>
       <translation>Nimilaput &amp; Määritteet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3895"/>
+=======
+      <location filename="../Tree.cpp" line="3763"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Description</source>
       <translation>Kuvaus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3896"/>
+=======
+      <location filename="../Tree.cpp" line="3764"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Internal name</source>
       <translation>Sisäinen nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3898"/>
+=======
+      <location filename="../Tree.cpp" line="3766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Items Hidden in Tree View</source>
       <translation type="unfinished">Show Items Hidden in Tree View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3900"/>
+=======
+      <location filename="../Tree.cpp" line="3768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows items that are marked as 'hidden' in the tree view</source>
       <translation type="unfinished">Shows items that are marked as 'hidden' in the tree view</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3903"/>
+=======
+      <location filename="../Tree.cpp" line="3771"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Visibility in Tree View</source>
       <translation type="unfinished">Toggle Visibility in Tree View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3908"/>
+=======
+      <location filename="../Tree.cpp" line="3776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Group</source>
       <translation type="unfinished">Create Group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3909"/>
+=======
+      <location filename="../Tree.cpp" line="3777"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a group</source>
       <translation type="unfinished">Creates a group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3912"/>
+=======
+      <location filename="../Tree.cpp" line="3780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Renames object</source>
       <translation type="unfinished">Renames object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3914"/>
+=======
+      <location filename="../Tree.cpp" line="3782"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Finish Editing</source>
       <translation>Viimeistele muokkaus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3915"/>
+=======
+      <location filename="../Tree.cpp" line="3783"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Finishes editing object</source>
       <translation type="unfinished">Finishes editing object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3917"/>
+=======
+      <location filename="../Tree.cpp" line="3785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Dependent Objects to Selection</source>
       <translation type="unfinished">Add Dependent Objects to Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3920"/>
+=======
+      <location filename="../Tree.cpp" line="3788"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close Document</source>
       <translation type="unfinished">Close Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3921"/>
+=======
+      <location filename="../Tree.cpp" line="3789"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Closes the document</source>
       <translation type="unfinished">Closes the document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3926"/>
+=======
+      <location filename="../Tree.cpp" line="3793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reveals the current file location in Finder</source>
       <translation type="unfinished">Reveals the current file location in Finder</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3929"/>
+=======
+      <location filename="../Tree.cpp" line="3796"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the current file location</source>
       <translation type="unfinished">Opens the current file location</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3932"/>
+=======
+      <location filename="../Tree.cpp" line="3799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reload Document</source>
       <translation type="unfinished">Reload Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3933"/>
+=======
+      <location filename="../Tree.cpp" line="3800"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reloads a partially loaded document</source>
       <translation type="unfinished">Reloads a partially loaded document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3935"/>
+=======
+      <location filename="../Tree.cpp" line="3802"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip Recomputes</source>
       <translation type="unfinished">Skip Recomputes</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3936"/>
+=======
+      <location filename="../Tree.cpp" line="3803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables or disables the recomputations of document</source>
       <translation type="unfinished">Enables or disables the recomputations of document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3938"/>
+=======
+      <location filename="../Tree.cpp" line="3805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Allow Partial Recomputes</source>
       <translation type="unfinished">Allow Partial Recomputes</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3939"/>
+=======
+      <location filename="../Tree.cpp" line="3806"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables or disables the recomputating editing object when 'skip recomputation' is enabled</source>
       <translation type="unfinished">Enables or disables the recomputating editing object when 'skip recomputation' is enabled</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3943"/>
+=======
+      <location filename="../Tree.cpp" line="3810"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mark to Recompute</source>
       <translation type="unfinished">Mark to Recompute</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3944"/>
+=======
+      <location filename="../Tree.cpp" line="3811"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Marks this object to be recomputed</source>
       <translation type="unfinished">Marks this object to be recomputed</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3947"/>
+=======
+      <location filename="../Tree.cpp" line="3814"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recompute Object</source>
       <translation type="unfinished">Recompute Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3948"/>
+=======
+      <location filename="../Tree.cpp" line="3815"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputes the selected object</source>
       <translation type="unfinished">Recomputes the selected object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3905"/>
+=======
+      <location filename="../Tree.cpp" line="3773"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of selected items in the tree view</source>
       <translation>Vaihtaa valittujen kohteiden näkyvyyden puunäkymässä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="657"/>
+=======
+      <location filename="../Tree.cpp" line="739"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Search Objects</source>
       <translation type="unfinished">Search Objects</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="658"/>
+=======
+      <location filename="../Tree.cpp" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Searches for objects in the tree</source>
       <translation type="unfinished">Searches for objects in the tree</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1341"/>
+=======
+      <location filename="../Tree.cpp" line="1284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows a description column for items. An item's description can be set by editing the 'label2' property.</source>
       <translation type="unfinished">Shows a description column for items. An item's description can be set by editing the 'label2' property.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3911"/>
       <location filename="../Tree.cpp" line="6590"/>
+=======
+      <location filename="../Tree.cpp" line="3779"/>
+      <location filename="../Tree.cpp" line="6373"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename</source>
       <translation>Nimeä uudelleen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3918"/>
+=======
+      <location filename="../Tree.cpp" line="3786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds all dependent objects to the selection</source>
       <translation>Lisää kaikki riippuvaiset objektit valintaan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3925"/>
+=======
+      <location filename="../Tree.cpp" line="3792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reveal in Finder</source>
       <translation type="unfinished">Reveal in Finder</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3928"/>
+=======
+      <location filename="../Tree.cpp" line="3795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open File Location</source>
       <translation type="unfinished">Open File Location</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="6558"/>
+=======
+      <location filename="../Tree.cpp" line="6341"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> (but must be executed)</source>
       <translation> (mutta on suoritettava)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="6561"/>
+=======
+      <location filename="../Tree.cpp" line="6344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1, Internal name: %2</source>
       <translation>%1, Sisäinen nimi: %2</translation>
     </message>
@@ -7656,17 +9633,34 @@ Specify another directory?</translation>
   <context>
     <name>Gui::View3DInventor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventor.cpp" line="290"/>
+=======
+      <location filename="../View3DInventor.cpp" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export PDF</source>
       <translation>Vie PDF</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventor.cpp" line="334"/>
+=======
+      <location filename="../View3DInventor.cpp" line="290"/>
+      <source>PDF file</source>
+      <translation>PDF-tiedosto</translation>
+    </message>
+    <message>
+      <location filename="../View3DInventor.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opening file failed</source>
       <translation>Tiedoston avaaminen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventor.cpp" line="335"/>
+=======
+      <location filename="../View3DInventor.cpp" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Can't open file '%1' for writing.</source>
       <translation>Tiedostoon ”%1” ei voida tallentaa.</translation>
     </message>
@@ -7674,12 +9668,20 @@ Specify another directory?</translation>
   <context>
     <name>Gui::WorkbenchGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="738"/>
+=======
+      <location filename="../Action.cpp" line="716"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the '%1' workbench</source>
       <translation type="unfinished">Selects the '%1' workbench</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="766"/>
+=======
+      <location filename="../Action.cpp" line="744"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select the '%1' workbench</source>
       <translation>Valitse työtila '%1'</translation>
     </message>
@@ -7687,37 +9689,65 @@ Specify another directory?</translation>
   <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="617"/>
+=======
+      <location filename="../Workbench.cpp" line="614"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Services</source>
       <translation>Palvelut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="618"/>
+=======
+      <location filename="../Workbench.cpp" line="615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide %1</source>
       <translation>Piilota %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="619"/>
+=======
+      <location filename="../Workbench.cpp" line="616"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide Others</source>
       <translation>Piilota muut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="620"/>
+=======
+      <location filename="../Workbench.cpp" line="617"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show All</source>
       <translation>Näytä kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="621"/>
+=======
+      <location filename="../Workbench.cpp" line="618"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preferences</source>
       <translation>Asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="622"/>
+=======
+      <location filename="../Workbench.cpp" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Quit %1</source>
       <translation>Lopeta %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="623"/>
+=======
+      <location filename="../Workbench.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>About %1</source>
       <translation>Tietoja %1</translation>
     </message>
@@ -7831,14 +9861,24 @@ Specify another directory?</translation>
   <context>
     <name>PropertyListDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1424"/>
       <location filename="../Widgets.cpp" line="1439"/>
+=======
+      <location filename="../Widgets.cpp" line="1420"/>
+      <location filename="../Widgets.cpp" line="1435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid input</source>
       <translation>Virheellinen syöte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1425"/>
       <location filename="../Widgets.cpp" line="1440"/>
+=======
+      <location filename="../Widgets.cpp" line="1421"/>
+      <location filename="../Widgets.cpp" line="1436"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input in line %1 is not a number</source>
       <translation>Syötetty tieto viivalla %1 ei ole numero</translation>
     </message>
@@ -7846,47 +9886,83 @@ Specify another directory?</translation>
   <context>
     <name>QDockWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="736"/>
+=======
+      <location filename="../MainWindow.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tasks</source>
       <translation>Tehtävät</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="753"/>
+=======
+      <location filename="../MainWindow.cpp" line="608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection View</source>
       <translation>Valintanäkymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="771"/>
+=======
+      <location filename="../MainWindow.cpp" line="626"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Report View</source>
       <translation type="unfinished">Report View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="791"/>
+=======
+      <location filename="../MainWindow.cpp" line="646"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Python Console</source>
       <translation type="unfinished">Python Console</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="818"/>
+=======
+      <location filename="../MainWindow.cpp" line="703"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View</source>
       <translation>Puunäkymä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="848"/>
+=======
+      <location filename="../MainWindow.cpp" line="733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Property View</source>
       <translation type="unfinished">Property View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="877"/>
+=======
+      <location filename="../MainWindow.cpp" line="762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Task List</source>
       <translation>Tehtäväluettelo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="906"/>
+=======
+      <location filename="../MainWindow.cpp" line="791"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Model</source>
       <translation>Malli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="936"/>
+=======
+      <location filename="../MainWindow.cpp" line="821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DAG View</source>
       <translation>DAG-näkymä</translation>
     </message>
@@ -7900,67 +9976,118 @@ Specify another directory?</translation>
       <location filename="../resource.cpp" line="79"/>
       <location filename="../resource.cpp" line="80"/>
       <location filename="../resource.cpp" line="81"/>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="82"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>General</source>
       <translation>Yleiset</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../resource.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../resource.cpp" line="83"/>
       <location filename="../resource.cpp" line="84"/>
       <location filename="../resource.cpp" line="85"/>
       <location filename="../resource.cpp" line="86"/>
       <location filename="../resource.cpp" line="87"/>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="88"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Display</source>
       <translation>Näyttö</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="89"/>
+=======
+      <location filename="../resource.cpp" line="88"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Workbenches</source>
       <translation>Työtilat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="90"/>
+=======
+      <location filename="../resource.cpp" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import-Export</source>
       <translation>Tuo/Vie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="91"/>
       <location filename="../resource.cpp" line="92"/>
       <location filename="../resource.cpp" line="93"/>
+=======
+      <location filename="../resource.cpp" line="90"/>
+      <location filename="../resource.cpp" line="91"/>
+      <location filename="../resource.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Python</source>
       <translation>Python</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="869"/>
       <location filename="../Application.cpp" line="976"/>
       <location filename="../Application.cpp" line="1063"/>
+=======
+      <location filename="../Application.cpp" line="805"/>
+      <location filename="../Application.cpp" line="914"/>
+      <location filename="../Application.cpp" line="1001"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unknown filetype</source>
       <translation>Tuntematon tiedostotyyppi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="870"/>
       <location filename="../Application.cpp" line="977"/>
+=======
+      <location filename="../Application.cpp" line="806"/>
+      <location filename="../Application.cpp" line="915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot open unknown filetype: %1</source>
       <translation>Ei voida avata tuntematonta tiedostotyyppiä:%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1053"/>
+=======
+      <location filename="../Application.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export failed</source>
       <translation>Vienti epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1064"/>
+=======
+      <location filename="../Application.cpp" line="1002"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot save to unknown filetype: %1</source>
       <translation>Ei voi tallentaa tuntematonta tiedostotyyppiä:%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1262"/>
+=======
+      <location filename="../Application.cpp" line="1200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputation required</source>
       <translation>Tarvitaan uudelleenlaskenta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1263"/>
+=======
+      <location filename="../Application.cpp" line="1201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Some documents require recomputation for migration purposes. It is highly recommended to perform a recomputation before any modification to avoid compatibility problems.
 
 Recompute now?</source>
@@ -7969,58 +10096,104 @@ Recompute now?</source>
 Recompute now?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1289"/>
+=======
+      <location filename="../Application.cpp" line="1227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to recompute some documents.
 Check the report view for more details.</source>
       <translation type="unfinished">Failed to recompute some documents.
 Check the report view for more details.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1288"/>
+=======
+      <location filename="../Application.cpp" line="1226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recompute error</source>
       <translation>Uudelleenlaskentavirhe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="2038"/>
+=======
+      <location filename="../Application.cpp" line="1923"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Workbench failure</source>
       <translation>Työtilan häiriö</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="2039"/>
+=======
+      <location filename="../Application.cpp" line="1924"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1</source>
       <translation>%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../StartupProcess.cpp" line="370"/>
+=======
+      <location filename="../StartupProcess.cpp" line="373"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This system is running OpenGL %1.%2. FreeCAD requires OpenGL 2.0 or above. Upgrade the graphics driver and/or card as required.</source>
       <translation type="unfinished">This system is running OpenGL %1.%2. FreeCAD requires OpenGL 2.0 or above. Upgrade the graphics driver and/or card as required.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../StartupProcess.cpp" line="381"/>
+=======
+      <location filename="../StartupProcess.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid OpenGL Version</source>
       <translation>Virheellinen OpenGL-versio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="454"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrating</source>
       <translation type="unfinished">Migrating</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="562"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restarting</source>
       <translation type="unfinished">Restarting</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="429"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="411"/>
+      <source>Migration failed</source>
+      <translation type="unfinished">Migration failed</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="374"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Estimated size of data to copy: %1</source>
       <translation type="unfinished">Estimated size of data to copy: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="455"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrating configuration data and addons…</source>
       <translation type="unfinished">Migrating configuration data and addons…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="492"/>
       <source>Migration Completed With Warnings</source>
       <translation type="unfinished">Migration Completed With Warnings</translation>
@@ -8040,36 +10213,66 @@ Check the report view for more details.</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="517"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migration failed. See the Report View for details.</source>
       <translation type="unfinished">Migration failed. See the Report View for details.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="561"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> → Restarting…</source>
       <translation type="unfinished"> → Restarting…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Command.cpp" line="520"/>
+=======
+      <location filename="../Command.cpp" line="524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exception</source>
       <translation>Poikkeus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1302"/>
       <location filename="../Application.cpp" line="1317"/>
+=======
+      <location filename="../CommandDoc.cpp" line="139"/>
+      <source>Open document</source>
+      <translation>Avaa asiakirja</translation>
+    </message>
+    <message>
+      <location filename="../Application.cpp" line="1240"/>
+      <location filename="../Application.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Virhe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1303"/>
+=======
+      <location filename="../Application.cpp" line="1241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There were errors while loading the file. Some data might have been modified or not recovered at all. Look in the report view for more specific information about the objects involved.</source>
       <translation>Tiedoston latauksessa tapahtui virheitä. Joitakin tietoja on ehkä muutettu tai niitä ei ole palautettu lainkaan. Katso raporttinäkymää, josta saa tarkempaa tietoa asiaan liittyvistä kohteista.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1318"/>
+=======
+      <location filename="../Application.cpp" line="1256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There were serious errors while loading the file. Some data might have been modified or not recovered at all. Saving the project will most likely result in loss of data.</source>
       <translation>Tiedostoa ladattaessa tapahtui vakavia virheitä. Joitakin tietoja on ehkä muutettu tai niitä ei ole palautettu lainkaan. Projektin tallentaminen johtaa mitä todennäköisimmin tietojen menettämiseen.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="104"/>
       <location filename="../CommandDoc.cpp" line="230"/>
       <source>Supported formats</source>
@@ -8110,20 +10313,42 @@ Check the report view for more details.</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="1017"/>
+=======
+      <location filename="../CommandDoc.cpp" line="236"/>
+      <source>Import file</source>
+      <translation>Tuo tiedosto</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="518"/>
+      <source>Export file</source>
+      <translation>Vie tiedosto</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="970"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Printing…</source>
       <translation type="unfinished">Printing…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1080"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1033"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exporting PDF…</source>
       <translation type="unfinished">Exporting PDF…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1370"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported object contains an external link. Save the document.at least once before exporting.</source>
       <translation type="unfinished">The exported object contains an external link. Save the document.at least once before exporting.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1670"/>
       <location filename="../CommandDoc.cpp" line="1680"/>
       <source>Delete Failed</source>
@@ -8131,101 +10356,186 @@ Check the report view for more details.</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="2178"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2004"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy Selected</source>
       <translation type="unfinished">Copy Selected</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2179"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2005"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy Active Document</source>
       <translation type="unfinished">Copy Active Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2180"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2006"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy All Documents</source>
       <translation type="unfinished">Copy All Documents</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2298"/>
       <source>Expression Error</source>
       <translation type="unfinished">Expression Error</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="2299"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to parse some of the expressions.
 Check the report view for more details.</source>
       <translation type="unfinished">Failed to parse some of the expressions.
 Check the report view for more details.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1734"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1322"/>
+      <source>Unsaved document</source>
+      <translation>Tallentamaton asiakirja</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="1577"/>
+      <location filename="../CommandDoc.cpp" line="1585"/>
+      <source>Delete failed</source>
+      <translation>Poistaminen epäonnistui</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="1642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency error</source>
       <translation type="unfinished">Dependency error</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2181"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2007"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Paste</source>
       <translation>Liitä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2333"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2124"/>
+      <source>Expression error</source>
+      <translation>Lausekevirhe</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="2158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to paste expressions</source>
       <translation>Lausekkeiden liittäminen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="107"/>
+=======
+      <location filename="../CommandStd.cpp" line="103"/>
+      <location filename="../CommandStd.cpp" line="108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot load workbench</source>
       <translation>Ei voi ladata työtilaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="112"/>
       <source>Cannot Load Workbench</source>
       <translation type="unfinished">Cannot Load Workbench</translation>
     </message>
     <message>
       <location filename="../CommandStd.cpp" line="113"/>
+=======
+      <location filename="../CommandStd.cpp" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A general error occurred while loading the workbench</source>
       <translation>Yleinen virhe ladattaessa työtilaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="359"/>
+=======
+      <location filename="../CommandStd.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart in Safe Mode</source>
       <translation>Käynnistä uudelleen vikasietotilassa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="360"/>
+=======
+      <location filename="../CommandStd.cpp" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart FreeCAD and enter safe mode?</source>
       <translation type="unfinished">Restart FreeCAD and enter safe mode?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="362"/>
+=======
+      <location filename="../CommandStd.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe mode temporarily disables the configuration and addons.</source>
       <translation type="unfinished">Safe mode temporarily disables the configuration and addons.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="348"/>
       <location filename="../CommandView.cpp" line="626"/>
+=======
+      <location filename="../CommandView.cpp" line="347"/>
+      <location filename="../CommandView.cpp" line="618"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Save Views…</source>
       <translation type="unfinished">&amp;Save Views…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="350"/>
       <location filename="../CommandView.cpp" line="627"/>
+=======
+      <location filename="../CommandView.cpp" line="349"/>
+      <location filename="../CommandView.cpp" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Load Views…</source>
       <translation type="unfinished">&amp;Load Views…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="353"/>
       <location filename="../CommandView.cpp" line="628"/>
+=======
+      <location filename="../CommandView.cpp" line="352"/>
+      <location filename="../CommandView.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>F&amp;reeze View</source>
       <translation type="unfinished">F&amp;reeze View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="356"/>
       <location filename="../CommandView.cpp" line="629"/>
+=======
+      <location filename="../CommandView.cpp" line="355"/>
+      <location filename="../CommandView.cpp" line="621"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Clear Views</source>
       <translation type="unfinished">&amp;Clear Views</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="461"/>
       <source>Save Frozen Views</source>
       <translation type="unfinished">Save Frozen Views</translation>
@@ -8239,60 +10549,154 @@ Check the report view for more details.</translation>
     <message>
       <location filename="../CommandView.cpp" line="463"/>
       <location filename="../CommandView.cpp" line="525"/>
+=======
+      <location filename="../CommandView.cpp" line="404"/>
+      <location filename="../CommandView.cpp" line="576"/>
+      <source>Restore view &amp;%1</source>
+      <translation>Palauta näkymä &amp;%1</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="436"/>
+      <source>Save frozen views</source>
+      <translation>Jäädytettyjen näkymien tallentaminen</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="438"/>
+      <location filename="../CommandView.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frozen views</source>
       <translation>Jäädytetyt näkymät</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="508"/>
+=======
+      <location filename="../CommandView.cpp" line="482"/>
+      <location filename="../CommandView.cpp" line="509"/>
+      <source>Restore views</source>
+      <translation>Palauta näkymät</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="483"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Importing the restored views would clear the already stored views.
 Continue?</source>
       <translation type="unfinished">Importing the restored views would clear the already stored views.
 Continue?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="523"/>
       <source>Restore Frozen Views</source>
       <translation type="unfinished">Restore Frozen Views</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="2160"/>
+=======
+      <location filename="../CommandView.cpp" line="2064"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Image</source>
       <translation type="unfinished">Save Image</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2334"/>
+=======
+      <location filename="../CommandView.cpp" line="2240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose an Image File to Open</source>
       <translation type="unfinished">Choose an Image File to Open</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="535"/>
+=======
+      <location filename="../CommandView.cpp" line="498"/>
+      <source>Restore frozen views</source>
+      <translation>Palauta jäädytetyt näkymät</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="510"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot open file '%1'.</source>
       <translation>Tiedostoa '%1' ei voi avata.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="409"/>
       <location filename="../CommandView.cpp" line="601"/>
       <location filename="../CommandView.cpp" line="633"/>
+=======
+      <location filename="../CommandView.cpp" line="625"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restore View &amp;%1</source>
       <translation type="unfinished">Restore View &amp;%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="577"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="813"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="858"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="906"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="951"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="998"/>
+=======
+      <location filename="../CommandView.cpp" line="2055"/>
+      <source>files</source>
+      <translation>tiedostot</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="582"/>
+      <source>New sub-group</source>
+      <translation>Uusi alaryhmä</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="583"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="819"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="864"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="912"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="957"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1004"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter the name:</source>
       <translation>Kirjoita nimi:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1026"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1412"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="818"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="844"/>
+      <source>New text item</source>
+      <translation>Uusi kohdeteksti</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="863"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="889"/>
+      <source>New integer item</source>
+      <translation>Uuden kokonaisluvun kohde</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="911"/>
+      <source>New unsigned item</source>
+      <translation>Uusi allekirjoittamaton kohde</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="956"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="982"/>
+      <source>New float item</source>
+      <translation>Uuden sijainnin kohde</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1032"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1418"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose an item:</source>
       <translation>Valitse kohde:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="576"/>
       <source>New Sub-Group</source>
       <translation type="unfinished">New Sub-Group</translation>
@@ -8306,10 +10710,21 @@ Continue?</translation>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="839"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1191"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1003"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1031"/>
+      <source>New boolean item</source>
+      <translation>Uusi looginen kohde</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="845"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter text:</source>
       <translation type="unfinished">Enter text:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="857"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="883"/>
       <source>New Integer Item</source>
@@ -8322,16 +10737,29 @@ Continue?</translation>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1244"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1296"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1353"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="890"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="935"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="983"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1250"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1302"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter number:</source>
       <translation type="unfinished">Enter number:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="905"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="930"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="936"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Unsigned Item</source>
       <translation type="unfinished">New Unsigned Item</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="950"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="976"/>
       <source>New Float Item</source>
@@ -8345,34 +10773,60 @@ Continue?</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1099"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename group</source>
       <translation>Nimeä ryhmä uudelleen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1100"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group '%1' cannot be renamed.</source>
       <translation>Ryhmää '%1' ei voi nimetä uudelleen.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1107"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Existing group</source>
       <translation>Aiemmin luotu ryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1108"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group '%1' already exists.</source>
       <translation>Ryhmä '%1' on jo olemassa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1190"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1243"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1352"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1411"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1196"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1249"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1358"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change value</source>
       <translation>Muuta arvoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1297"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change Value</source>
       <translation type="unfinished">Change Value</translation>
     </message>
@@ -8420,7 +10874,11 @@ Continue?</translation>
       <translation>Liian monta avattua ei-häiritsevää ilmoitusta. Ilmoitukset ohitetaan!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1415"/>
+=======
+      <location filename="../Document.cpp" line="1419"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Identical physical path detected. It may cause unwanted overwrite of existing document!
 
 </source>
@@ -8429,44 +10887,78 @@ Continue?</translation>
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1416"/>
+=======
+      <location filename="../Document.cpp" line="1420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Are you sure you want to continue?</source>
       <translation>Haluatko varmasti jatkaa?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1442"/>
+=======
+      <location filename="../Document.cpp" line="1446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check report view for more…</source>
       <translation type="unfinished">Check report view for more…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1446"/>
+=======
+      <location filename="../Document.cpp" line="1450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Physical path:</source>
       <translation>Fyysinen polku:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1447"/>
       <location filename="../Document.cpp" line="1454"/>
+=======
+      <location filename="../Document.cpp" line="1451"/>
+      <location filename="../Document.cpp" line="1458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document:</source>
       <translation>Asiakirja:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1448"/>
       <location filename="../Document.cpp" line="1455"/>
+=======
+      <location filename="../Document.cpp" line="1452"/>
+      <location filename="../Document.cpp" line="1459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Path:</source>
       <translation>Polku:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1466"/>
+=======
+      <location filename="../Document.cpp" line="1470"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Identical physical path</source>
       <translation>Identtinen fyysinen polku</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1478"/>
+=======
+      <location filename="../Document.cpp" line="1482"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not save document</source>
       <translation>Asiakirjaa ei voitu tallentaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1479"/>
+=======
+      <location filename="../Document.cpp" line="1483"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There was an issue trying to save the file. This may be because some of the parent folders do not exist, or you do not have sufficient permissions, or for other reasons. Error details:
 
 "%1"
@@ -8479,13 +10971,20 @@ Would you like to save the file with a different name?</source>
 Haluatko tallentaa tiedoston eri nimellä?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1493"/>
       <location filename="../Document.cpp" line="1750"/>
       <location filename="../Document.cpp" line="1859"/>
+=======
+      <location filename="../Document.cpp" line="1497"/>
+      <location filename="../Document.cpp" line="1655"/>
+      <location filename="../Document.cpp" line="1757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving aborted</source>
       <translation>Tallentaminen keskeytettiin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1544"/>
       <source>File Created with Older FreeCAD Version</source>
       <translation type="unfinished">File Created with Older FreeCAD Version</translation>
@@ -8532,89 +11031,169 @@ Use 'Save As…' to preserve the original file.
     </message>
     <message>
       <location filename="../Document.cpp" line="1632"/>
+=======
+      <location filename="../Document.cpp" line="1543"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save dependent files</source>
       <translation>Tallenna riippuvaiset tiedostot</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1633"/>
+=======
+      <location filename="../Document.cpp" line="1544"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The file contains external dependencies. Do you want to save the dependent files, too?</source>
       <translation>Tiedosto sisältää ulkoisia riippuvuuksia. Haluatko tallentaa myös riippuvaiset tiedostot?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1679"/>
       <location filename="../Document.cpp" line="1743"/>
+=======
+      <location filename="../Document.cpp" line="1590"/>
+      <location filename="../Document.cpp" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving document failed</source>
       <translation>Asiakirjan tallennus epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1694"/>
+=======
+      <location filename="../Document.cpp" line="1605"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save document under new filename…</source>
       <translation type="unfinished">Save document under new filename…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1827"/>
+=======
+      <location filename="../Document.cpp" line="1732"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save a copy of the document under new filename…</source>
       <translation type="unfinished">Save a copy of the document under new filename…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1709"/>
       <location filename="../Document.cpp" line="1839"/>
+=======
+      <location filename="../Document.cpp" line="1614"/>
+      <location filename="../Document.cpp" line="1737"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save %1 Document</source>
       <translation>Tallenna %1-asiakirja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1765"/>
       <location filename="../Document.cpp" line="1815"/>
+=======
+      <location filename="../Document.cpp" line="1616"/>
+      <source>Document</source>
+      <translation>Asiakirja</translation>
+    </message>
+    <message>
+      <location filename="../Document.cpp" line="1670"/>
+      <location filename="../Document.cpp" line="1720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to save document</source>
       <translation>Asiakirjan tallennus epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1766"/>
+=======
+      <location filename="../Document.cpp" line="1671"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Documents contains cyclic dependencies. Do you still want to save them?</source>
       <translation>Asiakirjat sisältävät syklisiä riippuvuuksia. Haluatko silti tallentaa ne?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2504"/>
+=======
+      <location filename="../Document.cpp" line="1739"/>
+      <source>%1 document (*.FCStd)</source>
+      <translation>%1-asiakirja (*.FCStd)</translation>
+    </message>
+    <message>
+      <location filename="../Document.cpp" line="2413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document not closable</source>
       <translation>Asiakirja ei ole suljettavissa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2505"/>
+=======
+      <location filename="../Document.cpp" line="2414"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document is not closable for the moment.</source>
       <translation>Asiakirja ei ole tällä hetkellä suljettavissa.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2545"/>
+=======
+      <location filename="../Document.cpp" line="2454"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to save document '%1'. Would you like to cancel the closure?</source>
       <translation type="unfinished">Failed to save document '%1'. Would you like to cancel the closure?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2547"/>
+=======
+      <location filename="../Document.cpp" line="2456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document saving failed. Would you like to cancel the closure?</source>
       <translation type="unfinished">Document saving failed. Would you like to cancel the closure?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2552"/>
+=======
+      <location filename="../Document.cpp" line="2461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to save document</source>
       <translation type="unfinished">Unable to save document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2922"/>
+=======
+      <location filename="../Document.cpp" line="2818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Undo</source>
       <translation>Kumoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2922"/>
+=======
+      <location filename="../Document.cpp" line="2818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Redo</source>
       <translation>Tee uudelleen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2925"/>
+=======
+      <location filename="../Document.cpp" line="2821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There are grouped transactions in the following documents with other preceding transactions</source>
       <translation>Seuraavissa asiakirjoissa on ryhmiteltyjä yhteistoimintoja muiden edeltävien yhteistoimintojen kanssa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2930"/>
+=======
+      <location filename="../Document.cpp" line="2826"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose 'Yes' to roll back all preceding transactions.
 Choose 'No' to roll back in the active document only.
 Choose 'Abort' to abort</source>
@@ -8682,204 +11261,377 @@ Valitse 'Abort' keskeyttääksesi</translation>
       <translation>Järjestelmän selaimen avaaminen ei onnistu.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventorViewer.cpp" line="3231"/>
+=======
+      <location filename="../View3DInventorViewer.cpp" line="2567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Out of memory</source>
       <translation>Muisti loppui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventorViewer.cpp" line="3232"/>
+=======
+      <location filename="../View3DInventorViewer.cpp" line="2568"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not enough memory available to display the data.</source>
       <translation>Muisti ei riitä tietojen näyttämiseen.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../WidgetFactory.cpp" line="446"/>
       <location filename="../WidgetFactory.cpp" line="465"/>
+=======
+      <location filename="../WidgetFactory.cpp" line="445"/>
+      <location filename="../WidgetFactory.cpp" line="464"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot find file %1</source>
       <translation>Tiedostoa %1 ei löydy</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../WidgetFactory.cpp" line="453"/>
+=======
+      <location filename="../WidgetFactory.cpp" line="452"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot find file %1 neither in %2 nor in %3</source>
       <translation>Ei voida löytää tiedostoja %1, %2 ja %3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/NavigationStyle.cpp" line="2588"/>
+=======
+      <location filename="../Navigation/NavigationStyle.cpp" line="2084"/>
+      <source>Navigation styles</source>
+      <translation>Navigointityylit</translation>
+    </message>
+    <message>
+      <location filename="../Navigation/NavigationStyle.cpp" line="2137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clarify Selection</source>
       <translation type="unfinished">Clarify Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1369"/>
       <location filename="../MainWindow.cpp" line="1001"/>
+=======
+      <location filename="../ViewProviderDragger.cpp" line="127"/>
+      <location filename="../ViewProviderLink.cpp" line="3184"/>
+      <source>Transform</source>
+      <translation>Muuta</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="886"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsaved Document</source>
       <translation type="unfinished">Unsaved Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1005"/>
+=======
+      <location filename="../MainWindow.cpp" line="890"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save all changes to document '%1' before closing?</source>
       <translation type="unfinished">Save all changes to document '%1' before closing?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1006"/>
+=======
+      <location filename="../MainWindow.cpp" line="891"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save all changes to document before closing?</source>
       <translation type="unfinished">Save all changes to document before closing?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1010"/>
+=======
+      <location filename="../MainWindow.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Otherwise, all changes will be lost.</source>
       <translation type="unfinished">Otherwise, all changes will be lost.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1136"/>
+=======
+      <location filename="../MainWindow.cpp" line="1021"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 Document(s) not saved</source>
       <translation>%1 asiakirja(a) ei tallennettu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1137"/>
+=======
+      <location filename="../MainWindow.cpp" line="1022"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Some documents could not be saved. Cancel closing?</source>
       <translation type="unfinished">Some documents could not be saved. Cancel closing?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="566"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete macro</source>
       <translation>Poista makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="567"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="555"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not allowed to delete system-wide macros</source>
       <translation>Järjestelmän laajuisten makrojen poistaminen ei ole sallittua</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Inventor/Draggers/SoLinearDragger.cpp" line="283"/>
+=======
+      <location filename="../Inventor/Draggers/SoLinearDragger.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Translation:</source>
       <translation>Sijainti:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Inventor/Draggers/SoPlanarDragger.cpp" line="281"/>
+=======
+      <location filename="../Inventor/Draggers/SoPlanarDragger.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Translation XY:</source>
       <translation>Muutos XY:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Inventor/Draggers/SoRotationDragger.cpp" line="265"/>
+=======
+      <location filename="../Inventor/Draggers/SoRotationDragger.cpp" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotation:</source>
       <translation>Kierto:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="107"/>
       <location filename="../CommandLink.cpp" line="125"/>
+=======
+      <location filename="../CommandLink.cpp" line="105"/>
+      <location filename="../CommandLink.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simple Group</source>
       <translation type="unfinished">Simple Group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="109"/>
       <location filename="../CommandLink.cpp" line="126"/>
+=======
+      <location filename="../CommandLink.cpp" line="107"/>
+      <location filename="../CommandLink.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group With Links</source>
       <translation type="unfinished">Group With Links</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="111"/>
       <location filename="../CommandLink.cpp" line="127"/>
+=======
+      <location filename="../CommandLink.cpp" line="109"/>
+      <location filename="../CommandLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group With Transform Links</source>
       <translation type="unfinished">Group With Transform Links</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="244"/>
+=======
+      <location filename="../CommandLink.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create link group failed</source>
       <translation>Linkkiryhmän luonti epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="322"/>
+=======
+      <location filename="../CommandLink.cpp" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create link failed</source>
       <translation>Linkin luonti epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="427"/>
+=======
+      <location filename="../CommandLink.cpp" line="415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to create relative link</source>
       <translation>Suhteellisen linkin luominen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="577"/>
+=======
+      <location filename="../CommandLink.cpp" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unlink failed</source>
       <translation>Linkin poisto epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="577"/>
+=======
+      <location filename="../CommandLink.cpp" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replace link failed</source>
       <translation>Linkin korvaaminen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="723"/>
+=======
+      <location filename="../CommandLink.cpp" line="705"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to import links</source>
       <translation>Linkkien tuominen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="769"/>
+=======
+      <location filename="../CommandLink.cpp" line="751"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to import all links</source>
       <translation>Kaikkien linkkien tuominen epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="984"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="977"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add property</source>
       <translation>Lisää ominaisuus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="985"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="978"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to add property to '%1': %2</source>
       <translation>Ominaisuutta ei voitu lisätä kohteeseen '%1': %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="2770"/>
       <location filename="../Tree.cpp" line="3167"/>
+=======
+      <location filename="../Tree.cpp" line="2638"/>
+      <location filename="../Tree.cpp" line="3034"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag &amp; drop failed</source>
       <translation>Vedä &amp; pudota epäonnistui</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1015"/>
       <location filename="../ViewProviderLink.cpp" line="3025"/>
+=======
+      <location filename="../MainWindow.cpp" line="900"/>
+      <location filename="../ViewProviderLink.cpp" line="2999"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Apply to all</source>
       <translation>Käytä kaikkiin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="2999"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="2973"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Setup Configurable Object</source>
       <translation type="unfinished">Setup Configurable Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3001"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="2975"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects which object to copy or exclude when configuration changes. All external linked objects are excluded by default.</source>
       <translation type="unfinished">Selects which object to copy or exclude when configuration changes. All external linked objects are excluded by default.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3023"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="2997"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select which objects to copy when the configuration is changed</source>
       <translation type="unfinished">Select which objects to copy when the configuration is changed</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3026"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3000"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies the setting to all links</source>
       <translation type="unfinished">Applies the setting to all links</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3087"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy on Change</source>
       <translation type="unfinished">Copy on Change</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3088"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable</source>
       <translation>Käytä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3090"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3056"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable auto copy of linked object when its configuration is changed</source>
       <translation>Kopioi linkitetty objekti kun sen konfiguraatio muuttuu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3106"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tracking</source>
       <translation>Seuranta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3108"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3074"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copies the linked object when its configuration is changed.
 Also auto redo the copy if the original linked object is changed.
 </source>
@@ -8888,17 +11640,29 @@ Also auto redo the copy if the original linked object is changed.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3128"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3094"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Disable Copy on Change</source>
       <translation type="unfinished">Disable Copy on Change</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3146"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Refresh Configurable Object</source>
       <translation type="unfinished">Refresh Configurable Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3148"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Synchronizes the original configurable source object by
 creating a new deep copy. Any changes made to
 the current copy will be lost.
@@ -8909,28 +11673,54 @@ the current copy will be lost.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3190"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Array Elements</source>
       <translation type="unfinished">Toggle Array Elements</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3203"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes whether to show each link array element as individual objects</source>
       <translation type="unfinished">Changes whether to show each link array element as individual objects</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3212"/>
       <location filename="../ViewProviderLink.cpp" line="3218"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3185"/>
+      <source>Transforms the object at the origin of the placement</source>
+      <translation type="unfinished">Transforms the object at the origin of the placement</translation>
+    </message>
+    <message>
+      <location filename="../ViewProviderLink.cpp" line="3195"/>
+      <location filename="../ViewProviderLink.cpp" line="3201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Override Colors</source>
       <translation type="unfinished">Override Colors</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderDocumentObject.cpp" line="291"/>
+=======
+      <location filename="../ViewProviderDocumentObject.cpp" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit %1</source>
       <translation>Muokkaa %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SoFCColorBar.cpp" line="763"/>
+=======
+      <location filename="../SoFCColorGradient.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color Gradient</source>
       <translation>Liukuväri</translation>
     </message>
@@ -8940,18 +11730,31 @@ the current copy will be lost.
       <translation>Selitteen väri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayManager.cpp" line="1079"/>
+=======
+      <location filename="../OverlayManager.cpp" line="1076"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle overlay</source>
       <translation>Vaihda päällystettä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayWidgets.cpp" line="2574"/>
       <location filename="../OverlayManager.cpp" line="1080"/>
+=======
+      <location filename="../OverlayWidgets.cpp" line="2555"/>
+      <location filename="../OverlayManager.cpp" line="1077"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle floating window</source>
       <translation>Vaihda kelluvan ikkunan tilaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayManager.cpp" line="1081"/>
+=======
+      <location filename="../OverlayManager.cpp" line="1078"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close dock window</source>
       <translation>Sulje telakkaikkuna</translation>
     </message>
@@ -9061,12 +11864,25 @@ the current copy will be lost.
       <translation>Animaation käyrän tyyppi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SplashScreen.cpp" line="192"/>
+=======
+      <location filename="../ViewProviderSuppressibleExtension.cpp" line="97"/>
+      <source>Suppressed</source>
+      <translation>Peitetty</translation>
+    </message>
+    <message>
+      <location filename="../SplashScreen.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>WARNING: This is a development version.</source>
       <translation>VAROITUS: Tämä on kehitysversio.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SplashScreen.cpp" line="193"/>
+=======
+      <location filename="../SplashScreen.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not use it in a production environment.</source>
       <translation>Älä käytä sitä tuotantoympäristössä.</translation>
     </message>
@@ -9077,27 +11893,47 @@ the current copy will be lost.
       <translation type="unfinished">Press Esc to hide hint</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SoFCColorBar.cpp" line="770"/>
+=======
+      <location filename="../SoFCColorBar.cpp" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderPart.cpp" line="99"/>
+=======
+      <location filename="../ViewProviderImagePlane.cpp" line="170"/>
+      <source>Change Image</source>
+      <translation type="unfinished">Change Image</translation>
+    </message>
+    <message>
+      <location filename="../ViewProviderPart.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active Object</source>
       <translation type="unfinished">Active Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderPart.cpp" line="105"/>
       <source>Override colors…</source>
       <translation type="unfinished">Override colors…</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ViewProviderTextDocument.cpp" line="107"/>
       <source>Edit Text</source>
       <translation type="unfinished">Edit Text</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskView/TaskDialog.cpp" line="97"/>
+=======
+      <location filename="../TaskView/TaskDialog.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close this dialog?</source>
       <translation type="unfinished">Close this dialog?</translation>
     </message>
@@ -9112,16 +11948,26 @@ the current copy will be lost.
       <translation type="unfinished">Selects all objects that are children of this group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderGroupExtension.cpp" line="243"/>
       <source>The group '%1' contains %2 object(s). Delete them as well?</source>
       <translation type="unfinished">The group '%1' contains %2 object(s). Delete them as well?</translation>
     </message>
     <message>
       <location filename="../ViewProviderGroupExtension.cpp" line="249"/>
+=======
+      <location filename="../ViewProviderGroupExtension.cpp" line="259"/>
+      <source>The group '%1' contains %2 object(s). Do you want to delete them as well?</source>
+      <translation type="unfinished">The group '%1' contains %2 object(s). Do you want to delete them as well?</translation>
+    </message>
+    <message>
+      <location filename="../ViewProviderGroupExtension.cpp" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group '%1' contains %2 direct children and %3 total descendants (including nested groups). Do you want to delete all of them recursively?</source>
       <translation type="unfinished">The group '%1' contains %2 direct children and %3 total descendants (including nested groups). Do you want to delete all of them recursively?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderGroupExtension.cpp" line="260"/>
       <source>Delete Group Contents Recursively?</source>
       <translation type="unfinished">Delete Group Contents Recursively?</translation>
@@ -9145,17 +11991,30 @@ the current copy will be lost.
       <location filename="../CommandStructure.cpp" line="78"/>
       <source>Part</source>
       <translation>Part</translation>
+=======
+      <location filename="../ViewProviderGroupExtension.cpp" line="276"/>
+      <source>Delete group contents recursively?</source>
+      <translation type="unfinished">Delete group contents recursively?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>SelectionFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Selection/Selection.cpp" line="965"/>
+=======
+      <location filename="../Selection/Selection.cpp" line="876"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not allowed:</source>
       <translation>Ei sallittu:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Selection/Selection.cpp" line="1327"/>
+=======
+      <location filename="../Selection/Selection.cpp" line="1232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection not allowed by filter</source>
       <translation>Suodatin ei salli valintaa</translation>
     </message>
@@ -9163,12 +12022,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdAbout</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="235"/>
+=======
+      <location filename="../CommandStd.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;About %1</source>
       <translation>&amp;Tietoja %1ista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="236"/>
+=======
+      <location filename="../CommandStd.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays information about %1</source>
       <translation type="unfinished">Displays information about %1</translation>
     </message>
@@ -9176,12 +12043,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdAboutQt</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="299"/>
+=======
+      <location filename="../CommandStd.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>About &amp;Qt</source>
       <translation>Tietoja &amp;Qt:stä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="300"/>
+=======
+      <location filename="../CommandStd.cpp" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays information about Qt</source>
       <translation type="unfinished">Displays information about Qt</translation>
     </message>
@@ -9254,12 +12129,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1251"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy</source>
       <translation>K&amp;opioi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1252"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copies the selection to the clipboard</source>
       <translation type="unfinished">Copies the selection to the clipboard</translation>
     </message>
@@ -9267,12 +12150,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdCut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1223"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cu&amp;t</source>
       <translation>L&amp;eikkaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1224"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes the selection and copies it to the clipboard</source>
       <translation type="unfinished">Removes the selection and copies it to the clipboard</translation>
     </message>
@@ -9280,12 +12171,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdDelete</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1486"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Delete</source>
       <translation>&amp;Poista</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1487"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deletes the selected objects</source>
       <translation>Poistaa valitut objektit</translation>
     </message>
@@ -9303,12 +12202,18 @@ the current copy will be lost.
       <translation>Avaa valintaikkunan tallennettavalle makrolle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="64"/>
       <source>S&amp;top Macro Recording</source>
       <translation type="unfinished">S&amp;top Macro Recording</translation>
+=======
+      <location filename="../CommandMacro.cpp" line="67"/>
+      <source>S&amp;top macro recording</source>
+      <translation>P&amp;ysäytä makron tallentaminen</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
-      <location filename="../CommandMacro.cpp" line="67"/>
+      <location filename="../CommandMacro.cpp" line="70"/>
       <source>Stop the macro recording session</source>
       <translation>Lopeta makron tallentaminen</translation>
     </message>
@@ -9329,12 +12234,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2046"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Edit Mode</source>
       <translation type="unfinished">Toggle &amp;Edit Mode</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2047"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1873"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the selected object's edit mode</source>
       <translation>Vaihtaa valitun objektin muokkaustilan</translation>
     </message>
@@ -9342,22 +12255,39 @@ the current copy will be lost.
   <context>
     <name>StdCmdExport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="315"/>
+=======
+      <location filename="../CommandDoc.cpp" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Export…</source>
       <translation type="unfinished">&amp;Export…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="316"/>
+=======
+      <location filename="../CommandDoc.cpp" line="286"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports an object in the active document</source>
       <translation type="unfinished">Exports an object in the active document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="464"/>
       <source>No Selection</source>
       <translation type="unfinished">No Selection</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="465"/>
+=======
+      <location filename="../CommandDoc.cpp" line="434"/>
+      <source>No selection</source>
+      <translation>Ei valintaa</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select objects to export before using the Export command.</source>
       <translation type="unfinished">Select objects to export before using the Export command.</translation>
     </message>
@@ -9365,12 +12295,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdExpression</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2128"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1954"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expression Actions</source>
       <translation type="unfinished">Expression Actions</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2129"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1955"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Actions that apply to expressions</source>
       <translation>Lausekkeisiin vaikuttavat toimet</translation>
     </message>
@@ -9378,12 +12316,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdFeatRecompute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="57"/>
+=======
+      <location filename="../CommandFeat.cpp" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Recompute</source>
       <translation>&amp;Laske uudelleen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="58"/>
+=======
+      <location filename="../CommandFeat.cpp" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputes a feature or document</source>
       <translation type="unfinished">Recomputes a feature or document</translation>
     </message>
@@ -9391,25 +12337,43 @@ the current copy will be lost.
   <context>
     <name>StdCmdFreeCADForum</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="726"/>
+=======
+      <location filename="../CommandStd.cpp" line="720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD &amp;Forum</source>
       <translation>FreeCAD &amp;Foorumi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="727"/>
       <source>Opens the FreeCAD forum to find help from other users</source>
       <translation type="unfinished">Opens the FreeCAD forum to find help from other users</translation>
+=======
+      <location filename="../CommandStd.cpp" line="721"/>
+      <source>The FreeCAD forum, where you can find help from other users</source>
+      <translation>FreeCAD-keskustelupalsta, jonka kautta saat apua muilta käyttäjiltä</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdFreezeViews</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="333"/>
+=======
+      <location filename="../CommandView.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>F&amp;reeze Display</source>
       <translation type="unfinished">F&amp;reeze Display</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="334"/>
+=======
+      <location filename="../CommandView.cpp" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Freezes the current view position</source>
       <translation>Nykyisen näkymän sijainti jumittuu</translation>
     </message>
@@ -9417,25 +12381,54 @@ the current copy will be lost.
   <context>
     <name>StdCmdImport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="215"/>
+=======
+      <location filename="../CommandDoc.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Import…</source>
       <translation type="unfinished">&amp;Import…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="216"/>
       <source>Imports a file into the active document</source>
       <translation type="unfinished">Imports a file into the active document</translation>
     </message>
+=======
+      <location filename="../CommandDoc.cpp" line="187"/>
+      <source>Imports a file into the active document</source>
+      <translation type="unfinished">Imports a file into the active document</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="200"/>
+      <source>Supported formats</source>
+      <translation>Tuetut tiedostomuodot</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="201"/>
+      <source>All files (*.*)</source>
+      <translation>Kaikki tiedostot (*.*)</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>StdCmdLinkSelectActions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1018"/>
+=======
+      <location filename="../CommandLink.cpp" line="1000"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Link Navigation</source>
       <translation type="unfinished">&amp;Link Navigation</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1019"/>
+=======
+      <location filename="../CommandLink.cpp" line="1001"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link navigation actions</source>
       <translation>Linkeissä liikkumisen toiminnot</translation>
     </message>
@@ -9443,12 +12436,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdLinkUnlink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="638"/>
+=======
+      <location filename="../CommandLink.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unlink</source>
       <translation>Pura linkki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="639"/>
+=======
+      <location filename="../CommandLink.cpp" line="621"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unlinks the object by placing it directly in the container</source>
       <translation type="unfinished">Unlinks the object by placing it directly in the container</translation>
     </message>
@@ -9456,31 +12457,70 @@ the current copy will be lost.
   <context>
     <name>StdCmdMergeProjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="603"/>
+=======
+      <location filename="../CommandDoc.cpp" line="568"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Merge Document</source>
       <translation type="unfinished">&amp;Merge Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="605"/>
       <source>Merges another FreeCAD document into the active one</source>
       <translation type="unfinished">Merges another FreeCAD document into the active one</translation>
     </message>
+=======
+      <location filename="../CommandDoc.cpp" line="570"/>
+      <source>Merges another FreeCAD document into the active one</source>
+      <translation type="unfinished">Merges another FreeCAD document into the active one</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="584"/>
+      <location filename="../CommandDoc.cpp" line="596"/>
+      <source>Merge document</source>
+      <translation>Yhdistä asiakirja</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="586"/>
+      <source>%1 document (*.FCStd)</source>
+      <translation>%1-asiakirja (*.FCStd)</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="597"/>
+      <source>Cannot merge document with itself.</source>
+      <translation>Asiakirjaa ei voi yhdistää itseensä.</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>StdCmdNew</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2652"/>
+=======
+      <location filename="../MainWindow.cpp" line="2434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../DocumentRecovery.cpp" line="412"/>
       <source>Unnamed</source>
       <translation>Nimetön</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="741"/>
+=======
+      <location filename="../CommandDoc.cpp" line="707"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;New Document</source>
       <translation type="unfinished">&amp;New Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="742"/>
+=======
+      <location filename="../CommandDoc.cpp" line="708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new empty document</source>
       <translation type="unfinished">Creates a new empty document</translation>
     </message>
@@ -9488,12 +12528,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdOnlineHelpWebsite</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="568"/>
+=======
+      <location filename="../CommandStd.cpp" line="562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help Website</source>
       <translation>Ohjeen verkkosivusto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="569"/>
+=======
+      <location filename="../CommandStd.cpp" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the help documentation</source>
       <translation>Avaa ohjeet</translation>
     </message>
@@ -9516,7 +12564,21 @@ the current copy will be lost.
       <translation type="unfinished">Cannot Open File</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="183"/>
+=======
+      <location filename="../CommandDoc.cpp" line="101"/>
+      <source>All files (*.*)</source>
+      <translation>Kaikki tiedostot (*.*)</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="153"/>
+      <source>Cannot open file</source>
+      <translation>Tiedostoa ei voi avata</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loading the file %1 is not supported</source>
       <translation>Tiedoston %1 lataamista ei tueta</translation>
     </message>
@@ -9524,12 +12586,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdPaste</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1287"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Paste</source>
       <translation>&amp;Liitä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1288"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pastes the contents of the clipboard</source>
       <translation type="unfinished">Pastes the contents of the clipboard</translation>
     </message>
@@ -9537,12 +12607,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdQuit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1100"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>E&amp;xit</source>
       <translation>L&amp;opeta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1101"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Quits the application</source>
       <translation>Lopeta sovellus</translation>
     </message>
@@ -9550,12 +12628,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdRecentFiles</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="147"/>
+=======
+      <location filename="../CommandStd.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open &amp;Recent</source>
       <translation>Avaa &amp;viimeisimmät</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="148"/>
+=======
+      <location filename="../CommandStd.cpp" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the list of recently opened files</source>
       <translation type="unfinished">Displays the list of recently opened files</translation>
     </message>
@@ -9563,12 +12649,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdRedo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1179"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Redo</source>
       <translation>&amp;Tee uudelleen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1180"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Redoes a previously undone action</source>
       <translation>Tekee uudelleen viimeksi kumotun toiminnon</translation>
     </message>
@@ -9576,12 +12670,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdRevert</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="901"/>
+=======
+      <location filename="../CommandDoc.cpp" line="854"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rever&amp;t</source>
       <translation>Palauta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="902"/>
+=======
+      <location filename="../CommandDoc.cpp" line="855"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverts to the saved version of this file</source>
       <translation>Palauttaa tämän tiedoston tallennettuun versioon</translation>
     </message>
@@ -9589,12 +12691,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdSave</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="775"/>
+=======
+      <location filename="../CommandDoc.cpp" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Save</source>
       <translation>&amp;Tallenna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="776"/>
+=======
+      <location filename="../CommandDoc.cpp" line="741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the active document</source>
       <translation type="unfinished">Saves the active document</translation>
     </message>
@@ -9602,12 +12712,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdSaveAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="873"/>
+=======
+      <location filename="../CommandDoc.cpp" line="826"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sa&amp;ve All</source>
       <translation>Ta&amp;llenna kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="874"/>
+=======
+      <location filename="../CommandDoc.cpp" line="827"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves all open documents</source>
       <translation type="unfinished">Saves all open documents</translation>
     </message>
@@ -9615,12 +12733,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdSelectAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1432"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select &amp;All</source>
       <translation>Valitse &amp;kaikki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1433"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all objects in the active document</source>
       <translation type="unfinished">Selects all objects in the active document</translation>
     </message>
@@ -9628,12 +12754,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdSendToPythonConsole</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="299"/>
+=======
+      <location filename="../CommandFeat.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Send to Python Console</source>
       <translation>&amp;Lähetä Python-konsoliin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="300"/>
+=======
+      <location filename="../CommandFeat.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sends the selected object to the Python console</source>
       <translation>Lähettää valitun objektin Python-konsoliin</translation>
     </message>
@@ -9680,12 +12814,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdUndo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1134"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Undo</source>
       <translation>&amp;Kumoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1135"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Undoes the previous action</source>
       <translation type="unfinished">Undoes the previous action</translation>
     </message>
@@ -9693,12 +12835,21 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewBottom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1439"/>
       <source>Bottom</source>
       <translation>Pohja</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1440"/>
+=======
+      <location filename="../CommandView.cpp" line="1385"/>
+      <source>&amp;5 Bottom</source>
+      <translation>&amp;5 Alapuoli</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the bottom view</source>
       <translation type="unfinished">Sets the camera to the bottom view</translation>
     </message>
@@ -9706,12 +12857,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewDimetric</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1643"/>
+=======
+      <location filename="../CommandView.cpp" line="1554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Dimetric</source>
       <translation>&amp;Dimetrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1644"/>
+=======
+      <location filename="../CommandView.cpp" line="1555"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the dimetric view</source>
       <translation type="unfinished">Sets the camera to the dimetric view</translation>
     </message>
@@ -9719,12 +12878,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewExample1</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2487"/>
+=======
+      <location filename="../CommandView.cpp" line="2392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inventor Example #1</source>
       <translation type="unfinished">Inventor Example #1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2488"/>
+=======
+      <location filename="../CommandView.cpp" line="2393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows a 3D texture with manipulator</source>
       <translation>Näyttää 3D tekstuurin manipuloijalla</translation>
     </message>
@@ -9732,12 +12899,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewExample2</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2515"/>
+=======
+      <location filename="../CommandView.cpp" line="2420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inventor Example #2</source>
       <translation type="unfinished">Inventor Example #2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2516"/>
+=======
+      <location filename="../CommandView.cpp" line="2421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows spheres and drag-lights</source>
       <translation>Näyttää ympyrät ja vedettävät valot</translation>
     </message>
@@ -9745,12 +12920,21 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewFront</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1468"/>
       <source>Front</source>
       <translation>Etupuoli</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1469"/>
+=======
+      <location filename="../CommandView.cpp" line="1409"/>
+      <source>&amp;1 Front</source>
+      <translation>&amp;1 Etupuoli</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the front view</source>
       <translation type="unfinished">Sets the camera to the front view</translation>
     </message>
@@ -9758,12 +12942,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewHome</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1415"/>
+=======
+      <location filename="../CommandView.cpp" line="1351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Home</source>
       <translation>&amp;Koti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1416"/>
+=======
+      <location filename="../CommandView.cpp" line="1352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the default home view</source>
       <translation type="unfinished">Sets the camera to the default home view</translation>
     </message>
@@ -9771,17 +12963,26 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewIsometric</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1614"/>
+=======
+      <location filename="../CommandView.cpp" line="1530"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Isometric</source>
       <translation>&amp;Isometrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1615"/>
+=======
+      <location filename="../CommandView.cpp" line="1531"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the isometric view</source>
       <translation type="unfinished">Sets the camera to the isometric view</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>StdCmdViewLeft</name>
     <message>
       <location filename="../CommandView.cpp" line="1497"/>
@@ -9790,6 +12991,55 @@ the current copy will be lost.
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1498"/>
+=======
+    <name>StdCmdViewIvStereoInterleavedColumns</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2590"/>
+      <source>Stereo Interleaved &amp;Columns</source>
+      <translation>Stereo &amp;lomitetuilla sarakkeilla</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2591"/>
+      <source>Switches stereo viewing to interleaved columns</source>
+      <translation type="unfinished">Switches stereo viewing to interleaved columns</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvStereoInterleavedRows</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2562"/>
+      <source>Stereo Interleaved &amp;Rows</source>
+      <translation>Stereo lomitetuilla &amp;riveillä</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2563"/>
+      <source>Switches stereo viewing to interleaved rows</source>
+      <translation type="unfinished">Switches stereo viewing to interleaved rows</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvStereoOff</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2477"/>
+      <source>Stereo &amp;Off</source>
+      <translation>Stereo &amp;pois</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2478"/>
+      <source>Switches stereo viewing off</source>
+      <translation type="unfinished">Switches stereo viewing off</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewLeft</name>
+    <message>
+      <location filename="../CommandView.cpp" line="1433"/>
+      <source>&amp;6 Left</source>
+      <translation>&amp;6 Vasen</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the left view</source>
       <translation type="unfinished">Sets the camera to the left view</translation>
     </message>
@@ -9797,12 +13047,21 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewRear</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1526"/>
       <source>Rear</source>
       <translation>Takana</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1527"/>
+=======
+      <location filename="../CommandView.cpp" line="1457"/>
+      <source>&amp;4 Rear</source>
+      <translation>&amp;4 Taka</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the rear view</source>
       <translation type="unfinished">Sets the camera to the rear view</translation>
     </message>
@@ -9810,12 +13069,21 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewRight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1555"/>
       <source>Right</source>
       <translation>Oikea</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1556"/>
+=======
+      <location filename="../CommandView.cpp" line="1481"/>
+      <source>&amp;3 Right</source>
+      <translation>&amp;3 Oikea</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1482"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the right view</source>
       <translation type="unfinished">Sets the camera to the right view</translation>
     </message>
@@ -9823,12 +13091,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewRotateLeft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1699"/>
+=======
+      <location filename="../CommandView.cpp" line="1600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate &amp;Left</source>
       <translation>Kierrä &amp;vasemmalle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1700"/>
+=======
+      <location filename="../CommandView.cpp" line="1601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the view by 90° counter-clockwise</source>
       <translation type="unfinished">Rotates the view by 90° counter-clockwise</translation>
     </message>
@@ -9836,12 +13112,21 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewTop</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1584"/>
       <source>Top</source>
       <translation>Yläpuoli</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1585"/>
+=======
+      <location filename="../CommandView.cpp" line="1505"/>
+      <source>&amp;2 Top</source>
+      <translation>&amp;2 Yläpuoli</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the top view</source>
       <translation type="unfinished">Sets the camera to the top view</translation>
     </message>
@@ -9849,12 +13134,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdViewTrimetric</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1671"/>
+=======
+      <location filename="../CommandView.cpp" line="1577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Trimetric</source>
       <translation>&amp;Trimetrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1672"/>
+=======
+      <location filename="../CommandView.cpp" line="1578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the trimetric view</source>
       <translation type="unfinished">Sets the camera to the trimetric view</translation>
     </message>
@@ -9862,12 +13155,20 @@ the current copy will be lost.
   <context>
     <name>StdCmdWhatsThis</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="321"/>
+=======
+      <location filename="../CommandStd.cpp" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;What's This?</source>
       <translation>&amp;Mikä tämä on?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="322"/>
+=======
+      <location filename="../CommandStd.cpp" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the documentation for the selected command</source>
       <translation type="unfinished">Opens the documentation for the selected command</translation>
     </message>
@@ -9901,12 +13202,20 @@ the current copy will be lost.
   <context>
     <name>StdMainFullscreen</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1909"/>
+=======
+      <location filename="../CommandView.cpp" line="1812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fullscreen</source>
       <translation>Kokoruututila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1910"/>
+=======
+      <location filename="../CommandView.cpp" line="1813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the main window in fullscreen mode</source>
       <translation type="unfinished">Displays the main window in fullscreen mode</translation>
     </message>
@@ -9914,12 +13223,20 @@ the current copy will be lost.
   <context>
     <name>StdOrthographicCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="147"/>
+=======
+      <location filename="../CommandView.cpp" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orthographic View</source>
       <translation type="unfinished">Orthographic View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="148"/>
+=======
+      <location filename="../CommandView.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switches to orthographic view mode</source>
       <translation>Siirtyy Ortografiseen katselutilaan</translation>
     </message>
@@ -9927,12 +13244,20 @@ the current copy will be lost.
   <context>
     <name>StdPerspectiveCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="194"/>
+=======
+      <location filename="../CommandView.cpp" line="187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Perspective View</source>
       <translation type="unfinished">Perspective View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="195"/>
+=======
+      <location filename="../CommandView.cpp" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switches to perspective view mode</source>
       <translation>Vaihtaa perspektiivinäkymään</translation>
     </message>
@@ -9940,12 +13265,20 @@ the current copy will be lost.
   <context>
     <name>StdTreeCollapseDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3343"/>
+=======
+      <location filename="../CommandView.cpp" line="3593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapse/E&amp;xpand</source>
       <translation>Tiivistä/L&amp;aajenna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3344"/>
+=======
+      <location filename="../CommandView.cpp" line="3594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expands the active document and collapses all others</source>
       <translation type="unfinished">Expands the active document and collapses all others</translation>
     </message>
@@ -9953,12 +13286,21 @@ the current copy will be lost.
   <context>
     <name>StdTreePreSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3445"/>
       <source>Preselection</source>
       <translation type="unfinished">Preselection</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3446"/>
+=======
+      <location filename="../CommandView.cpp" line="3695"/>
+      <source>&amp;4 Preselection</source>
+      <translation type="unfinished">&amp;4 Preselection</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preselects the object in 3D view when hovering the cursor over the tree item</source>
       <translation type="unfinished">Preselects the object in 3D view when hovering the cursor over the tree item</translation>
     </message>
@@ -9966,12 +13308,20 @@ the current copy will be lost.
   <context>
     <name>StdViewDock</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1847"/>
+=======
+      <location filename="../CommandView.cpp" line="1750"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Docked</source>
       <translation>&amp;Telakoitu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1848"/>
+=======
+      <location filename="../CommandView.cpp" line="1751"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation type="unfinished">Displays the active view either in fullscreen, undocked, or docked mode</translation>
     </message>
@@ -9979,12 +13329,20 @@ the current copy will be lost.
   <context>
     <name>StdViewFullscreen</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1944"/>
+=======
+      <location filename="../CommandView.cpp" line="1847"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Fullscreen</source>
       <translation>&amp;Koko näyttö</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1945"/>
+=======
+      <location filename="../CommandView.cpp" line="1848"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation type="unfinished">Displays the active view either in fullscreen, undocked, or docked mode</translation>
     </message>
@@ -9992,12 +13350,20 @@ the current copy will be lost.
   <context>
     <name>StdViewScreenShot</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2115"/>
+=======
+      <location filename="../CommandView.cpp" line="2018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save &amp;Image…</source>
       <translation type="unfinished">Save &amp;Image…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2116"/>
+=======
+      <location filename="../CommandView.cpp" line="2019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a screenshot of the active view</source>
       <translation>Luo kuvakaappaus aktiivisesta näkymästä</translation>
     </message>
@@ -10005,12 +13371,20 @@ the current copy will be lost.
   <context>
     <name>StdViewUndock</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1878"/>
+=======
+      <location filename="../CommandView.cpp" line="1781"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Undocked</source>
       <translation>&amp;Ei telakoitu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1879"/>
+=======
+      <location filename="../CommandView.cpp" line="1782"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation type="unfinished">Displays the active view either in fullscreen, undocked, or docked mode</translation>
     </message>
@@ -10018,12 +13392,20 @@ the current copy will be lost.
   <context>
     <name>StdViewZoomIn</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2630"/>
+=======
+      <location filename="../CommandView.cpp" line="2672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Zoom &amp;In</source>
       <translation>Zoomaa &amp;sisään</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2631"/>
+=======
+      <location filename="../CommandView.cpp" line="2673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increases the zoom factor by a fixed amount</source>
       <translation type="unfinished">Increases the zoom factor by a fixed amount</translation>
     </message>
@@ -10031,12 +13413,20 @@ the current copy will be lost.
   <context>
     <name>StdViewZoomOut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2659"/>
+=======
+      <location filename="../CommandView.cpp" line="2701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Zoom &amp;Out</source>
       <translation>Zoomaa &amp;ulos</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2660"/>
+=======
+      <location filename="../CommandView.cpp" line="2702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Decreases the zoom factor by a fixed amount</source>
       <translation type="unfinished">Decreases the zoom factor by a fixed amount</translation>
     </message>
@@ -10044,7 +13434,11 @@ the current copy will be lost.
   <context>
     <name>Std_Delete</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1610"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1520"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The following referencing objects might break.
 
 Continue?
@@ -10055,19 +13449,35 @@ Continue?
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1624"/>
       <source>Object Dependencies</source>
       <translation type="unfinished">Object Dependencies</translation>
+=======
+      <location filename="../CommandDoc.cpp" line="1534"/>
+      <source>Object dependencies</source>
+      <translation>Objektin riippuvuudet</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Std_DrawStyle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="844"/>
+=======
+      <location filename="../CommandView.cpp" line="779"/>
+      <source>&amp;1 As is</source>
+      <translation>&amp;1 Sellaisenaan</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal mode</source>
       <translation>Normaalitila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="843"/>
       <source>As Is</source>
       <translation type="unfinished">As Is</translation>
@@ -10079,56 +13489,109 @@ Continue?
     </message>
     <message>
       <location filename="../CommandView.cpp" line="847"/>
+=======
+      <location filename="../CommandView.cpp" line="782"/>
+      <source>&amp;2 Points</source>
+      <translation>&amp;2 Pisteinä</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="785"/>
+      <source>&amp;3 Wireframe</source>
+      <translation>&amp;3 Rautalankamallina</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="788"/>
+      <source>&amp;4 Hidden line</source>
+      <translation>&amp;4 Piilotettuina viivoina</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="791"/>
+      <source>&amp;5 No shading</source>
+      <translation>&amp;5 Ei varjostusta</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="794"/>
+      <source>&amp;6 Shaded</source>
+      <translation>&amp;6 Varjostettuna</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="797"/>
+      <source>&amp;7 Flat lines</source>
+      <translation>&amp;7 Tasaisina viivoina</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="783"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points mode</source>
       <translation>Pisteiden tila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="849"/>
       <source>Wireframe</source>
       <translation>Rautalankamalli</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="850"/>
+=======
+      <location filename="../CommandView.cpp" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wireframe mode</source>
       <translation>Rautalankamallitila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="852"/>
       <source>Hidden Line</source>
       <translation type="unfinished">Hidden Line</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="853"/>
+=======
+      <location filename="../CommandView.cpp" line="789"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hidden line mode</source>
       <translation>Piilotettu rivi tila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="855"/>
       <source>No Shading</source>
       <translation type="unfinished">No Shading</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="856"/>
+=======
+      <location filename="../CommandView.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No shading mode</source>
       <translation>Ei varjostustilaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="858"/>
       <source>Shaded</source>
       <translation>Varjostettu</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="859"/>
+=======
+      <location filename="../CommandView.cpp" line="795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shaded mode</source>
       <translation>Varjostettu tila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="861"/>
       <source>Flat Lines</source>
       <translation>Tasaiset viivat</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="862"/>
+=======
+      <location filename="../CommandView.cpp" line="798"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flat lines mode</source>
       <translation>Tasaisten rivien tila</translation>
     </message>
@@ -10136,12 +13599,21 @@ Continue?
   <context>
     <name>Std_DuplicateSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1391"/>
       <source>Object Dependencies</source>
       <translation type="unfinished">Object Dependencies</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="1392"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1344"/>
+      <source>Object dependencies</source>
+      <translation>Objektin riippuvuudet</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="1345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To link to external objects, the document must be saved at least once.
 Save the document now?</source>
       <translation type="unfinished">To link to external objects, the document must be saved at least once.
@@ -10151,7 +13623,11 @@ Save the document now?</translation>
   <context>
     <name>Std_Group</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="150"/>
+=======
+      <location filename="../CommandStructure.cpp" line="140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>Ryhmä</translation>
     </message>
@@ -10202,122 +13678,218 @@ Save the document now?</translation>
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="589"/>
+=======
+      <location filename="../Workbench.cpp" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;File</source>
       <translation>&amp;Tiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="590"/>
+=======
+      <location filename="../Workbench.cpp" line="587"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Edit</source>
       <translation>&amp;Muokkaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="591"/>
+=======
+      <location filename="../Workbench.cpp" line="588"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Muokkaa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="592"/>
+=======
+      <location filename="../Workbench.cpp" line="589"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clipboard</source>
       <translation>Leikepöytä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="593"/>
+=======
+      <location filename="../Workbench.cpp" line="590"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Workbench</source>
       <translation>Työtila</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="594"/>
+=======
+      <location filename="../Workbench.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structure</source>
       <translation>Rakenne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="595"/>
+=======
+      <location filename="../Workbench.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard &amp;Views</source>
       <translation type="unfinished">Standard &amp;Views</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="596"/>
+=======
+      <location filename="../Workbench.cpp" line="593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Individual Views</source>
       <translation type="unfinished">Individual Views</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="605"/>
+=======
+      <location filename="../Workbench.cpp" line="602"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Online Help</source>
       <translation type="unfinished">&amp;Online Help</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="613"/>
+=======
+      <location filename="../Workbench.cpp" line="610"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link Actions</source>
       <translation type="unfinished">Link Actions</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="598"/>
+=======
+      <location filename="../Workbench.cpp" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Stereo</source>
       <translation>&amp;Stereo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="599"/>
+=======
+      <location filename="../Workbench.cpp" line="596"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Zoom</source>
       <translation>&amp;Suurennus</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="597"/>
+=======
+      <location filename="../Workbench.cpp" line="594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A&amp;xonometric</source>
       <translation>A&amp;ksonometrinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="600"/>
+=======
+      <location filename="../Workbench.cpp" line="597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>V&amp;isibility</source>
       <translation>&amp;Näkyvyys</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="601"/>
+=======
+      <location filename="../Workbench.cpp" line="598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;View</source>
       <translation>&amp;Näytä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="602"/>
+=======
+      <location filename="../Workbench.cpp" line="599"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Tools</source>
       <translation>T&amp;yökalut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="603"/>
+=======
+      <location filename="../Workbench.cpp" line="600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Macro</source>
       <translation>&amp;Makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="604"/>
+=======
+      <location filename="../Workbench.cpp" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Windows</source>
       <translation>&amp;Ikkunat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="606"/>
+=======
+      <location filename="../Workbench.cpp" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Help</source>
       <translation>&amp;Ohje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="607"/>
+=======
+      <location filename="../Workbench.cpp" line="604"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>Ohje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="608"/>
+=======
+      <location filename="../Workbench.cpp" line="605"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File</source>
       <translation>Tiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="609"/>
+=======
+      <location filename="../Workbench.cpp" line="606"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro</source>
       <translation>Makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="610"/>
+=======
+      <location filename="../Workbench.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View</source>
       <translation>Näytä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="611"/>
+=======
+      <location filename="../Workbench.cpp" line="608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Special Ops</source>
       <translation>Erityisoperaatiot</translation>
     </message>
@@ -10325,10 +13897,22 @@ Save the document now?</translation>
   <context>
     <name>Gui::MDIView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MDIView.cpp" line="285"/>
       <source>Export PDF</source>
       <translation>Vie PDF</translation>
     </message>
+=======
+      <location filename="../MDIView.cpp" line="286"/>
+      <source>Export PDF</source>
+      <translation>Vie PDF</translation>
+    </message>
+    <message>
+      <location filename="../MDIView.cpp" line="288"/>
+      <source>PDF file</source>
+      <translation>PDF-tiedosto</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::Dialog::DlgSettingsNotificationArea</name>
@@ -10850,12 +14434,20 @@ after FreeCAD launches</translation>
   <context>
     <name>StdViewLoadImage</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2313"/>
+=======
+      <location filename="../CommandView.cpp" line="2219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Load Image…</source>
       <translation type="unfinished">&amp;Load Image…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2314"/>
+=======
+      <location filename="../CommandView.cpp" line="2220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loads an image</source>
       <translation>Lataa kuvan</translation>
     </message>
@@ -10863,14 +14455,24 @@ after FreeCAD launches</translation>
   <context>
     <name>NaviCubeDraggableCmd</name>
     <message>
+<<<<<<< HEAD
       <location filename="../NaviCube.cpp" line="1382"/>
+=======
+      <location filename="../NaviCube.cpp" line="1337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Movable Navigation Cube</source>
       <translation type="unfinished">Movable Navigation Cube</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../NaviCube.cpp" line="1383"/>
       <source>Drags and places the NaviCube</source>
       <translation type="unfinished">Drags and places the NaviCube</translation>
+=======
+      <location filename="../NaviCube.cpp" line="1338"/>
+      <source>Drag and place NaviCube</source>
+      <translation>Vedä ja sijoita navigointikuutio eri paikkaan</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10909,8 +14511,13 @@ after FreeCAD launches</translation>
   <context>
     <name>Gui::ExpLineEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1625"/>
       <location filename="../Widgets.cpp" line="1692"/>
+=======
+      <location filename="../Widgets.cpp" line="1617"/>
+      <location filename="../Widgets.cpp" line="1691"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An error occurred -- see Report View for information</source>
       <translation>Tapahtui virhe -- katso Raporttinäkymästä tarkemmat tiedot</translation>
     </message>
@@ -11362,72 +14969,128 @@ display the splash screen.</translation>
       <translation>Asetuspakettien hallinta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="526"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Small (%1px)</source>
       <translation>Pieni (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="527"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="525"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Medium (%1px)</source>
       <translation>Keskitaso (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="528"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Large (%1px)</source>
       <translation>Suuri (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="529"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="527"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extra large (%1px)</source>
       <translation>Erittäin suuri (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="531"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="529"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom (%1px)</source>
       <translation>Mukautettu (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="602"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Combined</source>
       <translation>Yhdistetty</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="603"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Independent</source>
       <translation>Itsenäinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="635"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="633"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preference Pack Name</source>
       <translation>Asetuspaketin nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="635"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="633"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tags</source>
       <translation>Tagit</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="674"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Apply</source>
       <translation>Käytä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="688"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies the %1 preference pack</source>
       <translation type="unfinished">Applies the %1 preference pack</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="773"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="771"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose a FreeCAD config file to import</source>
       <translation>Valitse tuotava FreeCAD-asetustiedosto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="787"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File exists</source>
       <translation>Tiedosto on olemassa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="788"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A preference pack with that name already exists. Overwrite?</source>
       <translation>Kyseisellä nimellä varustettu asetuspaketti on jo olemassa. Haluatko korvata sen?</translation>
     </message>
@@ -11898,12 +15561,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdProperties</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2088"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Propert&amp;ies</source>
       <translation>Ominais&amp;uudet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2089"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows the property view, which displays the properties of the selected object.</source>
       <translation type="unfinished">Shows the property view, which displays the properties of the selected object.</translation>
     </message>
@@ -11911,7 +15582,11 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdToggleFreeze</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="190"/>
+=======
+      <location filename="../CommandFeat.cpp" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Freeze</source>
       <translation type="unfinished">Toggle Freeze</translation>
     </message>
@@ -11932,12 +15607,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdReloadStyleSheet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="961"/>
+=======
+      <location filename="../CommandStd.cpp" line="955"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Reload Stylesheet</source>
       <translation type="unfinished">&amp;Reload Stylesheet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="962"/>
+=======
+      <location filename="../CommandStd.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reloads the current stylesheet</source>
       <translation>Lataa nykyisen tyylitiedoston uudelleen</translation>
     </message>
@@ -12209,12 +15892,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdRestartInSafeMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="345"/>
+=======
+      <location filename="../CommandStd.cpp" line="339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart in Safe Mode</source>
       <translation>Käynnistä uudelleen vikasietotilassa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="346"/>
+=======
+      <location filename="../CommandStd.cpp" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts FreeCAD without any modules or plugins loaded</source>
       <translation>Käynnistä FreeCAD ilman mitään moduuleja tai liitännäisiä</translation>
     </message>
@@ -12222,12 +15913,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdOnlineHelp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="543"/>
+=======
+      <location filename="../CommandStd.cpp" line="537"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Help</source>
       <translation>&amp;Ohje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="544"/>
+=======
+      <location filename="../CommandStd.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the Help documentation</source>
       <translation>Avaa ohjeet</translation>
     </message>
@@ -12235,12 +15934,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdFreeCADWebsite</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="663"/>
+=======
+      <location filename="../CommandStd.cpp" line="657"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD W&amp;ebsite</source>
       <translation>FreeCADin &amp;verkkosivusto</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="664"/>
+=======
+      <location filename="../CommandStd.cpp" line="658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Navigates to the official FreeCAD website</source>
       <translation>Siirtyy FreeCADin viralliselle verkkosivulle</translation>
     </message>
@@ -12248,12 +15955,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdFreeCADUserHub</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="694"/>
+=======
+      <location filename="../CommandStd.cpp" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;User Documentation</source>
       <translation>&amp;Käyttäjän ohje</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="695"/>
+=======
+      <location filename="../CommandStd.cpp" line="689"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the documentation for users</source>
       <translation>Avaa käyttäjien ohjeet</translation>
     </message>
@@ -12261,12 +15976,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdReportBug</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="757"/>
+=======
+      <location filename="../CommandStd.cpp" line="751"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Report an &amp;Issue</source>
       <translation>Ilmoita &amp;ongelmasta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="758"/>
+=======
+      <location filename="../CommandStd.cpp" line="752"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the bugtracker to report an issue</source>
       <translation type="unfinished">Opens the bugtracker to report an issue</translation>
     </message>
@@ -12274,12 +15997,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdTransformManip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1925"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trans&amp;form</source>
       <translation>&amp;Muuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1926"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1759"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transforms the selected object in the 3D view</source>
       <translation type="unfinished">Transforms the selected object in the 3D view</translation>
     </message>
@@ -12490,48 +16221,81 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Gui::TaskTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="109"/>
+=======
+      <location filename="../TaskTransform.cpp" line="87"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transform</source>
       <translation>Muuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="196"/>
+=======
+      <location filename="../TaskTransform.cpp" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object origin</source>
       <translation type="unfinished">Object origin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="202"/>
+=======
+      <location filename="../TaskTransform.cpp" line="178"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center of mass / centroid</source>
       <translation type="unfinished">Center of mass / centroid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="208"/>
       <location filename="../TaskTransform.cpp" line="218"/>
+=======
+      <location filename="../TaskTransform.cpp" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom</source>
       <translation>Mukautettu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="215"/>
+=======
+      <location filename="../TaskTransform.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Local</source>
       <translation>Paikallinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="216"/>
+=======
+      <location filename="../TaskTransform.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global</source>
       <translation>Järjestelmän laajuinen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="441"/>
       <location filename="../TaskTransform.cpp" line="443"/>
+=======
+      <location filename="../TaskTransform.cpp" line="407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick Reference</source>
       <translation type="unfinished">Pick Reference</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="442"/>
+=======
+      <location filename="../TaskTransform.cpp" line="408"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move to Other Object</source>
       <translation type="unfinished">Move to Other Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="450"/>
       <location filename="../TaskTransform.cpp" line="465"/>
       <source>Select object, face, edge…</source>
@@ -12541,6 +16305,15 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
       <location filename="../TaskTransform.cpp" line="451"/>
       <location filename="../TaskTransform.cpp" line="457"/>
       <location filename="../TaskTransform.cpp" line="466"/>
+=======
+      <location filename="../TaskTransform.cpp" line="415"/>
+      <source>Select face, edge, or vertex…</source>
+      <translation type="unfinished">Select face, edge, or vertex…</translation>
+    </message>
+    <message>
+      <location filename="../TaskTransform.cpp" line="416"/>
+      <location filename="../TaskTransform.cpp" line="422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cancel</source>
       <translation>Kumoa</translation>
     </message>
@@ -12548,181 +16321,301 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Gui::InputHintWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="253"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Backtab</source>
       <extracomment>Keyboard key for Backtab</extracomment>
       <translation type="unfinished">Backtab</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="257"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter</source>
       <extracomment>Keyboard key for numpad Enter</extracomment>
       <translation type="unfinished">Enter</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="259"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert</source>
       <extracomment>Keyboard key for Insert</extracomment>
       <translation>Lisää</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="249"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Esc</source>
       <extracomment>Keyboard key for Escape</extracomment>
       <translation type="unfinished">Esc</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="251"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tab ⭾</source>
       <extracomment>Keyboard key for Tab</extracomment>
       <translation type="unfinished">Tab ⭾</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="261"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Del</source>
       <extracomment>Keyboard key for Delete</extracomment>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="263"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pause</source>
       <extracomment>Keyboard key for Pause</extracomment>
       <translation type="unfinished">Pause</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="265"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print</source>
       <extracomment>Keyboard key for Print</extracomment>
       <translation type="unfinished">Print</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="267"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>SysReq</source>
       <extracomment>Keyboard key for SysReq</extracomment>
       <translation type="unfinished">SysReq</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="269"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear</source>
       <extracomment>Keyboard key for Clear</extracomment>
       <translation>Tyhjennä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="273"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Home</source>
       <extracomment>Keyboard key for Home</extracomment>
       <translation>Koti</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="275"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End</source>
       <extracomment>Keyboard key for End</extracomment>
       <translation type="unfinished">End</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="281"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PgDown</source>
       <extracomment>Keyboard key for Page Down</extracomment>
       <translation type="unfinished">PgDown</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="283"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PgUp</source>
       <extracomment>Keyboard key for Page Up</extracomment>
       <translation type="unfinished">PgUp</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="293"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>⇧ Shift</source>
       <extracomment>Keyboard key for Shift on Windows &amp; Linux</extracomment>
       <translation type="unfinished">⇧ Shift</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="350"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num0</source>
       <extracomment>Keyboard key for numpad 0</extracomment>
       <translation type="unfinished">Num0</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="352"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num1</source>
       <extracomment>Keyboard key for numpad 1</extracomment>
       <translation type="unfinished">Num1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="354"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="349"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num2</source>
       <extracomment>Keyboard key for numpad 2</extracomment>
       <translation type="unfinished">Num2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="356"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num3</source>
       <extracomment>Keyboard key for numpad 3</extracomment>
       <translation type="unfinished">Num3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="358"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num4</source>
       <extracomment>Keyboard key for numpad 4</extracomment>
       <translation type="unfinished">Num4</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="360"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num5</source>
       <extracomment>Keyboard key for numpad 5</extracomment>
       <translation type="unfinished">Num5</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="362"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="357"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num6</source>
       <extracomment>Keyboard key for numpad 6</extracomment>
       <translation type="unfinished">Num6</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="364"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num7</source>
       <extracomment>Keyboard key for numpad 7</extracomment>
       <translation type="unfinished">Num7</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="366"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num8</source>
       <extracomment>Keyboard key for numpad 8</extracomment>
       <translation type="unfinished">Num8</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="368"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num9</source>
       <extracomment>Keyboard key for numpad 9</extracomment>
       <translation type="unfinished">Num9</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="295"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="290"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ctrl</source>
       <extracomment>Keyboard key for Control on Windows &amp; Linux</extracomment>
       <translation>Ctrl</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="302"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Alt</source>
       <extracomment>Keyboard key for Alt on Windows &amp; Linux</extracomment>
       <translation>Alt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="305"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Caps Lock</source>
       <extracomment>Keyboard key for Caps Lock</extracomment>
       <translation type="unfinished">Caps Lock</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="307"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="302"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num Lock</source>
       <extracomment>Keyboard key for Num Lock</extracomment>
       <translation type="unfinished">Num Lock</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="309"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scroll Lock</source>
       <extracomment>Keyboard key for Scroll Lock</extracomment>
       <translation type="unfinished">Scroll Lock</translation>
@@ -12848,7 +16741,11 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Gui::Application</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="496"/>
+=======
+      <location filename="../Application.cpp" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Built-in Parameters</source>
       <translation type="unfinished">Built-in Parameters</translation>
     </message>
@@ -12858,12 +16755,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
       <translation type="unfinished">Theme Parameters</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="505"/>
+=======
+      <location filename="../Application.cpp" line="436"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Theme Parameters - Fallback</source>
       <translation type="unfinished">Theme Parameters - Fallback</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="517"/>
+=======
+      <location filename="../Application.cpp" line="448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User Parameters</source>
       <translation type="unfinished">User Parameters</translation>
     </message>
@@ -12871,7 +16776,11 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Gui::AutoSaver</name>
     <message>
+<<<<<<< HEAD
       <location filename="../AutoSaver.cpp" line="187"/>
+=======
+      <location filename="../AutoSaver.cpp" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wait until the auto-recovery file has been saved…</source>
       <translation type="unfinished">Wait until the auto-recovery file has been saved…</translation>
     </message>
@@ -12879,12 +16788,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdDependencyGraph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="663"/>
+=======
+      <location filename="../CommandDoc.cpp" line="628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency Gra&amp;ph</source>
       <translation type="unfinished">Dependency Gra&amp;ph</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="665"/>
+=======
+      <location filename="../CommandDoc.cpp" line="630"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows the dependency graph of the objects in the active document</source>
       <translation type="unfinished">Shows the dependency graph of the objects in the active document</translation>
     </message>
@@ -12892,7 +16809,11 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Std_DependencyGraph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="677"/>
+=======
+      <location filename="../CommandDoc.cpp" line="642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency Graph</source>
       <translation type="unfinished">Dependency Graph</translation>
     </message>
@@ -12900,12 +16821,21 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdExportDependencyGraph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="696"/>
       <source>Export Dependency &amp;Graph…</source>
       <translation type="unfinished">Export Dependency &amp;Graph…</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="697"/>
+=======
+      <location filename="../CommandDoc.cpp" line="661"/>
+      <source>Export Dependency &amp;Graph</source>
+      <translation type="unfinished">Export Dependency &amp;Graph</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports the dependency graph as a Graphviz (.gv) file</source>
       <translation type="unfinished">Exports the dependency graph as a Graphviz (.gv) file</translation>
     </message>
@@ -12913,12 +16843,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdSaveAs</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="813"/>
+=======
+      <location filename="../CommandDoc.cpp" line="769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save &amp;As…</source>
       <translation type="unfinished">Save &amp;As…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="814"/>
+=======
+      <location filename="../CommandDoc.cpp" line="770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the active document under a new file name</source>
       <translation type="unfinished">Saves the active document under a new file name</translation>
     </message>
@@ -12926,12 +16864,21 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdSaveCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="843"/>
       <source>Save a Cop&amp;y…</source>
       <translation type="unfinished">Save a Cop&amp;y…</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="845"/>
+=======
+      <location filename="../CommandDoc.cpp" line="798"/>
+      <source>Save Cop&amp;y</source>
+      <translation type="unfinished">Save Cop&amp;y</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="800"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves a copy of the active document under a new file name</source>
       <translation type="unfinished">Saves a copy of the active document under a new file name</translation>
     </message>
@@ -12939,17 +16886,29 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Std_Revert</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="914"/>
+=======
+      <location filename="../CommandDoc.cpp" line="867"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revert Document</source>
       <translation type="unfinished">Revert Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="916"/>
+=======
+      <location filename="../CommandDoc.cpp" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This will discard all the changes since the last file save.</source>
       <translation type="unfinished">This will discard all the changes since the last file save.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="918"/>
+=======
+      <location filename="../CommandDoc.cpp" line="871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continue?</source>
       <translation type="unfinished">Continue?</translation>
     </message>
@@ -12957,12 +16916,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdProjectInfo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="943"/>
+=======
+      <location filename="../CommandDoc.cpp" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Doc&amp;ument Information</source>
       <translation type="unfinished">Doc&amp;ument Information</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="945"/>
+=======
+      <location filename="../CommandDoc.cpp" line="898"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows information about the active document</source>
       <translation type="unfinished">Shows information about the active document</translation>
     </message>
@@ -12970,12 +16937,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdProjectUtil</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="975"/>
+=======
+      <location filename="../CommandDoc.cpp" line="928"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do&amp;cument Utility</source>
       <translation type="unfinished">Do&amp;cument Utility</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="977"/>
+=======
+      <location filename="../CommandDoc.cpp" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extracts or creates document files</source>
       <translation type="unfinished">Extracts or creates document files</translation>
     </message>
@@ -12983,12 +16958,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdPrint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1003"/>
+=======
+      <location filename="../CommandDoc.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Print</source>
       <translation type="unfinished">&amp;Print</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1005"/>
+=======
+      <location filename="../CommandDoc.cpp" line="958"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Prints the active document</source>
       <translation type="unfinished">Prints the active document</translation>
     </message>
@@ -12996,12 +16979,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdPrintPreview</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1036"/>
+=======
+      <location filename="../CommandDoc.cpp" line="989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print Previe&amp;w</source>
       <translation type="unfinished">Print Previe&amp;w</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1038"/>
+=======
+      <location filename="../CommandDoc.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Previews the active document before printing</source>
       <translation type="unfinished">Previews the active document before printing</translation>
     </message>
@@ -13009,12 +17000,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdPrintPdf</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1067"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1020"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export P&amp;DF</source>
       <translation type="unfinished">Export P&amp;DF</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1069"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1022"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports the active document as a PDF file</source>
       <translation type="unfinished">Exports the active document as a PDF file</translation>
     </message>
@@ -13022,12 +17021,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdDuplicateSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1329"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate Selecti&amp;on</source>
       <translation type="unfinished">Duplicate Selecti&amp;on</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1330"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicates the selected objects to the active document</source>
       <translation type="unfinished">Duplicates the selected objects to the active document</translation>
     </message>
@@ -13035,12 +17042,20 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>StdCmdRefresh</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1706"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recompute</source>
       <translation type="unfinished">Recompute</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1707"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputes the active document</source>
       <translation type="unfinished">Recomputes the active document</translation>
     </message>
@@ -13048,7 +17063,11 @@ ovat pikselit ovat ei-läpinäkyviä.</translation>
   <context>
     <name>Std_Refresh</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1735"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document contains dependency cycles.
 Check the report view for more details.
 
@@ -13062,12 +17081,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1835"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transform</source>
       <translation>Muuta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1837"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transforms the selected object</source>
       <translation type="unfinished">Transforms the selected object</translation>
     </message>
@@ -13075,12 +17102,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdPlacement</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1862"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>P&amp;lacement</source>
       <translation type="unfinished">P&amp;lacement</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1864"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the placement editor to adjust the placement of the selected object</source>
       <translation type="unfinished">Opens the placement editor to adjust the placement of the selected object</translation>
     </message>
@@ -13088,12 +17123,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdAlignment</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1973"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ali&amp;gn To…</source>
       <translation type="unfinished">Ali&amp;gn To…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1975"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1801"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the selected objects</source>
       <translation type="unfinished">Aligns the selected objects</translation>
     </message>
@@ -13101,12 +17144,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdRandomColor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="110"/>
+=======
+      <location filename="../CommandFeat.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Random &amp;Color</source>
       <translation type="unfinished">Random &amp;Color</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="111"/>
+=======
+      <location filename="../CommandFeat.cpp" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assigns random diffuse colors for the selected objects</source>
       <translation type="unfinished">Assigns random diffuse colors for the selected objects</translation>
     </message>
@@ -13114,12 +17165,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleSkipRecompute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="399"/>
+=======
+      <location filename="../CommandFeat.cpp" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip Recomputes</source>
       <translation type="unfinished">Skip Recomputes</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="401"/>
+=======
+      <location filename="../CommandFeat.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables or disables the recomputations of the document</source>
       <translation type="unfinished">Enables or disables the recomputations of the document</translation>
     </message>
@@ -13127,12 +17186,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkMakeGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="86"/>
+=======
+      <location filename="../CommandLink.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link Group</source>
       <translation type="unfinished">Link Group</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="87"/>
+=======
+      <location filename="../CommandLink.cpp" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a group of links</source>
       <translation type="unfinished">Creates a group of links</translation>
     </message>
@@ -13140,12 +17207,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkMake</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="260"/>
+=======
+      <location filename="../CommandLink.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Link</source>
       <translation type="unfinished">Make Link</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="261"/>
+=======
+      <location filename="../CommandLink.cpp" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A link is an object that references another object, either within the same or in another document. Unlike clones, links reference the original shape directly, making them more memory-efficient, which helps with the creation of complex assemblies.</source>
       <translation type="unfinished">A link is an object that references another object, either within the same or in another document. Unlike clones, links reference the original shape directly, making them more memory-efficient, which helps with the creation of complex assemblies.</translation>
     </message>
@@ -13153,12 +17228,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkMakeRelative</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="355"/>
+=======
+      <location filename="../CommandLink.cpp" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Sub-Link</source>
       <translation type="unfinished">Make Sub-Link</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="356"/>
+=======
+      <location filename="../CommandLink.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a sub-object or sub-element link</source>
       <translation type="unfinished">Creates a sub-object or sub-element link</translation>
     </message>
@@ -13166,12 +17249,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkReplace</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="612"/>
+=======
+      <location filename="../CommandLink.cpp" line="594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replace With Link</source>
       <translation type="unfinished">Replace With Link</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="613"/>
+=======
+      <location filename="../CommandLink.cpp" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replaces the selected objects with links</source>
       <translation type="unfinished">Replaces the selected objects with links</translation>
     </message>
@@ -13179,12 +17270,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkImport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="664"/>
+=======
+      <location filename="../CommandLink.cpp" line="646"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Links</source>
       <translation type="unfinished">Import Links</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="665"/>
+=======
+      <location filename="../CommandLink.cpp" line="647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imports selected external links</source>
       <translation type="unfinished">Imports selected external links</translation>
     </message>
@@ -13192,12 +17291,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkImportAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="738"/>
+=======
+      <location filename="../CommandLink.cpp" line="720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import All Links</source>
       <translation type="unfinished">Import All Links</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="739"/>
+=======
+      <location filename="../CommandLink.cpp" line="721"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imports all links of the active document</source>
       <translation type="unfinished">Imports all links of the active document</translation>
     </message>
@@ -13205,12 +17312,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkSelectLinked</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="786"/>
+=======
+      <location filename="../CommandLink.cpp" line="768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Go to Linked Object</source>
       <translation type="unfinished">&amp;Go to Linked Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="787"/>
+=======
+      <location filename="../CommandLink.cpp" line="769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the linked object and switches to its original document</source>
       <translation type="unfinished">Selects the linked object and switches to its original document</translation>
     </message>
@@ -13218,12 +17333,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkSelectLinkedFinal</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="934"/>
+=======
+      <location filename="../CommandLink.cpp" line="916"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Go to &amp;Deepest Linked Object</source>
       <translation type="unfinished">Go to &amp;Deepest Linked Object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="935"/>
+=======
+      <location filename="../CommandLink.cpp" line="917"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the deepest linked object and switches to its original document</source>
       <translation type="unfinished">Selects the deepest linked object and switches to its original document</translation>
     </message>
@@ -13231,12 +17354,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkSelectAllLinks</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="974"/>
+=======
+      <location filename="../CommandLink.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select &amp;All Links</source>
       <translation type="unfinished">Select &amp;All Links</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="975"/>
+=======
+      <location filename="../CommandLink.cpp" line="957"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all links to the current selected object</source>
       <translation type="unfinished">Selects all links to the current selected object</translation>
     </message>
@@ -13244,12 +17375,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdLinkActions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1047"/>
+=======
+      <location filename="../CommandLink.cpp" line="1029"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link Actions</source>
       <translation type="unfinished">Link Actions</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1048"/>
+=======
+      <location filename="../CommandLink.cpp" line="1030"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Commands that operate on link objects</source>
       <translation type="unfinished">Commands that operate on link objects</translation>
     </message>
@@ -13257,12 +17396,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdDlgMacroExecute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="95"/>
+=======
+      <location filename="../CommandMacro.cpp" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ma&amp;cros</source>
       <translation type="unfinished">Ma&amp;cros</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="97"/>
+=======
+      <location filename="../CommandMacro.cpp" line="100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to execute a recorded macro</source>
       <translation type="unfinished">Opens a dialog to execute a recorded macro</translation>
     </message>
@@ -13270,12 +17417,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdDlgMacroExecuteDirect</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="125"/>
+=======
+      <location filename="../CommandMacro.cpp" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Execute Macro</source>
       <translation type="unfinished">&amp;Execute Macro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="126"/>
+=======
+      <location filename="../CommandMacro.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Executes the macro in the editor</source>
       <translation type="unfinished">Executes the macro in the editor</translation>
     </message>
@@ -13283,25 +17438,108 @@ Proceed?</translation>
   <context>
     <name>StdCmdMacroAttachDebugger</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="151"/>
+=======
+      <location filename="../CommandMacro.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Attach to Remote Debugger</source>
       <translation type="unfinished">&amp;Attach to Remote Debugger</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="153"/>
+=======
+      <location filename="../CommandMacro.cpp" line="156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Attaches to a remotely running debugger</source>
       <translation type="unfinished">Attaches to a remotely running debugger</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>StdCmdMacrosFolder</name>
     <message>
       <location filename="../CommandMacro.cpp" line="180"/>
+=======
+    <name>StdCmdMacroStartDebug</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="183"/>
+      <source>&amp;Debug Macro</source>
+      <translation type="unfinished">&amp;Debug Macro</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="184"/>
+      <source>Starts the debugging of macros</source>
+      <translation type="unfinished">Starts the debugging of macros</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacroStopDebug</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="215"/>
+      <source>&amp;Stop Debugging</source>
+      <translation type="unfinished">&amp;Stop Debugging</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="216"/>
+      <source>Stops the debugging of macros</source>
+      <translation type="unfinished">Stops the debugging of macros</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacroStepOver</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="242"/>
+      <source>Step &amp;Over</source>
+      <translation type="unfinished">Step &amp;Over</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="243"/>
+      <source>Steps to the next line in this file</source>
+      <translation type="unfinished">Steps to the next line in this file</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacroStepInto</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="269"/>
+      <source>Step &amp;Into</source>
+      <translation type="unfinished">Step &amp;Into</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="270"/>
+      <source>Steps to the next line executed</source>
+      <translation type="unfinished">Steps to the next line executed</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdToggleBreakpoint</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="296"/>
+      <source>Toggle &amp;Breakpoint</source>
+      <translation type="unfinished">Toggle &amp;Breakpoint</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="297"/>
+      <source>Adds or removes a breakpoint at this position</source>
+      <translation type="unfinished">Adds or removes a breakpoint at this position</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacrosFolder</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open Macro Folder</source>
       <translation type="unfinished">Open Macro Folder</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="181"/>
+=======
+      <location filename="../CommandMacro.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the macros folder in the system file manager</source>
       <translation type="unfinished">Opens the macros folder in the system file manager</translation>
     </message>
@@ -13309,12 +17547,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdRecentMacros</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="191"/>
+=======
+      <location filename="../CommandStd.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Recent Macros</source>
       <translation type="unfinished">&amp;Recent Macros</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="192"/>
+=======
+      <location filename="../CommandStd.cpp" line="187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the list of recently used macros</source>
       <translation type="unfinished">Displays the list of recently used macros</translation>
     </message>
@@ -13322,12 +17568,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdDlgParameter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="393"/>
+=======
+      <location filename="../CommandStd.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>E&amp;dit Parameters</source>
       <translation type="unfinished">E&amp;dit Parameters</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="395"/>
+=======
+      <location filename="../CommandStd.cpp" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to edit the parameters</source>
       <translation type="unfinished">Opens a dialog to edit the parameters</translation>
     </message>
@@ -13335,12 +17589,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdDlgPreferences</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="419"/>
+=======
+      <location filename="../CommandStd.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Prefere&amp;nces</source>
       <translation type="unfinished">Prefere&amp;nces</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="421"/>
+=======
+      <location filename="../CommandStd.cpp" line="415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to edit the preferences</source>
       <translation type="unfinished">Opens a dialog to edit the preferences</translation>
     </message>
@@ -13348,12 +17610,21 @@ Proceed?</translation>
   <context>
     <name>StdCmdDlgCustomize</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="466"/>
       <source>Cu&amp;stomize</source>
       <translation type="unfinished">Cu&amp;stomize</translation>
     </message>
     <message>
       <location filename="../CommandStd.cpp" line="467"/>
+=======
+      <location filename="../CommandStd.cpp" line="460"/>
+      <source>Cu&amp;stomize…</source>
+      <translation type="unfinished">Cu&amp;stomize…</translation>
+    </message>
+    <message>
+      <location filename="../CommandStd.cpp" line="461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to edit toolbars, shortcuts, and macros</source>
       <translation type="unfinished">Opens a dialog to edit toolbars, shortcuts, and macros</translation>
     </message>
@@ -13361,12 +17632,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdCommandLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="494"/>
+=======
+      <location filename="../CommandStd.cpp" line="488"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command &amp;Line</source>
       <translation type="unfinished">Command &amp;Line</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="496"/>
+=======
+      <location filename="../CommandStd.cpp" line="490"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a command line interface in the console</source>
       <translation type="unfinished">Opens a command line interface in the console</translation>
     </message>
@@ -13374,38 +17653,66 @@ Proceed?</translation>
   <context>
     <name>StdCmdFreeCADDonation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="599"/>
+=======
+      <location filename="../CommandStd.cpp" line="593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Donate to FreeCA&amp;D</source>
       <translation type="unfinished">Donate to FreeCA&amp;D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="600"/>
       <source>Opens the FreeCAD donation page</source>
       <translation type="unfinished">Opens the FreeCAD donation page</translation>
+=======
+      <location filename="../CommandStd.cpp" line="594"/>
+      <source>Support the FreeCAD development</source>
+      <translation type="unfinished">Support the FreeCAD development</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdDevHandbook</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="630"/>
+=======
+      <location filename="../CommandStd.cpp" line="624"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Developers Handbook</source>
       <translation type="unfinished">Developers Handbook</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="632"/>
       <source>Opens the FreeCAD developers handbook</source>
       <translation type="unfinished">Opens the FreeCAD developers handbook</translation>
+=======
+      <location filename="../CommandStd.cpp" line="626"/>
+      <source>Handbook about FreeCAD development</source>
+      <translation type="unfinished">Handbook about FreeCAD development</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdTextDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="786"/>
+=======
+      <location filename="../CommandStd.cpp" line="780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Te&amp;xt Document</source>
       <translation type="unfinished">Te&amp;xt Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="787"/>
+=======
+      <location filename="../CommandStd.cpp" line="781"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a text document to the active document</source>
       <translation type="unfinished">Adds a text document to the active document</translation>
     </message>
@@ -13413,12 +17720,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdUnitsCalculator</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="824"/>
+=======
+      <location filename="../CommandStd.cpp" line="818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Units Converter</source>
       <translation type="unfinished">&amp;Units Converter</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="826"/>
+=======
+      <location filename="../CommandStd.cpp" line="820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts the units converter</source>
       <translation type="unfinished">Starts the units converter</translation>
     </message>
@@ -13426,12 +17741,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdUserEditMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="865"/>
+=======
+      <location filename="../CommandStd.cpp" line="859"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit &amp;Mode</source>
       <translation type="unfinished">Edit &amp;Mode</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="866"/>
+=======
+      <location filename="../CommandStd.cpp" line="860"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines behavior when editing an object from the tree view</source>
       <translation type="unfinished">Defines behavior when editing an object from the tree view</translation>
     </message>
@@ -13452,12 +17775,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="131"/>
+=======
+      <location filename="../CommandStructure.cpp" line="121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Group</source>
       <translation>Uusi ryhmä</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="132"/>
+=======
+      <location filename="../CommandStructure.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a group, which is a general-purpose container to group objects in the tree view, regardless of their data type. It is a simple folder to organize the objects in a model.</source>
       <translation type="unfinished">Creates a group, which is a general-purpose container to group objects in the tree view, regardless of their data type. It is a simple folder to organize the objects in a model.</translation>
     </message>
@@ -13465,12 +17796,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdVarSet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="203"/>
+=======
+      <location filename="../CommandStructure.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Variable Set</source>
       <translation>Muuttujajoukko</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="205"/>
+=======
+      <location filename="../CommandStructure.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a variable set, which is an object that maintains a set of properties to be used as variables</source>
       <translation type="unfinished">Creates a variable set, which is an object that maintains a set of properties to be used as variables</translation>
     </message>
@@ -13478,12 +17817,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewSaveCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="250"/>
+=======
+      <location filename="../CommandView.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Current Camera</source>
       <translation type="unfinished">Save Current Camera</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="251"/>
+=======
+      <location filename="../CommandView.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the current camera settings</source>
       <translation type="unfinished">Saves the current camera settings</translation>
     </message>
@@ -13491,12 +17838,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewRestoreCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="276"/>
+=======
+      <location filename="../CommandView.cpp" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restore Saved Camera</source>
       <translation type="unfinished">Restore Saved Camera</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="277"/>
+=======
+      <location filename="../CommandView.cpp" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restores the saved camera settings</source>
       <translation type="unfinished">Restores the saved camera settings</translation>
     </message>
@@ -13504,12 +17859,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleClipPlane</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="677"/>
+=======
+      <location filename="../CommandView.cpp" line="642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clippin&amp;g View</source>
       <translation type="unfinished">Clippin&amp;g View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="678"/>
+=======
+      <location filename="../CommandView.cpp" line="643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles clipping of the active view</source>
       <translation type="unfinished">Toggles clipping of the active view</translation>
     </message>
@@ -13517,12 +17880,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdDrawStyle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="763"/>
+=======
+      <location filename="../CommandView.cpp" line="699"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Draw Style</source>
       <translation type="unfinished">&amp;Draw Style</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="764"/>
+=======
+      <location filename="../CommandView.cpp" line="700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes the draw style of the objects</source>
       <translation type="unfinished">Changes the draw style of the objects</translation>
     </message>
@@ -13530,12 +17901,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleVisibility</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="970"/>
+=======
+      <location filename="../CommandView.cpp" line="906"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Visibility</source>
       <translation type="unfinished">Toggle &amp;Visibility</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="971"/>
+=======
+      <location filename="../CommandView.cpp" line="907"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the selection</source>
       <translation type="unfinished">Toggles the visibility of the selection</translation>
     </message>
@@ -13543,12 +17922,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleTransparency</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1004"/>
+=======
+      <location filename="../CommandView.cpp" line="940"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Transparenc&amp;y</source>
       <translation type="unfinished">Toggle Transparenc&amp;y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1006"/>
+=======
+      <location filename="../CommandView.cpp" line="942"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the transparency of the selected objects. Transparency can be fine-tuned in the appearance task dialog</source>
       <translation type="unfinished">Toggles the transparency of the selected objects. Transparency can be fine-tuned in the appearance task dialog</translation>
     </message>
@@ -13556,12 +17943,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleSelectability</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1117"/>
+=======
+      <location filename="../CommandView.cpp" line="1053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Se&amp;lectability</source>
       <translation type="unfinished">Toggle Se&amp;lectability</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1118"/>
+=======
+      <location filename="../CommandView.cpp" line="1054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the property of the objects to get selected in the 3D view</source>
       <translation type="unfinished">Toggles the property of the objects to get selected in the 3D view</translation>
     </message>
@@ -13569,12 +17964,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdShowSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1179"/>
+=======
+      <location filename="../CommandView.cpp" line="1115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sho&amp;w Selection</source>
       <translation type="unfinished">Sho&amp;w Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1180"/>
+=======
+      <location filename="../CommandView.cpp" line="1116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows all selected objects</source>
       <translation type="unfinished">Shows all selected objects</translation>
     </message>
@@ -13582,12 +17985,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdHideSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1207"/>
+=======
+      <location filename="../CommandView.cpp" line="1143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Hide Selection</source>
       <translation type="unfinished">&amp;Hide Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1208"/>
+=======
+      <location filename="../CommandView.cpp" line="1144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hides all selected objects</source>
       <translation type="unfinished">Hides all selected objects</translation>
     </message>
@@ -13595,12 +18006,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdSelectVisibleObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1235"/>
+=======
+      <location filename="../CommandView.cpp" line="1171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Select Visible Objects</source>
       <translation type="unfinished">&amp;Select Visible Objects</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1236"/>
+=======
+      <location filename="../CommandView.cpp" line="1172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all visible objects in the active document</source>
       <translation type="unfinished">Selects all visible objects in the active document</translation>
     </message>
@@ -13608,12 +18027,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1279"/>
+=======
+      <location filename="../CommandView.cpp" line="1215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To&amp;ggle All Objects</source>
       <translation type="unfinished">To&amp;ggle All Objects</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1280"/>
+=======
+      <location filename="../CommandView.cpp" line="1216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of all objects in the active document</source>
       <translation type="unfinished">Toggles the visibility of all objects in the active document</translation>
     </message>
@@ -13621,12 +18048,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdShowObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1331"/>
+=======
+      <location filename="../CommandView.cpp" line="1267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show &amp;All Objects</source>
       <translation type="unfinished">Show &amp;All Objects</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1332"/>
+=======
+      <location filename="../CommandView.cpp" line="1268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows all objects in the document</source>
       <translation type="unfinished">Shows all objects in the document</translation>
     </message>
@@ -13634,12 +18069,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdHideObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1373"/>
+=======
+      <location filename="../CommandView.cpp" line="1309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide All &amp;Objects</source>
       <translation type="unfinished">Hide All &amp;Objects</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1374"/>
+=======
+      <location filename="../CommandView.cpp" line="1310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hides all objects in the document</source>
       <translation type="unfinished">Hides all objects in the document</translation>
     </message>
@@ -13647,12 +18090,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewRotateRight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1724"/>
+=======
+      <location filename="../CommandView.cpp" line="1625"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates &amp;Right</source>
       <translation type="unfinished">Rotates &amp;Right</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1725"/>
+=======
+      <location filename="../CommandView.cpp" line="1626"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the view by 90° clockwise</source>
       <translation type="unfinished">Rotates the view by 90° clockwise</translation>
     </message>
@@ -13660,12 +18111,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewFitAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1749"/>
+=======
+      <location filename="../CommandView.cpp" line="1650"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Fit All</source>
       <translation type="unfinished">&amp;Fit All</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1750"/>
+=======
+      <location filename="../CommandView.cpp" line="1651"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fits all content into the 3D view</source>
       <translation type="unfinished">Fits all content into the 3D view</translation>
     </message>
@@ -13673,12 +18132,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewFitSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1778"/>
+=======
+      <location filename="../CommandView.cpp" line="1681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit &amp;Selection</source>
       <translation type="unfinished">Fit &amp;Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1779"/>
+=======
+      <location filename="../CommandView.cpp" line="1682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fits the selected content into the 3D view</source>
       <translation type="unfinished">Fits the selected content into the 3D view</translation>
     </message>
@@ -13686,12 +18153,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1808"/>
+=======
+      <location filename="../CommandView.cpp" line="1711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard &amp;Views</source>
       <translation type="unfinished">Standard &amp;Views</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1809"/>
+=======
+      <location filename="../CommandView.cpp" line="1712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes to a standard view</source>
       <translation type="unfinished">Changes to a standard view</translation>
     </message>
@@ -13699,12 +18174,20 @@ Proceed?</translation>
   <context>
     <name>StdViewDockUndockFullscreen</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1976"/>
+=======
+      <location filename="../CommandView.cpp" line="1879"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>D&amp;ocument Window</source>
       <translation type="unfinished">D&amp;ocument Window</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1977"/>
+=======
+      <location filename="../CommandView.cpp" line="1880"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation type="unfinished">Displays the active view either in fullscreen, undocked, or docked mode</translation>
     </message>
@@ -13712,12 +18195,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewVR</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2087"/>
+=======
+      <location filename="../CommandView.cpp" line="1990"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD VR</source>
       <translation type="unfinished">FreeCAD VR</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2088"/>
+=======
+      <location filename="../CommandView.cpp" line="1991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extends the FreeCAD 3D Window to a VR device</source>
       <translation type="unfinished">Extends the FreeCAD 3D Window to a VR device</translation>
     </message>
@@ -13725,12 +18216,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewCreate</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2360"/>
+=======
+      <location filename="../CommandView.cpp" line="2265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New 3D View</source>
       <translation type="unfinished">New 3D View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2361"/>
+=======
+      <location filename="../CommandView.cpp" line="2266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a new 3D view window for the active document</source>
       <translation type="unfinished">Opens a new 3D view window for the active document</translation>
     </message>
@@ -13738,12 +18237,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdToggleNavigation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2389"/>
+=======
+      <location filename="../CommandView.cpp" line="2294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Navigation/&amp;Edit Mode</source>
       <translation type="unfinished">Toggle Navigation/&amp;Edit Mode</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2390"/>
+=======
+      <location filename="../CommandView.cpp" line="2295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles between navigation and edit mode</source>
       <translation type="unfinished">Toggles between navigation and edit mode</translation>
     </message>
@@ -13751,12 +18258,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdAxisCross</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2437"/>
+=======
+      <location filename="../CommandView.cpp" line="2342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle A&amp;xis Cross</source>
       <translation type="unfinished">Toggle A&amp;xis Cross</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2438"/>
+=======
+      <location filename="../CommandView.cpp" line="2343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the axis cross at the origin</source>
       <translation type="unfinished">Toggles the axis cross at the origin</translation>
     </message>
@@ -13764,25 +18279,69 @@ Proceed?</translation>
   <context>
     <name>StdCmdViewExample3</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2543"/>
+=======
+      <location filename="../CommandView.cpp" line="2448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inventor Example #3</source>
       <translation type="unfinished">Inventor Example #3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2544"/>
+=======
+      <location filename="../CommandView.cpp" line="2449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows an animated texture</source>
       <translation type="unfinished">Shows an animated texture</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>StdCmdViewIvIssueCamPos</name>
     <message>
       <location filename="../CommandView.cpp" line="2572"/>
+=======
+    <name>StdCmdViewIvStereoRedGreen</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2506"/>
+      <source>Stereo Re&amp;d/Cyan</source>
+      <translation type="unfinished">Stereo Re&amp;d/Cyan</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2507"/>
+      <source>Switches stereo viewing to red/cyan</source>
+      <translation type="unfinished">Switches stereo viewing to red/cyan</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvStereoQuadBuff</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2534"/>
+      <source>Stereo &amp;Quad Buffer</source>
+      <translation type="unfinished">Stereo &amp;Quad Buffer</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2535"/>
+      <source>Switches stereo viewing to quad buffer</source>
+      <translation type="unfinished">Switches stereo viewing to quad buffer</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvIssueCamPos</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Issue Camera &amp;Position</source>
       <translation type="unfinished">Issue Camera &amp;Position</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2573"/>
+=======
+      <location filename="../CommandView.cpp" line="2620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Issues the camera position to the console and to a macro, to easily recall this position</source>
       <translation type="unfinished">Issues the camera position to the console and to a macro, to easily recall this position</translation>
     </message>
@@ -13790,12 +18349,20 @@ Proceed?</translation>
   <context>
     <name>StdViewBoxZoom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2825"/>
+=======
+      <location filename="../CommandView.cpp" line="2867"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Box Zoom</source>
       <translation type="unfinished">&amp;Box Zoom</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2826"/>
+=======
+      <location filename="../CommandView.cpp" line="2868"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates the box zoom tool</source>
       <translation type="unfinished">Activates the box zoom tool</translation>
     </message>
@@ -13803,12 +18370,20 @@ Proceed?</translation>
   <context>
     <name>StdBoxSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2859"/>
+=======
+      <location filename="../CommandView.cpp" line="2901"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Box Selection</source>
       <translation type="unfinished">&amp;Box Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2860"/>
+=======
+      <location filename="../CommandView.cpp" line="2902"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates the box selection tool</source>
       <translation type="unfinished">Activates the box selection tool</translation>
     </message>
@@ -13816,12 +18391,20 @@ Proceed?</translation>
   <context>
     <name>StdBoxElementSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2926"/>
+=======
+      <location filename="../CommandView.cpp" line="3176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bo&amp;x Element Selection</source>
       <translation type="unfinished">Bo&amp;x Element Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2927"/>
+=======
+      <location filename="../CommandView.cpp" line="3177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates box element selection</source>
       <translation type="unfinished">Activates box element selection</translation>
     </message>
@@ -13829,12 +18412,20 @@ Proceed?</translation>
   <context>
     <name>StdTreeSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2982"/>
+=======
+      <location filename="../CommandView.cpp" line="3232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Go to Selection</source>
       <translation type="unfinished">&amp;Go to Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2983"/>
+=======
+      <location filename="../CommandView.cpp" line="3233"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scrolls to the first selected item</source>
       <translation type="unfinished">Scrolls to the first selected item</translation>
     </message>
@@ -13842,12 +18433,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdTreeCollapse</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3007"/>
+=======
+      <location filename="../CommandView.cpp" line="3257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapse Selected Items</source>
       <translation type="unfinished">Collapse Selected Items</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3008"/>
+=======
+      <location filename="../CommandView.cpp" line="3258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapses the currently selected tree items</source>
       <translation type="unfinished">Collapses the currently selected tree items</translation>
     </message>
@@ -13855,12 +18454,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdTreeExpand</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3033"/>
+=======
+      <location filename="../CommandView.cpp" line="3283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expand Selected Items</source>
       <translation type="unfinished">Expand Selected Items</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3034"/>
+=======
+      <location filename="../CommandView.cpp" line="3284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expands the currently selected tree items</source>
       <translation type="unfinished">Expands the currently selected tree items</translation>
     </message>
@@ -13868,12 +18475,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdTreeSelectAllInstances</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3059"/>
+=======
+      <location filename="../CommandView.cpp" line="3309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select All Instances</source>
       <translation type="unfinished">Select All Instances</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3060"/>
+=======
+      <location filename="../CommandView.cpp" line="3310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all instances of the currently selected object</source>
       <translation type="unfinished">Selects all instances of the currently selected object</translation>
     </message>
@@ -13881,12 +18496,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdSceneInspector</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3127"/>
+=======
+      <location filename="../CommandView.cpp" line="3377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scene I&amp;nspector</source>
       <translation type="unfinished">Scene I&amp;nspector</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3128"/>
+=======
+      <location filename="../CommandView.cpp" line="3378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the scene inspector</source>
       <translation type="unfinished">Opens the scene inspector</translation>
     </message>
@@ -13894,12 +18517,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdTextureMapping</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3161"/>
+=======
+      <location filename="../CommandView.cpp" line="3411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Text&amp;ure Mapping</source>
       <translation type="unfinished">Text&amp;ure Mapping</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3162"/>
+=======
+      <location filename="../CommandView.cpp" line="3412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maps textures to shapes</source>
       <translation type="unfinished">Maps textures to shapes</translation>
     </message>
@@ -13907,12 +18538,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdDemoMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3187"/>
+=======
+      <location filename="../CommandView.cpp" line="3437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View &amp;Turntable</source>
       <translation type="unfinished">View &amp;Turntable</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3188"/>
+=======
+      <location filename="../CommandView.cpp" line="3438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a turntable view</source>
       <translation type="unfinished">Opens a turntable view</translation>
     </message>
@@ -13920,12 +18559,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdSelBack</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3217"/>
+=======
+      <location filename="../CommandView.cpp" line="3467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection &amp;Back</source>
       <translation type="unfinished">Selection &amp;Back</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3219"/>
+=======
+      <location filename="../CommandView.cpp" line="3469"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restores the previous tree view selection. Only works if tree RecordSelection mode is switched on.</source>
       <translation type="unfinished">Restores the previous tree view selection. Only works if tree RecordSelection mode is switched on.</translation>
     </message>
@@ -13933,12 +18580,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdSelForward</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3251"/>
+=======
+      <location filename="../CommandView.cpp" line="3501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection &amp;Forward</source>
       <translation type="unfinished">Selection &amp;Forward</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3253"/>
+=======
+      <location filename="../CommandView.cpp" line="3503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restores the next tree view selection. Only works if tree RecordSelection mode is switched on.</source>
       <translation type="unfinished">Restores the next tree view selection. Only works if tree RecordSelection mode is switched on.</translation>
     </message>
@@ -13946,12 +18601,20 @@ Proceed?</translation>
   <context>
     <name>StdTreeSingleDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3309"/>
+=======
+      <location filename="../CommandView.cpp" line="3559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Single Document</source>
       <translation type="unfinished">&amp;Single Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3310"/>
+=======
+      <location filename="../CommandView.cpp" line="3560"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays only the active document in the tree view</source>
       <translation type="unfinished">Displays only the active document in the tree view</translation>
     </message>
@@ -13959,12 +18622,20 @@ Proceed?</translation>
   <context>
     <name>StdTreeMultiDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3326"/>
+=======
+      <location filename="../CommandView.cpp" line="3576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Multi Document</source>
       <translation type="unfinished">&amp;Multi Document</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3327"/>
+=======
+      <location filename="../CommandView.cpp" line="3577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays all documents in the tree view</source>
       <translation type="unfinished">Displays all documents in the tree view</translation>
     </message>
@@ -13972,12 +18643,21 @@ Proceed?</translation>
   <context>
     <name>StdTreeSyncView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3386"/>
       <source>Sync View</source>
       <translation type="unfinished">Sync View</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3387"/>
+=======
+      <location filename="../CommandView.cpp" line="3636"/>
+      <source>&amp;1 Sync View</source>
+      <translation type="unfinished">&amp;1 Sync View</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3637"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switches to the 3D view containing the selected item from the tree view</source>
       <translation type="unfinished">Switches to the 3D view containing the selected item from the tree view</translation>
     </message>
@@ -13985,12 +18665,21 @@ Proceed?</translation>
   <context>
     <name>StdTreeSyncSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3406"/>
       <source>Sync Selection</source>
       <translation type="unfinished">Sync Selection</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3407"/>
+=======
+      <location filename="../CommandView.cpp" line="3656"/>
+      <source>&amp;2 Sync Selection</source>
+      <translation type="unfinished">&amp;2 Sync Selection</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3657"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expands the tree item when the corresponding object is selected in the 3D view</source>
       <translation type="unfinished">Expands the tree item when the corresponding object is selected in the 3D view</translation>
     </message>
@@ -13998,12 +18687,21 @@ Proceed?</translation>
   <context>
     <name>StdTreeSyncPlacement</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3426"/>
       <source>Sync Placement</source>
       <translation type="unfinished">Sync Placement</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3428"/>
+=======
+      <location filename="../CommandView.cpp" line="3676"/>
+      <source>&amp;3 Sync Placement</source>
+      <translation type="unfinished">&amp;3 Sync Placement</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adjusts the placement on drag-and-drop of objects across coordinate systems (e.g. in part containers)</source>
       <translation type="unfinished">Adjusts the placement on drag-and-drop of objects across coordinate systems (e.g. in part containers)</translation>
     </message>
@@ -14011,12 +18709,21 @@ Proceed?</translation>
   <context>
     <name>StdTreeRecordSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3465"/>
       <source>Record Selection</source>
       <translation type="unfinished">Record Selection</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3467"/>
+=======
+      <location filename="../CommandView.cpp" line="3715"/>
+      <source>&amp;5 Record Selection</source>
+      <translation type="unfinished">&amp;5 Record Selection</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Records the selection in the tree view in order to go back/forward using the navigation buttons</source>
       <translation type="unfinished">Records the selection in the tree view in order to go back/forward using the navigation buttons</translation>
     </message>
@@ -14024,12 +18731,20 @@ Proceed?</translation>
   <context>
     <name>StdTreeDrag</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3484"/>
+=======
+      <location filename="../CommandView.cpp" line="3734"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initiate &amp;Dragging</source>
       <translation type="unfinished">Initiate &amp;Dragging</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3485"/>
+=======
+      <location filename="../CommandView.cpp" line="3735"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initiates dragging of the currently selected tree items</source>
       <translation type="unfinished">Initiates dragging of the currently selected tree items</translation>
     </message>
@@ -14037,12 +18752,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdTreeViewActions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3517"/>
+=======
+      <location filename="../CommandView.cpp" line="3767"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View Actions</source>
       <translation type="unfinished">Tree View Actions</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3518"/>
+=======
+      <location filename="../CommandView.cpp" line="3768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree view behavior options and actions</source>
       <translation type="unfinished">Tree view behavior options and actions</translation>
     </message>
@@ -14050,12 +18773,20 @@ Proceed?</translation>
   <context>
     <name>StdCmdSelBoundingBox</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3562"/>
+=======
+      <location filename="../CommandView.cpp" line="3812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Bounding Box</source>
       <translation type="unfinished">&amp;Bounding Box</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3563"/>
+=======
+      <location filename="../CommandView.cpp" line="3813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows selection bounding box</source>
       <translation type="unfinished">Shows selection bounding box</translation>
     </message>
@@ -14063,25 +18794,43 @@ Proceed?</translation>
   <context>
     <name>StdCmdDockOverlayAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3609"/>
+=======
+      <location filename="../CommandView.cpp" line="3859"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Overl&amp;ay for All Panels</source>
       <translation type="unfinished">Toggle Overl&amp;ay for All Panels</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3610"/>
       <source>Toggles overlay mode for all docked panels</source>
       <translation type="unfinished">Toggles overlay mode for all docked panels</translation>
+=======
+      <location filename="../CommandView.cpp" line="3860"/>
+      <source>Toggled overlay mode for all docked panels</source>
+      <translation type="unfinished">Toggled overlay mode for all docked panels</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdDockOverlayTransparentAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3632"/>
+=======
+      <location filename="../CommandView.cpp" line="3882"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Tra&amp;nsparent Panels</source>
       <translation type="unfinished">Toggle Tra&amp;nsparent Panels</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3633"/>
+=======
+      <location filename="../CommandView.cpp" line="3883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles transparent mode for all docked overlay panels.
 This makes the docked panels stay transparent at all times.</source>
       <translation type="unfinished">Toggles transparent mode for all docked overlay panels.
@@ -14091,12 +18840,20 @@ This makes the docked panels stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayToggle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3658"/>
+=======
+      <location filename="../CommandView.cpp" line="3908"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Overlay</source>
       <translation type="unfinished">Toggle &amp;Overlay</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3659"/>
+=======
+      <location filename="../CommandView.cpp" line="3909"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles overlay mode for the docked window under the cursor</source>
       <translation type="unfinished">Toggles overlay mode for the docked window under the cursor</translation>
     </message>
@@ -14104,12 +18861,20 @@ This makes the docked panels stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayToggleTransparent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3681"/>
+=======
+      <location filename="../CommandView.cpp" line="3931"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Tran&amp;sparent Mode</source>
       <translation type="unfinished">Toggle Tran&amp;sparent Mode</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3682"/>
+=======
+      <location filename="../CommandView.cpp" line="3932"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles transparent mode for the docked panel under cursor.
 This makes the docked panel stay transparent at all times.</source>
       <translation type="unfinished">Toggles transparent mode for the docked panel under cursor.
@@ -14119,12 +18884,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayToggleLeft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3707"/>
+=======
+      <location filename="../CommandView.cpp" line="3957"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Left</source>
       <translation type="unfinished">Toggle &amp;Left</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3708"/>
+=======
+      <location filename="../CommandView.cpp" line="3958"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the left overlay panel</source>
       <translation type="unfinished">Toggles the visibility of the left overlay panel</translation>
     </message>
@@ -14132,12 +18905,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayToggleRight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3732"/>
+=======
+      <location filename="../CommandView.cpp" line="3982"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Right</source>
       <translation type="unfinished">Toggle &amp;Right</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3733"/>
+=======
+      <location filename="../CommandView.cpp" line="3983"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the right overlay panel</source>
       <translation type="unfinished">Toggles the visibility of the right overlay panel</translation>
     </message>
@@ -14145,12 +18926,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayToggleTop</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3757"/>
+=======
+      <location filename="../CommandView.cpp" line="4007"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Top</source>
       <translation type="unfinished">Toggle &amp;Top</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3758"/>
+=======
+      <location filename="../CommandView.cpp" line="4008"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the top overlay panel</source>
       <translation type="unfinished">Toggles the visibility of the top overlay panel</translation>
     </message>
@@ -14158,12 +18947,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayToggleBottom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3782"/>
+=======
+      <location filename="../CommandView.cpp" line="4032"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Bottom</source>
       <translation type="unfinished">Toggle &amp;Bottom</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3783"/>
+=======
+      <location filename="../CommandView.cpp" line="4033"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the bottom overlay panel</source>
       <translation type="unfinished">Toggles the visibility of the bottom overlay panel</translation>
     </message>
@@ -14171,12 +18968,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlayMouseTransparent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3807"/>
+=======
+      <location filename="../CommandView.cpp" line="4057"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bypass &amp;Mouse Events in Overlay Panels</source>
       <translation type="unfinished">Bypass &amp;Mouse Events in Overlay Panels</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3808"/>
+=======
+      <location filename="../CommandView.cpp" line="4058"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bypasses all mouse events in docked overlay panels</source>
       <translation type="unfinished">Bypasses all mouse events in docked overlay panels</translation>
     </message>
@@ -14184,12 +18989,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdDockOverlay</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3853"/>
+=======
+      <location filename="../CommandView.cpp" line="4103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overlay Docked Panel</source>
       <translation type="unfinished">Overlay Docked Panel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3854"/>
+=======
+      <location filename="../CommandView.cpp" line="4104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the docked panel in overlay mode</source>
       <translation type="unfinished">Sets the docked panel in overlay mode</translation>
     </message>
@@ -14197,12 +19010,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdStoreWorkingView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3987"/>
+=======
+      <location filename="../CommandView.cpp" line="4138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>St&amp;ore Working View</source>
       <translation type="unfinished">St&amp;ore Working View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3988"/>
+=======
+      <location filename="../CommandView.cpp" line="4139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stores a temporary working view for the current document</source>
       <translation type="unfinished">Stores a temporary working view for the current document</translation>
     </message>
@@ -14210,12 +19031,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdRecallWorkingView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4015"/>
+=======
+      <location filename="../CommandView.cpp" line="4168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>R&amp;ecall Working View</source>
       <translation type="unfinished">R&amp;ecall Working View</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4016"/>
+=======
+      <location filename="../CommandView.cpp" line="4169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recalls a previously stored temporary working view</source>
       <translation type="unfinished">Recalls a previously stored temporary working view</translation>
     </message>
@@ -14223,12 +19052,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdAlignToSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4043"/>
+=======
+      <location filename="../CommandView.cpp" line="4201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Align to Selection</source>
       <translation type="unfinished">&amp;Align to Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4044"/>
+=======
+      <location filename="../CommandView.cpp" line="4202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the camera view to the selected elements in the 3D view</source>
       <translation type="unfinished">Aligns the camera view to the selected elements in the 3D view</translation>
     </message>
@@ -14291,13 +19128,22 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::FileChooser</name>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1259"/>
       <location filename="../FileDialog.cpp" line="1269"/>
+=======
+      <location filename="../FileDialog.cpp" line="864"/>
+      <location filename="../FileDialog.cpp" line="874"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a File</source>
       <translation type="unfinished">Select a File</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1279"/>
+=======
+      <location filename="../FileDialog.cpp" line="884"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a Directory</source>
       <translation type="unfinished">Select a Directory</translation>
     </message>
@@ -14313,7 +19159,11 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::OverlayTitleBar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayWidgets.cpp" line="2214"/>
+=======
+      <location filename="../OverlayWidgets.cpp" line="2195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mouse pass through, Esc to stop</source>
       <translation type="unfinished">Mouse pass through, Esc to stop</translation>
     </message>
@@ -14329,7 +19179,11 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::TreeDockWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="4317"/>
+=======
+      <location filename="../Tree.cpp" line="4180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View</source>
       <translation>Puunäkymä</translation>
     </message>
@@ -14337,48 +19191,85 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::Dialog::DlgExpressionInput</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="79"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revert to last calculated value (as constant)</source>
       <translation>Palauta viimeiseen laskettuun arvoon (vakiona)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="404"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> (Warning: unit discarded)</source>
       <translation type="unfinished"> (Warning: unit discarded)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="510"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid property name: %1</source>
       <translation type="unfinished">Invalid property name: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="514"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unknown object</source>
       <translation type="unfinished">Unknown object</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="520"/>
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="925"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="510"/>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="924"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>the name cannot be empty</source>
       <translation type="unfinished">the name cannot be empty</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="530"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="520"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 is a unit</source>
       <translation type="unfinished">%1 is a unit</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="535"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="525"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 is a constant</source>
       <translation type="unfinished">%1 is a constant</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="541"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="531"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 already exists</source>
       <translation type="unfinished">%1 already exists</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="921"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="920"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid group name: %1</source>
       <translation type="unfinished">Invalid group name: %1</translation>
     </message>
@@ -14401,40 +19292,70 @@ This makes the docked panel stay transparent at all times.</translation>
       <translation>Väri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="71"/>
       <source>Tuple</source>
       <translation type="unfinished">Tuple</translation>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="281"/>
+      <source>New parameter...</source>
+      <translation type="unfinished">New parameter...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Gui::StyleParametersModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="358"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All Theme Editor Parameters</source>
       <translation type="unfinished">All Theme Editor Parameters</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="428"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Root</source>
       <translation type="unfinished">Root</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="503"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Nimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="505"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="502"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expression</source>
       <translation type="unfinished">Expression</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="507"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preview</source>
       <translation>Esikatselu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="509"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Tyyppi</translation>
     </message>
@@ -14442,8 +19363,13 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::Dialog::DlgCustomToolBoxbarsImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="886"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="895"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="881"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="890"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toolbox Bars</source>
       <translation type="unfinished">Toolbox Bars</translation>
     </message>
@@ -14474,7 +19400,11 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::PropertyEditor::LinkLabel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="4699"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="4615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes the linked object</source>
       <translation type="unfinished">Changes the linked object</translation>
     </message>
@@ -14495,17 +19425,30 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Exceptions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="306"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Value out of range (%1 out of [%2, %3])</source>
       <translation type="unfinished">Value out of range (%1 out of [%2, %3])</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="389"/>
       <source>Not a Number</source>
       <translation type="unfinished">Not a Number</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="397"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="378"/>
+      <source>Not a number</source>
+      <translation type="unfinished">Not a number</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unit mismatch between result and required unit</source>
       <translation type="unfinished">Unit mismatch between result and required unit</translation>
     </message>
@@ -14513,12 +19456,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>StdCmdClarifySelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4071"/>
+=======
+      <location filename="../CommandView.cpp" line="4229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clarify Selection</source>
       <translation type="unfinished">Clarify Selection</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4072"/>
+=======
+      <location filename="../CommandView.cpp" line="4230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays a context menu at the mouse cursor to select overlapping or obstructed geometry in the 3D view.
 </source>
       <translation type="unfinished">Displays a context menu at the mouse cursor to select overlapping or obstructed geometry in the 3D view.
@@ -14528,7 +19479,11 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::SelectionMenu</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Selection/SelectionView.cpp" line="1182"/>
+=======
+      <location filename="../Selection/SelectionView.cpp" line="1176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Whole Object</source>
       <translation type="unfinished">Whole Object</translation>
     </message>
@@ -14592,12 +19547,20 @@ This makes the docked panel stay transparent at all times.</translation>
       <translation type="unfinished">Use a new default configuration</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="511"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migration complete</source>
       <translation type="unfinished">Migration complete</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="548"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New default configuration created</source>
       <translation type="unfinished">New default configuration created</translation>
     </message>
@@ -14605,12 +19568,20 @@ This makes the docked panel stay transparent at all times.</translation>
   <context>
     <name>Gui::StatusBarLabel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../StatusBarLabel.cpp" line="90"/>
+=======
+      <location filename="../StatusBarLabel.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy</source>
       <translation>Kopio</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../StatusBarLabel.cpp" line="95"/>
+=======
+      <location filename="../StatusBarLabel.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select All</source>
       <translation>Valitse kaikki</translation>
     </message>

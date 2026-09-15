@@ -494,10 +494,13 @@ void EditDatumDialog::performAutoScale(double newDatum)
             }
 
             double scaleFactor = newDatum / oldDatum;
+<<<<<<< HEAD
             if (!std::isfinite(scaleFactor) || scaleFactor <= Precision::Confusion()
                 || std::abs(scaleFactor - 1.0) <= Precision::Confusion()) {
                 return;
             }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             centerScale(scaleFactor);
 
             // Some constraints cannot be scaled so the actual datum constraint

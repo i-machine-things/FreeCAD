@@ -457,10 +457,16 @@ private:
                             newConstr->Second = firstIndexi;
                         }
                     }
+<<<<<<< HEAD
                     else if (
                         (cstr->Type == Distance || cstr->Type == DistanceX || cstr->Type == DistanceY)
                         && firstIndex >= 0
                     ) {
+=======
+                    else if ((cstr->Type == Distance || cstr->Type == DistanceX
+                              || cstr->Type == DistanceY)
+                             && firstIndex >= 0) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                         if (!deleteOriginal && cloneConstraints
                             && (cstr->First == cstr->Second || secondIndex < 0)) {  // only line
                                                                                     // distances

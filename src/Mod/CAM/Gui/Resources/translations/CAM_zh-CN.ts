@@ -710,8 +710,13 @@ For stock from the base object&apos;s bounding box it means the extra material i
     </message>
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="72"/>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseLocationEdit.ui" line="43"/>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="157"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="52"/>
+      <location filename="../panels/PageBaseLocationEdit.ui" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PropertyBag.ui" line="62"/>
       <source>Add</source>
       <translation>添加</translation>
@@ -723,8 +728,13 @@ For stock from the base object&apos;s bounding box it means the extra material i
     </message>
     <message>
       <location filename="../panels/PageBaseGeometryEdit.ui" line="82"/>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseLocationEdit.ui" line="53"/>
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="167"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="62"/>
+      <location filename="../panels/PageBaseLocationEdit.ui" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PropertyBag.ui" line="48"/>
       <source>Remove</source>
       <translation>删除</translation>
@@ -742,7 +752,11 @@ For stock from the base object&apos;s bounding box it means the extra material i
     </message>
     <message>
       <location filename="../panels/ToolEditor.ui" line="96"/>
+<<<<<<< HEAD
       <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="129"/>
+=======
+      <location filename="../panels/PageBaseHoleGeometryEdit.ui" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter</source>
       <translation>直径</translation>
     </message>
@@ -1034,6 +1048,7 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape
       <translation>冷却液模式</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpRotarySurfaceEdit.ui" line="24"/>
       <location filename="../panels/PageOpVcarveEdit.ui" line="29"/>
       <location filename="../panels/SetupGlobal.ui" line="180"/>
@@ -1041,10 +1056,19 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape
       <location filename="../panels/PageOpHelixEdit.ui" line="29"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="29"/>
       <location filename="../panels/PageOpThreadMillingEdit.ui" line="29"/>
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="29"/>
+      <location filename="../panels/SetupGlobal.ui" line="180"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="29"/>
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="29"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="29"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Controller</source>
       <translation>刀具控制器</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpRotarySurfaceEdit.ui" line="29"/>
       <source>Tool controller that supplies the cutter geometry, feed and speed for this operation.</source>
       <translation>为此操作提供刀具几何形状、进给量和转速的刀具控制器。</translation>
@@ -1053,7 +1077,11 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape
       <location filename="../panels/PageOpRotarySurfaceEdit.ui" line="34"/>
       <location filename="../panels/SetupGlobal.ui" line="249"/>
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="33"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PageOpHelixEdit.ui" line="43"/>
+      <location filename="../panels/SetupGlobal.ui" line="249"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="33"/>
       <source>Coolant</source>
       <translation>冷却液</translation>
     </message>
@@ -1212,6 +1240,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>螺旋入口锥角度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSlotEdit.ui" line="35"/>
       <location filename="../panels/PageOpMillFacingEdit.ui" line="35"/>
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="23"/>
@@ -1222,10 +1251,22 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../panels/PageOpProfileFullEdit.ui" line="29"/>
       <location filename="../panels/PageOpProbeEdit.ui" line="35"/>
       <location filename="../panels/PageOpCustomEdit.ui" line="35"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="53"/>
+      <location filename="../panels/PageOpSlotEdit.ui" line="35"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="35"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="29"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="29"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="29"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="29"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="23"/>
+      <location filename="../panels/PageOpProbeEdit.ui" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool controller</source>
       <translation>刀具控制器</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSlotEdit.ui" line="59"/>
       <location filename="../panels/PageOpVcarveEdit.ui" line="57"/>
       <location filename="../panels/PageOpDrillingEdit.ui" line="97"/>
@@ -1242,6 +1283,23 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../panels/PageOpProbeEdit.ui" line="49"/>
       <location filename="../panels/PageOpThreadMillingEdit.ui" line="43"/>
       <location filename="../panels/PageOpCustomEdit.ui" line="59"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="99"/>
+      <location filename="../panels/PageOpSlotEdit.ui" line="59"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="57"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="59"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="57"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="57"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="57"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="57"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="53"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="43"/>
+      <location filename="../panels/PageOpProbeEdit.ui" line="49"/>
+      <location filename="../panels/PageOpThreadMillingEdit.ui" line="43"/>
+      <location filename="../panels/PageOpTappingEdit.ui" line="117"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="57"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="73"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Tool Controller</source>
       <translation>编辑刀具控制器</translation>
     </message>
@@ -1276,6 +1334,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>切削刀具在连续路径之间移动的侧向距离，以刀具直径的百分比表示。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="178"/>
       <source>Step over (percent)</source>
       <translation>步距（百分比）</translation>
@@ -1340,6 +1399,10 @@ Larger values (further to the right) will calculate faster; smaller values (furt
     </message>
     <message>
       <location filename="../panels/PageOpAdaptiveEdit.ui" line="202"/>
+=======
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="244"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use outline</source>
       <translation>使用轮廓</translation>
     </message>
@@ -1370,6 +1433,7 @@ Larger values (further to the right) will calculate faster; smaller values (furt
     </message>
     <message>
       <location filename="../panels/PageOpDeburrEdit.ui" line="138"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="94"/>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="89"/>
       <location filename="../panels/PageOpThreadMillingEdit.ui" line="188"/>
       <source>Direction</source>
@@ -1402,6 +1466,8 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>斜接</translation>
     </message>
     <message>
+      <location filename="../panels/PageOpDeburrEdit.ui" line="205"/>
+      <location filename="../panels/PageOpDeburrEdit.ui" line="232"/>
       <location filename="../panels/ToolEditor.ui" line="77"/>
       <location filename="../panels/ToolEditor.ui" line="134"/>
       <location filename="../panels/ToolEditor.ui" line="144"/>
@@ -1411,8 +1477,6 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <location filename="../panels/ToolEditor.ui" line="223"/>
       <location filename="../panels/ToolEditor.ui" line="240"/>
       <location filename="../panels/ToolEditor.ui" line="280"/>
-      <location filename="../panels/PageOpDeburrEdit.ui" line="205"/>
-      <location filename="../panels/PageOpDeburrEdit.ui" line="232"/>
       <source>mm</source>
       <translation>mm</translation>
     </message>
@@ -1613,6 +1677,21 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>额外偏移</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../panels/PageOpHelixEdit.ui" line="125"/>
+      <source>Specify the percent of the tool diameter each helix will be offset to the previous one. A step over of 100% means no overlap of the individual cuts.</source>
+      <translation>指定每个螺旋相对于上一个螺旋的偏移距离(按刀具直径的百分比)。超过100%意味着单个切割没有重叠。</translation>
+    </message>
+    <message>
+      <location filename="../panels/PageOpHelixEdit.ui" line="118"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="185"/>
+      <location filename="../panels/PageOpAdaptiveEdit.ui" line="172"/>
+      <source>Step over percent</source>
+      <translation>步距百分比</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PageOpPocketExtEdit.ui" line="58"/>
       <source>Show All</source>
       <translation>显示全部</translation>
@@ -1716,6 +1795,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>模式</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpVcarveEdit.ui" line="36"/>
       <location filename="../panels/PageOpVcarveEdit.ui" line="50"/>
       <location filename="../panels/PageOpDrillingEdit.ui" line="66"/>
@@ -1729,16 +1809,37 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <location filename="../panels/PageOpWaterlineEdit.ui" line="36"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="36"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="50"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="60"/>
+      <location filename="../panels/PageOpDeburrEdit.ui" line="92"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="36"/>
+      <location filename="../panels/PageOpHelixEdit.ui" line="50"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="42"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="36"/>
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PageOpEngraveEdit.ui" line="36"/>
       <location filename="../panels/PageOpEngraveEdit.ui" line="50"/>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="36"/>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="50"/>
+<<<<<<< HEAD
       <location filename="../panels/PageOpProbeEdit.ui" line="42"/>
       <location filename="../panels/PageOpCustomEdit.ui" line="42"/>
+=======
+      <location filename="../panels/PageOpVcarveEdit.ui" line="36"/>
+      <location filename="../panels/PageOpVcarveEdit.ui" line="50"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="36"/>
+      <location filename="../panels/PageOpProbeEdit.ui" line="42"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="36"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="50"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="42"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool and its settings to be used for this operation</source>
       <translation>用于此操作的刀具及其设置</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSlotEdit.ui" line="52"/>
       <location filename="../panels/SetupGlobal.ui" line="261"/>
       <location filename="../panels/PageOpDrillingEdit.ui" line="73"/>
@@ -1750,6 +1851,18 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <location filename="../panels/PageOpProfileFullEdit.ui" line="43"/>
       <location filename="../panels/PageOpTappingEdit.ui" line="58"/>
       <location filename="../panels/PageOpCustomEdit.ui" line="49"/>
+=======
+      <location filename="../panels/PageOpDeburrEdit.ui" line="85"/>
+      <location filename="../panels/PageOpSlotEdit.ui" line="52"/>
+      <location filename="../panels/PageOpCustomEdit.ui" line="49"/>
+      <location filename="../panels/SetupGlobal.ui" line="261"/>
+      <location filename="../panels/PageOpEngraveEdit.ui" line="43"/>
+      <location filename="../panels/PageOpProfileFullEdit.ui" line="43"/>
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="46"/>
+      <location filename="../panels/PageOpTappingEdit.ui" line="96"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="43"/>
+      <location filename="../panels/PageOpDrillingEdit.ui" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coolant mode</source>
       <translation>冷却模式</translation>
     </message>
@@ -1918,9 +2031,14 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>指定此加工是否使用起点</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpPocketFullEdit.ui" line="271"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="271"/>
       <location filename="../panels/PageOpProfileFullEdit.ui" line="214"/>
+=======
+      <location filename="../panels/PageOpPocketFullEdit.ui" line="234"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use start point</source>
       <translation>使用起始点</translation>
     </message>
@@ -2221,6 +2339,10 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>正值延伸刀轨的终点，负值缩短刀轨的终点</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../panels/PageOpSlotEdit.ui" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PageOpWaterlineEdit.ui" line="117"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="105"/>
       <source>Complete the operation in a single pass at depth, or multiple passes to final depth</source>
@@ -2242,11 +2364,14 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>反转切割方向</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="73"/>
       <source>Select the algorithm to use: &apos;OCL Dropcutter*&apos;, &apos;OCL Adaptive*&apos; or &apos;Experimental&apos; (not OCL based).</source>
       <translation>选择要使用的算法： &apos; OCL 落刀切削 &apos;、&apos; OCL 自适应 &apos;或 &apos; 实验性 &apos;（非 OCL 基础）。</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../panels/PageOpWaterlineEdit.ui" line="86"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="70"/>
       <source>Bounding box</source>
@@ -2337,8 +2462,13 @@ The latter can be used to face of the entire stock area to ensure uniform height
       <translation>如果指定了起始点，则设置为 true</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/PageOpWaterlineEdit.ui" line="231"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="281"/>
+=======
+      <location filename="../panels/PageOpWaterlineEdit.ui" line="214"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Optimize linear paths</source>
       <translation>优化线性路径</translation>
     </message>
@@ -2359,12 +2489,17 @@ The latter can be used to face of the entire stock area to ensure uniform height
     </message>
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="201"/>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSurfaceEdit.ui" line="258"/>
+=======
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the sampling resolution. Smaller values quickly increase processing time.</source>
       <translation>设置采样分辨率。较小的值会迅速增加处理时间。</translation>
     </message>
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="211"/>
+<<<<<<< HEAD
       <source>Min Sample interval</source>
       <translation>最小采样间隔</translation>
     </message>
@@ -2376,6 +2511,9 @@ The latter can be used to face of the entire stock area to ensure uniform height
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="228"/>
       <location filename="../panels/PageOpSurfaceEdit.ui" line="278"/>
+=======
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable optimization of linear paths (co-linear points). Removes unnecessary co-linear points from G-code output.</source>
       <translation>启用线性刀轨（共线点）的优化。从G代码输出中删除不必要的共线点。</translation>
     </message>
@@ -2405,6 +2543,7 @@ The latter can be used to face of the entire stock area to ensure uniform height
     </message>
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="179"/>
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="229"/>
       <source>The amount by which the tool is laterally displaced on each cycle of the pattern, specified in percent of the tool diameter.
 
 A step over of 100% results in no overlap between two different cycles.</source>
@@ -2414,7 +2553,11 @@ A step over of 100% results in no overlap between two different cycles.</source>
     </message>
     <message>
       <location filename="../panels/PageOpWaterlineEdit.ui" line="194"/>
+<<<<<<< HEAD
       <location filename="../panels/PageOpSurfaceEdit.ui" line="251"/>
+=======
+      <location filename="../panels/PageOpSurfaceEdit.ui" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sample interval</source>
       <translation>采样间隔</translation>
     </message>
@@ -4669,7 +4812,11 @@ Default: 3 mm</source>
       <translation>保存合理性检查报告</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../PathScripts/PathUtilsGui.py" line="90"/>
+=======
+      <location filename="../../../PathScripts/PathUtilsGui.py" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose a CAM Job</source>
       <translation>选择一个CAM任务</translation>
     </message>
@@ -4733,7 +4880,11 @@ Default: 3 mm</source>
     <message>
       <location filename="../../../Path/Base/SetupSheet.py" line="126"/>
       <source>Default speed for horizontal rapid moves.</source>
+<<<<<<< HEAD
       <extracomment>float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=None) bool = field(default=False) str = field(default=&quot;G54&quot;) str = field(default=&quot;off&quot;) str = Z|R for G98/G99, for drill cycles float = field(default=None) int = field(default=0) int = field(default=None)</extracomment>
+=======
+      <extracomment>float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=0) float = field(default=None) bool = field(default=False) str = field(default=&quot;G54&quot;) str = field(default=&quot;off&quot;) int = field(default=0) int = field(default=None)</extracomment>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>水平快速移动的默认速度。</translation>
     </message>
     <message>
@@ -4789,6 +4940,7 @@ Default: 3 mm</source>
       <translation>用于新加工步长的表达式。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Base/SetupSheet.py" line="223"/>
       <location filename="../../../Path/Base/SetupSheet.py" line="431"/>
       <source>Default collision avoidance strategy for new operations.</source>
@@ -4798,6 +4950,12 @@ Default: 3 mm</source>
       <location filename="../../../Path/Dressup/Boundary.py" line="63"/>
       <location filename="../../../Path/Dressup/Tags.py" line="936"/>
       <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="57"/>
+=======
+      <location filename="../../../Path/Dressup/Tags.py" line="905"/>
+      <location filename="../../../Path/Dressup/Boundary.py" line="54"/>
+      <location filename="../../../Path/Dressup/Gui/AxisMap.py" line="56"/>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The base path to modify</source>
       <translation>要修改的基础刀轨</translation>
     </message>
@@ -4965,69 +5123,124 @@ Can be useful for multi profile operations, e.g. Pocket with ZigZagOffset patter
       <translation>修改刀具路径的切出</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="97"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="431"/>
       <location filename="../../../Path/Op/Profile.py" line="215"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="95"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set distance which will attempts to avoid unnecessary retractions</source>
       <translation>设置尝试避免不必要回缩的距离</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="103"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="297"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="101"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The style of motion into the toolpath</source>
       <translation>进入刀具路径的运动样式</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="110"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="314"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="108"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The style of motion out of the toolpath</source>
       <translation>退出刀具路径的运动样式</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="123"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="330"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="121"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of the Lead-In (1..90)</source>
       <translation>切入角度 (1..90)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="129"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="338"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="127"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of the Lead-Out (1..90)</source>
       <translation>切出角度 (1..90)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="135"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="367"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="133"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Determine length of the Lead-In</source>
       <translation>确定切入长度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="141"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="382"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="139"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Determine length of the Lead-Out</source>
       <translation>确定切出长度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="147"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="400"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="145"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="390"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invert Lead-In direction</source>
       <translation>反转切入方向</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="153"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="407"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="151"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invert Lead-Out direction</source>
       <translation>反转切出方向</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="159"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="414"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="157"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move start point</source>
       <translation>移动起点</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="165"/>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="421"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="163"/>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move end point</source>
       <translation>移动终点</translation>
     </message>
@@ -5198,9 +5411,15 @@ Above this depth ramps are not generated, but motion commands are passed through
       <translation>作业的所有刀具控制器的集合</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Job.py" line="543"/>
       <location filename="../../../Path/Op/Base.py" line="296"/>
       <location filename="../../../Path/Op/Base.py" line="569"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="187"/>
+      <location filename="../../../Path/Op/Base.py" line="444"/>
+      <location filename="../../../Path/Main/Job.py" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operations Cycle Time Estimation</source>
       <translation>加工周期时间估算</translation>
     </message>
@@ -5329,7 +5548,32 @@ Larger values (further to the right) will calculate faster; smaller values (furt
       <translation>在XY平面上留多少余量（例如用于精加工操作）</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1610"/>
+=======
+      <location filename="../../../Path/Op/Adaptive.py" line="1837"/>
+      <source>Orders cuts by region instead of depth. This property is only used if the ModelAwareExperiment is enabled.</source>
+      <translation>按区域而不是深度排序切割。此属性仅在启用ModelAwareExperiment时使用。</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1852"/>
+      <location filename="../../../Path/Op/Adaptive.py" line="1958"/>
+      <source>Enable the experimental model awareness feature to respect 3D geometry and prevent cutting under overhangs</source>
+      <translation>启用实验性模型感知功能以尊重3D几何形状并防止在悬垂下切割</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1947"/>
+      <source>How much stock to leave along the Z axis (eg for finishing operation)</source>
+      <translation>沿Z轴留多少余量（例如用于精加工操作）</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1737"/>
+      <source>Force plunging into material inside and clearing towards the edges</source>
+      <translation>强行插入材料内部并向边缘清除</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1728"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>How much stock to leave along the Z axis (eg for finishing operation). This property is only used if the ModelAwareExperiment is enabled.</source>
       <translation>沿Z轴留多少余量（例如用于精加工操作）。此属性仅在启用ModelAwareExperiment时使用。</translation>
     </message>
@@ -5362,6 +5606,7 @@ Set to zero to disable limitation by pitch</source>
       <translation>最小可用螺旋切入直径，以刀具直径的百分比表示</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1739"/>
       <source>Orders cuts by region instead of depth. This property is only used if the ModelAwareExperiment is enabled.</source>
       <translation>按区域而不是深度排序切割。此属性仅在启用ModelAwareExperiment时使用。</translation>
@@ -5405,22 +5650,48 @@ Set to zero to disable limitation by pitch</source>
     </message>
     <message>
       <location filename="../../../Path/Op/Adaptive.py" line="1663"/>
+=======
+      <location filename="../../../Path/Op/Adaptive.py" line="1790"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Internal output state</source>
       <translation>内部输出状态</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1694"/>
+=======
+      <location filename="../../../Path/Op/Adaptive.py" line="1801"/>
+      <source>Helix ramp entry angle (degrees)</source>
+      <translation>螺旋坡道入口角度（度）</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="1810"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Helix cone angle (degrees)</source>
       <translation>螺旋锥角（度）</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1721"/>
       <location filename="../../../Path/Op/PocketShape.py" line="168"/>
+=======
+      <location filename="../../../Path/Op/Adaptive.py" line="1819"/>
+      <source>Limit helix entry diameter, if limit larger than tool diameter or 0, tool diameter is used</source>
+      <translation>限制螺旋线入口直径，如果限制大于刀具直径或0，则使用刀具直径</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/PocketShape.py" line="67"/>
+      <location filename="../../../Path/Op/Adaptive.py" line="1828"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Uses the outline of the base geometry.</source>
       <translation>使用基础几何图形的轮廓铣。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Adaptive.py" line="1856"/>
+=======
+      <location filename="../../../Path/Op/Adaptive.py" line="1936"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orders cuts by region instead of depth.</source>
       <translation>按区域而不是深度排序切割。</translation>
     </message>
@@ -5538,8 +5809,13 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <translation>起始深度内部仅用于派生值</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="380"/>
       <location filename="../../../Path/Op/Base.py" line="586"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="260"/>
+      <location filename="../../../Path/Op/Base.py" line="452"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Incremental Step Down of Tool</source>
       <translation>刀具递进增量</translation>
     </message>
@@ -5564,10 +5840,17 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <translation>此刀轨的起点</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="463"/>
       <location filename="../../../Path/Op/Slot.py" line="223"/>
       <location filename="../../../Path/Op/Surface.py" line="418"/>
       <location filename="../../../Path/Op/Base.py" line="419"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="299"/>
+      <location filename="../../../Path/Op/Slot.py" line="235"/>
+      <location filename="../../../Path/Op/Surface.py" line="418"/>
+      <location filename="../../../Path/Op/Waterline.py" line="453"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make True, if specifying a Start Point</source>
       <translation>如果指定起点，则设为True</translation>
     </message>
@@ -5582,8 +5865,13 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <translation>车削直径的上限。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CAMTests/TestTestPost.py" line="657"/>
       <location filename="../../../Path/Op/Base.py" line="549"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="424"/>
+      <location filename="../../../CAMTests/TestRefactoredTestPost.py" line="665"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coolant option for this operation</source>
       <translation>此加工的冷却液选项</translation>
     </message>
@@ -5709,8 +5997,21 @@ Tool Shape: safest - checks clearance using the cross section of the tool shape<
       <translation>钻孔深度延长了多远</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Engrave.py" line="72"/>
       <location filename="../../../Path/Op/Vcarve.py" line="409"/>
+=======
+      <location filename="../../../Path/Op/Drilling.py" line="189"/>
+      <location filename="../../../Path/Op/Drilling.py" line="231"/>
+      <location filename="../../../Path/Op/Gui/Drilling.py" line="151"/>
+      <source>Apply G99 retraction: only retract to RetractHeight between holes in this operation</source>
+      <translation>应用G99回缩：此加工中仅回缩到孔之间的回缩高度</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Engrave.py" line="70"/>
+      <location filename="../../../Path/Op/Engrave.py" line="78"/>
+      <location filename="../../../Path/Op/Vcarve.py" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additional base objects to be engraved</source>
       <translation>额外的蚀刻基对象</translation>
     </message>
@@ -5917,10 +6218,17 @@ For External profile - profile radius</source>
       <translation>不包括铣削面内的凸起区域。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="267"/>
       <location filename="../../../Path/Op/Surface.py" line="240"/>
       <location filename="../../../Path/Op/Pocket.py" line="67"/>
       <location filename="../../../Path/Op/Profile.py" line="119"/>
+=======
+      <location filename="../../../Path/Op/Profile.py" line="116"/>
+      <location filename="../../../Path/Op/Pocket.py" line="67"/>
+      <location filename="../../../Path/Op/Surface.py" line="240"/>
+      <location filename="../../../Path/Op/Waterline.py" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose how to process multiple Base Geometry features.</source>
       <translation>选择如何处理多个基础几何体特征。</translation>
     </message>
@@ -6015,6 +6323,7 @@ Manual: uses order of shapes selection</source>
       <translation>要写入的探测数据的输出位置</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Probe.py" line="90"/>
       <location filename="../../../Path/Op/Probe.py" line="102"/>
       <source>Limit probe area by shape. Point should be inside shape at final depth</source>
@@ -6023,6 +6332,10 @@ Manual: uses order of shapes selection</source>
     <message>
       <location filename="../../../Path/Op/PocketBase.py" line="136"/>
       <location filename="../../../Path/Op/Profile.py" line="110"/>
+=======
+      <location filename="../../../Path/Op/Profile.py" line="107"/>
+      <location filename="../../../Path/Op/PocketBase.py" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The direction that the toolpath should go around the part ClockWise (CW) or CounterClockWise (CCW)</source>
       <translation>刀具路径绕零件运行的方向，顺时针(CW)或逆时针(CCW)</translation>
     </message>
@@ -6079,20 +6392,37 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
 应仅与“单独处理多个特征”配合使用，并禁用使用起点选项</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="205"/>
       <location filename="../../../Path/Op/Surface.py" line="128"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="128"/>
+      <location filename="../../../Path/Op/Waterline.py" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show the temporary path construction objects when module is in DEBUG mode.</source>
       <translation>当模块处于DEBUG模式时，显示临时刀轨构造对象。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="329"/>
       <location filename="../../../Path/Op/Surface.py" line="284"/>
+=======
+      <location filename="../../../Path/Op/Slot.py" line="148"/>
+      <location filename="../../../Path/Op/Surface.py" line="284"/>
+      <location filename="../../../Path/Op/Waterline.py" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the geometric clearing pattern to use for the operation.</source>
       <translation>设置用于加工的几何清除模式。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="370"/>
       <location filename="../../../Path/Op/Surface.py" line="319"/>
+=======
+      <location filename="../../../Path/Op/Slot.py" line="175"/>
+      <location filename="../../../Path/Op/Surface.py" line="319"/>
+      <location filename="../../../Path/Op/Waterline.py" line="369"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Complete the operation in a single pass at depth, or multiple passes to final depth.</source>
       <translation>一次完成最终加工深度，或在多次递进加工完成最终深度。</translation>
     </message>
@@ -6157,8 +6487,13 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>此操作刀具路径的自定义起点</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="457"/>
       <location filename="../../../Path/Op/Surface.py" line="412"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="412"/>
+      <location filename="../../../Path/Op/Waterline.py" line="447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The custom start point for the path of this operation</source>
       <translation>此加工刀轨的自定义起点</translation>
     </message>
@@ -6204,42 +6539,73 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>平面：平面、三维表面扫描。旋转：第4轴旋转扫描。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="232"/>
       <location filename="../../../Path/Op/Surface.py" line="205"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="205"/>
+      <location filename="../../../Path/Op/Waterline.py" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Avoid cutting the last &apos;N&apos; faces in the Base Geometry list of selected faces.</source>
       <translation>避免切割基础几何图形列表中最后&apos;N&apos;个面。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="240"/>
       <location filename="../../../Path/Op/Surface.py" line="213"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="213"/>
+      <location filename="../../../Path/Op/Waterline.py" line="239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not cut internal features on avoided faces.</source>
       <translation>不要在避让的面上剪切内部特征。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="249"/>
       <location filename="../../../Path/Op/Surface.py" line="222"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="222"/>
+      <location filename="../../../Path/Op/Waterline.py" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Positive values push the cutter toward, or beyond, the boundary. Negative values retract the cutter away from the boundary.</source>
       <translation>正值将刀具推向或超出边界。负值使刀具远离边界。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="258"/>
       <location filename="../../../Path/Op/Surface.py" line="231"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="231"/>
+      <location filename="../../../Path/Op/Waterline.py" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If true, the cutter will remain inside the boundaries of the model or selected face(s).</source>
       <translation>如果为 true，则刀具将保留在模型或选定面的边界内。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="276"/>
       <location filename="../../../Path/Op/Surface.py" line="249"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="249"/>
+      <location filename="../../../Path/Op/Waterline.py" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Positive values push the cutter toward, or into, the feature. Negative values retract the cutter away from the feature.</source>
       <translation>正值将刀具推向或推入特征。负值使刀具远离特征。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="285"/>
       <location filename="../../../Path/Op/Surface.py" line="258"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="258"/>
+      <location filename="../../../Path/Op/Waterline.py" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cut internal feature areas within a larger selected face.</source>
       <translation>在较大的选定面内剪切内部特征区域。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="294"/>
       <source>Select the algorithm to use: OCL Dropcutter*, OCL Adaptive or Experimental (Not OCL based).</source>
       <translation>选择要使用的算法：OCL 落刀切削、OCL 自适应或实验性算法（非 OCL 基础）。</translation>
@@ -6247,42 +6613,76 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="302"/>
       <location filename="../../../Path/Op/Surface.py" line="266"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="266"/>
+      <location filename="../../../Path/Op/Waterline.py" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select the overall boundary for the operation.</source>
       <translation>选择加工的总体边界。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="320"/>
       <location filename="../../../Path/Op/Surface.py" line="275"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="275"/>
+      <location filename="../../../Path/Op/Waterline.py" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the direction for the cutting tool to engage the material: Climb (ClockWise) or Conventional (CounterClockWise)</source>
       <translation>设置切割工具接合材料的方向：顺铣（顺时针）或逆铣（逆时针）</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="337"/>
       <location filename="../../../Path/Op/Surface.py" line="292"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="292"/>
+      <location filename="../../../Path/Op/Waterline.py" line="336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The yaw angle used for certain clearing patterns</source>
       <translation>用于某些清除模式的偏航角</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="346"/>
       <location filename="../../../Path/Op/Surface.py" line="301"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="301"/>
+      <location filename="../../../Path/Op/Waterline.py" line="345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse the cut order of the stepover paths. For circular cut patterns, begin at the outside and work toward the center.</source>
       <translation>反转步间刀轨的切割顺序。对于圆形切割图案，请从外侧开始，然后朝中心方向进行切割。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="355"/>
       <location filename="../../../Path/Op/Surface.py" line="310"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="310"/>
+      <location filename="../../../Path/Op/Waterline.py" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the Z-axis depth offset from the target surface.</source>
       <translation>设置Z轴与目标曲面的深度偏移。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="376"/>
       <location filename="../../../Path/Op/Surface.py" line="325"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="325"/>
+      <location filename="../../../Path/Op/Waterline.py" line="375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the start point for the cut pattern.</source>
       <translation>设置切割样式的起点。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="385"/>
       <location filename="../../../Path/Op/Surface.py" line="334"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="334"/>
+      <location filename="../../../Path/Op/Waterline.py" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose location of the center point for starting the cut pattern.</source>
       <translation>选择用于开始切割样式的中心点的位置。</translation>
     </message>
@@ -6292,12 +6692,18 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>对所选内容的边进行轮廓铣。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="394"/>
       <location filename="../../../Path/Op/Surface.py" line="349"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="349"/>
+      <location filename="../../../Path/Op/Waterline.py" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the sampling resolution. Smaller values quickly increase processing time.</source>
       <translation>设置采样分辨率。较小的值会迅速增加处理时间。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="403"/>
       <source>Set the minimum sampling resolution. Smaller values quickly increase processing time.</source>
       <translation>设置最小采样分辨率。数值越小，处理时间会急剧增加。</translation>
@@ -6305,18 +6711,32 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
     <message>
       <location filename="../../../Path/Op/Waterline.py" line="412"/>
       <location filename="../../../Path/Op/Surface.py" line="358"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="358"/>
+      <location filename="../../../Path/Op/Waterline.py" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set the stepover percentage, based on the tool&apos;s diameter.</source>
       <translation>根据刀具直径设置步进百分比。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="421"/>
       <location filename="../../../Path/Op/Surface.py" line="367"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="367"/>
+      <location filename="../../../Path/Op/Waterline.py" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable optimization of linear paths (co-linear points). Removes unnecessary co-linear points from G-code output.</source>
       <translation>启用线性路径（共线点）的优化。从G代码输出中删除不必要的共线点。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="430"/>
       <location filename="../../../Path/Op/Surface.py" line="376"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="376"/>
+      <location filename="../../../Path/Op/Waterline.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable separate optimization of transitions between, and breaks within, each step over path.</source>
       <translation>实现刀轨上每一步之间的转换和中断的单独优化。</translation>
     </message>
@@ -6326,14 +6746,24 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>将共面圆弧转换为“Circular”和“CircularZigZag”切割样式的G2/G3 G代码命令。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="439"/>
       <location filename="../../../Path/Op/Surface.py" line="394"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="394"/>
+      <location filename="../../../Path/Op/Waterline.py" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collinear and co-radial artifact gaps that are smaller than this threshold are closed in the path.</source>
       <translation>在刀轨中闭合小于该阈值的共线和共线伪影间隙。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Waterline.py" line="448"/>
       <location filename="../../../Path/Op/Surface.py" line="403"/>
+=======
+      <location filename="../../../Path/Op/Surface.py" line="403"/>
+      <location filename="../../../Path/Op/Waterline.py" line="438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Feedback: three smallest gaps identified in the path geometry.</source>
       <translation>反馈：刀轨几何图形中确定的三个最小间隙。</translation>
     </message>
@@ -6450,8 +6880,13 @@ Shoud be used only with Individually HandleMultipleFeaturesand disabled UseStart
       <translation>忽略高于此高度的外部水线。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="49"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="78"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="54"/>
+      <location filename="../../../Path/Dressup/Array.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pattern method</source>
       <translation>样式方法</translation>
     </message>
@@ -6473,6 +6908,7 @@ Should be identical for all base operations</source>
       <translation>在线性二维阵列样式中，在Y之前沿X方向进行复制</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Array.py" line="141"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="301"/>
       <source>Start from farthest repeat</source>
@@ -6519,12 +6955,21 @@ If selection without sub elements:
     <message>
       <location filename="../../../Path/Dressup/Array.py" line="66"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="103"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="71"/>
+      <location filename="../../../Path/Dressup/Array.py" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of copies in X-direction in linear pattern</source>
       <translation>线性阵列中X方向的副本数量</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="74"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="111"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="79"/>
+      <location filename="../../../Path/Dressup/Array.py" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of copies in Y-direction in linear pattern</source>
       <translation>线性阵列中Y方向的副本数量</translation>
     </message>
@@ -6534,19 +6979,34 @@ If selection without sub elements:
       <translation>在线性2D阵列中先进行X方向复制再进行Y方向复制</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Dressup/Array.py" line="109"/>
       <source>Percent of copies to randomly offset</source>
       <translation>要随机偏移的副本百分比</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="115"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="176"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="120"/>
+      <location filename="../../../Path/Dressup/Array.py" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum random offset of copies</source>
       <translation>副本的最大随机偏移量</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="121"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="188"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="126"/>
+      <location filename="../../../Path/Op/Gui/Array.py" line="209"/>
+      <location filename="../../../Path/Dressup/Array.py" line="121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Seed value for jitter randomness</source>
       <translation>抖动随机数的种子值</translation>
     </message>
@@ -6556,25 +7016,44 @@ If selection without sub elements:
       <translation>要阵列的刀具路径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="58"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="95"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="63"/>
+      <location filename="../../../Path/Dressup/Array.py" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The spacing between the array copies in linear pattern</source>
       <translation>线性阵列中阵列副本之间的间距</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="80"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="117"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="85"/>
+      <location filename="../../../Path/Dressup/Array.py" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total angle in polar pattern</source>
       <translation>极坐标阵列中的总角度</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="93"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Dressup/Array.py" line="88"/>
       <source>The number of copies in linear 1D and polar pattern</source>
       <translation>线性1D和极坐标阵列中的副本数量</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Array.py" line="94"/>
       <location filename="../../../Path/Op/Gui/Array.py" line="123"/>
+=======
+      <location filename="../../../Path/Op/Gui/Array.py" line="99"/>
+      <location filename="../../../Path/Dressup/Array.py" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The centre of rotation in polar pattern</source>
       <translation>极坐标阵列中的旋转中心</translation>
     </message>
@@ -6596,26 +7075,43 @@ If selection without sub elements:
       <translation>CNC程序注释</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="308"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The unique ID of the tool shape (.fcstd)</source>
       <translation>刀具形状的唯一ID (.fcstd)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="318"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool shape type</source>
       <translation>刀具形状类型</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="331"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="292"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The parametrized body representing the tool bit</source>
       <translation>代表刀头的参数化主体</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="338"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The unique ID of the toolbit</source>
       <translation>刀具的唯一ID</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="355"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="840"/>
       <source>Measurement units for the tool bit</source>
@@ -6624,11 +7120,19 @@ If selection without sub elements:
     <message>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="373"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="876"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="324"/>
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="811"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool material</source>
       <translation>刀具材料</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="816"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="767"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom property from shape: {name}</source>
       <translation>来自形状的自定义属性：{name}</translation>
     </message>
@@ -6643,9 +7147,15 @@ If selection without sub elements:
       <translation>切割主轴的速度（RPM）</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/Controller.py" line="157"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="364"/>
       <location filename="../../../Path/Tool/toolbit/models/base.py" line="857"/>
+=======
+      <location filename="../../../Path/Tool/Controller.py" line="83"/>
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="315"/>
+      <location filename="../../../Path/Tool/toolbit/models/base.py" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction of spindle rotation</source>
       <translation>主轴旋转方向</translation>
     </message>
@@ -7108,22 +7618,38 @@ If selection without sub elements:
       <translation>没有要转换为G代码的扫描数据。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2692"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to identify tool for operation.</source>
       <translation>无法识别用于加工的刀具。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2702"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to map selected tool to an OCL tool type.</source>
       <translation>无法将所选刀具映射到OCL刀具类型。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2714"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2698"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to translate active tool to OCL tool type.</source>
       <translation>无法将活动刀具转换为OCL刀具类型。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/SurfaceSupport.py" line="2726"/>
+=======
+      <location filename="../../../Path/Op/SurfaceSupport.py" line="2710"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>OCL tool not available. Cannot determine is cutter has tilt available.</source>
       <translation>OCL刀具不可用。无法确定切割刀是否有可用的倾斜。</translation>
     </message>
@@ -7396,81 +7922,142 @@ If selection without sub elements:
       <translation>设为False，以防止加工生成代码</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="315"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>编辑</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="320"/>
       <source>Set Workplane from Face</source>
       <translation>基于面设置工作平面</translation>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Base.py" line="821"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="640"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Geometry</source>
       <translation>基本几何图形</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="941"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="759"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Multiple operations are labeled as</source>
       <translation>多个加工标记为</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1015"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="832"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Location</source>
       <translation>基准位置</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1218"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="945"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heights</source>
       <translation>高度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1160"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FinalDepth cannot be modified for this operation.
 If it is necessary to set the FinalDepth manually please select a different operation.</source>
       <translation>无法为此加工修改FinalDepth。
       如果需要手动设置FinalDepth，请选择其他加工。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1349"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1038"/>
+      <source>Depths</source>
+      <translation>深度</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Gui/Base.py" line="1139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameters</source>
       <translation>直径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1381"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>AreaOp Operation</source>
       <translation>AreaOp加工</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1437"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operation</source>
       <translation>加工</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1504"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Uncreate AreaOp Operation</source>
       <translation>取消创建AreaOp加工</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1643"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start Point Selection</source>
       <translation>起点选择</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1644"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the start point</source>
       <translation>选择起点</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1694"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1485"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No suitable tool controller found.
 Aborting op creation</source>
       <translation>找不到合适的刀具控制器。
 正在中止加工创建</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Base.py" line="1698"/>
+=======
+      <location filename="../../../Path/Op/Gui/Base.py" line="1489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No tool controller, aborting op creation</source>
       <translation>没有刀具控制器，正在中止加工作创建</translation>
     </message>
@@ -7680,7 +8267,11 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>圆弧</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1727"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lead In/Out</source>
       <translation>驶入/出</translation>
     </message>
@@ -7745,16 +8336,26 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>垂直</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="282"/>
       <source>Can not get parameters from base operation and path</source>
       <translation>无法从基础操作和路径中获取参数</translation>
     </message>
     <message>
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1731"/>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="251"/>
+      <source>Tool controller not selected for base operation: %s</source>
+      <translation>未为基础操作选择刀具控制器：%s</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates entry and exit motions for a selected path</source>
       <translation>为选定的路径创建进入和退出运动</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1761"/>
       <source>The selected object is not a path</source>
       <translation>所选对象不是一个刀轨</translation>
@@ -7764,6 +8365,22 @@ Without sub selection all edges of the shape will be selected.</source>
       <source>Select a profile object</source>
       <translation>选择一个轮廓对象</translation>
     </message>
+=======
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1422"/>
+      <source>Select one toolpath object</source>
+      <translation>选择一个刀具路径对象</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1431"/>
+      <source>Select a Profile object</source>
+      <translation>选择一个轮廓对象</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/LeadInOut.py" line="1427"/>
+      <source>The selected object is not a toolpath</source>
+      <translation>所选对象不是刀具路径</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CAM_DressupPathBoundary</name>
@@ -7856,15 +8473,38 @@ Without sub selection all edges of the shape will be selected.</source>
   <context>
     <name>CAM_DressupDogbone</name>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="331"/>
       <source>Dogbone</source>
       <translation>狗骨圆角</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="335"/>
       <source>Creates a dogbone dress-up object from a selected toolpath</source>
       <translation>从选定的刀具路径创建狗骨修饰对象</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1343"/>
+      <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="351"/>
+      <source>Select one toolpath object</source>
+      <translation>选择一个刀具路径对象</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Dogbone.py" line="1349"/>
+      <location filename="../../../Path/Dressup/Gui/DogboneII.py" line="357"/>
+      <source>The selected object is not a toolpath</source>
+      <translation>所选对象不是刀具路径</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CAM_DressupDragKnife</name>
@@ -7938,8 +8578,12 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>选择探测点文件</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="327"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../../Path/Op/Gui/Probe.py" line="107"/>
+      <location filename="../../../Path/Dressup/Gui/ZCorrect.py" line="288"/>
       <source>All Files (*.*)</source>
       <translation>所有文件(*.*)</translation>
     </message>
@@ -8066,6 +8710,7 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>所有文件(*.*)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1471"/>
       <source>Picking: Model</source>
       <translation>拾取目标：模型</translation>
@@ -8077,46 +8722,82 @@ Without sub selection all edges of the shape will be selected.</source>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Job.py" line="1553"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsupported stock object %s</source>
       <translation>不支持的毛坯对象 %s</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1569"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsupported stock type %s (%d)</source>
       <translation>不支持的毛坯类型 %s (%d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1657"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Model Selection</source>
       <translation>模型选择</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1813"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warning</source>
       <translation>警告</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1814"/>
       <source>Add one.</source>
       <translation>添加一个。</translation>
     </message>
     <message>
       <location filename="../../../Path/Main/Gui/Job.py" line="1815"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1664"/>
+      <source>Please add one.</source>
+      <translation>请添加一个。</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Main/Gui/Job.py" line="1665"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ok</source>
       <translation>确定</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1817"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add</source>
       <translation>添加</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1828"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This job has no base model.</source>
       <translation>该作业没有基础模型。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Job.py" line="1835"/>
+=======
+      <location filename="../../../Path/Main/Gui/Job.py" line="1685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This job has no tool.</source>
       <translation>该作业没有刀具。</translation>
     </message>
@@ -8627,8 +9308,13 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>旧版 CAM 模拟器</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Simulator.py" line="625"/>
       <location filename="../../../Path/Main/Gui/SimulatorGL.py" line="366"/>
+=======
+      <location filename="../../../Path/Main/Gui/SimulatorGL.py" line="353"/>
+      <location filename="../../../Path/Main/Gui/Simulator.py" line="625"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simulates G-code on stock</source>
       <translation>在毛坯上模拟 G 代码</translation>
     </message>
@@ -8669,17 +9355,29 @@ Without sub selection all edges of the shape will be selected.</source>
   <context>
     <name>CAM_Operation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="486"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="362"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>无</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="487"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flood</source>
       <translation>冲洗</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="488"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mist</source>
       <translation>喷雾</translation>
     </message>
@@ -8702,62 +9400,110 @@ Without sub selection all edges of the shape will be selected.</source>
   <context>
     <name>CAM</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="843"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="623"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No parent job found for operation.</source>
       <translation>找不到加工的父作业。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="848"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parent job %s doesn&apos;t have a base object</source>
       <translation>父作业 %s 没有基础对象</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="1119"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Tool Controller is selected. We need a tool to build a Path.</source>
       <translation>未选择刀具控制器。我们需要一个刀具来建立一条刀轨。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="1133"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="784"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Tool found or diameter is zero. We need a tool to build a Path.</source>
       <translation>找不到刀具或直径为零。我们需要一个刀具来建立一条刀轨。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="661"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="854"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Tool Controller selected.</source>
       <translation>没有选择刀具控制器。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="664"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Error</source>
       <translation>刀具错误</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="676"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Controller feedrates required to calculate the cycle time.</source>
       <translation>计算循环时间所需的刀具控制器进给速率。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="679"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Feedrate Error</source>
       <translation>刀具进给率错误</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="685"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="878"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Tool Controller Rapid Speeds on the SetupSheet for more accurate cycle times.</source>
       <translation>在设置表上添加刀具控制器快速移动速度，以获得更准确的循环时间。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Util.py" line="693"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="887"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cycletime Error</source>
       <translation>循环时间误差</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="1265"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="829"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base object %s.%s already in the list</source>
       <translation>基础对象 %s.%s 已在列表中</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Base.py" line="1275"/>
+=======
+      <location filename="../../../Path/Op/Base.py" line="839"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base object %s.%s rejected by operation</source>
       <translation>基础对象 %s.%s 与加工不匹配</translation>
     </message>
@@ -8789,14 +9535,24 @@ Without sub selection all edges of the shape will be selected.</source>
     </message>
     <message>
       <location filename="../../../Path/Op/Gui/Engrave.py" line="75"/>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Vcarve.py" line="66"/>
+=======
+      <location filename="../../../Path/Op/Gui/Vcarve.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%s is not a Base Model object of the job %s</source>
       <translation>%s不是作业%s的基本模型对象</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Vcarve.py" line="176"/>
       <location filename="../../../Path/Op/Gui/Probe.py" line="70"/>
       <location filename="../../../Path/Op/Gui/ThreadMilling.py" line="112"/>
+=======
+      <location filename="../../../Path/Op/Gui/Probe.py" line="70"/>
+      <location filename="../../../Path/Op/Gui/ThreadMilling.py" line="113"/>
+      <location filename="../../../Path/Op/Gui/Vcarve.py" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No valid toolcontroller</source>
       <translation>没有有效的刀具控制器</translation>
     </message>
@@ -8841,7 +9597,11 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>SVG 后处理器</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/library/serializers/camotics.py" line="66"/>
+=======
+      <location filename="../../../Path/Tool/library/serializers/camotics.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Camotics Tool Library</source>
       <translation>Camotics 刀具库</translation>
     </message>
@@ -8926,16 +9686,25 @@ Without sub selection all edges of the shape will be selected.</source>
       <translation>FreeCAD 刀具</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="84"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toolbit</source>
       <translation>刀具</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="86"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Label:</source>
       <translation>标签：</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="87"/>
       <source>Toolbit Type:</source>
       <translation>刀头类型：</translation>
@@ -8947,11 +9716,23 @@ Without sub selection all edges of the shape will be selected.</source>
     </message>
     <message>
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="94"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="85"/>
+      <source>ID:</source>
+      <translation>ID：</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool Number:</source>
       <translation>刀具编号：</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="99"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/ui/editor.py" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Properties</source>
       <translation>属性</translation>
     </message>
@@ -9013,9 +9794,9 @@ This will not delete the toolbits contained within it.</source>
 这不会删除其中包含的刀具位。</translation>
     </message>
     <message>
+      <location filename="../../../Path/Tool/toolbit/ui/browser.py" line="289"/>
       <location filename="../../../Path/Tool/library/ui/editor.py" line="430"/>
       <location filename="../../../Path/Tool/library/ui/editor.py" line="470"/>
-      <location filename="../../../Path/Tool/toolbit/ui/browser.py" line="289"/>
       <source>Error</source>
       <translation>错误</translation>
     </message>
@@ -9113,6 +9894,7 @@ This will not delete the toolbits contained within it.</source>
       <translation>{diameter} {pitch} {rotation} 丝锥，{flutes} 刃，{cutting_edge_length} 切削刃</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Main/Gui/Inspect.py" line="100"/>
       <source>CAM Inspect</source>
       <translation>CAM 检查</translation>
@@ -9583,6 +10365,14 @@ This will not delete the toolbits contained within it.</source>
     </message>
     <message>
       <location filename="../../../Path/Op/Adaptive.py" line="375"/>
+=======
+      <location filename="../../../Path/Tool/toolbit/models/taperedballnose.py" line="47"/>
+      <source>{diameter} tip, {taper_angle} taper, {flutes}-flute tapered ball nose, {cutting_edge_height} cutting edge</source>
+      <translation>{diameter}刀尖，{taper_angle}锥度，{flutes}刃锥度球头铣刀，{cutting_edge_height}切削刃高度</translation>
+    </message>
+    <message>
+      <location filename="../../../Path/Op/Adaptive.py" line="555"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adaptive operation couldn&apos;t determine the boundary wire. Did you select base geometry?</source>
       <translation>自适应操作无法确定边界线。您是否选择了基础几何体？</translation>
     </message>
@@ -10000,6 +10790,7 @@ This will not delete the toolbits contained within it.</source>
       <translation>拉槽</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Op/Gui/Slot.py" line="291"/>
       <source>Create a single horizontal slot between two points.
 
@@ -10017,6 +10808,11 @@ Allowed selection only from one model:
 - 一条或两条边，
 - 一个水平面或垂直面，
 - 一个或两个垂直面。</translation>
+=======
+      <location filename="../../../Path/Op/Gui/Slot.py" line="284"/>
+      <source>Create a Slot operation from selected geometry or custom points.</source>
+      <translation>从选定的几何图形或自定义点创建槽加工。</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10803,6 +11599,75 @@ Several operations can be used with identical tool controller and coolant mode</
       <source>Creates an array from a selected toolpath</source>
       <translation>从选定的刀具路径创建阵列</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+      <location filename="../../../Path/Dressup/Gui/Array.py" line="78"/>
+      <source>Select one toolpath object</source>
+      <translation>选择一个刀具路径对象</translation>
+    </message>
+  </context>
+  <context>
+    <name>CAM:Simulator:Tooltips</name>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="268"/>
+      <source>Pause simulation</source>
+      <translation>暂停模拟</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="270"/>
+      <source>Play simulation</source>
+      <translation>播放模拟</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="272"/>
+      <source>Single step simulation</source>
+      <translation>单步模拟</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="274"/>
+      <source>Decrease simulation speed</source>
+      <translation>降低模拟速度</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="276"/>
+      <source>Increase simulation speed</source>
+      <translation>提高模拟速度</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="278"/>
+      <source>Show/Hide tool path</source>
+      <translation>显示/隐藏刀具路径</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="279"/>
+      <source>Toggle turn table animation</source>
+      <translation>切换转台动画</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="285"/>
+      <source>Toggle ambient occlusion</source>
+      <translation>切换环境光遮蔽</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="286"/>
+      <source>Toggle view simulation/model</source>
+      <translation>切换视图模拟/模型</translation>
+    </message>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/GuiDisplay.cpp" line="292"/>
+      <source>Reset camera</source>
+      <translation>重置相机</translation>
+    </message>
+  </context>
+  <context>
+    <name>CAMSimulator::DlgCAMSimulator</name>
+    <message>
+      <location filename="../../../PathSimulator/AppGL/DlgCAMSimulator.cpp" line="340"/>
+      <source>%1 - New CAM Simulator</source>
+      <translation>%1 - 新建CAM模拟器</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>CAM_OpActiveToggle</name>
@@ -10967,6 +11832,7 @@ Several operations can be used with identical tool controller and coolant mode</
   <context>
     <name>ToolBitShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="44"/>
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="34"/>
       <location filename="../../../Path/Tool/shape/models/custom.py" line="42"/>
@@ -10976,10 +11842,22 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/ballend.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="36"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="40"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="35"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="43"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting edge height</source>
       <translation>切削刃高度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/drill.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="48"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="48"/>
@@ -10991,10 +11869,24 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/ballend.py" line="40"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="40"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="40"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/drill.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="44"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="39"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="47"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter</source>
       <translation>直径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/drill.py" line="40"/>
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="52"/>
@@ -11008,10 +11900,26 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/ballend.py" line="44"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="48"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/drill.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="52"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="43"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="51"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/tap.py" line="45"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flutes</source>
       <translation>刃数</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/drill.py" line="44"/>
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="56"/>
@@ -11025,10 +11933,26 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="44"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/drill.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="56"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="47"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/custom.py" line="55"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="45"/>
+      <location filename="../../../Path/Tool/shape/models/endmill.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overall tool length</source>
       <translation>刀具总长度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="50"/>
@@ -11040,6 +11964,19 @@ Several operations can be used with identical tool controller and coolant mode</
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="68"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/reamer.py" line="48"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/slittingsaw.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="69"/>
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="60"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="57"/>
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="51"/>
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/ballend.py" line="53"/>
+      <location filename="../../../Path/Tool/shape/models/reamer.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/tap.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shank diameter</source>
       <translation>刀柄直径</translation>
     </message>
@@ -11049,15 +11986,26 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>球头刀</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/vbit.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/chamfer.py" line="36"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting edge angle</source>
       <translation>切削刃角度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/vbit.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/chamfer.py" line="60"/>
       <location filename="../../../Path/Tool/shape/models/radius.py" line="60"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/vbit.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="64"/>
+      <location filename="../../../Path/Tool/shape/models/chamfer.py" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tip diameter</source>
       <translation>刀尖直径</translation>
     </message>
@@ -11072,12 +12020,18 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>未知自定义形状</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="36"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="36"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="37"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Crest height</source>
       <translation>齿顶高度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="40"/>
       <source>Cutting diameter</source>
       <translation>切削直径</translation>
@@ -11085,6 +12039,10 @@ Several operations can be used with identical tool controller and coolant mode</
     <message>
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="64"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="40"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="41"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cutting angle</source>
       <translation>切削角度</translation>
     </message>
@@ -11094,19 +12052,34 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>燕尾高度</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="48"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="49"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Major diameter</source>
       <translation>大径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="52"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="60"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="61"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Neck diameter</source>
       <translation>颈部直径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/threadmill.py" line="56"/>
       <location filename="../../../Path/Tool/shape/models/dovetail.py" line="64"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/dovetail.py" line="65"/>
+      <location filename="../../../Path/Tool/shape/models/threadmill.py" line="57"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Neck length</source>
       <translation>颈部长度</translation>
     </message>
@@ -11207,12 +12180,20 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>V型刀</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="64"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Corner radius</source>
       <translation>拐角半径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/bullnose.py" line="72"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/bullnose.py" line="73"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bullnose</source>
       <translation>牛鼻刀</translation>
     </message>
@@ -11222,22 +12203,34 @@ Several operations can be used with identical tool controller and coolant mode</
       <translation>切削半径</translation>
     </message>
     <message>
-      <location filename="../../../Path/Tool/shape/models/radius.py" line="68"/>
+      <location filename="../../../Path/Tool/shape/models/radius.py" line="72"/>
       <source>Radius Mill</source>
       <translation>圆角铣刀</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="54"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Included Taper angle</source>
       <translation>包含锥角</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="58"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter at top of Taper</source>
       <translation>锥顶直径</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="66"/>
+=======
+      <location filename="../../../Path/Tool/shape/models/taperedballnose.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tapered Ball Nose</source>
       <translation>锥度球头铣刀</translation>
     </message>

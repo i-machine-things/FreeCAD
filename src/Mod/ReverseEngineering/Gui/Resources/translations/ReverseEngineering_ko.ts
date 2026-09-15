@@ -78,12 +78,20 @@
     <message>
       <location filename="../../Command.cpp" line="102"/>
       <source>Reverse Engineering</source>
+<<<<<<< HEAD
       <translation>역설계</translation>
+=======
+      <translation>리버스 엔지니어링</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="103"/>
       <source>Approximate B-Spline Surface…</source>
+<<<<<<< HEAD
       <translation>B-스플라인 표면 근사…</translation>
+=======
+      <translation type="unfinished">Approximate B-Spline Surface…</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="104"/>
@@ -104,6 +112,14 @@
       <translation>메쉬 경계에서 와이어 생성…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="532"/>
+      <source>Wire From Mesh Boundary…</source>
+      <translation type="unfinished">Wire From Mesh Boundary…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="533"/>
       <source>Creates a wire from mesh boundaries</source>
       <translation>메쉬 경계에서 와이어를 생성합니다</translation>
@@ -122,6 +138,14 @@
       <translation>포아송…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="597"/>
+      <source>Poisson…</source>
+      <translation type="unfinished">Poisson…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="598"/>
       <source>Performs Poisson surface reconstruction</source>
       <translation>포아송 표면 재구성을 수행합니다</translation>
@@ -140,6 +164,14 @@
       <translation>메쉬 분할…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="420"/>
+      <source>Mesh Segmentation…</source>
+      <translation type="unfinished">Mesh Segmentation…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="421"/>
       <source>Creates separate mesh segments based on surface types</source>
       <translation>표면 유형에 따라 별도의 메쉬 세그먼트를 생성합니다</translation>
@@ -158,6 +190,14 @@
       <translation>구성 요소에서</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="482"/>
+      <source>From Components</source>
+      <translation type="unfinished">From Components</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="483"/>
       <source>Creates mesh segments from components</source>
       <translation>구성 요소에서 메쉬 세그먼트를 생성합니다</translation>
@@ -176,6 +216,14 @@
       <translation>수동 분할…</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="452"/>
+      <source>Manual Segmentation…</source>
+      <translation type="unfinished">Manual Segmentation…</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="453"/>
       <source>Creates mesh segments manually</source>
       <translation>수동으로 메쉬 세그먼트를 생성합니다</translation>
@@ -186,6 +234,7 @@
     <message>
       <location filename="../../Command.cpp" line="633"/>
       <source>Reverse Engineering</source>
+<<<<<<< HEAD
       <translation>역설계</translation>
     </message>
     <message>
@@ -199,6 +248,21 @@
       <translation>구조화된 점 구름을 삼각분할합니다</translation>
     </message>
     <message>
+=======
+      <translation>리버스 엔지니어링</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="634"/>
+      <source>Structured Point Clouds</source>
+      <translation type="unfinished">Structured Point Clouds</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="635"/>
+      <source>Triangulates structured point clouds</source>
+      <translation type="unfinished">Triangulates structured point clouds</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="636"/>
       <source>Triangulation of structured point clouds</source>
       <translation>구조화된 점 구름의 삼각분할</translation>
@@ -238,7 +302,11 @@
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="242"/>
+<<<<<<< HEAD
       <location filename="../../FitBSplineCurve.cpp" line="152"/>
+=======
+      <location filename="../../FitBSplineCurve.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit B-spline</source>
       <translation>B-스플라인 맞추기</translation>
     </message>
@@ -338,7 +406,11 @@
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="171"/>
       <location filename="../../FitBSplineSurface.cpp" line="249"/>
+<<<<<<< HEAD
       <source>Input Error</source>
+=======
+      <source>Input error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>입력 오류</translation>
     </message>
     <message>
@@ -381,7 +453,11 @@
     </message>
     <message>
       <location filename="../../Poisson.cpp" line="94"/>
+<<<<<<< HEAD
       <source>Input Error</source>
+=======
+      <source>Input error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>입력 오류</translation>
     </message>
   </context>

@@ -1822,6 +1822,68 @@ std::vector<FacePtr> GeometryUtils::findHolesInFace(const DrawViewPart* dvp, con
     }
 
     return removeNestedHoles(holes);
+<<<<<<< HEAD
+=======
+}
+
+//! Remove level 2+ faces.  Expects holes to be sorted by size?
+std::vector<FacePtr> GeometryUtils::removeNestedHoles(const std::vector<FacePtr>& holes)
+{
+    if (holes.empty()) {
+        return {};
+    }
+
+    std::vector<FacePtr> unNestedFaces;
+    if (holes.size() == 1) {
+        // no nesting present
+        unNestedFaces.push_back(holes.front());
+        return unNestedFaces;
+    }
+
+    std::vector<int> nestedFaceIndices = findNestedFaceIndices(holes);
+
+    std::reverse(nestedFaceIndices.begin(), nestedFaceIndices.end());
+
+    int ihole{0};
+    for (auto& hole : holes) {
+        if (std::find(nestedFaceIndices.begin(), nestedFaceIndices.end(), ihole) == nestedFaceIndices.end()) {
+            unNestedFaces.push_back(hole);
+        }
+        ihole++;
+    }
+    return unNestedFaces;
+}
+
+
+//! returns (unique) indices of holes contained within another hole.
+std::vector<int> GeometryUtils::findNestedFaceIndices(const std::vector<FacePtr>& holes)
+{
+    int iouter{0};
+    std::vector<int> nestedFaceIndices;
+    for (auto& outer : holes) {
+        TopoDS_Wire outerWire = outer->wires.front()->toOccWire();
+        int iinner{0};
+        for (auto& inner : holes) {
+             if (iouter == iinner) {
+                 iinner++;
+                 continue;
+             }
+             TopoDS_Wire innerWire = inner->wires.front()->toOccWire();
+             if (Part::FaceMakerCheese::isInside(outerWire, innerWire)) {
+                nestedFaceIndices.push_back(iinner);
+             }
+             iinner++;
+        }
+        iouter++;
+    }
+
+    std::sort(nestedFaceIndices.begin(), nestedFaceIndices.end());
+    auto last = std::unique(nestedFaceIndices.begin(), nestedFaceIndices.end());
+    if (last != nestedFaceIndices.end()) {
+        nestedFaceIndices.erase(last, nestedFaceIndices.end());
+    }
+    return nestedFaceIndices;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 //! Remove level 2+ faces.  Expects holes to be sorted by size?

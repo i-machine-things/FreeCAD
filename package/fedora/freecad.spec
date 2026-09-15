@@ -16,7 +16,11 @@
 
 Name:           freecad
 Epoch:          1
+<<<<<<< HEAD
 Version:        26.3.0~dev
+=======
+Version:        1.1.3
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 Release:        1%{?dist}
 
 Summary:        A general purpose 3D CAD modeler
@@ -44,7 +48,11 @@ Source0:        freecad-sources.tar.gz
 # Utilities
 BuildRequires:  cmake gcc-c++ gettext doxygen swig graphviz gcc-gfortran desktop-file-utils tbb-devel ninja-build strace
 %if %{with tests}
+<<<<<<< HEAD
 BuildRequires:  python3-typing-extensions xwayland-run weston
+=======
+BuildRequires:  xorg-x11-server-Xvfb python3-typing-extensions
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 %if %{without bundled_gtest}
 BuildRequires: gtest-devel gmock-devel
 %endif

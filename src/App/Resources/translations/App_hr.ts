@@ -35,7 +35,11 @@
   <context>
     <name>Notifications</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Document.cpp" line="1230"/>
+=======
+      <location filename="../../Document.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
 It is recommended that the user right-click the root of the document and select Mark to recompute.
 The user should then click the Refresh button in the main toolbar.
@@ -47,6 +51,7 @@ Korisnik zatim treba kliknuti gumb Osvježi u glavnoj alatnoj traci.</translatio
   <context>
     <name>App::LocalCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="267"/>
       <source>X-axis</source>
       <translation>X-os</translation>
@@ -90,6 +95,41 @@ Korisnik zatim treba kliknuti gumb Osvježi u glavnoj alatnoj traci.</translatio
 that links to the same configurable object</source>
       <translation type="unfinished">Stores the last user choice of whether to apply CopyOnChange setup to all link
 that links to the same configurable object</translation>
+=======
+      <location filename="../../Datums.cpp" line="265"/>
+      <source>X-axis</source>
+      <translation>X-os</translation>
+    </message>
+    <message>
+      <location filename="../../Datums.cpp" line="266"/>
+      <source>Y-axis</source>
+      <translation>Y-os</translation>
+    </message>
+    <message>
+      <location filename="../../Datums.cpp" line="267"/>
+      <source>Z-axis</source>
+      <translation>Z-os</translation>
+    </message>
+    <message>
+      <location filename="../../Datums.cpp" line="268"/>
+      <source>XY-plane</source>
+      <translation>XY-ravnina</translation>
+    </message>
+    <message>
+      <location filename="../../Datums.cpp" line="269"/>
+      <source>XZ-plane</source>
+      <translation>XZ-ravnina</translation>
+    </message>
+    <message>
+      <location filename="../../Datums.cpp" line="270"/>
+      <source>YZ-plane</source>
+      <translation>YZ-ravnina</translation>
+    </message>
+    <message>
+      <location filename="../../Datums.cpp" line="271"/>
+      <source>Origin</source>
+      <translation>Ishodište</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

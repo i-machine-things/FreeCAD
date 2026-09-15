@@ -103,6 +103,7 @@ DrawSketchKeyboardManager::KeyboardEventHandlingMode DrawSketchKeyboardManager::
     QKeyEvent* keyEvent
 )
 {
+<<<<<<< HEAD
     // Detect if the user wants to start editing the input
 
     if (keyEvent->matches(QKeySequence::Paste)) {
@@ -110,6 +111,16 @@ DrawSketchKeyboardManager::KeyboardEventHandlingMode DrawSketchKeyboardManager::
     }
     // on Linux you need to use key() for backspace
     if (keyEvent->key() == Qt::Key_Backspace || keyEvent->matches(QKeySequence::Backspace)
+=======
+    QRegularExpression rx(QStringLiteral("^[0-9]$"));
+    auto match = rx.match(keyEvent->text());
+    if (keyEvent->key() == Qt::Key_Enter || keyEvent->key() == Qt::Key_Return
+        || keyEvent->key() == Qt::Key_Minus || keyEvent->key() == Qt::Key_Period
+        || keyEvent->key() == Qt::Key_Comma
+        || match.hasMatch()
+        // double check for backspace as there may be windows/unix inconsistencies
+        || keyEvent->key() == Qt::Key_Backspace || keyEvent->matches(QKeySequence::Backspace)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         || keyEvent->matches(QKeySequence::Delete)) {
         return KeyboardEventHandlingMode::DSHControl;
     }

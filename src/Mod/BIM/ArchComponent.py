@@ -1409,8 +1409,11 @@ class AreaCalculator:
         import DraftGeomUtils
         import TechDraw
 
+<<<<<<< HEAD
         face_name = f" Face{face_index}" if face_index is not None else ""
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if face.Surface.TypeId == "Part::GeomCylinder":
             angle = face.Surface.Axis.getAngle(FreeCAD.Vector(0, 0, 1))
             return self.isZeroAngle(angle)
@@ -1431,6 +1434,7 @@ class AreaCalculator:
                     projectedArea = Part.Face(wires).Area
             except Part.OCCError:
                 FreeCAD.Console.PrintWarning(
+<<<<<<< HEAD
                     translate("Arch", f"Could not project face{face_name} from {self.obj.Label}\n")
                 )
                 return False
@@ -1445,6 +1449,22 @@ class AreaCalculator:
                     f"Could not determine if face{face_name} from {self.obj.Label}"
                     " is vertical: normalAt() failed\n",
                 )
+=======
+                    translate("Arch", f"Could not project face from {self.obj.Label}\n")
+                )
+                return False
+
+        try:
+            angle = face.normalAt(0, 0).getAngle(FreeCAD.Vector(0, 0, 1))
+            return self.isRightAngle(angle) and projectedArea < 0.0001
+        except Part.OCCError:
+            FreeCAD.Console.PrintWarning(
+                translate(
+                    "Arch",
+                    f"Could not determine if a face from {self.obj.Label}"
+                    " is vertical: normalAt() failed\n",
+                )
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             )
             return False
 
@@ -1480,8 +1500,13 @@ class AreaCalculator:
         horizontalAreaFaces = []
 
         # Compute vertical area and collect faces to be projected for the horizontal area
+<<<<<<< HEAD
         for i, face in enumerate(self.obj.Shape.Faces, start=1):
             if self.isFaceVertical(face, face_index=i):
+=======
+        for face in self.obj.Shape.Faces:
+            if self.isFaceVertical(face):
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 verticalArea += face.Area
             else:
                 horizontalAreaFaces.append(face)
@@ -1497,10 +1522,16 @@ class AreaCalculator:
     def _computeHorizontalAreaAndPerimeter(self, horizontalAreaFaces):
         """Compute the horizontal area and perimeter length.
 
+<<<<<<< HEAD
         Projects the given faces onto the XY plane, combines the projected
         areas into one transient union shape, and calculates:
         - the total horizontal area
         - the perimeter length of the combined horizontal outline
+=======
+        Projects the given faces onto the XY plane, fuses them, and calculates:
+        - The total horizontal area.
+        - The perimeter length of the fused horizontal area.
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         Parameters
         ----------
@@ -1538,20 +1569,28 @@ class AreaCalculator:
                         self.resetAreas()
                         return
                     wire = TechDraw.findShapeOutline(face, 1, direction)
+<<<<<<< HEAD
                     projectedFace = Part.makeFace(
                         [wire],
                         "Part::FaceMakerSimple",
                         noElementMap=True,
                     )
+=======
+                    projectedFace = Part.makeFace([wire], "Part::FaceMakerSimple")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 else:
                     edges = TechDraw.project(face, direction)[0].Edges
                     wires = DraftGeomUtils.findWires(edges)
                     # Using "Part::FaceMakerCheese" as the face can have holes
+<<<<<<< HEAD
                     projectedFace = Part.makeFace(
                         wires,
                         "Part::FaceMakerCheese",
                         noElementMap=True,
                     )
+=======
+                    projectedFace = Part.makeFace(wires, "Part::FaceMakerCheese")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 # Part.show(projectedFace)
                 projectedFaces.append(projectedFace)
             except Part.OCCError:
@@ -1570,6 +1609,16 @@ class AreaCalculator:
             param_grp.RemBool("allowCrazyEdge")
         else:
             param_grp.SetBool("allowCrazyEdge", old_allow_crazy_edge)
+<<<<<<< HEAD
+=======
+
+        if projectedFaces:
+            fusedFace = projectedFaces.pop()
+            for face in projectedFaces:
+                fusedFace = fusedFace.fuse(face)
+            fusedFace = fusedFace.removeSplitter()
+            # Part.show(fusedFace)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         fusedFace = None
         if projectedFaces:

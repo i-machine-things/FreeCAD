@@ -69,7 +69,10 @@
 #include "PathBuilder.h"
 #include "QGIBreakLine.h"
 #include "QGSPage.h"
+<<<<<<< HEAD
 #include "QGIProjGroup.h"
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 using namespace TechDraw;
 using namespace TechDrawGui;
@@ -502,7 +505,11 @@ void QGIViewPart::drawAllVertexes()
     for (int i = 0; vert != verts.end(); ++vert, i++) {
         if ((*vert)->isCenter()) {
             auto* cmItem = new QGICMark(i);
+<<<<<<< HEAD
             addToGroupWithoutUpdate(cmItem);
+=======
+            addToGroup(cmItem);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             cmItem->setPos(Rez::guiX((*vert)->x()), Rez::guiX((*vert)->y()));
             cmItem->setThick(0.5F * getLineWidth());    //need minimum?
             cmItem->setSize(getVertexSize() * vp->CenterScale.getValue());
@@ -1435,6 +1442,22 @@ void QGIViewPart::hoverLeaveEvent(QGraphicsSceneHoverEvent *event)
     update();
 }
 
+<<<<<<< HEAD
+=======
+bool QGIViewPart::isExporting() const
+{
+    // dvp already validated
+    auto viewPart {freecad_cast<TechDraw::DrawViewPart*>(getViewObject())};
+    auto vpPage = getViewProviderPage(viewPart);
+
+    QGSPage* scenePage = vpPage->getQGSPage();
+    if (!scenePage) {
+        return false;
+    }
+
+    return scenePage->getExportingAny();
+}
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 // returns true if vertex dots should be shown
 // note this is only one of the "rules" around showing or hiding vertices.
@@ -1477,6 +1500,7 @@ bool QGIViewPart::hideCenterMarks() const
     return true;
 }
 
+<<<<<<< HEAD
 void QGIViewPart::setMovableFlag()
 {
     auto* dvp(dynamic_cast<TechDraw::DrawViewPart*>(getViewObject()));
@@ -1510,3 +1534,5 @@ void QGIViewPart::setMovableFlagProjGroupItem()
 }
 
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

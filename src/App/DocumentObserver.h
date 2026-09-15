@@ -453,6 +453,11 @@ public:
 
 private:
     App::DocumentObject* _get() const noexcept;
+<<<<<<< HEAD
+=======
+
+private:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     class Private;
     std::unique_ptr<Private> d;
 };
@@ -654,5 +659,10 @@ struct std::hash<App::DocumentObjectWeakPtrT>
         return std::hash<App::DocumentObject*>{}(*ptr);
     }
 };
+<<<<<<< HEAD
+=======
+
+ENABLE_BITMASK_OPERATORS(App::SubObjectT::NormalizeOption)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 ENABLE_BITMASK_OPERATORS(App::SubObjectT::NormalizeOption)

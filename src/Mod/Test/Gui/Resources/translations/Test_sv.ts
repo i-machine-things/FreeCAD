@@ -112,12 +112,20 @@
   <context>
     <name>TestGui::UnitTestDialog</name>
     <message>
+<<<<<<< HEAD:src/Mod/Test/Gui/Resources/translations/Test_sv.ts
       <location filename="../../UnitTestImp.cpp" line="172"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Test/Gui/Resources/translations/Test_sv-SE.ts
       <source>Help</source>
       <translation>Hjälp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Test/Gui/Resources/translations/Test_sv.ts
       <location filename="../../UnitTestImp.cpp" line="173"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Test/Gui/Resources/translations/Test_sv-SE.ts
       <source>Enter the name of a callable object which, when called, will return a TestCase.
 Click 'start', and the test thus produced will be run.
 
@@ -128,12 +136,20 @@ Klicka på "start" och det test som skapats kommer att köras.
 Dubbelklicka på ett fel i trädvyn för att se mer information om det, inklusive stackspårningen.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Test/Gui/Resources/translations/Test_sv.ts
       <location filename="../../UnitTestImp.cpp" line="187"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Test/Gui/Resources/translations/Test_sv-SE.ts
       <source>About FreeCAD UnitTest</source>
       <translation>Om FreeCAD EnhetsTest</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Test/Gui/Resources/translations/Test_sv.ts
       <location filename="../../UnitTestImp.cpp" line="188"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Test/Gui/Resources/translations/Test_sv-SE.ts
       <source>Copyright (c) Werner Mayer
 
 FreeCAD UnitTest is part of FreeCAD and supports writing Unit Tests for ones own modules.</source>

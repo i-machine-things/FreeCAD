@@ -55,6 +55,7 @@ Boolean::Boolean()
 {
     ADD_PROPERTY(Type, ((long)0));
     Type.setEnums(TypeEnums);
+<<<<<<< HEAD
     ADD_PROPERTY_TYPE(
         UseLegacyBodyPlacement,
         (App::GetApplication().isRestoring()),
@@ -62,6 +63,8 @@ Boolean::Boolean()
         App::Prop_Hidden,
         "Use legacy PartDesign Boolean body placement handling"
     );
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     App::GeoFeatureGroupExtension::initExtension(this);
     // Boolean tools are references, not owned coordinate-system children.
@@ -311,7 +314,13 @@ void Boolean::updatePreviewShape()
         std::vector<TopoShape> shapes;
 
         for (auto& obj : Group.getValues()) {
+<<<<<<< HEAD
             shapes.push_back(getBooleanTopoShape(obj));
+=======
+            shapes.push_back(
+                getTopoShape(obj, Part::ShapeOption::ResolveLink | Part::ShapeOption::Transform)
+            );
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
 
         TopoShape result;

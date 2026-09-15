@@ -94,9 +94,20 @@
       <translation>Trackball</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="661"/>
       <source>Trackball Classic</source>
       <translation>Klasszikus hanyattegér</translation>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="660"/>
+      <source>Trackball Classic</source>
+      <translation>Klasszikus hanyattegér</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="661"/>
+      <source>Rounded Arcball</source>
+      <translation>Lekerekített ívlabda</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../NavigationIndicatorGui.py" line="662"/>
@@ -112,7 +123,11 @@
       <location filename="../../NavigationIndicatorGui.py" line="675"/>
       <source>Navigation Styles</source>
       <comment>A context menu action used to show or hide the &apos;Navigation indicator&apos; toolbar widget</comment>
+<<<<<<< HEAD
       <translation>Navigációs stílusok</translation>
+=======
+      <translation>Navigáció mutató</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

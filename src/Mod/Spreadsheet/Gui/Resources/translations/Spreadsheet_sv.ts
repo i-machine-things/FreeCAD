@@ -4,17 +4,29 @@
   <context>
     <name>CmdCreateSpreadsheet</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="955"/>
+=======
+      <location filename="../../Command.cpp" line="954"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="956"/>
+=======
+      <location filename="../../Command.cpp" line="955"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>&amp;New Spreadsheet</source>
       <translation>&amp;Nytt kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="957"/>
+=======
+      <location filename="../../Command.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Creates a new spreadsheet</source>
       <translation>Skapar ett nytt kalkylblad</translation>
     </message>
@@ -22,17 +34,29 @@
   <context>
     <name>CmdSpreadsheetAlignBottom</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="514"/>
+=======
+      <location filename="../../Command.cpp" line="513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="515"/>
+=======
+      <location filename="../../Command.cpp" line="514"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Align &amp;Bottom</source>
       <translation>Justera &amp;botten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="516"/>
+=======
+      <location filename="../../Command.cpp" line="515"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Aligns cell contents to the bottom</source>
       <translation>Justerar cellinnehållet till botten</translation>
     </message>
@@ -40,17 +64,29 @@
   <context>
     <name>CmdSpreadsheetAlignCenter</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="343"/>
+=======
+      <location filename="../../Command.cpp" line="342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="344"/>
+=======
+      <location filename="../../Command.cpp" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Align Horizontal &amp;Center</source>
       <translation>Justera horisontellt &amp;centrum</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="345"/>
+=======
+      <location filename="../../Command.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Aligns cell contents to the horizontal center</source>
       <translation>Justerar cellinnehållet till den horisontella mitten</translation>
     </message>
@@ -58,17 +94,29 @@
   <context>
     <name>CmdSpreadsheetAlignLeft</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="286"/>
+=======
+      <location filename="../../Command.cpp" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="287"/>
+=======
+      <location filename="../../Command.cpp" line="286"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Align &amp;Left</source>
       <translation>Justera &amp;vänster</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="288"/>
+=======
+      <location filename="../../Command.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Aligns cell contents to the left</source>
       <translation>Justerar cellinnehållet till vänster</translation>
     </message>
@@ -76,17 +124,29 @@
   <context>
     <name>CmdSpreadsheetAlignRight</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="400"/>
+=======
+      <location filename="../../Command.cpp" line="399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="401"/>
+=======
+      <location filename="../../Command.cpp" line="400"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Align &amp;Right</source>
       <translation>Justera &amp;höger</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="402"/>
+=======
+      <location filename="../../Command.cpp" line="401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Aligns cell contents to the right</source>
       <translation>Justerar cellinnehållet till höger</translation>
     </message>
@@ -94,17 +154,29 @@
   <context>
     <name>CmdSpreadsheetAlignTop</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="457"/>
+=======
+      <location filename="../../Command.cpp" line="456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="458"/>
+=======
+      <location filename="../../Command.cpp" line="457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Align &amp;Top</source>
       <translation>Justera &amp;topp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="459"/>
+=======
+      <location filename="../../Command.cpp" line="458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Aligns cell contents to the top</source>
       <translation>Justerar cellinnehållet till toppen</translation>
     </message>
@@ -112,17 +184,29 @@
   <context>
     <name>CmdSpreadsheetAlignVCenter</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="571"/>
+=======
+      <location filename="../../Command.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="572"/>
+=======
+      <location filename="../../Command.cpp" line="571"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Align &amp;Vertical Center</source>
       <translation>Rikta in &amp;Vertikal Center</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="573"/>
+=======
+      <location filename="../../Command.cpp" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Aligns cell contents to the vertical center</source>
       <translation>Justerar cellinnehållet till den vertikala mitten</translation>
     </message>
@@ -130,17 +214,29 @@
   <context>
     <name>CmdSpreadsheetExport</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="241"/>
+=======
+      <location filename="../../Command.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="242"/>
+=======
+      <location filename="../../Command.cpp" line="241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>&amp;Export Spreadsheet</source>
       <translation>&amp;Exportera kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="243"/>
+=======
+      <location filename="../../Command.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Exports the spreadsheet to a CSV file</source>
       <translation>Exporterar kalkylbladet till en CSV-fil</translation>
     </message>
@@ -184,17 +280,29 @@
   <context>
     <name>CmdSpreadsheetSetAlias</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="883"/>
+=======
+      <location filename="../../Command.cpp" line="882"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="884"/>
+=======
+      <location filename="../../Command.cpp" line="883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set Alias</source>
       <translation>Definiera alias</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="885"/>
+=======
+      <location filename="../../Command.cpp" line="884"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets an alias for the selected cell</source>
       <translation>Ställer in ett alias för den markerade cellen</translation>
     </message>
@@ -220,17 +328,29 @@
   <context>
     <name>CmdSpreadsheetStyleBold</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="628"/>
+=======
+      <location filename="../../Command.cpp" line="627"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="629"/>
+=======
+      <location filename="../../Command.cpp" line="628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>&amp;Bold Text</source>
       <translation>&amp;Fet text</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="630"/>
+=======
+      <location filename="../../Command.cpp" line="629"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets the text in the selected cells bold</source>
       <translation>Gör texten i de markerade cellerna fet</translation>
     </message>
@@ -238,17 +358,29 @@
   <context>
     <name>CmdSpreadsheetStyleItalic</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="713"/>
+=======
+      <location filename="../../Command.cpp" line="712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="714"/>
+=======
+      <location filename="../../Command.cpp" line="713"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>&amp;Italic Text</source>
       <translation>&amp;Kursiv text</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="715"/>
+=======
+      <location filename="../../Command.cpp" line="714"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets the text in the selected cells italic</source>
       <translation>Gör texten i de markerade cellerna kursiv</translation>
     </message>
@@ -256,17 +388,29 @@
   <context>
     <name>CmdSpreadsheetStyleUnderline</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="798"/>
+=======
+      <location filename="../../Command.cpp" line="797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Spreadsheet</source>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="799"/>
+=======
+      <location filename="../../Command.cpp" line="798"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>&amp;Underline Text</source>
       <translation>&amp;Understruken text</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="800"/>
+=======
+      <location filename="../../Command.cpp" line="799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Underlines the text in the selected cells</source>
       <translation>Understryker texten i de markerade cellerna</translation>
     </message>
@@ -302,77 +446,133 @@
       <translation>De&amp;la cell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="308"/>
+=======
+      <location filename="../../Command.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Left-align cell</source>
       <translation>Vänsterjustera cellen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="365"/>
+=======
+      <location filename="../../Command.cpp" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Center cell</source>
       <translation>Centrumcell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="422"/>
+=======
+      <location filename="../../Command.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Right-align cell</source>
       <translation>Högerjustera cell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="479"/>
+=======
+      <location filename="../../Command.cpp" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Top-align cell</source>
       <translation>Toppjusterad cell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="536"/>
+=======
+      <location filename="../../Command.cpp" line="535"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Bottom-align cell</source>
       <translation>Bottenjusterad cell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="593"/>
+=======
+      <location filename="../../Command.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Vertically center cells</source>
       <translation>Vertikalt centrerade celler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="668"/>
+=======
+      <location filename="../../Command.cpp" line="667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set bold text</source>
       <translation>Ange fet text</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="753"/>
+=======
+      <location filename="../../Command.cpp" line="752"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set italic text</source>
       <translation>Ange kursiv text</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="838"/>
+=======
+      <location filename="../../Command.cpp" line="837"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set underline text</source>
       <translation>Ange understruken text</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="968"/>
+=======
+      <location filename="../../Command.cpp" line="967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Create Spreadsheet</source>
       <translation>Skapa kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../PropertiesDialog.cpp" line="315"/>
+=======
+      <location filename="../../PropertiesDialog.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set cell properties</source>
       <translation>Ange cellens egenskaper</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetModel.cpp" line="623"/>
+=======
+      <location filename="../../SheetModel.cpp" line="573"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Edit cell</source>
       <translation>Redigera cell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Workbench.cpp" line="166"/>
+=======
+      <location filename="../../Workbench.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set text color</source>
       <translation>Ange textfärg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Workbench.cpp" line="206"/>
       <source>Clear text color</source>
       <translation>Rensa textfärg</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="243"/>
+=======
+      <location filename="../../Workbench.cpp" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Set background color</source>
       <translation>Ange bakgrundsfärg</translation>
     </message>
@@ -392,7 +592,12 @@
       <translation>Infoga rader</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="354"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="400"/>
+      <location filename="../../SheetTableView.cpp" line="475"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Remove Rows</source>
       <translation>Ta bort rader</translation>
     </message>
@@ -407,8 +612,13 @@
       <translation>Infoga kolumner</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SpreadsheetView.cpp" line="179"/>
       <location filename="../../SheetTableView.cpp" line="582"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="679"/>
+      <location filename="../../SpreadsheetView.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Clear Cells</source>
       <translation>Klara celler</translation>
     </message>
@@ -742,17 +952,35 @@ dynamiskt byta designkonfiguration. Egenskapen kommer att skapas om den inte fin
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Command.cpp" line="203"/>
+=======
+      <location filename="../../Command.cpp" line="198"/>
+      <location filename="../../ViewProviderSpreadsheet.cpp" line="107"/>
+      <source>CSV (*.csv *.CSV);;All (*)</source>
+      <translation>CSV (*.csv *.CSV);;Alla (*)</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Import file</source>
       <translation>Importera fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SpreadsheetView.cpp" line="477"/>
+=======
+      <location filename="../../SpreadsheetView.cpp" line="494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Alias contains invalid characters!</source>
       <translation>Alias innehåller ogiltiga tecken!</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SpreadsheetView.cpp" line="483"/>
+=======
+      <location filename="../../SpreadsheetView.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Refer to cell by alias, for example
 Spreadsheet.my_alias_name instead of Spreadsheet.B1</source>
       <translation>Referera till cellen med alias, till exempel
@@ -764,34 +992,60 @@ Kalkylblad.mitt_alias_namn istället för Kalkylblad.B1</translation>
       <translation>Kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../ViewProviderSpreadsheet.cpp" line="108"/>
+=======
+      <location filename="../../ViewProviderSpreadsheet.cpp" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Export File</source>
       <translation>Exportera fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../ViewProviderSpreadsheet.cpp" line="133"/>
+=======
+      <location filename="../../ViewProviderSpreadsheet.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Show Spreadsheet</source>
       <translation>Visa kalkylblad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Workbench.cpp" line="104"/>
+=======
+      <location filename="../../Workbench.cpp" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets the text color of cells</source>
       <translation>Ställer in textfärgen för celler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Workbench.cpp" line="105"/>
       <location filename="../../Workbench.cpp" line="106"/>
+=======
+      <location filename="../../Workbench.cpp" line="99"/>
+      <location filename="../../Workbench.cpp" line="100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets the text color of spreadsheet cells</source>
       <translation>Ställer in textfärgen för kalkylbladets celler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Workbench.cpp" line="132"/>
       <location filename="../../Workbench.cpp" line="134"/>
+=======
+      <location filename="../../Workbench.cpp" line="121"/>
+      <location filename="../../Workbench.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets the background color of cells</source>
       <translation>Ställer in bakgrundsfärgen för celler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../Workbench.cpp" line="133"/>
+=======
+      <location filename="../../Workbench.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Sets the spreadsheet cells background color</source>
       <translation>Ställer in bakgrundsfärgen för kalkylbladets celler</translation>
     </message>
@@ -952,19 +1206,31 @@ Continue?</source>
 Fortsätta?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../DlgBindSheet.cpp" line="283"/>
+=======
+      <location filename="../../DlgBindSheet.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Bind Spreadsheet Cells</source>
       <translation>Bind kalkylbladsceller</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../DlgBindSheet.cpp" line="284"/>
+=======
+      <location filename="../../DlgBindSheet.cpp" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Error:
 </source>
       <translation>Fel:
 </translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../DlgBindSheet.cpp" line="311"/>
+=======
+      <location filename="../../DlgBindSheet.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Unbind Cells</source>
       <translation>Avbind celler</translation>
     </message>
@@ -1078,51 +1344,130 @@ Standardvärde: %V = %A
   <context>
     <name>SpreadsheetGui::SheetTableView</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="188"/>
       <location filename="../../SheetTableView.cpp" line="564"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="197"/>
+      <location filename="../../SheetTableView.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Recompute</source>
       <translation>Beräkna på nytt</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="149"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="141"/>
+      <source>Insert %n Row(s) Above</source>
+      <translation>
+        <numerusform>Infoga %n rad(er) ovanför</numerusform>
+        <numerusform>Infoga %n rad(er) ovanför</numerusform>
+      </translation>
+    </message>
+    <message numerus="yes">
+      <location filename="../../SheetTableView.cpp" line="145"/>
+      <source>Insert %n Row(s) Below</source>
+      <translation>
+        <numerusform>Infoga %n rad(er) nedan</numerusform>
+        <numerusform>Infoga %n rad(er) nedan</numerusform>
+      </translation>
+    </message>
+    <message numerus="yes">
+      <location filename="../../SheetTableView.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Insert %n Non-Contiguous Rows</source>
       <translation>
         <numerusform>Infoga %n ej sammanhängande rader</numerusform>
         <numerusform>Infoga %n ej sammanhängande rader</numerusform>
       </translation>
     </message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
     <message>
       <location filename="../../SheetTableView.cpp" line="152"/>
+=======
+    <message numerus="yes">
+      <location filename="../../SheetTableView.cpp" line="153"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Remove Rows</source>
       <translation>Ta bort rader</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="169"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="167"/>
+      <source>Insert %n Column(s) Left</source>
+      <translation>
+        <numerusform>Infoga %n kolumn(er) vänster</numerusform>
+        <numerusform>Infoga %n kolumn(er) vänster</numerusform>
+      </translation>
+    </message>
+    <message numerus="yes">
+      <location filename="../../SheetTableView.cpp" line="172"/>
+      <source>Insert %n Column(s) Right</source>
+      <translation>
+        <numerusform>Infoga %n kolumn(er) höger</numerusform>
+        <numerusform>Infoga %n kolumn(er) höger</numerusform>
+      </translation>
+    </message>
+    <message numerus="yes">
+      <location filename="../../SheetTableView.cpp" line="178"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Insert %n Non-Contiguous Columns</source>
       <translation>
         <numerusform>Infoga %n icke angränsande kolumner</numerusform>
         <numerusform>Infoga %n icke angränsande kolumner</numerusform>
       </translation>
     </message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
     <message>
       <location filename="../../SheetTableView.cpp" line="563"/>
+=======
+    <message numerus="yes">
+      <location filename="../../SheetTableView.cpp" line="181"/>
+      <source>Remove Column(s)</source>
+      <translation>
+        <numerusform>Ta bort kolumn(er)</numerusform>
+        <numerusform>Ta bort kolumn(er)</numerusform>
+      </translation>
+    </message>
+    <message>
+      <location filename="../../SheetTableView.cpp" line="194"/>
+      <location filename="../../SheetTableView.cpp" line="660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Properties…</source>
       <translation>Egenskaper…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="189"/>
       <location filename="../../SheetTableView.cpp" line="572"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="198"/>
+      <location filename="../../SheetTableView.cpp" line="669"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Bind…</source>
       <translation>Bind…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="565"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="199"/>
+      <location filename="../../SheetTableView.cpp" line="662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Configuration Table…</source>
       <translation>Konfigurationstabell…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="194"/>
       <location filename="../../SheetTableView.cpp" line="566"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="203"/>
+      <location filename="../../SheetTableView.cpp" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Merge Cells</source>
       <translation>Slå samman celler</translation>
     </message>
@@ -1159,6 +1504,7 @@ Standardvärde: %V = %A
       </translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="172"/>
       <source>Remove Columns</source>
       <translation>Ta bort kolumner</translation>
@@ -1176,30 +1522,54 @@ Standardvärde: %V = %A
     <message>
       <location filename="../../SheetTableView.cpp" line="199"/>
       <location filename="../../SheetTableView.cpp" line="567"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="208"/>
+      <location filename="../../SheetTableView.cpp" line="664"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Split Cell</source>
       <translation>Dela cell</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="203"/>
       <location filename="../../SheetTableView.cpp" line="570"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="212"/>
+      <location filename="../../SheetTableView.cpp" line="667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Cut</source>
       <translation>Klipp ut</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="204"/>
       <location filename="../../SheetTableView.cpp" line="568"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="213"/>
+      <location filename="../../SheetTableView.cpp" line="665"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Copy</source>
       <translation>Kopiera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="205"/>
       <location filename="../../SheetTableView.cpp" line="569"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="214"/>
+      <location filename="../../SheetTableView.cpp" line="666"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Paste</source>
       <translation>Klistra in</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SheetTableView.cpp" line="206"/>
       <location filename="../../SheetTableView.cpp" line="571"/>
+=======
+      <location filename="../../SheetTableView.cpp" line="215"/>
+      <location filename="../../SheetTableView.cpp" line="668"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Delete</source>
       <translation>Ta bort</translation>
     </message>
@@ -1207,10 +1577,22 @@ Standardvärde: %V = %A
   <context>
     <name>SpreadsheetGui::SheetView</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../SpreadsheetView.cpp" line="284"/>
       <source>Export PDF</source>
       <translation>Exportera PDF</translation>
     </message>
+=======
+      <location filename="../../SpreadsheetView.cpp" line="301"/>
+      <source>Export PDF</source>
+      <translation>Exportera PDF</translation>
+    </message>
+    <message>
+      <location filename="../../SpreadsheetView.cpp" line="303"/>
+      <source>PDF file</source>
+      <translation>PDF-fil</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
   </context>
   <context>
     <name>Workbench</name>
@@ -1247,12 +1629,20 @@ Standardvärde: %V = %A
   <context>
     <name>ZoomableView</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../ZoomableView.cpp" line="118"/>
+=======
+      <location filename="../../ZoomableView.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>New zoom level:</source>
       <translation>Ny zoomnivå:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../ZoomableView.cpp" line="118"/>
+=======
+      <location filename="../../ZoomableView.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Zoom Level</source>
       <translation>Zoom Nivå</translation>
     </message>
@@ -1260,12 +1650,20 @@ Standardvärde: %V = %A
   <context>
     <name>SpreadsheetGui::DlgSheetConf</name>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../DlgSheetConf.cpp" line="363"/>
+=======
+      <location filename="../../DlgSheetConf.cpp" line="292"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Setup Configuration Table</source>
       <translation>Tabell för konfiguration av inställningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv.ts
       <location filename="../../DlgSheetConf.cpp" line="430"/>
+=======
+      <location filename="../../DlgSheetConf.cpp" line="349"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Spreadsheet/Gui/Resources/translations/Spreadsheet_sv-SE.ts
       <source>Unsetup Configuration Table</source>
       <translation>Avkonfigurera konfigurationstabell</translation>
     </message>

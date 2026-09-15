@@ -150,6 +150,7 @@ class TestFCTBSerializer(_BaseToolBitSerializerTestCase):
         self.assertEqual(
             deserialized_bit.get_length(), FreeCAD.Units.Quantity(15.0, FreeCAD.Units.Length)
         )
+<<<<<<< HEAD
 
     def test_unknown_keys_preserved_on_roundtrip(self):
         """Unknown top-level keys must survive deserialize -> serialize."""
@@ -171,6 +172,8 @@ class TestFCTBSerializer(_BaseToolBitSerializerTestCase):
         self.assertIsNone(data["pocket"])
         self.assertIn("my_ext", data)
         self.assertEqual(data["my_ext"], {"foo": 1})
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 
 class TestYamlToolBitSerializer(_BaseToolBitSerializerTestCase):

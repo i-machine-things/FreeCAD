@@ -112,12 +112,20 @@
   <context>
     <name>TestGui::UnitTestDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../UnitTestImp.cpp" line="172"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>説明</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../UnitTestImp.cpp" line="173"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter the name of a callable object which, when called, will return a TestCase.
 Click 'start', and the test thus produced will be run.
 
@@ -128,12 +136,20 @@ Double click on an error in the tree view to see more information about it, incl
 點兩下樹狀檢視中的錯誤以查看有關它的更多資訊，包括堆棧跟踪。</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../UnitTestImp.cpp" line="187"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>About FreeCAD UnitTest</source>
       <translation>關於 FreeCAD 單位測試</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../UnitTestImp.cpp" line="188"/>
+=======
+      <location filename="../../UnitTestImp.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copyright (c) Werner Mayer
 
 FreeCAD UnitTest is part of FreeCAD and supports writing Unit Tests for ones own modules.</source>

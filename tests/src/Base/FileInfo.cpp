@@ -2,7 +2,11 @@
 #include <Base/FileInfo.h>
 #include <Base/Stream.h>
 #include <Base/TimeInfo.h>
+<<<<<<< HEAD
 #include <src/TempDirectory.h>
+=======
+#include <filesystem>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 class FileInfoTest: public ::testing::Test
 {

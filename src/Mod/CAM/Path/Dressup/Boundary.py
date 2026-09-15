@@ -236,6 +236,7 @@ class PathBoundary:
                 cmds.append(self.strG0ZsafeHeight)
             cmds.append(Path.Command("G1", {"Z": end.z, "F": vertFeed}))
         else:
+<<<<<<< HEAD
             # moves without retract
             if horizFeed and Path.Geom.isRoughly(begin.z, end.z, 0.001):
                 speed = horizFeed
@@ -244,6 +245,14 @@ class PathBoundary:
             cmds.append(Path.Command("G1", {"X": end.x, "Y": end.y, "Z": end.z, "F": speed}))
 
         self.firstBoundary = False
+=======
+            if end:
+                if horizFeed and Path.Geom.isRoughly(begin.z, end.z, 0.001):
+                    speed = horizFeed
+                else:
+                    speed = verticalFeed
+                cmds.append(Path.Command("G1", {"X": end.x, "Y": end.y, "Z": end.z, "F": speed}))
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         return cmds
 

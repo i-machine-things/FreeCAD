@@ -109,5 +109,16 @@ def setup_cantilever_base_solid(doc=None, solvertype="ccxtools", test_mode=False
         fem_mesh = generate_mesh.mesh_from_existing(create_nodes, create_elements)
         femmesh_obj.FemMesh = fem_mesh
 
+    # generate the mesh
+    success = False
+    if not test_mode:
+        success = generate_mesh.mesh_from_mesher(femmesh_obj, "gmsh")
+    if not success:
+        # try to create from existing rough mesh
+        from .meshes.mesh_canticcx_tetra10 import create_nodes, create_elements
+
+        fem_mesh = generate_mesh.mesh_from_existing(create_nodes, create_elements)
+        femmesh_obj.FemMesh = fem_mesh
+
     doc.recompute()
     return doc

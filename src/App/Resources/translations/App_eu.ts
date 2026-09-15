@@ -35,7 +35,11 @@
   <context>
     <name>Notifications</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Document.cpp" line="1230"/>
+=======
+      <location filename="../../Document.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
 It is recommended that the user right-click the root of the document and select Mark to recompute.
 The user should then click the Refresh button in the main toolbar.
@@ -47,36 +51,61 @@ Erabiltzaileak orduan, Refresh button sakatu beharko du tresna-barra nagusian.</
   <context>
     <name>App::LocalCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="267"/>
+=======
+      <location filename="../../Datums.cpp" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X-axis</source>
       <translation>X ardatza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="268"/>
+=======
+      <location filename="../../Datums.cpp" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y-axis</source>
       <translation>Y ardatza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="269"/>
+=======
+      <location filename="../../Datums.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z-axis</source>
       <translation>Z ardatza</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="270"/>
+=======
+      <location filename="../../Datums.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XY-plane</source>
       <translation>XY planoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="271"/>
+=======
+      <location filename="../../Datums.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XZ-plane</source>
       <translation>XZ planoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="272"/>
+=======
+      <location filename="../../Datums.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>YZ-plane</source>
       <translation>YZ planoa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="273"/>
       <source>Origin-Point</source>
       <translation type="unfinished">Origin-Point</translation>
@@ -90,6 +119,11 @@ Erabiltzaileak orduan, Refresh button sakatu beharko du tresna-barra nagusian.</
 that links to the same configurable object</source>
       <translation type="unfinished">Stores the last user choice of whether to apply CopyOnChange setup to all link
 that links to the same configurable object</translation>
+=======
+      <location filename="../../Datums.cpp" line="271"/>
+      <source>Origin</source>
+      <translation>Jatorria</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>
