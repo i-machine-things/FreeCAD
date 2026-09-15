@@ -43,6 +43,15 @@ jobs:
         with:
           ref: release-parity
           fetch-depth: 0
+          # Without this, submodules (e.g. src/Mod/AddonManager) are left as
+          # empty gitlink placeholders with no commit checked out. That's fine
+          # for a clean merge, but the conflict-recovery path's `git add -A`
+          # needs a real commit to stage whenever the merge touches a
+          # submodule pointer, or it fails outright ("does not have a commit
+          # checked out"). Given how much release-parity has diverged from
+          # upstream, hitting a real conflict is the common case here, not
+          # the exception.
+          submodules: recursive
           persist-credentials: false
 
       - name: Configure git identity
