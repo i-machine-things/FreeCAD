@@ -7,6 +7,7 @@ mechanism) it falls back to opening the release page. Runs once per 24 h
 maximum.
 """
 
+import ctypes
 import hashlib
 import platform
 import re
@@ -27,6 +28,7 @@ _API_URL = f"https://api.github.com/repos/{_REPO}/releases"
 _TAG_RE = re.compile(r"^v(\d+\.\d+\.\d+)-i-machine-things\.(\d+)$")
 _CHECK_INTERVAL = 86400  # 24 h in seconds
 _DOWNLOAD_TIMEOUT = 120  # seconds — installer is tens of MB
+_ERROR_ELEVATION_REQUIRED = 740  # Windows: installer's manifest needs admin rights
 _PREFS_PATH = "User parameter:BaseApp/Preferences/Mod/ForkUpdater"
 _FORK_VERSION_FILE = Path(__file__).resolve().parent / "fork_version.json"
 
@@ -213,11 +215,24 @@ def _launch_installer_and_quit(installer_path):
                 f"{installer_path} is missing — antivirus may have quarantined "
                 "it after download"
             )
-        subprocess.Popen(
-            [str(installer_path)],
-            creationflags=subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP,
-            close_fds=True,
-        )
+        try:
+            subprocess.Popen(
+                [str(installer_path)],
+                creationflags=subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP,
+                close_fds=True,
+            )
+        except OSError as e:
+            if getattr(e, "winerror", None) != _ERROR_ELEVATION_REQUIRED:
+                raise
+            # The installer's manifest requires admin rights even though it's a
+            # per-user install — CreateProcess (what Popen uses) can never
+            # elevate on its own. ShellExecute's "runas" verb is the actual
+            # Windows-sanctioned way to trigger the UAC consent prompt.
+            result = ctypes.windll.shell32.ShellExecuteW(
+                None, "runas", str(installer_path), None, None, 1
+            )
+            if result <= 32:  # ShellExecute returns <=32 on any failure, incl. a declined prompt
+                raise OSError(f"ShellExecute 'runas' failed (code {result})") from e
     except Exception as e:
         FreeCAD.Console.PrintError(f"ForkUpdater: failed to launch installer: {e}\n")
         from PySide.QtWidgets import QMessageBox
