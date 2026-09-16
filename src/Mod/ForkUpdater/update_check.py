@@ -11,6 +11,7 @@ import ctypes
 import hashlib
 import platform
 import re
+import shutil
 import subprocess
 import tempfile
 import threading
@@ -155,13 +156,28 @@ def _download_verified_installer(assets, tag):
                 f"ForkUpdater: installer checksum mismatch for {tag} "
                 f"(expected {expected}, got {actual}) — discarding download.\n"
             )
-            installer_path.unlink(missing_ok=True)
+            shutil.rmtree(tmp_dir, ignore_errors=True)
             return None
 
         return installer_path
     except Exception as e:
         FreeCAD.Console.PrintWarning(f"ForkUpdater: installer download failed: {e}\n")
+        shutil.rmtree(tmp_dir, ignore_errors=True)
         return None
+
+
+def _prune_stale_downloads():
+    """Remove leftover FreeCADForkUpdate_* directories from earlier check
+    cycles that were never cleaned up (e.g. an older build that predates
+    this cleanup logic, or a crash mid-download).
+
+    Safe to call unconditionally at the start of a cycle: check() throttles
+    to one cycle per 24 h, so nothing is ever mid-download or mid-install
+    when this runs, and it always runs before this cycle's own tmp_dir is
+    created.
+    """
+    for stale in Path(tempfile.gettempdir()).glob("FreeCADForkUpdate_*"):
+        shutil.rmtree(stale, ignore_errors=True)
 
 
 def _show_dialog(tag, url):
@@ -276,8 +292,11 @@ def _show_install_ready_dialog(tag, installer_path):
 
         if clicked is install_btn:
             _launch_installer_and_quit(installer_path)
-        elif clicked is skip_btn:
-            _prefs().SetString("SkippedVersion", tag)
+        else:
+            # Verified download won't be used after all — don't leave it on disk.
+            shutil.rmtree(Path(installer_path).parent, ignore_errors=True)
+            if clicked is skip_btn:
+                _prefs().SetString("SkippedVersion", tag)
     except Exception as e:
         FreeCAD.Console.PrintWarning(f"ForkUpdater: could not show dialog: {e}\n")
 
@@ -308,6 +327,8 @@ _signal.found.connect(_on_found)
 def _check_worker():
     """Runs in a background thread — fetches GitHub, downloads and verifies
     the installer on Windows, then fires a dialog on the main thread if needed."""
+    _prune_stale_downloads()
+
     prefs = _prefs()
     try:
         tag, url, assets = _fetch_latest_fork_release()
