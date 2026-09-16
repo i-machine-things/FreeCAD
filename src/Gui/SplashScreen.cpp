@@ -383,6 +383,24 @@ QPixmap SplashScreen::splashImage()
         if (tv != App::Application::Config().end()) {
             version = QString::fromStdString(tv->second);
         }
+
+        // Append the fork build identifier, if this is an i-machine-things fork
+        // build (see src/Mod/ForkUpdater/CMakeLists.txt) — a normal upstream
+        // build never has fork_version.json, so this is a no-op there. Done
+        // before any width/position math below so it's accounted for like any
+        // other variable-length version text (e.g. a translated title).
+        QString forkVersionPath = QString::fromStdString(App::Application::getHomePath())
+            + QStringLiteral("Mod/ForkUpdater/fork_version.json");
+        QFile forkVersionFile(forkVersionPath);
+        if (forkVersionFile.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            QString forkContents = QString::fromUtf8(forkVersionFile.readAll());
+            QRegularExpression forkRx(QLatin1String(R"("fork_build"\s*:\s*(\d+))"));
+            auto forkMatch = forkRx.match(forkContents);
+            if (forkMatch.hasMatch()) {
+                version += QStringLiteral(" (i-machine-things.%1)").arg(forkMatch.captured(1));
+            }
+        }
+
         if (tp != App::Application::Config().end()) {
             position = QString::fromStdString(tp->second);
         }
