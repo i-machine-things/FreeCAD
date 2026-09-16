@@ -231,6 +231,7 @@ def _launch_installer_and_quit(installer_path):
 
     mw = FreeCADGui.getMainWindow()
     if not mw.close():
+        shutil.rmtree(Path(installer_path).parent, ignore_errors=True)
         FreeCAD.Console.PrintMessage(
             "ForkUpdater: install postponed — FreeCAD close was cancelled "
             "(e.g. unsaved documents). Restart the update later to install.\n"
