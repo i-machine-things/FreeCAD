@@ -215,14 +215,27 @@ def _show_dialog(tag, url):
 def _launch_installer_and_quit(installer_path):
     """Must be called on the main/GUI thread, after the user confirms.
 
-    Launches the installer *before* closing FreeCAD's main window, not
-    after. MainWindow::closeEvent (src/Gui/MainWindow.cpp) calls qApp->quit()
-    as soon as the close is accepted, which starts tearing down the GUI
-    (including the Report View) — an exception raised by the installer
-    launch after that point has nowhere left to be seen. Launching first and
-    only closing once it's confirmed running keeps failures visible.
+    Closes FreeCAD's main window *before* launching the installer, and
+    skips the launch entirely if the close is cancelled (e.g. an
+    unsaved-document prompt) — launching first would race the installer
+    against a still-running FreeCAD with its own executable/DLLs open.
+
+    A launch failure after close is reported via a parentless QMessageBox
+    rather than one parented to MainWindow: MainWindow::closeEvent
+    (src/Gui/MainWindow.cpp) synchronously closes dialogs, deletes MDI
+    views, and flushes deferred-delete events once the close is accepted,
+    so MainWindow itself may already be torn down by the time we'd need it
+    as a dialog parent.
     """
     import FreeCADGui
+
+    mw = FreeCADGui.getMainWindow()
+    if not mw.close():
+        FreeCAD.Console.PrintMessage(
+            "ForkUpdater: install postponed — FreeCAD close was cancelled "
+            "(e.g. unsaved documents). Restart the update later to install.\n"
+        )
+        return
 
     installer_path = Path(installer_path)
     try:
@@ -252,18 +265,11 @@ def _launch_installer_and_quit(installer_path):
     except Exception as e:
         FreeCAD.Console.PrintError(f"ForkUpdater: failed to launch installer: {e}\n")
         from PySide.QtWidgets import QMessageBox
+        # No parent: MainWindow is already closing/torn down at this point.
         QMessageBox.critical(
-            FreeCADGui.getMainWindow(),
+            None,
             "FreeCAD Fork Update Failed",
             f"Could not launch the installer:\n\n{e}",
-        )
-        return
-
-    mw = FreeCADGui.getMainWindow()
-    if not mw.close():
-        FreeCAD.Console.PrintMessage(
-            "ForkUpdater: installer launched, but FreeCAD is still open "
-            "(close was cancelled) — close it manually to let the install finish.\n"
         )
 
 
