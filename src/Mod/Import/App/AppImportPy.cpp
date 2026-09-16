@@ -114,6 +114,13 @@ public:
             "writeDXFObject([objects],filename [,version,usePolyline,optionSource]): Exports "
             "DocumentObject(s) to a DXF file."
         );
+        add_varargs_method(
+            "dxfExporterSupportsUnitScaling",
+            &Module::dxfExporterSupportsUnitScaling,
+            "dxfExporterSupportsUnitScaling(): Returns True when this binary's DXF exporter "
+            "applies coordinate scaling internally via setExportUnits/BRepBuilderAPI_Transform. "
+            "Python uses this sentinel to avoid applying scaling a second time."
+        );
         initialize("This module is the Import module.");  // register with Python
     }
 
@@ -613,10 +620,14 @@ private:
                         layerName = obj->getNameInDocument();
                         writer.setLayerName(layerName);
                         TopoDS_Shape shapeToExport;
+                        bool shapeAlreadyScaled = false;
                         if (SketchExportHelper::isSketch(obj)) {
                             // project sketch along sketch Z via hlrProjector to get geometry on XY
-                            // plane
-                            shapeToExport = SketchExportHelper::getFlatSketchXY(obj);
+                            // plane. Scale is applied before projection, so tell exportShape()
+                            // not to scale again.
+                            shapeToExport
+                                = SketchExportHelper::getFlatSketchXY(obj, writer.getExportScale());
+                            shapeAlreadyScaled = true;
                         }
                         else {
                             // do we know that obj is a Part::Feature? is this checked somewhere
@@ -624,7 +635,7 @@ private:
                             Part::Feature* part = static_cast<Part::Feature*>(obj);
                             shapeToExport = part->Shape.getValue();
                         }
-                        writer.exportShape(shapeToExport);
+                        writer.exportShape(shapeToExport, shapeAlreadyScaled);
                     }
                 }
                 writer.endRun();
@@ -680,9 +691,12 @@ private:
                 layerName = obj->getNameInDocument();
                 writer.setLayerName(layerName);
                 TopoDS_Shape shapeToExport;
+                bool shapeAlreadyScaled = false;
                 if (SketchExportHelper::isSketch(obj)) {
-                    // project sketch along sketch Z via hlrProjector to get geometry on XY plane
-                    shapeToExport = SketchExportHelper::getFlatSketchXY(obj);
+                    // project sketch along sketch Z via hlrProjector to get geometry on XY plane.
+                    // Scale is applied before projection, so tell exportShape() not to scale again.
+                    shapeToExport = SketchExportHelper::getFlatSketchXY(obj, writer.getExportScale());
+                    shapeAlreadyScaled = true;
                 }
                 else {
                     // TODO: do we know that obj is a Part::Feature? is this checked somewhere
@@ -691,7 +705,7 @@ private:
                     Part::Feature* part = static_cast<Part::Feature*>(obj);
                     shapeToExport = part->Shape.getValue();
                 }
-                writer.exportShape(shapeToExport);
+                writer.exportShape(shapeToExport, shapeAlreadyScaled);
                 writer.endRun();
                 return Py::None();
             }
@@ -701,6 +715,11 @@ private:
         }
 
         throw Py::TypeError("expected ([DocObject],path");
+    }
+
+    Py::Object dxfExporterSupportsUnitScaling(const Py::Tuple& /*args*/)
+    {
+        return Py::True();
     }
 };
 

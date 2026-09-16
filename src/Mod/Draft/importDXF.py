@@ -59,19 +59,43 @@ import re
 import time
 import FreeCAD
 import Part
-import Draft
-import Mesh
 import DraftVecUtils
-import DraftGeomUtils
 import WorkingPlane
 from FreeCAD import Vector
 from FreeCAD import Console as FCC
-from Draft import LinearDimension
-from draftobjects.dimension import _Dimension
+from draftgeoutils import circles as geo_circles
+from draftgeoutils import general as geo_general
+from draftgeoutils import geometry as geo_geometry
+from draftgeoutils import wires as geo_wires
+from draftfunctions import dxf
+from draftfunctions import rotate
+from draftmake import make_bezcurve
+from draftmake import make_bspline
+from draftmake import make_clone
+from draftmake import make_circle
+from draftmake import make_ellipse
+from draftmake import make_layer
+from draftmake import make_point
+from draftmake import make_sketch
+from draftmake import make_text
+from draftmake import make_wire
+from draftobjects import circle
+from draftobjects import dimension
+from draftobjects import ellipse
+from draftobjects import point
+from draftobjects import wire
+from draftutils import groups
 from draftutils import params
 from draftutils import utils
 from draftutils.utils import pyopen
 from PySide import QtCore, QtGui
+
+try:
+    import Mesh
+
+    mesh_available = True
+except ImportError:
+    mesh_available = False
 
 gui = FreeCAD.GuiUp
 draftui = None
@@ -316,7 +340,7 @@ def locateLayer(wantedLayer, color=None, drawstyle=None, visibility=True):
 
     See also
     --------
-    Draft.make_layer
+    make_layer.make_layer
 
     To do
     -----
@@ -330,7 +354,7 @@ def locateLayer(wantedLayer, color=None, drawstyle=None, visibility=True):
         if layer.Label == wantedLayer:
             return layer
     if dxfUseDraftVisGroups:
-        newLayer = Draft.make_layer(
+        newLayer = make_layer.make_layer(
             name=wantedLayer,
             line_color=(0.0, 0.0, 0.0) if not color else color,
             draw_style="Solid" if not drawstyle else drawstyle,
@@ -444,7 +468,7 @@ def getGroup(ob):
     """
     all_objs = FreeCAD.ActiveDocument.Objects
     if dxfUseDraftVisGroups:
-        for layer in [o for o in all_objs if Draft.getType(o) == "Layer"]:
+        for layer in [o for o in all_objs if utils.get_type(o) == "Layer"]:
             if ob in layer.Group:
                 return layer.Label
     for i in all_objs:
@@ -485,7 +509,7 @@ def getACI(ob, text=False):
     else:
         # detect if we need to set "BYLAYER"
         for parent in ob.InList:
-            if Draft.getType(parent) == "Layer":
+            if utils.get_type(parent) == "Layer":
                 if ob in parent.Group:
                     if hasattr(parent, "ViewObject") and hasattr(
                         parent.ViewObject, "OverrideChildren"
@@ -738,7 +762,7 @@ def vec(pt):
     -----
     Use local variables, not global variables.
     """
-    pre = Draft.precision()
+    pre = utils.precision()
     if isinstance(pt, (int, float)):
         v = round(pt, pre)
         if resolvedScale != 1:
@@ -851,7 +875,7 @@ def drawLine(line, forceShape=False):
         if not DraftVecUtils.equals(v1, v2):
             try:
                 if (dxfCreateDraft or dxfCreateSketch) and (not forceShape):
-                    return Draft.make_wire([v1, v2], face=False)
+                    return make_wire.make_wire([v1, v2], face=False)
                 else:
                     return Part.LineSegment(v1, v2).toShape()
             except Part.OCCError:
@@ -968,7 +992,7 @@ def drawPolyline(polyline, forceShape=False, num=None):
                         return Part.Face(w1)
                 elif (dxfCreateDraft or dxfCreateSketch) and (not curves) and (not forceShape):
                     # Create parametric Draft.Wire for straight polylines
-                    ob = Draft.make_wire(verts, face=False)
+                    ob = make_wire.make_wire(verts, face=False)
                     ob.Closed = polyline.closed
                     ob.Placement = placementFromDXFOCS(polyline)
                     return ob
@@ -1012,14 +1036,16 @@ def drawArc(arc, forceShape=False):
     -----
     Use local variables, not global variables.
     """
-    pre = Draft.precision()
+    pre = utils.precision()
     pl = placementFromDXFOCS(arc)
     rad = vec(arc.radius)
     firstangle = round(arc.start_angle % 360, pre)
     lastangle = round(arc.end_angle % 360, pre)
     try:
         if (dxfCreateDraft or dxfCreateSketch) and (not forceShape):
-            return Draft.make_circle(rad, pl, face=False, startangle=firstangle, endangle=lastangle)
+            return make_circle.make_circle(
+                rad, pl, face=False, startangle=firstangle, endangle=lastangle
+            )
         else:
             circle = Part.Circle()
             circle.Radius = rad
@@ -1066,7 +1092,7 @@ def drawCircle(circle, forceShape=False):
     rad = vec(circle.radius)
     try:
         if (dxfCreateDraft or dxfCreateSketch) and (not forceShape):
-            return Draft.make_circle(rad, pl, face=False)
+            return make_circle.make_circle(rad, pl, face=False)
         else:
             curve = Part.Circle()
             curve.Radius = rad
@@ -1110,7 +1136,7 @@ def drawEllipse(ellipse, forceShape=False):
     Use local variables, not global variables.
     """
     try:
-        pre = Draft.precision()
+        pre = utils.precision()
         c = vec(ellipse.loc)
         start = round(ellipse.start_angle, pre)
         end = round(ellipse.end_angle, pre)
@@ -1130,7 +1156,7 @@ def drawEllipse(ellipse, forceShape=False):
                 shape.Placement = pl
                 return shape
             else:
-                return Draft.make_ellipse(majr, minr, pl, face=False)
+                return make_ellipse.make_ellipse(majr, minr, pl, face=False)
         else:
             shape = el.toShape(start, end)
             shape.Placement = pl
@@ -1193,6 +1219,9 @@ def drawMesh(mesh, forceShape=False):
     --------
     drawBlock
     """
+    if not mesh_available:
+        FCC.PrintWarning("Could not import mesh object as the Mesh module is not installed.\n")
+        return None
     md = []
     if mesh.flags == 16:
         pts = mesh.points
@@ -1332,9 +1361,9 @@ def drawSplineIterpolation(verts, closed=False, forceShape=False, alwaysDiscreti
     """
     if (dxfCreateDraft or dxfCreateSketch) and (not forceShape):
         if dxfDiscretizeCurves or alwaysDiscretize:
-            ob = Draft.make_wire(verts, face=False)
+            ob = make_wire.make_wire(verts, face=False)
         else:
-            ob = Draft.make_bspline(verts, face=False)
+            ob = make_bspline.make_bspline(verts, face=False)
         ob.Closed = closed
         return ob
     else:
@@ -1429,7 +1458,7 @@ def drawSpline(spline, forceShape=False):
     -------
     Part::Feature or Part::TopoShape ('Edge', 'Face')
         The returned object is normally a `Draft BezCurve`
-        created with `Draft.make_bezcurve(controlpoints, degree=degree)`,
+        created with `make_bezcurve.make_bezcurve(controlpoints, degree=degree)`,
         if `forceShape` is `False` and there are no weights.
 
         Otherwise it tries to return a `Part.Shape` of type `'Wire'`,
@@ -1459,7 +1488,7 @@ def drawSpline(spline, forceShape=False):
 
     See also
     --------
-    drawBlock, Draft.make_bezcurve, Part.BezierCurve, drawSplineIterpolation,
+    drawBlock, make_bezcurve.make_bezcurve, Part.BezierCurve, drawSplineIterpolation,
     Part.BSplineCurve.buildFromPolesMultsKnots
 
     To do
@@ -1522,7 +1551,7 @@ def drawSpline(spline, forceShape=False):
     if nbfitp != len(fitpoints):
         raise ValueError("Wrong number of fit points")
     if rational == all((w == 1.0 or w is None) for w in weights):
-        raise ValueError("inconsistant rational flag")
+        raise ValueError("Inconsistent rational flag")
     if len(weights) == 0:
         weights = None
     elif len(weights) != len(controlpoints):
@@ -1551,7 +1580,7 @@ def drawSpline(spline, forceShape=False):
             if not forceShape and weights is None:
                 points = controlpoints[:]
                 del points[degree + 1 :: degree + 1]
-                return Draft.make_bezcurve(points, degree=degree)
+                return make_bezcurve.make_bezcurve(points, degree=degree)
             else:
                 poles = controlpoints[:]
                 edges = []
@@ -1780,7 +1809,7 @@ def drawInsert(insert, num=None, clone=False):
             addText(a, attrib=True)
     if clone:
         if insert.block in blockobjects:
-            newob = Draft.make_clone(blockobjects[insert.block])
+            newob = make_clone.make_clone(blockobjects[insert.block])
             tsf = FreeCAD.Matrix()
             rot = math.radians(insert.rotation)
             pos = vec(insert.loc)
@@ -1851,7 +1880,6 @@ def drawLayerBlock(objlist, name="LayerBlock"):
     obj = None
     if (dxfCreateDraft or dxfCreateSketch) and isObj:
         try:
-            # obj = Draft.make_block(objlist)
             obj = doc.addObject("Part::Compound", name)
             obj.Links = objlist
         except Part.OCCError:
@@ -1984,16 +2012,22 @@ def addText(text, attrib=False):
         The DXF object of type `'text'` or `'mtext'`.
 
     attrib : bool, optional
-        It defaults to `False`. If `True` it determines
-        the layer name from the DXF code 8, the text value from code 1,
-        the position from codes 10, 20, 30, the height from code 40,
-        the rotation from code 50, and assigns the name `'Attribute'`.
+        It defaults to `False`.
+        If `True` it determines from the DXF:
+        - the text value - code 1,
+        - the text colour - code 6,
+        - the text font - code 7,
+        - the layer name - code 8,
+        - the position (X, Y, Z) - codes 10, 20, 30,
+        - the text height - from code 40,
+        - the rotation angle - from code 50,
+        and assigns the name `'Attribute'`.
         Otherwise, it assumes these values from `text`
         and sets the name to `'Text'`.
 
     See also
     --------
-    locateLayer, drawBlock, Draft.make_text
+    locateLayer, drawBlock, make_text.make_text
 
     To do
     -----
@@ -2015,7 +2049,7 @@ def addText(text, attrib=False):
         else:
             name = "Text"
         val = deformat(val)
-        newob = Draft.make_text(val.split("\n"))
+        newob = make_text.make_text(val.split("\n"))
         if hasattr(lay, "addObject"):
             lay.addObject(newob)
         elif hasattr(lay, "Proxy") and hasattr(lay.Proxy, "addObject"):
@@ -2032,16 +2066,16 @@ def addText(text, attrib=False):
                 if DraftVecUtils.isNull(ax):
                     ax = Vector(0, 0, 1)
                 ang = -math.degrees(DraftVecUtils.angle(xv, Vector(1, 0, 0), ax))
-                Draft.rotate(newob, ang, axis=ax)
+                rotate.rotate(newob, ang, axis=ax)
             if ax == Vector(0, 0, -1):
                 ax = Vector(0, 0, 1)
         elif hasattr(text, "rotation"):
             if text.rotation:
-                Draft.rotate(newob, text.rotation)
+                rotate.rotate(newob, text.rotation)
         if attrib:
             attrot = rawValue(text, 50)
             if attrot:
-                Draft.rotate(newob, attrot)
+                rotate.rotate(newob, attrot)
         if gui and draftui and dxfUseStandardSize:
             fsize = draftui.fontsize
         else:
@@ -2240,7 +2274,7 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
     resolvedScale = getScaleFromDXF(drawing.header) * dxfScaling
     global layers
     typ = "Layer" if dxfUseDraftVisGroups else "App::DocumentObjectGroup"
-    layers = [o for o in FreeCAD.ActiveDocument.Objects if Draft.getType(o) == typ]
+    layers = [o for o in FreeCAD.ActiveDocument.Objects if utils.get_type(o) == typ]
     global doc
     doc = document
     global blockshapes
@@ -2286,12 +2320,14 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                     FreeCAD.ActiveDocument.recompute()
                     if dxfMakeBlocks or dxfJoin:
                         if sketch:
-                            shape = Draft.make_sketch(shape, autoconstraints=True, addTo=sketch)
+                            shape = make_sketch.make_sketch(
+                                shape, autoconstraints=True, addTo=sketch
+                            )
                         else:
-                            shape = Draft.make_sketch(shape, autoconstraints=True)
+                            shape = make_sketch.make_sketch(shape, autoconstraints=True)
                             sketch = shape
                     else:
-                        shape = Draft.make_sketch(shape, autoconstraints=True)
+                        shape = make_sketch.make_sketch(shape, autoconstraints=True)
                 elif dxfJoin or getShapes:
                     if isinstance(shape, Part.Shape):
                         shapes.append(shape)
@@ -2332,12 +2368,14 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                     FreeCAD.ActiveDocument.recompute()
                     if dxfMakeBlocks or dxfJoin:
                         if sketch:
-                            shape = Draft.make_sketch(shape, autoconstraints=True, addTo=sketch)
+                            shape = make_sketch.make_sketch(
+                                shape, autoconstraints=True, addTo=sketch
+                            )
                         else:
-                            shape = Draft.make_sketch(shape, autoconstraints=True)
+                            shape = make_sketch.make_sketch(shape, autoconstraints=True)
                             sketch = shape
                     else:
-                        shape = Draft.make_sketch(shape, autoconstraints=True)
+                        shape = make_sketch.make_sketch(shape, autoconstraints=True)
                 elif dxfJoin or getShapes:
                     if isinstance(shape, Part.Shape):
                         shapes.append(shape)
@@ -2363,12 +2401,14 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                     FreeCAD.ActiveDocument.recompute()
                     if dxfMakeBlocks or dxfJoin:
                         if sketch:
-                            shape = Draft.make_sketch(shape, autoconstraints=True, addTo=sketch)
+                            shape = make_sketch.make_sketch(
+                                shape, autoconstraints=True, addTo=sketch
+                            )
                         else:
-                            shape = Draft.make_sketch(shape, autoconstraints=True)
+                            shape = make_sketch.make_sketch(shape, autoconstraints=True)
                             sketch = shape
                     else:
-                        shape = Draft.make_sketch(shape, autoconstraints=True)
+                        shape = make_sketch.make_sketch(shape, autoconstraints=True)
                 elif dxfJoin or getShapes:
                     if isinstance(shape, Part.Shape):
                         shapes.append(shape)
@@ -2405,7 +2445,7 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                 if res == QtWidgets.QMessageBox.Cancel:
                     FCC.PrintMessage("Aborted\n")
                     return
-        shapes = DraftGeomUtils.findWires(edges)
+        shapes = geo_wires.findWires(edges)
         for s in shapes:
             newob = addObject(s)
 
@@ -2421,12 +2461,14 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                     FreeCAD.ActiveDocument.recompute()
                     if dxfMakeBlocks or dxfJoin:
                         if sketch:
-                            shape = Draft.make_sketch(shape, autoconstraints=True, addTo=sketch)
+                            shape = make_sketch.make_sketch(
+                                shape, autoconstraints=True, addTo=sketch
+                            )
                         else:
-                            shape = Draft.make_sketch(shape, autoconstraints=True)
+                            shape = make_sketch.make_sketch(shape, autoconstraints=True)
                             sketch = shape
                     else:
-                        shape = Draft.make_sketch(shape, autoconstraints=True)
+                        shape = make_sketch.make_sketch(shape, autoconstraints=True)
                 elif dxfMakeBlocks:
                     addToBlock(shape, circle.layer)
                 elif getShapes:
@@ -2611,11 +2653,11 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                         lay.addObject(newob)
                     elif hasattr(lay, "Proxy") and hasattr(lay.Proxy, "addObject"):
                         lay.Proxy.addObject(lay, newob)
-                    _Dimension(newob)
+                    dimension.LinearDimension(newob)
                     if gui:
-                        from Draft import _ViewProviderDimension
+                        from draftviewproviders import view_dimension
 
-                        _ViewProviderDimension(newob.ViewObject)
+                        view_dimension.ViewProviderLinearDimension(newob.ViewObject)
                     newob.Start = p1
                     newob.End = p2
                     newob.Dimline = pt
@@ -2640,14 +2682,18 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
         for point in points:
             x = vec(rawValue(point, 10))
             y = vec(rawValue(point, 20))
-            z = vec(rawValue(point, 30))
+            # For DXF file without Z values.
+            if rawValue(point, 30):
+                z = vec(rawValue(point, 30))
+            else:
+                z = 0
             lay = rawValue(point, 8)
             if dxfImportLayouts or (not rawValue(point, 67)):
                 if dxfMakeBlocks:
                     shape = Part.Vertex(x, y, z)
                     addToBlock(shape, lay)
                 else:
-                    newob = Draft.make_point(x, y, z)
+                    newob = make_point.make_point(x, y, z)
                     lay = locateLayer(lay)
                     lay.addObject(newob)
                     if gui:
@@ -2663,7 +2709,7 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
         for leader in leaders:
             if dxfImportLayouts or (not rawValue(leader, 67)):
                 points = getMultiplePoints(leader)
-                newob = Draft.make_wire(points)
+                newob = make_wire.make_wire(points)
                 lay = locateLayer(rawValue(leader, 8))
                 lay.addObject(newob)
                 if gui:
@@ -2694,7 +2740,7 @@ def processdxf(document, filename, getShapes=False, reComputeFlag=True):
                             if gui:
                                 formatObject(newob, hatch)
                     else:
-                        newob = Draft.make_wire(points)
+                        newob = make_wire.make_wire(points)
                         locateLayer(lay).addObject(newob)
                         if gui:
                             formatObject(newob, hatch)
@@ -2879,7 +2925,7 @@ def _import_dxf_file(filename, doc_name=None):
         draft_postprocessor = DxfDraftPostProcessor(doc, newly_created_objects, import_mode)
         draft_postprocessor.run()
 
-    Draft.convert_draft_texts()  # This is a general utility that should run for both importers
+    make_text.convert_draft_texts()  # This is a general utility that should run for both importers
     doc.recompute()
 
     processing_end_time = time.perf_counter()
@@ -2985,7 +3031,7 @@ def projectShape(shape, direction, tess=None):
     tess : list, optional
         It defaults to `None`. If it is available, it is a list with
         two elements, `[True, segment_length]` which are used by
-        `DraftGeomUtils.cleanProjection(compound, tess[0], tess[1])`
+        `draftgeoutils.wires.cleanProjection(compound, tess[0], tess[1])`
         to create a valid compound of edges.
 
         Otherwise, a simple `Part.Compound` is produced.
@@ -3000,7 +3046,7 @@ def projectShape(shape, direction, tess=None):
 
     See also
     --------
-    TechDraw.projectEx, DraftGeomUtils.cleanProjection
+    TechDraw.projectEx, draftgeoutils.wires.cleanProjection
     """
     import TechDraw
 
@@ -3014,12 +3060,12 @@ def projectShape(shape, direction, tess=None):
         for g in groups[0:5]:
             if g:
                 edges.append(g)
-        # return DraftGeomUtils.cleanProjection(Part.makeCompound(edges))
+        # return geo_wires.cleanProjection(Part.makeCompound(edges))
         if tess:
-            return DraftGeomUtils.cleanProjection(Part.makeCompound(edges), tess[0], tess[1])
+            return geo_wires.cleanProjection(Part.makeCompound(edges), tess[0], tess[1])
         else:
             return Part.makeCompound(edges)
-            # return DraftGeomUtils.cleanProjection(Part.makeCompound(edges))
+            # return geo_wires.cleanProjection(Part.makeCompound(edges))
 
 
 def getArcData(edge):
@@ -3104,6 +3150,8 @@ def getSplineSegs(edge):
         then it only returns the first and the last point of the `edge`.
     """
     seglength = params.get_param("maxsegmentlength")
+    if dxfExportScale != 1.0:
+        seglength *= dxfExportScale
     points = []
     if seglength == 0:
         points.append(edge.Vertexes[0].Point)
@@ -3197,7 +3245,7 @@ def getWire(wire, nospline=False, lw=True, asis=False):
         # print("processing wire ",wire.Edges)
         for edge in edges:
             v1 = edge.Vertexes[0].Point
-            if DraftGeomUtils.geomType(edge) == "Circle":
+            if geo_general.geomType(edge) == "Circle":
                 # polyline bulge -> negative makes the arc go clockwise
                 angle = edge.LastParameter - edge.FirstParameter
                 bul = math.tan(angle / 4)
@@ -3207,7 +3255,7 @@ def getWire(wire, nospline=False, lw=True, asis=False):
                 if edge.Curve.Axis.dot(Vector(0, 0, 1)) < 0:
                     bul = -bul
                 points.append(fmt(v1, bul))
-            elif (DraftGeomUtils.geomType(edge) in ["BSplineCurve", "BezierCurve", "Ellipse"]) and (
+            elif (geo_general.geomType(edge) in ["BSplineCurve", "BezierCurve", "Ellipse"]) and (
                 not nospline
             ):
                 spline = getSplineSegs(edge)
@@ -3216,7 +3264,7 @@ def getWire(wire, nospline=False, lw=True, asis=False):
                     points.append(fmt(p))
             else:
                 points.append(fmt(v1))
-        if not DraftGeomUtils.isReallyClosed(wire):
+        if not geo_wires.isReallyClosed(wire):
             v = edges[-1].Vertexes[-1].Point
             points.append(fmt(v))
         # print("wire verts: ",points)
@@ -3325,6 +3373,10 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
     dxfLibrary.Line
     """
     processededges = []
+    if dxfExportScale != 1.0:
+        m = FreeCAD.Matrix()
+        m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
+        sh = sh.transformGeometry(m)
     if not layer:
         layer = getStrGroup(ob)
     if not color:
@@ -3336,7 +3388,7 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
             edges = Part.__sortEdges__(wire.Edges)
         for e in edges:
             processededges.append(e.hashCode())
-        if (len(wire.Edges) == 1) and (DraftGeomUtils.geomType(wire.Edges[0]) == "Circle"):
+        if (len(wire.Edges) == 1) and (geo_general.geomType(wire.Edges[0]) == "Circle"):
             center, radius, ang1, ang2 = getArcData(wire.Edges[0])
             if center is not None:
                 if len(wire.Edges[0].Vertexes) == 1:  # circle
@@ -3352,7 +3404,7 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
                         dxfLibrary.LwPolyLine(
                             getWire(wire, nospline, asis=asis),
                             [0.0, 0.0],
-                            int(DraftGeomUtils.isReallyClosed(wire)),
+                            int(geo_wires.isReallyClosed(wire)),
                             color=color,
                             layer=layer,
                         )
@@ -3369,7 +3421,7 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
                     dxfLibrary.PolyLine(
                         getWire(wire, nospline, lw=False, asis=asis),
                         [0.0, 0.0, 0.0],
-                        int(DraftGeomUtils.isReallyClosed(wire)),
+                        int(geo_wires.isReallyClosed(wire)),
                         color=color,
                         layer=layer,
                     )
@@ -3382,10 +3434,10 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
         # print("lone edges ", loneedges)
         for edge in loneedges:
             # splines
-            if DraftGeomUtils.geomType(edge) in ["BSplineCurve", "BezierCurve"]:
+            if geo_general.geomType(edge) in ["BSplineCurve", "BezierCurve"]:
                 if (len(edge.Vertexes) == 1) and (edge.Curve.isClosed()) and (edge.Area > 0):
                     # special case: 1-vert closed spline, approximate as a circle
-                    c = DraftGeomUtils.getCircleFromSpline(edge)
+                    c = geo_circles.getCircleFromSpline(edge)
                     if c:
                         dxfobject.append(
                             dxfLibrary.Circle(
@@ -3403,7 +3455,7 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
                     dxfobject.append(
                         dxfLibrary.PolyLine(points, [0.0, 0.0, 0.0], 0, color=color, layer=layer)
                     )
-            elif DraftGeomUtils.geomType(edge) == "Circle":  # curves
+            elif geo_general.geomType(edge) == "Circle":  # curves
                 center, radius, ang1, ang2 = getArcData(edge)
                 if center is not None:
                     if not isinstance(center, tuple):
@@ -3418,7 +3470,7 @@ def writeShape(sh, ob, dxfobject, nospline=False, lwPoly=False, layer=None, colo
                                 center, radius, ang1, ang2, color=getACI(ob), layer=layer
                             )
                         )
-            elif DraftGeomUtils.geomType(edge) == "Ellipse":  # ellipses:
+            elif geo_general.geomType(edge) == "Ellipse":  # ellipses:
                 if params.get_param("DiscretizeEllipses"):
                     points = []
                     spline = getSplineSegs(edge)
@@ -3499,7 +3551,7 @@ def writeMesh(ob, dxf):
     points = []
     faces = []
     for p in meshdata[0]:
-        points.append([p.x, p.y, p.z])
+        points.append([p.x * dxfExportScale, p.y * dxfExportScale, p.z * dxfExportScale])
     for f in meshdata[1]:
         faces.append([f[0] + 1, f[1] + 1, f[2] + 1])
     # print(len(points),len(faces))
@@ -3620,6 +3672,34 @@ def getStrGroup(ob):
     return getGroup(ob).upper()
 
 
+def _patch_dxf_insunits(filename, insunits):
+    """Post-process a DXF file to correct its $INSUNITS header value.
+
+    Used when the C++ binary is an older build that does not apply unit
+    scaling internally.  The file is rewritten in-place.
+    ``insunits`` is the DXF INSUNITS integer code for the target unit.
+    """
+    mm_tag = "$INSUNITS\n 70\n4\n"
+    try:
+        with open(filename, "r", encoding="utf-8", errors="replace") as fh:
+            content = fh.read()
+        if mm_tag not in content:
+            return  # R12 export (no $INSUNITS) or already correct
+        if insunits == 0:
+            # Unitless: strip the $INSUNITS entry completely
+            content = content.replace("  9\n" + mm_tag, "")
+        else:
+            content = content.replace(
+                mm_tag, "$INSUNITS\n 70\n{}\n".format(insunits)
+            )
+        with open(filename, "w", encoding="utf-8") as fh:
+            fh.write(content)
+    except OSError as exc:
+        FreeCAD.Console.PrintWarning(
+            "DXF export: could not patch $INSUNITS in {}: {}\n".format(filename, exc)
+        )
+
+
 def export(objectslist, filename, nospline=False, lwPoly=False):
     """Export a DXF file into the specified filename.
 
@@ -3690,17 +3770,77 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
         version = 14
         if nospline:
             version = 12
-        Import.writeDXFObject(objectslist, filename, version, lwPoly)
+
+        # Detect whether this C++ binary applies coordinate scaling internally.
+        # Flatpak/Linux test builds patch only Python+UI; the C++ binary there
+        # is the upstream stable release that predates setExportUnits /
+        # BRepBuilderAPI_Transform.  On such binaries we scale the geometry in
+        # Python and post-process $INSUNITS so the DXF is still correct.
+        _cpp_scales = hasattr(Import, "dxfExporterSupportsUnitScaling")
+
+        if _cpp_scales or dxfExportScale == 1.0:
+            # Patched binary (Windows) or no unit conversion needed:
+            # let C++ handle coordinate scaling and header patching.
+            Import.writeDXFObject(objectslist, filename, version, lwPoly)
+        else:
+            # Old binary (Linux Flatpak): apply coordinate scaling here so
+            # the exported DXF has coordinates in the chosen unit.
+            # Use a temporary document so writeDXFObject preserves per-object
+            # behaviour (layer assignment, sketch flattening) instead of the
+            # shape-only writeDXFShape path.
+            prev_doc = FreeCAD.ActiveDocument
+            tmp_doc = FreeCAD.newDocument("_dxf_fallback_export")
+            try:
+                tmp_objects = []
+                for obj in objectslist:
+                    sh = getattr(obj, "Shape", None)
+                    if sh is None:
+                        continue
+                    try:
+                        if sh.isNull():
+                            continue
+                        if obj.isDerivedFrom("Sketcher::SketchObject"):
+                            # Match the C++ exporter's flattening (getFlatSketchXY):
+                            # express the sketch's geometry in its own local, in-plane
+                            # coordinates instead of the document-global ones, so a
+                            # tilted/rotated sketch still exports as a flat 2D drawing
+                            # rather than raw 3D coordinates.
+                            sh = sh.copy()
+                            sh.transformShape(obj.Placement.inverse().toMatrix())
+                        m = FreeCAD.Matrix()
+                        m.scale(dxfExportScale, dxfExportScale, dxfExportScale)
+                        # Use the source object's internal name, not its Label, so the
+                        # DXF layer assigned by writeDXFObject matches the original object.
+                        feat = tmp_doc.addObject("Part::Feature", obj.Name)
+                        feat.Shape = sh.transformGeometry(m)
+                        tmp_objects.append(feat)
+                    except Exception as exc:  # noqa: BLE001
+                        FreeCAD.Console.PrintWarning(
+                            "DXF export: skipping {} ({})\n".format(
+                                getattr(obj, "Label", "?"), exc
+                            )
+                        )
+                if tmp_objects:
+                    Import.writeDXFObject(tmp_objects, filename, version, lwPoly)
+                    # Old binary writes $INSUNITS=4 (mm); patch to the target unit.
+                    _patch_dxf_insunits(filename, dxfExportInsunits)
+            finally:
+                FreeCAD.closeDocument("_dxf_fallback_export")
+                if prev_doc is not None:
+                    try:
+                        FreeCAD.setActiveDocument(prev_doc.Name)
+                    except Exception:  # noqa: BLE001
+                        pass
         return
     getDXFlibs()
     if dxfLibrary:
         global exportList
-        exportList = Draft.get_group_contents(objectslist, spaces=True)
+        exportList = groups.get_group_contents(objectslist, spaces=True)
 
         nlist = []
         exportLayers = []
         for ob in exportList:
-            t = Draft.getType(ob)
+            t = utils.get_type(ob)
             if t == "AxisSystem":
                 nlist.extend(ob.Axes)
             elif t == "Layer":
@@ -3713,7 +3853,7 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     nlist.append(ob)
         exportList = nlist
 
-        if (len(exportList) == 1) and (Draft.getType(exportList[0]) == "ArchSectionView"):
+        if (len(exportList) == 1) and (utils.get_type(exportList[0]) == "ArchSectionView"):
             # arch view: export it "as is"
             dxf = exportList[0].Proxy.getDXF()
             if dxf:
@@ -3731,9 +3871,10 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
             # add global variables
             if hasattr(dxf, "header"):
                 dxf.header.append(
-                    "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight")) + "\n"
+                    "  9\n$DIMTXT\n 40\n" + str(params.get_param("textheight") * dxfExportScale) + "\n"
                 )
-                dxf.header.append("  9\n$INSUNITS\n 70\n4\n")
+                if dxfExportInsunits != 0:
+                    dxf.header.append("  9\n$INSUNITS\n 70\n" + str(dxfExportInsunits) + "\n")
             for ob in exportLayers:
                 if ob.Label != "0":  # dxflibrary already creates it
                     ltype = "continuous"
@@ -3751,7 +3892,7 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     )
             base_sketch_pla = None  # Placement of the 1st sketch.
             for ob in exportList:
-                obtype = Draft.getType(ob)
+                obtype = utils.get_type(ob)
                 # print("processing " + str(ob.Name))
                 if obtype == "PanelSheet":
                     if not hasattr(ob.Proxy, "sheetborder"):
@@ -3765,7 +3906,7 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                         ss.Placement = ob.Placement.multiply(ss.Placement)
                         writeShape(ss, ob, dxf, nospline, lwPoly, layer="SheetTags", color=1)
                     for subob in ob.Group:
-                        if Draft.getType(subob) == "PanelCut":
+                        if utils.get_type(subob) == "PanelCut":
                             writePanelCut(subob, dxf, nospline, lwPoly, parent=ob)
                         elif subob.isDerivedFrom("Part::Feature"):
                             shp = subob.Shape.copy()
@@ -3780,13 +3921,14 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     rotation = math.degrees(ob.Placement.Rotation.Angle)
                     t1 = "".join(vobj.Proxy.text1.string.getValues())
                     t2 = "".join(vobj.Proxy.text2.string.getValues())
-                    h1 = vobj.FirstLine.Value
-                    h2 = vobj.FontSize.Value
+                    h1 = vobj.FirstLine.Value * dxfExportScale
+                    h2 = vobj.FontSize.Value * dxfExportScale
                     _v = vobj.Proxy.coords.translation.getValue().getValue()
                     _h = vobj.Proxy.header.translation.getValue().getValue()
                     p2 = FreeCAD.Vector(_v)
                     lspc = FreeCAD.Vector(_h)
-                    p1 = ob.Placement.multVec(p2 + lspc)
+                    p1 = ob.Placement.multVec(p2 + lspc) * dxfExportScale
+                    lspc = lspc * dxfExportScale
                     justifyhor = ("Left", "Center", "Right").index(vobj.TextAlign)
                     dxf.append(
                         dxfLibrary.Text(
@@ -3826,14 +3968,18 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                         continue
                     for ax in axes:
                         dxf.append(
-                            dxfLibrary.Line([ax[0], ax[1]], color=getACI(ob), layer=getStrGroup(ob))
+                            dxfLibrary.Line(
+                                [ax[0] * dxfExportScale, ax[1] * dxfExportScale],
+                                color=getACI(ob),
+                                layer=getStrGroup(ob),
+                            )
                         )
                     h = 1
                     if gui:
                         vobj = ob.ViewObject
-                        h = float(vobj.FontSize)
+                        h = float(vobj.FontSize) * dxfExportScale
                         for text in vobj.Proxy.getTextData():
-                            pos = text[1].add(FreeCAD.Vector(0, -h / 2, 0))
+                            pos = (text[1] * dxfExportScale).add(FreeCAD.Vector(0, -h / 2, 0))
                             dxf.append(
                                 dxfLibrary.Text(
                                     text[0],
@@ -3850,8 +3996,8 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                             if hasattr(shape, "Curve") and isinstance(shape.Curve, Part.Circle):
                                 dxf.append(
                                     dxfLibrary.Circle(
-                                        shape.Curve.Center,
-                                        shape.Curve.Radius,
+                                        shape.Curve.Center * dxfExportScale,
+                                        shape.Curve.Radius * dxfExportScale,
                                         color=getACI(ob),
                                         layer=getStrGroup(ob),
                                     )
@@ -3859,7 +4005,14 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                             else:
                                 if lwPoly:
                                     points = [
-                                        (v.Point.x, v.Point.y, v.Point.z, None, None, 0.0)
+                                        (
+                                            v.Point.x * dxfExportScale,
+                                            v.Point.y * dxfExportScale,
+                                            v.Point.z * dxfExportScale,
+                                            None,
+                                            None,
+                                            0.0,
+                                        )
                                         for v in shape.Vertexes
                                     ]
                                     dxf.append(
@@ -3873,7 +4026,16 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                                     )
                                 else:
                                     points = [
-                                        ((v.Point.x, v.Point.y, v.Point.z), None, [None, None], 0.0)
+                                        (
+                                            (
+                                                v.Point.x * dxfExportScale,
+                                                v.Point.y * dxfExportScale,
+                                                v.Point.z * dxfExportScale,
+                                            ),
+                                            None,
+                                            [None, None],
+                                            0.0,
+                                        )
                                         for v in shape.Vertexes
                                     ]
                                     dxf.append(
@@ -3951,18 +4113,19 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                     for text in ob.LabelText:
                         point = DraftVecUtils.tup(
                             Vector(
-                                ob.Position.x,
-                                ob.Position.y - ob.LabelText.index(text),
-                                ob.Position.z,
+                                ob.Position.x * dxfExportScale,
+                                ob.Position.y * dxfExportScale
+                                - ob.LabelText.index(text) * dxfExportScale,
+                                ob.Position.z * dxfExportScale,
                             )
                         )
                         if gui:
-                            height = float(ob.ViewObject.FontSize)
+                            height = float(ob.ViewObject.FontSize) * dxfExportScale
                             justifyhor = ("Left", "Center", "Right").index(
                                 ob.ViewObject.Justification
                             )
                         else:
-                            height = 1
+                            height = dxfExportScale
                             justifyhor = 0
                         dxf.append(
                             dxfLibrary.Text(
@@ -3980,17 +4143,17 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                 elif obtype in ("DraftText", "Text"):
                     # texts
                     if gui:
-                        height = float(ob.ViewObject.FontSize)
+                        height = float(ob.ViewObject.FontSize) * dxfExportScale
                         justifyhor = ("Left", "Center", "Right").index(ob.ViewObject.Justification)
                     else:
-                        height = 1
+                        height = dxfExportScale
                         justifyhor = 0
                     for idx, text in enumerate(ob.Text):
                         point = DraftVecUtils.tup(
                             Vector(
-                                ob.Placement.Base.x,
-                                ob.Placement.Base.y - (height * 1.2 * idx),
-                                ob.Placement.Base.z,
+                                ob.Placement.Base.x * dxfExportScale,
+                                ob.Placement.Base.y * dxfExportScale - (height * 1.2 * idx),
+                                ob.Placement.Base.z * dxfExportScale,
                             )
                         )
                         rotation = math.degrees(ob.Placement.Rotation.Angle)
@@ -4009,14 +4172,16 @@ def export(objectslist, filename, nospline=False, lwPoly=False):
                         )
 
                 elif obtype in ["Dimension", "LinearDimension"]:
-                    p1 = DraftVecUtils.tup(ob.Start)
-                    p2 = DraftVecUtils.tup(ob.End)
+                    p1 = DraftVecUtils.tup(ob.Start * dxfExportScale)
+                    p2 = DraftVecUtils.tup(ob.End * dxfExportScale)
                     base = Part.LineSegment(ob.Start, ob.End).toShape()
-                    proj = DraftGeomUtils.findDistance(ob.Dimline, base)
+                    proj = geo_geometry.findDistance(ob.Dimline, base)
                     if not proj:
-                        pbase = DraftVecUtils.tup(ob.End)
+                        pbase = DraftVecUtils.tup(ob.End * dxfExportScale)
                     else:
-                        pbase = DraftVecUtils.tup(ob.End.add(proj.negative()))
+                        pbase = DraftVecUtils.tup(
+                            ob.End.add(proj.negative()) * dxfExportScale
+                        )
                     dxf.append(
                         dxfLibrary.Dimension(pbase, p1, p2, color=getACI(ob), layer=getStrGroup(ob))
                     )
@@ -4233,7 +4398,7 @@ def getViewDXF(view):
     blockcount = 1
 
     if view.isDerivedFrom("TechDraw::DrawViewDraft"):
-        geom = Draft.get_dxf(view)
+        geom = dxf.get_dxf(view)
         block, insert, blockcount = getViewBlock(geom, view, blockcount)
 
     elif view.isDerivedFrom("TechDraw::DrawViewArch"):
@@ -4289,7 +4454,8 @@ def readPreferences():
     `dxfImportPoints`, `dxfImportHatches`, `dxfUseStandardSize`,
     `dxfGetColors`, `dxfUseDraftVisGroups`,
     `dxfBrightBackground`, `dxfDefaultColor`, `dxfUseLegacyImporter`,
-    `dxfExportBlocks`, `dxfScaling`, `dxfUseLegacyExporter`
+    `dxfExportBlocks`, `dxfScaling`, `dxfUseLegacyExporter`,
+    `dxfExportUnits`, `dxfExportInsunits`, `dxfExportScale`
 
     The parameter path is ``User parameter:BaseApp/Preferences/Mod/Draft``
 
@@ -4302,6 +4468,7 @@ def readPreferences():
     global dxfImportTexts, dxfImportLayouts, dxfImportPoints, dxfImportHatches, dxfUseStandardSize
     global dxfGetColors, dxfUseDraftVisGroups, dxfBrightBackground, dxfDefaultColor
     global dxfUseLegacyImporter, dxfExportBlocks, dxfScaling, dxfUseLegacyExporter
+    global dxfExportUnits, dxfExportInsunits, dxfExportScale
 
     # Use the direct C++ API via Python for all parameter access
     hGrp = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft")
@@ -4364,6 +4531,41 @@ def readPreferences():
     dxfUseLegacyExporter = hGrp.GetBool("dxfUseLegacyExporter", False)
     dxfExportBlocks = hGrp.GetBool("dxfExportBlocks", True)
     dxfScaling = hGrp.GetFloat("dxfScaling", 1.0)
+    if dxfScaling <= 0:
+        FreeCAD.Console.PrintWarning("DXF: dxfScaling must be > 0, resetting to 1.0\n")
+        dxfScaling = 1.0
+    # Index → ($INSUNITS code, mm-per-unit scale factor).
+    # Order must match the comboBox_dxfExportUnits items in preferences-dxf.ui.
+    # KEEP IN SYNC with insunitsCodes[]/scaleFactors[] in src/Mod/Import/App/dxf/ImpExpDxf.cpp
+    _EXPORT_UNITS_TABLE = [
+        (4, 1.0),           # 0: Millimeters
+        (5, 0.1),           # 1: Centimeters
+        (6, 0.001),         # 2: Meters
+        (1, 1.0 / 25.4),    # 3: Inches
+        (2, 1.0 / 304.8),   # 4: Feet
+        (0, 1.0),           # 5: Unitless (raw mm, $INSUNITS=0)
+    ]
+    dxfExportUnits = hGrp.GetInt("dxfExportUnits", -1)
+    if dxfExportUnits == -1:
+        # First run after upgrade: migrate old numeric dxfExportScale to the enum index
+        dxfExportUnits = 0
+        legacy_scale = hGrp.GetFloat("dxfExportScale", 1.0)
+        migrated = False
+        for _idx, (_, _s) in enumerate(_EXPORT_UNITS_TABLE):
+            if abs(legacy_scale - _s) < 1e-6:
+                dxfExportUnits = _idx
+                migrated = True
+                break
+        if not migrated and abs(legacy_scale - 1.0) > 1e-6:
+            FreeCAD.Console.PrintWarning(
+                "DXF: legacy export scale {:.6g} cannot be mapped to a unit preset, "
+                "defaulting to mm\n".format(legacy_scale)
+            )
+        hGrp.SetInt("dxfExportUnits", dxfExportUnits)
+    if dxfExportUnits < 0 or dxfExportUnits >= len(_EXPORT_UNITS_TABLE):
+        FreeCAD.Console.PrintWarning("DXF: dxfExportUnits out of range, resetting to 0 (mm)\n")
+        dxfExportUnits = 0
+    dxfExportInsunits, dxfExportScale = _EXPORT_UNITS_TABLE[dxfExportUnits]
 
     dxfBrightBackground = isBrightBackground()
     dxfDefaultColor = getColor()
@@ -4580,7 +4782,7 @@ class DxfDraftPostProcessor:
             # Transfer the TopoDS_Shape from the original Part::Line to the new object's Shape
             # property.
             new_obj.Shape = part_obj.Shape
-            Draft.Wire(new_obj)  # Attach the Python proxy. It will find Shape, Placement.
+            wire.Wire(new_obj)  # Attach the Python proxy. It will find Shape, Placement.
 
             # Manually transfer the parametric data from the Part::Line primitive
             # to the new Draft.Wire's 'Points' property.
@@ -4603,10 +4805,10 @@ class DxfDraftPostProcessor:
 
             # Attach the Python proxy
             # This call will add properties like Radius, FirstAngle, LastAngle to new_obj.
-            Draft.Circle(new_obj)
+            circle.Circle(new_obj)
 
             # Transfer  data *after* proxy attachment.
-            # Now that Draft.Circle(new_obj) has run and added the properties, we can assign values
+            # Now that circle.Circle(new_obj) has run and added the properties, we can assign values
             # to them.
             # Part::Circle has Radius, Angle1, Angle2 properties.
             # Draft.Circle proxy uses FirstAngle and LastAngle instead of Angle1 and Angle2.
@@ -4647,7 +4849,7 @@ class DxfDraftPostProcessor:
                 new_obj.Placement = part_obj.Placement
             else:
                 new_obj.Placement = FreeCAD.Placement()
-            Draft.Point(new_obj)  # Attach the Python proxy.
+            point.Point(new_obj)  # Attach the Python proxy.
             obj_type_str = "Point"
 
         elif part_obj.isDerivedFrom("Part::Ellipse"):
@@ -4663,7 +4865,7 @@ class DxfDraftPostProcessor:
                 )
 
                 # Attach the parametric Draft.Ellipse Python proxy.
-                Draft.Ellipse(new_obj)
+                ellipse.Ellipse(new_obj)
 
                 # Transfer the parametric properties from the imported primitive to the new Draft
                 # object. The proxy will handle recomputing the shape.
@@ -4678,7 +4880,7 @@ class DxfDraftPostProcessor:
                 new_obj = self.doc.addObject(
                     "Part::Part2DObjectPython", self.doc.getUniqueObjectName("EllipticalArc")
                 )
-                Draft.Wire(new_obj)  # Attach proxy.
+                wire.Wire(new_obj)  # Attach proxy.
 
                 # Re-create geometry at the origin using parametric properties.
                 # Convert degrees back to radians for the geometry kernel.
@@ -4715,7 +4917,7 @@ class DxfDraftPostProcessor:
                     "Part::Part2DObjectPython", self.doc.getUniqueObjectName("Wire")
                 )
                 new_obj.Shape = shape  # Transfer the TopoDS_Wire from the original Part::Feature.
-                Draft.Wire(new_obj)  # Attach Python proxy. It will find Shape, Placement.
+                wire.Wire(new_obj)  # Attach Python proxy. It will find Shape, Placement.
 
                 # Check if all segments of the wire are straight lines.
                 # If so, we can safely populate the .Points property to make it parametric.
@@ -4816,7 +5018,7 @@ class DxfDraftPostProcessor:
             layer_obj = None
             if found_layers:
                 for l_obj in found_layers:
-                    if Draft.get_type(l_obj) == "Layer":
+                    if utils.get_type(l_obj) == "Layer":
                         layer_obj = l_obj
                         break
 
@@ -4856,7 +5058,7 @@ class DxfDraftPostProcessor:
                 if placeholder.DxfEntityType == "DIMENSION":
                     # 1. Create the base object and attach the proxy, which adds the needed properties.
                     dim = self.doc.addObject("App::FeaturePython", "Dimension")
-                    _Dimension(dim)
+                    dimension.LinearDimension(dim)
 
                     if FreeCAD.GuiUp:
                         ViewProviderLinearDimension(dim.ViewObject)
@@ -4900,7 +5102,7 @@ class DxfDraftPostProcessor:
                             dim.Direction = direction_vector
 
                 elif placeholder.DxfEntityType == "TEXT":
-                    text_obj = Draft.make_text(placeholder.Text)
+                    text_obj = make_text.make_text(placeholder.Text)
                     text_obj.Placement = placeholder.Placement
                     if FreeCAD.GuiUp:
                         text_obj.addProperty("App::PropertyFloat", "DxfTextHeight", "Internal")

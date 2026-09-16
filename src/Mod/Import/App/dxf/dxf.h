@@ -5,8 +5,7 @@
 // This program is released under the BSD license. See the file COPYING for details.
 // modified 2018 wandererfan
 
-#ifndef Included_dxf_h_
-#define Included_dxf_h_
+#pragma once
 
 #ifdef _MSC_VER
 # pragma warning(disable : 4251)
@@ -336,6 +335,8 @@ protected:
     int m_blockHandle;
     int m_blkRecordHandle;
     bool m_polyOverride;
+    int m_exportInsunits = 4;   // $INSUNITS code written to DXF header (4 = mm)
+    double m_exportScale = 1.0; // coordinate multiplier applied before writing
 
     std::string m_saveModelSpaceHandle;
     std::string m_savePaperSpaceHandle;
@@ -378,6 +379,15 @@ public:
     void setPolyOverride(bool setting)
     {
         m_polyOverride = setting;
+    }
+    void setExportUnits(int insunits, double scale)
+    {
+        m_exportInsunits = insunits;
+        m_exportScale = scale;
+    }
+    double getExportScale() const
+    {
+        return m_exportScale;
     }
     void addBlockName(const std::string& name, const std::string& blkRecordHandle);
 
@@ -651,6 +661,7 @@ private:
     // Readers for specific entity types
     bool ReadLine();
     bool ReadText();
+    bool ReadSolid();
     bool ReadArc();
     bool ReadCircle();
     bool ReadEllipse();
@@ -945,6 +956,13 @@ public:
         const double /*rotation*/
     )
     {}
+    virtual void OnReadSolid(
+        const Base::Vector3d& /*first*/,
+        const Base::Vector3d& /*second*/,
+        const Base::Vector3d& /*third*/,
+        const Base::Vector3d& /*fourth*/
+    )
+    {}
     virtual void OnReadArc(
         const Base::Vector3d& /*start*/,
         const Base::Vector3d& /*end*/,
@@ -1012,4 +1030,3 @@ protected:
     }
 #endif
 };
-#endif
