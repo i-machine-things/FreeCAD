@@ -75,14 +75,22 @@ using Attacher::AttachEnginePlane;
 namespace
 {
 // Should work with edges and wires
+<<<<<<< HEAD
 double getLength(TopoDS_Shape& wire)
+=======
+static double getLength(TopoDS_Shape& wire)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 {
     GProp_GProps gprops;
     BRepGProp::LinearProperties(wire, gprops);
     return gprops.Mass();
 }
 
+<<<<<<< HEAD
 double getFaceArea(TopoDS_Shape& face)
+=======
+static double getFaceArea(TopoDS_Shape& face)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 {
     GProp_GProps gprops;
     BRepGProp::SurfaceProperties(face, gprops);

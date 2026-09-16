@@ -1174,22 +1174,38 @@
   <context>
     <name>CmdBoxSelection</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2394"/>
+=======
+      <location filename="../../Command.cpp" line="2407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Detalj</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2395"/>
+=======
+      <location filename="../../Command.cpp" line="2408"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Box Selection</source>
       <translation>Lådmarkering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2396"/>
+=======
+      <location filename="../../Command.cpp" line="2409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Selects elements in the 3D view using a box selection</source>
       <translation>Väljer element i 3D-vyn med hjälp av en boxmarkering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2398"/>
+=======
+      <location filename="../../Command.cpp" line="2411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Box selection</source>
       <translation>Lådmarkering</translation>
     </message>
@@ -1197,17 +1213,29 @@
   <context>
     <name>CmdCheckGeometry</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2316"/>
+=======
+      <location filename="../../Command.cpp" line="2329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2317"/>
+=======
+      <location filename="../../Command.cpp" line="2330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check Geometry</source>
       <translation>Kontrollera geometri</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2318"/>
+=======
+      <location filename="../../Command.cpp" line="2331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Analyzes the selected shapes for errors</source>
       <translation>Analyserar de valda formerna för fel</translation>
     </message>
@@ -1215,17 +1243,29 @@
   <context>
     <name>CmdColorPerFace</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2350"/>
+=======
+      <location filename="../../Command.cpp" line="2363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2351"/>
+=======
+      <location filename="../../Command.cpp" line="2364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Appearance per &amp;Face</source>
       <translation>Utseende per &amp;yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2352"/>
+=======
+      <location filename="../../Command.cpp" line="2365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sets the appearance of individual faces of the selected object</source>
       <translation>Ställer in utseendet på enskilda ytan på det valda objektet</translation>
     </message>
@@ -1233,36 +1273,64 @@
   <context>
     <name>CmdPartBoolean</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1403"/>
+=======
+      <location filename="../../Command.cpp" line="1416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1404"/>
+=======
+      <location filename="../../Command.cpp" line="1417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean Operation</source>
       <translation>Boolesk operation</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1405"/>
       <source>Applies a boolean operation with the selected shapes</source>
       <translation>Tillämpar en boolesk operation på de valda formerna</translation>
+=======
+      <location filename="../../Command.cpp" line="1418"/>
+      <source>Applies a boolean operations with the selected shapes</source>
+      <translation>Tillämpar en boolesk operation med de valda formerna</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
     </message>
   </context>
   <context>
     <name>CmdPartBox</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="116"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="117"/>
       <location filename="../../CommandParametric.cpp" line="127"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="114"/>
+      <location filename="../../CommandParametric.cpp" line="125"/>
+      <location filename="../../CommandParametric.cpp" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Cube</source>
       <translation>Kub</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="118"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a solid cube</source>
       <translation>Skapar en kropp kub</translation>
     </message>
@@ -1306,17 +1374,29 @@
   <context>
     <name>CmdPartBuilder</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1702"/>
+=======
+      <location filename="../../Command.cpp" line="1715"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1703"/>
+=======
+      <location filename="../../Command.cpp" line="1716"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shape Builder</source>
       <translation>Formbyggare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1705"/>
+=======
+      <location filename="../../Command.cpp" line="1718"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Advanced utility to create shapes</source>
       <translation>Avancerade verktyg för att skapa former</translation>
     </message>
@@ -1324,17 +1404,29 @@
   <context>
     <name>CmdPartChamfer</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1607"/>
+=======
+      <location filename="../../Command.cpp" line="1620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1608"/>
+=======
+      <location filename="../../Command.cpp" line="1621"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Chamfer</source>
       <translation>Avfasning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1609"/>
+=======
+      <location filename="../../Command.cpp" line="1622"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Chamfers the selected edges of a shape</source>
       <translation>Avfasning av de valda kanterna på en form</translation>
     </message>
@@ -1396,17 +1488,29 @@
   <context>
     <name>CmdPartCompOffset</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1923"/>
+=======
+      <location filename="../../Command.cpp" line="1936"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1924"/>
+=======
+      <location filename="../../Command.cpp" line="1937"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Offset</source>
       <translation>Offset</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1925"/>
+=======
+      <location filename="../../Command.cpp" line="1938"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Tools to offset shapes (construct parallel shapes)</source>
       <translation>Verktyg för att förskjuta former (konstruera parallella former)</translation>
     </message>
@@ -1450,18 +1554,32 @@
   <context>
     <name>CmdPartCone</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="204"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="205"/>
       <location filename="../../CommandParametric.cpp" line="215"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="202"/>
+      <location filename="../../CommandParametric.cpp" line="213"/>
+      <location filename="../../CommandParametric.cpp" line="218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Cone</source>
       <translation>Kägla</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="206"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a solid cone</source>
       <translation>Skapar en kropp kon</translation>
     </message>
@@ -1469,17 +1587,29 @@
   <context>
     <name>CmdPartCrossSections</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1663"/>
+=======
+      <location filename="../../Command.cpp" line="1676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1664"/>
+=======
+      <location filename="../../Command.cpp" line="1677"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Cross-Sections</source>
       <translation>Tvärsnitt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1665"/>
+=======
+      <location filename="../../Command.cpp" line="1678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates cross-sections</source>
       <translation>Skapar tvärsnitt</translation>
     </message>
@@ -1505,18 +1635,32 @@
   <context>
     <name>CmdPartCylinder</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="72"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="73"/>
       <location filename="../../CommandParametric.cpp" line="83"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="70"/>
+      <location filename="../../CommandParametric.cpp" line="81"/>
+      <location filename="../../CommandParametric.cpp" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Cylinder</source>
       <translation>Cylinder</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="74"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a solid cylinder</source>
       <translation>Skapar en kropp cylinder</translation>
     </message>
@@ -1524,17 +1668,29 @@
   <context>
     <name>CmdPartDefeaturing</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="461"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="460"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="462"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Defeaturing</source>
       <translation>Förlust</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="463"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="462"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Removes the selected features from a shape</source>
       <translation>Tar bort de markerade funktionerna från en form</translation>
     </message>
@@ -1542,17 +1698,29 @@
   <context>
     <name>CmdPartElementCopy</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="358"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="357"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="359"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shape Element Copy</source>
       <translation>Form Element Kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="360"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a non-parametric copy of the selected shape element</source>
       <translation>Skapar en icke-parametrisk kopia av det valda formelementet</translation>
     </message>
@@ -1560,17 +1728,29 @@
   <context>
     <name>CmdPartExport</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1136"/>
+=======
+      <location filename="../../Command.cpp" line="1140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1137"/>
+=======
+      <location filename="../../Command.cpp" line="1141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Export CAD File</source>
       <translation>Exportera CAD-fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1139"/>
+=======
+      <location filename="../../Command.cpp" line="1143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Exports to a CAD file</source>
       <translation>Exporterar till en CAD-fil</translation>
     </message>
@@ -1578,17 +1758,29 @@
   <context>
     <name>CmdPartExtrude</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1435"/>
+=======
+      <location filename="../../Command.cpp" line="1448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1436"/>
+=======
+      <location filename="../../Command.cpp" line="1449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Extrude</source>
       <translation>Extrudera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1437"/>
+=======
+      <location filename="../../Command.cpp" line="1450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Extrudes the selected sketch or profile</source>
       <translation>Extruderar den valda skissen eller profilen</translation>
     </message>
@@ -1596,17 +1788,29 @@
   <context>
     <name>CmdPartFillet</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1579"/>
+=======
+      <location filename="../../Command.cpp" line="1592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1580"/>
+=======
+      <location filename="../../Command.cpp" line="1593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Fillet</source>
       <translation>Filé</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1581"/>
+=======
+      <location filename="../../Command.cpp" line="1594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Fillets the selected edges of a shape</source>
       <translation>Filetera de markerade kanterna på en form</translation>
     </message>
@@ -1650,17 +1854,29 @@
   <context>
     <name>CmdPartImportCurveNet</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1188"/>
+=======
+      <location filename="../../Command.cpp" line="1196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1189"/>
+=======
+      <location filename="../../Command.cpp" line="1197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Import Curve Network</source>
       <translation>Importkurva Nätverk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1191"/>
+=======
+      <location filename="../../Command.cpp" line="1199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Imports a curve network</source>
       <translation>Importerar ett kurvnätverk</translation>
     </message>
@@ -1668,17 +1884,29 @@
   <context>
     <name>CmdPartLoft</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1732"/>
+=======
+      <location filename="../../Command.cpp" line="1745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1733"/>
+=======
+      <location filename="../../Command.cpp" line="1746"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Loft</source>
       <translation>Loft</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1734"/>
+=======
+      <location filename="../../Command.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Lofts the selected profiles</source>
       <translation>Lofts de utvalda profilerna</translation>
     </message>
@@ -1686,17 +1914,29 @@
   <context>
     <name>CmdPartMakeFace</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1492"/>
+=======
+      <location filename="../../Command.cpp" line="1505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1493"/>
+=======
+      <location filename="../../Command.cpp" line="1506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Face From Wires</source>
       <translation>Yta från trådar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1494"/>
+=======
+      <location filename="../../Command.cpp" line="1507"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a face from the selected wires (e.g. from a sketch)</source>
       <translation>Skapar en yta från de valda trådarna (t.ex. från en skiss)</translation>
     </message>
@@ -1704,17 +1944,29 @@
   <context>
     <name>CmdPartMakeSolid</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1241"/>
+=======
+      <location filename="../../Command.cpp" line="1256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1242"/>
+=======
+      <location filename="../../Command.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Convert to Solid</source>
       <translation>Konvertera till Solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1243"/>
+=======
+      <location filename="../../Command.cpp" line="1258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Converts the selected shell or compound to a solid</source>
       <translation>Omvandlar det valda skalet eller föreningen till en fast substans</translation>
     </message>
@@ -1722,17 +1974,29 @@
   <context>
     <name>CmdPartMirror</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1635"/>
+=======
+      <location filename="../../Command.cpp" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1636"/>
+=======
+      <location filename="../../Command.cpp" line="1649"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Mirror</source>
       <translation>Spegel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1637"/>
+=======
+      <location filename="../../Command.cpp" line="1650"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Mirrors the selected shape</source>
       <translation>Speglar den valda formen</translation>
     </message>
@@ -1740,17 +2004,29 @@
   <context>
     <name>CmdPartOffset</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1790"/>
+=======
+      <location filename="../../Command.cpp" line="1803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1791"/>
+=======
+      <location filename="../../Command.cpp" line="1804"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>3D Offset</source>
       <translation>3D-förskjutning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1792"/>
+=======
+      <location filename="../../Command.cpp" line="1805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Offsets shapes in 3D</source>
       <translation>Förskjuter former i 3D</translation>
     </message>
@@ -1758,17 +2034,29 @@
   <context>
     <name>CmdPartOffset2D</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1857"/>
+=======
+      <location filename="../../Command.cpp" line="1870"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1858"/>
+=======
+      <location filename="../../Command.cpp" line="1871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>2D Offset</source>
       <translation>2D-förskjutning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1859"/>
+=======
+      <location filename="../../Command.cpp" line="1872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Offsets planar shapes in 2D</source>
       <translation>Utjämnar plana former i 2D</translation>
     </message>
@@ -1830,17 +2118,29 @@
   <context>
     <name>CmdPartProjectionOnSurface</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2424"/>
+=======
+      <location filename="../../Command.cpp" line="2437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2425"/>
+=======
+      <location filename="../../Command.cpp" line="2438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Project on Surface</source>
       <translation>Projekt på ytan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2426"/>
+=======
+      <location filename="../../Command.cpp" line="2439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Projects edges, wires, or faces of one shape
 onto a face of another shape.
 The camera view determines the direction
@@ -1854,17 +2154,29 @@ för projektionen.</translation>
   <context>
     <name>CmdPartRefineShape</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="386"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="387"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Refine Shape</source>
       <translation>Förfina formen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="388"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a refined copy of the selected shapes</source>
       <translation>Skapar en förfinad kopia av de markerade formerna</translation>
     </message>
@@ -1872,17 +2184,29 @@ för projektionen.</translation>
   <context>
     <name>CmdPartReverseShape</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1334"/>
+=======
+      <location filename="../../Command.cpp" line="1349"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1335"/>
+=======
+      <location filename="../../Command.cpp" line="1350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Reverse Shapes</source>
       <translation>Omvända former</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1336"/>
+=======
+      <location filename="../../Command.cpp" line="1351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Reverses the orientation of the selected shapes</source>
       <translation>Vänder på orienteringen för de valda formerna</translation>
     </message>
@@ -1890,17 +2214,29 @@ för projektionen.</translation>
   <context>
     <name>CmdPartRevolve</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1551"/>
+=======
+      <location filename="../../Command.cpp" line="1564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1552"/>
+=======
+      <location filename="../../Command.cpp" line="1565"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Revolve</source>
       <translation>Revolvera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1553"/>
+=======
+      <location filename="../../Command.cpp" line="1566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Revolves the selected shape</source>
       <translation>Roterar den valda formen</translation>
     </message>
@@ -1908,17 +2244,29 @@ för projektionen.</translation>
   <context>
     <name>CmdPartRuledSurface</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2172"/>
+=======
+      <location filename="../../Command.cpp" line="2185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2173"/>
+=======
+      <location filename="../../Command.cpp" line="2186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Ruled Surface</source>
       <translation>Linjerad yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2174"/>
+=======
+      <location filename="../../Command.cpp" line="2187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a ruled surface between 2 selected wires</source>
       <translation>Skapar en linjär yta mellan 2 utvalda trådar</translation>
     </message>
@@ -1998,18 +2346,32 @@ för projektionen.</translation>
   <context>
     <name>CmdPartSphere</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="160"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="161"/>
       <location filename="../../CommandParametric.cpp" line="171"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="158"/>
+      <location filename="../../CommandParametric.cpp" line="169"/>
+      <location filename="../../CommandParametric.cpp" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sphere</source>
       <translation>Sfär</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="162"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a solid sphere</source>
       <translation>Skapar en kropp sfär</translation>
     </message>
@@ -2017,17 +2379,29 @@ för projektionen.</translation>
   <context>
     <name>CmdPartSweep</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1761"/>
+=======
+      <location filename="../../Command.cpp" line="1774"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1762"/>
+=======
+      <location filename="../../Command.cpp" line="1775"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sweep</source>
       <translation>Svep</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1763"/>
+=======
+      <location filename="../../Command.cpp" line="1776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sweeps profiles along a wire</source>
       <translation>Sveper profiler längs en kabel</translation>
     </message>
@@ -2035,27 +2409,47 @@ för projektionen.</translation>
   <context>
     <name>CmdPartThickness</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2025"/>
+=======
+      <location filename="../../Command.cpp" line="2038"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2026"/>
+=======
+      <location filename="../../Command.cpp" line="2039"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Thickness</source>
       <translation>Tjocklek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2027"/>
+=======
+      <location filename="../../Command.cpp" line="2040"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Removes the selected faces and offsets the remaining shape outward to add thickness</source>
       <translation>Tar bort de markerade ytorna och förskjuter den återstående formen utåt för att öka tjockleken</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2086"/>
+=======
+      <location filename="../../Command.cpp" line="2099"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Wrong selection</source>
       <translation>Fel val</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2087"/>
+=======
+      <location filename="../../Command.cpp" line="2100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Selected shape is not a solid</source>
       <translation>Markerad form är inte en solid</translation>
     </message>
@@ -2063,18 +2457,32 @@ för projektionen.</translation>
   <context>
     <name>CmdPartTorus</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="248"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="249"/>
       <location filename="../../CommandParametric.cpp" line="259"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="246"/>
+      <location filename="../../CommandParametric.cpp" line="257"/>
+      <location filename="../../CommandParametric.cpp" line="262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Torus</source>
       <translation>Torus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandParametric.cpp" line="250"/>
+=======
+      <location filename="../../CommandParametric.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a solid torus</source>
       <translation>Skapar en kropp torus</translation>
     </message>
@@ -2082,17 +2490,29 @@ för projektionen.</translation>
   <context>
     <name>CmdPartTransformedCopy</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="328"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="329"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Transformed Copy</source>
       <translation>Förvandlad kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="330"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a non-parametric copy with transformed placement of the selected shapes</source>
       <translation>Skapar en icke-parametrisk kopia med transformerad placering av de valda figurerna</translation>
     </message>
@@ -2131,62 +2551,110 @@ för projektionen.</translation>
       <translation>Sektion</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1097"/>
+=======
+      <location filename="../../Command.cpp" line="1101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Import Part</source>
       <translation>Importera del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1214"/>
+=======
+      <location filename="../../Command.cpp" line="1225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Import Curve Net</source>
       <translation>Importkurva Netto</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1348"/>
+=======
+      <location filename="../../Command.cpp" line="1363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Reverse</source>
       <translation>Omvänd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1511"/>
+=======
+      <location filename="../../Command.cpp" line="1524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Make face</source>
       <translation>Skapa yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1817"/>
+=======
+      <location filename="../../Command.cpp" line="1830"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Make Offset</source>
       <translation>Gör förskjutning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1885"/>
+=======
+      <location filename="../../Command.cpp" line="1898"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Make 2D Offset</source>
       <translation>Gör 2D-offset</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2094"/>
+=======
+      <location filename="../../Command.cpp" line="2107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Make Thickness</source>
       <translation>Fabrikat Tjocklek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2283"/>
+=======
+      <location filename="../../Command.cpp" line="2296"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Create ruled surface</source>
       <translation>Skapa styrd yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2536"/>
+=======
+      <location filename="../../Command.cpp" line="2549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Add coordinate system</source>
       <translation>Lägg till koordinatsystem</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2575"/>
+=======
+      <location filename="../../Command.cpp" line="2587"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Add datum plane</source>
       <translation>Lägg till referensplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2609"/>
+=======
+      <location filename="../../Command.cpp" line="2620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Add datum line</source>
       <translation>Lägg till referenspunktslinje</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2643"/>
+=======
+      <location filename="../../Command.cpp" line="2653"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Add datum point</source>
       <translation>Lägg till referenspunkt</translation>
     </message>
@@ -2201,27 +2669,47 @@ för projektionen.</translation>
       <translation>Punkter från geometri</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="405"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Refine shape</source>
       <translation>Förfina form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandSimple.cpp" line="475"/>
+=======
+      <location filename="../../CommandSimple.cpp" line="474"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Defeaturing</source>
       <translation>Förlust</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ShapeFromMesh.cpp" line="76"/>
+=======
+      <location filename="../../ShapeFromMesh.cpp" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Convert mesh</source>
       <translation>Konvertera nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1579"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit attachment</source>
       <translation>Redigera bilaga</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskFaceAppearances.cpp" line="523"/>
+=======
+      <location filename="../../TaskFaceAppearances.cpp" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Change face colors</source>
       <translation>Ändra ytfärger</translation>
     </message>
@@ -2231,43 +2719,76 @@ för projektionen.</translation>
       <translation>Loft</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="266"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edge</source>
       <translation>Linje</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="308"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Wire</source>
       <translation>Tråd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="363"/>
       <location filename="../../TaskShapeBuilder.cpp" line="417"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="364"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="418"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Face</source>
       <translation>Yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="482"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="483"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shell</source>
       <translation>Skal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="540"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="541"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Solid</source>
       <translation>Solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="417"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sweep</source>
       <translation>Sopa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgProjectionOnSurface.cpp" line="1620"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="1603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Project on surface</source>
       <translation>Projicera på yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderMirror.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit mirror</source>
       <translation>Redigera spegel</translation>
     </message>
@@ -2542,7 +3063,11 @@ Anmärkning: Placeringen uttrycks i det lokala utrymmet för det objekt som fäs
   <context>
     <name>PartGui::DlgChamferEdges</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="1208"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Chamfer Edges</source>
       <translation>Fasa Kanter</translation>
     </message>
@@ -2687,7 +3212,11 @@ storleken på den resulterande STEP-filen.</translation>
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="71"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="260"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select</source>
       <translation>Välj</translation>
     </message>
@@ -2814,41 +3343,69 @@ Om båda längderna är noll används riktningens magnitud.</translation>
       <translation>Form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="230"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Selecting…</source>
       <translation>Väljer…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="506"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>The document '%1' doesn't exist.</source>
       <translation>Dokumentet "%1" finns inte.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="567"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creating extrusion failed.
 %1</source>
       <translation>Skapandet av extrudering misslyckades.
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="575"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creating Extrusion failed.
 %1</source>
       <translation>Skapandet av extrudering misslyckades.
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="647"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Object not found: %1</source>
       <translation>Objektet hittades inte: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="712"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No shapes selected for extrusion.</source>
       <translation>Inga former valda för extrudering.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="779"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Cannot determine normal vector of shape to be extruded. Use other mode. 
 
 (%1)</source>
@@ -2857,12 +3414,20 @@ Om båda längderna är noll används riktningens magnitud.</translation>
 (%1)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="732"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="729"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Unknown error</source>
       <translation>Okänt fel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="739"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Extrusion direction link is invalid.
 
 %1</source>
@@ -2871,17 +3436,29 @@ Om båda längderna är noll används riktningens magnitud.</translation>
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="746"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Direction mode is to use an edge, but no edge is linked.</source>
       <translation>Riktningsläget är att använda en kant, men ingen kant är länkad.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="794"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="791"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Extrusion direction vector is zero-length. It must be non-zero.</source>
       <translation>Vektorn för extruderingsriktningen är noll-lång. Den måste vara icke-noll.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgExtrusion.cpp" line="812"/>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Total extrusion length is zero (length1 == -length2). It must be nonzero.</source>
       <translation>Profilens totala längd är noll (längd1 == -längd2). Den måste vara skild från noll.</translation>
     </message>
@@ -2959,12 +3536,24 @@ Om båda längderna är noll används riktningens magnitud.</translation>
       <translation>Typ av fasning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="292"/>
+      <source>Length:</source>
+      <translation>Längd:</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgFilletEdges.cpp" line="296"/>
       <source>Edges to chamfer</source>
       <translation>Kanter att fasa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="987"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="988"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Start length</source>
       <translation>Start längd</translation>
     </message>
@@ -3010,7 +3599,11 @@ Om båda längderna är noll används riktningens magnitud.</translation>
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="304"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="990"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Start radius</source>
       <translation>Start radie</translation>
     </message>
@@ -3020,26 +3613,43 @@ Om båda längderna är noll används riktningens magnitud.</translation>
       <translation>Slut radie</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="819"/>
       <location filename="../../DlgFilletEdges.cpp" line="882"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="820"/>
+      <location filename="../../DlgFilletEdges.cpp" line="883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edge%1</source>
       <translation>Kant%1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="292"/>
       <location filename="../../DlgFilletEdges.cpp" line="977"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="978"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Length</source>
       <translation>Längd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="1040"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1041"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No valid shape is selected.
 Select a valid shape in the drop-down box first.</source>
       <translation>Ingen giltig form har valts.
 Välj först en giltig form i rullgardinsmenyn.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="1098"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1099"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No edge entity is checked to fillet.
 Check one or more edge entities first.</source>
       <translation>Ingen kantenhet kontrolleras för att falsa.
@@ -3047,17 +3657,29 @@ Kontrollera först en eller flera kantentiteter.</translation>
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="142"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="980"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="981"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Radius</source>
       <translation>Radie</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="1039"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1040"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No shape selected</source>
       <translation>Ingen form har valts</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgFilletEdges.cpp" line="1097"/>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1098"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No edge selected</source>
       <translation>Ingen kant vald</translation>
     </message>
@@ -3341,6 +3963,22 @@ Kontrollera först en eller flera kantentiteter.</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+    <name>PartGui::DlgPartImportIgesImp</name>
+    <message>
+      <location filename="../../DlgPartImportIgesImp.cpp" line="72"/>
+      <source>IGES</source>
+      <translation>IGES</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPartImportIgesImp.cpp" line="72"/>
+      <source>All Files</source>
+      <translation>Alla filer</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
     <name>PartGui::DlgPartImportStep</name>
     <message>
       <location filename="../../DlgPartImportStep.ui" line="14"/>
@@ -3359,6 +3997,17 @@ Kontrollera först en eller flera kantentiteter.</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+    <name>PartGui::DlgPartImportStepImp</name>
+    <message>
+      <location filename="../../DlgPartImportStepImp.cpp" line="72"/>
+      <source>All Files</source>
+      <translation>Alla filer</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
     <name>PartGui::DlgPrimitives</name>
     <message>
       <location filename="../../DlgPrimitives.ui" line="14"/>
@@ -3366,84 +4015,136 @@ Kontrollera först en eller flera kantentiteter.</translation>
       <translation>Geometriska primitiver</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="23"/>
       <source>Select the type of geometric primitive to create</source>
       <translation>Välj vilken typ av geometrisk primitiv som ska skapas</translation>
     </message>
     <message>
       <location filename="../../DlgPrimitives.ui" line="36"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="33"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="298"/>
       <source>Plane</source>
       <translation>Plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="45"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="392"/>
       <source>Box</source>
       <translation>Låda</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="54"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="509"/>
       <source>Cylinder</source>
       <translation>Cylinder</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="63"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="628"/>
       <source>Cone</source>
       <translation>Kägla</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="72"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="742"/>
       <source>Sphere</source>
       <translation>Sfär</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="81"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="876"/>
       <source>Ellipsoid</source>
       <translation>Ellipsoid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="90"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="87"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1010"/>
       <source>Torus</source>
       <translation>Torus</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="99"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1131"/>
       <source>Prism</source>
       <translation>Prisma</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="108"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1324"/>
       <source>Wedge</source>
       <translation>Kil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="117"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1471"/>
       <source>Helix</source>
       <translation>Helix</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="126"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1579"/>
       <source>Spiral</source>
       <translation>Spiral</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="135"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1678"/>
       <source>Circle</source>
       <translation>Cirkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="144"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1787"/>
       <source>Ellipse</source>
       <translation>Ellips</translation>
@@ -3454,13 +4155,21 @@ Kontrollera först en eller flera kantentiteter.</translation>
       <translation>Punkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="162"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1983"/>
       <source>Line</source>
       <translation>Rad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.ui" line="171"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgPrimitives.cpp" line="1875"/>
       <source>Regular polygon</source>
       <translation>Regelbunden polygon</translation>
@@ -4056,9 +4765,15 @@ Kontrollera först en eller flera kantentiteter.</translation>
       <translation>Inget aktivt dokument</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgPrimitives.cpp" line="2651"/>
       <source>C&amp;reate</source>
       <translation>S&amp;kapa</translation>
+=======
+      <location filename="../../DlgPrimitives.cpp" line="2648"/>
+      <source>&amp;Create</source>
+      <translation>&amp;Skapa</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
     </message>
   </context>
   <context>
@@ -4139,17 +4854,29 @@ Kontrollera först en eller flera kantentiteter.</translation>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgProjectionOnSurface.cpp" line="141"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Projection object</source>
       <translation>Projektionsobjekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgProjectionOnSurface.cpp" line="168"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No active document</source>
       <translation>Inget aktivt dokument</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgProjectionOnSurface.cpp" line="174"/>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Cannot create a projection object</source>
       <translation>Det går inte att skapa ett projektionsobjekt</translation>
     </message>
@@ -4234,24 +4961,46 @@ Kontrollera först en eller flera kantentiteter.</translation>
       <translation>Skapa solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+      <location filename="../../DlgRevolution.cpp" line="541"/>
+      <source>Select reference</source>
+      <translation>Markera referens</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../DlgRevolution.ui" line="318"/>
       <source>Symmetric angle</source>
       <translation>Symmetrisk vinkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="201"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Object not found: %1</source>
       <translation>Objektet hittades inte: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="285"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select a shape for revolution.</source>
       <translation>Välj en form för revolution.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="304"/>
       <location filename="../../DlgRevolution.cpp" line="314"/>
       <location filename="../../DlgRevolution.cpp" line="324"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="303"/>
+      <location filename="../../DlgRevolution.cpp" line="313"/>
+      <location filename="../../DlgRevolution.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Revolution axis link is invalid.
 
 %1</source>
@@ -4260,23 +5009,40 @@ Kontrollera först en eller flera kantentiteter.</translation>
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="324"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Unknown error</source>
       <translation>Okänt fel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="336"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Revolution axis direction is zero-length. It must be non-zero.</source>
       <translation>Rotationsaxelns riktning är noll-längd. Den måste vara icke-noll.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="349"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Revolution angle span is zero. It must be non-zero.</source>
       <translation>Spännvidden för rotationsvinkeln är noll. Den måste vara icke-noll.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="516"/>
       <location filename="../../DlgRevolution.cpp" line="524"/>
+=======
+      <location filename="../../DlgRevolution.cpp" line="515"/>
+      <location filename="../../DlgRevolution.cpp" line="523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creating Revolve failed.
 
 %1</source>
@@ -4285,9 +5051,15 @@ Kontrollera först en eller flera kantentiteter.</translation>
 %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgRevolution.cpp" line="538"/>
       <source>Selecting… (Line or Arc)</source>
       <translation>Väljer … (linje eller båge)</translation>
+=======
+      <location filename="../../DlgRevolution.cpp" line="536"/>
+      <source>Selecting… (line or arc)</source>
+      <translation>Väljer... (linje eller båge)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
     </message>
   </context>
   <context>
@@ -4333,12 +5105,20 @@ Kontrollera först en eller flera kantentiteter.</translation>
       <translation>Om du ställer in en för liten avvikelse tar tesselleringen längre tid, vilket leder till att GUI fryser eller blir långsammare.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="113"/>
+=======
+      <location filename="../../DlgSettings3DViewPartImp.cpp" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Angle deflection</source>
       <translation>Vinkelavböjning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="114"/>
+=======
+      <location filename="../../DlgSettings3DViewPartImp.cpp" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Setting a too small angle deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</source>
       <translation>Om du ställer in en för liten vinkelavvikelse tar tesselleringen längre tid, vilket gör att GUI fryser eller blir långsammare.</translation>
     </message>
@@ -4907,7 +5687,11 @@ kommer skissplanets normalvektor att användas</translation>
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="199"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <source>Too Few Elements</source>
+=======
+      <source>Too few elements</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <translation>För få element</translation>
     </message>
     <message>
@@ -4990,7 +5774,11 @@ kommer skissplanets normalvektor att användas</translation>
     </message>
     <message>
       <location filename="../../Mirroring.ui" line="150"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Mirroring.cpp" line="241"/>
+=======
+      <location filename="../../Mirroring.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Selecting</source>
       <translation>Väljer</translation>
     </message>
@@ -5000,17 +5788,30 @@ kommer skissplanets normalvektor att användas</translation>
       <translation>Referens för spegelplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Mirroring.cpp" line="236"/>
       <source>Select Reference</source>
       <translation>Välj referens</translation>
     </message>
     <message>
       <location filename="../../Mirroring.cpp" line="313"/>
+=======
+      <location filename="../../Mirroring.cpp" line="235"/>
+      <source>Select reference</source>
+      <translation>Välj referens</translation>
+    </message>
+    <message>
+      <location filename="../../Mirroring.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select a shape for mirroring.</source>
       <translation>Välj en form för spegling.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Mirroring.cpp" line="321"/>
+=======
+      <location filename="../../Mirroring.cpp" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No such document '%1'.</source>
       <translation>Inget sådant dokument '%1'.</translation>
     </message>
@@ -5018,7 +5819,11 @@ kommer skissplanets normalvektor att användas</translation>
   <context>
     <name>PartGui::OffsetWidget</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskOffset.cpp" line="228"/>
+=======
+      <location filename="../../TaskOffset.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Input error</source>
       <translation>Inmatningsfel</translation>
     </message>
@@ -5026,17 +5831,29 @@ kommer skissplanets normalvektor att användas</translation>
   <context>
     <name>PartGui::ResultModel</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="364"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Name</source>
       <translation>Namn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="366"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Type</source>
       <translation>Typ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="368"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Error</source>
       <translation>Fel</translation>
     </message>
@@ -5174,22 +5991,47 @@ kommer endast skapade snitt att vara synliga</translation>
   <context>
     <name>PartGui::ShapeBuilderWidget</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="224"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Unsupported</source>
       <translation>Stöds inte</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="224"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Box selection for shells is not supported</source>
       <translation>Boxval för snäckor stöds inte</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="233"/>
       <location filename="../../TaskShapeBuilder.cpp" line="252"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="234"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="253"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="282"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="324"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="379"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="433"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="499"/>
+      <source>Wrong selection</source>
+      <translation>Felaktigt val</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="234"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select two vertices</source>
       <translation>Välj två hörn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="233"/>
       <location filename="../../TaskShapeBuilder.cpp" line="252"/>
       <location filename="../../TaskShapeBuilder.cpp" line="281"/>
@@ -5203,51 +6045,91 @@ kommer endast skapade snitt att vara synliga</translation>
     <message>
       <location filename="../../TaskShapeBuilder.cpp" line="281"/>
       <location filename="../../TaskShapeBuilder.cpp" line="378"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="282"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select at least 1 edge</source>
       <translation>Välj minst 1 kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="432"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select at least 2 faces</source>
       <translation>Välj minst 2 ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="498"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select only 1 shape object</source>
       <translation>Välj endast 1 formobjekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="570"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="571"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select vertices</source>
       <translation>Välj hörnpunkter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="577"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select a closed loop of edges</source>
       <translation>Välj en sluten slinga av kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="323"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select three or more vertices</source>
       <translation>Välj tre eller fler hörn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="556"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="557"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select two vertices to create an edge</source>
       <translation>Välj två hörn för att skapa en kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="563"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select adjacent edges</source>
       <translation>Välj intilliggande kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="584"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="585"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select adjacent faces</source>
       <translation>Välj intilliggande ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskShapeBuilder.cpp" line="591"/>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>All shape types can be selected</source>
       <translation>Alla formtyper kan väljas</translation>
     </message>
@@ -5266,15 +6148,32 @@ kommer endast skapade snitt att vara synliga</translation>
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="376"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+      <source>Too few elements</source>
+      <translation>För få element</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="376"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>At least one edge or wire is required.</source>
       <translation>Det krävs minst en kant eller tråd.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+      <location filename="../../TaskSweep.cpp" line="382"/>
+      <source>Invalid selection</source>
+      <translation>Ogiltigt val</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../TaskSweep.cpp" line="383"/>
       <source>Select at least 1 edge from a single object.</source>
       <translation>Välj minst 1 kant från ett enda objekt.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="376"/>
       <source>Too Few Elements</source>
       <translation>För få element</translation>
@@ -5287,6 +6186,10 @@ kommer endast skapade snitt att vara synliga</translation>
     <message>
       <location filename="../../TaskSweep.cpp" line="393"/>
       <source>Wrong Selection</source>
+=======
+      <location filename="../../TaskSweep.cpp" line="393"/>
+      <source>Wrong selection</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <translation>Felaktigt val</translation>
     </message>
     <message>
@@ -5295,27 +6198,51 @@ kommer endast skapade snitt att vara synliga</translation>
       <translation>'%1' kan inte användas som profil och sökväg.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="431"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Input error</source>
       <translation>Inmatningsfel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="472"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Done</source>
       <translation>Färdig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="475"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="481"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select one or more connected edges in the 3D view and press 'Done'</source>
       <translation>Välj en eller flera anslutna kanter i 3D-vyn och tryck på "Done</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="499"/>
       <location filename="../../TaskSweep.cpp" line="507"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="505"/>
+      <location filename="../../TaskSweep.cpp" line="513"/>
+      <source>Sweep path</source>
+      <translation>Svepningsbana</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="505"/>
+      <location filename="../../TaskSweep.cpp" line="513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>The selected sweep path is invalid.</source>
       <translation>Den valda svepbanan är ogiltig.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="499"/>
       <location filename="../../TaskSweep.cpp" line="507"/>
       <source>Sweep Path</source>
@@ -5323,11 +6250,18 @@ kommer endast skapade snitt att vara synliga</translation>
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="519"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="525"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Vertex/Wire</source>
       <translation>Hörn/Tråd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="520"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sweep</source>
       <translation>Sopa</translation>
     </message>
@@ -5440,41 +6374,80 @@ för det objekt som fästs.</translation>
       <translation>Vänd på sidorna</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="413"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>OCC error: %1</source>
       <translation>OCC-fel: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="416"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>unknown error</source>
       <translation>okänt fel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="419"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="408"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Attachment mode failed: %1</source>
       <translation>Attachment mode misslyckades: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="424"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Not attached</source>
       <translation>Inte bifogad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="432"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Attached with mode %1</source>
       <translation>Ansluten med läge %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1027"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="425"/>
+      <source>Attachment offset (in its local coordinate system):</source>
+      <translation>Fästets offset (i dess lokala koordinatsystem):</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="426"/>
+      <source>Attachment offset (inactive - not attached):</source>
+      <translation>Bilageförskjutning (inaktiv - inte bifogad):</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1009"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Selecting…</source>
       <translation>Väljer…</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="930"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Face</source>
       <translation>Yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="436"/>
       <source>Attachment Offset (in its local coordinate system):</source>
       <translation>Fästförskjutning (i dess lokala koordinatsystem):</translation>
@@ -5486,36 +6459,63 @@ för det objekt som fästs.</translation>
     </message>
     <message>
       <location filename="../../TaskAttacher.cpp" line="937"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="922"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edge</source>
       <translation>Linje</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="944"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="929"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Vertex</source>
       <translation>Toppunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1033"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1015"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Reference%1</source>
       <translation>Referens%1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1102"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1084"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Not editable because rotation of AttachmentOffset is bound by expressions.</source>
       <translation>Ej redigerbar eftersom rotationen av AttachmentOffset är bunden av uttryck.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1185"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Reference combinations:</source>
       <translation>Referenskombinationer:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1207"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>%1 (add %2)</source>
       <translation>%1 (lägg till %2)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1210"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>%1 (add more references)</source>
       <translation>%1 (lägg till fler referenser)</translation>
     </message>
@@ -5523,28 +6523,49 @@ för det objekt som fästs.</translation>
   <context>
     <name>PartGui::TaskCheckGeometryDialog</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1189"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shape Content</source>
       <translation>Forminnehåll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1201"/>
       <location filename="../../TaskCheckGeometry.cpp" line="1456"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1200"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="1455"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Settings</source>
       <translation>Inställningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1211"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Default: false</source>
       <translation>Standard: false</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1218"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Run boolean operation check</source>
       <translation>Kör boolesk operationskontroll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1220"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Extra boolean operations check that can sometimes find errors that
 the standard BRep geometry check misses. These errors do not always
 mean the checked object is unusable.  Default: false</source>
@@ -5553,165 +6574,290 @@ som standardkontrollen för BRep-geometri missar. Dessa fel behöver inte alltid
 betyder inte alltid att det kontrollerade objektet är oanvändbart.  Standard: false</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1229"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Single-threaded</source>
       <translation>Enkel trådad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1231"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Run the geometry check in a single thread.  This is slower,
 but more stable.  Default: false</source>
       <translation>Kör geometrikontrollen i en enda tråd.  Detta är långsammare,
 men mer stabilt.  Standard: false</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1244"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Log errors</source>
       <translation>Loggfel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1245"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Log errors to report view.  Default: true</source>
       <translation>Logga fel till rapportvyn.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1256"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Expand shape content</source>
       <translation>Utöka formens innehåll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1258"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Expand shape content.  Changes will take effect next time you use 
 the check geometry tool.  Default: false</source>
       <translation>Expandera formens innehåll.  Ändringarna träder i kraft nästa gång du använder
 verktyget för kontroll av geometri.  Standard: false</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1271"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Advanced shape content</source>
       <translation>Avancerat forminnehåll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1273"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Show advanced shape content.  Changes will take effect next time you use 
 the check geometry tool.  Default: false</source>
       <translation>Visa avancerat forminnehåll.  Ändringarna träder i kraft nästa gång du använder
 verktyget för kontroll av geometri.  Standard: false</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1285"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>
 Individual boolean operation checks:</source>
       <translation>
 Individuella booleska operationskontroller:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1288"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Bad type</source>
       <translation>Dålig typ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1300"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Self-intersect</source>
       <translation>Självskärande</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1312"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Too small edge</source>
       <translation>För liten kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1324"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Nonrecoverable face</source>
       <translation>Ej återvinningsbar yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1336"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Continuity</source>
       <translation>Kontinuitet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1348"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Incompatibility of face</source>
       <translation>Inkompatibilitet mellan ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1360"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Incompatibility of vertex</source>
       <translation>Inkompatibilitet för toppunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1372"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Incompatibility of edge</source>
       <translation>Inkompatibilitet hos kanten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1384"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid curve on surface</source>
       <translation>Ogiltig kurva på ytan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1455"/>
       <source>Run Check</source>
       <translation>Kör kontroll</translation>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="1289"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for bad argument types.  Default: true</source>
       <translation>Kontrollera för felaktiga argumenttyper.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1208"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Skip this settings page</source>
       <translation>Hoppa över denna inställningssida</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1210"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Skip this settings page and run the geometry check automatically</source>
       <translation>Hoppa över denna inställningssida och kör geometrikontrollen automatiskt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1301"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for self-intersections.  Default: true</source>
       <translation>Kontrollera om det finns självskärande korsningar.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1313"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for edges that are too small.  Default: true</source>
       <translation>Kontrollera om kanterna är för små.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1325"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for nonrecoverable faces.  Default: true</source>
       <translation>Kontrollera om ytor inte kan återställas.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1337"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for continuity.  Default: true</source>
       <translation>Kontrollera om det finns kontinuitet.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1349"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for incompatible faces.  Default: true</source>
       <translation>Kontrollera om det finns inkompatibla ytor.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1361"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for incompatible vertices.  Default: true</source>
       <translation>Kontrollera om det finns inkompatibla hörn.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1373"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1372"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for incompatible edges.  Default: true</source>
       <translation>Kontrollera om det finns inkompatibla kanter.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1385"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check for invalid curves on surfaces.  Default: true</source>
       <translation>Kontrollera om det finns ogiltiga kurvor på ytor.  Standard: true</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="1467"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1454"/>
+      <source>Run check</source>
+      <translation>Körkontroll</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Results</source>
       <translation>Resultat</translation>
     </message>
@@ -5719,63 +6865,112 @@ Individuella booleska operationskontroller:</translation>
   <context>
     <name>PartGui::TaskCheckGeometryResults</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="403"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check Geometry Results</source>
       <translation>Kontrollera geometri-resultat</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="426"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check is running…</source>
       <translation>Kontrollen är igång..</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="455"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="454"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation check…</source>
       <translation>Boolesk operationskontroll..</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="458"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check geometry</source>
       <translation>Kontrollera geometri</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="490"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Null shape</source>
       <translation>Nullform</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="491"/>
       <location filename="../../TaskCheckGeometry.cpp" line="503"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="490"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="502"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Skipped</source>
       <translation>Överhoppade</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="502"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Infinite shape</source>
       <translation>Oändlig form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="529"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid</source>
       <translation>Ogiltig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="555"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Checking</source>
       <translation>Kolla</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="579"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No errors</source>
       <translation>Inga fel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="591"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="590"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>%1 processed out of %2 selected</source>
       <translation>%1 bearbetad ur %2 svald</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="592"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>%n invalid shapes.</source>
       <translation>
         <numerusform>%n ogiltiga former.</numerusform>
@@ -5783,32 +6978,56 @@ Individuella booleska operationskontroller:</translation>
       </translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="593"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>to report view.</source>
       <translation>till rapportvyn.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="740"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="739"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Global minimum</source>
       <translation>Global miniminivå</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="748"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Global average</source>
       <translation>Globalt genomsnitt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="756"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Global maximum</source>
       <translation>Globalt maximum</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="715"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="714"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Checked object</source>
       <translation>Kontrollerat objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="732"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="731"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Tolerance information</source>
       <translation>Information om tolerans</translation>
     </message>
@@ -5816,11 +7035,16 @@ Individuella booleska operationskontroller:</translation>
   <context>
     <name>PartGui::TaskDlgAttacher</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1471"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1432"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Attachment</source>
       <translation>Bilaga</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="1492"/>
       <source>%1 select reference</source>
       <translation>%1 välj referens</translation>
@@ -5832,6 +7056,9 @@ Individuella booleska operationskontroller:</translation>
     </message>
     <message>
       <location filename="../../TaskAttacher.cpp" line="1648"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1514"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Datum dialog: input error</source>
       <translation>Referenspunktsdialog: inmatningsfel</translation>
     </message>
@@ -6016,7 +7243,11 @@ Individuella booleska operationskontroller:</translation>
       <translation>Frenet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskSweep.cpp" line="545"/>
+=======
+      <location filename="../../TaskSweep.cpp" line="551"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select at least 1 profile and an edge or wire
 in the 3D view for the sweep path.</source>
       <translation>Välj minst 1 profil och en kant eller tråd
@@ -6055,8 +7286,13 @@ i 3D-vyn för svepbanan.</translation>
     <name>PartGui::ThicknessWidget</name>
     <message>
       <location filename="../../TaskThickness.cpp" line="96"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskThickness.cpp" line="335"/>
       <location filename="../../TaskThickness.cpp" line="398"/>
+=======
+      <location filename="../../TaskThickness.cpp" line="333"/>
+      <location filename="../../TaskThickness.cpp" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Thickness</source>
       <translation>Tjocklek</translation>
     </message>
@@ -6071,7 +7307,11 @@ i 3D-vyn för svepbanan.</translation>
       <translation>Klar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskThickness.cpp" line="297"/>
+=======
+      <location filename="../../TaskThickness.cpp" line="295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Input error</source>
       <translation>Inmatningsfel</translation>
     </message>
@@ -6081,6 +7321,10 @@ i 3D-vyn för svepbanan.</translation>
     <message>
       <location filename="../../../BasicShapes/ViewProviderShapes.py" line="51"/>
       <location filename="../../../BasicShapes/ViewProviderShapes.py" line="59"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+      <location filename="../../ViewProviderPrimitive.cpp" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../ViewProvider.cpp" line="53"/>
       <location filename="../../ViewProviderPrimitive.cpp" line="55"/>
       <source>Edit %1</source>
@@ -6105,6 +7349,19 @@ i 3D-vyn för svepbanan.</translation>
       <translation>Importera/Exportera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
+=======
+      <location filename="../../Command.cpp" line="333"/>
+      <location filename="../../Command.cpp" line="410"/>
+      <location filename="../../Command.cpp" line="510"/>
+      <location filename="../../Command.cpp" line="952"/>
+      <location filename="../../Command.cpp" line="1015"/>
+      <location filename="../../Command.cpp" line="2290"/>
+      <source>Wrong selection</source>
+      <translation>Felaktigt val</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../Command.cpp" line="350"/>
       <location filename="../../Command.cpp" line="427"/>
       <location filename="../../Command.cpp" line="527"/>
@@ -6118,6 +7375,7 @@ i 3D-vyn för svepbanan.</translation>
       <translation>Välj 2 former</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="333"/>
       <location filename="../../Command.cpp" line="410"/>
       <location filename="../../Command.cpp" line="510"/>
@@ -6128,6 +7386,8 @@ i 3D-vyn för svepbanan.</translation>
       <translation>Felaktigt val</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <location filename="../../Command.cpp" line="351"/>
       <location filename="../../Command.cpp" line="428"/>
       <location filename="../../Command.cpp" line="528"/>
@@ -6152,6 +7412,7 @@ Fortsättning?</translation>
       <translation>Välj minst en form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1080"/>
       <location filename="../../Command.cpp" line="1150"/>
       <source>STEP with colors</source>
@@ -6165,17 +7426,34 @@ Fortsättning?</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1201"/>
+=======
+      <location filename="../../Command.cpp" line="1210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>All CAD Files</source>
       <translation>Alla CAD-filer</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2278"/>
+=======
+      <location filename="../../Command.cpp" line="1214"/>
+      <source>All Files</source>
+      <translation>Alla filer</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2291"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Select either 2 edges or 2 wires.</source>
       <translation>Välj antingen 2 kanter eller 2 trådar.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskAttacher.cpp" line="83"/>
       <location filename="../../TaskAttacher.cpp" line="116"/>
+=======
+      <location filename="../../TaskAttacher.cpp" line="73"/>
+      <location filename="../../TaskAttacher.cpp" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No reference selected</source>
       <translation>Ingen referens markerad</translation>
     </message>
@@ -6225,272 +7503,488 @@ Fortsättning?</translation>
       <translation>Form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="102"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No error</source>
       <translation>Inget fel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="103"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="102"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid point on curve</source>
       <translation>Ogiltig punkt på kurvan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="105"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid point on curve on surface</source>
       <translation>Ogiltig punkt på kurva på yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="107"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid point on surface</source>
       <translation>Ogiltig punkt på ytan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="108"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No 3D curve</source>
       <translation>Ingen 3D-kurva</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="109"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Multiple 3D curves</source>
       <translation>Flera 3D-kurvor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="110"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid 3D curve</source>
       <translation>Ogiltig 3D-kurva</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="111"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No curve on surface</source>
       <translation>Ingen kurva på ytan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="112"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid curve on surface</source>
       <translation>Ogiltig kurva på ytan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="114"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid curve on closed surface</source>
       <translation>Ogiltig kurva på sluten yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="116"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid same range flag</source>
       <translation>Ogiltig flagga för samma intervall</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="117"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid same parameter flag</source>
       <translation>Ogiltig flagga för samma parameter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="118"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid degenerated flag</source>
       <translation>Ogiltig degenererad flagga</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="119"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Free edge</source>
       <translation>Fri kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="120"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid multi-connexity</source>
       <translation>Ogiltig multi-konnexitet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="121"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid range</source>
       <translation>Ogiltigt intervall</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="122"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Empty wire</source>
       <translation>Tom kabel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="123"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Redundant edge</source>
       <translation>Redundant kant</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="124"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Self-intersecting wire</source>
       <translation>Självskärande kabel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="125"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No surface</source>
       <translation>Ingen yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="126"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid wire</source>
       <translation>Ogiltig kabel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="127"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Redundant wire</source>
       <translation>Redundant kabel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="128"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Intersecting wires</source>
       <translation>Korsande ledningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="129"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid imbrication of wires</source>
       <translation>Ogiltig imbricering av kablar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="130"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Empty shell</source>
       <translation>Tomt skal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="131"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Redundant face</source>
       <translation>Redundant yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="132"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Unorientable shape</source>
       <translation>Oorienterbar form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="133"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Not closed</source>
       <translation>Inte stängt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="134"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Not connected</source>
       <translation>Ej ansluten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="135"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Sub-shape not in shape</source>
       <translation>Underform inte i form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="136"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Bad orientation</source>
       <translation>Dålig orientering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="137"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Bad orientation of sub-shape</source>
       <translation>Felaktig orientering av delformen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="138"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid tolerance value</source>
       <translation>Ogiltigt toleransvärde</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="139"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Check failed</source>
       <translation>Kontrollen misslyckades</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="148"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No result</source>
       <translation>Inget resultat</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="151"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Out of enum range:</source>
       <translation>Utanför enum-intervallet:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="163"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: unknown check</source>
       <translation>Boolesk operation: okänd kontroll</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="164"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: bad type</source>
       <translation>Boolesk operation: dålig typ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="165"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="164"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: self-intersection found</source>
       <translation>Boolesk operation: självskärning funnen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="166"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: edge too small</source>
       <translation>Boolesk operation: kanten är för liten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="167"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: non-recoverable face</source>
       <translation>Boolesk operation: ej återhämtningsbar yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="169"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: incompatibility of vertex</source>
       <translation>Boolesk operation: inkompatibilitet för toppunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="172"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: incompatibility of edge</source>
       <translation>Boolesk operation: inkompatibilitet mellan kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="175"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: incompatibility of face</source>
       <translation>Boolesk operation: inkompatibla ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="177"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: aborted</source>
       <translation>Boolesk operation: avbruten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="180"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: invalid curve on surface</source>
       <translation>Boolesk operation: ogiltig kurva på yta</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="182"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: not valid</source>
       <translation>Boolesk operation: inte giltig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="178"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Boolean operation: GeomAbs_C0</source>
       <translation>Boolesk operation: GeomAbs_C0</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../TaskCheckGeometry.cpp" line="858"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Invalid</source>
       <translation>Ogiltig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderMirror.cpp" line="85"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit Mirror Plane</source>
       <translation>Redigera spegelplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderMirror.cpp" line="307"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit Fillet</source>
       <translation>Redigera Filé</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderMirror.cpp" line="428"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit Chamfer</source>
       <translation>Redigera avfasning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderMirror.cpp" line="568"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit offset</source>
       <translation>Redigera offset</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderMirror.cpp" line="658"/>
+=======
+      <location filename="../../ViewProviderMirror.cpp" line="653"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edit thickness</source>
       <translation>Redigera tjocklek</translation>
     </message>
@@ -6501,8 +7995,13 @@ Fortsättning?</translation>
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="185"/>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <source>Distance in Parameter Space</source>
       <translation>Avstånd i parameterrymden</translation>
+=======
+      <source>Distance in parameter space</source>
+      <translation>Avstånd i parameterrymd</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="186"/>
@@ -6510,7 +8009,16 @@ Fortsättning?</translation>
       <translation>Ange avstånd:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderExt.cpp" line="994"/>
+=======
+      <location filename="../../ViewProviderAttachExtension.cpp" line="100"/>
+      <source>Attachment Editor</source>
+      <translation>Redigerare för bilaga</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderExt.cpp" line="1005"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Appearance per Face</source>
       <translation>Utseende per yta</translation>
     </message>
@@ -6571,12 +8079,20 @@ Fortsättning?</translation>
       <translation>Skärning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderCompound.cpp" line="94"/>
+=======
+      <location filename="../../ViewProviderCompound.cpp" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Delete compound content?</source>
       <translation>Ta bort sammansättningsinnehåll?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../ViewProviderCompound.cpp" line="95"/>
+=======
+      <location filename="../../ViewProviderCompound.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>The compound '%1' has %2 child objects. Do you want to delete them as well?</source>
       <translation>Sammansättningen "%1" har %2 barnobjekt. Vill du ta bort dem också?</translation>
     </message>
@@ -6726,10 +8242,17 @@ Fortsättning?</translation>
       <translation>Dålig markering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BOPTools/SplitFeatures.py" line="198"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="402"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="644"/>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="137"/>
+=======
+      <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="137"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="198"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="402"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Continue</source>
       <translation>Fortsätt</translation>
     </message>
@@ -6917,117 +8440,209 @@ för kollisions- eller avståndsfiltrering.</translation>
   <context>
     <name>TaskCheckGeometryResults</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="30"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="31"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shape type</source>
       <translation>Typ av form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="32"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="33"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Vertices</source>
       <translation>Hörn</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="34"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Edges</source>
       <translation>Kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="35"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="36"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Wires</source>
       <translation>Ledningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="36"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Faces</source>
       <translation>Ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="37"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="38"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shells</source>
       <translation>Snäckor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="38"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Solids</source>
       <translation>Fasta Ämnen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="41"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>CompSolids</source>
       <translation>CompSolids</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="46"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Compounds</source>
       <translation>Föreningar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="50"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Shapes</source>
       <translation>Former</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="75"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Area</source>
       <translation>Område</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="88"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Volume</source>
       <translation>Volym</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="95"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Mass</source>
       <translation>Massa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="102"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Length</source>
       <translation>Längd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="109"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Radius</source>
       <translation>Radie</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="116"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Curve center</source>
       <translation>Kurvans mittpunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="123"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Continuity</source>
       <translation>Kontinuitet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="130"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Center of mass</source>
       <translation>Masscentrum</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="151"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Is closed</source>
       <translation>Är stängd</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="158"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Orientation</source>
       <translation>Orientering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="176"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Global center of mass</source>
       <translation>Global tyngdpunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="194"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Global placement</source>
       <translation>Global placering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../BasicShapes/ShapeContent.py" line="196"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Placement</source>
       <translation>Placering</translation>
     </message>
@@ -7128,17 +8743,29 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartScale</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1463"/>
+=======
+      <location filename="../../Command.cpp" line="1476"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1464"/>
+=======
+      <location filename="../../Command.cpp" line="1477"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Scale</source>
       <translation>Skala</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="1465"/>
+=======
+      <location filename="../../Command.cpp" line="1478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Scales the selected shape</source>
       <translation>Skalar den valda formen</translation>
     </message>
@@ -7154,12 +8781,20 @@ eller med formerna i en förening.
   <context>
     <name>Part::FaceMakerSimple</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/FaceMaker.cpp" line="338"/>
+=======
+      <location filename="../../../App/FaceMaker.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Simple</source>
       <translation>Enkel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/FaceMaker.cpp" line="343"/>
+=======
+      <location filename="../../../App/FaceMaker.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Makes separate plane face from every wire independently. No support for holes; wires can be on different planes.</source>
       <translation>Skapar en separat plan yta för varje tråd oberoende av varandra. Inget stöd för hål; trådarna kan ligga på olika plan.</translation>
     </message>
@@ -7193,12 +8828,20 @@ eller med formerna i en förening.
   <context>
     <name>Part::FaceMakerExtrusion</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/FeatureExtrusion.cpp" line="427"/>
+=======
+      <location filename="../../../App/FeatureExtrusion.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part Extrude facemaker</source>
       <translation>Del Extrudera facemaker</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/FeatureExtrusion.cpp" line="432"/>
+=======
+      <location filename="../../../App/FeatureExtrusion.cpp" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Supports making faces with holes, does not support nesting.</source>
       <translation>Stöder tillverkning av ytor med hål, stöder inte nesting.</translation>
     </message>
@@ -7300,17 +8943,29 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartCoordinateSystem</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2524"/>
+=======
+      <location filename="../../Command.cpp" line="2537"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2525"/>
+=======
+      <location filename="../../Command.cpp" line="2538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Coordinate System</source>
       <translation>Koordinatsystem</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2526"/>
+=======
+      <location filename="../../Command.cpp" line="2539"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a coordinate system that can be attached to other objects</source>
       <translation>Skapar ett koordinatsystem som kan kopplas till andra objekt</translation>
     </message>
@@ -7318,17 +8973,29 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartDatums</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2667"/>
+=======
+      <location filename="../../Command.cpp" line="2676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2668"/>
+=======
+      <location filename="../../Command.cpp" line="2677"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Datums</source>
       <translation>Referenspunkter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2670"/>
+=======
+      <location filename="../../Command.cpp" line="2679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a datum object (coordinate system, plane, line, or point) that can be attached to other objects</source>
       <translation>Skapar ett referenspunktsobjekt (koordinatsystem, plan, linje eller punkt) som kan kopplas till andra objekt</translation>
     </message>
@@ -7336,7 +9003,11 @@ eller med formerna i en förening.
   <context>
     <name>Exceptions</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/Geometry.cpp" line="6723"/>
+=======
+      <location filename="../../../App/Geometry.cpp" line="6656"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Unable to guess intersection of curves. Try adding a coincident constraint between the vertices of the curves you are intending to fillet.</source>
       <translation>Det går inte att gissa skärningspunkten mellan kurvor. Försök att lägga till en sammanfallande begränsning mellan hörnen på de kurvor som du tänker falsa.</translation>
     </message>
@@ -7344,17 +9015,29 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartDatumPlane</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2563"/>
+=======
+      <location filename="../../Command.cpp" line="2575"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2564"/>
+=======
+      <location filename="../../Command.cpp" line="2576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Datum Plane</source>
       <translation>Referenspunktsplan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2565"/>
+=======
+      <location filename="../../Command.cpp" line="2577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a datum plane that can be attached to other objects</source>
       <translation>Skapar ett referenspunktsplan som kan kopplas till andra objekt</translation>
     </message>
@@ -7362,17 +9045,29 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartDatumLine</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2597"/>
+=======
+      <location filename="../../Command.cpp" line="2608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2598"/>
+=======
+      <location filename="../../Command.cpp" line="2609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Datum Line</source>
       <translation>Referenspunktslinje</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2599"/>
+=======
+      <location filename="../../Command.cpp" line="2610"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a datum line that can be attached to other objects</source>
       <translation>Skapar en referenspunktslinje som kan fästas på andra objekt</translation>
     </message>
@@ -7380,17 +9075,29 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartDatumPoint</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2631"/>
+=======
+      <location filename="../../Command.cpp" line="2641"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Part</source>
       <translation>Del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2632"/>
+=======
+      <location filename="../../Command.cpp" line="2642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Datum Point</source>
       <translation>Referenspunkt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2633"/>
+=======
+      <location filename="../../Command.cpp" line="2643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a datum point that can be attached to other objects</source>
       <translation>Skapar en referenspunkt som kan kopplas till andra objekt</translation>
     </message>
@@ -7560,12 +9267,20 @@ eller med formerna i en förening.
   <context>
     <name>Part::FaceMakerRing</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/FaceMakerBullseye.cpp" line="367"/>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Ring facemaker</source>
       <translation>Ringformad ytskapare</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../../App/FaceMakerBullseye.cpp" line="372"/>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="376"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Supports making planar faces with holes and holes as faces</source>
       <translation>Stöd för att skapa plana ytor med hål och hål som ytor</translation>
     </message>
@@ -7573,12 +9288,20 @@ eller med formerna i en förening.
   <context>
     <name>CmdPartSectionCut</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2460"/>
+=======
+      <location filename="../../Command.cpp" line="2473"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Persiste&amp;nt Section Cut</source>
       <translation>Beständigt &amp;sektionssnitt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../Command.cpp" line="2461"/>
+=======
+      <location filename="../../Command.cpp" line="2474"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Creates a new object as a boolean intersection of all visible shapes and the selected axis planes</source>
       <translation>Skapar ett nytt objekt som en boolesk skärningspunkt mellan alla synliga former och de valda axelplanen</translation>
     </message>
@@ -7638,12 +9361,20 @@ eller med formerna i en förening.
   <context>
     <name>PartCmdRemoveSelectionGate</name>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandFilter.cpp" line="273"/>
+=======
+      <location filename="../../CommandFilter.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>No Selection Filters</source>
       <translation>Inga markeringsfilter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../CommandFilter.cpp" line="274"/>
+=======
+      <location filename="../../CommandFilter.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Clears all selection filters</source>
       <translation>Rensar alla markeringsfilter</translation>
     </message>
@@ -7718,6 +9449,7 @@ eller med formerna i en förening.
       <translation>Axel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../PatternParametersWidget.cpp" line="79"/>
       <location filename="../../PatternParametersWidget.cpp" line="81"/>
       <source>Total Angle</source>
@@ -7732,11 +9464,19 @@ eller med formerna i en förening.
     <message>
       <location filename="../../PatternParametersWidget.cpp" line="425"/>
       <location filename="../../PatternParametersWidget.cpp" line="521"/>
+=======
+      <location filename="../../PatternParametersWidget.cpp" line="408"/>
+      <location filename="../../PatternParametersWidget.cpp" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Spacing %1</source>
       <translation>Avstånd %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Part/Gui/Resources/translations/Part_sv.ts
       <location filename="../../PatternParametersWidget.cpp" line="441"/>
+=======
+      <location filename="../../PatternParametersWidget.cpp" line="424"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Part/Gui/Resources/translations/Part_sv-SE.ts
       <source>Remove this spacing definition.</source>
       <translation>Ta bort denna definition av avstånd.</translation>
     </message>

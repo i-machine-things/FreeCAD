@@ -157,7 +157,11 @@
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="48"/>
       <source>Coons</source>
+<<<<<<< HEAD
       <translation>Coons</translation>
+=======
+      <translation type="unfinished">Coons</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="55"/>
@@ -185,23 +189,40 @@
       <translation>Scambia orientamento</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="384"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many edges</source>
       <translation>Troppi bordi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="385"/>
       <location filename="../../TaskGeomFillSurface.cpp" line="393"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="379"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool requires two, three or four edges</source>
       <translation>Lo strumento richiede due, tre o quattro bordi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="392"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too less edges</source>
       <translation>Troppo pochi bordi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="404"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Oggetto non valido</translation>
     </message>
@@ -279,7 +300,11 @@
   <context>
     <name>SurfaceGui::FillingVertexPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingVertex.cpp" line="127"/>
+=======
+      <location filename="../../TaskFillingVertex.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Rimuovi</translation>
     </message>
@@ -344,7 +369,11 @@ che non sono sul confine.</translation>
       <translation>Estendi superficie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Blending/TaskBlendCurve.cpp" line="410"/>
+=======
+      <location filename="../../Blending/TaskBlendCurve.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit blending curve</source>
       <translation>Modifica curva di fusione</translation>
     </message>
@@ -457,16 +486,25 @@ Questo comando funziona solo con un oggetto mesh.</translation>
   <context>
     <name>SurfaceGui::FillingEdgePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="133"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Rimuovi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="329"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Oggetto non valido</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="407"/>
       <source>Edge has %n adjacent face(s)</source>
       <translation>
@@ -476,11 +514,26 @@ Questo comando funziona solo con un oggetto mesh.</translation>
     </message>
     <message>
       <location filename="../../TaskFillingEdge.cpp" line="411"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="406"/>
+      <source>Edge has %n adjacent face(s)</source>
+      <translation type="unfinished">
+        <numerusform>Il bordo ha %n faccia(e) adiacenti</numerusform>
+        <numerusform>Edge has %n adjacent face(s)</numerusform>
+      </translation>
+    </message>
+    <message>
+      <location filename="../../TaskFillingEdge.cpp" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Nessuno</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="432"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has no adjacent faces</source>
       <translation>Il bordo non ha facce adiacenti</translation>
     </message>
@@ -488,13 +541,22 @@ Questo comando funziona solo con un oggetto mesh.</translation>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
       <location filename="../../TaskFilling.cpp" line="63"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="64"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Filling</source>
       <translation>Modifica riempimento</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="667"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Surface</source>
       <translation>Superficie</translation>
     </message>
@@ -512,21 +574,35 @@ Questo comando funziona solo con un oggetto mesh.</translation>
   <context>
     <name>SurfaceGui::FillingPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="281"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Rimuovi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="497"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Oggetto non valido</translation>
     </message>
     <message numerus="yes">
       <location filename="../../TaskFilling.cpp" line="615"/>
       <source>Edge has %n adjacent faces</source>
+<<<<<<< HEAD
       <translation>
         <numerusform>Il bordo ha una faccia adiacente</numerusform>
         <numerusform>Il bordo ha %n facce adiacenti</numerusform>
+=======
+      <translation type="unfinished">
+        <numerusform>Il bordo ha %n facce adiacenti</numerusform>
+        <numerusform>Edge has %n adjacent faces</numerusform>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       </translation>
     </message>
     <message>
@@ -543,12 +619,20 @@ Questo comando funziona solo con un oggetto mesh.</translation>
   <context>
     <name>SurfaceGui::SectionsPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="279"/>
+=======
+      <location filename="../../TaskSections.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Rimuovi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="424"/>
+=======
+      <location filename="../../TaskSections.cpp" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Oggetto non valido</translation>
     </message>

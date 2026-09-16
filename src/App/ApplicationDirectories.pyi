@@ -24,7 +24,11 @@ class ApplicationDirectories(PyObjectBase):
         ...
 
     @staticmethod
+<<<<<<< HEAD
     def migrateAllPaths(paths: list[str], /) -> list[str]:
+=======
+    def migrateAllPaths(paths: List[str], /) -> List[str]:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         """
         Migrate a set of versionable configuration directories from the given paths to a new version.
 
@@ -114,7 +118,11 @@ class ApplicationDirectories(PyObjectBase):
         ...
 
     @staticmethod
+<<<<<<< HEAD
     def migrateConfig(oldPath: str, newPath: str, /) -> list[str]:
+=======
+    def migrateConfig(oldPath: str, newPath: str, /) -> List[str]:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         """
         A utility method to copy all files and directories from oldPath to newPath, handling the
         case where newPath might itself be a subdirectory of oldPath (and *not* attempting that

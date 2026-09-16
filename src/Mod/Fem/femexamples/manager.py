@@ -133,6 +133,7 @@ def setup_all():
     run_example("gmsh_adaptive")
 
 
+<<<<<<< HEAD
 def run_mesh_generation(doc, analysis=None):
 
     # find all mesh generation objects
@@ -181,6 +182,9 @@ def run_mesh_generation(doc, analysis=None):
 
 
 def run_analysis(doc, base_name, analysis=None, filepath="", run_solver=False,  blocking=True):
+=======
+def run_analysis(doc, base_name, filepath="", run_solver=False, blocking=True):
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     from os.path import join, exists
     from os import makedirs
@@ -239,7 +243,11 @@ def run_analysis(doc, base_name, analysis=None, filepath="", run_solver=False,  
     doc.save()
 
 
+<<<<<<< HEAD
 def run_example(example, solver=None, base_name=None, run_solver=False, blocking=True, doc=None):
+=======
+def run_example(example, solver=None, base_name=None, run_solver=False, blocking=True):
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     from importlib import import_module
 
@@ -257,6 +265,7 @@ def run_example(example, solver=None, base_name=None, run_solver=False, blocking
         base_name = example
         if solver is not None:
             base_name += "_" + solver
+<<<<<<< HEAD
 
     # As of now, we support:
     # 1. Multiple analysis objects, each having a mesh and solver object
@@ -276,6 +285,9 @@ def run_example(example, solver=None, base_name=None, run_solver=False, blocking
         for ana in analysis:
             run_analysis(doc, base_name, analysis=ana, run_solver=run_solver, blocking=blocking)
 
+=======
+    run_analysis(doc, base_name, run_solver=run_solver, blocking=blocking)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     doc.recompute()
 
     return doc

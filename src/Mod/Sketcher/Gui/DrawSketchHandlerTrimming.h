@@ -97,9 +97,12 @@ class DrawSketchHandlerTrimming: public DrawSketchHandlerTrimmingBase
 {
     Q_DECLARE_TR_FUNCTIONS(SketcherGui::DrawSketchHandlerTrimming)
 
+<<<<<<< HEAD
     friend DSHTrimmingController;
     friend DSHTrimmingControllerBase;
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 public:
     DrawSketchHandlerTrimming()
         : DrawSketchHandlerTrimmingBase()

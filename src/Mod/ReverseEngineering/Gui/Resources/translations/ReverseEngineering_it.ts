@@ -191,12 +191,20 @@
     <message>
       <location filename="../../Command.cpp" line="634"/>
       <source>Structured Point Clouds</source>
+<<<<<<< HEAD
       <translation>Cloud di punti strutturata</translation>
+=======
+      <translation type="unfinished">Structured Point Clouds</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="635"/>
       <source>Triangulates structured point clouds</source>
+<<<<<<< HEAD
       <translation>Triangola cloud di punti strutturate</translation>
+=======
+      <translation type="unfinished">Triangulates structured point clouds</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="636"/>
@@ -238,7 +246,11 @@
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="242"/>
+<<<<<<< HEAD
       <location filename="../../FitBSplineCurve.cpp" line="152"/>
+=======
+      <location filename="../../FitBSplineCurve.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit B-spline</source>
       <translation>Adatta B-Spline</translation>
     </message>
@@ -338,7 +350,11 @@
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="171"/>
       <location filename="../../FitBSplineSurface.cpp" line="249"/>
+<<<<<<< HEAD
       <source>Input Error</source>
+=======
+      <source>Input error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>Errore di input</translation>
     </message>
     <message>
@@ -381,7 +397,11 @@
     </message>
     <message>
       <location filename="../../Poisson.cpp" line="94"/>
+<<<<<<< HEAD
       <source>Input Error</source>
+=======
+      <source>Input error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>Errore di input</translation>
     </message>
   </context>

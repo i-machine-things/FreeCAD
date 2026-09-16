@@ -239,8 +239,11 @@ def getCutShapes(
                     c = sub.cut(cutvolume)
                     s = sub.common(cutface)
                     tmpSshapes.extend(s.Faces)
+<<<<<<< HEAD
                     if per_layer_sshapes is not None:
                         per_layer_sshapes[sh_idx].extend(s.Faces)
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     shapes.extend(c.SubShapes if c.ShapeType == "Compound" else [c])
                     if showHidden:
                         c = sub.cut(invcutvolume)
@@ -1428,7 +1431,11 @@ class _ViewProviderSectionPlane:
 
     def updateData(self, obj, prop):
         vobj = obj.ViewObject
+<<<<<<< HEAD
         if prop in ["Placement", "Shape"]:
+=======
+        if prop in ["Placement"]:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             self.onChanged(vobj, "DisplayLength")
             if vobj and hasattr(vobj, "CutView") and vobj.CutView:
                 self.refreshCutView(vobj)

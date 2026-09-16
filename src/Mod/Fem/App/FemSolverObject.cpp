@@ -43,8 +43,27 @@ FemSolverObject::FemSolverObject()
         App::PropertyType(App::Prop_ReadOnly | App::Prop_Output),
         "Solver results list"
     );
+<<<<<<< HEAD
 
     worker.initExtension(this);
+=======
+    ADD_PROPERTY_TYPE(
+        WorkingDirectory,
+        (""),
+        "Solver",
+        App::PropertyType(App::Prop_Transient | App::Prop_Hidden | App::Prop_Output),
+        "Solver working directory"
+    );
+    ADD_PROPERTY_TYPE(
+        Tool,
+        (Py::Object()),
+        "Solver",
+        App::PropertyType(
+            App::Prop_Transient | App::Prop_Hidden | App::Prop_ReadOnly | App::Prop_Output
+        ),
+        "Tool for run the solver"
+    );
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 FemSolverObject::~FemSolverObject() = default;

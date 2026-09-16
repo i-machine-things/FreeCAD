@@ -906,7 +906,15 @@ private:
     void removeSelectPoint(int SelectPoint);
     void clearSelectPoints();
 
+<<<<<<< HEAD
     void preselectToSelection(const std::stringstream& ss, const Base::Vector3d& pickedPoint, bool toggle);
+=======
+    void preselectToSelection(
+        const std::stringstream& ss,
+        boost::scoped_ptr<SoPickedPoint>& pp,
+        bool toggle
+    );
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     //@}
 
     /** @name miscelanea utilities */
@@ -920,10 +928,13 @@ private:
         OffsetMode offset = NoOffset
     );
     void moveAngleConstraint(Sketcher::Constraint*, int constNum, const Base::Vector2d& toPos);
+<<<<<<< HEAD
     //@}
 
     void setupActiveAndInEdit();
     void unsetupActiveAndInEdit();
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     /** @name signals*/
     //@{

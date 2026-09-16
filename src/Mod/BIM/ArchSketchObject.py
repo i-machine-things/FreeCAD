@@ -35,7 +35,32 @@ class ArchSketch(ArchSketchObject):
         pass
 
     def setPropertiesLinkCommon(self, orgFp, linkFp=None, mode=None):
+<<<<<<< HEAD
         pass
+=======
+        if linkFp:
+            fp = linkFp
+        else:
+            fp = orgFp
+        prop = fp.PropertiesList
+        if not isinstance(fp.getLinkedObject().Proxy, ArchWindow._Window):
+            pass
+        else:
+            if "Hosts" not in prop:
+                # inherited properties of Link are not in PropertiesList:
+                old_hosts = getattr(fp, "Hosts", [])
+                fp.addProperty(
+                    "App::PropertyLinkList",
+                    "Hosts",
+                    "Window",
+                    QT_TRANSLATE_NOOP("App::Property", "The objects that host this window"),
+                    locked=True,
+                )
+                fp.Hosts = old_hosts
+                for host in old_hosts:
+                    host.touch()
+                # Arch Window's code
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 
 # from ArchSketchObjectExt import ArchSketch  # Doesn't work

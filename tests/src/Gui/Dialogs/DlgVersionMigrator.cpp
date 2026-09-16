@@ -214,6 +214,7 @@ private Q_SLOTS:
         QCOMPARE(newPath, expectedPath);
     }
 
+<<<<<<< HEAD
     void generateNewUserAppPathString_version_in_current_with_trailing_separator()
     {
         // Regression test for issue #30409: the migration worker is always constructed with paths
@@ -237,6 +238,8 @@ private Q_SLOTS:
         QCOMPARE(newPath, expectedPath);
     }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     void locateNewPreferences()
     {
         auto worker = makeWorker(1, 1);

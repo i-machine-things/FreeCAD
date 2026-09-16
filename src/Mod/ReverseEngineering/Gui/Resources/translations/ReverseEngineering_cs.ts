@@ -238,7 +238,11 @@
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="242"/>
+<<<<<<< HEAD
       <location filename="../../FitBSplineCurve.cpp" line="152"/>
+=======
+      <location filename="../../FitBSplineCurve.cpp" line="138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit B-spline</source>
       <translation>Přizpůsobit B-splajn</translation>
     </message>
@@ -338,8 +342,13 @@
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="171"/>
       <location filename="../../FitBSplineSurface.cpp" line="249"/>
+<<<<<<< HEAD
       <source>Input Error</source>
       <translation>Chyba vstupu</translation>
+=======
+      <source>Input error</source>
+      <translation>Chyba zadání</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../FitBSplineSurface.cpp" line="215"/>
@@ -381,8 +390,13 @@
     </message>
     <message>
       <location filename="../../Poisson.cpp" line="94"/>
+<<<<<<< HEAD
       <source>Input Error</source>
       <translation>Chyba vstupu</translation>
+=======
+      <source>Input error</source>
+      <translation>Chyba zadání</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>

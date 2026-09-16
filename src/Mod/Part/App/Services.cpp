@@ -172,6 +172,7 @@ std::optional<Base::Vector3d> PartCenterOfMass::ofDocumentObject(App::DocumentOb
 
 bool PartCenterOfMass::supports(App::DocumentObject* object) const
 {
+<<<<<<< HEAD
     if (object->isDerivedFrom<Part::Feature>()) {
         return true;
     }
@@ -249,4 +250,7 @@ Py::Object PartPseudoShapeProvider::getElement(
     dict.setItem("subname", Py::String(subname));
     dict.setItem("needSubElement", Py::True());
     return func.apply(tuple, dict);
+=======
+    return object->isDerivedFrom<Part::Feature>();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }

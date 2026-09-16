@@ -1270,7 +1270,11 @@ std::string SelectionSingleton::_SelObj::getSubString() const
         }
         return "'" + SubName + "'";
     }
+<<<<<<< HEAD
     return {};
+=======
+    return "";
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 bool SelectionSingleton::addSelection(
@@ -1558,10 +1562,13 @@ bool SelectionSingleton::addSelections(
         temp.y = 0;
         temp.z = 0;
 
+<<<<<<< HEAD
         if (!isSelectionAllowed(temp).allowed) {
             continue;
         }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if (!logDisabled && !temp.SubName.empty()) {
             temp.logged = true;
             if (anyLogged) {

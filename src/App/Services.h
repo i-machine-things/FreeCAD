@@ -82,6 +82,7 @@ class NullCenterOfMass final : public CenterOfMassProvider
 public:
     std::optional<Base::Vector3d> ofDocumentObject(DocumentObject* object) const override;
     bool supports(DocumentObject* object) const override;
+<<<<<<< HEAD
 };
 
 /**
@@ -104,6 +105,8 @@ public:
     virtual ~PseudoShapeProvider() = default;
 
     virtual Py::Object getElement(const Py::Object& module, const Py::Object& object, const std::string& subname) const = 0;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 };
 
 }

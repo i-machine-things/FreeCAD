@@ -48,37 +48,65 @@
       <translation>Ihopsättning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Active object</source>
       <translation>Aktivt objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssemblyLink.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Turn flexible</source>
       <translation>Gör flexibel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssemblyLink.cpp" line="156"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Your sub-assembly is currently rigid. This will make it flexible instead.</source>
       <translation>Din underenhet är för närvarande stel. Detta kommer att göra den flexibel istället.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssemblyLink.cpp" line="160"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Turn rigid</source>
       <translation>Gör solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssemblyLink.cpp" line="162"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
       <translation>Din underenhet är för närvarande flexibel. Detta kommer att göra den stel istället.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../App/BomObject.cpp" line="329"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>N/A</source>
       <translation>Inte tillgänglig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../App/BomObject.cpp" line="353"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Not supported</source>
       <translation>Stöds inte</translation>
     </message>
@@ -130,7 +158,11 @@
     </message>
     <message>
       <location filename="../../../JointObject.py" line="55"/>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="1896"/>
+=======
+      <location filename="../../../JointObject.py" line="1793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Distance</source>
       <translation>Distans</translation>
     </message>
@@ -170,32 +202,52 @@
       <translation>Bälte</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="818"/>
+=======
+      <location filename="../../../JointObject.py" line="812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Broken link in: </source>
       <translation>Trasig länk i:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="1238"/>
       <source>Edit Joint</source>
       <translation>Redigera fog</translation>
     </message>
     <message>
       <location filename="../../../JointObject.py" line="1704"/>
+=======
+      <location filename="../../../JointObject.py" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Select 2 elements from 2 separate parts</source>
       <translation>Välj 2 element från 2 separata delar</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="1898"/>
+=======
+      <location filename="../../../JointObject.py" line="1795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Radius 1</source>
       <translation>Radie 1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="1900"/>
+=======
+      <location filename="../../../JointObject.py" line="1797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Thread pitch</source>
       <translation>Gängstigning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="1902"/>
+=======
+      <location filename="../../../JointObject.py" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Pitch radius</source>
       <translation>Stigningsradie</translation>
     </message>
@@ -255,52 +307,92 @@
       <translation>Detta namn är redan använt. Välj ett annat namn.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Options</source>
       <translation>Alternativ</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="372"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Sub-assembly children: the children of sub-assemblies will be included in the bill of materials</source>
       <translation>Underenhetens barn: underenhetens barn kommer att inkluderas i materialförteckningen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="378"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Parts children: the children of parts will be added to the bill of materials</source>
       <translation>Barn till delar: delarnas barn läggs till i materialförteckningen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="384"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Only parts: adds only part containers and sub-assemblies to the bill of materials. Solids like Part Design bodies, fasteners, or Part workbench primitives are ignored.</source>
       <translation>Enbart delar: lägger endast till delbehållare och underenheter i materialförteckningen. Solider som partdesignkroppar, fästelement eller primitiver för partarbetsbänken ignoreras.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="386"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Columns</source>
       <translation>Kolumner</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="399"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
       <translation>Egna kolumner: "Beskrivning" och andra egna kolumner som du lägger till genom att klicka på "Lägg till kolumn" kommer inte att få sina data överskrivna. Om ett kolumnnamn börjar med '.' följt av ett egenskapsnamn (t.ex. '.Length') fylls det automatiskt i med det aktuella egenskapsvärdet. Dessa kolumner kan bytas namn på genom att dubbelklicka eller trycka på F2 (om du byter namn på en kolumn förloras dess data).</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="405"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Any column (custom or not), can be deleted by pressing the Delete key</source>
       <translation>Alla kolumner (anpassade eller ej) kan tas bort genom att trycka på Delete-tangenten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="407"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Export</source>
       <translation>Exportera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="414"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>The exported file format can be customized in the Spreadsheet workbench preferences</source>
       <translation>Det exporterade filformatet kan anpassas i inställningarna för kalkylbladets arbetsbänk</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateBom.py" line="393"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Auto columns :  (Index, Quantity, Name...) are populated automatically. Any modification you make will be overridden. These columns cannot be renamed.</source>
       <translation>Autokolumner: (Index, Antal, Namn...) fylls i automatiskt. Alla ändringar du gör kommer att åsidosättas. Dessa kolumner kan inte bytas namn på.</translation>
     </message>
@@ -682,23 +774,40 @@ SLOPE definierar brantheten i övergången mellan 0 och H1 och H2 till 0 vid tid
       <translation>Ledens {order}-referens för fogen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../JointObject.py" line="1288"/>
+=======
+      <location filename="../../../JointObject.py" line="1221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>The object to ground</source>
       <translation>Objektet till marken</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateView.py" line="376"/>
       <location filename="../../../CommandCreateView.py" line="413"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="368"/>
+      <location filename="../../../CommandCreateView.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>The objects moved by the move</source>
       <translation>De objekt som flyttas av flytten</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateView.py" line="388"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>This is the movement of the move. The end placement is the result of the start placement * this placement.</source>
       <translation>Detta är rörelsens rörelse. Slutplaceringen är resultatet av startplaceringen * denna placering.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateView.py" line="397"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>The type of the move</source>
       <translation>Typ av flyttning</translation>
     </message>
@@ -975,52 +1084,104 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
   <context>
     <name>AssemblyGui::ViewProviderAssembly</name>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>The object is associated to one or more joints.</source>
       <translation>Objektet är kopplat till en eller flera fogar.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="215"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Do you want to move the object and delete associated joints?</source>
       <translation>Vill du flytta objektet och ta bort tillhörande fogar?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1088"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Move part</source>
       <translation>Flytta del</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1805"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1679"/>
+      <source>ViewProviderAssembly</source>
+      <comment>and %1 more</comment>
+      <translation>ViewProviderAssembly</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Empty Assembly</source>
       <translation>Tom montering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1817"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Over-constrained:</source>
       <translation>Överbegränsad:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1825"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Malformed joints:</source>
       <translation>Felformade fogar:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1790"/>
       <source>and %1 more</source>
       <translation>och %1 mer</translation>
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1849"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1717"/>
+      <source>Redundant joints:</source>
+      <translation>Redundanta fogar:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1725"/>
+      <source>Partially redundant:</source>
+      <translation>Delvis överflödig:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Solver failed to converge</source>
       <translation>Lösaren lyckades inte konvergera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1857"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Under-constrained:</source>
       <translation>Underbegränsad:</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1859"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>%n Degrees of Freedom</source>
       <translation>
         <numerusform>%n Grader av frihet</numerusform>
@@ -1028,7 +1189,11 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
       </translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssembly.cpp" line="1863"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Fully constrained</source>
       <translation>Fullständigt begränsad</translation>
     </message>
@@ -1163,7 +1328,11 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
   <context>
     <name>Assembly::AssemblyLink</name>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../App/AssemblyLink.cpp" line="704"/>
+=======
+      <location filename="../../../App/AssemblyLink.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Joints</source>
       <translation>Fogar</translation>
     </message>
@@ -1171,7 +1340,11 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../ViewProviderAssemblyLink.cpp" line="168"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Toggle Rigid</source>
       <translation>Växla styv</translation>
     </message>
@@ -1507,14 +1680,24 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
   <context>
     <name>Assembly_ToggleGrounded</name>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateJoint.py" line="430"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Toggle Grounded</source>
       <translation>Växla jordad</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandCreateJoint.py" line="436"/>
       <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</source>
       <translation>&lt;p&gt;Växlar om en del är fixerad.&lt;/p&gt;&lt;p&gt;När en del fixeras låses dess position permanent i monteringen, vilket förhindrar all förflyttning och rotation.</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="437"/>
+      <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation. You need at least one grounded part before starting to assemble.</source>
+      <translation>&lt;p&gt;Växlar mellan jordning och icke-jordning av en del.&lt;/p&gt;&lt;p&gt;Jordning av en del låser dess position permanent i sammansättningen, vilket förhindrar rörelse eller rotation. Du behöver minst en jordad del innan du börjar montera.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
     </message>
   </context>
   <context>
@@ -1551,12 +1734,20 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
       <translation>Infoga komponent</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandInsertLink.py" line="222"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Partially loaded</source>
       <translation>Delvis inläst</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <location filename="../../../CommandInsertLink.py" line="615"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
       <source>Fully load document</source>
       <translation>Fullständigt inläst dokument</translation>
     </message>
@@ -1570,6 +1761,7 @@ Filerna heter "runPreDrag.asmt" och "dragging.log" och finns i standardkatalogen
     </message>
     <message>
       <location filename="../../TaskAssemblyMessages.cpp" line="56"/>
+<<<<<<< HEAD:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv.ts
       <source>Selects these conflicting joints</source>
       <translation>Väljer dessa motstridiga fogar</translation>
     </message>
@@ -1722,6 +1914,25 @@ Obs! För närvarande väljs endast delar som inte är anslutna, inte bundna del
       <location filename="../../Commands.cpp" line="312"/>
       <source>Selects all joints referencing the selected component</source>
       <translation>Väljer alla fogar som refererar till den valda komponenten</translation>
+=======
+      <source>Click to select these conflicting joints.</source>
+      <translation>Klicka för att välja dessa motstridiga fogar.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="59"/>
+      <source>Click to select these redundant joints.</source>
+      <translation>Klicka för att välja dessa överflödiga fogar.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="63"/>
+      <source>The assembly has unconstrained components giving rise to those Degrees Of Freedom. Click to select these unconstrained components.</source>
+      <translation>Monteringen har obegränsade komponenter som ger upphov till dessa frihetsgrader. Klicka för att välja dessa obegränsade komponenter.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="68"/>
+      <source>Click to select these malformed joints.</source>
+      <translation>Klicka för att markera dessa felformade fogar.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Assembly/Gui/Resources/translations/Assembly_sv-SE.ts
     </message>
   </context>
 </TS>

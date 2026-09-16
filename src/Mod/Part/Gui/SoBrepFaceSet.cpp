@@ -738,6 +738,7 @@ void SoBrepFaceSet::GLRender(SoGLRenderAction* action)
         }
     }
 
+<<<<<<< HEAD
     // Optional overlay rendering for deterministic tests (and programmatic usage).
     const int selNum = selectionPartIndex.getNum();
     const int hlNum = highlightPartIndex.getNum();
@@ -746,6 +747,32 @@ void SoBrepFaceSet::GLRender(SoGLRenderAction* action)
         glGetIntegerv(GL_DEPTH_FUNC, &oldDepthFunc);
         if (oldDepthFunc != GL_LEQUAL) {
             glDepthFunc(GL_LEQUAL);
+=======
+    // Override material binding to PER_PART_INDEXED so that we can reuse coin
+    // rendering for both selection, preselection and partial rendering. The
+    // main purpose is such that selection and preselection can have correct
+    // transparency, too.
+    //
+    // Criteria of using material binding override:
+    // 1) original material binding is either overall or per_part. We can
+    //    support others, but omitted here to simplify coding logic, and
+    //    because it seems FC only uses these two.
+    // 2) either of the following :
+    //      a) has highlight or selection and Selection().needPickPoint, so that
+    //         any preselected/selected part automatically become transparent
+    //      b) has transparency
+    //      c) has color override in secondary context
+
+    if ((mb == SoMaterialBindingElement::OVERALL
+         || (mb == SoMaterialBindingElement::PER_PART && diffuse_size >= partIndex.getNum()))
+        && (trans0 != 0.0 || (ctx2 && !ctx2->colors.empty()))) {
+        state->push();
+
+        packedColors.clear();
+
+        if (ctx2) {
+            ctx2->trans0 = 0.0;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
 
         if (selNum > 0) {

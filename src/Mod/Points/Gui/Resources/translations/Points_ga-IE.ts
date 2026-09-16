@@ -22,18 +22,31 @@
   <context>
     <name>CmdPointsExport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="150"/>
+=======
+      <location filename="../../Command.cpp" line="151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points</source>
       <translation>Pointí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="151"/>
+=======
+      <location filename="../../Command.cpp" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export Points…</source>
       <translation>Pointí Easpórtála…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="152"/>
       <location filename="../../Command.cpp" line="154"/>
+=======
+      <location filename="../../Command.cpp" line="153"/>
+      <location filename="../../Command.cpp" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports a point cloud</source>
       <translation>Onnmhairíonn sé scamall pointe</translation>
     </message>
@@ -113,7 +126,11 @@
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="93"/>
+=======
+      <location filename="../../Command.cpp" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import points</source>
       <translation>Pointí allmhairithe</translation>
     </message>
@@ -169,7 +186,11 @@
     <message>
       <location filename="../../DlgPointsRead.ui" line="34"/>
       <source>Template</source>
+<<<<<<< HEAD
       <translation>Teimpléad</translation>
+=======
+      <translation type="unfinished">Template</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPointsRead.ui" line="46"/>
@@ -262,18 +283,37 @@
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="81"/>
       <location filename="../../Command.cpp" line="168"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point formats</source>
       <translation>Formáidí pointe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="113"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+      <source>All Files</source>
+      <translation>Gach Comhad</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points not at Origin</source>
       <translation>Pointí nach bhfuil ag an mBunús</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="115"/>
+=======
+      <location filename="../../Command.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The bounding box of the imported points does not contain the origin. Translate it to the origin?</source>
       <translation>Níl an bunús sa bhosca teorann de na pointí allmhairithe. An bhfuil sé uait é a aistriú go dtí an bunús?</translation>
     </message>
@@ -301,6 +341,7 @@
       <translation>&amp;Pointí</translation>
     </message>
   </context>
+<<<<<<< HEAD
   <context>
     <name>FileFormat</name>
     <message>
@@ -309,4 +350,6 @@
       <translation>Formáidí pointe</translation>
     </message>
   </context>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 </TS>

@@ -76,7 +76,11 @@
     </message>
     <message>
       <location filename="../../QuickMeasure.cpp" line="223"/>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="262"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nominal distance: %1</source>
       <translation>Odległość nominalna: %1</translation>
     </message>
@@ -86,104 +90,177 @@
       <translation>Obszar: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="232"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area: %1, Radius: %2</source>
       <translation>Obszar: %1, 
 Promień: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="236"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area: %1, Diameter: %2</source>
       <translation>Obszar: %1, 
 Średnica: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="245"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total area: %1, Axis distance: %2</source>
       <translation>Obszar całkowity: %1, 
 odległość osi: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="250"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total area: %1, Axis distance: %2, Axis angle: %3</source>
       <translation>Powierzchnia całkowita: %1, 
 odległość osi: %2, 
 kąt osi: %3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="259"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total length: %1</source>
       <translation>Długość całkowita: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="265"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle: %1, Total length: %2</source>
       <translation>Kąt: %1, 
 Długość całkowita: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="269"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length: %1</source>
       <translation>Długość: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="272"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius: %1</source>
       <translation>Promień: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="275"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter: %1</source>
       <translation>Średnica: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="278"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: %1</source>
       <translation>Odległość: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="281"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Minimum distance: %1</source>
       <translation>Odległość minimalna: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="285"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Minimum distance: %1, Axis distance: %2</source>
       <translation>Odległość minimalna: %1, 
 odległość osi: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="291"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Minimum distance: %1, Center distance: %2</source>
       <translation>Odległość minimalna: %1, 
 Odległość od środka: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="298"/>
       <location filename="../../QuickMeasure.cpp" line="315"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="296"/>
+      <location filename="../../QuickMeasure.cpp" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total length: %1, Center distance: %2</source>
       <translation>Długość całkowita: %1, 
 Odległość od środka: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="305"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total length: %1, Center distance: %2, Axis angle: %3</source>
       <translation>Długość całkowita: %1, 
 Odległość od środka: %2, 
 Kąt osi: %3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="320"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="318"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center surface distance: %1</source>
       <translation>Odległość do powierzchni środkowej: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="325"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center axis distance: %1</source>
       <translation>Odległość od osi: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../QuickMeasure.cpp" line="328"/>
+=======
+      <location filename="../../QuickMeasure.cpp" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center axis distance: %1, Axis angle: %2</source>
       <translation>Odległość między osiami: %1, 
 Kąt osi: %2</translation>
@@ -214,44 +291,74 @@ Kąt osi: %2</translation>
   <context>
     <name>MeasureGui::TaskMeasure</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="137"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Measurement</source>
       <translation>Wymiarowanie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="153"/>
       <source>Show Delta</source>
       <translation>Wyświetl deltę</translation>
     </message>
     <message>
       <location filename="../../TaskMeasure.cpp" line="159"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="88"/>
+      <source>Show Delta:</source>
+      <translation>Wyświetl deltę:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskMeasure.cpp" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto Save</source>
       <translation>Automatyczny zapis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="163"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto saving of the last measurement when starting a new measurement. Use the Shift key to temporarily invert the behaviour.</source>
       <translation>Automatyczne zapisywanie ostatniego pomiaru podczas rozpoczynania nowego pomiaru. 
 Użyj klawisza Shift, aby tymczasowo odwrócić to zachowanie.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="168"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Selection</source>
       <translation>Dodawanie do zaznaczenia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="174"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If checked, new selection will be added to the measurement. If unchecked, the Ctrl key must be pressed to add a selection to the current measurement otherwise a new measurement will be started</source>
       <translation>Jeśli opcja jest zaznaczona zaznaczone, nowy wybór zostanie dodany do pomiaru.
 Jeśli nie jest zaznaczona, należy nacisnąć klawisz Ctrl, aby dodać wybór do bieżącego pomiaru, 
 w przeciwnym razie zostanie rozpoczęty nowy pomiar.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="187"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Settings</source>
       <translation>Ustawienia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="199"/>
       <source>Auto</source>
       <translation>Automatycznie</translation>
@@ -293,16 +400,42 @@ w przeciwnym razie zostanie rozpoczęty nowy pomiar.</translation>
     </message>
     <message>
       <location filename="../../TaskMeasure.cpp" line="281"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="134"/>
+      <source>Auto</source>
+      <translation>Automatycznie</translation>
+    </message>
+    <message>
+      <location filename="../../TaskMeasure.cpp" line="160"/>
+      <source>Mode:</source>
+      <translation>Tryb:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskMeasure.cpp" line="162"/>
+      <source>Result:</source>
+      <translation>Wynik:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskMeasure.cpp" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the measurement in the active document</source>
       <translation>Zapisuje pomiar w aktywnym dokumencie</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="287"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close</source>
       <translation>Zamknij</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="288"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close the measurement task.</source>
       <translation>Zakończ zadanie pomiaru.</translation>
     </message>
@@ -310,7 +443,11 @@ w przeciwnym razie zostanie rozpoczęty nowy pomiar.</translation>
   <context>
     <name>QPlatformTheme</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMeasure.cpp" line="280"/>
+=======
+      <location filename="../../TaskMeasure.cpp" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save</source>
       <translation>Zapisz</translation>
     </message>
@@ -318,46 +455,79 @@ w przeciwnym razie zostanie rozpoczęty nowy pomiar.</translation>
   <context>
     <name>TaskMeasure</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="44"/>
+=======
+      <location filename="../../../InitGui.py" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Center of mass</source>
       <translation>Środek ciężkości</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="119"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Odległość</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="127"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance Free</source>
       <translation>Dystans swobodny</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="135"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>Kąt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="143"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <translation>Długość</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="151"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position</source>
       <translation>Pozycja</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="159"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area</source>
       <translation>Powierzchnia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AppMeasure.cpp" line="175"/>
+=======
+      <location filename="../../../App/AppMeasure.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Promień</translation>
     </message>
   </context>
+<<<<<<< HEAD
   <context>
     <name>TaskMassProperties</name>
     <message>
@@ -576,4 +746,6 @@ w przeciwnym razie zostanie rozpoczęty nowy pomiar.</translation>
       <translation>(Przeciętne)</translation>
     </message>
   </context>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 </TS>

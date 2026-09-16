@@ -315,6 +315,7 @@ bool ViewProviderAssembly::setEdit(int mode)
             )
         );
 
+<<<<<<< HEAD
         workbenchConnection = QObject::connect(
             Gui::getMainWindow(),
             &Gui::MainWindow::workbenchActivated,
@@ -322,6 +323,18 @@ bool ViewProviderAssembly::setEdit(int mode)
         );
 
         assembly->recomputeFeature(true);
+=======
+        connectActivatedVP = getDocument()->signalActivatedViewProvider.connect(
+            std::bind(
+                &ViewProviderAssembly::slotActivatedVP,
+                this,
+                std::placeholders::_1,
+                std::placeholders::_2
+            )
+        );
+
+        assembly->solve();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         return true;
     }
@@ -353,6 +366,15 @@ void ViewProviderAssembly::unsetEdit(int mode)
                 this->getObject()->getDocument()->getName(),
                 ASSEMBLYKEY
             );
+<<<<<<< HEAD
+=======
+        }
+
+        Gui::TaskView::TaskView* taskView = Gui::Control().taskPanel();
+        if (taskView) {
+            // Waiting for the solver to support reporting information.
+            // taskView->removeContextualPanel(taskSolver);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
 
         updateTaskPanel(false);
@@ -980,8 +1002,13 @@ ViewProviderAssembly::DragMode ViewProviderAssembly::findDragMode()
         if (!ref) {
             return DragMode::Translation;
         }
+<<<<<<< HEAD
         Base::Placement asmPlc = App::GeoFeature::getGlobalPlacement(getObject<AssemblyObject>());
         Base::Placement global_plc = asmPlc * App::GeoFeature::getGlobalPlacement(nullptr, ref);
+=======
+        auto* obj = getObjFromJointRef(movingJoint, pName.c_str());
+        Base::Placement global_plc = App::GeoFeature::getGlobalPlacement(obj, ref);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         jcsGlobalPlc = global_plc * jcsPlc;
 
         // Add downstream parts so that they move together
@@ -1519,6 +1546,7 @@ void ViewProviderAssembly::isolateJointReferences(App::DocumentObject* joint, Is
 
     clearIsolate();
 
+<<<<<<< HEAD
     if (auto* prop = joint->getPropertyByName<App::PropertyLink>("ObjectToGround")) {
         auto* groundedObj = prop->getValue();
 
@@ -1531,6 +1559,8 @@ void ViewProviderAssembly::isolateJointReferences(App::DocumentObject* joint, Is
         return;
     }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     App::DocumentObject* part1 = getMovingPartFromRef(joint, "Reference1");
     App::DocumentObject* part2 = getMovingPartFromRef(joint, "Reference2");
     if (!part1 || !part2) {

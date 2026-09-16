@@ -59,6 +59,16 @@ class ToolBitPropertiesWidget(QtGui.QWidget):
         self._tool_no = tool_no
         setToolBitSchema()
 
+        # Set schema to user preference if no document is open
+        # TODO: Add a preference for toolbit unit schema.
+        # We probably want to look at making it possible to have a toolbit be metric
+        # or imperial regardless of document settings / or user preferences, but for now this is sufficient.
+        if FreeCAD.ActiveDocument is None:
+            pref_schema = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt(
+                "UserSchema", 0
+            )
+            FreeCAD.Units.setSchema(pref_schema)
+
         # UI Elements
         self._label_edit = QtGui.QLineEdit()
         self._toolbit_type_container = QtGui.QWidget()
@@ -348,6 +358,7 @@ class ToolBitEditor(QtGui.QWidget):
         self.tool_no = tool_no
         self.default_title = self.form.windowTitle()
 
+<<<<<<< HEAD
         # Store the original schema to restore on close
         self._original_schema = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt(
             "UserSchema", 6
@@ -357,10 +368,16 @@ class ToolBitEditor(QtGui.QWidget):
         # Get first tab from the form, add the shape widget to the right.
         tool_tab_layout = self.form.toolTabLayout
 
+=======
+        # Get first tab from the form, add the shape widget to the right.
+        tool_tab_layout = self.form.toolTabLayout
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         # Create a horizontal layout for the tab content
         tab_content_layout = QtGui.QHBoxLayout()
 
         # Add tool properties editor to the left with stretch
+<<<<<<< HEAD
         self._props = ToolBitPropertiesWidget(toolbit, tool_no, self, icon=icon)
         self._last_units_value = self._get_units_value(self._props)
         self._props.toolBitChanged.connect(self._on_toolbit_changed)
@@ -370,6 +387,13 @@ class ToolBitEditor(QtGui.QWidget):
         # Wrap properties in a scroll area for vertical scrolling
         scroll_area = QtGui.QScrollArea()
         scroll_area.setWidget(self._props)
+=======
+        props = ToolBitPropertiesWidget(toolbit, tool_no, self, icon=icon)
+
+        # Wrap properties in a scroll area for vertical scrolling
+        scroll_area = QtGui.QScrollArea()
+        scroll_area.setWidget(props)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         scroll_area.setWidgetResizable(True)
         scroll_area.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
         scroll_area.setVerticalScrollBarPolicy(QtCore.Qt.ScrollBarAsNeeded)
@@ -384,6 +408,12 @@ class ToolBitEditor(QtGui.QWidget):
 
         # Add the horizontal layout to the tab layout
         tool_tab_layout.addLayout(tab_content_layout)
+<<<<<<< HEAD
+=======
+
+        props.toolBitChanged.connect(self._update)
+        props.toolNoChanged.connect(self._on_tool_no_changed)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         self.form.tabWidget.setCurrentIndex(0)
         self.form.tabWidget.currentChanged.connect(self._on_tab_switched)

@@ -4,17 +4,29 @@
   <context>
     <name>CmdMeshAddFacet</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="750"/>
+=======
+      <location filename="../../Command.cpp" line="754"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="751"/>
+=======
+      <location filename="../../Command.cpp" line="755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Add Triangle</source>
       <translation>Lägg till triangel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="752"/>
+=======
+      <location filename="../../Command.cpp" line="756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Adds a triangle manually to a mesh</source>
       <translation>Lägger till en triangel manuellt till ett nät</translation>
     </message>
@@ -22,17 +34,29 @@
   <context>
     <name>CmdMeshBoundingBox</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1487"/>
+=======
+      <location filename="../../Command.cpp" line="1493"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1488"/>
+=======
+      <location filename="../../Command.cpp" line="1494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Bounding Box Info</source>
       <translation>Info om avgränsande box</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1489"/>
+=======
+      <location filename="../../Command.cpp" line="1495"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Shows the bounding box coordinates of the selected mesh</source>
       <translation>Visar koordinaterna för begränsningsrutan för det valda nätet</translation>
     </message>
@@ -40,17 +64,29 @@
   <context>
     <name>CmdMeshBuildRegularSolid</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1542"/>
+=======
+      <location filename="../../Command.cpp" line="1548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1543"/>
+=======
+      <location filename="../../Command.cpp" line="1549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Regular Solid</source>
       <translation>Reguljär solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1544"/>
+=======
+      <location filename="../../Command.cpp" line="1550"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Builds a regular solid</source>
       <translation>Skapar en reguljär solid</translation>
     </message>
@@ -58,17 +94,29 @@
   <context>
     <name>CmdMeshCrossSections</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="992"/>
+=======
+      <location filename="../../Command.cpp" line="998"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="993"/>
+=======
+      <location filename="../../Command.cpp" line="999"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Cross-Sections</source>
       <translation>Tvärsnitt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="994"/>
+=======
+      <location filename="../../Command.cpp" line="1000"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Creates cross-sections of the mesh</source>
       <translation>Skapar tvärsnitt av nätet</translation>
     </message>
@@ -76,17 +124,29 @@
   <context>
     <name>CmdMeshDecimating</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1377"/>
+=======
+      <location filename="../../Command.cpp" line="1383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1378"/>
+=======
+      <location filename="../../Command.cpp" line="1384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Decimate</source>
       <translation>Decimera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1379"/>
+=======
+      <location filename="../../Command.cpp" line="1385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Decimates a mesh</source>
       <translation>Decimerar en mask</translation>
     </message>
@@ -112,17 +172,29 @@
   <context>
     <name>CmdMeshEvaluateFacet</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1125"/>
+=======
+      <location filename="../../Command.cpp" line="1131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1126"/>
+=======
+      <location filename="../../Command.cpp" line="1132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Face Info</source>
       <translation>Ytinformation</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1127"/>
+=======
+      <location filename="../../Command.cpp" line="1133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Displays information about the selected faces</source>
       <translation>Visar information om de valda ytorna</translation>
     </message>
@@ -130,17 +202,29 @@
   <context>
     <name>CmdMeshEvaluateSolid</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1306"/>
+=======
+      <location filename="../../Command.cpp" line="1312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1307"/>
+=======
+      <location filename="../../Command.cpp" line="1313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Evaluate Solid</source>
       <translation>Utvärdera Solid</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1308"/>
+=======
+      <location filename="../../Command.cpp" line="1314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Checks whether the mesh is a solid</source>
       <translation>Kontrollerar om nätet är en solid</translation>
     </message>
@@ -148,17 +232,29 @@
   <context>
     <name>CmdMeshEvaluation</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1079"/>
+=======
+      <location filename="../../Command.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1081"/>
+=======
+      <location filename="../../Command.cpp" line="1087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Evaluate and Repair</source>
       <translation>Utvärdera och reparera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1082"/>
+=======
+      <location filename="../../Command.cpp" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Opens a dialog to analyze and repair a mesh</source>
       <translation>Öppnar en dialog för att analysera och reparera ett nät</translation>
     </message>
@@ -166,17 +262,29 @@
   <context>
     <name>CmdMeshExport</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="401"/>
+=======
+      <location filename="../../Command.cpp" line="399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="402"/>
+=======
+      <location filename="../../Command.cpp" line="400"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Export Mesh…</source>
       <translation>Exportera nät..</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="403"/>
+=======
+      <location filename="../../Command.cpp" line="401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Exports a mesh to a file</source>
       <translation>Exporterar ett nät till en fil</translation>
     </message>
@@ -184,17 +292,29 @@
   <context>
     <name>CmdMeshFillInteractiveHole</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1629"/>
+=======
+      <location filename="../../Command.cpp" line="1635"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1630"/>
+=======
+      <location filename="../../Command.cpp" line="1636"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Close Hole</source>
       <translation>Stäng hålet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1631"/>
+=======
+      <location filename="../../Command.cpp" line="1637"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Closes a hole interactively in the mesh</source>
       <translation>Stänger ett hål interaktivt i maskan</translation>
     </message>
@@ -202,17 +322,29 @@
   <context>
     <name>CmdMeshFillupHoles</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1574"/>
+=======
+      <location filename="../../Command.cpp" line="1580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1575"/>
+=======
+      <location filename="../../Command.cpp" line="1581"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Fill Holes</source>
       <translation>Fyllningshål</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1576"/>
+=======
+      <location filename="../../Command.cpp" line="1582"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Fills holes in the mesh</source>
       <translation>Fyller hål i maskorna</translation>
     </message>
@@ -220,17 +352,29 @@
   <context>
     <name>CmdMeshFlipNormals</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1448"/>
+=======
+      <location filename="../../Command.cpp" line="1454"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1449"/>
+=======
+      <location filename="../../Command.cpp" line="1455"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Flip Normals</source>
       <translation>Vänd normaler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1450"/>
+=======
+      <location filename="../../Command.cpp" line="1456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Flips the normals of the selected mesh</source>
       <translation>Vänder på normalerna för det valda nätet</translation>
     </message>
@@ -238,17 +382,29 @@
   <context>
     <name>CmdMeshFromGeometry</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="482"/>
+=======
+      <location filename="../../Command.cpp" line="486"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="483"/>
+=======
+      <location filename="../../Command.cpp" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh From Geometry</source>
       <translation>Mesh från geometri</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="484"/>
+=======
+      <location filename="../../Command.cpp" line="488"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Creates a mesh from the selected geometry</source>
       <translation>Skapar ett nät från den markerade geometrin</translation>
     </message>
@@ -256,17 +412,29 @@
   <context>
     <name>CmdMeshFromPartShape</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="555"/>
+=======
+      <location filename="../../Command.cpp" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="556"/>
+=======
+      <location filename="../../Command.cpp" line="560"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh From Shape</source>
       <translation>Nät från form</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="557"/>
+=======
+      <location filename="../../Command.cpp" line="561"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Tessellates the selected shape to a mesh</source>
       <translation>Tessellerar den valda formen till ett nät</translation>
     </message>
@@ -274,17 +442,29 @@
   <context>
     <name>CmdMeshHarmonizeNormals</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1409"/>
+=======
+      <location filename="../../Command.cpp" line="1415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1410"/>
+=======
+      <location filename="../../Command.cpp" line="1416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Harmonize Normals</source>
       <translation>Harmonisera normaler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1411"/>
+=======
+      <location filename="../../Command.cpp" line="1417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Harmonizes the normals of the mesh</source>
       <translation>Anpassa nätets normaler</translation>
     </message>
@@ -328,17 +508,29 @@
   <context>
     <name>CmdMeshMerge</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1751"/>
+=======
+      <location filename="../../Command.cpp" line="1757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1752"/>
+=======
+      <location filename="../../Command.cpp" line="1758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Merge</source>
       <translation>Förena</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1753"/>
+=======
+      <location filename="../../Command.cpp" line="1759"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Merges selected meshes into one</source>
       <translation>Sammanfogar valda maskor till en</translation>
     </message>
@@ -346,17 +538,29 @@
   <context>
     <name>CmdMeshPolyCut</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="800"/>
+=======
+      <location filename="../../Command.cpp" line="806"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="801"/>
+=======
+      <location filename="../../Command.cpp" line="807"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Cut</source>
       <translation>Klipp ut</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="802"/>
+=======
+      <location filename="../../Command.cpp" line="808"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Cuts the mesh with a selected polygon</source>
       <translation>Skär mesh med en markerad polygon</translation>
     </message>
@@ -364,17 +568,29 @@
   <context>
     <name>CmdMeshPolySegm</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="689"/>
+=======
+      <location filename="../../Command.cpp" line="693"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="690"/>
+=======
+      <location filename="../../Command.cpp" line="694"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Segment</source>
       <translation>Segment</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="691"/>
+=======
+      <location filename="../../Command.cpp" line="695"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Creates a mesh segment</source>
       <translation>Skapar ett nätsegment</translation>
     </message>
@@ -382,17 +598,29 @@
   <context>
     <name>CmdMeshPolySplit</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1020"/>
+=======
+      <location filename="../../Command.cpp" line="1026"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1021"/>
+=======
+      <location filename="../../Command.cpp" line="1027"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Split</source>
       <translation>Dela</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1022"/>
+=======
+      <location filename="../../Command.cpp" line="1028"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Splits a mesh into 2 meshes</source>
       <translation>Delar upp ett nät i 2 nät</translation>
     </message>
@@ -400,22 +628,38 @@
   <context>
     <name>CmdMeshPolyTrim</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="867"/>
+=======
+      <location filename="../../Command.cpp" line="873"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="868"/>
+=======
+      <location filename="../../Command.cpp" line="874"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Trim</source>
       <translation>Trimma</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="869"/>
+=======
+      <location filename="../../Command.cpp" line="875"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Trims a mesh with a selected polygon</source>
       <translation>Trimmar ett nät med en markerad polygon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="871"/>
+=======
+      <location filename="../../Command.cpp" line="877"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Trims a mesh with a picked polygon</source>
       <translation>Trimmar ett nät med en vald polygon</translation>
     </message>
@@ -423,17 +667,29 @@
   <context>
     <name>CmdMeshRemeshGmsh</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1222"/>
+=======
+      <location filename="../../Command.cpp" line="1228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1223"/>
+=======
+      <location filename="../../Command.cpp" line="1229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Refinement</source>
       <translation>Förfining</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1224"/>
+=======
+      <location filename="../../Command.cpp" line="1230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Refines an existing mesh</source>
       <translation>Förfinar ett befintligt nät</translation>
     </message>
@@ -441,17 +697,29 @@
   <context>
     <name>CmdMeshRemoveCompByHand</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1256"/>
+=======
+      <location filename="../../Command.cpp" line="1262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1257"/>
+=======
+      <location filename="../../Command.cpp" line="1263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Remove Components Manually</source>
       <translation>Ta bort komponenter manuellt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1258"/>
+=======
+      <location filename="../../Command.cpp" line="1264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Marks a component to remove it from the mesh</source>
       <translation>Markerar en komponent för att ta bort den från nätet</translation>
     </message>
@@ -459,17 +727,29 @@
   <context>
     <name>CmdMeshRemoveComponents</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1174"/>
+=======
+      <location filename="../../Command.cpp" line="1180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1175"/>
+=======
+      <location filename="../../Command.cpp" line="1181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Remove Components</source>
       <translation>Ta bort komponenter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1176"/>
+=======
+      <location filename="../../Command.cpp" line="1182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Removes topologically independent components from the mesh</source>
       <translation>Avlägsnar topologiskt oberoende komponenter från nätet</translation>
     </message>
@@ -477,17 +757,29 @@
   <context>
     <name>CmdMeshScale</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1846"/>
+=======
+      <location filename="../../Command.cpp" line="1852"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1847"/>
+=======
+      <location filename="../../Command.cpp" line="1853"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Scale</source>
       <translation>Skala</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1848"/>
+=======
+      <location filename="../../Command.cpp" line="1854"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Scales the selected mesh objects</source>
       <translation>Skalar de valda mesh-objekten</translation>
     </message>
@@ -495,17 +787,29 @@
   <context>
     <name>CmdMeshSectionByPlane</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="963"/>
+=======
+      <location filename="../../Command.cpp" line="969"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="964"/>
+=======
+      <location filename="../../Command.cpp" line="970"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Section From Plane</source>
       <translation>Sektion från plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="965"/>
+=======
+      <location filename="../../Command.cpp" line="971"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Sections the mesh with the selected plane</source>
       <translation>Sektioner av nätet med det valda planet</translation>
     </message>
@@ -513,17 +817,29 @@
   <context>
     <name>CmdMeshSegmentation</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1677"/>
+=======
+      <location filename="../../Command.cpp" line="1683"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1678"/>
+=======
+      <location filename="../../Command.cpp" line="1684"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Segmentation</source>
       <translation>Segmentering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1679"/>
+=======
+      <location filename="../../Command.cpp" line="1685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Creates new mesh segments from the mesh</source>
       <translation>Skapar nya nätsegment från nätet</translation>
     </message>
@@ -531,17 +847,29 @@
   <context>
     <name>CmdMeshSegmentationBestFit</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1714"/>
+=======
+      <location filename="../../Command.cpp" line="1720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1715"/>
+=======
+      <location filename="../../Command.cpp" line="1721"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Segmentation From Best-Fit Surfaces</source>
       <translation>Segmentering från ytor som passar bäst</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1716"/>
+=======
+      <location filename="../../Command.cpp" line="1722"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Creates new mesh segments from the best-fit surfaces</source>
       <translation>Skapar nya mesh-segment från de ytor som passar bäst</translation>
     </message>
@@ -549,17 +877,29 @@
   <context>
     <name>CmdMeshSmoothing</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1348"/>
+=======
+      <location filename="../../Command.cpp" line="1354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1349"/>
+=======
+      <location filename="../../Command.cpp" line="1355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Smooth</source>
       <translation>Jämna</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1350"/>
+=======
+      <location filename="../../Command.cpp" line="1356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Smoothes the selected meshes</source>
       <translation>Utjämnar de valda maskorna</translation>
     </message>
@@ -567,17 +907,29 @@
   <context>
     <name>CmdMeshSplitComponents</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1797"/>
+=======
+      <location filename="../../Command.cpp" line="1803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1798"/>
+=======
+      <location filename="../../Command.cpp" line="1804"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Split by Components</source>
       <translation>Uppdelat på komponenter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1799"/>
+=======
+      <location filename="../../Command.cpp" line="1805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Splits the selected mesh into its components</source>
       <translation>Delar upp det valda nätet i sina komponenter</translation>
     </message>
@@ -585,17 +937,29 @@
   <context>
     <name>CmdMeshTrimByPlane</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="934"/>
+=======
+      <location filename="../../Command.cpp" line="940"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="935"/>
+=======
+      <location filename="../../Command.cpp" line="941"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Trim With Plane</source>
       <translation>Trimma med plan</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="936"/>
+=======
+      <location filename="../../Command.cpp" line="942"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Trims a mesh by removing faces on one side of a selected plane</source>
       <translation>Trimmar ett nät genom att ta bort ytor på ena sidan av ett valt plan</translation>
     </message>
@@ -621,17 +985,29 @@
   <context>
     <name>CmdMeshVertexCurvature</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="581"/>
+=======
+      <location filename="../../Command.cpp" line="585"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="582"/>
+=======
+      <location filename="../../Command.cpp" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Curvature Plot</source>
       <translation>Krökningsdiagram</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="583"/>
+=======
+      <location filename="../../Command.cpp" line="587"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Calculates the curvature of the vertices of a mesh</source>
       <translation>Beräknar hörnens krökning på ett nät</translation>
     </message>
@@ -639,17 +1015,29 @@
   <context>
     <name>CmdMeshVertexCurvatureInfo</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="638"/>
+=======
+      <location filename="../../Command.cpp" line="642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh</source>
       <translation>Nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="639"/>
+=======
+      <location filename="../../Command.cpp" line="643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Curvature Info</source>
       <translation>Info om krökning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="640"/>
+=======
+      <location filename="../../Command.cpp" line="644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Displays information about the curvature</source>
       <translation>Visar information om krökningen</translation>
     </message>
@@ -672,52 +1060,92 @@
       <translation>Korsning av nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="380"/>
+=======
+      <location filename="../../Command.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Import Mesh</source>
       <translation>Importera nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="599"/>
+=======
+      <location filename="../../Command.cpp" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh VertexCurvature</source>
       <translation>Nätvertexkrökning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../DlgSmoothing.cpp" line="175"/>
+=======
+      <location filename="../../DlgSmoothing.cpp" line="169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh Smoothing</source>
       <translation>Utjämning av nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1422"/>
+=======
+      <location filename="../../Command.cpp" line="1428"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Harmonize mesh normals</source>
       <translation>Harmonisera mesh-normaler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1461"/>
+=======
+      <location filename="../../Command.cpp" line="1467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Flip mesh normals</source>
       <translation>Vänd mesh-normaler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1602"/>
+=======
+      <location filename="../../Command.cpp" line="1608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Fill up holes</source>
       <translation>Fylla igen hål</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1766"/>
+=======
+      <location filename="../../Command.cpp" line="1772"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh merge</source>
       <translation>Sammanfogning av nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1812"/>
+=======
+      <location filename="../../Command.cpp" line="1818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh split</source>
       <translation>Split i mesh</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1877"/>
+=======
+      <location filename="../../Command.cpp" line="1883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh scale</source>
       <translation>Mesh-skala</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../DlgDecimating.cpp" line="180"/>
+=======
+      <location filename="../../DlgDecimating.cpp" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Mesh Decimating</source>
       <translation>Decimering av nät</translation>
     </message>
@@ -794,12 +1222,20 @@
       <translation>Segmentet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="1870"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="1872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Delete</source>
       <translation>Radera</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="2000"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="2001"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Fill hole</source>
       <translation>Fyll i hål</translation>
     </message>
@@ -1088,6 +1524,7 @@
     </message>
     <message>
       <location filename="../../DlgEvaluateMeshImp.cpp" line="927"/>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <source>Duplicated Faces</source>
       <translation>Duplicerade ytor</translation>
     </message>
@@ -1104,11 +1541,26 @@
       <translation>Reparera nät</translation>
     </message>
     <message>
+=======
+      <source>Duplicated faces</source>
+      <translation>Duplicerade ytor</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <location filename="../../DlgEvaluateMeshImp.cpp" line="963"/>
       <source>No duplicated points</source>
       <translation>Inga duplicerade punkter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
+=======
+      <location filename="../../DlgEvaluateMeshImp.cpp" line="969"/>
+      <location filename="../../DlgEvaluateMeshImp.cpp" line="997"/>
+      <source>Duplicated points</source>
+      <translation>Duplicerade punkter</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <location filename="../../DlgEvaluateMeshImp.cpp" line="1040"/>
       <source>No self-intersections</source>
       <translation>Inga självskärningar</translation>
@@ -1133,6 +1585,15 @@
       <source>Folds</source>
       <translation>Veck</translation>
     </message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
+=======
+    <message>
+      <location filename="../../DlgEvaluateMeshImp.cpp" line="1295"/>
+      <location filename="../../DlgEvaluateMeshImp.cpp" line="1298"/>
+      <source>Mesh repair</source>
+      <translation>Nätreparation</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
   </context>
   <context>
     <name>MeshGui::DlgEvaluateSettings</name>
@@ -1572,10 +2033,13 @@ till ett mjukare utseende.
     </message>
     <message>
       <location filename="../../RemeshGmsh.cpp" line="201"/>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <source>Time</source>
       <translation>Tid</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <location filename="../../RemeshGmsh.cpp" line="259"/>
       <source>Time:</source>
       <translation>Tid:</translation>
@@ -1599,27 +2063,43 @@ till ett mjukare utseende.
   <context>
     <name>MeshGui::MeshFaceAddition</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../MeshEditor.cpp" line="255"/>
       <source>Cannot add triangle to avoid non-manifolds.</source>
       <translation>Det går inte att lägga till triangeln utan att skapa icke-mångfaldiga element.</translation>
     </message>
     <message>
       <location filename="../../MeshEditor.cpp" line="407"/>
+=======
+      <location filename="../../MeshEditor.cpp" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Add Triangle</source>
       <translation>Lägg till triangel</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../MeshEditor.cpp" line="408"/>
+=======
+      <location filename="../../MeshEditor.cpp" line="394"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Flip Normal</source>
       <translation>Vänd Normal</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../MeshEditor.cpp" line="409"/>
+=======
+      <location filename="../../MeshEditor.cpp" line="395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Clear</source>
       <translation>Rensa</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../MeshEditor.cpp" line="426"/>
+=======
+      <location filename="../../MeshEditor.cpp" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Finish</source>
       <translation>Slutför</translation>
     </message>
@@ -1627,7 +2107,11 @@ till ett mjukare utseende.
   <context>
     <name>MeshGui::MeshFillHole</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../MeshEditor.cpp" line="778"/>
+=======
+      <location filename="../../MeshEditor.cpp" line="762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Finish</source>
       <translation>Slutför</translation>
     </message>
@@ -2032,7 +2516,11 @@ till ett mjukare utseende.
   <context>
     <name>Mesh_BoundingBox</name>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1514"/>
+=======
+      <location filename="../../Command.cpp" line="1520"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Boundings of %1:</source>
       <translation>Avgränsningar av %1:</translation>
     </message>
@@ -2092,154 +2580,293 @@ Besök https://openscad.org/ för att installera det.</translation>
       <translation>Alla nätfiler</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="359"/>
       <location filename="../../Command.cpp" line="424"/>
+=======
+      <location filename="../../Command.cpp" line="358"/>
+      <location filename="../../Command.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Binary STL</source>
       <translation>Binär STL</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="360"/>
       <location filename="../../Command.cpp" line="425"/>
       <location filename="../../Command.cpp" line="426"/>
+=======
+      <location filename="../../Command.cpp" line="359"/>
+      <location filename="../../Command.cpp" line="422"/>
+      <location filename="../../Command.cpp" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>ASCII STL</source>
       <translation>ASCII STL</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="361"/>
       <location filename="../../Command.cpp" line="427"/>
+=======
+      <location filename="../../Command.cpp" line="360"/>
+      <location filename="../../Command.cpp" line="424"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Binary Mesh</source>
       <translation>Binärt Mesh</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="362"/>
       <location filename="../../Command.cpp" line="428"/>
+=======
+      <location filename="../../Command.cpp" line="361"/>
+      <location filename="../../Command.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Alias Mesh</source>
       <translation>Alias nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="363"/>
       <location filename="../../Command.cpp" line="430"/>
+=======
+      <location filename="../../Command.cpp" line="362"/>
+      <location filename="../../Command.cpp" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Object File Format</source>
       <translation>Filformat för objekt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="364"/>
+=======
+      <location filename="../../Command.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Inventor V2.1 ASCII</source>
       <translation>Inventor V2.1 ASCII</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="365"/>
       <location filename="../../Command.cpp" line="435"/>
+=======
+      <location filename="../../Command.cpp" line="364"/>
+      <location filename="../../Command.cpp" line="432"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Stanford Polygon</source>
       <translation>Stanford-polygon</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="373"/>
+=======
+      <location filename="../../Command.cpp" line="365"/>
+      <source>NASTRAN</source>
+      <translation>NASTRAN</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="366"/>
+      <location filename="../../Command.cpp" line="439"/>
+      <source>All Files</source>
+      <translation>Alla filer</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Import Mesh</source>
       <translation>Importera nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="429"/>
+=======
+      <location filename="../../Command.cpp" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Simple Model Format</source>
       <translation>Enkelt modellformat</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="431"/>
+=======
+      <location filename="../../Command.cpp" line="428"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Inventor V2.1 ascii</source>
       <translation>Inventor V2.1 ascii</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="432"/>
+=======
+      <location filename="../../Command.cpp" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>X3D Extensible 3D</source>
       <translation>X3D Utökad 3D</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="433"/>
+=======
+      <location filename="../../Command.cpp" line="430"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Compressed X3D</source>
       <translation>Komprimerad X3D</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="434"/>
+=======
+      <location filename="../../Command.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>WebGL/X3D</source>
       <translation>WebGL/X3D</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="436"/>
+=======
+      <location filename="../../Command.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>VRML V2.0</source>
       <translation>VRML V2.0</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="437"/>
+=======
+      <location filename="../../Command.cpp" line="434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Compressed VRML 2.0</source>
       <translation>Komprimerad VRML 2.0</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="439"/>
+=======
+      <location filename="../../Command.cpp" line="435"/>
+      <source>Nastran</source>
+      <translation>Nastran</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="436"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Python module def</source>
       <translation>Python-modul def</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="440"/>
+=======
+      <location filename="../../Command.cpp" line="437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Asymptote Format</source>
       <translation>Asymptot Format</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="441"/>
+=======
+      <location filename="../../Command.cpp" line="438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>3D Manufacturing Format</source>
       <translation>format för 3D-tillverkning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="452"/>
+=======
+      <location filename="../../Command.cpp" line="449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Export Mesh</source>
       <translation>Exportera nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="494"/>
+=======
+      <location filename="../../Command.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Meshing Tolerance</source>
       <translation>Nät tolerans</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="495"/>
+=======
+      <location filename="../../Command.cpp" line="499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Enter tolerance for meshing geometry:</source>
       <translation>Mata in tolerans för nätning av geometri:</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1323"/>
+=======
+      <location filename="../../Command.cpp" line="1329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>The mesh '%1' is not a solid.</source>
       <translation>Nätet '%1' är ingen solid.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1327"/>
+=======
+      <location filename="../../Command.cpp" line="1333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>The mesh '%1' is a solid.</source>
       <translation>Nätet '%1' är en solid.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1330"/>
+=======
+      <location filename="../../Command.cpp" line="1336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Solid Mesh</source>
       <translation>Solid nät</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1523"/>
+=======
+      <location filename="../../Command.cpp" line="1529"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Boundings</source>
       <translation>Gränser</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1590"/>
+=======
+      <location filename="../../Command.cpp" line="1596"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Fill Holes</source>
       <translation>Fyllningshål</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1591"/>
+=======
+      <location filename="../../Command.cpp" line="1597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Fill holes with maximum number of edges</source>
       <translation>Fyll hålen med maximalt antal kanter</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1864"/>
+=======
+      <location filename="../../Command.cpp" line="1870"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Scaling</source>
       <translation>Skalning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../Command.cpp" line="1865"/>
+=======
+      <location filename="../../Command.cpp" line="1871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Enter scaling factor:</source>
       <translation>Ange skalningsfaktor:</translation>
     </message>
@@ -2270,27 +2897,47 @@ Besök https://openscad.org/ för att installera det.</translation>
       <translation>Lämna Info-läge</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="1770"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="1771"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Index: %1</source>
       <translation>Index: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="1798"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Leave Hole-Filling Mode</source>
       <translation>Lämna hålfyllningsläget</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="1844"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="1846"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Leave Removal Mode</source>
       <translation>Lämna borttagningsläge</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="1845"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="1847"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Delete Selected Faces</source>
       <translation>Ta bort valda ytor</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv.ts
       <location filename="../../ViewProvider.cpp" line="1846"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="1848"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Mesh/Gui/Resources/translations/Mesh_sv-SE.ts
       <source>Clear Selected Faces</source>
       <translation>Rensa utvalda ytor</translation>
     </message>

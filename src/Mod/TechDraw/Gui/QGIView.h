@@ -187,7 +187,10 @@ public:
 
     bool isExporting() const;
 
+<<<<<<< HEAD
     virtual void setMovableFlag();
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 protected:
     QGIView* getQGIVByName(std::string name) const;
@@ -249,3 +252,9 @@ private:
 };
 
 } // namespace
+<<<<<<< HEAD
+=======
+
+#endif // DRAWINGGUI_QGRAPHICSITEMVIEW_H
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

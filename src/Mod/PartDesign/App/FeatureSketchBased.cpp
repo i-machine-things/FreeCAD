@@ -1422,6 +1422,10 @@ Base::Vector3d ProfileBased::getProfileNormal() const
         return SketchVector;
     }
 
+    if (shape.isNull()) {
+        return SketchVector;
+    }
+
     gp_Pln pln;
     if (shape.findPlane(pln)) {
         gp_Dir dir = pln.Axis().Direction();

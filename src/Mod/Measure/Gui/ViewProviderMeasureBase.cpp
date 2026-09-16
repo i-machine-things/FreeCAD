@@ -245,8 +245,11 @@ ViewProviderMeasureBase::ViewProviderMeasureBase()
 ViewProviderMeasureBase::~ViewProviderMeasureBase()
 {
     pDragger->removeValueChangedCallback(draggerChangedCallback, this);
+<<<<<<< HEAD
     pDragger->removeStartCallback(draggerStartCallback, this);
     pDragger->removeFinishCallback(draggerFinishCallback, this);
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     _mVisibilityChangedConnection.disconnect();
     pGlobalSeparator->unref();
     pLabel->unref();
@@ -432,10 +435,31 @@ void ViewProviderMeasureBase::updateIcon()
     pLabel->setIcon(Gui::BitmapFactory().pixmapFromSvg(sPixmap, QSize(20, 20), colorMap));
 }
 
+<<<<<<< HEAD
+=======
+void ViewProviderMeasureBase::syncDraggerOrientationToView()
+{
+    Gui::View3DInventor* view = nullptr;
+    try {
+        view = dynamic_cast<Gui::View3DInventor*>(this->getActiveView());
+    }
+    catch (const Base::RuntimeError&) {
+        return;
+    }
+    if (view) {
+        auto* cam = view->getViewer()->getSoRenderManager()->getCamera();
+        if (cam) {
+            pDraggerOrientation->rotation.connectFrom(&cam->orientation);
+        }
+    }
+}
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 void ViewProviderMeasureBase::attach(App::DocumentObject* pcObj)
 {
     ViewProviderDocumentObject::attach(pcObj);
     updateIcon();
+    syncDraggerOrientationToView();
 }
 
 
@@ -713,6 +737,11 @@ ViewProviderMeasure::ViewProviderMeasure()
     );
     points->numPoints = 1;
     lineSep->addChild(points);
+<<<<<<< HEAD
+=======
+
+    syncDraggerOrientationToView();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 ViewProviderMeasure::~ViewProviderMeasure()

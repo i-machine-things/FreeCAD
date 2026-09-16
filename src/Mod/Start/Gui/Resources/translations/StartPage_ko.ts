@@ -9,17 +9,17 @@
       <translation>완료</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="94"/>
+      <location filename="../../FirstStartWidget.cpp" line="95"/>
       <source>Welcome to %1</source>
       <translation>%1에 오신 것을 환영합니다.</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="97"/>
+      <location filename="../../FirstStartWidget.cpp" line="98"/>
       <source>Set your basic configuration options below.</source>
       <translation>아래에서 기본 설정 옵션을 지정하십시오.</translation>
     </message>
     <message>
-      <location filename="../../FirstStartWidget.cpp" line="98"/>
+      <location filename="../../FirstStartWidget.cpp" line="99"/>
       <source>These options (and many more) can be changed later in the preferences.</source>
       <translation>이 옵션과 그 밖의 여러 설정은 나중에 환경설정에서 변경할 수 있습니다.</translation>
     </message>
@@ -63,36 +63,61 @@
   <context>
     <name>StartGui::StartView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="217"/>
+=======
+      <location filename="../../StartView.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open File</source>
       <translation>파일 열기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="227"/>
+=======
+      <location filename="../../StartView.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assembly</source>
       <translation>조립체</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Draft</source>
       <translation>2D 드래프트</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="232"/>
+=======
+      <location filename="../../StartView.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a 2D Draft document</source>
       <translation>2D 드래프트 문서를 만듭니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="235"/>
+=======
+      <location filename="../../StartView.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BIM/Architecture</source>
       <translation>BIM/건축</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="212"/>
+=======
+      <location filename="../../StartView.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty File</source>
       <translation>빈 파일</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="213"/>
       <source>Creates a new empty FreeCAD file</source>
       <translation>새로운 빈 FreeCAD 파일을 만듭니다</translation>
@@ -119,31 +144,79 @@
     </message>
     <message>
       <location filename="../../StartView.cpp" line="236"/>
+=======
+      <location filename="../../StartView.cpp" line="207"/>
+      <source>Creates a new empty FreeCAD file</source>
+      <translation>내용이 빈 새로운 프리캐드 파일을 생성합니다</translation>
+    </message>
+    <message>
+      <location filename="../../StartView.cpp" line="212"/>
+      <source>Opens an existing CAD file or 3D model</source>
+      <translation>기존 CAD 파일이나 3D모형을 엽니다</translation>
+    </message>
+    <message>
+      <location filename="../../StartView.cpp" line="216"/>
+      <source>Parametric Body</source>
+      <translation>매개변수 제어 몸통</translation>
+    </message>
+    <message>
+      <location filename="../../StartView.cpp" line="217"/>
+      <source>Creates a body with the Part Design workbench</source>
+      <translation>부품설계 작업대에서 빈 몸통을 하나 생성합니다</translation>
+    </message>
+    <message>
+      <location filename="../../StartView.cpp" line="222"/>
+      <source>Creates an assembly project</source>
+      <translation>조립 작업대에서 빈 조립품을 생성하며 시작합니다</translation>
+    </message>
+    <message>
+      <location filename="../../StartView.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an architectural project</source>
       <translation>건축 프로젝트를 생성합니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="520"/>
+=======
+      <location filename="../../StartView.cpp" line="509"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New File</source>
       <translation>새 파일</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="522"/>
+=======
+      <location filename="../../StartView.cpp" line="510"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Examples</source>
       <translation>예시</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="524"/>
+=======
+      <location filename="../../StartView.cpp" line="511"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recent Files</source>
       <translation>최근 파일</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="539"/>
+=======
+      <location filename="../../StartView.cpp" line="527"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open First Start Setup</source>
       <translation>첫 시작 설정 열기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="540"/>
+=======
+      <location filename="../../StartView.cpp" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not show this Start page again (start with blank screen)</source>
       <translation>이 시작 페이지를 다시 표시하지 않음(빈 화면으로 시작)</translation>
     </message>
@@ -151,7 +224,11 @@
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../StartView.cpp" line="514"/>
+=======
+      <location filename="../../StartView.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start</source>
       <translation>시작</translation>
     </message>
@@ -159,44 +236,76 @@
   <context>
     <name>StartGui::ThemeSelectorWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Classic</source>
       <translation>FreeCAD 기본 테마</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Dark</source>
       <translation>FreeCAD 어두운 테마</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="117"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Light</source>
       <translation>FreeCAD 밝은 테마</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="251"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Theme</source>
       <translation>테마</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="254"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Looking for more themes? You can obtain them using &lt;a href="freecad:Std_AddonMgr"&gt;Addon Manager&lt;/a&gt;.</source>
       <translation>더 많은 테마를 찾고 계십니까? &lt;a href="freecad:Std_AddonMgr"&gt;애드온 관리자&lt;/a&gt;에서 추가할 수 있습니다.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="261"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Dark</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD 어두운 테마</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="262"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Light</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD 밝은 테마</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ThemeSelectorWidget.cpp" line="263"/>
+=======
+      <location filename="../../ThemeSelectorWidget.cpp" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD Classic</source>
       <comment>Visual theme name</comment>
       <translation>FreeCAD 기본 테마</translation>
@@ -261,7 +370,11 @@ Multiple folders can be added using ";;" to separate paths.</source>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../AppStartGui.cpp" line="139"/>
+=======
+      <location filename="../../AppStartGui.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start</source>
       <translation>시작</translation>
     </message>

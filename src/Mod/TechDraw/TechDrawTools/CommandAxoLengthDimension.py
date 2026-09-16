@@ -157,7 +157,11 @@ class CommandAxoLengthDimension:
             view.requestPaint()
 
         Gui.Selection.clearSelection()
+<<<<<<< HEAD
         App.ActiveDocument.commitTransaction()
+=======
+        App.closeActiveTransaction()
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         view.touch()	# make view claim its new child
 
     def IsActive(self):

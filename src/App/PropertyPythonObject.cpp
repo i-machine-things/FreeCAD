@@ -35,6 +35,7 @@
 #include <Base/Reader.h>
 #include <Base/Writer.h>
 
+#include "Application.h"
 #include "PropertyPythonObject.h"
 #include "DocumentObject.h"
 

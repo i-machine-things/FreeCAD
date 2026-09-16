@@ -22,18 +22,18 @@
   <context>
     <name>CmdPointsExport</name>
     <message>
-      <location filename="../../Command.cpp" line="150"/>
+      <location filename="../../Command.cpp" line="151"/>
       <source>Points</source>
       <translation>점</translation>
     </message>
     <message>
-      <location filename="../../Command.cpp" line="151"/>
+      <location filename="../../Command.cpp" line="152"/>
       <source>Export Points…</source>
       <translation>점 내보내기…</translation>
     </message>
     <message>
-      <location filename="../../Command.cpp" line="152"/>
-      <location filename="../../Command.cpp" line="154"/>
+      <location filename="../../Command.cpp" line="153"/>
+      <location filename="../../Command.cpp" line="155"/>
       <source>Exports a point cloud</source>
       <translation>점 클라우드를 내보냅니다</translation>
     </message>
@@ -113,7 +113,7 @@
   <context>
     <name>Command</name>
     <message>
-      <location filename="../../Command.cpp" line="93"/>
+      <location filename="../../Command.cpp" line="94"/>
       <source>Import points</source>
       <translation>점 가져오기</translation>
     </message>
@@ -262,18 +262,37 @@
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="81"/>
       <location filename="../../Command.cpp" line="168"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point formats</source>
       <translation>점 형식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="113"/>
+=======
+      <location filename="../../Command.cpp" line="85"/>
+      <location filename="../../Command.cpp" line="173"/>
+      <source>All Files</source>
+      <translation>모든 파일</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points not at Origin</source>
       <translation>점이 원점에 있지 않음</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="115"/>
+=======
+      <location filename="../../Command.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The bounding box of the imported points does not contain the origin. Translate it to the origin?</source>
       <translation>가져온 점의 바운딩 박스가 원점을 포함하지 않습니다. 원점으로 이동하시겠습니까?</translation>
     </message>

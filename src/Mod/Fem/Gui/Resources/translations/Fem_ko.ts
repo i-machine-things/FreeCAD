@@ -325,17 +325,29 @@
   <context>
     <name>CmdFemPostApllyChanges</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2886"/>
+=======
+      <location filename="../../Command.cpp" line="2871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2887"/>
+=======
+      <location filename="../../Command.cpp" line="2872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Apply Changes to Pipeline</source>
       <translation>파이프라인에 변경 사항 적용</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2888"/>
+=======
+      <location filename="../../Command.cpp" line="2873"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies changes to parameters directly and not on recompute only</source>
       <translation>재계산 시에만이 아니라 매개변수에 변경 사항을 즉시 적용합니다</translation>
     </message>
@@ -343,27 +355,47 @@
   <context>
     <name>CmdFemPostClipFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2250"/>
+=======
+      <location filename="../../Command.cpp" line="2235"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>유한요소법</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2251"/>
+=======
+      <location filename="../../Command.cpp" line="2236"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Region Clip Filter</source>
       <translation>영역 클립 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2252"/>
+=======
+      <location filename="../../Command.cpp" line="2237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which uses functions to define the clipped region</source>
       <translation>함수를 사용하여 클리핑 영역을 정의하는 클립 필터를 정의합니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2776"/>
+=======
+      <location filename="../../Command.cpp" line="2761"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a pipeline.</source>
       <translation>파이프라인을 선택하세요.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2775"/>
+=======
+      <location filename="../../Command.cpp" line="2760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>잘못된 선택</translation>
     </message>
@@ -371,17 +403,29 @@
   <context>
     <name>CmdFemPostCutFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2289"/>
+=======
+      <location filename="../../Command.cpp" line="2274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>유한요소법</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2290"/>
+=======
+      <location filename="../../Command.cpp" line="2275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Function Cut Filter</source>
       <translation>함수 절단 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2291"/>
+=======
+      <location filename="../../Command.cpp" line="2276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cuts the data along an implicit function</source>
       <translation>암시적 함수를 따라 데이터를 절단합니다</translation>
     </message>
@@ -389,17 +433,29 @@
   <context>
     <name>CmdFemPostDataAlongLineFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2326"/>
+=======
+      <location filename="../../Command.cpp" line="2311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>유한요소법</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2327"/>
+=======
+      <location filename="../../Command.cpp" line="2312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line Clip Filter</source>
       <translation>선 클립 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2328"/>
+=======
+      <location filename="../../Command.cpp" line="2313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which clips a field along a line</source>
       <translation>선을 따라 필드를 클리핑하는 클립 필터를 정의합니다</translation>
     </message>
@@ -407,17 +463,29 @@
   <context>
     <name>CmdFemPostDataAtPointFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2363"/>
+=======
+      <location filename="../../Command.cpp" line="2348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>유한요소법</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2364"/>
+=======
+      <location filename="../../Command.cpp" line="2349"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data at Point Clip Filter</source>
       <translation>점 데이터 클립 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2365"/>
+=======
+      <location filename="../../Command.cpp" line="2350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which clips a field data at point</source>
       <translation>점에서 필드 데이터를 클리핑하는 클립 필터를 정의합니다</translation>
     </message>
@@ -425,37 +493,65 @@
   <context>
     <name>CmdFemPostFunctions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2628"/>
+=======
+      <location filename="../../Command.cpp" line="2613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>유한요소법</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2629"/>
+=======
+      <location filename="../../Command.cpp" line="2614"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Filter Functions</source>
       <translation>필터 함수</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2630"/>
+=======
+      <location filename="../../Command.cpp" line="2615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Functions for use in postprocessing filter</source>
       <translation>후처리 필터에서 사용할 함수</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2828"/>
+=======
+      <location filename="../../Command.cpp" line="2813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Plane</source>
       <translation>평면</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2838"/>
+=======
+      <location filename="../../Command.cpp" line="2823"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sphere</source>
       <translation>구체</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2848"/>
+=======
+      <location filename="../../Command.cpp" line="2833"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cylinder</source>
       <translation>원통</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2858"/>
+=======
+      <location filename="../../Command.cpp" line="2843"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Box</source>
       <translation>박스</translation>
     </message>
@@ -463,65 +559,111 @@
   <context>
     <name>CmdFemPostLinearizedStressesFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2137"/>
+=======
+      <location filename="../../Command.cpp" line="2122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness [mm]</source>
       <comment>Plot X-Axis Label</comment>
       <translation>두께 [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2143"/>
+=======
+      <location filename="../../Command.cpp" line="2128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stress [MPa]</source>
       <comment>Plot Y-Axis Label</comment>
       <translation>응력[MPa]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2149"/>
+=======
+      <location filename="../../Command.cpp" line="2134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Linearized Stresses</source>
       <comment>Plot title</comment>
       <translation>선형화된 응력</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2155"/>
+=======
+      <location filename="../../Command.cpp" line="2140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Membrane</source>
       <comment>Plot legend item label</comment>
       <translation>막</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2161"/>
+=======
+      <location filename="../../Command.cpp" line="2146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Membrane and Bending</source>
       <comment>Plot legend item label</comment>
       <translation>막 및 굽힘</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2167"/>
+=======
+      <location filename="../../Command.cpp" line="2152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total</source>
       <comment>Plot legend item label</comment>
       <translation>합계</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2401"/>
+=======
+      <location filename="../../Command.cpp" line="2386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2402"/>
+=======
+      <location filename="../../Command.cpp" line="2387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stress Linearization Plot</source>
       <translation>응력 선형화 플롯</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2403"/>
+=======
+      <location filename="../../Command.cpp" line="2388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a stress linearization plot</source>
       <translation>응력 선형화 플롯을 정의합니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2442"/>
       <location filename="../../Command.cpp" line="2453"/>
+=======
+      <location filename="../../Command.cpp" line="2427"/>
+      <location filename="../../Command.cpp" line="2438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a clip filter which clips a stress field along a line</source>
       <translation>선 따라 응력장을 클리핑하는 클립 필터를 선택하십시오</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2441"/>
       <location filename="../../Command.cpp" line="2452"/>
+=======
+      <location filename="../../Command.cpp" line="2426"/>
+      <location filename="../../Command.cpp" line="2437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>잘못된 선택</translation>
     </message>
@@ -529,27 +671,47 @@
   <context>
     <name>CmdFemPostPipelineFromResult</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2927"/>
+=======
+      <location filename="../../Command.cpp" line="2912"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2928"/>
+=======
+      <location filename="../../Command.cpp" line="2913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Post Pipeline From Result</source>
       <translation>결과에서 후처리 파이프라인 생성</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2929"/>
+=======
+      <location filename="../../Command.cpp" line="2914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a post processing pipeline from a result object</source>
       <translation>결과 객체로부터 후처리 파이프라인을 만듭니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3013"/>
+=======
+      <location filename="../../Command.cpp" line="2998"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection type</source>
       <translation>잘못된 선택 유형</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3014"/>
+=======
+      <location filename="../../Command.cpp" line="2999"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a result object.</source>
       <translation>결과 객체를 선택하세요.</translation>
     </message>
@@ -557,17 +719,29 @@
   <context>
     <name>CmdFemPostScalarClipFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2481"/>
+=======
+      <location filename="../../Command.cpp" line="2466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2482"/>
+=======
+      <location filename="../../Command.cpp" line="2467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scalar Clip Filter</source>
       <translation>스칼라 클립 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2483"/>
+=======
+      <location filename="../../Command.cpp" line="2468"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which clips a field with a scalar value</source>
       <translation>스칼라 값으로 필드를 클리핑하는 클립 필터를 정의합니다</translation>
     </message>
@@ -575,17 +749,29 @@
   <context>
     <name>CmdFemPostWarpVectorFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2518"/>
+=======
+      <location filename="../../Command.cpp" line="2503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2519"/>
+=======
+      <location filename="../../Command.cpp" line="2504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warp Filter</source>
       <translation>왜곡 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2520"/>
+=======
+      <location filename="../../Command.cpp" line="2505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warps the geometry along a vector field by a certain factor</source>
       <translation>벡터장을 따라 지오매트리을 지정한 배율로 왜곡합니다</translation>
     </message>
@@ -704,19 +890,33 @@
       <translation>필터 만들기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2662"/>
+=======
+      <location filename="../../Command.cpp" line="2647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create function</source>
       <translation>함수 만들기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2982"/>
+=======
+      <location filename="../../Command.cpp" line="2967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create pipeline from result</source>
       <translation>결과에서 파이프라인 만들기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderShapeExtension.cpp" line="189"/>
       <source>Edit Shape</source>
       <translation>형상 편집</translation>
+=======
+      <location filename="../../ViewProviderFemPostFunction.cpp" line="269"/>
+      <source>Edit Mirror</source>
+      <translation>대칭복사 편집</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -794,22 +994,38 @@
   <context>
     <name>FEM_PostCreateFunctions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2830"/>
+=======
+      <location filename="../../Command.cpp" line="2815"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a plane function, defined by its origin and normal</source>
       <translation>원점과 법선으로 정의된 평면 함수를 만듭니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2840"/>
+=======
+      <location filename="../../Command.cpp" line="2825"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a sphere function, defined by its center and radius</source>
       <translation>중심과 반지름으로 정의된 구체 함수를 만듭니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2850"/>
+=======
+      <location filename="../../Command.cpp" line="2835"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a cylinder function, defined by its center, axis and radius</source>
       <translation>중심, 축, 반지름으로 정의된 원통 함수를 만듭니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2860"/>
+=======
+      <location filename="../../Command.cpp" line="2845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a box function, defined by its center, length, width and height</source>
       <translation>중심, 길이, 너비, 높이로 정의된 상자 함수를 만듭니다</translation>
     </message>
@@ -819,7 +1035,11 @@
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="14"/>
       <location filename="../../DlgSettingsFemCcx.ui" line="29"/>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcxImp.cpp" line="130"/>
+=======
+      <location filename="../../DlgSettingsFemCcxImp.cpp" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>CalculiX</source>
       <translation>CalculiX</translation>
     </message>
@@ -1063,7 +1283,31 @@ Only takes effect if 'Pipeline only' is enabled</source>
       <translation>촐레스키 반복 솔버</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcxImp.cpp" line="130"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="597"/>
+      <source>Beam, shell element 3D output format</source>
+      <translation type="unfinished">Beam, shell element 3D output format</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="771"/>
+      <source>Eigenmode number</source>
+      <translation type="unfinished">Eigenmode number</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="764"/>
+      <source>High frequency limit</source>
+      <translation type="unfinished">High frequency limit</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="825"/>
+      <source>Low frequency limit</source>
+      <translation type="unfinished">Low frequency limit</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcxImp.cpp" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Executable '%1' not found</source>
       <translation>'%1' 실행파일을 찾을 수 없습니다</translation>
     </message>
@@ -1072,7 +1316,11 @@ Only takes effect if 'Pipeline only' is enabled</source>
     <name>FemGui::DlgSettingsFemElmerImp</name>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmerImp.cpp" line="106"/>
+=======
+      <location filename="../../DlgSettingsFemElmerImp.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Elmer</source>
       <translation>Elmer</translation>
     </message>
@@ -1172,7 +1420,11 @@ Only takes effect if 'Pipeline only' is enabled</source>
       <translation>옵션</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmerImp.cpp" line="106"/>
+=======
+      <location filename="../../DlgSettingsFemElmerImp.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Executable '%1' not found</source>
       <translation>'%1' 실행파일을 찾을 수 없습니다</translation>
     </message>
@@ -1475,6 +1727,41 @@ adding an analysis container</source>
       <source>Debug</source>
       <translation>디버그</translation>
     </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="97"/>
+      <source>Silent</source>
+      <translation type="unfinished">Silent</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="98"/>
+      <source>Errors</source>
+      <translation>오류</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="99"/>
+      <source>Warnings</source>
+      <translation>경고</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="100"/>
+      <source>Direct</source>
+      <translation type="unfinished">Direct</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="101"/>
+      <source>Information</source>
+      <translation>정보</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="102"/>
+      <source>Status</source>
+      <translation>상태</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGmshImp.cpp" line="103"/>
+      <source>Debug</source>
+      <translation type="unfinished">Debug</translation>
+    </message>
   </context>
   <context>
     <name>FemGui::DlgSettingsFemInOutVtk</name>
@@ -1669,11 +1956,14 @@ that "MAXGS" needs to be increased.</source>
       <translation>이동 불완전 콜레스키 (SIC)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemZ88Imp.cpp" line="88"/>
       <source>Simple Cholesky</source>
       <translation>단순 콜레스키</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgSettingsFemZ88Imp.cpp" line="106"/>
       <source>Executable '%1' not found</source>
       <translation>'%1' 실행파일을 찾을 수 없습니다</translation>
@@ -1699,14 +1989,127 @@ that "MAXGS" needs to be increased.</source>
     <name>FemGui::TaskDlgFemConstraint</name>
     <message>
       <location filename="../../TaskFemConstraint.cpp" line="237"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraint.cpp" line="259"/>
       <source>Input Error</source>
+=======
+      <location filename="../../TaskFemConstraint.cpp" line="258"/>
+      <source>Input error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>입력 오류</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraint.cpp" line="238"/>
       <source>You must specify at least one reference</source>
+<<<<<<< HEAD
       <translation>참조를 하나 이상 지정해야 합니다</translation>
+=======
+      <translation type="unfinished">You must specify at least one reference</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintBearing</name>
+    <message>
+      <location filename="../../TaskFemConstraintBearing.cpp" line="392"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintContact</name>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="599"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintDisplacement</name>
+    <message>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="650"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintFluidBoundary</name>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="1159"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintForce</name>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="476"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintGear</name>
+    <message>
+      <location filename="../../TaskFemConstraintGear.cpp" line="355"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintHeatflux</name>
+    <message>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="556"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintInitialTemperature</name>
+    <message>
+      <location filename="../../TaskFemConstraintInitialTemperature.cpp" line="117"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintPressure</name>
+    <message>
+      <location filename="../../TaskFemConstraintPressure.cpp" line="321"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintPulley</name>
+    <message>
+      <location filename="../../TaskFemConstraintPulley.cpp" line="229"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintSpring</name>
+    <message>
+      <location filename="../../TaskFemConstraintSpring.cpp" line="334"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintTemperature</name>
+    <message>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="406"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintTransform</name>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="637"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1719,7 +2122,19 @@ that "MAXGS" needs to be increased.</source>
     <message>
       <location filename="../../TaskDlgMeshShapeNetgen.cpp" line="102"/>
       <source>Meshing failure</source>
+<<<<<<< HEAD
       <translation>메시 생성 실패</translation>
+=======
+      <translation type="unfinished">Meshing failure</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgPost</name>
+    <message>
+      <location filename="../../TaskPostBoxes.cpp" line="391"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1757,7 +2172,11 @@ that "MAXGS" needs to be increased.</source>
       <location filename="../../TaskFemConstraintBearing.cpp" line="205"/>
       <location filename="../../TaskFemConstraintBearing.cpp" line="215"/>
       <location filename="../../TaskFemConstraintBearing.cpp" line="224"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
+=======
+      <source>Selection error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>선택 오류</translation>
     </message>
     <message>
@@ -1800,6 +2219,7 @@ that "MAXGS" needs to be increased.</source>
       <translation>삭제</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="135"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="201"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="208"/>
@@ -1824,38 +2244,88 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintContact.cpp" line="136"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="130"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="196"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="203"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="209"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="221"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="229"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="239"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="250"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="287"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="296"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="342"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="349"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="355"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="367"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="374"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="384"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="395"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="435"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="444"/>
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one face in object! - moved to master face</source>
       <translation>객체에 면이 하나뿐입니다! - 마스터 면으로 이동했습니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="147"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select slave geometry of type: </source>
       <translation>슬레이브 지오매트리 선택: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="147"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="151"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="142"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>면</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="148"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="152"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="143"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>click Add or Remove</source>
       <translation>추가 또는 제거를 클릭하십시오</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="151"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select master geometry of type: </source>
       <translation>마스터 지오매트리 선택: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="202"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="348"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="197"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one master face and one slave face for a contact constraint!</source>
       <translation>접촉 구속에는 마스터 면 하나와 슬레이브 면 하나만 선택할 수 있습니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="208"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="292"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="354"/>
@@ -1874,28 +2344,66 @@ that "MAXGS" needs to be increased.</source>
       <location filename="../../TaskFemConstraintContact.cpp" line="301"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="372"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="449"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="203"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="287"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="349"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="435"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="210"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="240"/>
+      <source>Only one slave face for a contact constraint!</source>
+      <translation type="unfinished">Only one slave face for a contact constraint!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="221"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="296"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="367"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected object is not a part!</source>
       <translation>선택한 대상체는 부품이 아닙니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="235"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="380"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="230"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External object selection is not supported</source>
       <translation>외부 대상체 선택은 지원되지 않습니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="256"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="401"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="251"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only faces can be picked (edges in 2D models)</source>
       <translation>면만 선택할 수 있습니다(2D 모델에서는 모서리)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="361"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one master for a contact constraint!</source>
       <translation>접촉 구속에는 마스터를 하나만 선택할 수 있습니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="390"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one master face for a contact constraint!</source>
       <translation>접촉 구속에는 마스터 면을 하나만 선택할 수 있습니다!</translation>
     </message>
@@ -1914,21 +2422,37 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="237"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="322"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="237"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="247"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="255"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="299"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="322"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="332"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="237"/>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="322"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="247"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="332"/>
       <source>Selected object is not a part!</source>
@@ -1959,21 +2483,37 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFixed.cpp" line="113"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintFixed.cpp" line="194"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFixed.cpp" line="113"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFixed.cpp" line="122"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="130"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="171"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="194"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="203"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFixed.cpp" line="113"/>
+      <location filename="../../TaskFemConstraintFixed.cpp" line="194"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFixed.cpp" line="122"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="203"/>
       <source>Selected object is not a part!</source>
@@ -2060,6 +2600,7 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="655"/>
+<<<<<<< HEAD
       <source>Empty Selection</source>
       <translation>빈 선택</translation>
     </message>
@@ -2069,11 +2610,32 @@ that "MAXGS" needs to be increased.</source>
       <translation>모서리 또는 면을 선택하세요.</translation>
     </message>
     <message>
+=======
+      <source>Empty selection</source>
+      <translation type="unfinished">Empty selection</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="655"/>
+      <source>Select an edge or a face.</source>
+      <translation type="unfinished">Select an edge or a face.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="666"/>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="675"/>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="693"/>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="703"/>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="712"/>
+      <source>Wrong selection</source>
+      <translation>잘못 된 선택</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="666"/>
       <source>Selected object is not a part object!</source>
       <translation>선택한 객체는 부품 객체가 아닙니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="666"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="675"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="693"/>
@@ -2083,6 +2645,8 @@ that "MAXGS" needs to be increased.</source>
       <translation>잘못된 선택</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="676"/>
       <source>Only one planar face or edge can be selected!</source>
       <translation>평면 면 또는 모서리 하나만 선택할 수 있습니다!</translation>
@@ -2104,21 +2668,37 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="849"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="932"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="849"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="859"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="867"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="909"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="932"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="942"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="849"/>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="932"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="859"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="942"/>
       <source>Selected object is not a part!</source>
@@ -2138,16 +2718,25 @@ that "MAXGS" needs to be increased.</source>
   <context>
     <name>FemGui::TaskFemConstraintForce</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="93"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select geometry of type: </source>
       <translation>유형의 지오매트리 선택: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="93"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex, Edge, Face</source>
       <translation>꼭짓점, 모서리, 면</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="126"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="208"/>
       <source>Nothing selected!</source>
@@ -2166,11 +2755,35 @@ that "MAXGS" needs to be increased.</source>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="135"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="217"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="125"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="134"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="142"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="184"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="207"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="216"/>
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="125"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="207"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="134"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected object is not a part!</source>
       <translation>선택한 대상체는 부품이 아닙니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="144"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External object selection is not supported</source>
       <translation>외부 대상체 선택은 지원되지 않습니다</translation>
     </message>
@@ -2180,6 +2793,7 @@ that "MAXGS" needs to be increased.</source>
       <translation>각 해석 기능마다 하나의 선택 유형(정점, 면 또는 모서리)만 허용됩니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="317"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="332"/>
       <source>Wrong Selection</source>
@@ -2187,6 +2801,15 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="317"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="324"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="339"/>
+      <source>Wrong selection</source>
+      <translation>잘못 된 선택</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select an edge or a face.</source>
       <translation>모서리 또는 면을 선택하세요.</translation>
     </message>
@@ -2197,12 +2820,17 @@ that "MAXGS" needs to be increased.</source>
       <location filename="../../TaskFemConstraintGear.cpp" line="155"/>
       <location filename="../../TaskFemConstraintGear.cpp" line="165"/>
       <location filename="../../TaskFemConstraintGear.cpp" line="174"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
+=======
+      <source>Selection error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>선택 오류</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintGear.cpp" line="156"/>
       <source>Only planar faces can be picked</source>
+<<<<<<< HEAD
       <translation>평면만 선택할 수 있습니다</translation>
     </message>
     <message>
@@ -2211,6 +2839,16 @@ that "MAXGS" needs to be increased.</source>
       <translation>직선 모서리만 선택할 수 있습니다</translation>
     </message>
     <message>
+=======
+      <translation type="unfinished">Only planar faces can be picked</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintGear.cpp" line="166"/>
+      <source>Only linear edges can be picked</source>
+      <translation type="unfinished">Only linear edges can be picked</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintGear.cpp" line="175"/>
       <source>Only faces and edges can be picked</source>
       <translation>면과 모서리만 선택할 수 있습니다</translation>
@@ -2230,22 +2868,38 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="282"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="359"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="282"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="291"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="299"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="311"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="359"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="369"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="380"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="282"/>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="359"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="291"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="369"/>
       <source>Selected object is not a part!</source>
@@ -2285,7 +2939,11 @@ that "MAXGS" needs to be increased.</source>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="209"/>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="227"/>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="237"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
+=======
+      <source>Selection error</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>선택 오류</translation>
     </message>
     <message>
@@ -2336,12 +2994,15 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintPressure.cpp" line="128"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintPressure.cpp" line="194"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintPressure.cpp" line="128"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintPressure.cpp" line="137"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="145"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="157"/>
@@ -2351,6 +3012,15 @@ that "MAXGS" needs to be increased.</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../TaskFemConstraintPressure.cpp" line="128"/>
+      <location filename="../../TaskFemConstraintPressure.cpp" line="194"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintPressure.cpp" line="137"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="203"/>
       <source>Selected object is not a part!</source>
@@ -2394,21 +3064,37 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintSpring.cpp" line="133"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintSpring.cpp" line="195"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintSpring.cpp" line="133"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintSpring.cpp" line="142"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="150"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="160"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="195"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="204"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintSpring.cpp" line="133"/>
+      <location filename="../../TaskFemConstraintSpring.cpp" line="195"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintSpring.cpp" line="142"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="204"/>
       <source>Selected object is not a part!</source>
@@ -2439,20 +3125,36 @@ that "MAXGS" needs to be increased.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="198"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTemperature.cpp" line="256"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="198"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintTemperature.cpp" line="207"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="215"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="256"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="265"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="198"/>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="256"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintTemperature.cpp" line="207"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="265"/>
       <source>Selected object is not a part!</source>
@@ -2467,16 +3169,21 @@ that "MAXGS" needs to be increased.</source>
   <context>
     <name>FemGui::TaskFemConstraintTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="164"/>
       <source>Edge, Face</source>
       <translation>모서리, 면</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="212"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analysis feature update error</source>
       <translation>해석 기능 업데이트 오류</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="310"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="317"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="327"/>
@@ -2520,40 +3227,117 @@ that "MAXGS" needs to be increased.</source>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="310"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="470"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="309"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="316"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="326"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="341"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="349"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="359"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="368"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="379"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="423"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="458"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="467"/>
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="309"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="351"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="317"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="327"/>
+      <source>Only one face for rectangular local coordinate system!</source>
+      <translation type="unfinished">Only one face for rectangular local coordinate system!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External object selection is not supported</source>
       <translation>외부 대상체 선택은 지원되지 않습니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="342"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="479"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="360"/>
+      <source>Only one face for local coordinate system!</source>
+      <translation type="unfinished">Only one face for local coordinate system!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="424"/>
+      <source>Only transformable faces can be selected! Apply a displacement boundary condition or a force load to a face first then apply local coordinate system to the face.</source>
+      <translation type="unfinished">Only transformable faces can be selected! Apply a displacement boundary condition or a force load to a face first then apply local coordinate system to the face.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="341"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected object is not a part!</source>
       <translation>선택한 대상체는 부품이 아닙니다!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="164"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select single geometry of type: </source>
       <translation>유형의 단일 지오매트리 선택: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="213"/>
       <source>The transformable faces have changed. Add only the transformable faces and remove non-transformable faces!</source>
       <translation>변환 가능한 면이 변경되었습니다. 변환 가능한 면만 추가하고 변환할 수 없는 면은 제거하십시오!</translation>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="163"/>
+      <source>Face</source>
+      <translation>면</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="212"/>
+      <source>The transformable faces have changed. Add only the transformable faces and remove non-transformable faces!</source>
+      <translation type="unfinished">The transformable faces have changed. Add only the transformable faces and remove non-transformable faces!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="368"/>
+      <source>Only faces can be picked</source>
+      <translation type="unfinished">Only faces can be picked</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="380"/>
+      <source>Only cylindrical faces can be picked</source>
+      <translation type="unfinished">Only cylindrical faces can be picked</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>FemGui::TaskPostDataAlongLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="687"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data Along a Line Options</source>
       <translation>선 따라 데이터 옵션</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1095"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1083"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <comment>X-Axis plot label</comment>
       <translation>길이</translation>
@@ -2562,12 +3346,20 @@ that "MAXGS" needs to be increased.</source>
   <context>
     <name>FemGui::TaskPostDataAtPoint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1129"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data at Point Options</source>
       <translation>점 데이터 옵션</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1470"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 at (%2; %3; %4) is: %5 %6</source>
       <translation>%1의 (%2; %3; %4) 위치 값: %5 %6</translation>
     </message>
@@ -2575,7 +3367,11 @@ that "MAXGS" needs to be increased.</source>
   <context>
     <name>FemGui::TaskPostFunction</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="535"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Implicit function</source>
       <translation>암시적 함수</translation>
     </message>
@@ -2750,9 +3546,9 @@ that "MAXGS" needs to be increased.</source>
       <translation>입구 압력</translation>
     </message>
     <message>
+      <location filename="../ui/InitialPressure.ui" line="20"/>
       <location filename="../ui/ElementFluid1D.ui" line="235"/>
       <location filename="../ui/ElementFluid1D.ui" line="308"/>
-      <location filename="../ui/InitialPressure.ui" line="20"/>
       <source>Pressure</source>
       <translation>압력</translation>
     </message>
@@ -2892,12 +3688,21 @@ that "MAXGS" needs to be increased.</source>
       <translation>초당 회전수</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ConstraintSectionPrint.ui" line="26"/>
       <location filename="../ui/MeshRegion.ui" line="26"/>
       <location filename="../ui/ElementGeometry2D.ui" line="26"/>
       <location filename="../ui/ConstraintTie.ui" line="26"/>
       <location filename="../ui/ConstraintCentrif.ui" line="26"/>
       <location filename="../ui/MeshBoundaryLayer.ui" line="26"/>
+=======
+      <location filename="../ui/ConstraintCentrif.ui" line="26"/>
+      <location filename="../ui/MeshBoundaryLayer.ui" line="26"/>
+      <location filename="../ui/ElementGeometry2D.ui" line="26"/>
+      <location filename="../ui/ConstraintTie.ui" line="26"/>
+      <location filename="../ui/MeshRegion.ui" line="26"/>
+      <location filename="../ui/ConstraintSectionPrint.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parameter</source>
       <translation>매개 변수</translation>
     </message>
@@ -3104,8 +3909,13 @@ Note: has no effect if a solid was selected</source>
       <location filename="../ui/Magnetization.ui" line="39"/>
       <location filename="../ui/CurrentDensity.ui" line="61"/>
       <location filename="../ui/CurrentDensity.ui" line="246"/>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="113"/>
       <location filename="../ui/Electromagnetic.ui" line="432"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="113"/>
+      <location filename="../ui/Magnetization.ui" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Real</source>
       <translation>실수부</translation>
     </message>
@@ -3113,8 +3923,13 @@ Note: has no effect if a solid was selected</source>
       <location filename="../ui/Magnetization.ui" line="49"/>
       <location filename="../ui/CurrentDensity.ui" line="71"/>
       <location filename="../ui/CurrentDensity.ui" line="256"/>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="123"/>
       <location filename="../ui/Electromagnetic.ui" line="442"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="123"/>
+      <location filename="../ui/Magnetization.ui" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary</source>
       <translation>허수부</translation>
     </message>
@@ -3206,8 +4021,13 @@ Note: has no effect if a solid was selected</source>
       <translation>너비</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshRegion.ui" line="44"/>
+=======
+      <location filename="../ui/MeshBoundaryLayer.ui" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ElementGeometry2D.ui" line="44"/>
+      <location filename="../ui/MeshRegion.ui" line="44"/>
       <location filename="../ui/ElementGeometry1D.ui" line="48"/>
       <location filename="../ui/ElementGeometry1D.ui" line="74"/>
       <location filename="../ui/ElementGeometry1D.ui" line="111"/>
@@ -3362,6 +4182,7 @@ Note: has no effect if a solid was selected</source>
       <translation>경계에 대한 법선방향</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/InitialFlowVelocity.ui" line="14"/>
       <location filename="../ui/Magnetization.ui" line="14"/>
       <location filename="../ui/BodyHeatSource.ui" line="14"/>
@@ -3370,6 +4191,16 @@ Note: has no effect if a solid was selected</source>
       <location filename="../ui/Electromagnetic.ui" line="14"/>
       <location filename="../ui/FlowVelocity.ui" line="14"/>
       <location filename="../ui/InitialPressure.ui" line="14"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="14"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="14"/>
+      <location filename="../ui/ElectricChargeDensity.ui" line="14"/>
+      <location filename="../ui/Magnetization.ui" line="14"/>
+      <location filename="../ui/BodyHeatSource.ui" line="14"/>
+      <location filename="../ui/InitialFlowVelocity.ui" line="14"/>
+      <location filename="../ui/InitialPressure.ui" line="14"/>
+      <location filename="../ui/FlowVelocity.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analysis Feature Properties</source>
       <translation>해석 기능 속성</translation>
     </message>
@@ -3469,11 +4300,17 @@ with harmonic/oscillating driving current</source>
       <translation>벡터 전류 밀도를 활성화하려면 사용자 지정 모드를 선택하십시오</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="56"/>
       <location filename="../ui/CurrentDensity.ui" line="78"/>
       <location filename="../ui/Electromagnetic.ui" line="181"/>
       <location filename="../ui/Electromagnetic.ui" line="449"/>
       <location filename="../ui/MeshManipulate.ui" line="594"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="78"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="194"/>
+      <location filename="../ui/Magnetization.ui" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
@@ -3488,11 +4325,17 @@ with harmonic/oscillating driving current</source>
       <translation>전류 밀도 x성분의 허수부</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="107"/>
       <location filename="../ui/CurrentDensity.ui" line="129"/>
       <location filename="../ui/Electromagnetic.ui" line="234"/>
       <location filename="../ui/Electromagnetic.ui" line="500"/>
       <location filename="../ui/MeshManipulate.ui" line="599"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="129"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="257"/>
+      <location filename="../ui/Magnetization.ui" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
@@ -3507,11 +4350,17 @@ with harmonic/oscillating driving current</source>
       <translation>전류 밀도 y성분의 허수부</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="158"/>
       <location filename="../ui/CurrentDensity.ui" line="180"/>
       <location filename="../ui/Electromagnetic.ui" line="287"/>
       <location filename="../ui/Electromagnetic.ui" line="551"/>
       <location filename="../ui/MeshManipulate.ui" line="604"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="180"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="320"/>
+      <location filename="../ui/Magnetization.ui" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
@@ -3552,6 +4401,7 @@ with harmonic/oscillating driving current</source>
     </message>
     <message>
       <location filename="../ui/PostHistogramFieldAppEdit.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../ui/MeshAdvanced.ui" line="14"/>
       <location filename="../ui/PostHistogramIndexAppEdit.ui" line="14"/>
       <location filename="../ui/MeshTransfiniteCurve.ui" line="14"/>
@@ -3564,6 +4414,11 @@ with harmonic/oscillating driving current</source>
       <location filename="../ui/MeshManipulate.ui" line="14"/>
       <location filename="../ui/MeshDistance.ui" line="14"/>
       <location filename="../ui/MeshTransfiniteVolume.ui" line="14"/>
+=======
+      <location filename="../ui/PostLineplotIndexAppEdit.ui" line="14"/>
+      <location filename="../ui/PostHistogramIndexAppEdit.ui" line="14"/>
+      <location filename="../ui/PostLineplotFieldAppEdit.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Form</source>
       <translation>양식</translation>
     </message>
@@ -4344,7 +5199,11 @@ Notes:
     <message>
       <location filename="../../Command.cpp" line="76"/>
       <source>No active Analysis</source>
+<<<<<<< HEAD
       <translation>활성 해석이 없습니다</translation>
+=======
+      <translation type="unfinished">No active Analysis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="77"/>
@@ -4352,14 +5211,24 @@ Notes:
       <translation>해석을 만들거나 활성화해야 합니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderFemPostFunction.cpp" line="155"/>
       <location filename="../../ViewProviderFemPostObject.cpp" line="899"/>
+=======
+      <location filename="../../ViewProviderFemPostFunction.cpp" line="312"/>
+      <location filename="../../ViewProviderFemPostObject.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A dialog is already open in the task panel</source>
       <translation>테스크 패널에 이미 다이얼로그가 열려있습니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderFemPostFunction.cpp" line="156"/>
       <location filename="../../ViewProviderFemPostObject.cpp" line="900"/>
+=======
+      <location filename="../../ViewProviderFemPostFunction.cpp" line="313"/>
+      <location filename="../../ViewProviderFemPostObject.cpp" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to close this dialog?</source>
       <translation>다이얼로그를 닫으시겠습니까?</translation>
     </message>
@@ -6131,12 +7000,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_ClippingPlaneRemoveAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="163"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove All Clipping Planes</source>
       <translation>모든 클리핑 평면 제거</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="166"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes all clipping planes</source>
       <translation>모든 클리핑 평면을 제거합니다</translation>
     </message>
@@ -6144,12 +7021,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_Examples</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="558"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM Examples</source>
       <translation>FEM 예시</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="559"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the FEM examples</source>
       <translation>FEM 예시를 엽니다</translation>
     </message>
@@ -6157,12 +7042,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MaterialEditor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="573"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Material Editor</source>
       <translation>재료 편집기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="576"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the FreeCAD material editor</source>
       <translation>FreeCAD 재질 편집기를 엽니다</translation>
     </message>
@@ -6170,12 +7063,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MaterialReinforced</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="633"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reinforced Material (Concrete)</source>
       <translation>보강 재질(콘크리트)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="637"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a material for reinforced matrix material such as concrete</source>
       <translation>콘크리트와 같은 보강 매트릭스 재질용 재질을 만듭니다</translation>
     </message>
@@ -6183,12 +7084,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_FEMMesh2Mesh</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="659"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM Mesh to Mesh</source>
       <translation>FEM 메시 to 메시</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="662"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Converts the surface of a FEM mesh to a mesh</source>
       <translation>FEM 메시의 표면을 메시로 변환합니다</translation>
     </message>
@@ -6196,12 +7105,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MeshDisplayInfo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="758"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Display Mesh Info</source>
       <translation>메시 정보 표시</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="759"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="761"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays FEM mesh information</source>
       <translation>FEM 메시 정보를 표시합니다</translation>
     </message>
@@ -6209,12 +7126,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MeshGmshFromShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="782"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="784"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh From Shape by Gmsh</source>
       <translation>Gmsh로 형상에서 메시 생성</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="785"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="787"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM mesh from a shape by Gmsh mesher</source>
       <translation>Gmsh 메셔로 형상에서 FEM 메시를 만듭니다</translation>
     </message>
@@ -6222,12 +7147,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MeshNetgenFromShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="843"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh From Shape by Netgen</source>
       <translation>Netgen으로 형상에서 메시 생성</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="847"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="849"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM mesh from a solid or face shape by Netgen internal mesher</source>
       <translation>Netgen 내부 메셔로 솔리드 또는 면 형상에서 FEM 메시를 만듭니다</translation>
     </message>
@@ -6235,12 +7168,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverCalculiXCcxTools</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1174"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1042"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver CalculiX Standard</source>
       <translation>표준 CalculiX 솔버</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1179"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1047"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a standard FEM solver CalculiX with ccx tools</source>
       <translation>ccx 도구를 사용하여 표준 FEM 솔버인 CalculiX를 만듭니다</translation>
     </message>
@@ -6248,12 +7189,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverControl</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1217"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1098"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Job Control</source>
       <translation>솔버 작업 제어</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1222"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes solver attributes and runs the calculations for the selected solver</source>
       <translation>선택한 솔버의 속성을 변경하고 계산을 실행합니다</translation>
     </message>
@@ -6261,12 +7210,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverElmer</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1234"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Elmer</source>
       <translation>Elmer 솔버</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1236"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver Elmer</source>
       <translation>FEM Elmer 솔버를 만듭니다</translation>
     </message>
@@ -6274,12 +7231,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverMystran</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1273"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Mystran</source>
       <translation>Mystran 솔버</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1275"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver Mystran</source>
       <translation>FEM Mystran 솔버를 만듭니다</translation>
     </message>
@@ -6287,12 +7252,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverRun</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1285"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run Solver</source>
       <translation>솔버 실행</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1289"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1170"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Runs the calculations for the selected solver</source>
       <translation>선택한 솔버의 계산을 실행합니다</translation>
     </message>
@@ -6300,12 +7273,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverZ88</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1306"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Z88</source>
       <translation>Z88 솔버</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1308"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver Z88</source>
       <translation>FEM Z88 솔버를 만듭니다</translation>
     </message>
@@ -6956,19 +7937,33 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>CmdFemPostContoursFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2555"/>
+=======
+      <location filename="../../Command.cpp" line="2540"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2556"/>
+=======
+      <location filename="../../Command.cpp" line="2541"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contours Filter</source>
       <translation>등고선 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2557"/>
       <source>Defines a contours filter that displays iso contours</source>
       <translation type="unfinished">Defines a contours filter that displays iso contours</translation>
+=======
+      <location filename="../../Command.cpp" line="2542"/>
+      <source>Define/create a contours filter which displays iso contours</source>
+      <translation type="unfinished">Define/create a contours filter which displays iso contours</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7066,12 +8061,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintBodyHeatSource</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="208"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Body Heat Source</source>
       <translation>바디 열원</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="211"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a body heat source</source>
       <translation>바디 열원을 만듭니다</translation>
     </message>
@@ -7079,12 +8082,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintCentrif</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="221"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Centrifugal Load</source>
       <translation>원심 하중</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="222"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a centrifugal load</source>
       <translation>원심 하중을 만듭니다</translation>
     </message>
@@ -7092,25 +8103,56 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintCurrentDensity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="235"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current Density Boundary Condition</source>
       <translation>전류밀도 경계조건</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="239"/>
       <source>Creates a current density boundary condition</source>
       <translation>전류 밀도 경계 조건을 만듭니다</translation>
+=======
+      <location filename="../../../femcommands/commands.py" line="229"/>
+      <source>Creates a current density boundary condition</source>
+      <translation type="unfinished">Creates a current density boundary condition</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintElectrostaticPotential</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="258"/>
+      <source>Electrostatic Potential Boundary Condition</source>
+      <translation type="unfinished">Electrostatic Potential Boundary Condition</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="262"/>
+      <source>Creates an electrostatic potential boundary condition</source>
+      <translation type="unfinished">Creates an electrostatic potential boundary condition</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>FEM_ConstraintFlowVelocity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="284"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flow Velocity Boundary Condition</source>
       <translation>유동 속도 경계 조건</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="287"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a flow velocity boundary condition</source>
       <translation>유동 속도 경계 조건을 만듭니다</translation>
     </message>
@@ -7118,12 +8160,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintInitialPressure</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="315"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initial Pressure Condition</source>
       <translation>초기 압력 조건</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="318"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an initial pressure condition</source>
       <translation>초기 압력 조건을 만듭니다</translation>
     </message>
@@ -7131,12 +8181,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintMagnetization</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="330"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="320"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Magnetization Boundary Condition</source>
       <translation>자화 경계 조건</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="333"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a magnetization boundary condition</source>
       <translation>자화 경계 조건을 만듭니다</translation>
     </message>
@@ -7144,12 +8202,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintSectionPrint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="343"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section Print Feature</source>
       <translation>단면 출력 기능</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="346"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a section print feature</source>
       <translation>단면 출력 기능을 만듭니다</translation>
     </message>
@@ -7157,12 +8223,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintSelfWeight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="356"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gravity Load</source>
       <translation>중력 하중</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="357"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a gravity load</source>
       <translation>중력 하중을 만듭니다</translation>
     </message>
@@ -7170,12 +8244,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_ConstraintTie</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="367"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="357"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tie Constraint</source>
       <translation>타이 구속</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="368"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a tie constraint</source>
       <translation>타이 구속을 만듭니다</translation>
     </message>
@@ -7183,12 +8265,20 @@ No matching module was found in the current Python path.</source>
   <context>
     <name>FEM_MeshRegion</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="897"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="899"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh Refinement</source>
       <translation>메시 세분화</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="898"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="900"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM mesh refinement</source>
       <translation>FEM 메시 세분화를 만듭니다</translation>
     </message>
@@ -7321,21 +8411,37 @@ No matching module was found in the current Python path.</source>
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="302"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="384"/>
       <source>Nothing selected!</source>
       <translation>선택된 항목이 없습니다!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="302"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="311"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="319"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="361"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="384"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="394"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>선택 오류</translation>
     </message>
     <message>
+=======
+      <source>Selection error</source>
+      <translation>선택 오류</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintRigidBody.cpp" line="302"/>
+      <location filename="../../TaskFemConstraintRigidBody.cpp" line="384"/>
+      <source>Nothing selected!</source>
+      <translation type="unfinished">Nothing selected!</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="311"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="394"/>
       <source>Selected object is not a part!</source>
@@ -7349,7 +8455,19 @@ No matching module was found in the current Python path.</source>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="357"/>
       <source>Only one type of selection (vertex, face or edge) per constraint allowed!</source>
+<<<<<<< HEAD
       <translation>각 구속마다 하나의 선택 유형(정점, 면 또는 모서리)만 허용됩니다!</translation>
+=======
+      <translation type="unfinished">Only one type of selection (vertex, face or edge) per constraint allowed!</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintRigidBody</name>
+    <message>
+      <location filename="../../TaskFemConstraintRigidBody.cpp" line="809"/>
+      <source>Input error</source>
+      <translation>입력 오류</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7399,37 +8517,64 @@ No matching module was found in the current Python path.</source>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1479"/>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="244"/>
       <location filename="../../TaskCreateElementSet.cpp" line="255"/>
       <location filename="../../TaskCreateElementSet.cpp" line="515"/>
       <location filename="../../TaskCreateElementSet.cpp" line="612"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="241"/>
+      <location filename="../../TaskCreateElementSet.cpp" line="252"/>
+      <location filename="../../TaskCreateElementSet.cpp" line="510"/>
+      <location filename="../../TaskCreateElementSet.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>잘못된 선택</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="245"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot copy ResultMesh to ResultMesh</source>
       <translation>ResultMesh를 ResultMesh로 복사할 수 없습니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="256"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh must be a ResultMesh</source>
       <translation>메시는 ResultMesh여야 합니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="613"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Data To Restore
 </source>
       <translation>복원할 데이터가 없습니다
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="812"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="807"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Erased Elements</source>
       <translation>지워진 요소</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="813"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="808"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All Elements Erased - no mesh generated.</source>
       <translation>모든 요소가 지워져 메시가 생성되지 않았습니다.</translation>
     </message>
@@ -7612,12 +8757,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_SolverCalculiX</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1193"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1068"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver CalculiX</source>
       <translation>CalculiX 솔버</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1198"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1073"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver CalculiX</source>
       <translation>FEM CalculiX 솔버를 만듭니다</translation>
     </message>
@@ -7812,9 +8965,15 @@ Leave blank to use default Python executable</source>
     <name>TaskPostGlyph</name>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="37"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="37"/>
       <location filename="../ui/TaskPostGlyph.ui" line="22"/>
       <location filename="../ui/TaskPostGlyph.ui" line="38"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="22"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="38"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The form of the glyph</source>
       <translation>글리프의 형태</translation>
     </message>
@@ -7856,10 +9015,17 @@ Leave blank to use default Python executable</source>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="81"/>
       <location filename="../ui/TaskPostLineplot.ui" line="97"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="66"/>
       <location filename="../ui/TaskPostHistogram.ui" line="82"/>
       <location filename="../ui/TaskPostGlyph.ui" line="75"/>
       <location filename="../ui/TaskPostGlyph.ui" line="91"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="75"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="91"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="66"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Which vector field is used to orient the glyphs</source>
       <translation>글리프 방향에 사용할 벡터 필드</translation>
     </message>
@@ -7870,9 +9036,15 @@ Leave blank to use default Python executable</source>
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="101"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="86"/>
       <location filename="../ui/TaskPostGlyph.ui" line="95"/>
       <location filename="../ui/TaskPostGlyph.ui" line="148"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="95"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="148"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>없음</translation>
     </message>
@@ -7894,9 +9066,15 @@ Leave blank to use default Python executable</source>
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="155"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="176"/>
       <location filename="../ui/TaskPostGlyph.ui" line="158"/>
       <location filename="../ui/TaskPostGlyph.ui" line="176"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="158"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="176"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A constant multiplier the glyphs are scaled with</source>
       <translation>글리프 크기 조정에 사용할 상수 배율</translation>
     </message>
@@ -7912,8 +9090,13 @@ Leave blank to use default Python executable</source>
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="145"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="166"/>
       <location filename="../ui/TaskPostGlyph.ui" line="226"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="226"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If the scale data is a vector this property decides if the glyph is scaled by vector magnitude or by the individual components</source>
       <translation>스케일 데이터가 벡터인 경우 이 속성은 글리프를 벡터 크기로 스케일할지 개별 구성 요소별로 스케일할지 결정합니다</translation>
     </message>
@@ -8074,17 +9257,29 @@ Leave blank to use default Python executable</source>
   <context>
     <name>CmdFemPostCalculatorFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2592"/>
+=======
+      <location filename="../../Command.cpp" line="2577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2593"/>
+=======
+      <location filename="../../Command.cpp" line="2578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculator Filter</source>
       <translation>계산기 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2594"/>
+=======
+      <location filename="../../Command.cpp" line="2579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new field from current data</source>
       <translation>현재 데이터에서 새 필드를 만듭니다</translation>
     </message>
@@ -8092,17 +9287,29 @@ Leave blank to use default Python executable</source>
   <context>
     <name>CmdFemPostBranchFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3034"/>
+=======
+      <location filename="../../Command.cpp" line="3019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3035"/>
+=======
+      <location filename="../../Command.cpp" line="3020"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipeline Branch</source>
       <translation>파이프라인 분기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3036"/>
+=======
+      <location filename="../../Command.cpp" line="3021"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Branches the pipeline into a new path</source>
       <translation>파이프라인을 새 경로로 분기합니다</translation>
     </message>
@@ -8110,7 +9317,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostFrames</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="563"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="551"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result Frames</source>
       <translation>결과 프레임</translation>
     </message>
@@ -8118,7 +9329,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostCalculator</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="2257"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="2230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculator options</source>
       <translation>계산기 옵션</translation>
     </message>
@@ -8139,12 +9354,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ConstantVacuumPermittivity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="192"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Constant Vacuum Permittivity</source>
       <translation>진공 유전율 상수</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="196"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a constant vacuum permittivity to overwrite standard value</source>
       <translation>표준값을 덮어쓸 진공 유전율 상수를 만듭니다</translation>
     </message>
@@ -8152,12 +9375,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ConstraintElectricChargeDensity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="252"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electric Charge Density</source>
       <translation>전하 밀도</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="255"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an electric charge density</source>
       <translation>전하 밀도를 만듭니다</translation>
     </message>
@@ -8165,12 +9396,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ConstraintInitialFlowVelocity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="299"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initial Flow Velocity Condition</source>
       <translation>초기 유동 속도 조건</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="303"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an initial flow velocity condition</source>
       <translation>초기 유동 속도 조건을 만듭니다</translation>
     </message>
@@ -8178,12 +9417,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ElementFluid1D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="378"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="368"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fluid Section for 1D Flow</source>
       <translation>1D 유동용 유체 단면</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="381"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a fluid section for 1D flow</source>
       <translation>1D 유동용 유체 단면을 만듭니다</translation>
     </message>
@@ -8191,12 +9438,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ElementGeometry1D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="391"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="381"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beam Cross Section</source>
       <translation>빔 단면</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="392"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="382"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a beam cross section</source>
       <translation>빔 단면을 만듭니다</translation>
     </message>
@@ -8204,12 +9459,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ElementGeometry2D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="402"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shell Plate Thickness</source>
       <translation>셸 판 두께</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="405"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a shell plate thickness</source>
       <translation>셸 판 두께를 만듭니다</translation>
     </message>
@@ -8217,12 +9480,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ElementRotation1D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="415"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beam Rotation</source>
       <translation>빔 회전</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="416"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a beam rotation</source>
       <translation>빔 회전을 만듭니다</translation>
     </message>
@@ -8230,12 +9501,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationDeformation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="426"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deformation Equation</source>
       <translation>변형 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="430"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for deformation (nonlinear elasticity)</source>
       <translation>변형(비선형 탄성) 방정식을 만듭니다</translation>
     </message>
@@ -8243,12 +9522,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationElasticity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="440"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="430"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Elasticity Equation</source>
       <translation>탄성 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="443"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for elasticity (stress)</source>
       <translation>탄성(응력) 방정식을 만듭니다</translation>
     </message>
@@ -8256,12 +9543,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationElectricforce</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="453"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electricforce Equation</source>
       <translation>전기력 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="456"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for electric forces</source>
       <translation>전기력 방정식을 만듭니다</translation>
     </message>
@@ -8269,12 +9564,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationElectrostatic</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="466"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electrostatic Equation</source>
       <translation>정전기 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="469"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for electrostatic</source>
       <translation>정전기 방정식을 만듭니다</translation>
     </message>
@@ -8282,12 +9585,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationFlow</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="479"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="469"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flow Equation</source>
       <translation>유동 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="480"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="470"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for flow</source>
       <translation>유동 방정식을 만듭니다</translation>
     </message>
@@ -8295,12 +9606,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationFlux</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="490"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="480"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flux Equation</source>
       <translation>플럭스 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="491"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="481"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for flux</source>
       <translation>플럭스 방정식을 만듭니다</translation>
     </message>
@@ -8308,12 +9627,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationHeat</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="501"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heat Equation</source>
       <translation>열 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="502"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="492"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for heat</source>
       <translation>열 방정식을 만듭니다</translation>
     </message>
@@ -8321,12 +9648,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationMagnetodynamic</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="514"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Magnetodynamic Equation</source>
       <translation>전자기 동역학 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="518"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for magnetodynamic forces</source>
       <translation>전자기 동역학 힘 방정식을 만듭니다</translation>
     </message>
@@ -8334,12 +9669,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationMagnetodynamic2D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="530"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="520"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Magnetodynamic 2D Equation</source>
       <translation>2D 전자기 동역학 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="534"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for 2D magnetodynamic forces</source>
       <translation>2D 전자기 동역학 힘 방정식을 만듭니다</translation>
     </message>
@@ -8347,12 +9690,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_EquationStaticCurrent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="544"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="534"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Static Current Equation</source>
       <translation>정전류 방정식</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="547"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="537"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for static current</source>
       <translation>정전류 방정식을 만듭니다</translation>
     </message>
@@ -8360,12 +9711,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_MaterialFluid</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="589"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fluid Material</source>
       <translation>유체 재질</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="590"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a fluid material</source>
       <translation>유체 재질을 만듭니다</translation>
     </message>
@@ -8373,38 +9732,79 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_MaterialMechanicalNonlinear</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="602"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Non-Linear Mechanical Material</source>
       <translation>비선형 기계 재질</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="606"/>
       <source>Add non-linear mechanical properties to material</source>
       <translation>재료에 비선형 기계적 특성을 추가합니다</translation>
+=======
+      <location filename="../../../femcommands/commands.py" line="595"/>
+      <source>Creates a non-linear mechanical material</source>
+      <translation type="unfinished">Creates a non-linear mechanical material</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>FEM_MaterialSolid</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="647"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solid Material</source>
       <translation>고체 재질</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="649"/>
       <source>Creates a solid material</source>
       <translation>고체 재질을 만듭니다</translation>
+=======
+      <location filename="../../../femcommands/commands.py" line="675"/>
+      <source>Creates a solid material</source>
+      <translation type="unfinished">Creates a solid material</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_MeshBoundaryLayer</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="727"/>
+      <source>Mesh Boundary Layer</source>
+      <translation type="unfinished">Mesh Boundary Layer</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="730"/>
+      <source>Creates a mesh boundary layer</source>
+      <translation type="unfinished">Creates a mesh boundary layer</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>FEM_MeshClear</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="715"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear FEM Mesh</source>
       <translation>FEM 메시 지우기</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="716"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clears the mesh of a FEM mesh object</source>
       <translation>FEM 메시 객체의 메시를 지웁니다</translation>
     </message>
@@ -8412,12 +9812,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_MeshGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="832"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="834"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh Group</source>
       <translation>메시 그룹</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="833"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="835"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a mesh group</source>
       <translation>메시 그룹을 만듭니다</translation>
     </message>
@@ -8425,12 +9833,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ResultShow</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1044"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="910"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Result</source>
       <translation>결과 표시</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1048"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows and visualizes the selected result data</source>
       <translation>선택한 결과 데이터를 표시하고 시각화합니다</translation>
     </message>
@@ -8438,12 +9854,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_ResultsPurge</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1060"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="926"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Purge Results</source>
       <translation>결과 제거</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1064"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Purges all results from the active analysis</source>
       <translation>활성 해석에서 모든 결과를 제거합니다</translation>
     </message>
@@ -8451,12 +9875,20 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FEM_PostFilterGlyph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1344"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Glyph Filter</source>
       <translation>글리프 필터</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1349"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a post-processing filter that adds glyphs to the mesh vertices for vertex data visualization</source>
       <translation>정점 데이터 시각화를 위해 메시 정점에 글리프를 추가하는 후처리 필터를 추가합니다</translation>
     </message>
@@ -8501,8 +9933,13 @@ Leave blank to use default Python executable</source>
     <name>PostHistogramEdit</name>
     <message>
       <location filename="../ui/PostTableFieldViewEdit.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="14"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="14"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="14"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Form</source>
       <translation>양식</translation>
     </message>
@@ -8583,7 +10020,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostDisplay</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="462"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result Display Options</source>
       <translation>결과 표시 옵션</translation>
     </message>
@@ -8591,7 +10032,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostBranch</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="632"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Branch Behaviour</source>
       <translation>브랜치 동작</translation>
     </message>
@@ -8599,7 +10044,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostClip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1504"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1477"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clip Region, Choose Implicit Function</source>
       <translation>클립 영역, 암시적 함수 선택</translation>
     </message>
@@ -8607,7 +10056,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostContours</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1655"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contours Filter Options</source>
       <translation>등고선 필터 옵션</translation>
     </message>
@@ -8615,7 +10068,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostCut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1819"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Function Cut, Choose Implicit Function</source>
       <translation>함수 절단, 암시적 함수 선택</translation>
     </message>
@@ -8623,7 +10080,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostScalarClip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1952"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1925"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scalar Clip Options</source>
       <translation>스칼라 클립 옵션</translation>
     </message>
@@ -8631,7 +10092,11 @@ Leave blank to use default Python executable</source>
   <context>
     <name>FemGui::TaskPostWarpVector</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="2076"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="2049"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warp Options</source>
       <translation>왜곡 옵션</translation>
     </message>
@@ -8756,6 +10221,29 @@ Leave blank to use default Python executable</source>
       <location filename="../../../femtools/ccxtools.py" line="480"/>
       <source>FEM: CalculiX ccx '{}' output '{}' doesn't contain expected phrase '{}'. There are some problems when running the ccx binary. Check if ccx runs standalone without FreeCAD.</source>
       <translation>FEM: CalculiX ccx '{}' 출력 '{}'에 예상 문구 '{}'가 포함되어 있지 않습니다. ccx 바이너리 실행 중 문제가 있습니다. FreeCAD 없이 ccx가 단독으로 실행되는지 확인하세요.</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemToolsCcx</name>
+    <message>
+      <location filename="../../../femtools/ccxtools.py" line="405"/>
+      <source>No or wrong CalculiX binary ccx</source>
+      <translation type="unfinished">No or wrong CalculiX binary ccx</translation>
+    </message>
+    <message>
+      <location filename="../../../femtools/ccxtools.py" line="439"/>
+      <source>FEM: wrong ccx binary</source>
+      <translation type="unfinished">FEM: wrong ccx binary</translation>
+    </message>
+    <message>
+      <location filename="../../../femtools/ccxtools.py" line="452"/>
+      <source>FEM: CalculiX binary ccx '{}' not found. Please set the CalculiX binary ccx path in FEM preferences tab CalculiX.</source>
+      <translation type="unfinished">FEM: CalculiX binary ccx '{}' not found. Please set the CalculiX binary ccx path in FEM preferences tab CalculiX.</translation>
+    </message>
+    <message>
+      <location filename="../../../femtools/ccxtools.py" line="464"/>
+      <source>FEM: CalculiX ccx '{}' output '{}' doesn't contain expected phrase '{}'. There are some problems when running the ccx binary. Check if ccx runs standalone without FreeCAD.</source>
+      <translation type="unfinished">FEM: CalculiX ccx '{}' output '{}' doesn't contain expected phrase '{}'. There are some problems when running the ccx binary. Check if ccx runs standalone without FreeCAD.</translation>
     </message>
   </context>
   <context>
@@ -9131,6 +10619,19 @@ Leave blank to use default Python executable</source>
       <location filename="../../TaskFemConstraintPressure.cpp" line="321"/>
       <source>Input Error</source>
       <translation>입력 오류</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::DlgSettingsFemInOutVtkImp</name>
+    <message>
+      <location filename="../../DlgSettingsFemInOutVtkImp.cpp" line="78"/>
+      <source>All</source>
+      <translation>전체</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemInOutVtkImp.cpp" line="78"/>
+      <source>Highest</source>
+      <translation type="unfinished">Highest</translation>
     </message>
   </context>
 </TS>

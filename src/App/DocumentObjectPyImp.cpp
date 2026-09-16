@@ -26,7 +26,10 @@
 #include <Base/GeometryPyCXX.h>
 #include <Base/MatrixPy.h>
 #include <Base/PlacementPy.h>
+<<<<<<< HEAD
 #include <Base/Console.h>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include <Base/PyWrapParseTupleAndKeywords.h>
 #include <Base/ServiceProvider.h>
 
@@ -1093,6 +1096,7 @@ PyObject* DocumentObjectPy::getPlacementOf(PyObject* args)
     }
     PY_CATCH
 }
+<<<<<<< HEAD
 
 PyObject* DocumentObjectPy::moveProperty(PyObject* args) const
 {
@@ -1113,3 +1117,5 @@ PyObject* DocumentObjectPy::moveProperty(PyObject* args) const
         throw Py::RuntimeError(e.what());
     }
 }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

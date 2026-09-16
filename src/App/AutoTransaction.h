@@ -49,6 +49,7 @@ public:
     void* operator new(std::size_t) = delete;
 
 public:
+<<<<<<< HEAD
     /** Constructor
      * 
      * @param tid the ID of the transaction to manage
@@ -61,16 +62,65 @@ public:
     /** Destructor
      * 
      * This destructor attempts to commit the transaction it manages
+=======
+    /**
+     * @brief Construct an auto transaction.
+     *
+     * @param[in] name: optional new transaction name on construction
+     * @param[in] tmpName: if true and a new transaction is setup, the name given is
+     * considered as temporary, and subsequent construction of this class (or
+     * calling Application::setActiveTransaction()) can override the transaction
+     * name.
+     *
+     * The constructor increments an internal counter
+     * (Application::_activeTransactionGuard). The counter prevents any new
+     * active transactions being setup. It also prevents to close
+     * (i.e. commits) the current active transaction until it reaches zero. It
+     * does not have any effect on aborting transactions though.
+     */
+    AutoTransaction(const char* name = nullptr, bool tmpName = false);
+
+    /**
+     * @brief Destruct an auto transaction.
+     *
+     * This destructor decrease an internal counter
+     * (Application::_activeTransactionGuard), and will commit any current
+     * active transaction when the counter reaches zero.
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
      */
     ~AutoTransaction();
 
     /**
      * @brief Close or abort the transaction.
      *
+<<<<<<< HEAD
      * This function can be used to explicitly close (i.e. commit / abort) the
      * transaction,
      */
     void close(TransactionCloseMode mode = TransactionCloseMode::Commit);
+=======
+     * This function can be used to explicitly close (i.e. commit) the
+     * transaction, if the current transaction ID matches the one created inside
+     * the constructor. For aborting, it will abort any current transaction.
+     *
+     * @param[in] abort: if true, abort the transaction; otherwise, commit it.
+     */
+    void close(bool abort = false);
+
+    /**
+     * @brief Enable/Disable any AutoTransaction instance on the current stack.
+     *
+     * Once disabled, any empty temporary named transaction is closed. If there
+     * are non-empty or non-temporary named active transaction, it will not be
+     * auto closed.
+     *
+     * This function may be used in, for example, Gui::Document::setEdit() to
+     * allow a transaction live past any command scope.
+     *
+     * @param[in] enable: if true, enable the AutoTransaction; otherwise, disable it.
+     */
+    static void setEnable(bool enable);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 private:
     int tid { 0 };
@@ -86,6 +136,7 @@ private:
 class AppExport TransactionLocker
 {
 public:
+<<<<<<< HEAD
 
     /**
      * @brief Construct a transaction locker.
@@ -95,6 +146,17 @@ public:
     TransactionLocker(Document* doc, bool lock = true);
 
     /**
+=======
+
+    /**
+     * @brief Construct a transaction locker.
+     *
+     * @param[in] lock: whether to activate the lock
+     */
+    TransactionLocker(bool lock = true);
+
+    /**
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
      * @brief Destruct a transaction locker.
      *
      * Unlock the transaction if this locker is active
@@ -118,7 +180,14 @@ public:
     {
         return active;
     }
+<<<<<<< HEAD
     
+=======
+
+    /// Check if transaction is being locked.
+    static bool isLocked();
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     friend class Application;
 
 public:

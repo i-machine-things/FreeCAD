@@ -22,9 +22,15 @@
       <translation>&lt;p&gt;Εισάγει ένα εξάρτημα στη ενεργή συναρμολόγηση. Αυτό θα δημιουργήσει δυναμικούς συνδέσμους σε μέρη, σώματα, primitives και συναρμολογήσεις. Για να εισάγετε εξωτερικά εξαρτήματα, βεβαιωθείτε ότι το αρχείο είναι &lt;b&gt;ανοιχτό στη τρέχουσα συνεδρία&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Εισάγετε κάνοντας αριστερό κλικ σε αντικείμενα στη λίστα.&lt;/li&gt;&lt;li&gt;Αφαιρέστε κάνοντας δεξί κλικ σε αντικείμενα στη λίστα.&lt;/li&gt;&lt;li&gt;Πατήστε shift για να προσθέσετε πολλά αντίγραφα του εξαρτήματος κατά το κλικ στην προβολή.&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="80"/>
       <source>Insert Component</source>
       <translation>Εισαγωγή Εξαρτήματος</translation>
+=======
+      <location filename="../../../CommandInsertLink.py" line="81"/>
+      <source>Component</source>
+      <translation>Εξάρτημα</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -48,37 +54,65 @@
       <translation type="unfinished">Assembly</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active object</source>
       <translation>Ενεργό αντικείμενο</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn flexible</source>
       <translation>Μετατροπή σε ευέλικτο</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="156"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently rigid. This will make it flexible instead.</source>
       <translation>Η υπο-συναρμολόγησή σας είναι αυτή τη στιγμή ακαμψή. Αυτό θα την κάνει ευέλικτη.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="160"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn rigid</source>
       <translation>Μετατροπή σε ακαμψία</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="162"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
       <translation>Η υπο-συναρμολόγησή σας είναι αυτή τη στιγμή ευέλικτη. Αυτό θα την κάνει ακαμψή.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="329"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>N/A</source>
       <translation>Μη διαθέσιμο</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="353"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not supported</source>
       <translation>Δεν υποστηρίζεται</translation>
     </message>
@@ -130,7 +164,11 @@
     </message>
     <message>
       <location filename="../../../JointObject.py" line="55"/>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1896"/>
+=======
+      <location filename="../../../JointObject.py" line="1793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>Απόσταση</translation>
     </message>
@@ -170,32 +208,52 @@
       <translation>Ιμάντας</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="818"/>
+=======
+      <location filename="../../../JointObject.py" line="812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Broken link in: </source>
       <translation>Σπασμένος σύνδεσμος στο: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1238"/>
       <source>Edit Joint</source>
       <translation type="unfinished">Edit Joint</translation>
     </message>
     <message>
       <location filename="../../../JointObject.py" line="1704"/>
+=======
+      <location filename="../../../JointObject.py" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select 2 elements from 2 separate parts</source>
       <translation>Επιλέξτε 2 στοιχεία από 2 ξεχωριστά μέρη</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1898"/>
+=======
+      <location filename="../../../JointObject.py" line="1795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 1</source>
       <translation>Ακτίνα 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1900"/>
+=======
+      <location filename="../../../JointObject.py" line="1797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread pitch</source>
       <translation>Βήμα Σπειρώματος</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1902"/>
+=======
+      <location filename="../../../JointObject.py" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pitch radius</source>
       <translation>Ακτίνα βήματος</translation>
     </message>
@@ -255,16 +313,25 @@
       <translation>Αυτό το όνομα χρησιμοποιείται ήδη. Παρακαλώ επιλέξτε διαφορετικό όνομα.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Επιλογές</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="372"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-assembly children: the children of sub-assemblies will be included in the bill of materials</source>
       <translation>Παιδιά υπο-συναρμολόγησης: τα παιδιά υπο-συναρμολογήσεων θα συμπεριληφθούν στον πίνακα υλικών</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="378"/>
       <source>Parts children: the children of parts will be added to the bill of materials</source>
       <translation>Παιδιά τμημάτων: τα παιδιά των τμημάτων θα προστεθούν στον πίνακα υλικών</translation>
@@ -276,10 +343,24 @@
     </message>
     <message>
       <location filename="../../../CommandCreateBom.py" line="386"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="377"/>
+      <source>Parts children: the children of parts will be added to the bill of materials</source>
+      <translation>Παιδιά τμημάτων: τα παιδιά των τμημάτων θα προστεθούν στον πίνακα υλικών</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateBom.py" line="383"/>
+      <source>Only parts: adds only part containers and sub-assemblies to the bill of materials. Solids like Part Design bodies, fasteners, or Part workbench primitives are ignored.</source>
+      <translation>Μόνο εξαρτήματα: προσθέτει μόνο σύνολα εξαρτημάτων και υπο-συναρμολογήσεις στον πίνακα υλικών (BOM). Στερεά, όπως σώματα του Part Design, στοιχεία στερέωσης ή βασικά γεωμετρικά σχήματα (primitives) του Part workbench αγνοούνται.</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateBom.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Columns</source>
       <translation>Στήλες</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="399"/>
       <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
       <translation>Προσαρμοσμένες στήλες: η «Περιγραφή» (Description) και άλλες προσαρμοσμένες στήλες που προσθέτετε κάνοντας κλικ στο «Προσθήκη στήλης», δεν θα αντικατασταθούν από νέα δεδομένα. Εάν ένα όνομα στήλης ξεκινά με τελεία «.» ακολουθούμενη από το όνομα μιας ιδιότητας (π.χ. «Μήκος»), η στήλη θα συμπληρωθεί αυτόματα με την τιμή αυτής της ιδιότητας. Αυτές οι στήλες μπορούν να μετονομαστούν με διπλό κλικ ή πατώντας F2 (η μετονομασία μιας στήλης θα έχει ως αποτέλεσμα, προς το παρόν, την απώλεια των δεδομένων της).  </translation>
@@ -291,16 +372,37 @@
     </message>
     <message>
       <location filename="../../../CommandCreateBom.py" line="407"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="398"/>
+      <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
+      <translation>Προσαρμοσμένες στήλες: η «Περιγραφή» (Description) και άλλες προσαρμοσμένες στήλες που προσθέτετε κάνοντας κλικ στο «Προσθήκη στήλης», δεν θα αντικατασταθούν από νέα δεδομένα. Εάν ένα όνομα στήλης ξεκινά με τελεία «.» ακολουθούμενη από το όνομα μιας ιδιότητας (π.χ. «Μήκος»), η στήλη θα συμπληρωθεί αυτόματα με την τιμή αυτής της ιδιότητας. Αυτές οι στήλες μπορούν να μετονομαστούν με διπλό κλικ ή πατώντας F2 (η μετονομασία μιας στήλης θα έχει ως αποτέλεσμα, προς το παρόν, την απώλεια των δεδομένων της).  </translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateBom.py" line="404"/>
+      <source>Any column (custom or not), can be deleted by pressing the Delete key</source>
+      <translation>Οποιαδήποτε στήλη (προσαρμοσμένη ή μη) μπορεί να διαγραφεί πατώντας το πλήκτρο Delete.</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateBom.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export</source>
       <translation>Εξαγωγή</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="414"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported file format can be customized in the Spreadsheet workbench preferences</source>
       <translation>Η μορφή του εξαγόμενου αρχείου μπορεί να προσαρμοστεί στις προτιμήσεις του πάγκου εργασίας Spreadsheet.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="393"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto columns :  (Index, Quantity, Name...) are populated automatically. Any modification you make will be overridden. These columns cannot be renamed.</source>
       <translation>Αυτόματες στήλες: οι στήλες (Ευρετήριο, Ποσότητα, Όνομα...) συμπληρώνονται αυτόματα. Οποιαδήποτε τροποποίηση κάνετε θα αντικατασταθεί από το σύστημα. Αυτές οι στήλες δεν μπορούν να μετονομαστούν.</translation>
     </message>
@@ -352,6 +454,7 @@
       <translation>Να μη γίνει σύνδεση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="495"/>
       <source>Enter your formula…</source>
       <translation type="unfinished">Enter your formula…</translation>
@@ -360,6 +463,16 @@
       <location filename="../../../CommandCreateSimulation.py" line="548"/>
       <source>In capital are variables that you need to replace with actual values. 'initialValue' is dynamically replaced by the current angle or distance. More details about each example in its tooltip.</source>
       <translation type="unfinished">In capital are variables that you need to replace with actual values. 'initialValue' is dynamically replaced by the current angle or distance. More details about each example in its tooltip.</translation>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="488"/>
+      <source>Enter your formula...</source>
+      <translation>Εισάγετε τον τύπο σας...</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateSimulation.py" line="541"/>
+      <source>In capital are variables that you need to replace with actual values. More details about each example in its tooltip.</source>
+      <translation>Τα κεφαλαία γράμματα αντιπροσωπεύουν μεταβλητές που πρέπει να αντικαταστήσετε με πραγματικές τιμές. Περισσότερες λεπτομέρειες για κάθε παράδειγμα θα βρείτε στην αντίστοιχη αναδυόμενη συμβουλή (tooltip).</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="551"/>
@@ -380,6 +493,7 @@
       <location filename="../../../CommandCreateSimulation.py" line="559"/>
       <source> - Exponential: C*exp(time/TIMEC)</source>
       <translation>- Εκθετική: C*exp(time/TIMEC)</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="565"/>
@@ -390,6 +504,23 @@
       <location filename="../../../CommandCreateSimulation.py" line="572"/>
       <source> - Smooth Square Impulse: (H/pi)*(arctan(SLOPE*(time - T1)) - arctan(SLOPE*(time - T2)))</source>
       <translation>- Ομαλός Τετραγωνικός Παλμός: (H/pi)(arctan(SLOPE(time - T1)) - arctan(SLOPE*(time - T2)))</translation>
+=======
+    </message>
+    <message>
+      <location filename="../../../CommandCreateSimulation.py" line="558"/>
+      <source> - Smooth Step: L1 + (L2 - L1)*((1/2) + (1/pi)*arctan(SLOPE*(time - T0)))</source>
+      <translation>- Ομαλή Μετάβαση (Smooth Step): L1 + (L2 - L1)*((1/2) + (1/pi)arctan(SLOPE(time - T0)))</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateSimulation.py" line="565"/>
+      <source> - Smooth Square Impulse: (H/pi)*(arctan(SLOPE*(time - T1)) - arctan(SLOPE*(time - T2)))</source>
+      <translation>- Ομαλός Τετραγωνικός Παλμός: (H/pi)(arctan(SLOPE(time - T1)) - arctan(SLOPE*(time - T2)))</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateSimulation.py" line="572"/>
+      <source> - Smooth Ramp Top Impulse: ((1/pi)*(arctan(1000*(time - T1)) - arctan(1000*(time - T2))))*(((H2 - H1)/(T2 - T1))*(time - T1) + H1)</source>
+      <translation>- Παλμός με Ομαλή Κεκλιμένη Κορυφή: ((1/pi)(arctan(1000(time - T1)) - arctan(1000*(time - T2))))(((H2 - H1)/(T2 - T1))(time - T1) + H1)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="579"/>
@@ -682,23 +813,40 @@ H2 είναι το ύψος στο T2, στο τέλος της κλίσης.
       <translation>{order} αναφορά της σύνδεσης</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1288"/>
+=======
+      <location filename="../../../JointObject.py" line="1221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object to ground</source>
       <translation>Το αντικείμενο προς ακινητοποίηση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="376"/>
       <location filename="../../../CommandCreateView.py" line="413"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="368"/>
+      <location filename="../../../CommandCreateView.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects moved by the move</source>
       <translation>Τα αντικείμενα που μετακινούνται από τη μετακίνηση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="388"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is the movement of the move. The end placement is the result of the start placement * this placement.</source>
       <translation>Αυτή είναι η παράμετρος μετακίνησης. Η τελική θέση προκύπτει από τον πολλαπλασιασμό: της Αρχική θέσης * αυτή τη θέση.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="397"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of the move</source>
       <translation>Ο τύπος της μετακίνησης</translation>
     </message>
@@ -746,6 +894,7 @@ H2 είναι το ύψος στο T2, στο τέλος της κλίσης.
       <location filename="../../../CommandCreateSimulation.py" line="337"/>
       <source>The type of the motion</source>
       <translation>Ο τύπος της κίνησης</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../../../CommandCreateSnapshot.py" line="113"/>
@@ -766,6 +915,8 @@ H2 είναι το ύψος στο T2, στο τέλος της κλίσης.
       <location filename="../../../CommandCreateSnapshot.py" line="146"/>
       <source>If true, applying the snapshot will solve the assembly after restoring the placements.</source>
       <translation type="unfinished">If true, applying the snapshot will solve the assembly after restoring the placements.</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -854,6 +1005,19 @@ H2 είναι το ύψος στο T2, στο τέλος της κλίσης.
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="291"/>
       <source>Limits</source>
       <translation>Όρια</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="251"/>
+      <source>Min length</source>
+      <translation>Ελάχιστο Μήκος</translation>
+    </message>
+    <message>
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="274"/>
+      <source>Max length</source>
+      <translation>Μέγιστο μήκος</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="297"/>
@@ -895,8 +1059,13 @@ H2 είναι το ύψος στο T2, στο τέλος της κλίσης.
     </message>
     <message>
       <location filename="../panels/TaskAssemblyInsertLink.ui" line="39"/>
+<<<<<<< HEAD
       <source>Cannot find the part?</source>
       <translation type="unfinished">Cannot find the part?</translation>
+=======
+      <source>Cannot find the part? </source>
+      <translation>Δεν βρίσκετε το εξάρτημα?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/TaskAssemblyInsertLink.ui" line="46"/>
@@ -974,52 +1143,104 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>AssemblyGui::ViewProviderAssembly</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object is associated to one or more joints.</source>
       <translation>Το αντικείμενο συνδέεται με μία ή περισσότερες αρθρώσεις.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="215"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to move the object and delete associated joints?</source>
       <translation>Θέλετε να μετακινήσετε το αντικείμενο και να διαγράψετε τις σχετικές συνδέσεις?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1088"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move part</source>
       <translation>Μετακίνηση εξαρτήματος</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1805"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1679"/>
+      <source>ViewProviderAssembly</source>
+      <comment>and %1 more</comment>
+      <translation>ΠάροχοςΠροβολήςΣυναρμολόγησης (ViewProviderAssembly)</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty Assembly</source>
       <translation>Κενή Συναρμολόγηση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1817"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Over-constrained:</source>
       <translation>Υπερ-περιορισμένη:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1825"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malformed joints:</source>
       <translation>Ελαττωματικές Συνδέσεις:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1790"/>
       <source>and %1 more</source>
       <translation>και %1 ακόμη</translation>
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1849"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1717"/>
+      <source>Redundant joints:</source>
+      <translation>Πλεονάζουσες Συνδέσεις:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1725"/>
+      <source>Partially redundant:</source>
+      <translation>Μερικώς πλεονάζουσα:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver failed to converge</source>
       <translation>Ο επιλύτης (solver) δεν μπόρεσε να βρει λύση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1857"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Under-constrained:</source>
       <translation>Μη πλήρως περιορισμένη:</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1859"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1743"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%n Degrees of Freedom</source>
       <translation>
         <numerusform>%n ελεύθερη κίνηση</numerusform>
@@ -1027,7 +1248,11 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1863"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully constrained</source>
       <translation>Πλήρως περιορισμένη</translation>
     </message>
@@ -1040,9 +1265,15 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       <translation>Κοχλιωτή Σύνδεση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="323"/>
       <source>&lt;p&gt;Creates a screw joint that links a part with a slider joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and slider joints. The pitch radius defines the movement ratio between the rotating screw and the sliding part.&lt;/p&gt;</source>
       <translation type="unfinished">&lt;p&gt;Creates a screw joint that links a part with a slider joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and slider joints. The pitch radius defines the movement ratio between the rotating screw and the sliding part.&lt;/p&gt;</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="324"/>
+      <source>&lt;p&gt;Creates a screw joint that links a part with a sliding joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and sliding joints. The pitch radius defines the movement ratio between the rotating screw and the sliding part.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Δημιουργεί μια σύνδεση βίδας η οποία συνδέει ένα εξάρτημα που διαθέτει ολισθαίνουσα σύνδεση με ένα εξάρτημα που διαθέτει περιστροφική σύνδεση.&lt;/p&gt;&lt;p&gt;Επιλέξτε τα ίδια συστήματα συντεταγμένων με αυτά της περιστροφικής και της ολισθαίνουσας σύνδεσης. Η ακτίνα βήματος (pitch radius) καθορίζει τη σχέση κίνησης μεταξύ της περιστρεφόμενης βίδας και του εξαρτήματος που ολισθαίνει.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1163,7 +1394,11 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly::AssemblyLink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AssemblyLink.cpp" line="704"/>
+=======
+      <location filename="../../../App/AssemblyLink.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Joints</source>
       <translation>Συνδέσεις</translation>
     </message>
@@ -1171,7 +1406,11 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="168"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Rigid</source>
       <translation>Ενεργοποίηση/Απενεργοποίηση ακαμψίας</translation>
     </message>
@@ -1356,9 +1595,15 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       <translation>Σταθερή Σύνδεση</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="82"/>
       <source>&lt;p&gt;1 - If an assembly is active : Creates a joint statically locking two parts together, preventing any movement or rotation&lt;/p&gt;&lt;p&gt;2 - If a part is active: Positions sub-parts by matching selected coordinate systems. The second part selected will move.&lt;/p&gt;</source>
       <translation type="unfinished">&lt;p&gt;1 - If an assembly is active : Creates a joint statically locking two parts together, preventing any movement or rotation&lt;/p&gt;&lt;p&gt;2 - If a part is active: Positions sub-parts by matching selected coordinate systems. The second part selected will move.&lt;/p&gt;</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="83"/>
+      <source>&lt;p&gt;1 - If an assembly is active : Creates a joint permanently locking two parts together, preventing any movement or rotation&lt;/p&gt;&lt;p&gt;2 - If a part is active: Positions sub-parts by matching selected coordinate systems. The second part selected will move.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;1 - Εάν μια συναρμολόγηση είναι ενεργή: Δημιουργεί μια σύνδεση που κλειδώνει μόνιμα δύο εξαρτήματα μεταξύ τους, εμποδίζοντας οποιαδήποτε κίνηση ή περιστροφή.&lt;/p&gt;&lt;p&gt;2 - Εάν ένα εξάρτημα είναι ενεργό: Τοποθετεί υπο-εξαρτήματα ταιριάζοντας τα επιλεγμένα συστήματα συντεταγμένων. Το δεύτερο επιλεγμένο εξάρτημα θα μετακινηθεί.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1473,9 +1718,15 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       <translation>Σύνδεση Κρεμαγιέρας/Πινιόν</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="299"/>
       <source>&lt;p&gt;Creates a rack and pinion joint that links a part with a slider joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and slider joints. The pitch radius defines the movement ratio between the rack and the pinion.&lt;/p&gt;</source>
       <translation type="unfinished">&lt;p&gt;Creates a rack and pinion joint that links a part with a slider joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and slider joints. The pitch radius defines the movement ratio between the rack and the pinion.&lt;/p&gt;</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="300"/>
+      <source>&lt;p&gt;Creates a rack and pinion joint that links a part with a sliding joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Selects the same coordinate systems as the revolute and sliding joints. The pitch radius defines the movement ratio between the rack and the pinion.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;Δημιουργεί μια σύνδεση κρεμαγιέρας και πινιόν (οδοντωτού κανόνα και γραναζιού) η οποία συνδέει ένα εξάρτημα που διαθέτει ολισθαίνουσα σύνδεση με ένα εξάρτημα που διαθέτει περιστροφική σύνδεση.&lt;/p&gt;&lt;p&gt;Επιλέξτε τα ίδια συστήματα συντεταγμένων με αυτά της περιστροφικής και της ολισθαίνουσας σύνδεσης. Η ακτίνα βήματος καθορίζει τη σχέση κίνησης μεταξύ της κρεμαγιέρας και του πινιόν.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1507,14 +1758,24 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_ToggleGrounded</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="430"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Grounded</source>
       <translation>Ενεργοποίηση/Απενεργοποίηση ακινητοποίησης</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="436"/>
       <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</source>
       <translation type="unfinished">&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="437"/>
+      <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation. You need at least one grounded part before starting to assemble.</source>
+      <translation>&lt;p&gt;Εναλλάσσει την ακινητοποίηση (grounding) ενός εξαρτήματος&lt;/p&gt;&lt;p&gt;Η ακινητοποίηση ενός εξαρτήματος κλειδώνει μόνιμα τη θέση του στη συναρμολόγηση, αποτρέποντας οποιαδήποτε κίνηση ή περιστροφή. Χρειάζεστε τουλάχιστον ένα ακινητοποιημένο εξάρτημα πριν ξεκινήσετε τη συναρμολόγηση.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1551,12 +1812,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       <translation>Εισαγωγή Εξαρτήματος</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="222"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Partially loaded</source>
       <translation>Έχει φορτωθεί εν μέρει</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="615"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully load document</source>
       <translation>Πλήρης φόρτωση εγγράφου</translation>
     </message>
@@ -1570,6 +1839,7 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
     </message>
     <message>
       <location filename="../../TaskAssemblyMessages.cpp" line="56"/>
+<<<<<<< HEAD
       <source>Selects these conflicting joints</source>
       <translation type="unfinished">Selects these conflicting joints</translation>
     </message>
@@ -1722,6 +1992,25 @@ Note: Currently this selects only unconnected parts, not constrained parts that 
       <location filename="../../Commands.cpp" line="312"/>
       <source>Selects all joints referencing the selected component</source>
       <translation type="unfinished">Selects all joints referencing the selected component</translation>
+=======
+      <source>Click to select these conflicting joints.</source>
+      <translation>Κάντε κλικ για να επιλέξετε αυτές τις συνδέσεις που έρχονται σε σύγκρουση περιορισμών μεταξύ τους.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="59"/>
+      <source>Click to select these redundant joints.</source>
+      <translation>Κάντε κλικ για να επιλέξετε αυτές τις πλεονάζουσες συνδέσεις.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="63"/>
+      <source>The assembly has unconstrained components giving rise to those Degrees Of Freedom. Click to select these unconstrained components.</source>
+      <translation>Η συναρμολόγηση έχει εξαρτήματα που δεν έχουν περιοριστεί πλήρως, αφήνοντας αυτούς τους Βαθμούς Ελευθερίας. Κάντε κλικ για να επιλέξετε τα εξαρτήματα που μπορούν ακόμα να κινηθούν.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="68"/>
+      <source>Click to select these malformed joints.</source>
+      <translation>Κάντε κλικ για να επιλέξετε αυτές τις ελαττωματικές συνδέσεις.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

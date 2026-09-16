@@ -613,7 +613,11 @@ void AttachExtension::handleLegacyTangentPlaneOrientation()
 
         // convert placement and expressions according to the dominant axis
         auto makeRotatedExpression =
+<<<<<<< HEAD
             [owner](const App::Expression* expr, double angle) -> App::ExpressionPtr {
+=======
+            [owner](const App::Expression* expr, double angle) -> App::Expression* {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             if (!expr) {
                 return nullptr;
             }
@@ -626,8 +630,13 @@ void AttachExtension::handleLegacyTangentPlaneOrientation()
                 unitSafeExprStr += " - " + std::to_string(-angle);
             }
 
+<<<<<<< HEAD
             if (App::ExpressionPtr simple = expr->eval(); simple) {
                 if (auto ue = dynamic_cast<const App::UnitExpression*>(simple.get())) {
+=======
+            if (const App::Expression* simple = expr->eval()) {
+                if (auto ue = dynamic_cast<const App::UnitExpression*>(simple)) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     const auto& q = ue->getQuantity();
                     if (q.getUnit() == Base::Unit::Angle) {
                         unitSafeExprStr += " deg";
@@ -637,9 +646,15 @@ void AttachExtension::handleLegacyTangentPlaneOrientation()
 
             return App::ExpressionParser::parse(owner, unitSafeExprStr.c_str());
         };
+<<<<<<< HEAD
         App::ExpressionPtr newExprX {};
         App::ExpressionPtr newExprY {};
         App::ExpressionPtr newExprYaw {};
+=======
+        App::Expression* newExprX = nullptr;
+        App::Expression* newExprY = nullptr;
+        App::Expression* newExprYaw = nullptr;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if (axis == 0) {  // normal mostly X
             // values
             std::swap(position.x, position.y);

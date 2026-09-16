@@ -824,8 +824,11 @@ TEST_F(SchemaTest, sweep_internal)
          "1000 m^2",
          "1 km^2",
          /* default */ "1e+06 km^2"},
+<<<<<<< HEAD
         // Inertia
         {"1 kg*mm^2", "10 kg*mm^2", "100 kg*mm^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         // Volume
         {"1 mm^3",
          "10 mm^3",
@@ -839,6 +842,7 @@ TEST_F(SchemaTest, sweep_internal)
          "1 m^3",
          "10 m^3",
          /* default */ "1e+06 m^3"},
+<<<<<<< HEAD
         // Amount of Substance
         {"1 nmol",
          "1 \xC2\xB5mol",
@@ -869,6 +873,8 @@ TEST_F(SchemaTest, sweep_internal)
          "10 A",
          "100 A",
          /* default */ "1e+07 A"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         // Pressure
         {"1 Pa",
          "10 Pa",
@@ -898,6 +904,7 @@ TEST_F(SchemaTest, sweep_internal)
          "10 MN",
          /* default */ "1e+06 MN"},
         // Power
+<<<<<<< HEAD
         {"1 nW",
          "10 nW",
          "100 nW",
@@ -905,6 +912,9 @@ TEST_F(SchemaTest, sweep_internal)
          "10 \xC2\xB5W",
          "100 \xC2\xB5W",
          "1 mW",
+=======
+        {"1 mW",
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
          "10 mW",
          "100 mW",
          "1 W",
@@ -1032,10 +1042,14 @@ TEST_F(SchemaTest, sweep_internal)
          "1 MOhm",
          /* default */ "1e+06 MOhm"},
         // MagneticFluxDensity
+<<<<<<< HEAD
         {"1 mT",
          "10 mT",
          "100 mT",
          "1 T",
+=======
+        {"1 T",
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
          /* default */ "1e+06 T"},
         // Stiffness
         {"1 mN/m",
@@ -1252,8 +1266,11 @@ TEST_F(SchemaTest, sweep_mks)
          "100 mF",
          "1 F",
          /* default */ "1e+06 F"},
+<<<<<<< HEAD
         // Inertia
         {"1 kg*m^2", "10 kg*m^2", "100 kg*m^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     });
 }
 
@@ -1298,8 +1315,11 @@ TEST_F(SchemaTest, sweep_imperial)
          "100 psi",
          "1 ksi",
          /* default */ "1e+06 psi"},
+<<<<<<< HEAD
         // Inertia
         {"1 lb*in^2", "10 lb*in^2", "100 lb*in^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     });
 }
 
@@ -1312,7 +1332,10 @@ TEST_F(SchemaTest, sweep_imperial_decimal)
         {"1 in^2", "10 in^2", "100 in^2"},
         {"1 in^3", "10 in^3"},
         {"1 lb", "10 lb", "100 lb"},
+<<<<<<< HEAD
         {"1 lb*in^2", "10 lb*in^2", "100 lb*in^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         {"1 psi", "10 psi", "100 psi"},
     });
 }
@@ -1330,6 +1353,7 @@ TEST_F(SchemaTest, sweep_imperial_building)
     });
 }
 
+<<<<<<< HEAD
 TEST_F(SchemaTest, imperial_building_density_uses_lb_ft3)
 {
     const auto result = setWithPrecision(
@@ -1366,6 +1390,8 @@ TEST_F(SchemaTest, imperial_civil_density_uses_lb_ft3)
     EXPECT_EQ(result, "1.000000 lb/ft^3");
 }
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 TEST_F(SchemaTest, sweep_imperial_civil)
 {
     UnitsApi::setSchema("ImperialCivil");
@@ -1375,7 +1401,10 @@ TEST_F(SchemaTest, sweep_imperial_civil)
         {"1 ft^2", "10 ft^2", "100 ft^2"},
         {"1 ft^3", "10 ft^3"},
         {"1 lb", "10 lb", "100 lb"},
+<<<<<<< HEAD
         {"1 lb*ft^2", "10 lb*ft^2", "100 lb*ft^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         {"1 psi", "10 psi", "100 psi"},
         {"1 mph", "10 mph", "100 mph"},
         // Angle (toDMS)
@@ -1391,7 +1420,10 @@ TEST_F(SchemaTest, sweep_centimeter)
         {"1 cm", "10 cm", "100 cm", "1000 cm"},
         {"1 m^2", "10 m^2", "100 m^2"},
         {"1 m^3", "10 m^3"},
+<<<<<<< HEAD
         {"1 kg*cm^2", "10 kg*cm^2", "100 kg*cm^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         {"1 W", "10 W", "100 W"},
         {"1 V", "10 V", "100 V"},
     });
@@ -1425,7 +1457,10 @@ TEST_F(SchemaTest, sweep_meter_decimal)
         {"1 m", "10 m", "100 m", "1000 m"},
         {"1 m^2", "10 m^2", "100 m^2"},
         {"1 m^3", "10 m^3"},
+<<<<<<< HEAD
         {"1 kg*m^2", "10 kg*m^2", "100 kg*m^2"},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         {"1 W", "10 W", "100 W"},
         {"1 V", "10 V", "100 V"},
         {"1 m/s", "10 m/s", "100 m/s"},

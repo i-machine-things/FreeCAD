@@ -655,6 +655,28 @@ PyObject* ApplicationPy::sGetExportType(PyObject* /*self*/, PyObject* args)
 
         return Py::new_reference_to(list);
     }
+<<<<<<< HEAD
+=======
+    else {
+        Py::Dict dict;
+        std::vector<std::string> types = GetApplication().getExportTypes();
+        for (const auto& it : types) {
+            std::vector<std::string> modules = GetApplication().getExportModules(it);
+            if (modules.empty()) {
+                dict.setItem(it.c_str(), Py::None());
+            }
+            else if (modules.size() == 1) {
+                dict.setItem(it.c_str(), Py::String(modules.front()));
+            }
+            else {
+                Py::List list;
+                for (const auto& jt : modules) {
+                    list.append(Py::String(jt));
+                }
+                dict.setItem(it.c_str(), list);
+            }
+        }
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     Py::Dict dict;
     std::vector<std::string> types = GetApplication().getExportTypes();

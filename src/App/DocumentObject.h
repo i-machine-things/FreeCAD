@@ -1370,6 +1370,7 @@ public:
      */
     static const char* hasHiddenMarker(const char* subname);
 
+<<<<<<< HEAD
     /**
      * @brief Find the placement of a target object as seen from this.
      *
@@ -1407,6 +1408,19 @@ public:
      */
     static std::set<ObjectIdentifier> getPropertyUses(const App::Property* prop);
 
+=======
+    /* Find the placement of a target object as seen from this.
+    If no targetObj given, the last object found in the subname is used as target.
+    */
+    virtual Base::Placement getPlacementOf(const std::string& sub, DocumentObject* targetObj = nullptr);
+
+    /* Returns the Placement property value if any.*/
+    virtual Base::Placement getPlacement() const;
+
+    /* Returns the Placement property to use if any*/
+    virtual App::PropertyPlacement* getPlacementProperty() const;
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 protected:
     /// Recompute only this object.
     virtual App::DocumentObjectExecReturn* recompute();

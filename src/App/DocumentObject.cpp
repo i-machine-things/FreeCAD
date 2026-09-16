@@ -1940,6 +1940,7 @@ App::PropertyPlacement* DocumentObject::getPlacementProperty() const
     return getPropertyByName<App::PropertyPlacement>("Placement");
 }
 
+<<<<<<< HEAD
 bool DocumentObject::canPropBeReferenced(const App::Property* prop)
 {
     if (!prop) {
@@ -2001,3 +2002,6 @@ std::set<ObjectIdentifier> DocumentObject::getPropertyUses(const App::Property *
 
     return uses;
 }
+=======
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

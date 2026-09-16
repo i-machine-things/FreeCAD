@@ -160,6 +160,12 @@ def setup(doc=None, solvertype="ccxtools", test_mode=False):
     analysis.addObject(con_sectionpr)
 
     # mesh
+<<<<<<< HEAD
+=======
+    from .meshes.mesh_section_print_tetra10 import create_nodes, create_elements
+
+    fem_mesh = generate_mesh.mesh_from_existing(create_nodes, create_elements)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     femmesh_obj = analysis.addObject(ObjectsFem.makeMeshGmsh(doc, get_meshname()))[0]
     femmesh_obj.Shape = geom_obj
     femmesh_obj.CharacteristicLengthMax = "10 mm"

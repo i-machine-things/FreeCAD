@@ -70,8 +70,11 @@ class DrawSketchHandlerArcOfParabola: public DrawSketchHandlerArcOfParabolaBase
 {
     Q_DECLARE_TR_FUNCTIONS(SketcherGui::DrawSketchHandlerArcOfParabola)
 
+<<<<<<< HEAD
     friend DSHArcOfParabolaController;
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 public:
     explicit DrawSketchHandlerArcOfParabola()
         : DrawSketchHandlerArcOfParabolaBase()

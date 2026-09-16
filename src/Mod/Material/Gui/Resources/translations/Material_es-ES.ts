@@ -720,26 +720,43 @@ Si no está marcado, serán ordenadas por su nombre.</translation>
       <translation>Borrar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="199"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
       <translation>Guardar sobre el archivo original puede causar que otros documentos se dañen. Esto no es recomendado.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="223"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save as new material</source>
       <translation>Guardar como material nuevo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="196"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save over &apos;%1&apos;?</source>
       <translation>¿Sobreescribir &apos;%1&apos;?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="221"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Save as New Material</source>
       <translation>Confirmar guardado como nuevo material</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="226"/>
       <source>This material already exists in this library. Save as a new material?</source>
       <translation>Este material ya existe en esta biblioteca. ¿Guardar como un nuevo material?</translation>
@@ -751,32 +768,66 @@ Si no está marcado, serán ordenadas por su nombre.</translation>
     </message>
     <message>
       <location filename="../../MaterialSave.cpp" line="250"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="225"/>
+      <source>This material already exists in this library. Save as a new material?</source>
+      <translation>Este material ya existe en esta biblioteca. ¿Guardar como un nuevo material?</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="247"/>
+      <source>Confirm Save as Copy</source>
+      <translation>Confirmar guardado como copia</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save as copy</source>
       <translation>Guardar como copia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="253"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</source>
       <translation>No se recomienda guardar una copia, ya que puede dañar otros documentos. Se recomienda guardar como un nuevo material.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="256"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Copy</source>
       <translation>Guardar copia</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="257"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save As New</source>
       <translation>Guardar como nuevo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="489"/>
       <location filename="../../MaterialSave.cpp" line="499"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="488"/>
+      <location filename="../../MaterialSave.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New folder</source>
       <translation>Nueva carpeta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="539"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Context Menu</source>
       <translation>Menú contextual</translation>
     </message>
@@ -1154,23 +1205,40 @@ Si no está marcado, serán ordenadas por su nombre.</translation>
       <translation>Material</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="193"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Overwrite</source>
       <translation>Confirmar sobrescritura</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="383"/>
       <location filename="../../MaterialSave.cpp" line="384"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="382"/>
+      <location filename="../../MaterialSave.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No writeable library</source>
       <translation>No hay biblioteca escribible</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="571"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete &apos;%1&apos;?</source>
       <translation>¿Eliminar &apos;%1&apos;?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="575"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing this will also remove all contents.</source>
       <translation>Al eliminar esto también se eliminará todo el contenido.</translation>
     </message>
@@ -1198,6 +1266,10 @@ Si no está marcado, serán ordenadas por su nombre.</translation>
       <location filename="../../Array2D.cpp" line="170"/>
       <location filename="../../MaterialSave.cpp" line="568"/>
       <location filename="../../ListEdit.cpp" line="142"/>
+<<<<<<< HEAD
+=======
+      <location filename="../../MaterialSave.cpp" line="567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Delete</source>
       <translation>Confirmar eliminación</translation>
     </message>
@@ -1437,6 +1509,7 @@ Si no está marcado, serán ordenadas por su nombre.</translation>
       <location filename="../../DlgDisplayPropertiesImp.cpp" line="190"/>
       <source>All materials</source>
       <translation>Todos los materiales</translation>
+<<<<<<< HEAD
     </message>
   </context>
   <context>
@@ -1445,6 +1518,8 @@ Si no está marcado, serán ordenadas por su nombre.</translation>
       <location filename="../../DlgMaterialImp.cpp" line="263"/>
       <source>Set Material</source>
       <translation>Establecer Material</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

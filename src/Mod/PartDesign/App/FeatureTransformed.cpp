@@ -278,8 +278,13 @@ App::DocumentObjectExecReturn* Transformed::recomputePreview()
             if (auto* feature = freecad_cast<FeatureAddSub*>(original)) {
                 auto shape = feature->AddSubShape.getShape();
 
+<<<<<<< HEAD
                 gp_Trsf trsf = supportTransform.Inverted().Multiplied(
                     feature->getLocation().Transformation()
+=======
+                gp_Trsf trsf = feature->getLocation().Transformation().Multiplied(
+                    supportTransform.Inverted()
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 );
 
                 if (shape.isNull()) {

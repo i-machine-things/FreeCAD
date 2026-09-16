@@ -59,7 +59,10 @@
 #include "Document.h"
 #include "SoFCSelection.h"
 #include "Tools.h"
+<<<<<<< HEAD
 #include "TranslateManip.h"
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 #include "Utilities.h"
 #include "ViewParams.h"
 #include "Window.h"
@@ -529,8 +532,38 @@ void ViewProviderAnnotationLabel::dragFinishCallback(void* data, SoDragger*)
 void ViewProviderAnnotationLabel::dragMotionCallback(void* data, SoDragger* drag)
 {
     auto that = static_cast<ViewProviderAnnotationLabel*>(data);
+<<<<<<< HEAD
     if (!that->dragState) {
         return;
+=======
+    if (auto* obj = that->getObject<App::AnnotationLabel>()) {
+        Base::Vector3d basepos = obj->BasePosition.getValue();
+        Base::Vector3d textpos = obj->TextPosition.getValue();
+
+        auto globalText = Base::convertTo<SbVec3f>(basepos + textpos);
+        SbVec3f pnt = drag->getWorldStartingPoint();
+        // difference between the label's origin and the picked point
+        SbVec3f move = pnt - globalText;
+
+        SbViewVolume vv = drag->getViewVolume();
+        SbVec3f normal = vv.getProjectionDirection();
+
+        SbPlane plane(normal, pnt);
+
+        const SoEvent* ev = drag->getEvent();
+        const SbViewportRegion& vpr = drag->getViewportRegion();
+
+        SbLine line;
+        vv.projectPointToLine(ev->getNormalizedPosition(vpr), line);
+
+        SbVec3f intersect;
+        plane.intersect(line, intersect);
+        drag->setStartingPoint(intersect);
+
+        auto text = Base::convertTo<Base::Vector3d>(intersect - move);
+        text = text - basepos;
+        obj->TextPosition.setValue(text);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
 
     DragState& state = *that->dragState;

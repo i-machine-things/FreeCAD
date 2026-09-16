@@ -131,7 +131,11 @@ App::DocumentObjectExecReturn* AssemblyObject::execute()
         "User parameter:BaseApp/Preferences/Mod/Assembly"
     );
     if (hGrp->GetBool("SolveOnRecompute", true)) {
+<<<<<<< HEAD
         solve(false);
+=======
+        solve(false, false);  // No need to update jcs since recompute updated them.
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
     return ret;
 }

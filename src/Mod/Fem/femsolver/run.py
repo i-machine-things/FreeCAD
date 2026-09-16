@@ -40,7 +40,10 @@ import os
 import os.path
 import shutil
 import tempfile
+<<<<<<< HEAD
 from traceback import format_exception_only
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from PySide import QtCore
 
 # import threading  # not used ATM
@@ -52,7 +55,10 @@ from . import signal
 from . import task
 from femsolver.elmer import elmertools
 from femsolver.calculix import calculixtools
+<<<<<<< HEAD
 from femsolver.z88 import z88tools
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 from femtools import femutils
 from femtools import membertools
 from femtools.errors import DirectoryDoesNotExistError
@@ -114,8 +120,11 @@ def run_fem_solver(solver, working_dir=None, blocking=False):
             tool = elmertools.ElmerTools(solver)
         case "Fem::SolverCalculiX":
             tool = calculixtools.CalculiXTools(solver)
+<<<<<<< HEAD
         case "Fem::SolverZ88":
             tool = z88tools.Z88Tools(solver)
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     if tool is not None:
         # Redirect process error to report view
@@ -131,7 +140,11 @@ def run_fem_solver(solver, working_dir=None, blocking=False):
         except Exception as e:
             if App.GuiUp:
                 QtGui.QApplication.restoreOverrideCursor()
+<<<<<<< HEAD
             App.Console.PrintError("".join(format_exception_only(e)))
+=======
+            raise e
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         return
 
     # code for old solver implementations

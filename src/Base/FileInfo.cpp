@@ -330,8 +330,12 @@ bool FileInfo::isWritable() const
     // convert filename from UTF-8 to windows WSTRING
     std::wstring fileNameWstring = toStdWString();
     // requires import of <windows.h>
+<<<<<<< HEAD
     // Use explicit wide API: FreeCAD does not rely on the UNICODE macro being set.
     DWORD attributes = GetFileAttributesW(fileNameWstring.c_str());
+=======
+    DWORD attributes = GetFileAttributes(fileNameWstring.c_str());
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     if (attributes == INVALID_FILE_ATTRIBUTES) {
         // Log the error?
         std::clog << "GetFileAttributes failed for file: " << FileName << '\n';

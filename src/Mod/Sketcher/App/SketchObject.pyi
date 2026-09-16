@@ -313,7 +313,11 @@ class SketchObject(Part2DObject):
         """
         ...
 
+<<<<<<< HEAD
     def carbonCopy(self, objName: str, asConstruction: bool = True, /) -> None:
+=======
+    def carbonCopy(self, objName: str, asConstruction: bool = True) -> None:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         """
         Copy another sketch's geometry and constraints into this sketch.
 

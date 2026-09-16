@@ -36,10 +36,15 @@ import FreeCADGui
 from FreeCADGui import Selection
 
 import Draft
+<<<<<<< HEAD
 import Part
 
 from PySide6 import QtWidgets
 from PySide6.QtCore import QModelIndex, QItemSelectionModel
+=======
+
+from PySide6 import QtWidgets
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 
 class TestSelectAllInstances(unittest.TestCase):
@@ -110,6 +115,11 @@ class TestSelectAllInstances(unittest.TestCase):
         self.doc.recompute()
         FreeCADGui.updateGui()
 
+<<<<<<< HEAD
+=======
+        self._debug_print_document_structure()
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         # Get tree widget
         tree = self._get_tree_widget()
         self.assertIsNotNone(tree, "Could not find tree widget")
@@ -184,6 +194,11 @@ class TestSelectAllInstances(unittest.TestCase):
         self.doc.recompute()
         FreeCADGui.updateGui()
 
+<<<<<<< HEAD
+=======
+        self._debug_print_document_structure()
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         # Get tree widget
         tree = self._get_tree_widget()
         self.assertIsNotNone(tree, "Could not find tree widget")
@@ -203,6 +218,11 @@ class TestSelectAllInstances(unittest.TestCase):
         # Count selected Cube items in tree
         count = self._count_tree_selections_by_name("Cube")
 
+<<<<<<< HEAD
+=======
+        self._debug_print_tree_selection(tree, count)
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         # We expect 3 instances:
         # 1. Cube under Cut
         # 2. Cube under Cut001
@@ -247,6 +267,7 @@ class TestSelectAllInstances(unittest.TestCase):
         self.assertGreaterEqual(
             count, 1, f"Expected at least 1 'Box' instance selected, got {count}."
         )
+<<<<<<< HEAD
 
     def test_subelement_selection_preserved_on_tree_click(self):
         """Issue #30161: selecting an Origin plane in the tree must not
@@ -329,3 +350,5 @@ class TestSelectAllInstances(unittest.TestCase):
         self.assertTrue(
             any("XY_Plane" in s for s in sub_names), f"XY_Plane was not added. Got: {sub_names}"
         )
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

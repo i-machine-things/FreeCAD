@@ -440,6 +440,40 @@ Base::Vector3d GridExtensionP::getPointInSketchCoordinates(const SbVec3f& point)
     result.TransformToCoordinateSystem(gridOrigin, xaxis, yaxis);
 
     return result;
+<<<<<<< HEAD
+=======
+}
+
+int GridExtensionP::getViewOrientationFactor() const
+{
+    auto* app = Gui::Application::Instance;
+    if (!app) {
+        return 1;
+    }
+
+    auto* editDoc = app->editDocument();
+    if (!editDoc) {
+        return 1;
+    }
+
+    auto* view = dynamic_cast<Gui::View3DInventor*>(editDoc->getActiveView());
+    if (!view) {
+        return 1;
+    }
+
+    auto* viewer = view->getViewer();
+    if (!viewer) {
+        return 1;
+    }
+
+    auto* camera = viewer->getSoRenderManager()->getCamera();
+    if (!camera) {
+        return 1;
+    }
+
+    auto cameraPosition = getPointInSketchCoordinates(camera->position.getValue());
+    return cameraPosition.z < 0 ? -1 : 1;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 int GridExtensionP::getViewOrientationFactor() const

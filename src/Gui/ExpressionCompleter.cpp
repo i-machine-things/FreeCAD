@@ -293,6 +293,7 @@ public:
     ) const
     {
         if (!this->namedPropsCache.contains(obj)) {
+<<<<<<< HEAD
             auto& list = this->namedPropsCache[obj];
             obj->getPropertyNamedList(list);
 
@@ -321,6 +322,10 @@ public:
                 "Cached properties for " << obj->getNameInDocument() << " ("
                                          << this->namedPropsCache[obj].size() << " props)"
             );
+=======
+            this->namedPropsCache[obj];
+            obj->getPropertyNamedList(this->namedPropsCache[obj]);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
         return this->namedPropsCache[obj];
     }

@@ -35,7 +35,11 @@
   <context>
     <name>Notifications</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Document.cpp" line="1230"/>
+=======
+      <location filename="../../Document.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
 It is recommended that the user right-click the root of the document and select Mark to recompute.
 The user should then click the Refresh button in the main toolbar.
@@ -49,38 +53,67 @@ The user should then click the Refresh button in the main toolbar.
   <context>
     <name>App::LocalCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="267"/>
+=======
+      <location filename="../../Datums.cpp" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X-axis</source>
       <translation>X轴</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="268"/>
+=======
+      <location filename="../../Datums.cpp" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y-axis</source>
       <translation>Y轴</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="269"/>
+=======
+      <location filename="../../Datums.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z-axis</source>
       <translation>Z轴</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="270"/>
+=======
+      <location filename="../../Datums.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XY-plane</source>
       <translation>XY平面</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="271"/>
+=======
+      <location filename="../../Datums.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XZ-plane</source>
       <translation>XZ平面</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="272"/>
+=======
+      <location filename="../../Datums.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>YZ-plane</source>
       <translation>YZ平面</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="273"/>
       <source>Origin-Point</source>
+=======
+      <location filename="../../Datums.cpp" line="271"/>
+      <source>Origin</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>原点</translation>
     </message>
   </context>

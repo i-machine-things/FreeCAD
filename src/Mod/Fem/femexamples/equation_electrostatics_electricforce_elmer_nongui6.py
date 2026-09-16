@@ -39,7 +39,11 @@ def get_information():
         "name": "Electrostatics Electricforce - Elmer NonGUI6",
         "meshtype": "solid",
         "meshelement": "Tet10",
+<<<<<<< HEAD
         "constraints": ["electromagnetic"],
+=======
+        "constraints": ["electrostatic potential"],
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         "solvers": ["calculix", "elmer"],
         "material": "fluid",
         "equations": ["electrostatic"],
@@ -139,8 +143,13 @@ def setup(doc=None, solvertype="elmer"):
 
     # constraint potential 1V
     name_pot2 = "ElectrostaticPotential2"
+<<<<<<< HEAD
     con_elect_pot2 = ObjectsFem.makeConstraintElectromagnetic(doc, name_pot2)
     con_elect_pot2.References = [(fusion, "Face4")]
+=======
+    con_elect_pot2 = ObjectsFem.makeConstraintElectrostaticPotential(doc, name_pot2)
+    con_elect_pot2.References = [(geom_obj, "Face4")]
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_elect_pot2.Potential = "1 V"
     con_elect_pot2.CapacitanceBody = 2
     con_elect_pot2.CapacitanceBodyEnabled = True

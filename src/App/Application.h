@@ -591,6 +591,7 @@ public:
      *
      * @param[in] sName The name of the new parameter set.
      */
+<<<<<<< HEAD
     void AddParameterSet(const char* sName);
 
     /**
@@ -723,6 +724,42 @@ public:
     std::map<std::string, std::string> getExportFilters(const std::string& extension) const;
 
     /// Get a mapping of all export filters to their modules.
+=======
+    //@{
+    /// Register an import filetype and a module name
+    void addImportType(const char* Type, const char* ModuleName);
+    /// Change the module name of a registered filetype
+    void changeImportModule(const char* Type, const char* OldModuleName, const char* NewModuleName);
+    /// Return a list of modules that support the given filetype.
+    std::vector<std::string> getImportModules(const std::string& Type) const;
+    /// Return a list of all modules.
+    std::vector<std::string> getImportModules() const;
+    /// Return a list of filetypes that are supported by a module.
+    std::vector<std::string> getImportTypes(const std::string& Module) const;
+    /// Return a list of all filetypes.
+    std::vector<std::string> getImportTypes() const;
+    /// Return the import filters with modules of a given filetype.
+    std::map<std::string, std::string> getImportFilters(const std::string& Type) const;
+    /// Return a list of all import filters.
+    std::map<std::string, std::string> getImportFilters() const;
+    //@}
+    //@{
+    /// Register an export filetype and a module name
+    void addExportType(const char* Type, const char* ModuleName);
+    /// Change the module name of a registered filetype
+    void changeExportModule(const char* Type, const char* OldModuleName, const char* NewModuleName);
+    /// Return a list of modules that support the given filetype.
+    std::vector<std::string> getExportModules(const std::string& Type) const;
+    /// Return a list of all modules.
+    std::vector<std::string> getExportModules() const;
+    /// Return a list of filetypes that are supported by a module.
+    std::vector<std::string> getExportTypes(const std::string& Module) const;
+    /// Return a list of all filetypes.
+    std::vector<std::string> getExportTypes() const;
+    /// Return the export filters with modules of a given filetype.
+    std::map<std::string, std::string> getExportFilters(const std::string& Type) const;
+    /// Return a list of all export filters.
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     std::map<std::string, std::string> getExportFilters() const;
     /// @}
 

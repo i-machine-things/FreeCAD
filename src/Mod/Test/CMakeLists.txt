@@ -25,6 +25,7 @@ SET(Test_SRCS
     TestPythonSyntax.py
     TestPerf.py
     TestTreeSelection.py
+<<<<<<< HEAD
     TestGraphicsViewWrapping.py
     TestRubberbandSelection.py
     TestCoinNodeSnapshots.py
@@ -32,6 +33,8 @@ SET(Test_SRCS
     TestSelectionVisual.py
     TestCornerAxisCrossVisual.py
     TestViewProviderLink.py
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 )
 
 SET(TestData_SRCS

@@ -145,6 +145,10 @@ class TaskAssemblyInsertLink(QtCore.QObject):
         self.docObserver = InsertLinkObserver(self.onObjectDeleted)
         App.addDocumentObserver(self.docObserver)
 
+        # Listen for external deletions to keep the list in sync
+        self.docObserver = InsertLinkObserver(self.onObjectDeleted)
+        App.addDocumentObserver(self.docObserver)
+
     def accept(self):
         self.deactivated()
 

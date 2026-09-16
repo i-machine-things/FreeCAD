@@ -29,7 +29,20 @@ from SketcherTests.TestSketchFillet import TestSketchFillet
 from SketcherTests.TestSketchExpression import TestSketchExpression
 from SketcherTests.TestSketchValidateCoincidents import TestSketchValidateCoincidents
 from SketcherTests.TestSketchCarbonCopyReverseMapping import TestSketchCarbonCopyReverseMapping
+<<<<<<< HEAD
 from SketcherTests.TestSketchInternalFaces import TestSketchInternalFaces
+=======
+
+# GUI-dependent tests - only import if GUI is available
+try:
+    import FreeCADGui
+
+    if FreeCADGui.getMainWindow() is not None:
+        from SketcherTests.TestPlacementUpdate import TestSketchPlacementUpdate
+except (ImportError, AttributeError):
+    pass  # GUI not available, skip GUI tests
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 # Path and PartDesign tests use these functions that used to live here
 # but moved to SketcherTests/TestSketcherSolver.py

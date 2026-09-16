@@ -2,6 +2,18 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ca" sourcelanguage="en">
   <context>
+<<<<<<< HEAD
+=======
+    <name>LinkParams</name>
+    <message>
+      <location filename="../../Link.cpp" line="131"/>
+      <source>Stores the last user choice of whether to apply CopyOnChange setup to all links
+that reference the same configurable object</source>
+      <translation>Emmagatzema l'última tria de l'usuari sobre si aplicar la configuració de CopyOnChange (Copia en canviar) a tots els enllaços que fan referència al mateix objecte configurable</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>QObject</name>
     <message>
       <location filename="../../Application.cpp" line="621"/>
@@ -35,7 +47,11 @@
   <context>
     <name>Notifications</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Document.cpp" line="1230"/>
+=======
+      <location filename="../../Document.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
 It is recommended that the user right-click the root of the document and select Mark to recompute.
 The user should then click the Refresh button in the main toolbar.
@@ -49,36 +65,61 @@ L'usuari hauria de fer clic al botó Actualitza a la barra d'eines principal.
   <context>
     <name>App::LocalCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="267"/>
+=======
+      <location filename="../../Datums.cpp" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X-axis</source>
       <translation>Eix X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="268"/>
+=======
+      <location filename="../../Datums.cpp" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y-axis</source>
       <translation>Eix Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="269"/>
+=======
+      <location filename="../../Datums.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z-axis</source>
       <translation>Eix Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="270"/>
+=======
+      <location filename="../../Datums.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XY-plane</source>
       <translation>Pla XY</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="271"/>
+=======
+      <location filename="../../Datums.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XZ-plane</source>
       <translation>Pla XZ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="272"/>
+=======
+      <location filename="../../Datums.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>YZ-plane</source>
       <translation>Pla YZ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="273"/>
       <source>Origin-Point</source>
       <translation>Punt d'origen</translation>
@@ -91,6 +132,11 @@ L'usuari hauria de fer clic al botó Actualitza a la barra d'eines principal.
       <source>Stores the last user choice of whether to apply CopyOnChange setup to all link
 that links to the same configurable object</source>
       <translation>Emmagatzema l'última tria de l'usuari sobre si aplicar la configuració de CopyOnChange a tots els enllaços que apunten al mateix objecte configurable</translation>
+=======
+      <location filename="../../Datums.cpp" line="271"/>
+      <source>Origin</source>
+      <translation>Origen</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

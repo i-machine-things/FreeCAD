@@ -4,44 +4,76 @@
   <context>
     <name>App::Property</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="82"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The center point of the helix' start; derived from the reference axis.</source>
       <translation>Helis başlangıcı merkez noktası; referans eksenden türetildi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="92"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The helix' direction; derived from the reference axis.</source>
       <translation>Helis yönü; referans eksenden türetildi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="99"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="97"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The reference axis of the helix.</source>
       <translation>Helis referans ekseni.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="106"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The helix input mode specifies which properties are set by the user.
 Dependent properties are then calculated.</source>
       <translation>Helezon giriş modu, kullanıcı tarafından hangi özelliklerin ayarlanacağını belirtir.
 Bağımlı özellikler daha sonra hesaplanır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="118"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The axial distance between two turns.</source>
       <translation>İki dönüş arası eksenel uzaklık.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="125"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the helix' path, not accounting for the extent of the profile.</source>
       <translation>Helis yolun yüksekliği, profilin kapsamı için hesaba katılmaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="135"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of turns in the helix.</source>
       <translation>Helisteki dönüş sayısı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="143"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The angle of the cone that forms a hull around the helix.
 Non-zero values turn the helix into a conical spiral.
 Positive values make the radius grow, negative shrinks.</source>
@@ -50,83 +82,143 @@ Sıfırdan farklı değerler helezonu konik bir spirale dönüştürür.
 Pozitif değerler yarıçapın büyümesine, negatif değerler ise küçülmesine neden olur.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="156"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The growth of the helix' radius per turn.
 Non-zero values turn the helix into a conical spiral.</source>
       <translation>Helezonun her turda yarıçap artışı.
 Sıfırdan farklı değerler helezonu konik bir spirale dönüştürür.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="167"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the turning direction to left handed,
 i.e. counter-clockwise when moving along its axis.</source>
       <translation>Dönüş yönünü sol el yönü yapar;
 yani ekseni boyunca ilerlerken saat yönünün tersine.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="178"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Determines whether the helix points in the opposite direction of the axis.</source>
       <translation>Helezonun eksenin ters yönüne bakıp bakmadığını belirler.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="188"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If set, the result will be the intersection of the profile and the preexisting body.</source>
       <translation>Ayarlanırsa sonucu profil ile önceden var olan gövdenin kesişimi olacaktır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="198"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If false, the tool will propose an initial value for the pitch based on the profile bounding box,
 so that self intersection is avoided.</source>
       <translation>False ise araç, profilin sınır kutusuna göre adım için bir başlangıç değeri önerir,
 böylece öz-kesişme önlenir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="210"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fusion Tolerance for the Helix, increase if helical shape does not merge nicely with part.</source>
       <translation>Helezon için birleştirme toleransı; helezon şekli parça ile düzgün birleşmiyorsa artırın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="108"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of gear teeth</source>
       <translation>Dişlinin diş sayısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="120"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pressure angle of gear teeth</source>
       <translation>Dişli dişlerinin basınç açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="114"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Module of the gear</source>
       <translation>Dişli modülü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="129"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>True=2 curves with each 3 control points, False=1 curve with 4 control points.</source>
       <translation>.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="137"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>True=external Gear, False=internal Gear</source>
       <translation>True=dış dişli, False=iç dişli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="146"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the tooth from the pitch circle up to its tip, normalized by the module.</source>
       <translation>Dişin adım dairesinden tepesine kadar olan yüksekliği, modüle göre normalize edilmiştir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="155"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="153"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The height of the tooth from the pitch circle down to its root, normalized by the module.</source>
       <translation>Dişin adım dairesinden dibine kadar olan yüksekliği, modüle göre normalize edilmiştir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="164"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The radius of the fillet at the root of the tooth, normalized by the module.</source>
       <translation>Diş dibindeki yuvarlatmanın yarıçapı, modüle göre normalize edilmiştir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="173"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The distance by which the reference profile is shifted outwards, normalized by the module.</source>
       <translation>Referans profilin dışa kaydırma miktarı, modüle göre normalize edilmiştir.</translation>
     </message>
@@ -134,17 +226,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignAdditiveHelix</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1677"/>
+=======
+      <location filename="../../Command.cpp" line="1660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1678"/>
+=======
+      <location filename="../../Command.cpp" line="1661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Helix</source>
       <translation>Eklemeli Helezon</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1679"/>
+=======
+      <location filename="../../Command.cpp" line="1662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweeps the selected sketch or profile along a helix and adds it to the body</source>
       <translation>Seçili eskizi veya profili bir helezon boyunca süpürür ve gövdeye ekler</translation>
     </message>
@@ -152,17 +256,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignAdditiveLoft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1578"/>
+=======
+      <location filename="../../Command.cpp" line="1561"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1579"/>
+=======
+      <location filename="../../Command.cpp" line="1562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Loft</source>
       <translation>Eklemeli Loft</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1580"/>
+=======
+      <location filename="../../Command.cpp" line="1563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lofts the selected sketch or profile along a path and adds it to the body</source>
       <translation>Seçili eskiz veya profili bir yol boyunca loft yapar ve gövdeye ekler</translation>
     </message>
@@ -170,17 +286,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignAdditivePipe</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1478"/>
+=======
+      <location filename="../../Command.cpp" line="1461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1479"/>
+=======
+      <location filename="../../Command.cpp" line="1462"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Pipe</source>
       <translation>Eklemeli Boru</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1480"/>
+=======
+      <location filename="../../Command.cpp" line="1463"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweeps the selected sketch or profile along a path and adds it to the body</source>
       <translation>Seçili eskizi veya profili bir yol boyunca süpürür ve gövdeye ekler</translation>
     </message>
@@ -188,17 +316,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignBody</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="93"/>
+=======
+      <location filename="../../CommandBody.cpp" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="94"/>
+=======
+      <location filename="../../CommandBody.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Body</source>
       <translation>Yeni Gövde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="95"/>
+=======
+      <location filename="../../CommandBody.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new body and activates it</source>
       <translation>Yeni bir gövde oluşturur ve etkinleştirir</translation>
     </message>
@@ -206,17 +346,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignBoolean</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2599"/>
+=======
+      <location filename="../../Command.cpp" line="2576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2600"/>
+=======
+      <location filename="../../Command.cpp" line="2577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Boolean Operation</source>
       <translation>Mantıksal işlem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2601"/>
+=======
+      <location filename="../../Command.cpp" line="2578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies boolean operations with the selected objects and the active body</source>
       <translation>Seçili nesneler ile etkin gövde arasında Boole işlemleri uygular</translation>
     </message>
@@ -224,17 +376,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignCS</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="283"/>
+=======
+      <location filename="../../Command.cpp" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="284"/>
+=======
+      <location filename="../../Command.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Local Coordinate System</source>
       <translation>Yerel Koordinat Sistemi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="285"/>
+=======
+      <location filename="../../Command.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new local coordinate system</source>
       <translation>Yeni bir yerel koordinat sistemi oluşturur</translation>
     </message>
@@ -242,17 +406,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignChamfer</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2005"/>
+=======
+      <location filename="../../Command.cpp" line="1987"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2006"/>
+=======
+      <location filename="../../Command.cpp" line="1988"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chamfer</source>
       <translation>Pah kır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2007"/>
+=======
+      <location filename="../../Command.cpp" line="1989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies a chamfer to the selected edges or faces</source>
       <translation>Seçili kenar veya yüzlere pah uygular</translation>
     </message>
@@ -260,17 +436,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignClone</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="493"/>
+=======
+      <location filename="../../Command.cpp" line="489"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="494"/>
+=======
+      <location filename="../../Command.cpp" line="490"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clone</source>
       <translation>Klon</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="495"/>
+=======
+      <location filename="../../Command.cpp" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copies a solid object parametrically as the base feature of a new body</source>
       <translation>Katı bir nesneyi parametrik olarak kopyalar ve yeni bir gövdenin temel özelliği yapar</translation>
     </message>
@@ -278,17 +466,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignDraft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2034"/>
+=======
+      <location filename="../../Command.cpp" line="2016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2035"/>
+=======
+      <location filename="../../Command.cpp" line="2017"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft</source>
       <translation>Taslak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2036"/>
+=======
+      <location filename="../../Command.cpp" line="2018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies a draft to the selected faces</source>
       <translation>Seçili yüzlere koniklik uygular</translation>
     </message>
@@ -296,17 +496,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignDuplicateSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="754"/>
+=======
+      <location filename="../../CommandBody.cpp" line="755"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="755"/>
+=======
+      <location filename="../../CommandBody.cpp" line="756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate &amp;Object</source>
       <translation>Nesneyi &amp;Çoğalt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="756"/>
+=======
+      <location filename="../../CommandBody.cpp" line="757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicates the selected object and adds it to the active body</source>
       <translation>Seçilen nesneyi kopyalar ve aktif cisime ekler</translation>
     </message>
@@ -314,17 +526,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignFillet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1977"/>
+=======
+      <location filename="../../Command.cpp" line="1959"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1978"/>
+=======
+      <location filename="../../Command.cpp" line="1960"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillet</source>
       <translation>Yuvarla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1979"/>
+=======
+      <location filename="../../Command.cpp" line="1961"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies a fillet to the selected edges or faces</source>
       <translation>Seçili kenar veya yüzlere yuvarlatma uygular</translation>
     </message>
@@ -332,17 +556,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignGroove</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1408"/>
+=======
+      <location filename="../../Command.cpp" line="1391"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1409"/>
+=======
+      <location filename="../../Command.cpp" line="1392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Groove</source>
       <translation>Oluk</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1410"/>
+=======
+      <location filename="../../Command.cpp" line="1393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolves the sketch or profile around a line or axis and removes it from the body</source>
       <translation>Seçili eskiz veya profili bir doğru ya da eksen etrafında döndürür ve gövdeden çıkarır</translation>
     </message>
@@ -350,17 +586,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignHole</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1301"/>
+=======
+      <location filename="../../Command.cpp" line="1284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1302"/>
+=======
+      <location filename="../../Command.cpp" line="1285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole</source>
       <translation>Delik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1304"/>
+=======
+      <location filename="../../Command.cpp" line="1287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates holes in the active body at the center points of circles or arcs of the selected sketch or profile</source>
       <translation>Seçili eskiz veya profilin daire ya da yaylarının merkez noktalarında etkin gövdede delikler oluşturur</translation>
     </message>
@@ -368,17 +616,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="223"/>
+=======
+      <location filename="../../Command.cpp" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="224"/>
+=======
+      <location filename="../../Command.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum Line</source>
       <translation>Datum Doğrusu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="225"/>
+=======
+      <location filename="../../Command.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new datum line</source>
       <translation>Yeni bir datum doğrusu oluşturur</translation>
     </message>
@@ -386,17 +646,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignLinearPattern</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2289"/>
+=======
+      <location filename="../../Command.cpp" line="2271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2290"/>
+=======
+      <location filename="../../Command.cpp" line="2272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Linear Pattern</source>
       <translation>Doğrusal Desen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2291"/>
+=======
+      <location filename="../../Command.cpp" line="2273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicates the selected features or the active body in a linear pattern</source>
       <translation>Seçili özellikleri veya aktif gövdeyi doğrusal bir desende çoğaltır</translation>
     </message>
@@ -404,17 +676,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignMigrate</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="389"/>
+=======
+      <location filename="../../CommandBody.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="390"/>
+=======
+      <location filename="../../CommandBody.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrate</source>
       <translation>GeçişYap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="391"/>
+=======
+      <location filename="../../CommandBody.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrates the document to the modern Part Design workflow</source>
       <translation>Belgeyi modern Parça Tasarımı iş akışına taşır</translation>
     </message>
@@ -422,17 +706,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignMirrored</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2232"/>
+=======
+      <location filename="../../Command.cpp" line="2214"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2233"/>
+=======
+      <location filename="../../Command.cpp" line="2215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirror</source>
       <translation>Aynala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2234"/>
+=======
+      <location filename="../../Command.cpp" line="2216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirrors the selected features or active body</source>
       <translation>Seçili özellikleri veya aktif gövdeyi yansıtır</translation>
     </message>
@@ -440,17 +736,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignMoveFeature</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="822"/>
+=======
+      <location filename="../../CommandBody.cpp" line="821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="823"/>
+=======
+      <location filename="../../CommandBody.cpp" line="822"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move Object To…</source>
       <translation>Nesneyi şuraya taşı…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="824"/>
+=======
+      <location filename="../../CommandBody.cpp" line="823"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Moves the selected object to another body</source>
       <translation>Seçili nesneyi başka bir cisme taşır</translation>
     </message>
@@ -458,17 +766,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignMoveFeatureInTree</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1019"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1016"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1020"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1017"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move Feature After…</source>
       <translation>Özelliği şundan sonra taşı…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1021"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Moves the selected feature after another feature in the same body</source>
       <translation>Seçili özelliği, aynı gövdedeki başka bir özelliğin arkasına taşır</translation>
     </message>
@@ -476,17 +796,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignMoveTip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="655"/>
+=======
+      <location filename="../../CommandBody.cpp" line="658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="656"/>
+=======
+      <location filename="../../CommandBody.cpp" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set Tip</source>
       <translation>Ucu Ayarla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="657"/>
+=======
+      <location filename="../../CommandBody.cpp" line="660"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Moves the tip of the body to the selected feature</source>
       <translation>Gövdenin ucunu (tip) seçili özelliğe taşır</translation>
     </message>
@@ -494,17 +826,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignMultiTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2468"/>
+=======
+      <location filename="../../Command.cpp" line="2445"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2469"/>
+=======
+      <location filename="../../Command.cpp" line="2446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Multi-Transform</source>
       <translation>Çoklu Dönüşüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2470"/>
+=======
+      <location filename="../../Command.cpp" line="2447"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies multiple transformations to the selected features or active body</source>
       <translation>Seçili özelliklere veya etkin gövdeye birden çok dönüşüm uygular</translation>
     </message>
@@ -530,17 +874,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignPad</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1243"/>
+=======
+      <location filename="../../Command.cpp" line="1226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1244"/>
+=======
+      <location filename="../../Command.cpp" line="1227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pad</source>
       <translation>Kalınlık ver</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1245"/>
+=======
+      <location filename="../../Command.cpp" line="1228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extrudes the selected sketch or profile and adds it to the body</source>
       <translation>Seçili eskiz veya profili dışa doğru uzatır ve gövdeye ekler</translation>
     </message>
@@ -548,17 +904,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignPlane</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="193"/>
+=======
+      <location filename="../../Command.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="194"/>
+=======
+      <location filename="../../Command.cpp" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum Plane</source>
       <translation>Datum Düzlemi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="195"/>
+=======
+      <location filename="../../Command.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new datum plane</source>
       <translation>Yeni bir datum düzlemi oluşturur</translation>
     </message>
@@ -566,17 +934,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignPocket</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1272"/>
+=======
+      <location filename="../../Command.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1273"/>
+=======
+      <location filename="../../Command.cpp" line="1256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pocket</source>
       <translation>Boşluk</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1274"/>
+=======
+      <location filename="../../Command.cpp" line="1257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extrudes the selected sketch or profile and removes it from the body</source>
       <translation>Seçili eskiz veya profili dışa doğru uzatır ve gövdeden çıkarır</translation>
     </message>
@@ -584,17 +964,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignPoint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="253"/>
+=======
+      <location filename="../../Command.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="254"/>
+=======
+      <location filename="../../Command.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datum Point</source>
       <translation>Datum Noktası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="255"/>
+=======
+      <location filename="../../Command.cpp" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new datum point</source>
       <translation>Yeni bir datum noktası oluşturur</translation>
     </message>
@@ -602,17 +994,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignPolarPattern</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2363"/>
+=======
+      <location filename="../../Command.cpp" line="2340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2364"/>
+=======
+      <location filename="../../Command.cpp" line="2341"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar Pattern</source>
       <translation>Kutupsal Dizilim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2365"/>
+=======
+      <location filename="../../Command.cpp" line="2342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicates the selected features or the active body in a circular pattern</source>
       <translation>Seçili özellikleri veya etkin gövdeyi dairesel bir dizilimde çoğaltır</translation>
     </message>
@@ -620,17 +1024,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignRevolution</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1346"/>
+=======
+      <location filename="../../Command.cpp" line="1329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1347"/>
+=======
+      <location filename="../../Command.cpp" line="1330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolve</source>
       <translation>Döndür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1348"/>
+=======
+      <location filename="../../Command.cpp" line="1331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolves the selected sketch or profile around a line or axis and adds it to the body</source>
       <translation>Seçili eskiz veya profili bir doğru ya da eksen etrafında döndürür ve gövdeye ekler</translation>
     </message>
@@ -638,17 +1054,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignScaled</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2425"/>
+=======
+      <location filename="../../Command.cpp" line="2402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2426"/>
+=======
+      <location filename="../../Command.cpp" line="2403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale</source>
       <translation>Ölçek</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2427"/>
+=======
+      <location filename="../../Command.cpp" line="2404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scales the selected features or the active body</source>
       <translation>Seçili özellikleri veya etkin gövdeyi ölçekler</translation>
     </message>
@@ -656,17 +1084,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignShapeBinder</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="317"/>
+=======
+      <location filename="../../Command.cpp" line="313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="318"/>
+=======
+      <location filename="../../Command.cpp" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape Binder</source>
       <translation>Şekil Bağlayıcı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="319"/>
+=======
+      <location filename="../../Command.cpp" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new shape binder</source>
       <translation>Yeni bir şekil bağlayıcı oluşturur</translation>
     </message>
@@ -674,17 +1114,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignSubShapeBinder</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="387"/>
+=======
+      <location filename="../../Command.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="388"/>
+=======
+      <location filename="../../Command.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-Shape Binder</source>
       <translation>Alt Şekil Bağlayıcı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="389"/>
+=======
+      <location filename="../../Command.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a reference to geometry from one or more objects, allowing it to be used inside or outside a body. It tracks relative placements, supports multiple geometry types (solids, faces, edges, vertices), and can work with objects in the same or external documents.</source>
       <translation>Bir veya daha fazla nesneden geometriye referans oluşturur; bunun bir gövdenin içinde ya da dışında kullanılmasına olanak tanır. Bağıl yerleşimleri izler, birden fazla geometri türünü (katılar, yüzler, kenarlar, köşeler) destekler ve aynı ya da harici belgelerdeki nesnelerle çalışabilir.</translation>
     </message>
@@ -692,17 +1144,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignSubtractiveHelix</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1761"/>
+=======
+      <location filename="../../Command.cpp" line="1744"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1762"/>
+=======
+      <location filename="../../Command.cpp" line="1745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Helix</source>
       <translation>Çıkarımlı Helezon</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1763"/>
+=======
+      <location filename="../../Command.cpp" line="1746"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweeps the selected sketch or profile along a helix and removes it from the body</source>
       <translation>Seçili eskizi veya profili bir helezon boyunca süpürür ve gövdeden çıkarır</translation>
     </message>
@@ -710,17 +1174,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignSubtractiveLoft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1628"/>
+=======
+      <location filename="../../Command.cpp" line="1611"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1629"/>
+=======
+      <location filename="../../Command.cpp" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Loft</source>
       <translation>Çıkarımlı Loft</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1630"/>
+=======
+      <location filename="../../Command.cpp" line="1613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lofts the selected sketch or profile along a path and removes it from the body</source>
       <translation>Seçili eskiz veya profili bir yol boyunca loft yapar ve gövdeden çıkarır</translation>
     </message>
@@ -728,17 +1204,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignSubtractivePipe</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1528"/>
+=======
+      <location filename="../../Command.cpp" line="1511"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1529"/>
+=======
+      <location filename="../../Command.cpp" line="1512"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Pipe</source>
       <translation>Çıkarımlı Boru</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1530"/>
+=======
+      <location filename="../../Command.cpp" line="1513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sweeps the selected sketch or profile along a path and removes it from the body</source>
       <translation>Seçili eskizi veya profili bir yol boyunca süpürür ve gövdeden çıkarır</translation>
     </message>
@@ -746,17 +1234,29 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPartDesignThickness</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2104"/>
+=======
+      <location filename="../../Command.cpp" line="2086"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2105"/>
+=======
+      <location filename="../../Command.cpp" line="2087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness</source>
       <translation>Kalınlık</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2106"/>
+=======
+      <location filename="../../Command.cpp" line="2088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies thickness and removes the selected faces</source>
       <translation>Kalınlık uygular ve seçili yüzleri kaldırır</translation>
     </message>
@@ -764,57 +1264,101 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPrimtiveCompAdditive</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="76"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="77"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Primitive</source>
       <translation>Eklemeli Primitif</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="78"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an additive primitive</source>
       <translation>Eklemeli bir primitif oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="215"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Box</source>
       <translation>Kutu ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="224"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Cylinder</source>
       <translation>Silindir ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="233"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Sphere</source>
       <translation>Küre ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="242"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Cone</source>
       <translation>Koni ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="248"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Ellipsoid</source>
       <translation>Elipsoit ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="254"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Torus</source>
       <translation>Halka ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="260"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Prism</source>
       <translation>Prizma ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="266"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Additive Wedge</source>
       <translation>Kama ekle</translation>
     </message>
@@ -822,57 +1366,101 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>CmdPrimtiveCompSubtractive</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="284"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PartDesign</source>
       <translation>ParçaTasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="285"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Primitive</source>
       <translation>Çıkarımlı Primitif</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="286"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive primitive</source>
       <translation>Çıkarımlı bir primitif oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="400"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Box</source>
       <translation>Çıkartılabilir Kutu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="409"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Cylinder</source>
       <translation>Çıkarılabilir Silindir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="418"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Sphere</source>
       <translation>Çıkarılabilir Küre</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="427"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Cone</source>
       <translation>Çıkarılabilir Koni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="433"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Ellipsoid</source>
       <translation>Çıkarılabilir Elipsoit</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="439"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Torus</source>
       <translation>Çıkarılabilir Halka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="445"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Prism</source>
       <translation>Çıkarılabilir Prizma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="451"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Subtractive Wedge</source>
       <translation>Çıkarılabilir Kama</translation>
     </message>
@@ -880,104 +1468,186 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="339"/>
+=======
+      <location filename="../../Command.cpp" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Shape Binder</source>
       <translation>Şekil Bağlayıcıyı Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="350"/>
+=======
+      <location filename="../../Command.cpp" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Shape Binder</source>
       <translation>Şekil Bağlayıcı Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="443"/>
+=======
+      <location filename="../../Command.cpp" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Sub-Shape Binder</source>
       <translation>Alt-Şekil Bağlayıcı Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="513"/>
+=======
+      <location filename="../../Command.cpp" line="508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Clone</source>
       <translation>Klone oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1127"/>
+=======
+      <location filename="../../Command.cpp" line="1110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Copy</source>
       <translation>Kopya Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2523"/>
+=======
+      <location filename="../../Command.cpp" line="2500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Convert to Multi-Transform feature</source>
       <translation>Çoklu Dönüşüm özelliğine dönüştür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="266"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sketch on Face</source>
       <translation>Yüzey Üzerine Eskiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="328"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="314"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make copy</source>
       <translation>Kopya oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="530"/>
       <location filename="../../SketchWorkflow.cpp" line="807"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="516"/>
+      <location filename="../../SketchWorkflow.cpp" line="772"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Sketch</source>
       <translation>Yeni eskiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2620"/>
+=======
+      <location filename="../../Command.cpp" line="2597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Boolean</source>
       <translation>Mantıksal (İşlem) Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="221"/>
       <location filename="../../DlgActiveBody.cpp" line="102"/>
+=======
+      <location filename="../../CommandBody.cpp" line="222"/>
+      <location filename="../../DlgActiveBody.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add a Body</source>
       <translation>Gövde Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="526"/>
+=======
+      <location filename="../../CommandBody.cpp" line="523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrate legacy Part Design features to bodies</source>
       <translation>Eski Parça Tasarımı özelliklerini gövdelere taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="768"/>
+=======
+      <location filename="../../CommandBody.cpp" line="769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate a Part Design object</source>
       <translation>Bir Parça Tasarımı nesnesini çoğalt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1113"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move a feature inside body</source>
       <translation>Bir özelliği gövde içinde taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="722"/>
+=======
+      <location filename="../../CommandBody.cpp" line="723"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move tip to selected feature</source>
       <translation>İpucunu seçilen öğeye taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="927"/>
+=======
+      <location filename="../../CommandBody.cpp" line="926"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move an object</source>
       <translation>Bir nesne taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="261"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirror</source>
       <translation>Aynala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="301"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Linear Pattern</source>
       <translation>Doğrusal Desen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="350"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar Pattern</source>
       <translation>Kutupsal Dizilim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="389"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale</source>
       <translation>Ölçek</translation>
     </message>
@@ -985,6 +1655,7 @@ böylece öz-kesişme önlenir.</translation>
   <context>
     <name>Gui::TaskView::TaskWatcherCommands</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="55"/>
       <source>Face Tools</source>
       <translation>Yüz Araçları</translation>
@@ -1011,6 +1682,34 @@ böylece öz-kesişme önlenir.</translation>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="60"/>
+=======
+      <location filename="../../Workbench.cpp" line="53"/>
+      <source>Face Tools</source>
+      <translation>Yüz Araçları</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="54"/>
+      <source>Edge Tools</source>
+      <translation>Kenar Araçları</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="55"/>
+      <source>Boolean Tools</source>
+      <translation>Boole Araçları</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="56"/>
+      <source>Helper Tools</source>
+      <translation>Yardımcı Araçlar</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="57"/>
+      <source>Modeling Tools</source>
+      <translation>Modelleme Araçları</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Geometry</source>
       <translation>Geometri oluştur</translation>
     </message>
@@ -1100,9 +1799,15 @@ Aşağıdan bir gövde seçin veya yeni bir gövde oluşturun.</translation>
       <translation>Yeni Gövde Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgActiveBody.cpp" line="53"/>
       <source>Select an active body</source>
       <translation type="unfinished">Select an active body</translation>
+=======
+      <location filename="../../DlgActiveBody.cpp" line="52"/>
+      <source>Please select</source>
+      <translation>Lütfen seçin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1390,7 +2095,11 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::NoDependentsSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ReferenceSelection.cpp" line="287"/>
+=======
+      <location filename="../../ReferenceSelection.cpp" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selecting this will cause circular dependency.</source>
       <translation>Bunu seçmek, dairesel bağımlılığa neden olacaktır.</translation>
     </message>
@@ -1423,12 +2132,20 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Ortak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBooleanParameters.cpp" line="53"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Boolean Parameters</source>
       <translation>Boole Parametreleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBooleanParameters.cpp" line="84"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
@@ -1436,6 +2153,7 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::TaskBoxPrimitives</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPrimitiveParameters.cpp" line="98"/>
       <source>Subtractive Box Parameters</source>
       <translation type="unfinished">Subtractive Box Parameters</translation>
@@ -1529,26 +2247,52 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <location filename="../../TaskPrimitiveParameters.cpp" line="1024"/>
       <location filename="../../TaskPrimitiveParameters.cpp" line="1032"/>
       <location filename="../../TaskPrimitiveParameters.cpp" line="1040"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="47"/>
+      <source>Primitive Parameters</source>
+      <translation>Primitif Parametreleri</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPrimitiveParameters.cpp" line="932"/>
+      <location filename="../../TaskPrimitiveParameters.cpp" line="940"/>
+      <location filename="../../TaskPrimitiveParameters.cpp" line="948"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid wedge parameters</source>
       <translation>Geçersiz kama değişkenleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPrimitiveParameters.cpp" line="1025"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="933"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X min must not be equal to X max!</source>
       <translation>En küçük X, en büyük X 'e eşit olamaz!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPrimitiveParameters.cpp" line="1033"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="941"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y min must not be equal to Y max!</source>
       <translation>En küçük Y, en büyük Y 'ye eşit olamaz!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPrimitiveParameters.cpp" line="1041"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="949"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z min must not be equal to Z max!</source>
       <translation>En küçük Z, en büyük Z 'ye eşit olamaz!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPrimitiveParameters.cpp" line="1083"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create primitive</source>
       <translation>Basit nesne oluştur</translation>
     </message>
@@ -1628,7 +2372,11 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Açı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskChamferParameters.cpp" line="346"/>
+=======
+      <location filename="../../TaskChamferParameters.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty chamfer created!
 </source>
       <translation>Boş bir pah oluşturuldu!
@@ -1638,17 +2386,30 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::TaskDlgBooleanParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBooleanParameters.cpp" line="386"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="384"/>
+      <source>Empty body list</source>
+      <translation>Boş gövde listesi</translation>
+    </message>
+    <message>
+      <location filename="../../TaskBooleanParameters.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The body list cannot be empty</source>
       <translation>Gövde listesi boş olamaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskBooleanParameters.cpp" line="386"/>
       <source>Empty Body List</source>
       <translation type="unfinished">Empty Body List</translation>
     </message>
     <message>
       <location filename="../../TaskBooleanParameters.cpp" line="407"/>
+=======
+      <location filename="../../TaskBooleanParameters.cpp" line="399"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Boolean: Accept: Input error</source>
       <translation>Boolean: Kabul Ediyorum: Giriş hatası</translation>
     </message>
@@ -1656,17 +2417,53 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::TaskDlgDatumParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDatumParameters.cpp" line="107"/>
+=======
+      <location filename="../../TaskDatumParameters.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Incompatible Reference Set</source>
       <translation>Uyumsuz Referans Kümesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDatumParameters.cpp" line="109"/>
+=======
+      <location filename="../../TaskDatumParameters.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There is no attachment mode that fits the current set of references. If you choose to continue, the feature will remain where it is now, and will not be moved as the references change. Continue?</source>
       <translation>Geçerli referans setine uyan hiçbir ek modu yoktur. Devam etmeyi seçerseniz, özellik şu an olduğu yerde kalacak ve referanslar değiştiğinden taşınmayacaktır. Devam?</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>PartDesignGui::TaskDlgFeatureParameters</name>
+    <message>
+      <location filename="../../TaskFeatureParameters.cpp" line="228"/>
+      <source>The feature could not be created with the given parameters.
+The geometry may be invalid or the parameters may be incompatible.
+Please adjust the parameters and try again.</source>
+      <translation>Özellik verilen parametrelerle oluşturulamadı.
+Geometri geçersiz olabilir veya parametreler uyumsuz olabilir.
+Lütfen parametreleri ayarlayıp yeniden deneyin.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFeatureParameters.cpp" line="235"/>
+      <source>Input error</source>
+      <translation>Girdi hatası</translation>
+    </message>
+  </context>
+  <context>
+    <name>PartDesignGui::TaskDlgShapeBinder</name>
+    <message>
+      <location filename="../../TaskShapeBinder.cpp" line="440"/>
+      <source>Input error</source>
+      <translation>Girdi hatası</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>PartDesignGui::TaskDraftParameters</name>
     <message>
       <location filename="../../TaskDraftParameters.ui" line="20"/>
@@ -1706,7 +2503,11 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Çekme yönünü ters çevir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDraftParameters.cpp" line="304"/>
+=======
+      <location filename="../../TaskDraftParameters.cpp" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty draft created!
 </source>
       <translation>Boş bir koniklik oluşturuldu!
@@ -1716,27 +2517,47 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::TaskDressUpParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDressUpParameters.cpp" line="302"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select</source>
       <translation>Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDressUpParameters.cpp" line="307"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Selection</source>
       <translation>Seçimi Onayla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDressUpParameters.cpp" line="320"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add All Edges</source>
       <translation>Tüm Kenarları Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDressUpParameters.cpp" line="326"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds all edges to the list box (only when in add selection mode)</source>
       <translation>Tüm kenarları liste kutusuna ekler (yalnızca seçim ekleme modundayken)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDressUpParameters.cpp" line="335"/>
+=======
+      <location filename="../../TaskDressUpParameters.cpp" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
@@ -1744,79 +2565,141 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::TaskExtrudeParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="1374"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1372"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No face selected</source>
       <translation>Seçili yüz yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="173"/>
       <location filename="../../TaskExtrudeParameters.cpp" line="1143"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="171"/>
+      <location filename="../../TaskExtrudeParameters.cpp" line="1141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Yüz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="77"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="354"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preview</source>
       <translation>Önizleme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="358"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Faces</source>
       <translation>Yüzleri Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="694"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select reference…</source>
       <translation>Referans seç…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="604"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="602"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No shape selected</source>
       <translation>Şekil seçilmedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="687"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sketch normal</source>
       <translation>Eskize dik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="690"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face normal</source>
       <translation>Yüzey normali</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="698"/>
       <location filename="../../TaskExtrudeParameters.cpp" line="701"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="696"/>
+      <location filename="../../TaskExtrudeParameters.cpp" line="699"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom direction</source>
       <translation>Özel yön</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="1090"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Click on a shape in the model</source>
       <translation>Modelde bir şekle tıklayın</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="1361"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>One sided</source>
       <translation>Tek taraflı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="1362"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Two sided</source>
       <translation>Çift taraflı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="1363"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Symmetric</source>
       <translation>Simetrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskExtrudeParameters.cpp" line="1369"/>
+=======
+      <location filename="../../TaskExtrudeParameters.cpp" line="1367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Click on a face in the model</source>
       <translation>Modeldeki bir yüzeye tıklayın</translation>
     </message>
@@ -1904,9 +2787,15 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Özellik, gövdenin ucundan (tip) sonra konumlanmış</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFeaturePick.cpp" line="97"/>
       <source>Select Attachment</source>
       <translation type="unfinished">Select Attachment</translation>
+=======
+      <location filename="../../TaskFeaturePick.cpp" line="95"/>
+      <source>Select attachment</source>
+      <translation>Bağlamayı seç</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1953,37 +2842,61 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="48"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="261"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="239"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base X-axis</source>
       <translation>Temel X ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="53"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="262"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Y-axis</source>
       <translation>Temel Y ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="58"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="263"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Z-axis</source>
       <translation>Temel Z ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="63"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="245"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal sketch axis</source>
       <translation>Yatay taslak ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="68"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="244"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical sketch axis</source>
       <translation>Dikey taslak ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="73"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="243"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal sketch axis</source>
       <translation type="unfinished">Normal sketch axis</translation>
     </message>
@@ -1999,7 +2912,11 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.ui" line="78"/>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="228"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select reference…</source>
       <translation>Referans seç…</translation>
     </message>
@@ -2074,6 +2991,7 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Profilin dış hattını kaldır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="71"/>
       <source>Subtractive Helix Parameters</source>
       <translation type="unfinished">Subtractive Helix Parameters</translation>
@@ -2085,21 +3003,41 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
     </message>
     <message>
       <location filename="../../TaskHelixParameters.cpp" line="247"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="55"/>
+      <source>Helix Parameters</source>
+      <translation>Helezon Parametreleri</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHelixParameters.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Construction line %1</source>
       <translation>Yapı hattı %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="315"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warning: helix might be self intersecting</source>
       <translation>Uyarı: helezon kendi kendini kesiştirebilir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="320"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: helix touches itself</source>
       <translation>Hata: Helis kendisi ile kesişiyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHelixParameters.cpp" line="372"/>
+=======
+      <location filename="../../TaskHelixParameters.cpp" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: unsupported mode</source>
       <translation>Hata: desteklenmeyen kip</translation>
     </message>
@@ -2132,6 +3070,7 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Hiçbiri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="73"/>
       <source>ISO metric regular</source>
       <translation>ISO metrik standart</translation>
@@ -2183,54 +3122,139 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
     </message>
     <message>
       <location filename="../../TaskHoleParameters.cpp" line="712"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="71"/>
+      <source>ISO metric regular</source>
+      <translation>ISO metrik standart</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="72"/>
+      <source>ISO metric fine</source>
+      <translation>ISO metrik ince</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="73"/>
+      <source>UTS coarse</source>
+      <translation>UTS kaba</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="74"/>
+      <source>UTS fine</source>
+      <translation>UTS ince</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="75"/>
+      <source>UTS extra fine</source>
+      <translation>UTS çok ince</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="76"/>
+      <source>ANSI pipes</source>
+      <translation>ANSI borular</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="77"/>
+      <source>ISO/BSP pipes</source>
+      <translation>ISO/BSP borular</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="78"/>
+      <source>BSW whitworth</source>
+      <translation>BSW Whitworth</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="79"/>
+      <source>BSF whitworth fine</source>
+      <translation>BSF Whitworth ince</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="80"/>
+      <source>ISO tyre valves</source>
+      <translation>ISO lastik supapları</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.cpp" line="678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Medium</source>
       <comment>Distance between thread crest and hole wall, use ISO-273 nomenclature or equivalent if possible</comment>
       <translation>Orta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="716"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fine</source>
       <comment>Distance between thread crest and hole wall, use ISO-273 nomenclature or equivalent if possible</comment>
       <translation>İyi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="720"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Coarse</source>
       <comment>Distance between thread crest and hole wall, use ISO-273 nomenclature or equivalent if possible</comment>
       <translation>Kaba</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="726"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal</source>
       <comment>Distance between thread crest and hole wall, use ASME B18.2.8 nomenclature or equivalent if possible</comment>
       <translation>Olağan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="730"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close</source>
       <comment>Distance between thread crest and hole wall, use ASME B18.2.8 nomenclature or equivalent if possible</comment>
       <translation>Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="734"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loose</source>
       <comment>Distance between thread crest and hole wall, use ASME B18.2.8 nomenclature or equivalent if possible</comment>
       <translation>Bol</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="738"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal</source>
       <comment>Distance between thread crest and hole wall</comment>
       <translation>Olağan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="739"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="705"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close</source>
       <comment>Distance between thread crest and hole wall</comment>
       <translation>Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.cpp" line="740"/>
+=======
+      <location filename="../../TaskHoleParameters.cpp" line="706"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wide</source>
       <comment>Distance between thread crest and hole wall</comment>
       <translation>Geniş</translation>
@@ -2279,6 +3303,7 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Değişiklikte yeniden hesapla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskLoftParameters.cpp" line="64"/>
       <source>Subtractive Loft Parameters</source>
       <translation type="unfinished">Subtractive Loft Parameters</translation>
@@ -2290,6 +3315,14 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
     </message>
     <message>
       <location filename="../../TaskLoftParameters.cpp" line="94"/>
+=======
+      <location filename="../../TaskLoftParameters.cpp" line="48"/>
+      <source>Loft Parameters</source>
+      <translation>Loft Parametreleri</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLoftParameters.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
@@ -2302,7 +3335,11 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Düzlem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMirroredParameters.cpp" line="186"/>
+=======
+      <location filename="../../TaskMirroredParameters.cpp" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Hata</translation>
     </message>
@@ -2320,47 +3357,71 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
       <translation>Tamam</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="71"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Düzenle</translation>
     </message>
     <message>
-      <location filename="../../TaskMultiTransformParameters.cpp" line="74"/>
+      <location filename="../../TaskMultiTransformParameters.cpp" line="72"/>
       <source>Delete</source>
       <translation>Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="77"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Mirror Transformation</source>
       <translation>Ayna Dönüşümü Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="85"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Linear Pattern</source>
       <translation>Doğrusal Dizilim Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="93"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Polar Pattern</source>
       <translation>Kutupsal Dizilim Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="101"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="99"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Scale Transformation</source>
       <translation>Ölçek Dönüşümü Ekle</translation>
     </message>
     <message>
-      <location filename="../../TaskMultiTransformParameters.cpp" line="104"/>
+      <location filename="../../TaskMultiTransformParameters.cpp" line="102"/>
       <source>Move Up</source>
       <translation>Yukarı Taşı</translation>
     </message>
     <message>
-      <location filename="../../TaskMultiTransformParameters.cpp" line="107"/>
+      <location filename="../../TaskMultiTransformParameters.cpp" line="105"/>
       <source>Move Down</source>
       <translation>Aşağı Taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskMultiTransformParameters.cpp" line="139"/>
+=======
+      <location filename="../../TaskMultiTransformParameters.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Right-click to add a transformation</source>
       <translation>Bir dönüşüm eklemek için sağ tıklayın</translation>
     </message>
@@ -2368,9 +3429,25 @@ Sıfırsa, Yarıçap2'ye eşittir</translation>
   <context>
     <name>PartDesignGui::TaskPadParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPadParameters.cpp" line="40"/>
       <source>Pad Parameters</source>
       <translation>Pad Parametreleri</translation>
+=======
+      <location filename="../../TaskPadParameters.cpp" line="38"/>
+      <source>Pad Parameters</source>
+      <translation>Pad Parametreleri</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPadParameters.cpp" line="40"/>
+      <source>Offset the pad from the face at which the pad will end on side 1</source>
+      <translation>1. tarafta pad'in biteceği yüze göre pad'i ofsetle</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPadParameters.cpp" line="41"/>
+      <source>Offset the pad from the face at which the pad will end on side 2</source>
+      <translation>2. tarafta pad'in biteceği yüze göre pad'i ofsetle</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskPadParameters.cpp" line="42"/>
@@ -2671,6 +3748,7 @@ belirlenen yön boyunca ölçülecek</translation>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPipeParameters.cpp" line="83"/>
       <source>Subtractive Pipe Section Orientation</source>
       <translation type="unfinished">Subtractive Pipe Section Orientation</translation>
@@ -2682,6 +3760,14 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="658"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="575"/>
+      <source>Section Orientation</source>
+      <translation>Kesit Yönelimi</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
@@ -2735,6 +3821,7 @@ belirlenen yön boyunca ölçülecek</translation>
       <translation>Dönüştürülen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPipeParameters.cpp" line="77"/>
       <source>Subtractive Pipe Parameters</source>
       <translation type="unfinished">Subtractive Pipe Parameters</translation>
@@ -2751,10 +3838,19 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="130"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="67"/>
+      <source>Pipe Parameters</source>
+      <translation>Boru Parametreleri</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPipeParameters.cpp" line="495"/>
       <location filename="../../TaskPipeParameters.cpp" line="616"/>
       <source>Input Error</source>
@@ -2762,6 +3858,15 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="495"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="444"/>
+      <location filename="../../TaskPipeParameters.cpp" line="561"/>
+      <source>Input error</source>
+      <translation>Girdi hatası</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No active body</source>
       <translation>Etkin gövde yok</translation>
     </message>
@@ -2799,6 +3904,7 @@ belirlenen yön boyunca ölçülecek</translation>
       <translation>Liste, sürüklenerek tekrar sıralanabilir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPipeParameters.cpp" line="89"/>
       <source>Subtractive Pipe Section Transformation</source>
       <translation type="unfinished">Subtractive Pipe Section Transformation</translation>
@@ -2810,6 +3916,14 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskPipeParameters.cpp" line="948"/>
+=======
+      <location filename="../../TaskPipeParameters.cpp" line="870"/>
+      <source>Section Transformation</source>
+      <translation>Kesit Dönüşümü</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPipeParameters.cpp" line="889"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
@@ -2817,6 +3931,7 @@ belirlenen yön boyunca ölçülecek</translation>
   <context>
     <name>PartDesignGui::TaskPocketParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPocketParameters.cpp" line="40"/>
       <source>Pocket Parameters</source>
       <translation>Cep Parametreleri</translation>
@@ -2833,31 +3948,69 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskPocketParameters.cpp" line="48"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="38"/>
+      <source>Pocket Parameters</source>
+      <translation>Cep Parametreleri</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPocketParameters.cpp" line="41"/>
+      <source>Offset from the selected face at which the pocket will end on side 1</source>
+      <translation>Cebin 1. tarafta sonlanacağı seçili yüzden ofset</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPocketParameters.cpp" line="44"/>
+      <source>Offset from the selected face at which the pocket will end on side 2</source>
+      <translation>Cebin 2. tarafta sonlanacağı seçili yüzden ofset</translation>
+    </message>
+    <message>
+      <location filename="../../TaskPocketParameters.cpp" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverses pocket direction</source>
       <translation>Delik (Cep) yönünü ters çevirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPocketParameters.cpp" line="77"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension</source>
       <translation>Boyut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPocketParameters.cpp" line="78"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Through all</source>
       <translation>Tümünün üzerinden</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPocketParameters.cpp" line="79"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To first</source>
       <translation>Birinciye kadar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPocketParameters.cpp" line="80"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Up to face</source>
       <translation>Yüze kadar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPocketParameters.cpp" line="81"/>
+=======
+      <location filename="../../TaskPocketParameters.cpp" line="79"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Up to shape</source>
       <translation>Şekline kadar</translation>
     </message>
@@ -2871,19 +4024,31 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="50"/>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="222"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base X-axis</source>
       <translation>Temel X ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="55"/>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="223"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Y-axis</source>
       <translation>Temel Y ekseni</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="60"/>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="224"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base Z-axis</source>
       <translation>Temel Z ekseni</translation>
     </message>
@@ -2919,20 +4084,33 @@ belirlenen yön boyunca ölçülecek</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="75"/>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="232"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select reference…</source>
       <translation>Referans seç…</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="87"/>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="175"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>Açı</translation>
     </message>
     <message>
       <location filename="../../TaskRevolutionParameters.ui" line="170"/>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="149"/>
       <location filename="../../TaskRevolutionParameters.cpp" line="459"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="160"/>
+      <location filename="../../TaskRevolutionParameters.cpp" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Yüz</translation>
     </message>
@@ -2942,32 +4120,56 @@ belirlenen yön boyunca ölçülecek</translation>
       <translation>Değişiklikte yeniden hesapla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="177"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To last</source>
       <translation>Sona kadar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="180"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Through all</source>
       <translation>Tümünün üzerinden</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="182"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To first</source>
       <translation>Birinciye kadar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="183"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Up to face</source>
       <translation>Yüze kadar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="184"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Two angles</source>
       <translation>İki açı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="447"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="479"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No face selected</source>
       <translation>Seçili yüz yok</translation>
     </message>
@@ -3008,7 +4210,11 @@ belirlenen yön boyunca ölçülecek</translation>
       <translation>Şekil Bağlayıcı Parametreleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBinder.cpp" line="139"/>
+=======
+      <location filename="../../TaskShapeBinder.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Kaldır</translation>
     </message>
@@ -3016,7 +4222,11 @@ belirlenen yön boyunca ölçülecek</translation>
   <context>
     <name>PartDesignGui::TaskSketchBasedParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSketchBasedParameters.cpp" line="210"/>
+=======
+      <location filename="../../TaskSketchBasedParameters.cpp" line="202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Yüz</translation>
     </message>
@@ -3102,27 +4312,45 @@ belirlenen yön boyunca ölçülecek</translation>
       <translation>Kaldır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskTransformedParameters.cpp" line="398"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal sketch axis</source>
       <translation>Çizime dik eksen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskTransformedParameters.cpp" line="397"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical sketch axis</source>
       <translation>Dikey taslak ekseni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskTransformedParameters.cpp" line="396"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal sketch axis</source>
       <translation>Yatay taslak ekseni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskTransformedParameters.cpp" line="400"/>
       <location filename="../../TaskTransformedParameters.cpp" line="436"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="406"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="442"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Construction line %1</source>
       <translation>Yapı hattı %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskTransformedParameters.cpp" line="414"/>
       <source>Base X-axis</source>
       <translation>Temel X ekseni</translation>
@@ -3155,6 +4383,40 @@ belirlenen yön boyunca ölçülecek</translation>
     <message>
       <location filename="../../TaskTransformedParameters.cpp" line="424"/>
       <location filename="../../TaskTransformedParameters.cpp" line="460"/>
+=======
+      <location filename="../../TaskTransformedParameters.cpp" line="420"/>
+      <source>Base X-axis</source>
+      <translation>Temel X ekseni</translation>
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.cpp" line="421"/>
+      <source>Base Y-axis</source>
+      <translation>Temel Y ekseni</translation>
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.cpp" line="422"/>
+      <source>Base Z-axis</source>
+      <translation>Temel Z ekseni</translation>
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.cpp" line="456"/>
+      <source>Base XY-plane</source>
+      <translation>Temel XY düzlemi</translation>
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.cpp" line="457"/>
+      <source>Base YZ-plane</source>
+      <translation>Temel YZ düzlemi</translation>
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.cpp" line="458"/>
+      <source>Base XZ-plane</source>
+      <translation>Temel XZ düzlemi</translation>
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.cpp" line="430"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select reference…</source>
       <translation>Referans seç…</translation>
     </message>
@@ -3182,17 +4444,33 @@ belirlenen yön boyunca ölçülecek</translation>
       <location filename="../../TaskTransformedParameters.ui" line="116"/>
       <source>Recompute on change</source>
       <translation>Değişiklikte yeniden hesapla</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../TaskTransformedParameters.ui" line="106"/>
+      <source>List can be reordered by dragging</source>
+      <translation>Liste, sürüklenerek tekrar sıralanabilir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartDesign_MoveFeature</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="909"/>
+=======
+      <location filename="../../CommandBody.cpp" line="908"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Body</source>
       <translation>Gövde seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="910"/>
+=======
+      <location filename="../../CommandBody.cpp" line="909"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a body from the list</source>
       <translation>Listeden bir gövde seçin</translation>
     </message>
@@ -3200,27 +4478,47 @@ belirlenen yön boyunca ölçülecek</translation>
   <context>
     <name>PartDesign_MoveFeatureInTree</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1098"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1095"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move Feature After…</source>
       <translation>Özelliği şundan sonra taşı…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1099"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1096"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a feature from the list</source>
       <translation>Listeden bir özellik seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1186"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move Tip</source>
       <translation>Ucu taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1192"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set tip to last feature?</source>
       <translation>Ucu son özelliğe ayarla?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1187"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The moved feature appears after the currently set tip.</source>
       <translation>Taşınan özellik, o anda ayarlanmış olan ipucundan sonra görünür.</translation>
     </message>
@@ -3228,107 +4526,191 @@ belirlenen yön boyunca ölçülecek</translation>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="151"/>
+=======
+      <location filename="../../Command.cpp" line="146"/>
+      <source>Invalid selection</source>
+      <translation>Geçersiz seçim</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There are no attachment modes that fit selected objects. Select something else.</source>
       <translation>Seçili nesnelere uyan hiçbir ek modu yok. Başka bir şey seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="164"/>
       <location filename="../../Command.cpp" line="172"/>
       <location filename="../../Command.cpp" line="179"/>
+=======
+      <location filename="../../Command.cpp" line="160"/>
+      <location filename="../../Command.cpp" line="168"/>
+      <location filename="../../Command.cpp" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Hata</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="845"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Several sub-elements selected</source>
       <translation>Birkaç alt eleman seçildi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="846"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="810"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a single face as support for a sketch!</source>
       <translation>Eskiz desteği için tek bir yüz seçin!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="853"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a face as support for a sketch!</source>
       <translation>Eskiz desteği için bir yüz seçin!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="860"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="824"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Need a planar face as support for a sketch!</source>
       <translation>Eskiz desteği için düzlemsel bir yüz gerekli!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="867"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="831"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a plane first or select a face to sketch on</source>
       <translation>Önce bir düzlem oluşturun ya da eskiz yapılacak bir yüz seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="852"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="816"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No support face selected</source>
       <translation>Desteklenmeyen bir yüz seçili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="859"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="823"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No planar support</source>
       <translation>Düzlemsel desteği yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SketchWorkflow.cpp" line="866"/>
+=======
+      <location filename="../../SketchWorkflow.cpp" line="830"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No valid planes in this document</source>
       <translation>Bu belgede geçerli uçaklar yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderShapeBinder.cpp" line="97"/>
       <location filename="../../Command.cpp" line="1155"/>
       <location filename="../../ViewProvider.cpp" line="137"/>
       <location filename="../../SketchWorkflow.cpp" line="763"/>
       <location filename="../../ViewProviderDatum.cpp" line="259"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="95"/>
+      <location filename="../../Command.cpp" line="1138"/>
+      <location filename="../../SketchWorkflow.cpp" line="728"/>
+      <location filename="../../ViewProvider.cpp" line="135"/>
+      <location filename="../../ViewProviderDatum.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A dialog is already open in the task panel</source>
       <translation>Araç çubuğunda bir pencere zaten açık</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1009"/>
+=======
+      <location filename="../../Command.cpp" line="992"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot use this command as there is no solid to subtract from.</source>
       <translation>Çıkartılacak bir katı olmadığından dolayı bu komutu kullanamazsınız.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1012"/>
+=======
+      <location filename="../../Command.cpp" line="995"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ensure that the body contains a feature before attempting a subtractive command.</source>
       <translation>Bir parça çıkartma komutu işleme girmeden önce çizim özelliği içeren bir gövde bulundurun.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1036"/>
+=======
+      <location filename="../../Command.cpp" line="1019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot use selected object. Selected object must belong to the active body</source>
       <translation>Seçilen nesneyi kullanamazsınız. Seçilen nesne, etkin gövdeye ait olmalıdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="165"/>
+=======
+      <location filename="../../Command.cpp" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There is no active body. Please activate a body before inserting a datum entity.</source>
       <translation>Etkin bir gövde yok. Bir datum öğesi eklemeden önce lütfen bir gövdeyi etkinleştirin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="150"/>
       <source>Invalid Selection</source>
       <translation type="unfinished">Invalid Selection</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="471"/>
+=======
+      <location filename="../../Command.cpp" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-shape binder</source>
       <translation>Alt-şekil bağlayıcı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1068"/>
+=======
+      <location filename="../../Command.cpp" line="1051"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No sketch to work on</source>
       <translation>Üzerinde çalışılacak bir eskiz yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1069"/>
+=======
+      <location filename="../../Command.cpp" line="1052"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No sketch is available in the document</source>
       <translation>Belgede mevcut bir eskiz yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2210"/>
       <source>Select only one feature in an active body.</source>
       <translation type="unfinished">Select only one feature in an active body.</translation>
@@ -3345,113 +4727,211 @@ belirlenen yön boyunca ölçülecek</translation>
     <message>
       <location filename="../../Command.cpp" line="1838"/>
       <location filename="../../Command.cpp" line="1873"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="96"/>
+      <location filename="../../Command.cpp" line="1139"/>
+      <location filename="../../SketchWorkflow.cpp" line="729"/>
+      <location filename="../../ViewProvider.cpp" line="136"/>
+      <location filename="../../ViewProviderDatum.cpp" line="258"/>
+      <source>Close this dialog?</source>
+      <translation>Bu iletişim kutusu kapatılsın mı?</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1821"/>
+      <location filename="../../Command.cpp" line="1856"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>Yanlış seçim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1839"/>
+=======
+      <location filename="../../Command.cpp" line="1822"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select an edge, face, or body from a single body.</source>
       <translation>Tek bir gövdeden bir kenar, yüz veya gövde seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1846"/>
       <location filename="../../Command.cpp" line="2209"/>
+=======
+      <location filename="../../Command.cpp" line="1829"/>
+      <location filename="../../Command.cpp" line="2191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection is not in the active body</source>
       <translation>Seçim etkin gövde içinde değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1874"/>
+=======
+      <location filename="../../Command.cpp" line="1857"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape of the selected part is empty</source>
       <translation>Seçilen parçanın şekli boş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1847"/>
+=======
+      <location filename="../../Command.cpp" line="1830"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select an edge, face, or body from an active body.</source>
       <translation>Etkin bir gövdeden bir kenar, yüz veya gövde seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1039"/>
+=======
+      <location filename="../../Command.cpp" line="1022"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Consider using a shape binder or a base feature to reference external geometry in a body</source>
       <translation>Bir gövde içinde harici geometriye referans vermek için şekil bağlayıcı veya temel özellik kullanmayı düşünün</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1860"/>
+=======
+      <location filename="../../Command.cpp" line="1843"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong object type</source>
       <translation>Yanlış nesne türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1861"/>
+=======
+      <location filename="../../Command.cpp" line="1844"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 works only on parts.</source>
       <translation>%1 sadece parçalar üzerinde çalışır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="74"/>
+=======
+      <location filename="../../Command.cpp" line="2192"/>
+      <source>Please select only one feature in an active body.</source>
+      <translation>Lütfen etkin gövdedeki tek bir çizim özelliğini seçin.</translation>
+    </message>
+    <message>
+      <location filename="../../CommandBody.cpp" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part creation failed</source>
       <translation>Parça oluşturma başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="75"/>
+=======
+      <location filename="../../CommandBody.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to create a part object.</source>
       <translation>Bir parça nesnesi oluşturulamadı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="124"/>
       <location filename="../../CommandBody.cpp" line="132"/>
       <location filename="../../CommandBody.cpp" line="148"/>
       <location filename="../../CommandBody.cpp" line="214"/>
+=======
+      <location filename="../../CommandBody.cpp" line="125"/>
+      <location filename="../../CommandBody.cpp" line="133"/>
+      <location filename="../../CommandBody.cpp" line="149"/>
+      <location filename="../../CommandBody.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bad base feature</source>
       <translation>Kötü temel özellik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="125"/>
+=======
+      <location filename="../../CommandBody.cpp" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A body cannot be based on a Part Design feature.</source>
       <translation>Bir gövde, Part Design özelliğine dayandırılamaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="133"/>
+=======
+      <location filename="../../CommandBody.cpp" line="134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 already belongs to a body and cannot be used as a base feature for another body.</source>
       <translation>%1 zaten bir gövdeye ait ve başka bir gövde için temel özellik olarak kullanılamaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="149"/>
+=======
+      <location filename="../../CommandBody.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base feature (%1) belongs to other part.</source>
       <translation>Temel özellik (%1) başka bir parçaya ait.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="176"/>
+=======
+      <location filename="../../CommandBody.cpp" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected shape consists of multiple solids.
 This may lead to unexpected results.</source>
       <translation>Seçilen şekil birden fazla katıyı içerir.
 Bu, beklenmedik sonuçlara neden olabilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="182"/>
+=======
+      <location filename="../../CommandBody.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected shape consists of multiple shells.
 This may lead to unexpected results.</source>
       <translation>Seçilen şekil birden fazla kabuktan oluşur.
 Bu, beklenmedik sonuçlara neden olabilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="188"/>
+=======
+      <location filename="../../CommandBody.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected shape consists of only a shell.
 This may lead to unexpected results.</source>
       <translation>Seçilen şekil yalnızca bir kabuktan oluşur.
 Bu, beklenmedik sonuçlara neden olabilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="194"/>
+=======
+      <location filename="../../CommandBody.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The selected shape consists of multiple solids or shells.
 This may lead to unexpected results.</source>
       <translation>Seçilen şekil çok katlı veya kabuktan oluşur.
 Bu, beklenmedik sonuçlara neden olabilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="203"/>
+=======
+      <location filename="../../CommandBody.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Base feature</source>
       <translation>Temel özellik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="215"/>
+=======
+      <location filename="../../CommandBody.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Body may be based on no more than one feature.</source>
       <translation>Vücut birden fazla özelliğe dayanmayabilir.</translation>
     </message>
@@ -3461,93 +4941,168 @@ Bu, beklenmedik sonuçlara neden olabilir.</translation>
       <translation>Gövde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="425"/>
+=======
+      <location filename="../../CommandBody.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nothing to migrate</source>
       <translation>Geçiş yapılacak hiçbir şey yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="614"/>
       <source>Edit '%1' and redefine it to use a Base or Datum plane as the sketch plane.</source>
       <translation type="unfinished">Edit '%1' and redefine it to use a Base or Datum plane as the sketch plane.</translation>
     </message>
     <message>
       <location filename="../../CommandBody.cpp" line="689"/>
+=======
+      <location filename="../../CommandBody.cpp" line="692"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select exactly one Part Design feature or a body.</source>
       <translation>Tam olarak bir Part Design özelliği veya bir gövde seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="697"/>
+=======
+      <location filename="../../CommandBody.cpp" line="700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not determine a body for the selected feature '%s'.</source>
       <translation>Seçilen '%s' özelliği için bir gövde belirlenemedi.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="878"/>
+=======
+      <location filename="../../CommandBody.cpp" line="877"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only features of a single source body can be moved</source>
       <translation>Yalnızca tek bir kaynak gövdeye ait özellikler taşınabilir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="613"/>
+=======
+      <location filename="../../CommandBody.cpp" line="616"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sketch plane cannot be migrated</source>
       <translation>Eskiz düzlemi geçişi yapılamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="426"/>
+=======
+      <location filename="../../CommandBody.cpp" line="422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Part Design features without body found Nothing to migrate.</source>
       <translation>Gövdesiz Part Design özelliği bulunamadı. Taşınacak bir şey yok.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="688"/>
       <location filename="../../CommandBody.cpp" line="696"/>
       <location filename="../../CommandBody.cpp" line="710"/>
       <location filename="../../CommandBody.cpp" line="1064"/>
       <location filename="../../CommandBody.cpp" line="1074"/>
+=======
+      <location filename="../../CommandBody.cpp" line="617"/>
+      <source>Please edit '%1' and redefine it to use a Base or Datum plane as the sketch plane.</source>
+      <translation>Lütfen '%1' i düzenleyin ve eskiz düzlemi olarak bir Taban veya Kıyas düzlemi kullanmak için yeniden tanımlayın.</translation>
+    </message>
+    <message>
+      <location filename="../../CommandBody.cpp" line="691"/>
+      <location filename="../../CommandBody.cpp" line="699"/>
+      <location filename="../../CommandBody.cpp" line="711"/>
+      <location filename="../../CommandBody.cpp" line="1061"/>
+      <location filename="../../CommandBody.cpp" line="1071"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection error</source>
       <translation>Seçim hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="711"/>
+=======
+      <location filename="../../CommandBody.cpp" line="712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only a solid feature can be the tip of a body.</source>
       <translation>Bir cismin ucu sadece sağlam bir özellik olabilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="847"/>
       <location filename="../../CommandBody.cpp" line="877"/>
       <location filename="../../CommandBody.cpp" line="895"/>
+=======
+      <location filename="../../CommandBody.cpp" line="846"/>
+      <location filename="../../CommandBody.cpp" line="876"/>
+      <location filename="../../CommandBody.cpp" line="894"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Features cannot be moved</source>
       <translation>Özellikler taşınamıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="848"/>
+=======
+      <location filename="../../CommandBody.cpp" line="847"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Some of the selected features have dependencies in the source body</source>
       <translation>Seçilen bazı özelliklerin kaynak gövdesinde bağımlılıkları vardır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="896"/>
+=======
+      <location filename="../../CommandBody.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There are no other bodies to move to</source>
       <translation>Taşınacak başka organ yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1065"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1062"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Impossible to move the base feature of a body.</source>
       <translation>Vücudun temel özelliğini taşımak imkansız.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1075"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select one or more features from the same body.</source>
       <translation>Aynı cesetten bir veya daha fazla özellik seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1090"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beginning of the body</source>
       <translation>Vücudun başlangıcı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1171"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency violation</source>
       <translation>Bağımlılık ihlali</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandBody.cpp" line="1172"/>
+=======
+      <location filename="../../CommandBody.cpp" line="1169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Early feature must not depend on later feature.
 
 </source>
@@ -3556,44 +5111,78 @@ Bu, beklenmedik sonuçlara neden olabilir.</translation>
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="309"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No previous feature found</source>
       <translation>Önceki bir özellik bulunamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="310"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>It is not possible to create a subtractive feature without a base feature available</source>
       <translation>Mevcut bir temel özellik olmadan bir çıkarılabilir özellik oluşturmak mümkün değildir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="208"/>
       <location filename="../../TaskTransformedParameters.cpp" line="433"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="240"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertical sketch axis</source>
       <translation>Dikey taslak ekseni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="209"/>
       <location filename="../../TaskTransformedParameters.cpp" line="434"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="241"/>
+      <location filename="../../TaskTransformedParameters.cpp" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Horizontal sketch axis</source>
       <translation>Yatay taslak ekseni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="211"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Construction line %1</source>
       <translation>Yapı hattı %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSketchBasedParameters.cpp" line="96"/>
+=======
+      <location filename="../../TaskSketchBasedParameters.cpp" line="94"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Yüz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="209"/>
+=======
+      <location filename="../../Utils.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active Body Required</source>
       <translation>Aktif Vücut Gerekli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="151"/>
+=======
+      <location filename="../../Utils.cpp" line="148"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To use Part Design, an active body is required in the document. Activate a body (double-click) or create a new one.
 
 For legacy documents with Part Design objects lacking a body, use the migrate function in Part Design to place them into a body.</source>
@@ -3602,58 +5191,104 @@ For legacy documents with Part Design objects lacking a body, use the migrate fu
 Gövdesiz Part Design nesneleri içeren eski belgeler için, bunları bir gövde içine yerleştirmek üzere Part Design'daki taşıma işlevini kullanın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="210"/>
+=======
+      <location filename="../../Utils.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To create a new Part Design object, an active body is required in the document. Activate an existing body (double-click) or create a new one.</source>
       <translation>Yeni bir Part Design nesnesi oluşturmak için belgede etkin bir gövde gerekir. Mevcut bir gövdeyi etkinleştirin (çift tıklayın) veya yeni bir tane oluşturun.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="272"/>
+=======
+      <location filename="../../Utils.cpp" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Feature is not in a body</source>
       <translation>Özellik bir vücutta değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="273"/>
+=======
+      <location filename="../../Utils.cpp" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>In order to use this feature it needs to belong to a body object in the document.</source>
       <translation>Bu özelliği kullanmak için belgede bir gövde nesnesine ait olması gerekir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="319"/>
+=======
+      <location filename="../../Utils.cpp" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Feature is not in a part</source>
       <translation>Özellik bir parçası değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Utils.cpp" line="320"/>
+=======
+      <location filename="../../Utils.cpp" line="317"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>In order to use this feature it needs to belong to a part object in the document.</source>
       <translation>Bu özelliği kullanmak için belgedeki bir parçaya ait olması gerekir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDressUp.cpp" line="64"/>
       <location filename="../../ViewProviderShapeBinder.cpp" line="227"/>
       <location filename="../../ViewProviderTransformed.cpp" line="67"/>
       <location filename="../../ViewProvider.cpp" line="94"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="225"/>
+      <location filename="../../ViewProviderTransformed.cpp" line="63"/>
+      <location filename="../../ViewProviderDressUp.cpp" line="62"/>
+      <location filename="../../ViewProvider.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit %1</source>
       <translation>%1'i düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProvider.cpp" line="107"/>
+=======
+      <location filename="../../ViewProvider.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set Face Colors</source>
       <translation>Yüz Renklerini Ayarla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDatum.cpp" line="114"/>
       <location filename="../../ViewProviderDatum.cpp" line="214"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="112"/>
+      <location filename="../../ViewProviderDatum.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Plane</source>
       <translation>Düzlem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDatum.cpp" line="119"/>
       <location filename="../../ViewProviderDatum.cpp" line="209"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="117"/>
+      <location filename="../../ViewProviderDatum.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line</source>
       <translation>Çizgi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDatum.cpp" line="124"/>
       <location filename="../../ViewProviderDatum.cpp" line="219"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="122"/>
+      <location filename="../../ViewProviderDatum.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Point</source>
       <translation>Nokta</translation>
     </message>
@@ -3663,59 +5298,103 @@ Gövdesiz Part Design nesneleri içeren eski belgeler için, bunları bir gövde
       <translation>Koordinat sistemi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDatum.cpp" line="236"/>
+=======
+      <location filename="../../ViewProviderDatum.cpp" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Datum</source>
       <translation>Datum'u Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDressUp.cpp" line="93"/>
+=======
+      <location filename="../../ViewProviderDressUp.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Feature error</source>
       <translation>Özellik hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDressUp.cpp" line="94"/>
+=======
+      <location filename="../../ViewProviderDressUp.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 misses a base feature.
 This feature is broken and cannot be edited.</source>
       <translation>%1 için bir temel özellik eksik.
 Bu özellik bozuk ve düzenlenemez.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderShapeBinder.cpp" line="222"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Shape Binder</source>
       <translation>Şekil Bağlayıcıyı Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderShapeBinder.cpp" line="352"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Synchronize</source>
       <translation>Eşitle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderShapeBinder.cpp" line="354"/>
+=======
+      <location filename="../../ViewProviderShapeBinder.cpp" line="352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Bound Object</source>
       <translation>Bağlı Nesneyi Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkflowManager.cpp" line="156"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document "%1" you are editing was designed with an old version of Part Design workbench.</source>
       <translation>Düzenlediğiniz "%1" belgesi Part Design çalışma tezgâhının eski bir sürümüyle tasarlanmış.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkflowManager.cpp" line="163"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrate in order to use modern Part Design features?</source>
       <translation>Modern Part Design özelliklerini kullanmak için taşınsın mı?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkflowManager.cpp" line="168"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document "%1" seems to be either in the middle of the migration process from legacy Part Design or have a slightly broken structure.</source>
       <translation>"%1" belgesi ya eski Part Design'dan taşıma işleminin ortasında görünüyor ya da yapısı biraz bozulmuş.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkflowManager.cpp" line="175"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make the migration automatically?</source>
       <translation>Taşıma otomatik olarak yapılsın mı?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkflowManager.cpp" line="178"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Note: If you choose to migrate you won't be able to edit the file with an older FreeCAD version.
 If you refuse to migrate you won't be able to use new PartDesign features like Bodies and Parts. As a result you also won't be able to use your parts in the assembly workbench.
 Although you will be able to migrate any moment later with 'Part Design -&gt; Migrate'.</source>
@@ -3724,7 +5403,11 @@ Geçiş yapmayı reddederseniz, Gövdeler ve Parçalar gibi yeni PartDesign öze
 Buna karşın, daha sonra istediğiniz herhangi bir anda 'Part Design -&gt; Migrate' ile geçiş yapabilirsiniz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../WorkflowManager.cpp" line="191"/>
+=======
+      <location filename="../../WorkflowManager.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrate Manually</source>
       <translation>Elle Taşı</translation>
     </message>
@@ -3749,17 +5432,29 @@ Buna karşın, daha sonra istediğiniz herhangi bir anda 'Part Design -&gt; Migr
       <translation>Yuvarlatmayı Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderGroove.cpp" line="45"/>
+=======
+      <location filename="../../ViewProviderGroove.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Groove</source>
       <translation>Oluğu Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderHelix.cpp" line="50"/>
+=======
+      <location filename="../../ViewProviderHelix.cpp" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Helix</source>
       <translation>Helisi Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderHole.cpp" line="130"/>
+=======
+      <location filename="../../ViewProviderHole.cpp" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Hole</source>
       <translation>Deliği Düzenle</translation>
     </message>
@@ -3769,7 +5464,11 @@ Buna karşın, daha sonra istediğiniz herhangi bir anda 'Part Design -&gt; Migr
       <translation>Doğrusal Deseni Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderLoft.cpp" line="67"/>
+=======
+      <location filename="../../ViewProviderLoft.cpp" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Loft</source>
       <translation>Loft'u Düzenle</translation>
     </message>
@@ -3784,22 +5483,38 @@ Buna karşın, daha sonra istediğiniz herhangi bir anda 'Part Design -&gt; Migr
       <translation>Çoklu Dönüşümü Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPad.cpp" line="45"/>
+=======
+      <location filename="../../ViewProviderPad.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Pad</source>
       <translation>Pad'i Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPipe.cpp" line="77"/>
+=======
+      <location filename="../../ViewProviderPipe.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Pipe</source>
       <translation>Boruyu Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPocket.cpp" line="47"/>
+=======
+      <location filename="../../ViewProviderPocket.cpp" line="45"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Pocket</source>
       <translation>Cebi Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPolarPattern.cpp" line="40"/>
+=======
+      <location filename="../../ViewProviderPolarPattern.cpp" line="38"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Polar Pattern</source>
       <translation>Dairesel Deseni Düzenle</translation>
     </message>
@@ -3809,7 +5524,11 @@ Buna karşın, daha sonra istediğiniz herhangi bir anda 'Part Design -&gt; Migr
       <translation>Primitifi Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderRevolution.cpp" line="45"/>
+=======
+      <location filename="../../ViewProviderRevolution.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Revolution</source>
       <translation>Döndürmeyi Düzenle</translation>
     </message>
@@ -4062,7 +5781,21 @@ Hesaplamanın biraz zaman alabileceğini unutmayın</translation>
       <translation>Boşluk / Geçişli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.ui" line="686"/>
+=======
+      <location filename="../../TaskHoleParameters.ui" line="683"/>
+      <source>Tap drill (to be threaded)</source>
+      <translation>Kılavuz matkabı (diş açma için)</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.ui" line="688"/>
+      <source>Modeled thread</source>
+      <translation>Modellenmiş diş</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.ui" line="696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole type</source>
       <translation>Delik tipi</translation>
     </message>
@@ -4070,6 +5803,14 @@ Hesaplamanın biraz zaman alabileceğini unutmayın</translation>
       <location filename="../../TaskHoleParameters.ui" line="828"/>
       <source>Update thread view</source>
       <translation>Diş görünümünü güncelle</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.ui" line="1065"/>
+      <source>Custom Clearance</source>
+      <translation>Özel boşluk</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskHoleParameters.ui" line="1078"/>
@@ -4218,7 +5959,16 @@ Sadece diş açılmamış delikler içindir</translation>
       <translation>Yönü ters çevir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskHoleParameters.ui" line="773"/>
+=======
+      <location filename="../../TaskHoleParameters.ui" line="662"/>
+      <source>&lt;b&gt;Threading&lt;/b&gt;</source>
+      <translation>&lt;b&gt;Diş açma&lt;/b&gt;</translation>
+    </message>
+    <message>
+      <location filename="../../TaskHoleParameters.ui" line="783"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread</source>
       <translation>Vida dişi</translation>
     </message>
@@ -4309,21 +6059,34 @@ over 90: larger hole radius at the bottom</source>
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="43"/>
+=======
+      <location filename="../../Workbench.cpp" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Sketch</source>
       <translation>&amp;Eskiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="45"/>
+=======
+      <location filename="../../Workbench.cpp" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Part Design</source>
       <translation>&amp;Parça Tasarımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="46"/>
+=======
+      <location filename="../../Workbench.cpp" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Datums</source>
       <translation>Datumlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="47"/>
       <source>Additive Features</source>
       <translation>Eklemeli Özellikler</translation>
@@ -4350,36 +6113,88 @@ over 90: larger hole radius at the bottom</source>
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="52"/>
+=======
+      <location filename="../../Workbench.cpp" line="45"/>
+      <source>Additive Features</source>
+      <translation>Eklemeli Özellikler</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="46"/>
+      <source>Subtractive Features</source>
+      <translation>Çıkarmalı Özellikler</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="47"/>
+      <source>Dress-Up Features</source>
+      <translation>Son İşlem Özellikleri</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="48"/>
+      <source>Transformation Features</source>
+      <translation>Dönüştürme Özellikleri</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="49"/>
+      <source>Sprocket…</source>
+      <translation>Zincir dişlisi…</translation>
+    </message>
+    <message>
+      <location filename="../../Workbench.cpp" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Involute Gear</source>
       <translation>Evolvent Dişli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="54"/>
+=======
+      <location filename="../../Workbench.cpp" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shaft Design Wizard</source>
       <translation>Mil Tasarım Sihirbazı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="62"/>
+=======
+      <location filename="../../Workbench.cpp" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Measure</source>
       <translation>Ölçüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="63"/>
+=======
+      <location filename="../../Workbench.cpp" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Refresh</source>
       <translation>Yenile</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="64"/>
+=======
+      <location filename="../../Workbench.cpp" line="62"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle 3D</source>
       <translation>3B'ye geçiş yap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="65"/>
+=======
+      <location filename="../../Workbench.cpp" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part Design Helper</source>
       <translation>Parça Tasarım Yardımcısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Workbench.cpp" line="66"/>
+=======
+      <location filename="../../Workbench.cpp" line="64"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Part Design Modeling</source>
       <translation>Parça Tasarım Modellemesi</translation>
     </message>
@@ -4387,108 +6202,193 @@ over 90: larger hole radius at the bottom</source>
   <context>
     <name>WizardShaftTable</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="48"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length [mm]</source>
       <translation>Uzunluk [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="49"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Diameter [mm]</source>
       <translation>Çap [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="50"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="48"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inner diameter [mm]</source>
       <translation>İç çap [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="51"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Constraint type</source>
       <translation>Kısıtlama türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="52"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start edge type</source>
       <translation>Başlangıç kenarı türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="53"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="51"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start edge size</source>
       <translation>Başlangıç kenarı boyutu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="54"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End edge type</source>
       <translation>Bitiş kenar tipi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="55"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End edge size</source>
       <translation>Bitiş kenar boyutu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="69"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shaft Wizard</source>
       <translation>Mil Sihirbazı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="77"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section 1</source>
       <translation>Seçim 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="78"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section 2</source>
       <translation>Seçim 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="82"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add column</source>
       <translation>Sütun ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="130"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section %s</source>
       <translation>Bölüm %s</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="159"/>
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="178"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="157"/>
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Hiçbiri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="160"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fixed</source>
       <translation>Sabitle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="161"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Force</source>
       <translation>Kuvvet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="162"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="160"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bearing</source>
       <translation>Rulman</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="163"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gear</source>
       <translation>dişli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="164"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pulley</source>
       <translation>Kasnak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="181"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chamfer</source>
       <translation>Pah kır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaftTable.py" line="182"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaftTable.py" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillet</source>
       <translation>Yuvarla</translation>
     </message>
@@ -4496,17 +6396,29 @@ over 90: larger hole radius at the bottom</source>
   <context>
     <name>TaskWizardShaft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="60"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All</source>
       <translation>Hepsi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="120"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Missing Module</source>
       <translation>Eksik Modül</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="126"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The Plot add-on is not installed. Install it to enable this feature.</source>
       <translation>Plot eklentisi yüklü değil. Bu özelliği etkinleştirmek için yükleyin.</translation>
     </message>
@@ -4514,12 +6426,20 @@ over 90: larger hole radius at the bottom</source>
   <context>
     <name>PartDesign_WizardShaftCallBack</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="253"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shaft design wizard...</source>
       <translation>Mil tasarım sihirbazı...</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="256"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start the shaft design wizard</source>
       <translation>Şaft (Mil) tasarım sihirbazını başlatın</translation>
     </message>
@@ -4527,46 +6447,79 @@ over 90: larger hole radius at the bottom</source>
   <context>
     <name>Exception</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/Body.cpp" line="406"/>
+=======
+      <location filename="../../../App/Body.cpp" line="403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Linked object is not a PartDesign feature</source>
       <translation>Bağlı nesne bir PartDesign özelliği değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/Body.cpp" line="415"/>
+=======
+      <location filename="../../../App/Body.cpp" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tip shape is empty</source>
       <translation>Uç şekli boş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBase.cpp" line="68"/>
+=======
+      <location filename="../../../App/FeatureBase.cpp" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BaseFeature link is not set</source>
       <translation>BaseFeature bağlantısı ayarlı değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBase.cpp" line="74"/>
+=======
+      <location filename="../../../App/FeatureBase.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BaseFeature must be a Part::Feature</source>
       <translation>BaseFeature bir Part::Feature olmalıdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBase.cpp" line="84"/>
+=======
+      <location filename="../../../App/FeatureBase.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>BaseFeature has an empty shape</source>
       <translation>BaseFeature'ın şekli boş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBoolean.cpp" line="172"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot do boolean cut without BaseFeature</source>
       <translation>BaseFeature olmadan Boole kesme yapılamaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBoolean.cpp" line="194"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot do boolean with anything but Part::Feature and its derivatives</source>
       <translation>Part::Feature ve türevleri dışındaki nesnelerle Boole işlemi yapılamaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBoolean.cpp" line="211"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot do boolean operation with invalid base shape</source>
       <translation>Geçersiz temel şekille Boole işlemi yapılamaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="217"/>
       <location filename="../../../App/FeatureHelix.cpp" line="420"/>
       <location filename="../../../App/FeatureHelix.cpp" line="442"/>
@@ -4584,100 +6537,199 @@ over 90: larger hole radius at the bottom</source>
       <location filename="../../../App/FeatureBoolean.cpp" line="266"/>
       <location filename="../../../App/FeatureLoft.cpp" line="334"/>
       <location filename="../../../App/FeatureLoft.cpp" line="378"/>
+=======
+      <location filename="../../../App/FeatureDraft.cpp" line="332"/>
+      <location filename="../../../App/FeatureGroove.cpp" line="253"/>
+      <location filename="../../../App/FeatureHole.cpp" line="2067"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="480"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="529"/>
+      <location filename="../../../App/FeatureBoolean.cpp" line="159"/>
+      <location filename="../../../App/FeatureChamfer.cpp" line="192"/>
+      <location filename="../../../App/FeatureFillet.cpp" line="140"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="773"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="789"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="802"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="331"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="375"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result has multiple solids: enable 'Allow Compound' in the active body.</source>
       <translation>Sonuç birden fazla katı içeriyor: etkin gövdede 'Bileşiğe izin ver' seçeneğini etkinleştirin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBoolean.cpp" line="221"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tool shape is null</source>
       <translation>Araç şekli yok (null)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureBoolean.cpp" line="248"/>
+=======
+      <location filename="../../../App/FeatureBoolean.cpp" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsupported boolean operation</source>
       <translation>Desteklenmeyen Boole işlemi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="353"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot create a pad with a total length of zero.</source>
       <translation>Toplam uzunluğu sıfır olan bir pad oluşturulamaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="358"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot create a pocket with a total length of zero.</source>
       <translation>Toplam uzunluğu sıfır olan bir cep oluşturulamaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="706"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No extrusion geometry was generated.</source>
       <translation>Ekstrüzyon geometrisi oluşturulamadı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="730"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="728"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resulting fused extrusion is null.</source>
       <translation>Oluşan birleştirilmiş ekstrüzyon yok (null).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="766"/>
       <location filename="../../../App/FeaturePipe.cpp" line="592"/>
       <location filename="../../../App/FeatureLoft.cpp" line="371"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="141"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="139"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="521"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="764"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="368"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resulting shape is not a solid</source>
       <translation>Oluşan şekil bir katı değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureChamfer.cpp" line="176"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to create chamfer</source>
       <translation>Pah oluşturma hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureFillet.cpp" line="122"/>
       <location filename="../../../App/FeatureDraft.cpp" line="330"/>
+=======
+      <location filename="../../../App/FeatureDraft.cpp" line="327"/>
+      <location filename="../../../App/FeatureFillet.cpp" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resulting shape is null</source>
       <translation>Sonuç şekil tanımsız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureChamfer.cpp" line="144"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No edges specified</source>
       <translation>Kenar belirtilmedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureChamfer.cpp" line="211"/>
       <source>Chamfer failed: OCC kernel error in chamfer computation</source>
       <translation type="unfinished">Chamfer failed: OCC kernel error in chamfer computation</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureChamfer.cpp" line="302"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Size must be greater than zero</source>
       <translation>Ölçü sıfırdan büyük olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureChamfer.cpp" line="313"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Size2 must be greater than zero</source>
       <translation>Ölçü 2 sıfırdan büyük olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureChamfer.cpp" line="320"/>
+=======
+      <location filename="../../../App/FeatureChamfer.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle must be greater than 0 and less than 180</source>
       <translation>Açı sıfır dereceden büyük ve 180 dereceden küçük olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureFillet.cpp" line="97"/>
+=======
+      <location filename="../../../App/FeatureFillet.cpp" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillet not possible on selected shapes</source>
       <translation>Seçilen şekillerde yuvarlatma mümkün değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureFillet.cpp" line="105"/>
+=======
+      <location filename="../../../App/FeatureFillet.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillet radius must be greater than zero</source>
       <translation>Yuvarlama yarıçapı sıfırdan büyük olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureFillet.cpp" line="159"/>
       <source>Fillet operation failed. The selected edges may contain geometry that cannot be filleted together. Try filleting edges individually or with a smaller radius.</source>
       <translation>Yuvarlatma işlemi başarısız oldu. Seçilen kenarlar, birlikte yuvarlatılamayan geometri içerebilir. Kenarları tek tek veya daha küçük bir yarıçapla yuvarlatmayı deneyin.</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureHole.cpp" line="1739"/>
+=======
+      <location filename="../../../App/FeatureFillet.cpp" line="157"/>
+      <source>Fillet operation failed. The selected edges may contain geometry that cannot be filleted together. Try filleting edges individually or with a smaller radius.</source>
+      <translation>Yuvarlatma işlemi başarısız oldu. Seçilen kenarlar, birlikte yuvarlatılamayan geometri içerebilir. Kenarları tek tek veya daha küçük bir yarıçapla yuvarlatmayı deneyin.</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureGroove.cpp" line="101"/>
+      <source>Angle of groove too large</source>
+      <translation>Oluk açısı çok geniş</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureGroove.cpp" line="108"/>
+      <source>Angle of groove too small</source>
+      <translation>Oluk açısı çok dar</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1719"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The requested feature cannot be created. The reason may be that:
   - the active Body does not contain a base shape, so there is no
   material to be removed;
@@ -4688,164 +6740,303 @@ over 90: larger hole radius at the bottom</source>
   - seçili eskiz etkin Gövdeye ait değil.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="402"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="400"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to obtain profile shape</source>
       <translation>Profil şekli alınamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="456"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="454"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creation failed because direction is orthogonal to sketch's normal vector</source>
       <translation>Yön, eskizin normal vektörüne dik olduğu için oluşturma başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="132"/>
       <location filename="../../../App/FeatureExtrude.cpp" line="479"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="154"/>
+      <location filename="../../../App/FeatureExtrude.cpp" line="477"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creating a face from sketch failed</source>
       <translation>Taslakdan yüzey yaratma hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="152"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="115"/>
+      <source>Angles of groove nullify each other</source>
+      <translation>Oluk açıları birbirini yok ediyor</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureGroove.cpp" line="171"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolve axis intersects the sketch</source>
       <translation>Çevirme ekseni taslak ile kesizşiyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="202"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="263"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not revolve the sketch!</source>
       <translation>Eskiz döndürülemedi!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="69"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="275"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not create face from sketch.
 Intersecting sketch entities in a sketch are not allowed.</source>
       <translation>Eskizden yüz oluşturulamadı.
 Eskiz içinde kesişen öğelere izin verilmez.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="237"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="235"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Pitch too small!</source>
       <translation>Hata: Adım çok küçük!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="242"/>
       <location filename="../../../App/FeatureHelix.cpp" line="265"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="240"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: height too small!</source>
       <translation>Hata: yükseklik çok düşük!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="251"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: pitch too small!</source>
       <translation>Hata: adım çok küçük!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="256"/>
       <location filename="../../../App/FeatureHelix.cpp" line="270"/>
       <location filename="../../../App/FeatureHelix.cpp" line="279"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="254"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="268"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: turns too small!</source>
       <translation>Hata: tur sayısı çok az!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="285"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: either height or growth must not be zero!</source>
       <translation>Hata: yükseklik veya büyüme sıfır olamaz!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="303"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: unsupported mode</source>
       <translation>Hata: desteklenmeyen kip</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="317"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: No valid sketch or face</source>
       <translation>Hata: geçerli bir taslak veya yüzey yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="330"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Face must be planar</source>
       <translation>Hata: yüzey düzlemsel olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="454"/>
       <location filename="../../../App/FeatureHelix.cpp" line="499"/>
       <location filename="../../../App/FeatureHole.cpp" line="2454"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="443"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="484"/>
+      <location filename="../../../App/FeatureHole.cpp" line="2422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Result is not a solid</source>
       <translation>Hata: Sonuç bir katı değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="415"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: There is nothing to subtract</source>
       <translation>Hata: Çıkarılacak bir şey yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="437"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="419"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="449"/>
+      <location filename="../../../App/FeatureHelix.cpp" line="490"/>
+      <source>Error: Result has multiple solids</source>
+      <translation>Hata: Sonuç birden fazla katı içeriyor</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHelix.cpp" line="434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Adding the helix failed</source>
       <translation>Hata: Helis eklenemedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="472"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Intersecting the helix failed</source>
       <translation>Hata: Helisi kesiştirme başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="481"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="475"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Subtracting the helix failed</source>
       <translation>Hata: Helis çıkarılamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHelix.cpp" line="515"/>
+=======
+      <location filename="../../../App/FeatureHelix.cpp" line="506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Could not create face from sketch</source>
       <translation>Hata: Eskizden yüz oluşturulamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1233"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread type is invalid</source>
       <translation>Diş türü geçersiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1752"/>
       <source>Hole error: Diameter too small</source>
       <translation type="unfinished">Hole error: Diameter too small</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureHole.cpp" line="1789"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1764"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Unsupported length specification</source>
       <translation>Delik hatası: Desteklenmeyen uzunluk tanımı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1795"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Invalid hole depth</source>
       <translation>Delik hatası: Geçersiz delik derinliği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1821"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1796"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Invalid taper angle</source>
       <translation>Delik hatası: Geçersiz konik açı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1845"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Hole cut diameter too small</source>
       <translation>Delik hatası: Delik kesme çapı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1850"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1825"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Hole cut depth must be less than hole depth</source>
       <translation>Delik hatası: Delik kesme derinliği delik derinliğinden küçük olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1857"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1832"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Hole cut depth must be greater or equal to zero</source>
       <translation>Delik hatası: Delik kesme derinliği sıfırdan büyük veya eşit olmalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1887"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1862"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Invalid countersink</source>
       <translation>Delik hatası: Geçersiz havşa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1923"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1898"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hole error: Invalid drill point angle</source>
       <translation>Delik hatası: Geçersiz matkap ucu açısı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="1940"/>
       <source>Hole error: Invalid drill point</source>
       <translation>Delik hatası: Geçersiz matkap ucu</translation>
@@ -4883,290 +7074,562 @@ Eskiz içinde kesişen öğelere izin verilmez.</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureHole.cpp" line="2104"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="1915"/>
+      <source>Hole error: Invalid drill point</source>
+      <translation>Delik hatası: Geçersiz matkap ucu</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1952"/>
+      <source>Hole error: Could not revolve sketch</source>
+      <translation>Delik hatası: Eskiz döndürülemedi</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1959"/>
+      <source>Hole error: Resulting shape is empty</source>
+      <translation>Delik hatası: Oluşan şekil boş</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1972"/>
+      <source>Error: Adding the thread failed</source>
+      <translation>Hata: Diş eklenemedi</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="1983"/>
+      <source>Hole error: Finding axis failed</source>
+      <translation>Delik hatası: Eksen bulunamadı</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="2039"/>
+      <location filename="../../../App/FeatureHole.cpp" line="2047"/>
+      <source>Boolean operation failed on profile Edge</source>
+      <translation>Profil kenarında Boole işlemi başarısız oldu</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="2054"/>
+      <source>Boolean operation produced non-solid on profile Edge</source>
+      <translation>Profil kenarında Boole işlemi katı olmayan bir sonuç üretti</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureBoolean.cpp" line="151"/>
+      <source>Boolean operation failed</source>
+      <translation>Boole işlemi başarısız oldu</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureHole.cpp" line="2080"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not create face from sketch.
 Intersecting sketch entities or multiple faces in a sketch are not allowed for making a pocket up to a face.</source>
       <translation>Eskizden yüz oluşturulamadı.
 Bir yüze kadar cep oluştururken, eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="2277"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread type out of range</source>
       <translation>Diş türü aralık dışında</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="2280"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread size out of range</source>
       <translation>Diş ölçüsü aralık dışında</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureHole.cpp" line="2428"/>
+=======
+      <location filename="../../../App/FeatureHole.cpp" line="2396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error: Thread could not be built</source>
       <translation>Hata: Diş oluşturulamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureLoft.cpp" line="193"/>
+=======
+      <location filename="../../../App/FeatureLoft.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loft: At least one section is needed</source>
       <translation>Loft: En az bir kesit gerekli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureLoft.cpp" line="395"/>
+=======
+      <location filename="../../../App/FeatureLoft.cpp" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loft: A fatal error occurred when making the loft</source>
       <translation>Loft: Loft oluşturulurken kritik bir hata oluştu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureLoft.cpp" line="240"/>
+=======
+      <location filename="../../../App/FeatureLoft.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loft: Creating a face from sketch failed</source>
       <translation>Loft: Eskizden yüz oluşturma başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="500"/>
       <location filename="../../../App/FeatureLoft.cpp" line="304"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="444"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loft: Failed to create shell</source>
       <translation>Loft: Kabuk oluşturulamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="819"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not create face from sketch.
 Intersecting sketch entities or multiple faces in a sketch are not allowed.</source>
       <translation>Eskizden yüz oluşturulamadı.
 Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="211"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: Could not obtain profile shape</source>
       <translation>Boru: Profil şekli alınamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="218"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No spine linked</source>
       <translation>Omurga (spine) bağlı değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="233"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No auxiliary spine linked.</source>
       <translation>Yardımcı omurga bağlı değil.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="255"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: Only one isolated point is needed if using a sketch with isolated points for section</source>
       <translation>Boru: Kesit için izole noktalar içeren bir eskiz kullanılıyorsa yalnızca bir izole nokta gerekir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="264"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: At least one section is needed when using a single point for profile</source>
       <translation>Boru: Profil için tek nokta kullanıldığında en az bir kesit gerekli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="282"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: All sections need to be Part features</source>
       <translation>Boru: Tüm kesitler Part özellikleri olmalıdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="290"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: Could not obtain section shape</source>
       <translation>Boru: Kesit şekli alınamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="298"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: Only the profile and last section can be vertices</source>
       <translation>Boru: Yalnızca profil ve son kesit tepe noktası (vertex) olabilir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="311"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Multisections need to have the same amount of inner wires as the base section</source>
       <translation>Çoklu kesitlerin, temel kesitle aynı sayıda iç tel (wire) içermesi gerekir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="344"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Path must not be a null shape</source>
       <translation>Yol (path) boş (null) bir şekil olmamalı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="384"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe could not be built</source>
       <translation>Boru oluşturulamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="532"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="436"/>
+      <source>Result is not a solid</source>
+      <translation>Sonuç bir katı değil</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeaturePipe.cpp" line="475"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipe: There is nothing to subtract from</source>
       <translation>Boru: Çıkarılacak bir şey yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="584"/>
       <source>Pipe: Invalid Boolean Type</source>
       <translation type="unfinished">Pipe: Invalid Boolean Type</translation>
     </message>
     <message>
       <location filename="../../../App/FeaturePipe.cpp" line="614"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="543"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A fatal error occurred when making the pipe</source>
       <translation>Boru oluşturulurken kritik bir hata oluştu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="741"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid element in spine.</source>
       <translation>Omurgada geçersiz öğe.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="746"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="677"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Element in spine is neither an edge nor a wire.</source>
       <translation>Omurgadaki öğe ne bir kenar ne de bir tel (wire).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="759"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="698"/>
+      <source>Spine is not connected.</source>
+      <translation>Omurga bağlı değil.</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeaturePipe.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spine is neither an edge nor a wire.</source>
       <translation>Omurga ne bir kenar ne de bir tel (wire).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePipe.cpp" line="764"/>
+=======
+      <location filename="../../../App/FeaturePipe.cpp" line="709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid spine.</source>
       <translation>Geçersiz omurga.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="103"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot subtract primitive feature without base feature</source>
       <translation>Temel özellik olmadan primitif özellik çıkarılamaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureLoft.cpp" line="356"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="125"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="123"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="505"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unknown operation type</source>
       <translation>Bilinmeyen işlem türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureLoft.cpp" line="364"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="133"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="131"/>
+      <location filename="../../../App/FeaturePipe.cpp" line="513"/>
+      <location filename="../../../App/FeatureLoft.cpp" line="361"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to perform boolean operation</source>
       <translation>Boole işlemi gerçekleştirilemedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="217"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length of box too small</source>
       <translation>Kutunun uzunluğu çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="222"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width of box too small</source>
       <translation>Kutunun genişliği çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="227"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height of box too small</source>
       <translation>Kutunun yüksekliği çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="275"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="273"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of cylinder too small</source>
       <translation>Silindirin yarıçapı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="280"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height of cylinder too small</source>
       <translation>Silindirin yüksekliği çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="285"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotation angle of cylinder too small</source>
       <translation>Silindirin döndürme açısı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="342"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of sphere too small</source>
       <translation>Kürenin yarıçapı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="394"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="399"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="392"/>
+      <location filename="../../../App/FeaturePrimitive.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of cone cannot be negative</source>
       <translation>Koninin yarıçapı negatif olamaz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="404"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="402"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height of cone too small</source>
       <translation>Koninin yüksekliği çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="484"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="489"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="482"/>
+      <location filename="../../../App/FeaturePrimitive.cpp" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of ellipsoid too small</source>
       <translation>Elipsoidin yarıçapı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="583"/>
       <location filename="../../../App/FeaturePrimitive.cpp" line="588"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="581"/>
+      <location filename="../../../App/FeaturePrimitive.cpp" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius of torus too small</source>
       <translation>Torusun yarıçapı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="673"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="671"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polygon of prism is invalid, must have 3 or more sides</source>
       <translation>Prizmanın çokgeni geçersiz; 3 veya daha fazla kenarı olmalıdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="678"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Circumradius of the polygon, of the prism, is too small</source>
       <translation>Prizmanın çokgenini çevreleyen çemberin yarıçapı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="683"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height of prism is too small</source>
       <translation>Prizmanın yüksekliği çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="770"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>delta x of wedge too small</source>
       <translation>Kamanın delta x değeri çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="776"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="774"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>delta y of wedge too small</source>
       <translation>Kamanın delta y değeri çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="782"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>delta z of wedge too small</source>
       <translation>Kamanın delta z değeri çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="788"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>delta z2 of wedge is negative</source>
       <translation>Kamanın delta z2 değeri negatif</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeaturePrimitive.cpp" line="794"/>
+=======
+      <location filename="../../../App/FeaturePrimitive.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>delta x2 of wedge is negative</source>
       <translation>Kamanın delta x2 değeri negatif</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="96"/>
+=======
+      <location filename="../../../App/FeatureRevolution.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of revolution too large</source>
       <translation>Döndürme açısı çok büyük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="103"/>
+=======
+      <location filename="../../../App/FeatureRevolution.cpp" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle of revolution too small</source>
       <translation>Döndürme açısı çok küçük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="110"/>
+=======
+      <location filename="../../../App/FeatureRevolution.cpp" line="137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angles of revolution nullify each other</source>
       <translation>Döndürme açıları birbirini geçersiz kılıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureRevolved.cpp" line="126"/>
+=======
+      <location filename="../../../App/FeatureGroove.cpp" line="146"/>
+      <location filename="../../../App/FeatureRevolution.cpp" line="168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reference axis is invalid</source>
       <translation>Referans ekseni geçersiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrude.cpp" line="758"/>
+=======
+      <location filename="../../../App/FeatureExtrude.cpp" line="756"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fusion with base feature failed</source>
       <translation>Taban özellik ile birleştirme başarısız oldu</translation>
     </message>
     <message>
-      <location filename="../../../App/FeatureTransformed.cpp" line="101"/>
+      <location filename="../../../App/FeatureTransformed.cpp" line="99"/>
       <source>Transformation feature Linked object is not a Part object</source>
       <translation>Dönüşüm özelliği: Bağlı nesne bir Part nesnesi değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureTransformed.cpp" line="109"/>
       <source>No features selected to be mirrored.</source>
       <translation type="unfinished">No features selected to be mirrored.</translation>
@@ -5183,21 +7646,41 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
     </message>
     <message>
       <location filename="../../../App/FeatureTransformed.cpp" line="379"/>
+=======
+      <location filename="../../../App/FeatureTransformed.cpp" line="106"/>
+      <source>No originals linked to the transformed feature.</source>
+      <translation>Dönüştürülmüş özelliğe bağlı özgün nesne yok.</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureTransformed.cpp" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot transform invalid support shape</source>
       <translation>Geçersiz destek şeklini dönüştürmek mümkün değil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureTransformed.cpp" line="430"/>
+=======
+      <location filename="../../../App/FeatureTransformed.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape of additive/subtractive feature is empty</source>
       <translation>Eklemeli/çıkarmalı özelliğin şekli boş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureTransformed.cpp" line="421"/>
+=======
+      <location filename="../../../App/FeatureTransformed.cpp" line="388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only additive and subtractive features can be transformed</source>
       <translation>Yalnızca eklemeli ve çıkarmalı özellikler dönüştürülebilir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureThickness.cpp" line="109"/>
+=======
+      <location filename="../../../App/FeatureThickness.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid face reference</source>
       <translation>Geçersiz yüz referansı</translation>
     </message>
@@ -5205,12 +7688,20 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesign_InvoluteGear</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="62"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Involute Gear</source>
       <translation>Evolvent Dişli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InvoluteGearFeature.py" line="66"/>
+=======
+      <location filename="../../../InvoluteGearFeature.py" line="64"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates or edits the involute gear definition</source>
       <translation>Evolvent dişli tanımını oluşturur veya düzenler</translation>
     </message>
@@ -5218,12 +7709,20 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesign_Sprocket</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../SprocketFeature.py" line="65"/>
+=======
+      <location filename="../../../SprocketFeature.py" line="63"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sprocket</source>
       <translation>Zincir Dişlisi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../SprocketFeature.py" line="69"/>
+=======
+      <location filename="../../../SprocketFeature.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates or edits the sprocket definition.</source>
       <translation>Zincir dişlisi tanımını oluşturur veya düzenler.</translation>
     </message>
@@ -5249,12 +7748,20 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesign_WizardShaft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="225"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shaft Design Wizard</source>
       <translation>Mil Tasarım Sihirbazı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../WizardShaft/WizardShaft.py" line="228"/>
+=======
+      <location filename="../../../WizardShaft/WizardShaft.py" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts the shaft design wizard</source>
       <translation>Mil tasarım sihirbazını başlatır</translation>
     </message>
@@ -5262,12 +7769,20 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesign::FeatureAddSub</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureAddSub.cpp" line="87"/>
+=======
+      <location filename="../../../App/FeatureAddSub.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failure while computing removed volume preview: %1</source>
       <translation>Kaldırılan hacim önizlemesi hesaplanırken hata: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureAddSub.cpp" line="125"/>
+=======
+      <location filename="../../../App/FeatureAddSub.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resulting shape is empty. That may indicate that no material will be removed or a problem with the model.</source>
       <translation>Oluşan şekil boş. Bu, malzeme kaldırılmayacağını veya modelde bir sorun olduğunu gösterebilir.</translation>
     </message>
@@ -5275,12 +7790,20 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>CmdPartDesignCompDatums</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2667"/>
+=======
+      <location filename="../../Command.cpp" line="2644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Datum</source>
       <translation>Datum Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2668"/>
+=======
+      <location filename="../../Command.cpp" line="2645"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a datum object or local coordinate system</source>
       <translation>Bir datum nesnesi veya yerel koordinat sistemi oluşturur</translation>
     </message>
@@ -5288,12 +7811,20 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>CmdPartDesignCompSketches</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2702"/>
+=======
+      <location filename="../../Command.cpp" line="2679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Datum</source>
       <translation>Datum Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2703"/>
+=======
+      <location filename="../../Command.cpp" line="2680"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a datum object or local coordinate system</source>
       <translation>Bir datum nesnesi veya yerel koordinat sistemi oluşturur</translation>
     </message>
@@ -5301,6 +7832,7 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesign_CompPrimitiveAdditive</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="217"/>
       <source>Creates an additive box by its width, height, and length</source>
       <translation>Genişliği, yüksekliği ve uzunluğu ile eklemeli bir kutu oluşturur</translation>
@@ -5337,6 +7869,44 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
     </message>
     <message>
       <location filename="../../CommandPrimitive.cpp" line="268"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="215"/>
+      <source>Creates an additive box by its width, height, and length</source>
+      <translation>Genişliği, yüksekliği ve uzunluğu ile eklemeli bir kutu oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="224"/>
+      <source>Creates an additive cylinder by its radius, height, and angle</source>
+      <translation>Yarıçapı, yüksekliği ve açısı ile eklemeli bir silindir oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="233"/>
+      <source>Creates an additive sphere by its radius and various angles</source>
+      <translation>Yarıçapı ve çeşitli açıları ile eklemeli bir küre oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="242"/>
+      <source>Creates an additive cone</source>
+      <translation>Eklemeli bir koni oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="248"/>
+      <source>Creates an additive ellipsoid</source>
+      <translation>Eklemeli bir elipsoit oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="254"/>
+      <source>Creates an additive torus</source>
+      <translation>Eklemeli bir torus oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="260"/>
+      <source>Creates an additive prism</source>
+      <translation>Eklemeli bir prizma oluşturur</translation>
+    </message>
+    <message>
+      <location filename="../../CommandPrimitive.cpp" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an additive wedge</source>
       <translation>Eklemeli bir kama oluşturur</translation>
     </message>
@@ -5344,42 +7914,74 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesign_CompPrimitiveSubtractive</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="402"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="400"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive box by its width, height and length</source>
       <translation>Genişliği, yüksekliği ve uzunluğu ile çıkarmalı bir kutu oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="411"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive cylinder by its radius, height and angle</source>
       <translation>Yarıçapı, yüksekliği ve açısı ile çıkarmalı bir silindir oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="420"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="418"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive sphere by its radius and various angles</source>
       <translation>Yarıçapı ve çeşitli açıları ile çıkarmalı bir küre oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="429"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive cone</source>
       <translation>Çıkarmalı bir koni oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="435"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive ellipsoid</source>
       <translation>Çıkarmalı bir elipsoit oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="441"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive torus</source>
       <translation>Çıkarmalı bir torus oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="447"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="445"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive prism</source>
       <translation>Çıkarmalı bir prizma oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandPrimitive.cpp" line="453"/>
+=======
+      <location filename="../../CommandPrimitive.cpp" line="451"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a subtractive wedge</source>
       <translation>Çıkarmalı bir kama oluşturur</translation>
     </message>
@@ -5387,7 +7989,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::TaskDlgPrimitiveParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPrimitiveParameters.cpp" line="1180"/>
+=======
+      <location filename="../../TaskPrimitiveParameters.cpp" line="1007"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Attachment</source>
       <translation>Eklenti</translation>
     </message>
@@ -5403,7 +8009,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::TaskDlgGrooveParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskRevolutionParameters.cpp" line="813"/>
+=======
+      <location filename="../../TaskRevolutionParameters.cpp" line="845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Groove Parameters</source>
       <translation>Oluk Parametreleri</translation>
     </message>
@@ -5411,7 +8021,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::TaskTransformedMessages</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskTransformedMessages.cpp" line="39"/>
+=======
+      <location filename="../../TaskTransformedMessages.cpp" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transformed Feature Messages</source>
       <translation>Dönüştürülmüş Özellik Mesajları</translation>
     </message>
@@ -5419,7 +8033,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderBody</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderBody.cpp" line="199"/>
+=======
+      <location filename="../../ViewProviderBody.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active Body</source>
       <translation>Etkin Gövde</translation>
     </message>
@@ -5427,7 +8045,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderChamfer</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderChamfer.h" line="44"/>
+=======
+      <location filename="../../ViewProviderChamfer.h" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chamfer Parameters</source>
       <translation>Pah Parametreleri</translation>
     </message>
@@ -5458,7 +8080,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderDraft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderDraft.h" line="45"/>
+=======
+      <location filename="../../ViewProviderDraft.h" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Draft Parameters</source>
       <translation>Kalıp Açısı Parametreleri</translation>
     </message>
@@ -5466,7 +8092,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderFillet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderFillet.h" line="44"/>
+=======
+      <location filename="../../ViewProviderFillet.h" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fillet Parameters</source>
       <translation>Yuvarlatma Parametreleri</translation>
     </message>
@@ -5474,7 +8104,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderLinearPattern</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderLinearPattern.h" line="41"/>
+=======
+      <location filename="../../ViewProviderLinearPattern.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Linear Pattern Parameters</source>
       <translation>Doğrusal Dizilim Parametreleri</translation>
     </message>
@@ -5482,7 +8116,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGuii::ViewProviderMirrored</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMirrored.h" line="41"/>
+=======
+      <location filename="../../ViewProviderMirrored.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirror Parameters</source>
       <translation>Ayna Parametreleri</translation>
     </message>
@@ -5490,7 +8128,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderMultiTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderMultiTransform.h" line="41"/>
+=======
+      <location filename="../../ViewProviderMultiTransform.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Multi-Transform Parameters</source>
       <translation>Çoklu Dönüşüm Parametreleri</translation>
     </message>
@@ -5498,7 +8140,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderPolarPattern</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderPolarPattern.h" line="41"/>
+=======
+      <location filename="../../ViewProviderPolarPattern.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polar Pattern Parameters</source>
       <translation>Kutupsal Dizilim Parametreleri</translation>
     </message>
@@ -5506,7 +8152,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderScaled</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderScaled.h" line="41"/>
+=======
+      <location filename="../../ViewProviderScaled.h" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scale Parameters</source>
       <translation>Ölçek Parametreleri</translation>
     </message>
@@ -5514,7 +8164,11 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::ViewProviderThickness</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderThickness.h" line="44"/>
+=======
+      <location filename="../../ViewProviderThickness.h" line="43"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness Parameters</source>
       <translation>Kalınlık Parametreleri</translation>
     </message>
@@ -5522,16 +8176,25 @@ Eskizde kesişen öğelere veya birden fazla yüze izin verilmez.</translation>
   <context>
     <name>PartDesignGui::TaskPatternParameters</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPatternParameters.cpp" line="148"/>
+=======
+      <location filename="../../TaskPatternParameters.cpp" line="130"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction 2</source>
       <translation>Yön 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPatternParameters.cpp" line="267"/>
+=======
+      <location filename="../../TaskPatternParameters.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a direction reference (edge, face, datum line)</source>
       <translation>Bir yön referansı seçin (kenar, yüz, datum doğrusu)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPatternParameters.cpp" line="355"/>
       <source>Invalid selection. Select an edge, planar face, or datum line.</source>
       <translation>Geçersiz seçim. Bir kenar, düzlemsel bir yüz veya datum doğrusu seçin.</translation>
@@ -5568,6 +8231,11 @@ Adjust the parameters and try again.</translation>
       <location filename="../../TaskShapeBinder.cpp" line="443"/>
       <source>Input Error</source>
       <translation>Giriş hatası</translation>
+=======
+      <location filename="../../TaskPatternParameters.cpp" line="332"/>
+      <source>Invalid selection. Select an edge, planar face, or datum line.</source>
+      <translation>Geçersiz seçim. Bir kenar, düzlemsel bir yüz veya datum doğrusu seçin.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

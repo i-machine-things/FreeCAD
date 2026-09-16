@@ -21,7 +21,12 @@
  *                                                                          *
  ***************************************************************************/
 
+<<<<<<< HEAD
 #pragma once
+=======
+#ifndef FREECAD_FREECADSTYLE_H
+#define FREECAD_FREECADSTYLE_H
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 #include <FCGlobal.h>
 #include <QProxyStyle>
@@ -45,3 +50,8 @@ protected:
 };
 
 }  // namespace Gui
+<<<<<<< HEAD
+=======
+
+#endif  // FREECAD_FREECADSTYLE_H
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

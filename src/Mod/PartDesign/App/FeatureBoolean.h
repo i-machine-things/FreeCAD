@@ -46,11 +46,14 @@ public:
 
     /// The type of the boolean operation
     App::PropertyEnumeration Type;
+<<<<<<< HEAD
     /**
      * Compatibility property to preserve the historic transformed-body Boolean behavior
      * in restored documents. New Boolean features use Body-local linked geometry.
      */
     App::PropertyBool UseLegacyBodyPlacement;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     /** @name methods override feature */
     //@{

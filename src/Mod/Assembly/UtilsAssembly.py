@@ -1239,6 +1239,7 @@ def getComponentReference(assembly, root_obj, sub_string):
 
     doc = assembly.Document
 
+<<<<<<< HEAD
     # We do not need the full TNP string like :"Part.Body.Pad.;#a:1;:G0;XTR;:Hc94:8,F.Face6"
     # instead we need : "Part.Body.Pad.Face6"
     resolved = root_obj.resolveSubElement(sub_string, True)
@@ -1255,6 +1256,18 @@ def getComponentReference(assembly, root_obj, sub_string):
     except ValueError:
         return None, ""
 
+=======
+    # 1. Reconstruct full path
+    # e.g. ['Part', 'Assembly', 'Cylinder', 'Face1']
+    names = [root_obj.Name] + sub_string.split(".")
+
+    # 2. Find Assembly in path
+    try:
+        asm_idx = names.index(assembly.Name)
+    except ValueError:
+        return None, ""
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     # 3. Identify Component (first valid object after Assembly)
     candidates = names[asm_idx + 1 :]
     if not candidates:
@@ -1279,11 +1292,15 @@ def getComponentReference(assembly, root_obj, sub_string):
 
         if isLink(obj):
             linkedObj = obj.getLinkedObject()
+<<<<<<< HEAD
             if (
                 linkedObj
                 and not isLink(linkedObj)
                 and not linkedObj.isDerivedFrom("App::GeoFeature")
             ):
+=======
+            if linkedObj and not linkedObj.isDerivedFrom("App::GeoFeature"):
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 continue
         elif not obj.isDerivedFrom("App::GeoFeature"):
             continue

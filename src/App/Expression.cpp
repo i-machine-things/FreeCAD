@@ -42,8 +42,11 @@
 #include <stack>
 #include <string>
 #include <fmt/format.h>
+<<<<<<< HEAD
 
 #include <QObject>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 #include <App/Application.h>
 #include <App/DocumentObject.h>
@@ -3777,8 +3780,16 @@ ExpressionPtr App::ExpressionParser::parse(const App::DocumentObject* owner, con
         throw ParserError(fmt::format("Unknown error in expression '{}'", buffer));
     }
 
+<<<<<<< HEAD
     if (!valueExpression) {
         ScanResult.reset();
+=======
+    if (valueExpression) {
+        return ScanResult;
+    }
+    else {
+        delete ScanResult;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         throw Expression::Exception("Expression can not evaluate to a value.");
     }
     return std::exchange(ScanResult, nullptr);

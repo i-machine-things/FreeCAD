@@ -27,9 +27,15 @@
       <translation>Pregled</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="50"/>
       <source>Visual Inspection</source>
       <translation>Vidni pregled</translation>
+=======
+      <location filename="../../Command.cpp" line="49"/>
+      <source>Visual Inspection…</source>
+      <translation>Vizualni pregled…</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="51"/>
@@ -113,18 +119,31 @@
       <translation>Zapustite informacijski način</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="709"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: &gt; %1</source>
       <translation>Razdalja: &gt; %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="712"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: &lt; %1</source>
       <translation>Razdalja: &lt; %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="731"/>
       <location filename="../../ViewProviderInspection.cpp" line="749"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="730"/>
+      <location filename="../../ViewProviderInspection.cpp" line="748"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: %1</source>
       <translation>Razdalja: %1</translation>
     </message>

@@ -451,7 +451,10 @@ public:
         return _elementMap->setElementName(element, name, masterTag, sid, overwrite);
     }
 
+<<<<<<< HEAD
     /// Check if there is an element map.
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     bool hasElementMap() const
     {
         return _elementMap != nullptr;

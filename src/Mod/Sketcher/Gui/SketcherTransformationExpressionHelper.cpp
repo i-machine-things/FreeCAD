@@ -93,6 +93,7 @@ void SketcherTransformationExpressionHelper::copyExpressionsToNewConstraints(
         // try to find and apply a matching expression for this constraint
         bool expressionApplied = false;
         for (const auto& exprPair : originalExpressions) {
+<<<<<<< HEAD
             int origCstrIdx = exprPair.first;
             if (origCstrIdx < 0 || origCstrIdx >= static_cast<int>(vals.size())) {
                 continue;
@@ -109,6 +110,21 @@ void SketcherTransformationExpressionHelper::copyExpressionsToNewConstraints(
                 exprPair.second.expression,
                 sketchObj
             );
+=======
+            int originalGeoId = exprPair.second.geoId;
+            int originalIndex = indexOfGeoId(listOfGeoIds, originalGeoId);
+
+            if (originalIndex >= 0) {
+                expressionApplied = tryApplyExpressionToConstraint(
+                    cstr,
+                    i,
+                    originalIndex,
+                    params,
+                    secondNumberOfCopies,
+                    exprPair.second.expression,
+                    sketchObj
+                );
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
             if (expressionApplied) {
                 break;

@@ -1,7 +1,11 @@
 # SPDX-License-Identifier: LGPL-2.1-or-later
 
 # ***************************************************************************
+<<<<<<< HEAD
 # *   Copyright (c) 2025 Jakub Michalski <jakub.j.michalski[at]gmail.com>   *
+=======
+# *   Copyright (c) 2025 Jakub Michalski <jakub.j.michalski[at]gmail.com>         *
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 # *                                                                         *
 # *   This file is part of FreeCAD.                                         *
 # *                                                                         *
@@ -118,21 +122,33 @@ def setup(doc=None, solvertype="ccxtools"):
     analysis.addObject(material_obj)
 
     # constraint displacement 1
+<<<<<<< HEAD
     con_disp1 = ObjectsFem.makeConstraintDisplacement(doc, "Displacement1")
+=======
+    con_disp1 = ObjectsFem.makeConstraintDisplacement(doc, "ConstraintDisplacement1")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_disp1.References = [(faceobj, "Edge2")]
     con_disp1.yFree = False
     con_disp1.yDisplacement = "0.0 mm"
     analysis.addObject(con_disp1)
 
     # constraint displacement 2
+<<<<<<< HEAD
     con_disp2 = ObjectsFem.makeConstraintDisplacement(doc, "Displacement2")
+=======
+    con_disp2 = ObjectsFem.makeConstraintDisplacement(doc, "ConstraintDisplacement2")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_disp2.References = [(faceobj, "Edge4")]
     con_disp2.xFree = False
     con_disp2.xDisplacement = "0.0 mm"
     analysis.addObject(con_disp2)
     
     # constraint pressure
+<<<<<<< HEAD
     con_press = ObjectsFem.makeConstraintPressure(doc, "Pressure")
+=======
+    con_press = ObjectsFem.makeConstraintPressure(doc, "ConstraintPressure")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     con_press.References = [(faceobj, "Edge1")]
     con_press.Pressure = "1 MPa"
     analysis.addObject(con_press)

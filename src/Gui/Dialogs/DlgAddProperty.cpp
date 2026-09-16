@@ -301,7 +301,11 @@ DlgAddProperty::SupportedTypes DlgAddProperty::getSupportedTypes()
     });
 
     std::ranges::sort(otherTypes, [](Base::Type a, Base::Type b) {
+<<<<<<< HEAD
         return a.getName() < b.getName();
+=======
+        return strcmp(a.getName(), b.getName()) < 0;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     });
 
     return {.commonTypes = std::move(commonTypes), .otherTypes = std::move(otherTypes)};
@@ -451,12 +455,20 @@ bool DlgAddProperty::isExcluded(const Base::Type& type) const
 
 bool DlgAddProperty::isTypeWithEditor(PropertyItem* propertyItem) const
 {
+<<<<<<< HEAD
     if (!propertyItem) {
+=======
+    if (propertyItem == nullptr) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         return false;
     }
 
     App::Property* prop = propertyItem->getFirstProperty();
+<<<<<<< HEAD
     if (!prop) {
+=======
+    if (prop == nullptr) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         return false;
     }
 

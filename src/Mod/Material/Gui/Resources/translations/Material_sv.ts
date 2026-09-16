@@ -720,63 +720,112 @@ Om det inte är markerat kommer de att sorteras efter sitt namn.</translation>
       <translation>Ta bort</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="199"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
       <translation>Om du sparar över originalfilen kan det leda till att andra dokument går sönder. Detta är inte att rekommendera.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="223"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Save as new material</source>
       <translation>Spara som nytt material</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="196"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Save over &apos;%1&apos;?</source>
       <translation>Spara över "%1"?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="221"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Confirm Save as New Material</source>
       <translation>Bekräfta Spara som nytt material</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="226"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>This material already exists in this library. Save as a new material?</source>
       <translation>Det här materialet finns redan i det här biblioteket. Spara som ett nytt material?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="248"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Confirm Save as Copy</source>
       <translation>Bekräfta Spara som kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="250"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Save as copy</source>
       <translation>Spara som kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="253"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</source>
       <translation>Att spara en kopia är inte att rekommendera eftersom det kan förstöra andra dokument. Vi rekommenderar att du sparar som ett nytt material.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="256"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Save Copy</source>
       <translation>Spara kopia</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="257"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Save As New</source>
       <translation>Spara som ny</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="489"/>
       <location filename="../../MaterialSave.cpp" line="499"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="488"/>
+      <location filename="../../MaterialSave.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>New folder</source>
       <translation>Ny mapp</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="539"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Context Menu</source>
       <translation>Kontextmeny</translation>
     </message>
@@ -1154,23 +1203,40 @@ Om det inte är markerat kommer de att sorteras efter sitt namn.</translation>
       <translation>Material</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="193"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Confirm Overwrite</source>
       <translation>Bekräfta överskrivning</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="383"/>
       <location filename="../../MaterialSave.cpp" line="384"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="382"/>
+      <location filename="../../MaterialSave.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>No writeable library</source>
       <translation>Inget skrivbart bibliotek</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="571"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Delete &apos;%1&apos;?</source>
       <translation>Ta bort "%1"?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
       <location filename="../../MaterialSave.cpp" line="575"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Removing this will also remove all contents.</source>
       <translation>Om du tar bort detta tas även allt innehåll bort.</translation>
     </message>
@@ -1198,6 +1264,10 @@ Om det inte är markerat kommer de att sorteras efter sitt namn.</translation>
       <location filename="../../Array2D.cpp" line="170"/>
       <location filename="../../MaterialSave.cpp" line="568"/>
       <location filename="../../ListEdit.cpp" line="142"/>
+<<<<<<< HEAD:src/Mod/Material/Gui/Resources/translations/Material_sv.ts
+=======
+      <location filename="../../MaterialSave.cpp" line="567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Material/Gui/Resources/translations/Material_sv-SE.ts
       <source>Confirm Delete</source>
       <translation>Bekräfta borttagning</translation>
     </message>

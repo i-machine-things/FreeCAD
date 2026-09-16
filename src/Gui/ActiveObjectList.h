@@ -106,3 +106,8 @@ private:
 static const char PDBODYKEY[] = "pdbody";
 static const char PARTKEY[] = "part";
 static const char ASSEMBLYKEY[] = "assembly";
+<<<<<<< HEAD
+=======
+
+#endif
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

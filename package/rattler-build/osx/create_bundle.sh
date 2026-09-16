@@ -47,9 +47,14 @@ cmake --build build
 mkdir -p FreeCAD.app/Contents/MacOS
 cp build/FreeCAD FreeCAD.app/Contents/MacOS/FreeCAD
 
+<<<<<<< HEAD
 # Add deployment target suffix to artifact name (e.g., "-macOS11" or "-macOS15")
 deploy_target="${MACOS_DEPLOYMENT_TARGET:-11.0}"
 version_name="FreeCAD_${BUILD_TAG}-macOS${deploy_target%%.*}-$(uname -m)"
+=======
+python_version=$(${conda_env}/bin/python -c 'import platform; print("py" + platform.python_version_tuple()[0] + platform.python_version_tuple()[1])')
+version_name="FreeCAD_${BUILD_TAG}-macOS-$(uname -m)-${python_version}"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 application_menu_name="FreeCAD_${BUILD_TAG}"
 
 echo -e "\################"
@@ -71,7 +76,11 @@ print(v)
 ")
 
 cp Info.plist.template ${conda_env}/../Info.plist
+<<<<<<< HEAD
 sed -i "s/FREECAD_BUNDLE_VERSION/${bundle_version}/" ${conda_env}/../Info.plist
+=======
+sed -i "s/FREECAD_VERSION/${BUILD_TAG}/" ${conda_env}/../Info.plist
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 sed -i "s/APPLICATION_MENU_NAME/${application_menu_name}/" ${conda_env}/../Info.plist
 
 pixi list -e default > FreeCAD.app/Contents/packages.txt
@@ -82,6 +91,7 @@ if ! "${conda_env}/bin/freecadcmd" --safe-mode --version; then
     echo "FreeCAD command-line smoke test failed; the macOS bundle cannot start."
     exit 1
 fi
+<<<<<<< HEAD
 
 echo "Running FreeCAD bundled Pivy smoke test..."
 if ! "${conda_env}/bin/freecadcmd" --safe-mode --console "import pivy; from pivy import coin; print(pivy.__file__); print(coin.SoDB.getVersion())"; then
@@ -99,6 +109,13 @@ if [ -d "${conda_env}/PlugIns" ]; then
     mv ${conda_env}/PlugIns ${conda_env}/..
 fi
 
+=======
+
+# copy the plugin into its final location
+cp -a ${conda_env}/Library ${conda_env}/..
+rm -rf ${conda_env}/Library
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 if [[ "${MACOS_SIGN_RELEASE}" == "true" ]]; then
     # create the signed dmg
     ../../scripts/macos_sign_and_notarize.zsh -p "FreeCAD" -k ${MACOS_SIGNING_KEY_ID} -o "${version_name}.dmg"

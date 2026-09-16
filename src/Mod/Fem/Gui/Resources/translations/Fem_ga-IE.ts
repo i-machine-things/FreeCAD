@@ -325,17 +325,29 @@
   <context>
     <name>CmdFemPostApllyChanges</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2886"/>
+=======
+      <location filename="../../Command.cpp" line="2871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2887"/>
+=======
+      <location filename="../../Command.cpp" line="2872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Apply Changes to Pipeline</source>
       <translation>Cuir Athruithe i bhFeidhm ar an bPíblíne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2888"/>
+=======
+      <location filename="../../Command.cpp" line="2873"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies changes to parameters directly and not on recompute only</source>
       <translation>Cuireann sé athruithe i bhfeidhm ar pharaiméadair go díreach agus ní ar athríomh amháin</translation>
     </message>
@@ -343,27 +355,47 @@
   <context>
     <name>CmdFemPostClipFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2250"/>
+=======
+      <location filename="../../Command.cpp" line="2235"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2251"/>
+=======
+      <location filename="../../Command.cpp" line="2236"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Region Clip Filter</source>
       <translation>Scagaire Gearrthóg Réigiún</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2252"/>
+=======
+      <location filename="../../Command.cpp" line="2237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which uses functions to define the clipped region</source>
       <translation>Sainmhíníonn sé scagaire gearrthóg a úsáideann feidhmeanna chun an réigiún gearrthóg a shainiú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2776"/>
+=======
+      <location filename="../../Command.cpp" line="2761"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a pipeline.</source>
       <translation>Roghnaigh píblíne.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2775"/>
+=======
+      <location filename="../../Command.cpp" line="2760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>Rogha mícheart</translation>
     </message>
@@ -371,17 +403,29 @@
   <context>
     <name>CmdFemPostCutFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2289"/>
+=======
+      <location filename="../../Command.cpp" line="2274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2290"/>
+=======
+      <location filename="../../Command.cpp" line="2275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Function Cut Filter</source>
       <translation>Scagaire Gearrtha Feidhme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2291"/>
+=======
+      <location filename="../../Command.cpp" line="2276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cuts the data along an implicit function</source>
       <translation>Gearrann sé na sonraí feadh feidhm intuigthe</translation>
     </message>
@@ -389,17 +433,29 @@
   <context>
     <name>CmdFemPostDataAlongLineFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2326"/>
+=======
+      <location filename="../../Command.cpp" line="2311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2327"/>
+=======
+      <location filename="../../Command.cpp" line="2312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Line Clip Filter</source>
       <translation>Scagaire Gearrthóg Líne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2328"/>
+=======
+      <location filename="../../Command.cpp" line="2313"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which clips a field along a line</source>
       <translation>Sainmhíníonn sé scagaire gearrthacha a ghearrann réimse feadh líne</translation>
     </message>
@@ -407,17 +463,29 @@
   <context>
     <name>CmdFemPostDataAtPointFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2363"/>
+=======
+      <location filename="../../Command.cpp" line="2348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2364"/>
+=======
+      <location filename="../../Command.cpp" line="2349"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data at Point Clip Filter</source>
       <translation>Scagaire Gearrthóg Sonraí ag Pointe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2365"/>
+=======
+      <location filename="../../Command.cpp" line="2350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which clips a field data at point</source>
       <translation>Sainmhíníonn scagaire gearrthacha a ghearrann sonraí réimse ag pointe</translation>
     </message>
@@ -425,37 +493,65 @@
   <context>
     <name>CmdFemPostFunctions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2628"/>
+=======
+      <location filename="../../Command.cpp" line="2613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2629"/>
+=======
+      <location filename="../../Command.cpp" line="2614"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Filter Functions</source>
       <translation>Feidhmeanna Scagaire</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2630"/>
+=======
+      <location filename="../../Command.cpp" line="2615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Functions for use in postprocessing filter</source>
       <translation>Feidhmeanna le húsáid i scagaire iarphróiseála</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2828"/>
+=======
+      <location filename="../../Command.cpp" line="2813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Plane</source>
       <translation>Plána</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2838"/>
+=======
+      <location filename="../../Command.cpp" line="2823"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sphere</source>
       <translation>Sféar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2848"/>
+=======
+      <location filename="../../Command.cpp" line="2833"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cylinder</source>
       <translation>Sorcóir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2858"/>
+=======
+      <location filename="../../Command.cpp" line="2843"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Box</source>
       <translation>Bosca</translation>
     </message>
@@ -463,65 +559,111 @@
   <context>
     <name>CmdFemPostLinearizedStressesFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2137"/>
+=======
+      <location filename="../../Command.cpp" line="2122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thickness [mm]</source>
       <comment>Plot X-Axis Label</comment>
       <translation>Tiús [mm]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2143"/>
+=======
+      <location filename="../../Command.cpp" line="2128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stress [MPa]</source>
       <comment>Plot Y-Axis Label</comment>
       <translation>Strus [MPa]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2149"/>
+=======
+      <location filename="../../Command.cpp" line="2134"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Linearized Stresses</source>
       <comment>Plot title</comment>
       <translation>Struis Línearaithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2155"/>
+=======
+      <location filename="../../Command.cpp" line="2140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Membrane</source>
       <comment>Plot legend item label</comment>
       <translation>Scannán</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2161"/>
+=======
+      <location filename="../../Command.cpp" line="2146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Membrane and Bending</source>
       <comment>Plot legend item label</comment>
       <translation>Scannán agus Lúbadh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2167"/>
+=======
+      <location filename="../../Command.cpp" line="2152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Total</source>
       <comment>Plot legend item label</comment>
       <translation>Iomlán</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2401"/>
+=======
+      <location filename="../../Command.cpp" line="2386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2402"/>
+=======
+      <location filename="../../Command.cpp" line="2387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stress Linearization Plot</source>
       <translation>Plota Línearaithe Struis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2403"/>
+=======
+      <location filename="../../Command.cpp" line="2388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a stress linearization plot</source>
       <translation>Sainmhíníonn sé plota líneála struis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2442"/>
       <location filename="../../Command.cpp" line="2453"/>
+=======
+      <location filename="../../Command.cpp" line="2427"/>
+      <location filename="../../Command.cpp" line="2438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a clip filter which clips a stress field along a line</source>
       <translation>Roghnaigh scagaire gearrthacha a ghearrann réimse struis feadh líne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2441"/>
       <location filename="../../Command.cpp" line="2452"/>
+=======
+      <location filename="../../Command.cpp" line="2426"/>
+      <location filename="../../Command.cpp" line="2437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>Rogha mícheart</translation>
     </message>
@@ -529,27 +671,47 @@
   <context>
     <name>CmdFemPostPipelineFromResult</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2927"/>
+=======
+      <location filename="../../Command.cpp" line="2912"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2928"/>
+=======
+      <location filename="../../Command.cpp" line="2913"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Post Pipeline From Result</source>
       <translation>Píblíne Poist Ó Thoradh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2929"/>
+=======
+      <location filename="../../Command.cpp" line="2914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a post processing pipeline from a result object</source>
       <translation>Cruthaíonn píblíne iarphróiseála ó réad torthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3013"/>
+=======
+      <location filename="../../Command.cpp" line="2998"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection type</source>
       <translation>Cineál roghnúcháin mícheart</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3014"/>
+=======
+      <location filename="../../Command.cpp" line="2999"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a result object.</source>
       <translation>Roghnaigh réad toraidh.</translation>
     </message>
@@ -557,17 +719,29 @@
   <context>
     <name>CmdFemPostScalarClipFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2481"/>
+=======
+      <location filename="../../Command.cpp" line="2466"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2482"/>
+=======
+      <location filename="../../Command.cpp" line="2467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scalar Clip Filter</source>
       <translation>Scagaire Gearrthóg Scalar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2483"/>
+=======
+      <location filename="../../Command.cpp" line="2468"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines a clip filter which clips a field with a scalar value</source>
       <translation>Sainmhíníonn sé scagaire gearrthacha a ghearrann réimse le luach scálach</translation>
     </message>
@@ -575,17 +749,29 @@
   <context>
     <name>CmdFemPostWarpVectorFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2518"/>
+=======
+      <location filename="../../Command.cpp" line="2503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2519"/>
+=======
+      <location filename="../../Command.cpp" line="2504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warp Filter</source>
       <translation>Scagaire Dlúth</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2520"/>
+=======
+      <location filename="../../Command.cpp" line="2505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warps the geometry along a vector field by a certain factor</source>
       <translation>Saothraíonn sé an geoiméadracht feadh réimse veicteora faoi fhachtóir áirithe</translation>
     </message>
@@ -704,19 +890,33 @@
       <translation>Cruthaigh scagaire</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2662"/>
+=======
+      <location filename="../../Command.cpp" line="2647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create function</source>
       <translation>Cruthaigh feidhm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2982"/>
+=======
+      <location filename="../../Command.cpp" line="2967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create pipeline from result</source>
       <translation>Cruthaigh píblíne ón toradh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderShapeExtension.cpp" line="189"/>
       <source>Edit Shape</source>
       <translation>Cuir Cruth in Eagar</translation>
+=======
+      <location filename="../../ViewProviderFemPostFunction.cpp" line="269"/>
+      <source>Edit Mirror</source>
+      <translation>Cuir Scáthán in Eagar</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -794,22 +994,38 @@
   <context>
     <name>FEM_PostCreateFunctions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2830"/>
+=======
+      <location filename="../../Command.cpp" line="2815"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a plane function, defined by its origin and normal</source>
       <translation>Cruthaigh feidhm eitleáin, atá sainmhínithe ag a bunús agus a gnáth</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2840"/>
+=======
+      <location filename="../../Command.cpp" line="2825"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a sphere function, defined by its center and radius</source>
       <translation>Cruthaigh feidhm sféir, atá sainmhínithe ag a lár agus a ga</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2850"/>
+=======
+      <location filename="../../Command.cpp" line="2835"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a cylinder function, defined by its center, axis and radius</source>
       <translation>Cruthaigh feidhm sorcóra, atá sainmhínithe ag a lár, a ais agus a ga</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2860"/>
+=======
+      <location filename="../../Command.cpp" line="2845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create a box function, defined by its center, length, width and height</source>
       <translation>Cruthaigh feidhm bosca, atá sainmhínithe ag a lár, a fhad, a leithead agus a hairde</translation>
     </message>
@@ -819,7 +1035,11 @@
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="14"/>
       <location filename="../../DlgSettingsFemCcx.ui" line="29"/>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcxImp.cpp" line="130"/>
+=======
+      <location filename="../../DlgSettingsFemCcxImp.cpp" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>CalculiX</source>
       <translation>CalculiX</translation>
     </message>
@@ -829,61 +1049,111 @@
       <translation>Fág bán chun an comhad dénártha réamhshocraithe CalculiX ccx a úsáid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="90"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="97"/>
+      <source>Use internal editor for *.inp files</source>
+      <translation>Úsáid eagarthóir inmheánach le haghaidh comhaid *.inp</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input file splitting</source>
       <translation>Scoilteadh comhaid ionchuir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="100"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Split writing of  *.inp</source>
       <translation>Scríbhneoireacht scoilte de *.inp</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="129"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Cineál</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="142"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default type on analysis</source>
       <translation>Cineál réamhshocraithe ar anailís</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="155"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Static</source>
       <translation>Statach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="164"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frequency</source>
       <translation>Minicíocht</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="173"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thermomech</source>
       <translation>Teirmeach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="182"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check Mesh</source>
       <translation>Seiceáil Mogalra</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="191"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Buckling</source>
       <translation>Buicléireacht</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="229"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initial time increment</source>
       <translation>Méadú ama tosaigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="236"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Time period</source>
       <translation>Tréimhse ama</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="243"/>
       <source>Overwrite CCX defaults</source>
       <translation>Scrios réamhshocruithe CCX</translation>
@@ -895,35 +1165,51 @@
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="282"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of threads used for analysis</source>
       <translation>Líon na snáitheanna a úsáideadh le haghaidh anailíse</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="350"/>
       <source>Geometrical nonlinearity</source>
       <translation>Neamhlíneacht gheoiméadrach</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="419"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="465"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Matrix solver</source>
       <translation>Réiteoir maitrís</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="426"/>
       <source>Advanced solver controls</source>
       <translation>Rialuithe réiteora ardleibhéil</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="446"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="492"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum number of increments</source>
       <translation>Uasmhéid líon na méaduithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="453"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="499"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Minimum time increment</source>
       <translation>Méadú ama íosta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="504"/>
       <source>Use geometrical nonlinearity</source>
       <translation>Úsáid neamhlíneacht gheoiméadrach</translation>
@@ -935,25 +1221,37 @@
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="583"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="629"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum time increment</source>
       <translation>Uasmhéadú ama</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="597"/>
       <source>No legacy results (use enhanced solver)</source>
       <translation>Gan aon torthaí oidhreachta (bain úsáid as an réiteoir feabhsaithe)</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="649"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="695"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thermo-Mechanical Defaults</source>
       <translation>Réamhshocruithe Teirme-Meicniúla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="685"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="731"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frequency Defaults</source>
       <translation>Réamhshocruithe Minicíochta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="718"/>
       <source>Upper frequency bound</source>
       <translation>Teorainn uachtarach minicíochta</translation>
@@ -970,100 +1268,234 @@
     </message>
     <message>
       <location filename="../../DlgSettingsFemCcx.ui" line="795"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="841"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> Hz</source>
       <translation> Hz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="317"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default</source>
       <translation>Réamhshocrú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="121"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="90"/>
+      <source>Input file editor</source>
+      <translation>Eagarthóir comhad ionchuir</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="122"/>
+      <source>External editor</source>
+      <translation>Eagarthóir seachtrach</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analysis Defaults</source>
       <translation>Réamhshocruithe Anailíse</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="208"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Defaults</source>
       <translation>Réamhshocruithe Réititheora</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="259"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of CPUs to use</source>
       <translation>Líon na LAPanna le húsáid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="322"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="368"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PaStiX</source>
       <translation>PaStiX</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="327"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="373"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pardiso</source>
       <translation>Pardiso</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="332"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>SPOOLES equation solver</source>
       <translation>Réiteoir cothromóidí SPOOLES</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="337"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Iterative Scaling</source>
       <translation>Scálú Athchleachtach</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="396"/>
+      <source>Non-linear geometry</source>
+      <translation>Geoiméadracht neamhlíneach</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="550"/>
+      <source>Use non-linear geometry</source>
+      <translation>Úsáid geoiméadracht neamhlíneach</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="472"/>
+      <source>Time incrementation control parameter</source>
+      <translation>Paraiméadar rialaithe méadaithe ama</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgSettingsFemCcx.ui" line="46"/>
       <source>CalculiX path</source>
       <translation>Cosán CalculiX</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="590"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="292"/>
+      <source>Use non ccx defaults</source>
+      <translation>Úsáid réamhshocruithe neamh-ccx</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="315"/>
+      <source>3D Output, unchecked for 2D</source>
+      <translation>Aschur 3T, gan seiceáil le haghaidh 2T</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="636"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result object</source>
       <translation>Réad torthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="600"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="643"/>
+      <source>Pipeline only</source>
+      <translation>Píblíne amháin</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="646"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Load results as pipeline instead of CCX_Results objects.
 After unchecking this option, the CalculiX command behaves like SolverCalculiXCcxTools</source>
       <translation>Luchtaigh torthaí mar phíblíne in ionad réada CCX_Results.
 Tar éis an rogha seo a dhíthiceáil, iompraíonn an t-ordú CalculiX cosúil le SolverCalculiXCcxTools</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="617"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result format</source>
       <translation>Formáid na dtorthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="624"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="670"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save result in binary format.
 Only takes effect if 'Pipeline only' is enabled</source>
       <translation>Sábháil an toradh i bhformáid dénártha.
 Ní bheidh sé i bhfeidhm ach amháin má tá 'Píblíne amháin' cumasaithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="628"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="674"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use binary format</source>
       <translation>Úsáid formáid dénártha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="657"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="703"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analysis type (transient or steady state)</source>
       <translation>Cineál anailíse (neamhbhuan nó staid sheasmhach)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="664"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="710"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use steady state</source>
       <translation>Úsáid staid chobhsaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcx.ui" line="342"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="388"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cholesky iterative solver</source>
       <translation>Réiteoir athchleachtach Cholesky</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemCcxImp.cpp" line="130"/>
+=======
+      <location filename="../../DlgSettingsFemCcx.ui" line="597"/>
+      <source>Beam, shell element 3D output format</source>
+      <translation>Formáid aschuir 3D eilimint bhlaosc, bhíoma</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="771"/>
+      <source>Eigenmode number</source>
+      <translation>Uimhir an mhóid féin</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="764"/>
+      <source>High frequency limit</source>
+      <translation>Teorainn ardmhinicíochta</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcx.ui" line="825"/>
+      <source>Low frequency limit</source>
+      <translation>Teorainn ísealmhinicíochta</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemCcxImp.cpp" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Executable '%1' not found</source>
       <translation>Níor aimsíodh an inrite '%1'</translation>
     </message>
@@ -1072,7 +1504,11 @@ Ní bheidh sé i bhfeidhm ach amháin má tá 'Píblíne amháin' cumasaithe</tr
     <name>FemGui::DlgSettingsFemElmerImp</name>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmerImp.cpp" line="106"/>
+=======
+      <location filename="../../DlgSettingsFemElmerImp.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Elmer</source>
       <translation>Elmer</translation>
     </message>
@@ -1092,6 +1528,7 @@ Ní bheidh sé i bhfeidhm ach amháin má tá 'Píblíne amháin' cumasaithe</tr
       <translation>Cosán ElmerGrid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="199"/>
       <source>Log verbosity</source>
       <translation>Focalachas loga</translation>
@@ -1103,46 +1540,81 @@ Ní bheidh sé i bhfeidhm ach amháin má tá 'Píblíne amháin' cumasaithe</tr
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="231"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="149"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of tasks</source>
       <translation>Líon na dtascanna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="241"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of parallel tasks. Set to `1` if Elmer does not use MPI.&lt;br&gt;It is recommended to use an even number of cores to benefit from mesh symmetries&lt;br&gt;(Using 8 cores can be faster than 9 cores).&lt;br&gt;In extreme cases ElmerSolver might not converge if the core number is too high.</source>
       <translation>Líon na dtascanna comhthreomhara. Socraigh go `1` mura n-úsáideann Elmer MPI.&lt;br&gt;Moltar líon cothrom croíleacán a úsáid chun leas a bhaint as siméadrachtaí mogaill&lt;br&gt;(Is féidir le húsáid 8 gcroíleacán a bheith níos tapúla ná 9 gcroíleacán).&lt;br&gt;I gcásanna foircneacha, ní fhéadfadh ElmerSolver teacht le chéile má tá líon na gcroíleacán ró-ard.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="257"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="175"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Threads per task</source>
       <translation>Snáitheanna in aghaidh an tasc</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="267"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of threads per task. Take effect if Elmer uses OpenMP.</source>
       <translation>Líon na snáitheanna in aghaidh an tasca. Cuirfear i bhfeidhm é má úsáideann Elmer OpenMP.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="288"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Results</source>
       <translation>Torthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="294"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save result in binary format</source>
       <translation>Sábháil an toradh i bhformáid dénártha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="297"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use binary format</source>
       <translation>Úsáid formáid dénártha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="313"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save the index of geometric entities</source>
       <translation>Sábháil innéacs na n-eintiteas geoiméadrach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="316"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save geometry IDs</source>
       <translation>Sábháil IDanna geoiméadrachta</translation>
     </message>
@@ -1157,6 +1629,7 @@ Ní bheidh sé i bhfeidhm ach amháin má tá 'Píblíne amháin' cumasaithe</tr
       <translation>Elmer Binary</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmer.ui" line="144"/>
       <source>MPI path</source>
       <translation>Cosán MPI</translation>
@@ -1168,11 +1641,18 @@ Ní bheidh sé i bhfeidhm ach amháin má tá 'Píblíne amháin' cumasaithe</tr
     </message>
     <message>
       <location filename="../../DlgSettingsFemElmer.ui" line="191"/>
+=======
+      <location filename="../../DlgSettingsFemElmer.ui" line="141"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Roghanna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemElmerImp.cpp" line="106"/>
+=======
+      <location filename="../../DlgSettingsFemElmerImp.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Executable '%1' not found</source>
       <translation>Níor aimsíodh an inrite '%1'</translation>
     </message>
@@ -1215,7 +1695,11 @@ le haghaidheanna agus aghaidheanna nach mbaineann le toirteanna amháin.</transl
       <translation>paraiméadar eiliminte: Uile: na heilimintí uile, Is Airde: na heilimintí is airde amháin, FEM: eilimintí FEM amháin (imeall amháin nach mbaineann le haghaidheanna agus aghaidheanna nach mbaineann le toirteanna)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemExportAbaqus.ui" line="84"/>
+=======
+      <location filename="../../DlgSettingsFemExportAbaqus.ui" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh groups are exported too.
 Every analysis feature and, if there are different materials,
 material consists of two mesh groups - faces and nodes where
@@ -1226,22 +1710,38 @@ má tá ábhair éagsúla ann, ábhar - aghaidheanna agus
 nóid ina gcuirtear an srian nó an t-ábhar i bhfeidhm.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemExportAbaqus.ui" line="59"/>
+=======
+      <location filename="../../DlgSettingsFemExportAbaqus.ui" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All</source>
       <translation>Gach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemExportAbaqus.ui" line="64"/>
+=======
+      <location filename="../../DlgSettingsFemExportAbaqus.ui" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Highest</source>
       <translation>Is Airde</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemExportAbaqus.ui" line="69"/>
+=======
+      <location filename="../../DlgSettingsFemExportAbaqus.ui" line="66"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM</source>
       <translation>FEM</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemExportAbaqus.ui" line="77"/>
+=======
+      <location filename="../../DlgSettingsFemExportAbaqus.ui" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export group data</source>
       <translation>Easpórtáil sonraí grúpa</translation>
     </message>
@@ -1250,32 +1750,76 @@ nóid ina gcuirtear an srian nó an t-ábhar i bhfeidhm.</translation>
     <name>FemGui::DlgSettingsFemGeneralImp</name>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneralImp.cpp" line="133"/>
       <location filename="../../DlgSettingsFemGeneralImp.cpp" line="140"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>General</source>
       <translation>Ginearálta</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="48"/>
+      <source>sdfsdfsdfds</source>
+      <translation>sdfsdfsdfds</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgSettingsFemGeneral.ui" line="51"/>
       <source>Temporary directories</source>
       <translation>Eolairí sealadacha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="54"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Let the application manage (create, delete) the working directories for all solvers. Use temporary directories.</source>
       <translation>Lig don fheidhmchlár na heolairí oibre do na réiteoirí uile a bhainistiú (a chruthú, a scriosadh). Bain úsáid as eolairí sealadacha.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="76"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beside .FCStd file</source>
       <translation>In aice le comhad .FCStd</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="206"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="116"/>
+      <source>Create a directory in the same folder in which the FCStd file of the document is located. Use Subfolder for each solver (e.g. for a file ./mydoc.FCStd and a solver with the label Elmer002 use ./mydoc/Elmer002).</source>
+      <translation>Cruthaigh eolaire san fhillteán céanna ina bhfuil comhad FCStd an doiciméid suite. Bain úsáid as Fo-fhillteán do gach réiteoir (m.sh. i gcás comhad ./mydoc.FCStd agus réiteoir leis an lipéad Elmer002 bain úsáid as ./mydoc/Elmer002).</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="142"/>
+      <source>Use custom directory</source>
+      <translation>Úsáid eolaire saincheaptha</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="160"/>
+      <source>Use directory set below. Create own subdirectory for every solver. Name directory after the solver label prefixed with the document name.</source>
+      <translation>Úsáid an t-eolaire atá leagtha síos thíos. Cruthaigh fo-eolaire féin do gach réiteoir. Ainmnigh an t-eolaire i ndiaidh lipéad an réiteora agus ainm an doiciméid mar réimír air.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="247"/>
+      <source>Overwrite solver working directory with the directory chosen above</source>
+      <translation>Scríobh an comhadlann oibre réiteora leis an gcomhadlann a roghnaíodh thuas</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh</source>
       <translation>Mogalra</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="34"/>
       <source>Working Directory for Solving Analysis and Meshing</source>
       <translation>Eolaire Oibre le haghaidh Anailís agus Mogaill a Réiteach</translation>
@@ -1316,68 +1860,123 @@ Fág bán chun eolaire baile an úsáideora a úsáid.</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="217"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="31"/>
+      <source>Working Directory for Solving Analysis and Gmsh Meshing</source>
+      <translation>Eolaire Oibre le haghaidh Anailís Réiteach agus Mogaill Gmsh</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="187"/>
+      <source>Path</source>
+      <translation>Cosán</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="279"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create mesh groups for analysis reference shapes (experimental)</source>
       <translation>Cruthaigh grúpaí mogalra le haghaidh cruthanna tagartha anailíse (turgnamhach)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="238"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Results</source>
       <translation>Torthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="249"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Existing result objects will be kept
 otherwise overwritten by new solver run</source>
       <translation>Coinneofar réada torthaí atá ann cheana féin
 nó déanfar iad a athscríobh le rith nua réiteora</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="253"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Keep results on calculation re-run</source>
       <translation>Coinnigh na torthaí nuair a athrítear an ríomh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="269"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The results dialog will be opened
 with the last used dialog settings</source>
       <translation>Osclófar an dialóg torthaí leis na socruithe
 dialóige is déanaí a úsáideadh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="273"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restore result dialog settings</source>
       <translation>Athchóirigh socruithe dialóige torthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="292"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All analysis features are hidden in the model view
 when the results dialog is opened</source>
       <translation>Bíonn gach gné anailíse i bhfolach sa radharc
 samhail nuair a osclaítear an dialóg torthaí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="296"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide analysis features when opening result dialog</source>
       <translation>Folaigh gnéithe anailíse agus an dialóg torthaí á hoscailt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="320"/>
       <source>Defaults</source>
       <translation>Réamhshocruithe</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemGeneral.ui" line="331"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="382"/>
+      <source>Defaults</source>
+      <translation type="unfinished">Defaults</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemGeneral.ui" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default solver</source>
       <translation>Réiteoir réamhshocraithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="341"/>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="403"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default solver to be added when
 adding an analysis container</source>
       <translation>Réiteoir réamhshocraithe le cur leis nuair
 a chuirtear coimeádán anailíse leis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemGeneral.ui" line="352"/>
       <source>None</source>
       <translation>Dada</translation>
@@ -1392,6 +1991,12 @@ a chuirtear coimeádán anailíse leis</translation>
       <source>Directory '%1' not found</source>
       <translation>Níor aimsíodh an eolaire '%1'</translation>
     </message>
+=======
+      <location filename="../../DlgSettingsFemGeneral.ui" line="414"/>
+      <source>None</source>
+      <translation>Dada</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>FemGui::DlgSettingsFemGmshImp</name>
@@ -1636,6 +2241,7 @@ a easpórtáladh ó FreeCAD.</translation>
       <translation>Modh réiteora le húsáid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemZ88.ui" line="156"/>
       <source>Stiffness matrix entries</source>
       <translation>Iontrálacha maitrís righneas</translation>
@@ -1662,6 +2268,29 @@ go gcaithfear "MAXKOI" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../DlgSettingsFemZ88.ui" line="169"/>
+=======
+      <location filename="../../DlgSettingsFemZ88.ui" line="150"/>
+      <source>Iteration solver with SOR preconditioning (-sorcg)</source>
+      <translation>Réiteoir athrá le réamhchoinníollú SOR (-sorcg)</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemZ88.ui" line="155"/>
+      <source>Iteration solver with SIC preconditioning (-siccg)</source>
+      <translation>Réiteoir athrá le réamhchoinníollú SIC (-siccg)</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemZ88.ui" line="160"/>
+      <source>Simple Cholesky solver (-choly)</source>
+      <translation>Réiteoir simplí Cholesky (-choly)</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemZ88.ui" line="168"/>
+      <source>Max places in stiffness matrix</source>
+      <translation>Uasmhéid áiteanna sa mhaitrís dolúbthachta</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemZ88.ui" line="181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum places in the stiffness matrix.
 You might need to increase this when using the
 Cholesky solver and getting the error message
@@ -1672,6 +2301,7 @@ réiteora Cholesky agus ag fáil an teachtaireacht earráide
 go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsFemZ88Imp.cpp" line="86"/>
       <source>Successive over-relaxation (SOR)</source>
       <translation>Ró-scíth a ligean de réir a chéile (SOR)</translation>
@@ -1685,6 +2315,28 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <location filename="../../DlgSettingsFemZ88Imp.cpp" line="88"/>
       <source>Simple Cholesky</source>
       <translation>Colesky Simplí</translation>
+=======
+      <location filename="../../DlgSettingsFemZ88.ui" line="212"/>
+      <source>Maximum places in coincidence vector</source>
+      <translation>Uasmhéid áiteanna i veicteoir comhthráthachta</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsFemZ88.ui" line="225"/>
+      <source>Maximal places in coincidence vector.
+(number of knots per element times
+ number of finite elements)
+
+You might need to increase this when using an
+iterative solver and you get the error message
+that "MAXKOI" needs to be increased.</source>
+      <translation>Uasmhéid áiteanna i veicteoir comhthráthachta.
+(líon na snaidhmeanna in aghaidh an eiliminte iolraithe faoi
+líon na n-eilimintí críochta)
+
+B’fhéidir go mbeadh ort é seo a mhéadú agus tú ag úsáid
+réiteoir athchleachtach agus gheobhaidh tú an teachtaireacht earráide
+go gcaithfear "MAXKOI" a mhéadú.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsFemZ88Imp.cpp" line="106"/>
@@ -1712,9 +2364,15 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     <name>FemGui::TaskDlgFemConstraint</name>
     <message>
       <location filename="../../TaskFemConstraint.cpp" line="237"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraint.cpp" line="259"/>
       <source>Input Error</source>
       <translation>Earráid Ionchuir</translation>
+=======
+      <location filename="../../TaskFemConstraint.cpp" line="258"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraint.cpp" line="238"/>
@@ -1723,6 +2381,113 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>FemGui::TaskDlgFemConstraintBearing</name>
+    <message>
+      <location filename="../../TaskFemConstraintBearing.cpp" line="392"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintContact</name>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="599"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintDisplacement</name>
+    <message>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="650"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintFluidBoundary</name>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="1159"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintForce</name>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="476"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintGear</name>
+    <message>
+      <location filename="../../TaskFemConstraintGear.cpp" line="355"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintHeatflux</name>
+    <message>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="556"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintInitialTemperature</name>
+    <message>
+      <location filename="../../TaskFemConstraintInitialTemperature.cpp" line="117"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintPressure</name>
+    <message>
+      <location filename="../../TaskFemConstraintPressure.cpp" line="321"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintPulley</name>
+    <message>
+      <location filename="../../TaskFemConstraintPulley.cpp" line="229"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintSpring</name>
+    <message>
+      <location filename="../../TaskFemConstraintSpring.cpp" line="334"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintTemperature</name>
+    <message>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="406"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+    <name>FemGui::TaskDlgFemConstraintTransform</name>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="637"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>FemGui::TaskDlgMeshShapeNetgen</name>
     <message>
       <location filename="../../TaskDlgMeshShapeNetgen.cpp" line="69"/>
@@ -1730,12 +2495,27 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Cuir mogalra FEM in eagar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskDlgMeshShapeNetgen.cpp" line="102"/>
+=======
+      <location filename="../../TaskDlgMeshShapeNetgen.cpp" line="100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Meshing failure</source>
       <translation>Teip mogaill</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>FemGui::TaskDlgPost</name>
+    <message>
+      <location filename="../../TaskPostBoxes.cpp" line="391"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>FemGui::TaskDriver</name>
     <message>
       <location filename="../../TaskDriver.cpp" line="34"/>
@@ -1770,8 +2550,13 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <location filename="../../TaskFemConstraintBearing.cpp" line="205"/>
       <location filename="../../TaskFemConstraintBearing.cpp" line="215"/>
       <location filename="../../TaskFemConstraintBearing.cpp" line="224"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintBearing.cpp" line="171"/>
@@ -1813,6 +2598,7 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Scrios</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="135"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="201"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="208"/>
@@ -1837,78 +2623,164 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintContact.cpp" line="136"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="130"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="196"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="203"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="209"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="221"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="229"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="239"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="250"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="287"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="296"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="342"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="349"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="355"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="367"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="374"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="384"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="395"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="435"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="444"/>
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintContact.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one face in object! - moved to master face</source>
       <translation>Aghaidh amháin sa réad! - bogtha go dtí an máistir-aghaidh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="147"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select slave geometry of type: </source>
       <translation>Roghnaigh geoiméadracht sclábhaí den chineál seo: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="147"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="151"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="142"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Face</source>
       <translation>Aghaidh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="148"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="152"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="143"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>click Add or Remove</source>
       <translation>cliceáil Cuir leis nó Bain</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="151"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select master geometry of type: </source>
       <translation>Roghnaigh máistir-gheoiméadracht an chineáil: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="202"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="348"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="197"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one master face and one slave face for a contact constraint!</source>
       <translation>Aon aghaidh mháistir amháin agus aon aghaidh sclábhaí amháin le haghaidh srian teagmhála!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="208"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="292"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="354"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="440"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="203"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="287"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="349"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="215"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="245"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="210"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one slave face for a contact constraint!</source>
       <translation>Aghaidh sclábhaí amháin le haghaidh srian teagmhála!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="226"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="301"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="372"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="449"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="221"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="296"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="367"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="444"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected object is not a part!</source>
       <translation>Ní cuid é an réad roghnaithe!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="235"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="380"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="230"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="375"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External object selection is not supported</source>
       <translation>Ní thacaítear le roghnú réada seachtracha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="256"/>
       <location filename="../../TaskFemConstraintContact.cpp" line="401"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="251"/>
+      <location filename="../../TaskFemConstraintContact.cpp" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only faces can be picked (edges in 2D models)</source>
       <translation>Ní féidir ach aghaidheanna a phiocadh (imill i samhlacha 2T)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="361"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one master for a contact constraint!</source>
       <translation>Máistir amháin le haghaidh srian teagmhála!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.cpp" line="390"/>
+=======
+      <location filename="../../TaskFemConstraintContact.cpp" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one master face for a contact constraint!</source>
       <translation>Aon aghaidh mháistir amháin le haghaidh srian teagmhála!</translation>
     </message>
@@ -1927,19 +2799,33 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="237"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="322"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="237"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="247"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="255"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="299"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="322"/>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="332"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="237"/>
+      <location filename="../../TaskFemConstraintDisplacement.cpp" line="322"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintDisplacement.cpp" line="247"/>
@@ -1972,19 +2858,33 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFixed.cpp" line="113"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintFixed.cpp" line="194"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFixed.cpp" line="113"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFixed.cpp" line="122"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="130"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="171"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="194"/>
       <location filename="../../TaskFemConstraintFixed.cpp" line="203"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFixed.cpp" line="113"/>
+      <location filename="../../TaskFemConstraintFixed.cpp" line="194"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintFixed.cpp" line="122"/>
@@ -2073,8 +2973,13 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="655"/>
+<<<<<<< HEAD
       <source>Empty Selection</source>
       <translation>Roghnú Folamh</translation>
+=======
+      <source>Empty selection</source>
+      <translation>Rogha folamh</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="655"/>
@@ -2083,17 +2988,30 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="666"/>
+<<<<<<< HEAD
       <source>Selected object is not a part object!</source>
       <translation>Ní réad páirteach é an réad roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="666"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="675"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="693"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="703"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="712"/>
+<<<<<<< HEAD
       <source>Wrong Selection</source>
       <translation>Rogha Mícheart</translation>
+=======
+      <source>Wrong selection</source>
+      <translation>Rogha mícheart</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="666"/>
+      <source>Selected object is not a part object!</source>
+      <translation>Ní réad páirteach é an réad roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="676"/>
@@ -2117,19 +3035,33 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="849"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="932"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="849"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="859"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="867"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="909"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="932"/>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="942"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="849"/>
+      <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="932"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.cpp" line="859"/>
@@ -2151,22 +3083,46 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
   <context>
     <name>FemGui::TaskFemConstraintForce</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="93"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select geometry of type: </source>
       <translation>Roghnaigh geoiméadracht an chineáil: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="93"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex, Edge, Face</source>
       <translation>Buaicphointe, Imeall, Aghaidh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="126"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="208"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="125"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="134"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="142"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="184"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="207"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="216"/>
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="125"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="126"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="135"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="143"/>
@@ -2179,20 +3135,33 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="135"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="217"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="134"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected object is not a part!</source>
       <translation>Ní cuid é an réad roghnaithe!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="144"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External object selection is not supported</source>
       <translation>Ní thacaítear le roghnú réada seachtracha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="181"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only one type of selection (vertex, face or edge) per analysis feature allowed!</source>
       <translation>Ní cheadaítear ach cineál amháin roghnúcháin (buaicphointe, aghaidh nó imeall) in aghaidh gach gné anailíse!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintForce.cpp" line="317"/>
       <location filename="../../TaskFemConstraintForce.cpp" line="332"/>
       <source>Wrong Selection</source>
@@ -2200,6 +3169,15 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintForce.cpp" line="317"/>
+=======
+      <location filename="../../TaskFemConstraintForce.cpp" line="324"/>
+      <location filename="../../TaskFemConstraintForce.cpp" line="339"/>
+      <source>Wrong selection</source>
+      <translation>Rogha mícheart</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintForce.cpp" line="324"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select an edge or a face.</source>
       <translation>Roghnaigh imeall nó aghaidh.</translation>
     </message>
@@ -2210,8 +3188,13 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <location filename="../../TaskFemConstraintGear.cpp" line="155"/>
       <location filename="../../TaskFemConstraintGear.cpp" line="165"/>
       <location filename="../../TaskFemConstraintGear.cpp" line="174"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintGear.cpp" line="156"/>
@@ -2243,20 +3226,34 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="282"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="359"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="282"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="291"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="299"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="311"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="359"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="369"/>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="380"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="282"/>
+      <location filename="../../TaskFemConstraintHeatflux.cpp" line="359"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintHeatflux.cpp" line="291"/>
@@ -2298,8 +3295,13 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="209"/>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="227"/>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="237"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintPlaneRotation.cpp" line="131"/>
@@ -2349,19 +3351,33 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintPressure.cpp" line="128"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintPressure.cpp" line="194"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintPressure.cpp" line="128"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintPressure.cpp" line="137"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="145"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="157"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="194"/>
       <location filename="../../TaskFemConstraintPressure.cpp" line="203"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintPressure.cpp" line="128"/>
+      <location filename="../../TaskFemConstraintPressure.cpp" line="194"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintPressure.cpp" line="137"/>
@@ -2407,19 +3423,33 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintSpring.cpp" line="133"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintSpring.cpp" line="195"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintSpring.cpp" line="133"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintSpring.cpp" line="142"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="150"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="160"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="195"/>
       <location filename="../../TaskFemConstraintSpring.cpp" line="204"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintSpring.cpp" line="133"/>
+      <location filename="../../TaskFemConstraintSpring.cpp" line="195"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintSpring.cpp" line="142"/>
@@ -2452,18 +3482,32 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="198"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTemperature.cpp" line="256"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="198"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintTemperature.cpp" line="207"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="215"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="256"/>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="265"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="198"/>
+      <location filename="../../TaskFemConstraintTemperature.cpp" line="256"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintTemperature.cpp" line="207"/>
@@ -2480,16 +3524,21 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
   <context>
     <name>FemGui::TaskFemConstraintTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="164"/>
       <source>Edge, Face</source>
       <translation>Imeall, Aghaidh</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="212"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analysis feature update error</source>
       <translation>Earráid nuashonraithe gné anailíse</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="310"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="317"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="327"/>
@@ -2533,40 +3582,118 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
     <message>
       <location filename="../../TaskFemConstraintTransform.cpp" line="310"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="470"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="309"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="316"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="326"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="341"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="349"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="359"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="368"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="379"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="423"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="458"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="467"/>
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="309"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="351"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="317"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="327"/>
+      <source>Only one face for rectangular local coordinate system!</source>
+      <translation>Aghaidh amháin don chóras comhordanáidí áitiúil dronuilleogach!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="350"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>External object selection is not supported</source>
       <translation>Ní thacaítear le roghnú réada seachtracha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="342"/>
       <location filename="../../TaskFemConstraintTransform.cpp" line="479"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="360"/>
+      <source>Only one face for local coordinate system!</source>
+      <translation>Aghaidh amháin don chóras comhordanáidí áitiúil!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="424"/>
+      <source>Only transformable faces can be selected! Apply a displacement boundary condition or a force load to a face first then apply local coordinate system to the face.</source>
+      <translation>Ní féidir ach aghaidheanna inchlaochlaithe a roghnú! Cuir coinníoll teorann díláithrithe nó ualach fórsa i bhfeidhm ar aghaidh ar dtús agus ansin cuir córas comhordanáidí áitiúil i bhfeidhm ar an aghaidh.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="341"/>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected object is not a part!</source>
       <translation>Ní cuid é an réad roghnaithe!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="164"/>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select single geometry of type: </source>
       <translation>Roghnaigh geoiméadracht aonair den chineál: </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintTransform.cpp" line="213"/>
       <source>The transformable faces have changed. Add only the transformable faces and remove non-transformable faces!</source>
       <translation>Tá na haghaidheanna in-athraithe athraithe. Cuir na haghaidheanna in-athraithe amháin leis agus bain na haghaidheanna nach bhfuil in-athraithe!</translation>
     </message>
+=======
+      <location filename="../../TaskFemConstraintTransform.cpp" line="163"/>
+      <source>Face</source>
+      <translation>Aghaidh</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="212"/>
+      <source>The transformable faces have changed. Add only the transformable faces and remove non-transformable faces!</source>
+      <translation>Tá na haghaidheanna in-athraithe athraithe. Cuir na haghaidheanna in-athraithe amháin leis agus bain na haghaidheanna nach bhfuil in-athraithe!</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="368"/>
+      <source>Only faces can be picked</source>
+      <translation>Ní féidir ach aghaidheanna a roghnú</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintTransform.cpp" line="380"/>
+      <source>Only cylindrical faces can be picked</source>
+      <translation>Ní féidir ach aghaidheanna sorcóireacha a roghnú</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>FemGui::TaskPostDataAlongLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="687"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data Along a Line Options</source>
       <translation>Roghanna Sonraí Feadh Líne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1095"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1083"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <comment>X-Axis plot label</comment>
       <translation>Fad</translation>
@@ -2575,12 +3702,20 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
   <context>
     <name>FemGui::TaskPostDataAtPoint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1129"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data at Point Options</source>
       <translation>Roghanna Sonraí ag Pointe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1470"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 at (%2; %3; %4) is: %5 %6</source>
       <translation>%1 ag (%2; %3; %4) is ea: %5 %6</translation>
     </message>
@@ -2588,7 +3723,11 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
   <context>
     <name>FemGui::TaskPostFunction</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="535"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="523"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Implicit function</source>
       <translation>Feidhm intuigthe</translation>
     </message>
@@ -2763,9 +3902,15 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Brú Ionraoin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ElementFluid1D.ui" line="235"/>
       <location filename="../ui/ElementFluid1D.ui" line="308"/>
       <location filename="../ui/InitialPressure.ui" line="20"/>
+=======
+      <location filename="../ui/InitialPressure.ui" line="20"/>
+      <location filename="../ui/ElementFluid1D.ui" line="235"/>
+      <location filename="../ui/ElementFluid1D.ui" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pressure</source>
       <translation>Brú</translation>
     </message>
@@ -2883,6 +4028,7 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Cumasaigh coigeartú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ConstraintTie.ui" line="70"/>
       <source>Reverse master</source>
       <translation>Máistir droim ar ais</translation>
@@ -2893,6 +4039,8 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Sclábhaí droim ar ais</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ElementFluid1D.ui" line="92"/>
       <location filename="../ui/ElementFluid1D.ui" line="745"/>
       <location filename="../ui/ElementFluid1D.ui" line="766"/>
@@ -2905,12 +4053,21 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Réabhlóidí in aghaidh an tsoicind</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ConstraintSectionPrint.ui" line="26"/>
       <location filename="../ui/MeshRegion.ui" line="26"/>
       <location filename="../ui/ElementGeometry2D.ui" line="26"/>
       <location filename="../ui/ConstraintTie.ui" line="26"/>
       <location filename="../ui/ConstraintCentrif.ui" line="26"/>
       <location filename="../ui/MeshBoundaryLayer.ui" line="26"/>
+=======
+      <location filename="../ui/ConstraintCentrif.ui" line="26"/>
+      <location filename="../ui/MeshBoundaryLayer.ui" line="26"/>
+      <location filename="../ui/ElementGeometry2D.ui" line="26"/>
+      <location filename="../ui/ConstraintTie.ui" line="26"/>
+      <location filename="../ui/MeshRegion.ui" line="26"/>
+      <location filename="../ui/ConstraintSectionPrint.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parameter</source>
       <translation>Paraiméadar</translation>
     </message>
@@ -2940,101 +4097,171 @@ go gcaithfear "MAXGS" a mhéadú.</translation>
       <translation>Athróg</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="26"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Boundary condition</source>
       <translation>Coinníoll teorann</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="50"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Potential</source>
       <translation>Poitéinseal</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="60"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electric potential</source>
       <translation>Poitéinseal leictreach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="84"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electromagnetic potential</source>
       <translation>Poitéinseal leictreamaighnéadach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="100"/>
       <location filename="../ui/Electromagnetic.ui" line="419"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary part is only used for equations
 with a harmonic/oscillating driving force</source>
       <translation>Ní úsáidtear an chuid shamhlaíoch ach amháin le haghaidh
 cothromóidí a bhfuil fórsa tiomána armónach/luaineach acu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="140"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Real part of scalar potential</source>
       <translation>Cuid réadach den phoitéinseal scálach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="191"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Real part of vector potential x-component
 Note: has no effect if a solid was selected</source>
       <translation>Cuid réadach de chomhpháirt x poitéinsil veicteora
 Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="214"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary part of vector potential x-component
 Note: has no effect if a solid was selected</source>
       <translation>Cuid shamhlaíoch de chomhpháirt x poitéinsil veicteora
 Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="244"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Real part of vector potential y-component
 Note: has no effect if a solid was selected</source>
       <translation>Cuid réadach de chomhpháirt y poitéinsil veicteora
 Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="267"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary part of vector potential y-component
 Note: has no effect if a solid was selected</source>
       <translation>Cuid shamhlaíoch de chomhpháirt y poitéinsil veicteora
 Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="297"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Real part of vector potential z-component
 Note: has no effect if a solid was selected</source>
       <translation>Cuid réadach de chomhpháirt z poitéinsil veicteora
 Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="320"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="360"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary part of vector potential z-component
 Note: has no effect if a solid was selected</source>
       <translation>Cuid shamhlaíoch de chomhpháirt z poitéinsil veicteora
 Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="381"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="391"/>
+      <source>Electric infinity</source>
+      <translation>Infinity leictreach</translation>
+    </message>
+    <message>
+      <location filename="../ui/ElectrostaticPotential.ui" line="419"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electric flux density</source>
       <translation>Dlús sreabhadh leictreach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="614"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="445"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Capacitance body</source>
       <translation>Comhlacht toilleas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="617"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enabled by 'Calculate capacity matrix' in Electrostatic equation</source>
       <translation>Cumasaithe ag 'Ríomh maitrís acmhainne' sa chothromóid leictreastatach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="358"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Whether the boundary condition defines a constant potential</source>
       <translation>Cibé an sainmhíníonn an coinníoll teorann poitéinseal tairiseach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="348"/>
       <source>Far field approximation assuming spherical symmetry</source>
       <translation>Garmheastachán réimse i bhfad ag glacadh leis go bhfuil siméadracht sféarúil ann</translation>
@@ -3046,20 +4273,32 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
       <location filename="../ui/Electromagnetic.ui" line="361"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Potential constant</source>
       <translation>Tairiseach poitéinsil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="373"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Neumann</source>
       <translation>Neumann</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="388"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="426"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal component of electric displacement field</source>
       <translation>Comhpháirt gnáth de réimse díláithrithe leictreach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="400"/>
       <source>To define magnetic flux density</source>
       <translation>Chun dlús flosc maighnéadach a shainmhíniú</translation>
@@ -3101,49 +4340,91 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
       <location filename="../ui/Electromagnetic.ui" line="608"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Capacitance</source>
       <translation>Toilleas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="39"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="388"/>
+      <source>Whether the boundary condition defines a farfield potential</source>
+      <translation>Cibé an sainmhíníonn an coinníoll teorann poitéinseal réimse i bhfad</translation>
+    </message>
+    <message>
+      <location filename="../ui/ElectrostaticPotential.ui" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dirichlet</source>
       <translation>Dirichlet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="81"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To define scalar potential and magnetic vector potential</source>
       <translation>Chun poitéinseal scalar agus poitéinseal veicteora maighnéadaigh a shainmhíniú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="39"/>
       <location filename="../ui/CurrentDensity.ui" line="61"/>
       <location filename="../ui/CurrentDensity.ui" line="246"/>
       <location filename="../ui/Electromagnetic.ui" line="113"/>
       <location filename="../ui/Electromagnetic.ui" line="432"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="61"/>
+      <location filename="../ui/CurrentDensity.ui" line="246"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="113"/>
+      <location filename="../ui/Magnetization.ui" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Real</source>
       <translation>Fíor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="49"/>
       <location filename="../ui/CurrentDensity.ui" line="71"/>
       <location filename="../ui/CurrentDensity.ui" line="256"/>
       <location filename="../ui/Electromagnetic.ui" line="123"/>
       <location filename="../ui/Electromagnetic.ui" line="442"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="71"/>
+      <location filename="../ui/CurrentDensity.ui" line="256"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="123"/>
+      <location filename="../ui/Magnetization.ui" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary</source>
       <translation>Samhlaíoch</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="130"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scalar</source>
       <translation>Scalar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="162"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary part of scalar potential</source>
       <translation>Cuid shamhlaíoch den phoitéinseal scálach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Electromagnetic.ui" line="624"/>
+=======
+      <location filename="../ui/ElectrostaticPotential.ui" line="455"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Counter of the body (or face) with a capacitance</source>
       <translation>Áiritheoir an choirp (nó an aghaidhe) le toilleas</translation>
     </message>
@@ -3160,7 +4441,11 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     <message>
       <location filename="../ui/ElementRotation1D.ui" line="89"/>
       <source>Rotation</source>
+<<<<<<< HEAD
       <translation>Rothlú</translation>
+=======
+      <translation type="unfinished">Rotation</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/MeshBoundaryLayer.ui" line="14"/>
@@ -3208,8 +4493,13 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <translation>Paraiméadar Roinn Bhíoma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ElementGeometry1D.ui" line="20"/>
       <location filename="../ui/ElementRotation1D.ui" line="20"/>
+=======
+      <location filename="../ui/ElementRotation1D.ui" line="20"/>
+      <location filename="../ui/ElementGeometry1D.ui" line="20"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cross-Section Parameter</source>
       <translation>Paraiméadar Trasghearrtha</translation>
     </message>
@@ -3217,17 +4507,29 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <location filename="../ui/ElementGeometry1D.ui" line="41"/>
       <location filename="../ui/ElementGeometry1D.ui" line="279"/>
       <source>Width</source>
+<<<<<<< HEAD
       <translation>Leithead</translation>
     </message>
     <message>
       <location filename="../ui/MeshRegion.ui" line="44"/>
       <location filename="../ui/ElementGeometry2D.ui" line="44"/>
+=======
+      <translation type="unfinished">Width</translation>
+    </message>
+    <message>
+      <location filename="../ui/MeshBoundaryLayer.ui" line="58"/>
+      <location filename="../ui/ElementGeometry2D.ui" line="44"/>
+      <location filename="../ui/MeshRegion.ui" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ElementGeometry1D.ui" line="48"/>
       <location filename="../ui/ElementGeometry1D.ui" line="74"/>
       <location filename="../ui/ElementGeometry1D.ui" line="111"/>
       <location filename="../ui/ElementGeometry1D.ui" line="148"/>
       <location filename="../ui/ElementGeometry1D.ui" line="174"/>
+<<<<<<< HEAD
       <location filename="../ui/MeshBoundaryLayer.ui" line="58"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>mm</source>
       <translation>mm</translation>
     </message>
@@ -3248,6 +4550,7 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <translation>Trastomhas seachtrach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshShape.ui" line="38"/>
       <source>Define mesh size inside and outside of the shape, with possible transition layer thickness</source>
       <translation>Sainmhínigh méid an mhogalra laistigh agus lasmuigh den chruth, le tiús féideartha an tsraithe idirthréimhsigh</translation>
@@ -3282,12 +4585,15 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
     </message>
     <message>
       <location filename="../ui/MeshShape.ui" line="109"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ElementGeometry2D.ui" line="37"/>
       <location filename="../ui/ElementGeometry1D.ui" line="167"/>
       <source>Thickness</source>
       <translation>Tiús</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshShape.ui" line="145"/>
       <source>Box</source>
       <translation>Bosca</translation>
@@ -3303,6 +4609,8 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <translation>Sorcóir</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ElementGeometry1D.ui" line="204"/>
       <source>Axis1 length</source>
       <translation>Fad Ais1</translation>
@@ -3376,6 +4684,7 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <translation>Gnáth go dtí an teorainn</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/InitialFlowVelocity.ui" line="14"/>
       <location filename="../ui/Magnetization.ui" line="14"/>
       <location filename="../ui/BodyHeatSource.ui" line="14"/>
@@ -3384,6 +4693,16 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <location filename="../ui/Electromagnetic.ui" line="14"/>
       <location filename="../ui/FlowVelocity.ui" line="14"/>
       <location filename="../ui/InitialPressure.ui" line="14"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="14"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="14"/>
+      <location filename="../ui/ElectricChargeDensity.ui" line="14"/>
+      <location filename="../ui/Magnetization.ui" line="14"/>
+      <location filename="../ui/BodyHeatSource.ui" line="14"/>
+      <location filename="../ui/InitialFlowVelocity.ui" line="14"/>
+      <location filename="../ui/InitialPressure.ui" line="14"/>
+      <location filename="../ui/FlowVelocity.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Analysis Feature Properties</source>
       <translation>Airíonna Gné Anailíse</translation>
     </message>
@@ -3393,9 +4712,15 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <translation>Foinse Teasa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/BodyHeatSource.ui" line="35"/>
       <location filename="../ui/ElectricChargeDensity.ui" line="25"/>
       <location filename="../ui/CurrentDensity.ui" line="29"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="29"/>
+      <location filename="../ui/ElectricChargeDensity.ui" line="25"/>
+      <location filename="../ui/BodyHeatSource.ui" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mode</source>
       <translation>Mód</translation>
     </message>
@@ -3410,8 +4735,13 @@ Nóta: níl aon éifeacht aige má roghnaíodh solad</translation>
       <translation>Ráta diomailt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="26"/>
       <location filename="../ui/CurrentDensity.ui" line="48"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="48"/>
+      <location filename="../ui/Magnetization.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imaginary part is only used for equations
 with harmonic/oscillating driving current</source>
       <translation>Ní úsáidtear an chuid shamhlaíoch ach le haghaidh
@@ -3474,21 +4804,30 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
       <translation>Muirear iomlán</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ElectricChargeDensity.ui" line="173"/>
       <source>Concentrated</source>
       <translation>Tiubhaithe</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/CurrentDensity.ui" line="23"/>
       <source>Select custom mode to enable vector current density</source>
       <translation>Roghnaigh mód saincheaptha chun dlús reatha veicteora a chumasú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="56"/>
       <location filename="../ui/CurrentDensity.ui" line="78"/>
       <location filename="../ui/Electromagnetic.ui" line="181"/>
       <location filename="../ui/Electromagnetic.ui" line="449"/>
       <location filename="../ui/MeshManipulate.ui" line="594"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="78"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="194"/>
+      <location filename="../ui/Magnetization.ui" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
@@ -3503,11 +4842,17 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
       <translation>Cuid shamhlaíoch de chomhpháirt x dlúis reatha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="107"/>
       <location filename="../ui/CurrentDensity.ui" line="129"/>
       <location filename="../ui/Electromagnetic.ui" line="234"/>
       <location filename="../ui/Electromagnetic.ui" line="500"/>
       <location filename="../ui/MeshManipulate.ui" line="599"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="129"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="257"/>
+      <location filename="../ui/Magnetization.ui" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
@@ -3522,11 +4867,17 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
       <translation>Cuid shamhlaíoch de chomhpháirt y an dlúis reatha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/Magnetization.ui" line="158"/>
       <location filename="../ui/CurrentDensity.ui" line="180"/>
       <location filename="../ui/Electromagnetic.ui" line="287"/>
       <location filename="../ui/Electromagnetic.ui" line="551"/>
       <location filename="../ui/MeshManipulate.ui" line="604"/>
+=======
+      <location filename="../ui/CurrentDensity.ui" line="180"/>
+      <location filename="../ui/ElectrostaticPotential.ui" line="320"/>
+      <location filename="../ui/Magnetization.ui" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
@@ -3567,6 +4918,7 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
     </message>
     <message>
       <location filename="../ui/PostHistogramFieldAppEdit.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../ui/MeshAdvanced.ui" line="14"/>
       <location filename="../ui/PostHistogramIndexAppEdit.ui" line="14"/>
       <location filename="../ui/MeshTransfiniteCurve.ui" line="14"/>
@@ -3585,6 +4937,16 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
     <message>
       <location filename="../ui/PostHistogramFieldAppEdit.ui" line="34"/>
       <location filename="../ui/MeshAdvanced.ui" line="971"/>
+=======
+      <location filename="../ui/PostLineplotIndexAppEdit.ui" line="14"/>
+      <location filename="../ui/PostHistogramIndexAppEdit.ui" line="14"/>
+      <location filename="../ui/PostLineplotFieldAppEdit.ui" line="14"/>
+      <source>Form</source>
+      <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+      <location filename="../ui/PostHistogramFieldAppEdit.ui" line="34"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/PostHistogramIndexAppEdit.ui" line="34"/>
       <source>Field</source>
       <translation>Réimse</translation>
@@ -3593,7 +4955,11 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
       <location filename="../ui/PostHistogramFieldAppEdit.ui" line="61"/>
       <location filename="../ui/PostLineplotFieldAppEdit.ui" line="86"/>
       <source>Frames</source>
+<<<<<<< HEAD
       <translation>Frámaí</translation>
+=======
+      <translation type="unfinished">Frames</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/PostHistogramFieldAppEdit.ui" line="68"/>
@@ -3601,8 +4967,13 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
       <translation>Réimse amháin do gach fráma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramIndexAppEdit.ui" line="61"/>
       <location filename="../ui/PostLineplotIndexAppEdit.ui" line="59"/>
+=======
+      <location filename="../ui/PostLineplotIndexAppEdit.ui" line="59"/>
+      <location filename="../ui/PostHistogramIndexAppEdit.ui" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Index</source>
       <translation>Innéacs</translation>
     </message>
@@ -3622,6 +4993,7 @@ cothromóidí le sruth tiomána armónach/luaineach</translation>
       <source>One Y field for each frame</source>
       <translation>Réimse Y amháin do gach fráma</translation>
     </message>
+<<<<<<< HEAD
     <message>
       <location filename="../ui/MeshAdvanced.ui" line="34"/>
       <location filename="../ui/MeshManipulate.ui" line="70"/>
@@ -4246,6 +5618,8 @@ Nótaí:
       <source>Surface</source>
       <translation>Dromchla</translation>
     </message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>GmshMesh</name>
@@ -4255,6 +5629,7 @@ Nótaí:
       <translation>Mogalra FEM le Gmsh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="20"/>
       <source>Working directory</source>
       <translation>Eolaire oibre</translation>
@@ -4276,47 +5651,83 @@ Nótaí:
     </message>
     <message>
       <location filename="../ui/MeshGmsh.ui" line="80"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh Parameters</source>
       <translation>Paraiméadair Mogaill</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="91"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Element dimension</source>
       <translation>Toise eiliminte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="101"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum size</source>
       <translation>Uasmhéid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="139"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Minimum size</source>
       <translation>Íosmhéid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="180"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Element order</source>
       <translation>Ord na n-eilimintí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="226"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Time</source>
       <translation>Am</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="252"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gmsh Version</source>
       <translation>Leagan Gmsh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="111"/>
       <location filename="../ui/MeshGmsh.ui" line="149"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="57"/>
+      <location filename="../ui/MeshGmsh.ui" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Use 0.0 to set size automatically</source>
       <translation>Úsáid 0.0 chun an méid a shocrú go huathoibríoch</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshGmsh.ui" line="198"/>
+=======
+      <location filename="../ui/MeshGmsh.ui" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gmsh</source>
       <translation>Gmsh</translation>
     </message>
@@ -4324,30 +5735,53 @@ Nótaí:
   <context>
     <name>PlaneWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../PlaneWidget.ui" line="32"/>
+=======
+      <location filename="../../PlaneWidget.ui" line="20"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Origin</source>
       <translation>Bunús</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PlaneWidget.ui" line="38"/>
       <location filename="../../PlaneWidget.ui" line="98"/>
+=======
+      <location filename="../../PlaneWidget.ui" line="26"/>
+      <location filename="../../PlaneWidget.ui" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PlaneWidget.ui" line="55"/>
       <location filename="../../PlaneWidget.ui" line="115"/>
+=======
+      <location filename="../../PlaneWidget.ui" line="43"/>
+      <location filename="../../PlaneWidget.ui" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PlaneWidget.ui" line="72"/>
       <location filename="../../PlaneWidget.ui" line="132"/>
+=======
+      <location filename="../../PlaneWidget.ui" line="60"/>
+      <location filename="../../PlaneWidget.ui" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../PlaneWidget.ui" line="92"/>
+=======
+      <location filename="../../PlaneWidget.ui" line="80"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal</source>
       <translation>Gnáth</translation>
     </message>
@@ -4365,14 +5799,24 @@ Nótaí:
       <translation>Ní mór duit Anailís a chruthú nó a ghníomhachtú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderFemPostFunction.cpp" line="155"/>
       <location filename="../../ViewProviderFemPostObject.cpp" line="899"/>
+=======
+      <location filename="../../ViewProviderFemPostFunction.cpp" line="312"/>
+      <location filename="../../ViewProviderFemPostObject.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A dialog is already open in the task panel</source>
       <translation>Tá dialóg oscailte cheana féin sa phainéal tascanna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderFemPostFunction.cpp" line="156"/>
       <location filename="../../ViewProviderFemPostObject.cpp" line="900"/>
+=======
+      <location filename="../../ViewProviderFemPostFunction.cpp" line="313"/>
+      <location filename="../../ViewProviderFemPostObject.cpp" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to close this dialog?</source>
       <translation>Ar mhaith leat an comhrá seo a dhúnadh?</translation>
     </message>
@@ -4382,18 +5826,32 @@ Nótaí:
       <translation>Mogallrú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../AppFemGui.cpp" line="195"/>
       <location filename="../../AppFemGui.cpp" line="196"/>
       <location filename="../../AppFemGui.cpp" line="197"/>
       <location filename="../../AppFemGui.cpp" line="198"/>
       <location filename="../../AppFemGui.cpp" line="199"/>
       <location filename="../../AppFemGui.cpp" line="200"/>
+=======
+      <location filename="../../AppFemGui.cpp" line="185"/>
+      <location filename="../../AppFemGui.cpp" line="186"/>
+      <location filename="../../AppFemGui.cpp" line="187"/>
+      <location filename="../../AppFemGui.cpp" line="188"/>
+      <location filename="../../AppFemGui.cpp" line="189"/>
+      <location filename="../../AppFemGui.cpp" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM</source>
       <translation>FEM</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../AppFemGui.cpp" line="203"/>
       <location filename="../../AppFemGui.cpp" line="204"/>
+=======
+      <location filename="../../AppFemGui.cpp" line="193"/>
+      <location filename="../../AppFemGui.cpp" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import-Export</source>
       <translation>Iompórtáil-Easpórtáil</translation>
     </message>
@@ -4435,7 +5893,11 @@ Nótaí:
     <message>
       <location filename="../../ViewProviderAnalysis.cpp" line="320"/>
       <source>Are you sure you want to continue?</source>
+<<<<<<< HEAD
       <translation>An bhfuil tú cinnte gur mian leat leanúint ar aghaidh?</translation>
+=======
+      <translation type="unfinished">Are you sure you want to continue?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderFemConstraint.cpp" line="157"/>
@@ -4451,6 +5913,14 @@ Nótaí:
       <translation>Dada</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/ResultShow.ui" line="63"/>
+      <source>von Mises Stress</source>
+      <translation>von Mises Stress</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ResultShow.ui" line="76"/>
       <source>Displacement X</source>
       <translation>Díláithriú X</translation>
@@ -4476,22 +5946,38 @@ Nótaí:
       <translation>Scálú Díláithrithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="264"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Factor</source>
       <translation>Fachtóir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="349"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Animation Control</source>
       <translation>Rialú Beochana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="496"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles between Start and Stop</source>
       <translation>Athraíonn idir Tosaigh agus Stop</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="499"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Start Animation</source>
       <translation>Tosaigh Beochan</translation>
     </message>
@@ -4516,11 +6002,14 @@ Nótaí:
       <translation>Méid díláithrithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="63"/>
       <source>von Mises stress</source>
       <translation>strus von Mises</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/ResultShow.ui" line="83"/>
       <source>Maximum principal stress</source>
       <translation>Uasmhéid struis phríomhúil</translation>
@@ -4566,26 +6055,43 @@ Nótaí:
       <translation>Taispeáin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="300"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slider maximum</source>
       <translation>Uasmhéid sleamhnáin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="373"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="382"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of steps per cycle</source>
       <translation>Líon na gcéimeanna in aghaidh an timthrialla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="420"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="429"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Number of cycles</source>
       <translation>Líon na dtimthriallta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="458"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frame rate</source>
       <translation>Ráta fráma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="512"/>
       <source> Full cycle</source>
       <translation> Timthriall iomlán</translation>
@@ -4597,11 +6103,18 @@ Nótaí:
     </message>
     <message>
       <location filename="../ui/ResultShow.ui" line="542"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User-Defined Equation</source>
       <translation>Cothromóid Sainmhínithe ag an Úsáideoir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="548"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="528"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Runs the equation given in the field below,
 outputs the results to the Min and Max fields
 and colors the result mesh accordingly</source>
@@ -4610,19 +6123,31 @@ cuireann sé na torthaí chuig na réimsí Íosmhéid agus Uasmhéid
 agus cuireann sé dath ar an mogalra torthaí dá réir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="553"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="533"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculate</source>
       <translation>Ríomh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="572"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="552"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter here an equation to be calculated.
 For possible variables, see the description box below.</source>
       <translation>Cuir isteach cothromóid anseo atá le ríomh.
 Le haghaidh athróga féideartha, féach an bosca cur síos thíos.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/ResultShow.ui" line="576"/>
+=======
+      <location filename="../ui/ResultShow.ui" line="556"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>P1 - P3 # Max - Min Principal Stress</source>
       <translation>P1 - P3 # Uasmhéid - Íosmhéid Strus Príomhúil</translation>
     </message>
@@ -4788,29 +6313,51 @@ Le haghaidh athróga féideartha, féach an bosca cur síos thíos.</translation
   <context>
     <name>SphereWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../SphereWidget.ui" line="38"/>
+=======
+      <location filename="../../SphereWidget.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SphereWidget.ui" line="61"/>
+=======
+      <location filename="../../SphereWidget.ui" line="49"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SphereWidget.ui" line="84"/>
+=======
+      <location filename="../../SphereWidget.ui" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SphereWidget.ui" line="124"/>
+=======
+      <location filename="../../SphereWidget.ui" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Ga</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../SphereWidget.ui" line="32"/>
       <source>Center</source>
       <translation>Lár</translation>
+=======
+      <location filename="../../SphereWidget.ui" line="20"/>
+      <source>Center</source>
+      <translation type="unfinished">Center</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -5028,31 +6575,52 @@ Le haghaidh athróga féideartha, féach an bosca cur síos thíos.</translation
       <translation>Roghnaigh geoiméadracht sclábhaí den chineál: Aghaidh; cliceáil Cuir leis nó Bain</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.ui" line="150"/>
+=======
+      <location filename="../../TaskFemConstraintContact.ui" line="151"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parameters</source>
       <translation>Paraiméadair</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.ui" line="156"/>
+=======
+      <location filename="../../TaskFemConstraintContact.ui" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contact stiffness</source>
       <translation>Déineacht teagmhála</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.ui" line="179"/>
+=======
+      <location filename="../../TaskFemConstraintContact.ui" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clearance adjustment</source>
       <translation>Coigeartú imréitigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.ui" line="202"/>
+=======
+      <location filename="../../TaskFemConstraintContact.ui" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable friction</source>
       <translation>Cumasaigh frithchuimilt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.ui" line="209"/>
+=======
+      <location filename="../../TaskFemConstraintContact.ui" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Friction coefficient</source>
       <translation>Comhéifeacht frithchuimilte</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintContact.ui" line="232"/>
       <source>Stick slope</source>
       <translation>Fána bata</translation>
@@ -5067,6 +6635,12 @@ Le haghaidh athróga féideartha, féach an bosca cur síos thíos.</translation
       <source>Reverse slave</source>
       <translation>Sclábhaí droim ar ais</translation>
     </message>
+=======
+      <location filename="../../TaskFemConstraintContact.ui" line="233"/>
+      <source>Stick slope</source>
+      <translation>Fána bata</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>TaskFemConstraintDisplacement</name>
@@ -5262,7 +6836,11 @@ normal vector of the face is used as direction</source>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.ui" line="306"/>
       <source>Page</source>
+<<<<<<< HEAD
       <translation>Leathanach</translation>
+=======
+      <translation type="unfinished">Page</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintFluidBoundary.ui" line="312"/>
@@ -5682,7 +7260,11 @@ normal vector of the face is used as direction</source>
     <message>
       <location filename="../../TaskPostDataAtPoint.ui" line="17"/>
       <source>Center</source>
+<<<<<<< HEAD
       <translation>Lár</translation>
+=======
+      <translation type="unfinished">Center</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskPostDataAtPoint.ui" line="29"/>
@@ -6149,12 +7731,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_ClippingPlaneRemoveAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="163"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove All Clipping Planes</source>
       <translation>Bain Gach Plána Gearrtha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="166"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes all clipping planes</source>
       <translation>Baintear na plánaí gearrtha go léir</translation>
     </message>
@@ -6162,12 +7752,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_Examples</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="558"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM Examples</source>
       <translation>Samplaí FEM</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="559"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the FEM examples</source>
       <translation>Osclaíonn na samplaí FEM</translation>
     </message>
@@ -6175,12 +7773,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MaterialEditor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="573"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Material Editor</source>
       <translation>Eagarthóir Ábhar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="576"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="566"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the FreeCAD material editor</source>
       <translation>Osclaíonn sé eagarthóir ábhair FreeCAD</translation>
     </message>
@@ -6188,12 +7794,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MaterialReinforced</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="633"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reinforced Material (Concrete)</source>
       <translation>Ábhar Treisithe (Coincréit)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="637"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a material for reinforced matrix material such as concrete</source>
       <translation>Cruthaíonn sé ábhar le haghaidh ábhar maitrís athneartaithe amhail coincréit</translation>
     </message>
@@ -6201,12 +7815,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_FEMMesh2Mesh</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="659"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM Mesh to Mesh</source>
       <translation>Mogalra FEM go Mogalra</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="662"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Converts the surface of a FEM mesh to a mesh</source>
       <translation>Athraíonn sé dromchla mogalra FEM go mogalra</translation>
     </message>
@@ -6214,12 +7836,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MeshDisplayInfo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="758"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Display Mesh Info</source>
       <translation>Taispeáin Eolas Mogaill</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="759"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="761"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays FEM mesh information</source>
       <translation>Taispeánann faisnéis mogalra FEM</translation>
     </message>
@@ -6227,12 +7857,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MeshGmshFromShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="782"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="784"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh From Shape by Gmsh</source>
       <translation>Mogalra Ó Chruth le Gmsh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="785"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="787"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM mesh from a shape by Gmsh mesher</source>
       <translation>Cruthaíonn mogalra FEM ó chruth le mogalra Gmsh</translation>
     </message>
@@ -6240,12 +7878,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_MeshNetgenFromShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="843"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="845"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh From Shape by Netgen</source>
       <translation>Mogalra Ó Chruth le Netgen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="847"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="849"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM mesh from a solid or face shape by Netgen internal mesher</source>
       <translation>Cruthaíonn mogalra FEM ó chruth soladach nó aghaidhe le mogalra inmheánach Netgen</translation>
     </message>
@@ -6253,12 +7899,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverCalculiXCcxTools</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1174"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1042"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver CalculiX Standard</source>
       <translation>Réiteoir CalculiX Caighdeánach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1179"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1047"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a standard FEM solver CalculiX with ccx tools</source>
       <translation>Cruthaíonn sé réiteoir caighdeánach FEM CalculiX le huirlisí ccx</translation>
     </message>
@@ -6266,12 +7920,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverControl</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1217"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1098"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Job Control</source>
       <translation>Rialú Poist Réiteoir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1222"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes solver attributes and runs the calculations for the selected solver</source>
       <translation>Athraíonn sé tréithe an réiteora agus ritheann sé na ríomhanna don réiteoir roghnaithe</translation>
     </message>
@@ -6279,12 +7941,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverElmer</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1234"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Elmer</source>
       <translation>Réiteoir Elmer</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1236"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver Elmer</source>
       <translation>Cruthaíonn Elmer réiteoir FEM</translation>
     </message>
@@ -6292,12 +7962,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverMystran</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1273"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Mystran</source>
       <translation>Réiteoir Mystran</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1275"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver Mystran</source>
       <translation>Cruthaíonn sé réiteoir FEM Mystran</translation>
     </message>
@@ -6305,12 +7983,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverRun</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1285"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run Solver</source>
       <translation>Rith Réiteoir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1289"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1170"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Runs the calculations for the selected solver</source>
       <translation>Ritheann sé na ríomhanna don réiteoir roghnaithe</translation>
     </message>
@@ -6318,12 +8004,20 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM_SolverZ88</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1306"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Z88</source>
       <translation>Réiteoir Z88</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1308"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver Z88</source>
       <translation>Cruthaíonn réiteoir FEM Z88</translation>
     </message>
@@ -6331,35 +8025,60 @@ normal vector of the face is used as direction</source>
   <context>
     <name>ControlWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="207"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver Control</source>
       <translation>Rialú Réiteoir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="218"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Working Directory</source>
       <translation>Eolaire Oibre</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="222"/>
       <location filename="../../../femsolver/solver_taskpanel.py" line="298"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="223"/>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="299"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Write</source>
       <translation>Scríobh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="223"/>
       <location filename="../../../femsolver/solver_taskpanel.py" line="299"/>
       <location filename="../../../femsolver/solver_taskpanel.py" line="303"/>
       <location filename="../../../femsolver/solver_taskpanel.py" line="307"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="224"/>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="300"/>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="304"/>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Eagar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="240"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Elapsed Time:</source>
       <translation>Am Caite:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="300"/>
       <location filename="../../../femsolver/solver_taskpanel.py" line="304"/>
       <source>Run</source>
@@ -6368,16 +8087,34 @@ normal vector of the face is used as direction</source>
     <message>
       <location filename="../../../femsolver/solver_taskpanel.py" line="302"/>
       <location filename="../../../femsolver/solver_taskpanel.py" line="306"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="301"/>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="305"/>
+      <source>Run</source>
+      <translation type="unfinished">Run</translation>
+    </message>
+    <message>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="303"/>
+      <location filename="../../../femsolver/solver_taskpanel.py" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Re-write</source>
       <translation>Athscríobh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="308"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Re-run</source>
       <translation>Athrith</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femsolver/solver_taskpanel.py" line="310"/>
+=======
+      <location filename="../../../femsolver/solver_taskpanel.py" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Abort</source>
       <translation>Toirmisc</translation>
     </message>
@@ -6424,42 +8161,74 @@ normal vector of the face is used as direction</source>
   <context>
     <name>GeometryElementsSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="299"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add</source>
       <translation>Cuir leis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="300"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Bain</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="304"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="302"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select geometry of type: {}{}{}</source>
       <translation>Roghnaigh geoiméadracht an chineáil: {}{}{}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="333"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Click and select geometric elements to add them to the list.{}The following geometry elements can be selected: {}{}{}</source>
       <translation>Cliceáil agus roghnaigh eilimintí geoiméadracha chun iad a chur leis an liosta.{}Is féidir na heilimintí geoiméadracha seo a leanas a roghnú: {}{}{}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="336"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="334"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>{}If no geometry is added to the list, all remaining ones are used.</source>
       <translation>{}Mura gcuirtear aon gheoiméadracht leis an liosta, úsáidtear na cinn atá fágtha go léir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="312"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection mode</source>
       <translation>Mód roghnúcháin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="297"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Geometry Reference Selector</source>
       <translation>Roghnóir Tagartha Geoiméadrachta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/selection_widgets.py" line="314"/>
+=======
+      <location filename="../../../femguiutils/selection_widgets.py" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solid</source>
       <translation>Soladach</translation>
     </message>
@@ -6467,26 +8236,63 @@ normal vector of the face is used as direction</source>
   <context>
     <name>FEM</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="335"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="318"/>
+      <source>Displacement Magnitude</source>
+      <translation>Méid Díláithrithe</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="327"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displacement X</source>
       <translation>Díláithriú X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="343"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="335"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displacement Y</source>
       <translation>Díláithriú Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="351"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displacement Z</source>
       <translation>Díláithriú Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="398"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="354"/>
+      <source>von Mises Stress</source>
+      <translation>von Mises Stress</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="366"/>
+      <source>Max Shear Stress</source>
+      <translation>Strus Ciorrtha Uasta</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="378"/>
+      <source>Max Principal Stress</source>
+      <translation>Strus Príomhoide Uasta</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="390"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Temperature</source>
       <translation>Teocht</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="326"/>
       <source>Displacement magnitude</source>
       <translation>Méid díláithrithe</translation>
@@ -6528,34 +8334,78 @@ normal vector of the face is used as direction</source>
     </message>
     <message>
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="466"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="402"/>
+      <source>Mass Flow Rate</source>
+      <translation>Ráta Sreafa Mais</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="414"/>
+      <source>Network Pressure</source>
+      <translation>Brú Líonra</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="426"/>
+      <source>Min Principal Stress</source>
+      <translation>Strus Íosta Príomhoide</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="438"/>
+      <source>Equivalent Plastic Strain</source>
+      <translation>Strain Phlaisteach Choibhéiseach</translation>
+    </message>
+    <message>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Information</source>
       <translation>Eolas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="470"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="462"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No histogram available.
 Please select a result type first.</source>
       <translation>Níl aon histagram ar fáil.
 Roghnaigh cineál toraidh ar dtús le do thoil.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="617"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="610"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Histogram of {}</source>
       <translation>Histogram de {}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="618"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="611"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Nodes</source>
       <translation>Nóid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="769"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result mesh is empty</source>
       <translation>Tá an mogalra torthaí folamh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="783"/>
       <location filename="../../../femtaskpanels/task_result_mechanical.py" line="792"/>
+=======
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="754"/>
+      <location filename="../../../femtaskpanels/task_result_mechanical.py" line="763"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No result object</source>
       <translation>Gan aon réad torthaí</translation>
     </message>
@@ -6659,12 +8509,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
       <translation>Cuir sonraí leis ó</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/post_visualization.py" line="108"/>
+=======
+      <location filename="../../../femguiutils/post_visualization.py" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Data Visualizations</source>
       <translation>Amharcléirithe Sonraí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femguiutils/post_visualization.py" line="111"/>
+=======
+      <location filename="../../../femguiutils/post_visualization.py" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Different visualizations to show post processing data in</source>
       <translation>Amharcléirithe éagsúla chun sonraí iarphróiseála a thaispeáint i</translation>
     </message>
@@ -6735,14 +8593,24 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
       <translation>Cuir in Eagar {}</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_post_lineplot.py" line="56"/>
       <location filename="../../../femtaskpanels/task_post_histogram.py" line="56"/>
+=======
+      <location filename="../../../femtaskpanels/task_post_histogram.py" line="56"/>
+      <location filename="../../../femtaskpanels/task_post_lineplot.py" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Plot</source>
       <translation>Taispeáin Plota</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtaskpanels/task_post_lineplot.py" line="59"/>
       <location filename="../../../femtaskpanels/task_post_histogram.py" line="59"/>
+=======
+      <location filename="../../../femtaskpanels/task_post_histogram.py" line="59"/>
+      <location filename="../../../femtaskpanels/task_post_lineplot.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Data</source>
       <translation>Taispeáin Sonraí</translation>
     </message>
@@ -6777,8 +8645,13 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
       <translation>Sonraí Tábla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="283"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="267"/>
+=======
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="267"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The name used in the plots legend</source>
       <translation>An t-ainm a úsáidtear i finscéal na bplotaí</translation>
     </message>
@@ -6805,8 +8678,13 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
       <translation>Leithead an bharra, idir 0 agus 1 (1 gan bearnaí)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="297"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="311"/>
+=======
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="311"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The style the line is drawn in</source>
       <translation>An stíl ina dtarraingítear an líne</translation>
     </message>
@@ -6831,28 +8709,50 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
       <translation>Líon na mboscaí ina roinntear na sonraí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="421"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="437"/>
+=======
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="437"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The histogram plot title</source>
       <translation>Teideal phlota an histeagram</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="428"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="444"/>
+=======
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="444"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="428"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The label shown for the histogram X axis</source>
       <translation>An lipéad a thaispeántar don ais X ar an histeagram</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="435"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="451"/>
+=======
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="451"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The label shown for the histogram Y axis</source>
       <translation>An lipéad a thaispeántar don ais Y ar an histeagram</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="442"/>
       <location filename="../../../femviewprovider/view_post_lineplot.py" line="449"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="458"/>
       <location filename="../../../femviewprovider/view_post_histogram.py" line="465"/>
+=======
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="458"/>
+      <location filename="../../../femviewprovider/view_post_histogram.py" line="465"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="442"/>
+      <location filename="../../../femviewprovider/view_post_lineplot.py" line="449"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Determines if the legend is plotted</source>
       <translation>Cinneann sé an bhfuil an finscéal plotaithe</translation>
     </message>
@@ -6894,7 +8794,11 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     <message>
       <location filename="../../../femviewprovider/view_post_table.py" line="209"/>
       <source>default</source>
+<<<<<<< HEAD
       <translation>réamhshocraithe</translation>
+=======
+      <translation type="unfinished">default</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6974,55 +8878,99 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>CmdFemPostContoursFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2555"/>
+=======
+      <location filename="../../Command.cpp" line="2540"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2556"/>
+=======
+      <location filename="../../Command.cpp" line="2541"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contours Filter</source>
       <translation>Scagaire Comhrianta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2557"/>
       <source>Defines a contours filter that displays iso contours</source>
       <translation>Sainmhíníonn sé scagaire comhrianta a thaispeánann comhrianta iso</translation>
+=======
+      <location filename="../../Command.cpp" line="2542"/>
+      <source>Define/create a contours filter which displays iso contours</source>
+      <translation>Sainmhínigh/cruthaigh scagaire comhrianta a thaispeánann comhrianta iso</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>BoxWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../BoxWidget.ui" line="32"/>
       <source>Center</source>
       <translation>Lár</translation>
     </message>
     <message>
       <location filename="../../BoxWidget.ui" line="44"/>
+=======
+      <location filename="../../BoxWidget.ui" line="20"/>
+      <source>Center</source>
+      <translation type="unfinished">Center</translation>
+    </message>
+    <message>
+      <location filename="../../BoxWidget.ui" line="32"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../BoxWidget.ui" line="73"/>
+=======
+      <location filename="../../BoxWidget.ui" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../BoxWidget.ui" line="96"/>
+=======
+      <location filename="../../BoxWidget.ui" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../BoxWidget.ui" line="136"/>
+=======
+      <location filename="../../BoxWidget.ui" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Length</source>
       <translation>Fad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../BoxWidget.ui" line="165"/>
       <source>Width</source>
       <translation>Leithead</translation>
     </message>
     <message>
       <location filename="../../BoxWidget.ui" line="194"/>
+=======
+      <location filename="../../BoxWidget.ui" line="153"/>
+      <source>Width</source>
+      <translation type="unfinished">Width</translation>
+    </message>
+    <message>
+      <location filename="../../BoxWidget.ui" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height</source>
       <translation>Airde</translation>
     </message>
@@ -7030,6 +8978,7 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>CylinderWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CylinderWidget.ui" line="32"/>
       <source>Center</source>
       <translation>Lár</translation>
@@ -7037,28 +8986,55 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     <message>
       <location filename="../../CylinderWidget.ui" line="38"/>
       <location filename="../../CylinderWidget.ui" line="122"/>
+=======
+      <location filename="../../CylinderWidget.ui" line="20"/>
+      <source>Center</source>
+      <translation type="unfinished">Center</translation>
+    </message>
+    <message>
+      <location filename="../../CylinderWidget.ui" line="26"/>
+      <location filename="../../CylinderWidget.ui" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CylinderWidget.ui" line="61"/>
       <location filename="../../CylinderWidget.ui" line="145"/>
+=======
+      <location filename="../../CylinderWidget.ui" line="49"/>
+      <location filename="../../CylinderWidget.ui" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CylinderWidget.ui" line="84"/>
       <location filename="../../CylinderWidget.ui" line="168"/>
+=======
+      <location filename="../../CylinderWidget.ui" line="72"/>
+      <location filename="../../CylinderWidget.ui" line="156"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CylinderWidget.ui" line="116"/>
+=======
+      <location filename="../../CylinderWidget.ui" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axis</source>
       <translation>Ais</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CylinderWidget.ui" line="208"/>
+=======
+      <location filename="../../CylinderWidget.ui" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius</source>
       <translation>Ga</translation>
     </message>
@@ -7084,12 +9060,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintBodyHeatSource</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="208"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Body Heat Source</source>
       <translation>Foinse Teasa Coirp</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="211"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a body heat source</source>
       <translation>Cruthaíonn sé foinse teasa coirp</translation>
     </message>
@@ -7097,12 +9081,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintCentrif</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="221"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Centrifugal Load</source>
       <translation>Ualach Lártheifeacha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="222"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a centrifugal load</source>
       <translation>Cruthaíonn ualach lártheifeacha</translation>
     </message>
@@ -7110,25 +9102,56 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintCurrentDensity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="235"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current Density Boundary Condition</source>
       <translation>Coinníoll Teorann Dlúis Reatha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="239"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a current density boundary condition</source>
       <translation>Cruthaíonn coinníoll teorann dlúis reatha</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>FEM_ConstraintFlowVelocity</name>
     <message>
       <location filename="../../../femcommands/commands.py" line="284"/>
+=======
+    <name>FEM_ConstraintElectrostaticPotential</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="258"/>
+      <source>Electrostatic Potential Boundary Condition</source>
+      <translation>Coinníoll Teorann Poitéinsil Leictreastatach</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="262"/>
+      <source>Creates an electrostatic potential boundary condition</source>
+      <translation>Cruthaíonn coinníoll teorann poitéinsil leictreastatach</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_ConstraintFlowVelocity</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flow Velocity Boundary Condition</source>
       <translation>Coinníoll Teorann Luas Sreafa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="287"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a flow velocity boundary condition</source>
       <translation>Cruthaíonn coinníoll teorann luas sreafa</translation>
     </message>
@@ -7136,12 +9159,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintInitialPressure</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="315"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="305"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initial Pressure Condition</source>
       <translation>Coinníoll Brú Tosaigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="318"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="308"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an initial pressure condition</source>
       <translation>Cruthaíonn sé coinníoll brú tosaigh</translation>
     </message>
@@ -7149,12 +9180,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintMagnetization</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="330"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="320"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Magnetization Boundary Condition</source>
       <translation>Coinníoll Teorann Maighnéadaithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="333"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a magnetization boundary condition</source>
       <translation>Cruthaíonn coinníoll teorann maighnéadaithe</translation>
     </message>
@@ -7162,12 +9201,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintSectionPrint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="343"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Section Print Feature</source>
       <translation>Gné Priontála Roinne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="346"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="336"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a section print feature</source>
       <translation>Cruthaíonn gné priontála rannóige</translation>
     </message>
@@ -7175,12 +9222,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintSelfWeight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="356"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="346"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gravity Load</source>
       <translation>Ualach Domhantarraingthe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="357"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="347"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a gravity load</source>
       <translation>Cruthaíonn ualach domhantarraingthe</translation>
     </message>
@@ -7188,12 +9243,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_ConstraintTie</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="367"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="357"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tie Constraint</source>
       <translation>Srian Ceangail</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="368"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a tie constraint</source>
       <translation>Cruthaíonn srian comhionannais</translation>
     </message>
@@ -7201,12 +9264,20 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
   <context>
     <name>FEM_MeshRegion</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="897"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="899"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh Refinement</source>
       <translation>Mionchoigeartú Mogaill</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="898"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="900"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM mesh refinement</source>
       <translation>Cruthaíonn sé mionchoigeartú mogalra FEM</translation>
     </message>
@@ -7216,7 +9287,11 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     <message>
       <location filename="../../TaskFemConstraintRigidBody.ui" line="14"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.ui" line="20"/>
@@ -7294,7 +9369,11 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     <message>
       <location filename="../../TaskFemConstraintRigidBody.ui" line="442"/>
       <source>Rotation</source>
+<<<<<<< HEAD
       <translation>Rothlú</translation>
+=======
+      <translation type="unfinished">Rotation</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.ui" line="499"/>
@@ -7339,19 +9418,33 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="302"/>
+<<<<<<< HEAD
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="384"/>
       <source>Nothing selected!</source>
       <translation>Níl aon rud roghnaithe!</translation>
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="302"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="311"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="319"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="361"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="384"/>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="394"/>
+<<<<<<< HEAD
       <source>Selection Error</source>
       <translation>Earráid Roghnúcháin</translation>
+=======
+      <source>Selection error</source>
+      <translation>Earráid roghnúcháin</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFemConstraintRigidBody.cpp" line="302"/>
+      <location filename="../../TaskFemConstraintRigidBody.cpp" line="384"/>
+      <source>Nothing selected!</source>
+      <translation>Níl aon rud roghnaithe!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFemConstraintRigidBody.cpp" line="311"/>
@@ -7371,11 +9464,26 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     </message>
   </context>
   <context>
+<<<<<<< HEAD
+=======
+    <name>FemGui::TaskDlgFemConstraintRigidBody</name>
+    <message>
+      <location filename="../../TaskFemConstraintRigidBody.cpp" line="809"/>
+      <source>Input error</source>
+      <translation>Earráid ionchuir</translation>
+    </message>
+  </context>
+  <context>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>TaskCreateElementSet</name>
     <message>
       <location filename="../../TaskCreateElementSet.ui" line="20"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskCreateElementSet.ui" line="28"/>
@@ -7400,7 +9508,11 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     <message>
       <location filename="../../TaskCreateElementSet.ui" line="49"/>
       <source>Restore</source>
+<<<<<<< HEAD
       <translation>Athchóirigh</translation>
+=======
+      <translation type="unfinished">Restore</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskCreateElementSet.ui" line="70"/>
@@ -7417,37 +9529,64 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     </message>
     <message>
       <location filename="../../Command.cpp" line="1479"/>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="244"/>
       <location filename="../../TaskCreateElementSet.cpp" line="255"/>
       <location filename="../../TaskCreateElementSet.cpp" line="515"/>
       <location filename="../../TaskCreateElementSet.cpp" line="612"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="241"/>
+      <location filename="../../TaskCreateElementSet.cpp" line="252"/>
+      <location filename="../../TaskCreateElementSet.cpp" line="510"/>
+      <location filename="../../TaskCreateElementSet.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong selection</source>
       <translation>Rogha mícheart</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="245"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot copy ResultMesh to ResultMesh</source>
       <translation>Ní féidir ResultMesh a chóipeáil go ResultMesh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="256"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh must be a ResultMesh</source>
       <translation>Ní mór don mhogalra a bheith ina ResultMogalra</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="613"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Data To Restore
 </source>
       <translation>Gan aon sonraí le hathchóiriú
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="812"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="807"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Erased Elements</source>
       <translation>Eilimintí Scriosta</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCreateElementSet.cpp" line="813"/>
+=======
+      <location filename="../../TaskCreateElementSet.cpp" line="808"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All Elements Erased - no mesh generated.</source>
       <translation>Gach Eilimint Scriosta - níor gineadh aon mhogalra.</translation>
     </message>
@@ -7496,6 +9635,7 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
       <translation>Mogalra FEM le Netgen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="20"/>
       <source>Working directory</source>
       <translation>Eolaire oibre</translation>
@@ -7517,56 +9657,99 @@ Ní bhfuarthas aon mhodúl comhoiriúnach sa chonair reatha Python.</translation
     </message>
     <message>
       <location filename="../ui/MeshNetgen.ui" line="80"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="26"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh Parameters</source>
       <translation>Paraiméadair Mogaill</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="91"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fineness</source>
       <translation>Míne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="101"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="47"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum size</source>
       <translation>Uasmhéid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="136"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Minimum size</source>
       <translation>Íosmhéid</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="171"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Second order</source>
       <translation>An dara hordú</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="178"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Growth rate</source>
       <translation>Ráta fáis</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="201"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Curvature safety</source>
       <translation>Sábháilteacht cuartha</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="218"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="164"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Segments per edge</source>
       <translation>Deighleoga in aghaidh an imeall</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="274"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Time</source>
       <translation>Am</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="300"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Netgen Version</source>
       <translation>Leagan Netgen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/MeshNetgen.ui" line="246"/>
+=======
+      <location filename="../ui/MeshNetgen.ui" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Netgen</source>
       <translation>Netgen</translation>
     </message>
@@ -7630,12 +9813,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_SolverCalculiX</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1193"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1068"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver CalculiX</source>
       <translation>Réiteoir CalculiX</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1198"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1073"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a FEM solver CalculiX</source>
       <translation>Cruthaíonn sé réiteoir FEM CalculiX</translation>
     </message>
@@ -7737,7 +9928,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     <message>
       <location filename="../../TaskPostFrames.ui" line="26"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskPostFrames.ui" line="34"/>
@@ -7783,6 +9978,14 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <translation>Eagar</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../ui/SolverCalculiX.ui" line="56"/>
+      <source>Path to working directory</source>
+      <translation>Cosán chuig an eolaire oibre</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/SolverCalculiX.ui" line="82"/>
       <source>Analysis type</source>
       <translation>Cineál anailíse</translation>
@@ -7798,11 +10001,14 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <translation>Paraiméadair an Réititheora</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/SolverCalculiX.ui" line="56"/>
       <source>Path to working directory. Leave blank to use user preferences</source>
       <translation>Cosán chuig an eolaire oibre. Fág bán chun roghanna úsáideora a úsáid</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ui/SolverCalculiX.ui" line="129"/>
       <source>Solver Version</source>
       <translation>Leagan an Réititheora</translation>
@@ -7830,16 +10036,26 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     <name>TaskPostGlyph</name>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="37"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="37"/>
       <location filename="../ui/TaskPostGlyph.ui" line="22"/>
       <location filename="../ui/TaskPostGlyph.ui" line="38"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="22"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="38"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The form of the glyph</source>
       <translation>Foirm an ghlif</translation>
     </message>
     <message>
       <location filename="../ui/TaskPostGlyph.ui" line="25"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/TaskPostGlyph.ui" line="42"/>
@@ -7874,10 +10090,17 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="81"/>
       <location filename="../ui/TaskPostLineplot.ui" line="97"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="66"/>
       <location filename="../ui/TaskPostHistogram.ui" line="82"/>
       <location filename="../ui/TaskPostGlyph.ui" line="75"/>
       <location filename="../ui/TaskPostGlyph.ui" line="91"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="75"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="91"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="66"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Which vector field is used to orient the glyphs</source>
       <translation>Cén réimse veicteora a úsáidtear chun na glifí a threoshuíomh</translation>
     </message>
@@ -7888,9 +10111,15 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="101"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="86"/>
       <location filename="../ui/TaskPostGlyph.ui" line="95"/>
       <location filename="../ui/TaskPostGlyph.ui" line="148"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="95"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="148"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="86"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Dada</translation>
     </message>
@@ -7912,9 +10141,15 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="155"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="176"/>
       <location filename="../ui/TaskPostGlyph.ui" line="158"/>
       <location filename="../ui/TaskPostGlyph.ui" line="176"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="158"/>
+      <location filename="../ui/TaskPostGlyph.ui" line="176"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A constant multiplier the glyphs are scaled with</source>
       <translation>Iolraitheoir tairiseach a úsáidtear chun na glifí a scálú</translation>
     </message>
@@ -7930,8 +10165,13 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="145"/>
+<<<<<<< HEAD
       <location filename="../ui/TaskPostHistogram.ui" line="166"/>
       <location filename="../ui/TaskPostGlyph.ui" line="226"/>
+=======
+      <location filename="../ui/TaskPostGlyph.ui" line="226"/>
+      <location filename="../ui/TaskPostHistogram.ui" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>If the scale data is a vector this property decides if the glyph is scaled by vector magnitude or by the individual components</source>
       <translation>Más veicteoir atá sna sonraí scála, cinneann an airí seo an ndéantar an gliff a scálaiú de réir mhéid an veicteora nó de réir na gcomhpháirteanna aonair</translation>
     </message>
@@ -8039,7 +10279,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <location filename="../ui/TaskPostLineplot.ui" line="117"/>
       <location filename="../ui/TaskPostHistogram.ui" line="138"/>
       <source>Labels</source>
+<<<<<<< HEAD
       <translation>Lipéid</translation>
+=======
+      <translation type="unfinished">Labels</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/TaskPostLineplot.ui" line="135"/>
@@ -8056,7 +10300,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <location filename="../ui/TaskPostLineplot.ui" line="158"/>
       <location filename="../ui/TaskPostHistogram.ui" line="179"/>
       <source>Title</source>
+<<<<<<< HEAD
       <translation>Teideal</translation>
+=======
+      <translation type="unfinished">Title</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/TaskPostHistogram.ui" line="192"/>
@@ -8092,17 +10340,29 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>CmdFemPostCalculatorFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2592"/>
+=======
+      <location filename="../../Command.cpp" line="2577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2593"/>
+=======
+      <location filename="../../Command.cpp" line="2578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculator Filter</source>
       <translation>Scagaire Áireamháin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2594"/>
+=======
+      <location filename="../../Command.cpp" line="2579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new field from current data</source>
       <translation>Cruthaíonn réimse nua ó na sonraí reatha</translation>
     </message>
@@ -8110,17 +10370,29 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>CmdFemPostBranchFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3034"/>
+=======
+      <location filename="../../Command.cpp" line="3019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fem</source>
       <translation>Fem</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3035"/>
+=======
+      <location filename="../../Command.cpp" line="3020"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pipeline Branch</source>
       <translation>Brainse Píblíne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="3036"/>
+=======
+      <location filename="../../Command.cpp" line="3021"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Branches the pipeline into a new path</source>
       <translation>Brainseálann sé an phíblíne isteach i gcosán nua</translation>
     </message>
@@ -8128,7 +10400,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostFrames</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="563"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="551"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result Frames</source>
       <translation>Frámaí Torthaí</translation>
     </message>
@@ -8136,7 +10412,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostCalculator</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="2257"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="2230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Calculator options</source>
       <translation>Roghanna áireamháin</translation>
     </message>
@@ -8157,12 +10437,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ConstantVacuumPermittivity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="192"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="182"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Constant Vacuum Permittivity</source>
       <translation>Ceadúlacht Fholúis Tairiseach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="196"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a constant vacuum permittivity to overwrite standard value</source>
       <translation>Cruthaíonn ceadúlacht folúis tairiseach chun luach caighdeánach a athscríobh</translation>
     </message>
@@ -8170,12 +10458,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ConstraintElectricChargeDensity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="252"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electric Charge Density</source>
       <translation>Dlús Muirir Leictrigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="255"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an electric charge density</source>
       <translation>Cruthaíonn dlús luchta leictrigh</translation>
     </message>
@@ -8183,12 +10479,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ConstraintInitialFlowVelocity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="299"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initial Flow Velocity Condition</source>
       <translation>Coinníoll Luas Sreafa Tosaigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="303"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an initial flow velocity condition</source>
       <translation>Cruthaíonn coinníoll luas sreafa tosaigh</translation>
     </message>
@@ -8196,12 +10500,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ElementFluid1D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="378"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="368"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fluid Section for 1D Flow</source>
       <translation>Rannóg Sreabhán le haghaidh Sreabhadh 1D</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="381"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a fluid section for 1D flow</source>
       <translation>Cruthaíonn sé cuid sreabhach le haghaidh sreabhadh 1T</translation>
     </message>
@@ -8209,12 +10521,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ElementGeometry1D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="391"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="381"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beam Cross Section</source>
       <translation>Trasghearradh Bhíoma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="392"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="382"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a beam cross section</source>
       <translation>Cruthaíonn trasghearradh bhíoma</translation>
     </message>
@@ -8222,12 +10542,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ElementGeometry2D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="402"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shell Plate Thickness</source>
       <translation>Tiús Pláta Sliogáin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="405"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="395"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a shell plate thickness</source>
       <translation>Cruthaíonn tiús pláta sliogáin</translation>
     </message>
@@ -8235,12 +10563,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ElementRotation1D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="415"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Beam Rotation</source>
       <translation>Rothlú Bhíoma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="416"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a beam rotation</source>
       <translation>Cruthaíonn rothlú bhíoma</translation>
     </message>
@@ -8248,12 +10584,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationDeformation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="426"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="416"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deformation Equation</source>
       <translation>Cothromóid Dífhoirmithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="430"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for deformation (nonlinear elasticity)</source>
       <translation>Cruthaíonn cothromóid le haghaidh dífhoirmithe (leaisteachas neamhlíneach)</translation>
     </message>
@@ -8261,12 +10605,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationElasticity</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="440"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="430"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Elasticity Equation</source>
       <translation>Cothromóid Leaisteachais</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="443"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for elasticity (stress)</source>
       <translation>Cruthaíonn cothromóid le haghaidh leaisteachas (strus)</translation>
     </message>
@@ -8274,12 +10626,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationElectricforce</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="453"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electricforce Equation</source>
       <translation>Cothromóid Fórsa Leictrigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="456"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for electric forces</source>
       <translation>Cruthaíonn cothromóid do fhórsaí leictreacha</translation>
     </message>
@@ -8287,12 +10647,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationElectrostatic</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="466"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Electrostatic Equation</source>
       <translation>Cothromóid Leictreastatach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="469"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for electrostatic</source>
       <translation>Cruthaíonn cothromóid le haghaidh leictreastatach</translation>
     </message>
@@ -8300,12 +10668,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationFlow</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="479"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="469"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flow Equation</source>
       <translation>Cothromóid Sreafa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="480"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="470"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for flow</source>
       <translation>Cruthaíonn cothromóid le haghaidh sreabhadh</translation>
     </message>
@@ -8313,12 +10689,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationFlux</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="490"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="480"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flux Equation</source>
       <translation>Cothromóid Flux</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="491"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="481"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for flux</source>
       <translation>Cruthaíonn cothromóid le haghaidh flosc</translation>
     </message>
@@ -8326,12 +10710,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationHeat</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="501"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="491"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Heat Equation</source>
       <translation>Cothromóid Teasa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="502"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="492"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for heat</source>
       <translation>Cruthaíonn cothromóid le haghaidh teasa</translation>
     </message>
@@ -8339,12 +10731,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationMagnetodynamic</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="514"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Magnetodynamic Equation</source>
       <translation>Cothromóid Maighnéaddinimiciúil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="518"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="508"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for magnetodynamic forces</source>
       <translation>Cruthaíonn cothromóid do fhórsaí maighnéaddinimiciúla</translation>
     </message>
@@ -8352,12 +10752,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationMagnetodynamic2D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="530"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="520"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Magnetodynamic 2D Equation</source>
       <translation>Cothromóid Maighnéaddinimiciúil 2T</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="534"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for 2D magnetodynamic forces</source>
       <translation>Cruthaíonn cothromóid do fhórsaí maighnéaddinimiciúla 2T</translation>
     </message>
@@ -8365,12 +10773,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_EquationStaticCurrent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="544"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="534"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Static Current Equation</source>
       <translation>Cothromóid Reatha Statach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="547"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="537"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an equation for static current</source>
       <translation>Cruthaíonn cothromóid le haghaidh sruth statach</translation>
     </message>
@@ -8378,12 +10794,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_MaterialFluid</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="589"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fluid Material</source>
       <translation>Ábhar Sreabhach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="590"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a fluid material</source>
       <translation>Cruthaíonn sé ábhar sreabhach</translation>
     </message>
@@ -8391,38 +10815,79 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_MaterialMechanicalNonlinear</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="602"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Non-Linear Mechanical Material</source>
       <translation>Ábhar Meicniúil Neamhlíneach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="606"/>
       <source>Add non-linear mechanical properties to material</source>
       <translation>Cuir airíonna meicniúla neamhlíneacha le hábhar</translation>
+=======
+      <location filename="../../../femcommands/commands.py" line="595"/>
+      <source>Creates a non-linear mechanical material</source>
+      <translation>Cruthaíonn sé ábhar meicniúil neamhlíneach</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>FEM_MaterialSolid</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="647"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solid Material</source>
       <translation>Ábhar Soladach</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="649"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a solid material</source>
       <translation>Cruthaíonn sé ábhar soladach</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>FEM_MeshClear</name>
     <message>
       <location filename="../../../femcommands/commands.py" line="715"/>
+=======
+    <name>FEM_MeshBoundaryLayer</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="727"/>
+      <source>Mesh Boundary Layer</source>
+      <translation>Sraith Teorann Mogaill</translation>
+    </message>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="730"/>
+      <source>Creates a mesh boundary layer</source>
+      <translation>Cruthaíonn ciseal teorann mogalra</translation>
+    </message>
+  </context>
+  <context>
+    <name>FEM_MeshClear</name>
+    <message>
+      <location filename="../../../femcommands/commands.py" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear FEM Mesh</source>
       <translation>Mogalra FEM Glan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="716"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clears the mesh of a FEM mesh object</source>
       <translation>Glanann sé mogalra réada mogalra FEM</translation>
     </message>
@@ -8430,12 +10895,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_MeshGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="832"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="834"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mesh Group</source>
       <translation>Grúpa Mogaill</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="833"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="835"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a mesh group</source>
       <translation>Cruthaíonn grúpa mogalra</translation>
     </message>
@@ -8443,12 +10916,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ResultShow</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1044"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="910"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Result</source>
       <translation>Taispeáin an Toradh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1048"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows and visualizes the selected result data</source>
       <translation>Taispeánann agus léirshamhlaíonn sé na sonraí toraidh roghnaithe</translation>
     </message>
@@ -8456,12 +10937,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_ResultsPurge</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1060"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="926"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Purge Results</source>
       <translation>Torthaí Glantacháin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1064"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Purges all results from the active analysis</source>
       <translation>Glanann sé na torthaí go léir ón anailís ghníomhach</translation>
     </message>
@@ -8469,12 +10958,20 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FEM_PostFilterGlyph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1344"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Glyph Filter</source>
       <translation>Scagaire Glif</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femcommands/commands.py" line="1349"/>
+=======
+      <location filename="../../../femcommands/commands.py" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a post-processing filter that adds glyphs to the mesh vertices for vertex data visualization</source>
       <translation>Cuireann sé scagaire iarphróiseála leis a chuireann glifí leis na buaicphointí mogaill le haghaidh léirshamhlú sonraí buaicphointí</translation>
     </message>
@@ -8485,7 +10982,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <location filename="../../TaskPostExtraction.ui" line="14"/>
       <location filename="../ui/TaskPostExtraction.ui" line="14"/>
       <source>Form</source>
+<<<<<<< HEAD
       <translation>Foirm</translation>
+=======
+      <translation type="unfinished">Form</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskPostExtraction.ui" line="22"/>
@@ -8519,6 +11020,7 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     <name>PostHistogramEdit</name>
     <message>
       <location filename="../ui/PostTableFieldViewEdit.ui" line="14"/>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="14"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="14"/>
       <source>Form</source>
@@ -8527,33 +11029,64 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     <message>
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="40"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="75"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="14"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="14"/>
+      <source>Form</source>
+      <translation type="unfinished">Form</translation>
+    </message>
+    <message>
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="75"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Outline draw style (None does not draw outlines)</source>
       <translation>Stíl tarraingthe imlíne (Ní tharraingíonn aon cheann imlínte)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="44"/>
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="81"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="51"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="79"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="51"/>
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="79"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="44"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Dada</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="58"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="129"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="129"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Width of all lines (outline and hatch)</source>
       <translation>Leithead na línte uile (imlíne agus haisteáil)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="77"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="47"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="47"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hatch pattern</source>
       <translation>Patrún hata</translation>
     </message>
     <message>
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="89"/>
       <source>Lines</source>
+<<<<<<< HEAD
       <translation>Línte</translation>
+=======
+      <translation type="unfinished">Lines</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="102"/>
@@ -8566,8 +11099,13 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <translation>Barraí</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="122"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="62"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="62"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Legend</source>
       <translation>Finscéal</translation>
     </message>
@@ -8577,15 +11115,24 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <translation>Dath na línte uile (imlíne barra agus haistí)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ui/PostHistogramFieldViewEdit.ui" line="148"/>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="100"/>
+=======
+      <location filename="../ui/PostLineplotFieldViewEdit.ui" line="100"/>
+      <location filename="../ui/PostHistogramFieldViewEdit.ui" line="148"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color of the bars in histogram</source>
       <translation>Dath na mbarraí san histogram</translation>
     </message>
     <message>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="34"/>
       <source>Marker</source>
+<<<<<<< HEAD
       <translation>Marcóir</translation>
+=======
+      <translation type="unfinished">Marker</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/PostLineplotFieldViewEdit.ui" line="87"/>
@@ -8601,7 +11148,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostDisplay</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="462"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Result Display Options</source>
       <translation>Roghanna Taispeána Torthaí</translation>
     </message>
@@ -8609,7 +11160,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostBranch</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="632"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Branch Behaviour</source>
       <translation>Iompar na gCraobhacha</translation>
     </message>
@@ -8617,7 +11172,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostClip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1504"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1477"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clip Region, Choose Implicit Function</source>
       <translation>Gearrthóg Réigiún, Roghnaigh Feidhm Intuigthe</translation>
     </message>
@@ -8625,7 +11184,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostContours</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1655"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contours Filter Options</source>
       <translation>Roghanna Scagaire Comhrianta</translation>
     </message>
@@ -8633,7 +11196,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostCut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1819"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Function Cut, Choose Implicit Function</source>
       <translation>Gearr Feidhme, Roghnaigh Feidhm Intuigthe</translation>
     </message>
@@ -8641,7 +11208,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostScalarClip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="1952"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="1925"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scalar Clip Options</source>
       <translation>Roghanna Gearrthóg Scalar</translation>
     </message>
@@ -8649,7 +11220,11 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
   <context>
     <name>FemGui::TaskPostWarpVector</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskPostBoxes.cpp" line="2076"/>
+=======
+      <location filename="../../TaskPostBoxes.cpp" line="2049"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Warp Options</source>
       <translation>Roghanna Dlúbtha</translation>
     </message>
@@ -8695,6 +11270,7 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>FileFormat</name>
     <message>
       <location filename="../../../Init.py" line="62"/>
@@ -8757,21 +11333,38 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     <name>FemToolsCcx</name>
     <message>
       <location filename="../../../femtools/ccxtools.py" line="421"/>
+=======
+    <name>FemToolsCcx</name>
+    <message>
+      <location filename="../../../femtools/ccxtools.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No or wrong CalculiX binary ccx</source>
       <translation>Gan aon ccx dénártha CalculiX nó ccx mícheart</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtools/ccxtools.py" line="455"/>
+=======
+      <location filename="../../../femtools/ccxtools.py" line="439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM: wrong ccx binary</source>
       <translation>FEM: dénártha ccx mícheart</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtools/ccxtools.py" line="468"/>
+=======
+      <location filename="../../../femtools/ccxtools.py" line="452"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM: CalculiX binary ccx '{}' not found. Please set the CalculiX binary ccx path in FEM preferences tab CalculiX.</source>
       <translation>FEM: Níor aimsíodh an comhad dénártha CalculiX ccx '{}'. Socraigh an cosán ccx dénártha CalculiX sa chluaisín roghanna FEM i CalculiX.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../femtools/ccxtools.py" line="480"/>
+=======
+      <location filename="../../../femtools/ccxtools.py" line="464"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FEM: CalculiX ccx '{}' output '{}' doesn't contain expected phrase '{}'. There are some problems when running the ccx binary. Check if ccx runs standalone without FreeCAD.</source>
       <translation>FEM: Níl an frása '{}' a bhíothas ag súil leis in aschur '{}' ó CalculiX ccx '{}'. Tá roinnt fadhbanna ann agus an comhad dénártha ccx á rith. Seiceáil an ritheann ccx go neamhspleách gan FreeCAD.</translation>
     </message>
@@ -8800,8 +11393,13 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
     <message>
       <location filename="../ui/SolverElmer.ui" line="56"/>
+<<<<<<< HEAD
       <source>Path to working directory. Leave blank to use user preferences</source>
       <translation>Cosán chuig an eolaire oibre. Fág bán chun roghanna úsáideora a úsáid</translation>
+=======
+      <source>Path to working directory</source>
+      <translation>Cosán chuig an eolaire oibre</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../ui/SolverElmer.ui" line="74"/>
@@ -8825,6 +11423,7 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>SolverZ88</name>
     <message>
       <location filename="../ui/SolverZ88.ui" line="14"/>
@@ -9043,6 +11642,8 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
     </message>
   </context>
   <context>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     <name>FemGui::DlgSettingsFemInOutVtkImp</name>
     <message>
       <location filename="../../DlgSettingsFemInOutVtkImp.cpp" line="78"/>
@@ -9055,6 +11656,7 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <translation>Is Airde</translation>
     </message>
   </context>
+<<<<<<< HEAD
   <context>
     <name>FemGui::TaskDlgFemConstraintTransform</name>
     <message>
@@ -9151,4 +11753,6 @@ Fág bán chun an comhad inrite Python réamhshocraithe a úsáid</translation>
       <translation>Earráid Ionchuir</translation>
     </message>
   </context>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 </TS>

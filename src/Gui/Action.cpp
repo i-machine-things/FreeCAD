@@ -975,12 +975,20 @@ void RecentFilesAction::setFiles(const QStringList& files)
         QFileInfo fi(files[index]);
         QString fileName {fi.fileName()};
         fileName.replace(QLatin1Char('&'), QStringLiteral("&&"));
+<<<<<<< HEAD
         recentFileActions[index]->setText(QStringLiteral("%1 %2").arg(numberLabel, fileName));
         recentFileActions[index]->setStatusTip(tr("Open file %1").arg(files[index]));
         recentFileActions[index]->setToolTip(files[index]);  // set the full name that we need later
                                                              // for saving
         recentFileActions[index]->setData(QVariant(index));
         recentFileActions[index]->setVisible(true);
+=======
+        recentFiles[index]->setText(QStringLiteral("%1 %2").arg(numberLabel, fileName));
+        recentFiles[index]->setStatusTip(tr("Open file %1").arg(files[index]));
+        recentFiles[index]->setToolTip(files[index]);  // set the full name that we need later for saving
+        recentFiles[index]->setData(QVariant(index));
+        recentFiles[index]->setVisible(true);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     }
 
     // if less file names than actions

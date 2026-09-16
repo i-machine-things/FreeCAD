@@ -120,7 +120,10 @@ std::string Property::getFileName(const char* postfix, const char* prefix) const
 static constexpr auto mapProps = std::to_array<std::tuple<Property::Status, PropertyType>>({
     {App::Property::PropReadOnly,    Prop_ReadOnly},
     {App::Property::PropHidden,      Prop_Hidden},
+<<<<<<< HEAD
     {App::Property::PropInput,       Prop_Input},
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     {App::Property::PropOutput,      Prop_Output},
     {App::Property::PropTransient,   Prop_Transient},
     {App::Property::PropNoRecompute, Prop_NoRecompute},

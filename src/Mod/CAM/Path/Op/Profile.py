@@ -521,11 +521,15 @@ class ObjectProfile(PathAreaOp.ObjectOp):
     def _processEachModel(self, base=None):
         """_processEachModel() ... returns envelope of shapes without sub selection"""
         shapeTups = []
+<<<<<<< HEAD
         if base:
             models = [base]
         else:
             models = self.model
         for base in models:
+=======
+        for base in self.model:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             if not hasattr(base, "Shape"):
                 continue
             if isinstance(base.Shape, Part.Compound):

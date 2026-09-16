@@ -160,27 +160,47 @@ Ní bhaineann sé seo ach amháin má tá Markdown roghnaithe thuas.</translatio
   <context>
     <name>Help</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="74"/>
+=======
+      <location filename="../../Help.py" line="75"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Contents for this page could not be retrieved. Please check settings under menu Edit → Preferences → General → Help</source>
       <translation>Níorbh fhéidir ábhar an leathanaigh seo a aisghabháil. Seiceáil na socruithe faoin roghchlár Eagar → Sainroghanna → Ginearálta → Cabhair le do thoil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="78"/>
+=======
+      <location filename="../../Help.py" line="79"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help files location could not be determined. Please check settings under menu Edit → Preferences → General → Help</source>
       <translation>Níorbh fhéidir suíomh na gcomhad cabhrach a chinneadh. Seiceáil na socruithe faoin roghchlár Eagar → Roghanna → Ginearálta → Cabhair</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="82"/>
+=======
+      <location filename="../../Help.py" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PySide QtWebEngineWidgets module is not available. Help rendering is done with the system browser</source>
       <translation>Níl modúl PySide QtWebEngineWidgets ar fáil. Déantar rindreáil chabhrach leis an mbrabhsálaí córais</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="86"/>
+=======
+      <location filename="../../Help.py" line="87"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There is no Markdown renderer installed on your system, so this help page is rendered as is. Please install the Markdown or Pandoc Python modules to improve the rendering of this page.</source>
       <translation>Níl aon rindreálaí Markdown suiteáilte ar do chóras, mar sin rindreáiltear an leathanach cabhrach seo mar atá. Suiteáil na modúil Markdown nó Pandoc Python le do thoil chun rindreáil an leathanaigh seo a fheabhsú.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="118"/>
+=======
+      <location filename="../../Help.py" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>Cabhair</translation>
     </message>
@@ -188,7 +208,11 @@ Ní bhaineann sé seo ach amháin má tá Markdown roghnaithe thuas.</translatio
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Help.py" line="434"/>
+=======
+      <location filename="../../Help.py" line="435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>General</source>
       <translation>Ginearálta</translation>
     </message>

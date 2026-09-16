@@ -146,7 +146,10 @@ private:
     int calculatePopupHeight(int popupWidth) const;
     void applyHighlightToWidget(QWidget* widget);
     static QString getHighlightStyleForWidget(QWidget* widget);
+<<<<<<< HEAD
     static QString toPlainText(const QString& text);
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     // Search result navigation
     void selectNextSearchResult();

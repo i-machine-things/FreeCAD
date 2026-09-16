@@ -313,6 +313,7 @@ App::DocumentObjectExecReturn* Mirroring::execute()
         // get shape without transform
         auto shape = Feature::getTopoShape(link, ShapeOption::ResolveLink);
 
+<<<<<<< HEAD
         // check for placement property no matter the type hierarchy
         // App::Link does not get its placement via GeoFeature inheritance
         if (auto propPlacement = link->getPropertyByName<App::PropertyPlacement>("Placement")) {
@@ -344,6 +345,44 @@ App::DocumentObjectExecReturn* Mirroring::execute()
             throw Standard_Failure("Cannot mirror empty shape");
         }
 
+=======
+        // manually apply placement via setPlacement() before mirroring
+        if (link->isDerivedFrom(App::GeoFeature::getClassTypeId())) {
+            App::GeoFeature* geo = static_cast<App::GeoFeature*>(link);
+            Base::Placement placement = geo->Placement.getValue();
+
+            if (!placement.isIdentity()) {
+                // Convert Placement to gp_Trsf
+                gp_Trsf trsf;
+                Base::Matrix4D mat = placement.toMatrix();
+                trsf.SetValues(
+                    mat[0][0],
+                    mat[0][1],
+                    mat[0][2],
+                    mat[0][3],
+                    mat[1][0],
+                    mat[1][1],
+                    mat[1][2],
+                    mat[1][3],
+                    mat[2][0],
+                    mat[2][1],
+                    mat[2][2],
+                    mat[2][3]
+                );
+
+                // actually transform the geometry (copy=true to create new shape)
+                BRepBuilderAPI_Transform mkTrf(shape.getShape(), trsf, Standard_True);
+                shape = TopoShape(mkTrf.Shape());
+            }
+        }
+
+        gp_Ax2 ax2(gp_Pnt(base.x, base.y, base.z), gp_Dir(norm.x, norm.y, norm.z));
+
+        if (shape.isNull()) {
+            Standard_Failure::Raise("Cannot mirror empty shape");
+        }
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         auto mirrored = TopoShape(0).makeElementMirror(shape, ax2);
 
         this->Shape.setValue(mirrored);

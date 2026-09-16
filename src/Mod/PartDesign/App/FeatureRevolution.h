@@ -31,7 +31,17 @@
 namespace PartDesign
 {
 
+<<<<<<< HEAD
 class PartDesignExport Revolution: public Revolved
+=======
+enum FuseOrder : std::uint8_t
+{
+    BaseFirst,
+    FeatureFirst,
+};
+
+class PartDesignExport Revolution: public ProfileBased
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 {
     PROPERTY_HEADER_WITH_OVERRIDE(PartDesign::Revolution);
 
@@ -41,6 +51,12 @@ public:
     /**
      * Compatibility property that is required to preserve behavior from 1.0,
      * that while incorrect may have an impact over user files.
+     */
+    App::PropertyEnumeration FuseOrder;
+
+    /**
+     * Compatibility property that is required to preserve behavior from 1.0, that while incorrect
+     * may have an impact over user files.
      */
     App::PropertyEnumeration FuseOrder;
 
@@ -55,7 +71,16 @@ public:
     }
     //@}
 
+<<<<<<< HEAD
     enum FuseOrder : std::uint8_t
+=======
+    void Restore(Base::XMLReader& reader) override;
+
+    /// suggests a value for Reversed flag so that material is always added to the support
+    bool suggestReversed();
+
+    enum class RevolMethod
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     {
         BaseFirst,
         FeatureFirst

@@ -4,30 +4,49 @@
   <context>
     <name>App::Property</name>
     <message>
-      <location filename="../propertyeditor/PropertyItem.cpp" line="562"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="560"/>
       <source>&lt;empty&gt;</source>
       <translation>&lt;boş&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="2445"/>
       <location filename="../propertyeditor/PropertyItem.cpp" line="2734"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2421"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>Açı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="2449"/>
       <location filename="../propertyeditor/PropertyItem.cpp" line="2738"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2425"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Axis</source>
       <translation>Eksen</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="2743"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Position</source>
       <translation>Konum</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="3015"/>
       <location filename="../Dialogs/DlgAddProperty.cpp" line="376"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="376"/>
+      <location filename="../propertyeditor/PropertyItem.cpp" line="2989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enum</source>
       <translation>Numaralandırma</translation>
     </message>
@@ -46,79 +65,135 @@
     </message>
     <message>
       <location filename="../CommandTest.cpp" line="706"/>
+<<<<<<< HEAD
       <source>Runs test cases to verify console messages</source>
       <translation type="unfinished">Runs test cases to verify console messages</translation>
+=======
+      <source>Run test cases to verify console messages</source>
+      <translation>Konsol iletilerini doğrulamak için test senaryolarını çalıştır</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderDocumentObject.cpp" line="336"/>
+=======
+      <location filename="../ViewProviderDocumentObject.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="869"/>
+=======
+      <location filename="../Application.cpp" line="846"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import</source>
       <translation>İçe aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1518"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2310"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Paste expressions</source>
       <translation>Formülleri yapıştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="152"/>
+=======
+      <location filename="../CommandLink.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make link group</source>
       <translation>Bağlantı grubu oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="286"/>
+=======
+      <location filename="../CommandLink.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make link</source>
       <translation>Bağlantı oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="375"/>
+=======
+      <location filename="../CommandLink.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make sub-link</source>
       <translation>Alt bağlantı oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="706"/>
+=======
+      <location filename="../CommandLink.cpp" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import links</source>
       <translation>Bağlantıları içe aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="754"/>
+=======
+      <location filename="../CommandLink.cpp" line="736"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import all links</source>
       <translation>Tüm bağlantıları içe aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="798"/>
+=======
+      <location filename="../CommandStd.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert text document</source>
       <translation>Metin belgesi ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="1030"/>
       <source>Create Annotation Label</source>
       <translation type="unfinished">Create Annotation Label</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../CommandStructure.cpp" line="64"/>
       <source>Add a part</source>
       <translation>Bir parça ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="146"/>
+=======
+      <location filename="../CommandStructure.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add a group</source>
       <translation>Bir grup ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="215"/>
+=======
+      <location filename="../CommandStructure.cpp" line="205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add a variable set</source>
       <translation>Bir Değişken Kümesi ekle</translation>
     </message>
@@ -133,26 +208,45 @@
       <translation>Yerleşim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderAnnotation.cpp" line="511"/>
       <location filename="../Transform.cpp" line="108"/>
       <location filename="../TaskTransform.cpp" line="152"/>
       <location filename="../TaskTransform.cpp" line="1069"/>
+=======
+      <location filename="../Transform.cpp" line="108"/>
+      <location filename="../TaskTransform.cpp" line="128"/>
+      <location filename="../TaskTransform.cpp" line="808"/>
+      <location filename="../ViewProviderAnnotation.cpp" line="423"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transform</source>
       <translation>Dönüştür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3193"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle array elements</source>
       <translation>Dizi öğelerini aç/kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskView/TaskImage.cpp" line="342"/>
+=======
+      <location filename="../TaskView/TaskImage.cpp" line="260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../TaskView/TaskOrientation.cpp" line="66"/>
       <source>Edit image</source>
       <translation>Görüntüyü düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="157"/>
+=======
+      <location filename="../CommandFeat.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Set Random Color</source>
       <translation>Rastgele Renk Ata</translation>
     </message>
@@ -162,26 +256,39 @@
       <translation>Dondurmayı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="259"/>
       <source>Toggle suppress</source>
       <translation type="unfinished">Toggle suppress</translation>
     </message>
     <message>
       <location filename="../CommandFeat.cpp" line="426"/>
+=======
+      <location filename="../CommandFeat.cpp" line="337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip recomputes</source>
       <translation>Yeniden hesaplamayı atla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="985"/>
+=======
+      <location filename="../CommandView.cpp" line="921"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Visibility</source>
       <translation>Görünürlüğü Değiştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1020"/>
+=======
+      <location filename="../CommandView.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Transparency</source>
       <translation>Saydamlığı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1139"/>
       <source>Toggle Selectability</source>
       <translation>Seçilebilirliği Aç/Kapat</translation>
@@ -190,82 +297,147 @@
       <location filename="../TaskElementColors.cpp" line="202"/>
       <source>Set colors</source>
       <translation>Renkleri ayarla</translation>
+=======
+      <location filename="../CommandView.cpp" line="1075"/>
+      <source>Toggle Selectability</source>
+      <translation>Seçilebilirliği Aç/Kapat</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CommandGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="573"/>
+=======
+      <location filename="../Workbench.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File</source>
       <translation>Dosya</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="574"/>
+=======
+      <location filename="../Workbench.cpp" line="571"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="575"/>
+=======
+      <location filename="../Workbench.cpp" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>Yardım</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="576"/>
+=======
+      <location filename="../Workbench.cpp" line="573"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link</source>
       <translation>Bağlantı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="577"/>
+=======
+      <location filename="../Workbench.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tools</source>
       <translation>Araçlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="578"/>
+=======
+      <location filename="../Workbench.cpp" line="575"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View</source>
       <translation>Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="579"/>
+=======
+      <location filename="../Workbench.cpp" line="576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Window</source>
       <translation>Pencere</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="580"/>
+=======
+      <location filename="../Workbench.cpp" line="577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard</source>
       <translation>Standart</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="581"/>
+=======
+      <location filename="../Workbench.cpp" line="578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrolar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="582"/>
+=======
+      <location filename="../Workbench.cpp" line="579"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro</source>
       <translation>Makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="583"/>
+=======
+      <location filename="../Workbench.cpp" line="580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structure</source>
       <translation>Yapı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="584"/>
+=======
+      <location filename="../Workbench.cpp" line="581"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard-Test</source>
       <translation>Standart-Test</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="585"/>
+=======
+      <location filename="../Workbench.cpp" line="582"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard-View</source>
       <translation>Standart Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="586"/>
+=======
+      <location filename="../Workbench.cpp" line="583"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View</source>
       <translation>Ağaç Görünümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="587"/>
+=======
+      <location filename="../Workbench.cpp" line="584"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Measure</source>
       <translation>Ölçüm</translation>
     </message>
@@ -349,8 +521,13 @@ Bu nesnenin özelliği, Değişken Kümesinin özelliğine başvuracaktır.</tra
     </message>
     <message>
       <location filename="../Dialogs/DlgExpressionInput.ui" line="187"/>
+<<<<<<< HEAD
       <source>Store in Variable Set…</source>
       <translation type="unfinished">Store in Variable Set…</translation>
+=======
+      <source>Store in Variable Set...</source>
+      <translation>Değişken Kümesinde Sakla...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../Dialogs/DlgExpressionInput.ui" line="260"/>
@@ -394,42 +571,74 @@ Bu nesnenin özelliği, Değişken Kümesinin özelliğine başvuracaktır.</tra
   <context>
     <name>EditMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="301"/>
+=======
+      <location filename="../Application.h" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Default</source>
       <translation>&amp;Varsayılan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="302"/>
+=======
+      <location filename="../Application.h" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object will be edited using the mode defined internally to be the most appropriate for the object type</source>
       <translation>Nesne, nesne türü için en uygun olacak şekilde dahili olarak tanımlanan kip kullanılarak düzenlenecek</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="310"/>
+=======
+      <location filename="../Application.h" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trans&amp;form</source>
       <translation>&amp;Dönüştür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="319"/>
+=======
+      <location filename="../Application.h" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cu&amp;tting</source>
       <translation>Ke&amp;sim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="328"/>
+=======
+      <location filename="../Application.h" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Color</source>
       <translation>&amp;Renk</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="329"/>
+=======
+      <location filename="../Application.h" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object will have the color of its individual faces editable with the Appearance per Face command</source>
       <translation>Nesnenin tek tek yüzlerinin rengi, Yüz Başına Görünüm komutuyla düzenlenebilir olacak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="311"/>
+=======
+      <location filename="../Application.h" line="298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object will have its placement editable with the Std TransformManip command</source>
       <translation>Nesnenin yerleşimi Std TransformManip komutuyla düzenlenebilir olacak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.h" line="320"/>
+=======
+      <location filename="../Application.h" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This edit mode is implemented as available but currently does not seem to be used by any object</source>
       <translation>Bu düzenleme kipi kullanılabilir olarak uygulanmıştır ancak şu anda hiçbir nesne tarafından kullanılıyor görünmüyor</translation>
     </message>
@@ -437,12 +646,20 @@ Bu nesnenin özelliği, Değişken Kümesinin özelliğine başvuracaktır.</tra
   <context>
     <name>ExpressionLabel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../QuantitySpinBox_p.h" line="70"/>
+=======
+      <location filename="../QuantitySpinBox_p.h" line="71"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter expression… (=)</source>
       <translation>İfade gir… (=)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../QuantitySpinBox_p.h" line="71"/>
+=======
+      <location filename="../QuantitySpinBox_p.h" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expression:</source>
       <translation>İfade:</translation>
     </message>
@@ -553,8 +770,13 @@ Bu nesnenin özelliği, Değişken Kümesinin özelliğine başvuracaktır.</tra
     </message>
     <message>
       <location filename="../Navigation/CADNavigationStyle.cpp" line="53"/>
+<<<<<<< HEAD
       <source>Press middle+left, middle+right or shift+right mouse button</source>
       <translation type="unfinished">Press middle+left, middle+right or shift+right mouse button</translation>
+=======
+      <source>Press middle+left or middle+right mouse button</source>
+      <translation>Orta+sol veya orta+sağ fare düğmesine basın</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../Navigation/CADNavigationStyle.cpp" line="55"/>
@@ -656,52 +878,89 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::AboutDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="326"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="321"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Credits</source>
       <translation>Katkıda Bulunanlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="335"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Credits</source>
       <comment>Header for the Credits tab of the About screen</comment>
       <extracomment>Header for the Credits tab of the About screen</extracomment>
       <translation>Katkıda Bulunanlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="336"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD would not be possible without the contributions of:</source>
       <translation>FreeCAD, şu katkılar olmadan mümkün olmazdı:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="337"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Individuals</source>
       <comment>Header for the list of individual people in the Credits list.</comment>
       <translation>Kişiler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="349"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Organizations</source>
       <extracomment>Header for the list of companies/organizations in the Credits list.</extracomment>
       <translation>Kuruluşlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="378"/>
       <location filename="../Dialogs/DlgAbout.cpp" line="470"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="373"/>
+      <location filename="../Dialogs/DlgAbout.cpp" line="465"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>License</source>
       <translation>Lisans</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="416"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Libraries</source>
       <translation>Kütüphaneler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="438"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collection</source>
       <translation>Koleksiyon</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAbout.cpp" line="457"/>
+=======
+      <location filename="../Dialogs/DlgAbout.cpp" line="452"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Privacy Policy</source>
       <translation>Gizlilik Politikası</translation>
     </message>
@@ -737,12 +996,20 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::ButtonModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="295"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="291"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Button %1</source>
       <translation>Düğme %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="298"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Out of range</source>
       <translation>Aralık dışında</translation>
     </message>
@@ -750,37 +1017,65 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::CameraDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="393"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Camera Settings</source>
       <translation>Kamera Ayarları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="400"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orientation</source>
       <translation>Yönlendirme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="414"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="401"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q0</source>
       <translation>Q0</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="424"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q1</source>
       <translation>Q1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="434"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q2</source>
       <translation>Q2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="444"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Q3</source>
       <translation>Q3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="453"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Current View</source>
       <translation>Geçerli Görünüm</translation>
     </message>
@@ -846,7 +1141,11 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::CommandModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="508"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Commands</source>
       <translation>Komutlar</translation>
     </message>
@@ -895,7 +1194,7 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
     </message>
     <message>
       <location filename="../DemoMode.ui" line="189"/>
-      <location filename="../DemoMode.cpp" line="236"/>
+      <location filename="../DemoMode.cpp" line="237"/>
       <source>Play</source>
       <translation>Oynat</translation>
     </message>
@@ -905,7 +1204,7 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
       <translation>Kapat</translation>
     </message>
     <message>
-      <location filename="../DemoMode.cpp" line="232"/>
+      <location filename="../DemoMode.cpp" line="233"/>
       <source>Stop</source>
       <translation>Dur</translation>
     </message>
@@ -918,7 +1217,11 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
       <translation>Pencere Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="52"/>
+=======
+      <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Activate</source>
       <translation>&amp;Etkinleştir</translation>
     </message>
@@ -930,7 +1233,11 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgActivateWindowImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="55"/>
+=======
+      <location filename="../Dialogs/DlgActivateWindowImp.cpp" line="53"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Windows</source>
       <translation>Pencereler</translation>
     </message>
@@ -974,32 +1281,56 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
       <translation>Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="666"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="664"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid group name</source>
       <translation>Geçersiz grup adı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="669"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="667"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid type name</source>
       <translation>Geçersiz tür adı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="675"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid property name '%1'</source>
       <translation>Geçersiz özellik adı '%1'</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="678"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="676"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Property '%1' already exists</source>
       <translation>'%1' özelliği zaten var</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="681"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="679"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1' is a constant</source>
       <translation>'%1' bir sabittir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="684"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1' is a unit</source>
       <translation>'%1' bir birimdir</translation>
     </message>
@@ -1054,7 +1385,11 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
       <translation>Onay Kutusu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCheckableMessageBox.h" line="126"/>
+=======
+      <location filename="../Dialogs/DlgCheckableMessageBox.h" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Don't show me again</source>
       <translation>Bunu bir daha gösterme</translation>
     </message>
@@ -1098,6 +1433,7 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgCreateNewPreferencePackImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="183"/>
       <source>Export Configuration</source>
       <translation type="unfinished">Export Configuration</translation>
@@ -1109,6 +1445,19 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
     </message>
     <message>
       <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="195"/>
+=======
+      <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="181"/>
+      <source>Export configuration</source>
+      <translation>Yapılandırmayı dışa aktar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="192"/>
+      <source>Pack already exists</source>
+      <translation>Paket zaten var</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgCreateNewPreferencePackImp.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A preference pack with that name already exists. Overwrite it?</source>
       <translation>Bu ada sahip bir tercih paketi zaten var. Üzerine yazılsın mı?</translation>
     </message>
@@ -1184,12 +1533,20 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgCustomActionsImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="83"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Icons</source>
       <translation>Simgeler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="83"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrolar</translation>
     </message>
@@ -1220,18 +1577,47 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
       <translation>Makro dosyası '%1' bulunamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="239"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="237"/>
+      <source>Empty macro</source>
+      <translation>Boş makro</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="237"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specify the macro first</source>
       <translation>Önce makroyu belirtin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="244"/>
       <location filename="../Dialogs/DlgActionsImp.cpp" line="314"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="242"/>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="312"/>
+      <source>Empty text</source>
+      <translation>Boş metin</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="242"/>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Specify the menu text first</source>
       <translation>Önce menü metnini belirtin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="309"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="307"/>
+      <source>No item selected</source>
+      <translation>Hiç seçili öğe yok</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a macro item first</source>
       <translation>Önce bir makro öğesi seçin</translation>
     </message>
@@ -1246,6 +1632,107 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgCustomKeyboard</name>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../Dialogs/DlgKeyboard.ui" line="14"/>
+      <source>Keyboard</source>
+      <translation>Klavye</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="107"/>
+      <source>To change a current shortcut enter the new shortcut in the field below and press 'Assign'.</source>
+      <translation>Geçerli bir kısayolu değiştirmek için yeni kısayolu aşağıdaki alana girin ve Ata düğmesine basın.</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="156"/>
+      <source>Time in milliseconds to wait for the next keystroke of the current key sequence.
+For example, pressing 'F' twice in less than the time delay setting here will be
+treated as shortcut key sequence 'F, F'.</source>
+      <translation>Geçerli tuş dizisinin bir sonraki tuş vuruşunu beklemek için milisaniye cinsinden süre.
+Örneğin, 'F' tuşuna burada ayarlanan gecikme süresinden daha kısa aralıkla iki kez basmak
+'F, F' kısayol dizisi olarak değerlendirilir.</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="186"/>
+      <source>This list shows commands having the same shortcut in the priority from high
+to low. If more than one command with the same shortcut are active at the
+same time. The one with the highest priority will be triggered.</source>
+      <translation>Bu liste, aynı kısayola sahip komutları yüksekten düşüğe öncelik sırasıyla gösterir.
+Aynı kısayola sahip birden fazla komut aynı anda etkinse,
+en yüksek öncelikli olan tetiklenir.</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="48"/>
+      <source>&amp;Category</source>
+      <translation>&amp;Kategori</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="100"/>
+      <source>Current shortcut</source>
+      <translation>Geçerli kısayol</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="119"/>
+      <source>&amp;New shortcut</source>
+      <translation>&amp;Yeni kısayol</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="137"/>
+      <source>Multi-key sequence delay</source>
+      <translation>Çoklu tuş dizisi gecikmesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="191"/>
+      <source>Shortcut priority list</source>
+      <translation>Kısayol öncelik listesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="238"/>
+      <source>&amp;Assign</source>
+      <translation>&amp;Atama</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="241"/>
+      <source>Alt+A</source>
+      <translation>Alt+A</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="248"/>
+      <source>Clear</source>
+      <translation>Temizle</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="255"/>
+      <source>&amp;Reset</source>
+      <translation>&amp;Sıfırla</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="258"/>
+      <source>Alt+R</source>
+      <translation>Alt+R</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="265"/>
+      <source>Re&amp;set All</source>
+      <translation>Hepsini &amp;sıfırla</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="268"/>
+      <source>Alt+S</source>
+      <translation>Alt+S</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="294"/>
+      <source>Up</source>
+      <translation>Yukarı</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgKeyboard.ui" line="304"/>
+      <source>Down</source>
+      <translation>Aşağı</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source/>
       <translation>Altgrup '%1' zaten mevcut.</translation>
     </message>
@@ -1253,42 +1740,74 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgCustomKeyboardImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="154"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type to search…</source>
       <translation>Aramak için yazın…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Icon</source>
       <translation>Simge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command</source>
       <translation>Komut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shortcut</source>
       <translation>Kısayol</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="240"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="238"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Default</source>
       <translation>Varsayılan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="280"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Isim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="280"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Title</source>
       <translation>Başlık</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="436"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All</source>
       <translation>Hepsi</translation>
     </message>
@@ -1366,51 +1885,91 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
       <translation>&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;/head&gt;&lt;body style=" white-space: pre-wrap; font-size:7.8pt; font-weight:400; font-style:normal; text-decoration:none;"&gt;&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;"&gt;&lt;span style=" font-weight:600;"&gt;Not:&lt;/span&gt; Değişiklikler, uygun çalışma tezgâhını bir sonraki yükleyişinizde etkinleşir&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="87"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global</source>
       <translation>Küresel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="105"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command</source>
       <translation>Komut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="72"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="223"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="70"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;Separator&gt;</source>
       <translation>&lt;Ayraç&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="247"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 module not loaded</source>
       <translation>%1 modül yüklenmedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="447"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="442"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New toolbar</source>
       <translation>Yeni araç çubuğu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="448"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="506"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="443"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toolbar name:</source>
       <translation>Araç çubuğu adı:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="462"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="520"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="457"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="515"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicated name</source>
       <translation>Yinelenen isim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="463"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="521"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="458"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="516"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The toolbar name '%1' is already used</source>
       <translation>'%1' Araç çubuğu adı zaten kullanılıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="505"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename toolbar</source>
       <translation>Araç çubuğunu yeniden adlandırın</translation>
     </message>
@@ -1458,27 +2017,47 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgCustomizeSpaceball</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="744"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="739"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spaceball Buttons</source>
       <translation>Uzaybol Hareketi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="750"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No Spaceball present</source>
       <translation>Spaceball algılanmadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="806"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="801"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Buttons</source>
       <translation>Düğmeler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="807"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="802"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset</source>
       <translation>Sıfırla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="843"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="838"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print Reference</source>
       <translation>Başvuruyu yazdır</translation>
     </message>
@@ -1634,57 +2213,100 @@ sol ya da sağ tıklarken fareyi yukarı veya aşağı hareket ettirin</translat
   <context>
     <name>Gui::Dialog::DlgMacroExecuteImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="124"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="821"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="121"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="809"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrolar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="498"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="486"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro file</source>
       <translation>Makro dosyası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="524"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="934"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1097"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="512"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="922"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Existing file</source>
       <translation>Varolan dosya</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="525"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="513"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1'.
 This file already exists.</source>
       <translation>'%1'.
 Bu dosya zaten var.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="533"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="521"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot create file</source>
       <translation>Dosya oluşturulamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="534"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creation of file '%1' failed.</source>
       <translation>'%1' dosyası oluşturulamadı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="575"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete macro</source>
       <translation>Makroyu sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="610"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not show again</source>
       <translation>Tekrar gösterme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="611"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="599"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Guided Walkthrough</source>
       <translation>Kılavuzlu Çözüm Yolu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="613"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This will guide you in setting up this macro in a custom global toolbar.  Instructions will be in red text inside the dialog.
 
 Note: your changes will be applied when you next switch workbenches
@@ -1695,93 +2317,163 @@ Not: Değişiklikleriniz, sonraki tezgah geçişinizde uygulanacak
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="694"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough instructions: Fill in missing fields (optional) then click Add, then Close</source>
       <translation>Adım adım yönergeler: Eksik alanları doldurun (isteğe bağlı), ardından Ekle düğmesine tıklayın, sonra Kapat düğmesine tıklayın</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="772"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="760"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough instructions: Select macro from list, then click right arrow button (-&gt;), then Close.</source>
       <translation>Etkileşimli kılavuz: Listeden makroyu seçin, ardından sağ ok düğmesine (-&gt;) tıklayın, sonra Kapat.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="796"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="784"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough instructions: Click New, select macro, then right arrow (-&gt;) button, then Close.</source>
       <translation>Etkileşimli kılavuz: Yeni düğmesine tıklayın, makroyu seçin, ardından sağ ok düğmesine (-&gt;) tıklayın, sonra Kapat.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="912"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="900"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Renaming Macro File</source>
       <translation>Makro dosya yeniden adlandırma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="479"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Read-Only</source>
       <translation>Salt Okunur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="499"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="487"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter a file name:</source>
       <translation>Bir dosya adı girin:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="576"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="564"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete the macro '%1'?</source>
       <translation>'%1' makrosu silinsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="668"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="656"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough, Dialog 1 of 2</source>
       <translation>Etkileşimli Kılavuz, İletişim Kutusu 1/2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="736"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="724"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough, Dialog 1 of 1</source>
       <translation>Etkileşimli Kılavuz, İletişim Kutusu 1/1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="736"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="724"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Walkthrough, Dialog 2 of 2</source>
       <translation>Etkileşimli Kılavuz, İletişim Kutusu 2/2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="913"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1078"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="901"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1066"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter new name</source>
       <translation>Yeni ad girin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="935"/>
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1098"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="923"/>
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1086"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>'%1'
  already exists.</source>
       <translation>'%1' 
 zaten mevcut.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="941"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="929"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename Failed</source>
       <translation>Yeniden adlandırma başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="942"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to rename to '%1'.
 Perhaps a file permission error?</source>
       <translation>'%1' yeniden adlandıramadı.
 Belki de bir dosya yetki hatası?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1077"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1065"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate Macro</source>
       <translation>Makroyu Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1104"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1092"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate Failed</source>
       <translation>Kopyalama Başarısız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1105"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="1093"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to duplicate to '%1'.
 Perhaps a file permission error?</source>
       <translation>'%1'olarak çoğaltılamadı. 
@@ -1824,11 +2516,19 @@ Belki bir dosya izni hatası vardır?</translation>
   <context>
     <name>Gui::Dialog::DlgMacroRecordImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="104"/>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="114"/>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="144"/>
       <source>Macro Recorder</source>
       <translation>Makro Kaydedici</translation>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="102"/>
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="112"/>
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="142"/>
+      <source>Macro recorder</source>
+      <translation>Makro kaydedici</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="105"/>
@@ -1836,29 +2536,52 @@ Belki bir dosya izni hatası vardır?</translation>
       <translation>Önce kaydetmek için bir konum belirtin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="115"/>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The macro directory does not exist. Choose another one.</source>
       <translation>Makro dizini yok. Başka bir tane seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="130"/>
       <source>Existing Macro</source>
       <translation>Mevcut Makro</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="131"/>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The macro '%1' already exists. Overwrite it?</source>
       <translation>'%1' makrosu zaten var. Üzerine yazılsın mı?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="145"/>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>You have no write permission for the directory. Choose another one.</source>
       <translation>Dizin için yazma izniniz yok. Başka bir tane seçin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="191"/>
       <source>Choose Macro Directory</source>
       <translation>Makro Dizinini Seçin</translation>
+=======
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="128"/>
+      <source>Existing macro</source>
+      <translation>Varolan makro</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgMacroRecordImp.cpp" line="189"/>
+      <source>Choose macro directory</source>
+      <translation>Makro dizini seçiniz</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1939,9 +2662,15 @@ Belki bir dosya izni hatası vardır?</translation>
       <translation>Varsayılan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMaterialProperties.ui" line="149"/>
       <source>Changes all values to default values</source>
       <translation type="unfinished">Changes all values to default values</translation>
+=======
+      <location filename="../Dialogs/DlgMaterialProperties.ui" line="148"/>
+      <source>Emissive color</source>
+      <translation>Emisyon rengi</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../Dialogs/DlgMaterialProperties.ui" line="166"/>
@@ -1989,12 +2718,21 @@ Belki bir dosya izni hatası vardır?</translation>
       <translation>HTML Dosyaları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="103"/>
       <source>Access Denied</source>
       <translation>Erişim Reddedildi</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="104"/>
+=======
+      <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="101"/>
+      <source>Access denied</source>
+      <translation>Erişim engellendi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgOnlineHelpImp.cpp" line="102"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Access denied to '%1'
 
 Specify another directory.</source>
@@ -2095,39 +2833,69 @@ Lütfen başka bir dizin belirtin.</translation>
       <translation>Sonrakini Bul</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterFind.cpp" line="313"/>
+=======
+      <location filename="../Dialogs/DlgParameterFind.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not found</source>
       <translation>Bulunamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterFind.cpp" line="314"/>
       <source>%1 not found. Would you like to start from the beginning?</source>
       <translation>%1 bulunamadı. Baştan başlamak ister misiniz?</translation>
+=======
+      <location filename="../Dialogs/DlgParameterFind.cpp" line="306"/>
+      <source>Cannot find the text: %1</source>
+      <translation>Metin bulunamadı: %1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Gui::Dialog::DlgParameterImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="70"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="247"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="68"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>Grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="79"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="248"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="77"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Isim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="79"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="249"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="77"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="247"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="79"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="250"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="77"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Value</source>
       <translation>Değer</translation>
     </message>
@@ -2142,17 +2910,29 @@ Lütfen başka bir dizin belirtin.</translation>
       <translation>Kullanıcı parametresi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="129"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Search group</source>
       <translation>Grup ara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="472"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="478"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid input</source>
       <translation>Geçersiz giriş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="473"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="479"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid key name '%1'</source>
       <translation>Geçersiz anahtar adı '%1'</translation>
     </message>
@@ -2173,37 +2953,65 @@ Lütfen başka bir dizin belirtin.</translation>
   <context>
     <name>Gui::Dialog::DlgPreferencePackManagementImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="109"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="107"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User-Saved Preference Packs</source>
       <translation>Kullanıcı Tarafından Kaydedilen Tercih Paketleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="113"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Built-In Preference Packs</source>
       <translation>Dahili Tercih Paketleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="154"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="152"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle visibility of built-in preference pack '%1'</source>
       <translation>Yerleşik tercih paketi '%1' görünürlüğünü aç/kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="164"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deletes the user-saved preference pack '%1'</source>
       <translation>Kullanıcı tarafından kaydedilmiş '%1' tercih paketini siler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="179"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the addon preference pack '%1' (use the Addon Manager to remove permanently)</source>
       <translation>'%1' eklenti tercih paketinin görünürlüğünü açıp kapatır (kalıcı olarak kaldırmak için Eklenti Yöneticisini kullanın)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="196"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete the preference pack named '%1'? This cannot be undone.</source>
       <translation>'%1' adlı tercih paketi silinsin mi? Bu işlem geri alınamaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="195"/>
+=======
+      <location filename="../Dialogs/DlgPreferencePackManagementImp.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete saved preference pack?</source>
       <translation>Kaydedilmiş tercih paketi silinsin mi?</translation>
     </message>
@@ -2227,8 +3035,13 @@ Lütfen başka bir dizin belirtin.</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgPreferences.ui" line="233"/>
+<<<<<<< HEAD
       <source>Search preferences…</source>
       <translation type="unfinished">Search preferences…</translation>
+=======
+      <source>Search preferences...</source>
+      <translation>Tercihleri ara...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <source/>
@@ -2238,16 +3051,25 @@ Lütfen başka bir dizin belirtin.</translation>
   <context>
     <name>Gui::Dialog::DlgPreferencesImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="787"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="782"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset Page '%1'</source>
       <translation>'%1' Sayfasını Sıfırla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="790"/>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Resets the user settings for the page '%1'</source>
       <translation>'%1' sayfası için kullanıcı ayarlarını sıfırlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="794"/>
       <source>Reset Group '%1'</source>
       <translation>'%1' Grubunu Sıfırla</translation>
@@ -2306,6 +3128,66 @@ Lütfen başka bir dizin belirtin.</translation>
       <location filename="../Dialogs/DlgPreferencesImp.cpp" line="804"/>
       <source>Resets the user settings entirely</source>
       <translation>Kullanıcı ayarlarını tamamen sıfırlar</translation>
+=======
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="789"/>
+      <source>Reset Group '%1'</source>
+      <translation>'%1' Grubunu Sıfırla</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="797"/>
+      <source>Reset All</source>
+      <translation>Tümünü Sıfırla</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="815"/>
+      <source>Clear User Settings</source>
+      <translation>Kullanıcı Ayarlarını Temizle</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="816"/>
+      <source>Clear all your user settings?</source>
+      <translation>Tüm kullanıcı ayarlarınız temizlensin mi?</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="817"/>
+      <source>All settings will be cleared.</source>
+      <translation>Tüm ayarlar temizlenecek.</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="961"/>
+      <source>Restart Required</source>
+      <translation>Yeniden Başlatma Gerekli</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="962"/>
+      <source>Restart FreeCAD for changes to take effect.</source>
+      <translation>Değişikliklerin etkili olması için FreeCAD'i yeniden başlatın.</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="967"/>
+      <source>Restart Now</source>
+      <translation>Şimdi Yeniden Başlat</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="968"/>
+      <source>Restart Later</source>
+      <translation>Daha Sonra Yeniden Başlat</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="794"/>
+      <source>Resets the user settings for the group '%1'</source>
+      <translation>'%1' grubu için kullanıcı ayarlarını sıfırlar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="799"/>
+      <source>Resets the user settings entirely</source>
+      <translation>Kullanıcı ayarlarını tamamen sıfırlar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgPreferencesImp.cpp" line="918"/>
+      <source>Wrong parameter</source>
+      <translation>Yanlış parametre</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2483,6 +3365,19 @@ Lütfen başka bir dizin belirtin.</translation>
       <source>No destination is defined.</source>
       <translation>Hedef belirlenmedi.</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+      <location filename="../Dialogs/DlgProjectUtility.cpp" line="101"/>
+      <source>Failed to extract document</source>
+      <translation>Belge çıkarılamadı</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgProjectUtility.cpp" line="118"/>
+      <source>Failed to create document</source>
+      <translation>Belge oluşturulamadı</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::Dialog::DlgPropertyLink</name>
@@ -2517,12 +3412,20 @@ Lütfen başka bir dizin belirtin.</translation>
       <translation>Yukarıdaki sonuçları filtrelemek için bir arama modeli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPropertyLink.cpp" line="118"/>
+=======
+      <location filename="../Dialogs/DlgPropertyLink.cpp" line="112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reset</source>
       <translation>Sıfırla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgPropertyLink.cpp" line="119"/>
+=======
+      <location filename="../Dialogs/DlgPropertyLink.cpp" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear</source>
       <translation>Temizle</translation>
     </message>
@@ -2555,7 +3458,11 @@ Lütfen başka bir dizin belirtin.</translation>
   <context>
     <name>Gui::Dialog::DlgRevertToBackupConfigImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgRevertToBackupConfigImp.cpp" line="107"/>
+=======
+      <location filename="../Dialogs/DlgRevertToBackupConfigImp.cpp" line="105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No selection in dialog, cannot load backup file</source>
       <translation>İletişim kutusunda seçim yok, yedek dosyası yüklenemiyor</translation>
     </message>
@@ -2781,7 +3688,34 @@ Changing this option requires a restart of the application.</source>
 Bu seçeneği değiştirmek uygulamanın yeniden başlatılmasını gerektirir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettings3DView.ui" line="386"/>
+=======
+      <location filename="../PreferencePages/DlgSettings3DView.ui" line="303"/>
+      <source>If selected, Vertex Buffer Objects (VBO) will be used.
+A VBO is an OpenGL feature that provides methods for uploading
+vertex data (position, normal vector, color, etc.) to the graphics card.
+VBOs offer substantial performance gains because the data resides
+in the graphics memory rather than the system memory and so it
+can be rendered directly by the GPU.
+
+Note: Sometimes this feature may lead to a host of different
+issues ranging from graphical anomalies to GPU crash bugs. Remember to
+report this setting as enabled when seeking support.</source>
+      <translation>Seçilmesi durumunda, Tepe Noktası Tampon Nesneleri (VBO) kullanılacaktır.
+VBO, OpenGL'in dosya yükleme yöntemleri sağlayan bir özelliğidir.
+Köşe noktası verilerini (konum, normal vektör, renk vb.) grafik kartına iletir.
+VBO'lar, verilerin bulunduğu yer nedeniyle önemli performans artışları sunar.
+Sistem belleği yerine grafik belleğinde yer alıyor ve bu nedenle
+GPU tarafından doğrudan işlenebilir.
+
+Not: Bazen bu özellik birçok farklı sonuca yol açabilir.
+Grafik anormalliklerinden GPU çökme hatalarına kadar çeşitli sorunlar. Unutmayın:
+Destek talebinde bulunurken bu ayarı etkin olarak bildirin.</translation>
+    </message>
+    <message>
+      <location filename="../PreferencePages/DlgSettings3DView.ui" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Method of multisample anti-aliasing</source>
       <translation>Çok örneklemeli kenar yumuşatma yöntemi</translation>
     </message>
@@ -3194,12 +4128,20 @@ ondalık basamak sayısı</translation>
   <context>
     <name>Gui::Dialog::DlgSettingsColorGradientImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="256"/>
+=======
+      <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong parameter</source>
       <translation>Yanlış parametre</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="257"/>
+=======
+      <location filename="../Dialogs/DlgSettingsColorGradientImp.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The maximum value must be higher than the minimum value.</source>
       <translation>En yüksek değer, en düşük değerden yüksek olmalı.</translation>
     </message>
@@ -3289,7 +4231,16 @@ ondalık basamak sayısı</translation>
       <translation>Biçim dokümantasyonunu göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsDocument.ui" line="65"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsDocument.ui" line="132"/>
+      <source>Using undo/redo in documents</source>
+      <translation>Belgelerde geri al/yeniden yap kullanımı</translation>
+    </message>
+    <message>
+      <location filename="../PreferencePages/DlgSettingsDocument.ui" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maximum undo/redo steps</source>
       <translation>Azami geri al/yeniden yap adımı</translation>
     </message>
@@ -3509,9 +4460,25 @@ Ayrıca formu da kullanabilirsiniz: John Doe &lt;john@doe.com&gt;</translation>
       <translation>ÖzgürSanat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgProjectInformationImp.cpp" line="51"/>
       <source>CERN Open Hardware Licence strongly-reciprocal</source>
       <translation>CERN Açık Donanım Lisansı (güçlü karşılıklılık)</translation>
+=======
+      <location filename="../Dialogs/DlgProjectInformationImp.cpp" line="49"/>
+      <source>CERN Open Hardware Licence strongly-reciprocal</source>
+      <translation>CERN Açık Donanım Lisansı (güçlü karşılıklılık)</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgProjectInformationImp.cpp" line="50"/>
+      <source>CERN Open Hardware Licence weakly-reciprocal</source>
+      <translation>CERN Açık Donanım Lisansı (zayıf karşılıklılık)</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgProjectInformationImp.cpp" line="51"/>
+      <source>CERN Open Hardware Licence permissive</source>
+      <translation>CERN Açık Donanım Lisansı (izin verici)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../Dialogs/DlgProjectInformationImp.cpp" line="52"/>
@@ -3555,11 +4522,14 @@ Ayrıca formu da kullanabilirsiniz: John Doe &lt;john@doe.com&gt;</translation>
       <location filename="../PreferencePages/DlgSettingsDocumentImp.cpp" line="62"/>
       <source>Show format documentation</source>
       <translation>Biçim dokümantasyonunu göster</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../PreferencePages/DlgSettingsDocumentImp.cpp" line="119"/>
       <source>Warning: The format '%1' produces '%2' which contains invalid characters. They will be replaced with '-' when saving.</source>
       <translation type="unfinished">Warning: The format '%1' produces '%2' which contains invalid characters. They will be replaced with '-' when saving.</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3719,6 +4689,19 @@ Ayrıca formu da kullanabilirsiniz: John Doe &lt;john@doe.com&gt;</translation>
   <context>
     <name>Gui::Dialog::DlgSettingsImageImp</name>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../Dialogs/DlgSettingsImageImp.cpp" line="54"/>
+      <source>Offscreen (new)</source>
+      <translation>Ekran dışı (yeni)</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgSettingsImageImp.cpp" line="55"/>
+      <source>Offscreen (old)</source>
+      <translation>Ekran dışı (eski)</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../Dialogs/DlgSettingsImageImp.cpp" line="56"/>
       <source>Offscreen (new)</source>
       <translation>Ekran dışı (yeni)</translation>
@@ -4232,62 +5215,112 @@ Zoom step of '1' means a factor of 7.5 for every zoom step.</source>
       <translation>DokunmatikEkran eğim hareketini devre dışı bırak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="221"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="258"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="211"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Isometric</source>
       <translation>İzometrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="222"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="259"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="212"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimetric</source>
       <translation>Dimetrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="223"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="260"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="213"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trimetric</source>
       <translation>Trimetrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="224"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="261"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="214"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Top</source>
       <translation>Üst</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="225"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="262"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="215"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Front</source>
       <translation>Ön</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="226"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="263"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="216"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="253"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Left</source>
       <translation>Sol</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="227"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="264"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="217"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Right</source>
       <translation>Sağ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="228"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="265"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="218"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rear</source>
       <translation>Arka</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="229"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="266"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="219"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bottom</source>
       <translation>Alt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="230"/>
       <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="267"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="220"/>
+      <location filename="../PreferencePages/DlgSettingsNavigation.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom</source>
       <translation>Özel</translation>
     </message>
@@ -4434,6 +5467,7 @@ Daha büyük bir değer, öğeleri seçmeyi kolaylaştırır; ancak küçük ayr
       <translation>Karşılık gelen nesne 3B görünümde seçildiğinde ağaç öğesini otomatik genişlet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsSelection.ui" line="255"/>
       <source>Provides persistent selection toggles for each item. Simplifies batch operations and complex multi-selection without holding modifier keys (Ctrl/Shift).</source>
       <translation type="unfinished">Provides persistent selection toggles for each item. Simplifies batch operations and complex multi-selection without holding modifier keys (Ctrl/Shift).</translation>
@@ -4442,6 +5476,16 @@ Daha büyük bir değer, öğeleri seçmeyi kolaylaştırır; ancak küçük ayr
       <location filename="../PreferencePages/DlgSettingsSelection.ui" line="49"/>
       <source>Enable selection, highlighted with specified color</source>
       <translation>Seçimi etkinleştir (belirtilen renkle vurgulanır)</translation>
+=======
+      <location filename="../PreferencePages/DlgSettingsSelection.ui" line="46"/>
+      <source>Enable selection, highlighted with specified color</source>
+      <translation>Seçimi etkinleştir (belirtilen renkle vurgulanır)</translation>
+    </message>
+    <message>
+      <location filename="../PreferencePages/DlgSettingsSelection.ui" line="49"/>
+      <source>Enable selection</source>
+      <translation>Seçimi etkinleştir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../PreferencePages/DlgSettingsSelection.ui" line="52"/>
@@ -4500,6 +5544,19 @@ Daha büyük bir değer, öğeleri seçmeyi kolaylaştırır; ancak küçük ayr
       <location filename="../PreferencePages/DlgSettingsViewColor.ui" line="99"/>
       <source>Radial gradient</source>
       <translation>Radyal gradyan</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+      <location filename="../PreferencePages/DlgSettingsViewColor.cpp" line="142"/>
+      <source>Top:</source>
+      <translation>Üst:</translation>
+    </message>
+    <message>
+      <location filename="../PreferencePages/DlgSettingsViewColor.cpp" line="143"/>
+      <source>Middle:</source>
+      <translation>Orta:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../PreferencePages/DlgSettingsViewColor.ui" line="412"/>
@@ -4730,12 +5787,16 @@ Tercih sistemi, genel tercihlerde ayarlanmış olandır.</translation>
   <context>
     <name>Gui::Dialog::DlgUnitsCalculator</name>
     <message>
-      <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="145"/>
+      <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="143"/>
       <source>unknown unit:</source>
       <translation>bilinmeyen birim:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="152"/>
+=======
+      <location filename="../Dialogs/DlgUnitsCalculatorImp.cpp" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>unit mismatch</source>
       <translation>birim uyuşmazlığı</translation>
     </message>
@@ -4816,12 +5877,18 @@ The 'Status' column shows whether the document could be recovered.</source>
       <translation>&amp;Bitir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentRecovery.cpp" line="642"/>
       <location filename="../DocumentRecovery.cpp" line="651"/>
+=======
+      <location filename="../DocumentRecovery.cpp" line="640"/>
+      <location filename="../DocumentRecovery.cpp" line="704"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete</source>
       <translation>Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentRecovery.cpp" line="652"/>
       <source>Delete the selected recovery documents?</source>
       <translation type="unfinished">Delete the selected recovery documents?</translation>
@@ -4849,6 +5916,39 @@ The 'Status' column shows whether the document could be recovered.</source>
       <source>Cleanup</source>
       <translation>Temizle</translation>
     </message>
+=======
+      <location filename="../DocumentRecovery.cpp" line="650"/>
+      <source>Delete the selected transient directories?</source>
+      <translation>Seçili geçici dizinler silinsin mi?</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="652"/>
+      <source>When deleting the selected transient directory it is not possible to recover any files afterwards.</source>
+      <translation>Seçili geçici dizin silindiğinde, daha sonra hiçbir dosyayı geri kurtarmak mümkün değildir.</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="686"/>
+      <source>Delete all transient directories?</source>
+      <translation>Tüm geçici dizinler silinsin mi?</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="687"/>
+      <source>When deleting all transient directories it is not possible to recover any files afterwards.</source>
+      <translation>Tüm geçici dizinler silindiğinde, daha sonra hiçbir dosyayı geri kurtarmak mümkün değildir.</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.ui" line="42"/>
+      <location filename="../DocumentRecovery.cpp" line="649"/>
+      <location filename="../DocumentRecovery.cpp" line="685"/>
+      <source>Cleanup</source>
+      <translation>Temizle</translation>
+    </message>
+    <message>
+      <location filename="../DocumentRecovery.cpp" line="704"/>
+      <source>Transient directories deleted.</source>
+      <translation>Geçici dizinler silindi.</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::Dialog::DownloadItem</name>
@@ -4964,30 +6064,53 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::IconDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="463"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Icon Folders</source>
       <translation>Simge Klasörleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="600"/>
       <source>Add Icon Folder</source>
       <translation type="unfinished">Add Icon Folder</translation>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="598"/>
+      <source>Add icon folder</source>
+      <translation>Simgesini klasör ekle</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Gui::Dialog::IconFolders</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="576"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add or remove custom icon folders</source>
       <translation>Özel simge klasörleri ekleyebilir ve kaldırabilirsiniz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgActionsImp.cpp" line="628"/>
       <source>Remove Folder</source>
       <translation type="unfinished">Remove Folder</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgActionsImp.cpp" line="629"/>
+=======
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="626"/>
+      <source>Remove folder</source>
+      <translation>Klasörü Kaldır</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgActionsImp.cpp" line="627"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing a folder only takes effect after an application restart</source>
       <translation>Bir klasörü kaldırmak ancak uygulama yeniden başlatıldıktan sonra geçerli olur</translation>
     </message>
@@ -5056,13 +6179,20 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::ParameterGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="490"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="515"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="675"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="496"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="521"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expand</source>
       <translation>Genişlet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="593"/>
       <source>Existing Sub-Group</source>
       <translation type="unfinished">Existing Sub-Group</translation>
@@ -5084,20 +6214,33 @@ The 'Status' column shows whether the document could be recovered.</source>
     </message>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="676"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add sub-group</source>
       <translation>Alt-Grup ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="677"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="543"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="683"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove group</source>
       <translation>Grubu sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="492"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Sub-Group</source>
       <translation>Alt Grup Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="493"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="537"/>
       <source>Remove Group</source>
@@ -5115,41 +6258,107 @@ The 'Status' column shows whether the document could be recovered.</source>
     </message>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="497"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="499"/>
+      <source>Remove Group</source>
+      <translation>Grubu Kaldır</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="500"/>
+      <source>Rename Group</source>
+      <translation>Grubu Yeniden Adlandır</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="502"/>
+      <source>Export Parameter</source>
+      <translation>Parametreyi Dışa Aktar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Parameter</source>
       <translation>Parametreyi İçe Aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="538"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="544"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove this parameter group?</source>
       <translation>Bu parametre grubu kaldırılsın mı?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="678"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="662"/>
+      <source>Import error</source>
+      <translation>İçe aktarma hatası</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="684"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename group</source>
       <translation>Grubu yeniden adlandır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="679"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="685"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export parameter</source>
       <translation>Parametreyi dışa aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="680"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import parameter</source>
       <translation>Parametreyi içe aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="512"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="518"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapse</source>
       <translation>Daralt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="594"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="599"/>
+      <source>Existing sub-group</source>
+      <translation>Varolan alt grup</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The sub-group '%1' already exists.</source>
       <translation>Altgrup '%1' zaten mevcut.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="657"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="616"/>
+      <source>Export parameter to file</source>
+      <translation>Parametreyi dosyaya (dışarı) aktar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="634"/>
+      <source>Import parameter from file</source>
+      <translation>Parametreyi dosyadan içeri aktar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="663"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reading from '%1' failed.</source>
       <translation>'%1'den okuma başarısız oldu.</translation>
     </message>
@@ -5157,11 +6366,16 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::ParameterValue</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="706"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New</source>
       <translation>Yeni</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="696"/>
       <source>Change Value</source>
       <translation>Değeri Değiştir</translation>
@@ -5198,10 +6412,49 @@ The 'Status' column shows whether the document could be recovered.</source>
     </message>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="711"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="702"/>
+      <source>Change Value</source>
+      <translation>Değeri Değiştir</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="707"/>
+      <source>Remove Key</source>
+      <translation>Anahtarı Kaldır</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="708"/>
+      <source>Rename Key</source>
+      <translation>Anahtarı Yeniden Adlandır</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="713"/>
+      <source>New String Item</source>
+      <translation>Yeni Metin Öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="714"/>
+      <source>New Float Item</source>
+      <translation>Yeni Kayan Nokta Öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="715"/>
+      <source>New Integer Item</source>
+      <translation>Yeni Tamsayı Öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="716"/>
+      <source>New Unsigned Item</source>
+      <translation>Yeni İşaretsiz Tamsayı Öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Boolean Item</source>
       <translation>Yeni Mantıksal Öğesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="829"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="874"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="922"/>
@@ -5216,6 +6469,22 @@ The 'Status' column shows whether the document could be recovered.</source>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="923"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="968"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1015"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="835"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="880"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="928"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="973"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1020"/>
+      <source>Existing item</source>
+      <translation>Varsayılan öğe</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="836"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="881"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="929"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="974"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1021"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The item '%1' already exists.</source>
       <translation>'%1' öğesi zaten var.</translation>
     </message>
@@ -5338,12 +6607,20 @@ The 'Status' column shows whether the document could be recovered.</source>
   <context>
     <name>Gui::Dialog::PrintModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="722"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Button</source>
       <translation>Düğme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="725"/>
+=======
+      <location filename="../Dialogs/DlgCustomizeSpaceball.cpp" line="720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command</source>
       <translation>Komut</translation>
     </message>
@@ -5446,8 +6723,13 @@ The 'Status' column shows whether the document could be recovered.</source>
     </message>
     <message>
       <location filename="../TextureMapping.cpp" line="167"/>
+<<<<<<< HEAD
       <source>No 3D View</source>
       <translation>3D Görünüm Yok</translation>
+=======
+      <source>No 3D view</source>
+      <translation>3B görünüm yok</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../TextureMapping.cpp" line="167"/>
@@ -5487,44 +6769,78 @@ The 'Status' column shows whether the document could be recovered.</source>
       <translation>Bağımlılıkları göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="121"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Depending on</source>
       <translation>Bağlı olarak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="122"/>
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="126"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="120"/>
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document</source>
       <translation>Belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="123"/>
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="127"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="121"/>
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Isim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="125"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Depended by</source>
       <translation>Bağımlılık</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="129"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selections</source>
       <translation>Seçimler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="135"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All</source>
       <translation>Hepsi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="165"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Use Original Selection</source>
       <translation>&amp;Orijinal Seçimi Kullan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgObjectSelection.cpp" line="167"/>
+=======
+      <location filename="../Dialogs/DlgObjectSelection.cpp" line="165"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ignore dependencies and proceed with the objects
 originally selected prior to opening this dialog</source>
       <translation>Bağımlılıkları yok sayın ve bu iletişim kutusu açılmadan önce
@@ -5752,12 +7068,20 @@ seçilmiş olan nesnelerle devam edin</translation>
   <context>
     <name>Gui::DocumentModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentModel.cpp" line="221"/>
+=======
+      <location filename="../DocumentModel.cpp" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Application</source>
       <translation>Uygulama</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../DocumentModel.cpp" line="724"/>
+=======
+      <location filename="../DocumentModel.cpp" line="722"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Labels &amp; Attributes</source>
       <translation>&amp;Etiketler ve Öznitelikler</translation>
     </message>
@@ -5765,7 +7089,11 @@ seçilmiş olan nesnelerle devam edin</translation>
   <context>
     <name>Gui::EditorView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="216"/>
+=======
+      <location filename="../EditorView.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Modified file</source>
       <translation>Değiştirilmiş dosya</translation>
     </message>
@@ -5775,7 +7103,11 @@ seçilmiş olan nesnelerle devam edin</translation>
       <translation>Kaydedilmemiş belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="217"/>
+=======
+      <location filename="../EditorView.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1.
 
 This has been modified outside of the source editor. Reload it?</source>
@@ -5801,40 +7133,89 @@ Tüm değişiklikler kaydedilsin mi?</translation>
       <translation>PDF olarak dışa aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="547"/>
+=======
+      <location filename="../EditorView.cpp" line="511"/>
+      <source>PDF file</source>
+      <translation>PDF dosyası</translation>
+    </message>
+    <message>
+      <location filename="../EditorView.cpp" line="548"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>untitled[*]</source>
       <translation>Adsız [*]</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="552"/>
+=======
+      <location filename="../EditorView.cpp" line="553"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Editor</source>
       <translation> - Düzenleyici</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="612"/>
+=======
+      <location filename="../EditorView.cpp" line="613"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 chars removed</source>
       <translation>%1 karakter kaldırıldı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="615"/>
+=======
+      <location filename="../EditorView.cpp" line="616"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 chars added</source>
       <translation>%1 karakter eklendi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="618"/>
+=======
+      <location filename="../EditorView.cpp" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Formatted</source>
       <translation>Biçimlendirilmiş</translation>
     </message>
   </context>
   <context>
+<<<<<<< HEAD
     <name>Gui::FileOptionsDialog</name>
     <message>
       <location filename="../FileDialog.cpp" line="956"/>
+=======
+    <name>Gui::FileDialog</name>
+    <message>
+      <location filename="../FileDialog.cpp" line="281"/>
+      <source>Save As</source>
+      <translation>Farklı Kaydet</translation>
+    </message>
+    <message>
+      <location filename="../FileDialog.cpp" line="376"/>
+      <location filename="../FileDialog.cpp" line="441"/>
+      <source>Open</source>
+      <translation>Aç</translation>
+    </message>
+  </context>
+  <context>
+    <name>Gui::FileOptionsDialog</name>
+    <message>
+      <location filename="../FileDialog.cpp" line="562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extended</source>
       <translation>Genişletilmiş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="993"/>
+=======
+      <location filename="../FileDialog.cpp" line="598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All files (*.*)</source>
       <translation>Tüm dosyalar (*. *)</translation>
     </message>
@@ -5870,22 +7251,38 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::GestureNavigationStyle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="979"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="965"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tap OR click left mouse button.</source>
       <translation>Dokunun YA DA farenin sol düğmesini tıklatın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="981"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="967"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag screen with two fingers OR press right mouse button.</source>
       <translation>Ekranı iki parmağınızla sürükleyin VEYA farenin sağ düğmesine basın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="983"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="969"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag screen with one finger OR press left mouse button. In Sketcher and other edit modes, hold Alt in addition.</source>
       <translation>Ekranı tek parmakla sürükleyin YA DA sol fare düğmesine basın. Sketcher ve diğer düzenleme kiplerinde buna ek olarak Alt tuşunu basılı tutun.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/GestureNavigationStyle.cpp" line="988"/>
+=======
+      <location filename="../Navigation/GestureNavigationStyle.cpp" line="974"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pinch (place two fingers on the screen and drag them apart from or towards each other) OR scroll mouse wheel OR PgUp/PgDown on keyboard.</source>
       <translation>İki parmakla yakınlaştırma/uzaklaştırma yapın (ekrana iki parmak koyup birbirinden uzaklaştırın veya birbirine yaklaştırın) YA DA fare tekerleğini çevirin YA DA klavyeden PgUp/PgDown kullanın.</translation>
     </message>
@@ -5893,47 +7290,118 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::GraphvizView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="327"/>
+=======
+      <location filename="../GraphvizView.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz not found</source>
       <translation>Graphviz bulunamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="334"/>
+=======
+      <location filename="../GraphvizView.cpp" line="329"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz couldn't be found on your system.</source>
       <translation>Graphviz, sisteminizde bulunamadı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="335"/>
+=======
+      <location filename="../GraphvizView.cpp" line="330"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Read more about it here.</source>
       <translation>Burada daha fazla bilgi için tıklayın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="336"/>
+=======
+      <location filename="../GraphvizView.cpp" line="331"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to specify its installation path if it's already installed?</source>
       <translation>Yükleme yolu zaten yüklüyse belirtmek ister misiniz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="347"/>
+=======
+      <location filename="../GraphvizView.cpp" line="342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz installation path</source>
       <translation>Graphviz yükleme yolu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="387"/>
+=======
+      <location filename="../GraphvizView.cpp" line="382"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz failed</source>
       <translation>Graphviz başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="388"/>
+=======
+      <location filename="../GraphvizView.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Graphviz failed to create an image file</source>
       <translation>Graphviz görüntü dosyası oluşturulamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../GraphvizView.cpp" line="491"/>
       <source>Bitmap</source>
       <translation>Bit Eşlem</translation>
     </message>
     <message>
       <location filename="../GraphvizView.cpp" line="609"/>
+=======
+      <location filename="../GraphvizView.cpp" line="483"/>
+      <source>PNG format</source>
+      <translation>PNG biçimi</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="485"/>
+      <source>Bitmap format</source>
+      <translation>Bit eşlem biçimi</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="489"/>
+      <source>GIF format</source>
+      <translation>PNG biçimi</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="491"/>
+      <source>JPG format</source>
+      <translation>PNG biçimi</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="493"/>
+      <source>SVG format</source>
+      <translation>PNG biçimi</translation>
+    </message>
+    <message>
+      <location filename="../GraphvizView.cpp" line="495"/>
+      <location filename="../GraphvizView.cpp" line="602"/>
+      <source>PDF format</source>
+      <translation>PNG biçimi</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="673"/>
+      <location filename="../GraphvizView.cpp" line="479"/>
+      <source>Graphviz format</source>
+      <translation>Graphviz biçimi</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="676"/>
+      <location filename="../GraphvizView.cpp" line="505"/>
+      <location filename="../GraphvizView.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export graph</source>
       <translation>Grafiği dışa aktar</translation>
     </message>
@@ -5947,12 +7415,20 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::InputField</name>
     <message>
+<<<<<<< HEAD
       <location filename="../InputField.cpp" line="218"/>
+=======
+      <location filename="../InputField.cpp" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputField.cpp" line="238"/>
+=======
+      <location filename="../InputField.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Value</source>
       <translation>Değeri Kaydet</translation>
     </message>
@@ -5983,7 +7459,11 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::LabelEditor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1502"/>
+=======
+      <location filename="../Widgets.cpp" line="1498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>List</source>
       <translation>Liste</translation>
     </message>
@@ -5991,6 +7471,7 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::LocationDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="104"/>
       <location filename="../InputVector.cpp" line="118"/>
       <location filename="../InputVector.h" line="131"/>
@@ -5999,10 +7480,21 @@ Tüm değişiklikler kaydedilsin mi?</translation>
       <location filename="../InputVector.h" line="300"/>
       <location filename="../InputVector.h" line="475"/>
       <location filename="../InputVector.h" line="489"/>
+=======
+      <location filename="../InputVector.h" line="132"/>
+      <location filename="../InputVector.h" line="155"/>
+      <location filename="../InputVector.h" line="278"/>
+      <location filename="../InputVector.h" line="301"/>
+      <location filename="../InputVector.h" line="476"/>
+      <location filename="../InputVector.h" line="490"/>
+      <location filename="../InputVector.cpp" line="104"/>
+      <location filename="../InputVector.cpp" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>X</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="105"/>
       <location filename="../InputVector.cpp" line="119"/>
       <location filename="../InputVector.h" line="132"/>
@@ -6011,10 +7503,21 @@ Tüm değişiklikler kaydedilsin mi?</translation>
       <location filename="../InputVector.h" line="301"/>
       <location filename="../InputVector.h" line="476"/>
       <location filename="../InputVector.h" line="490"/>
+=======
+      <location filename="../InputVector.h" line="133"/>
+      <location filename="../InputVector.h" line="156"/>
+      <location filename="../InputVector.h" line="279"/>
+      <location filename="../InputVector.h" line="302"/>
+      <location filename="../InputVector.h" line="477"/>
+      <location filename="../InputVector.h" line="491"/>
+      <location filename="../InputVector.cpp" line="105"/>
+      <location filename="../InputVector.cpp" line="119"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>Y</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="106"/>
       <location filename="../InputVector.cpp" line="120"/>
       <location filename="../InputVector.h" line="133"/>
@@ -6023,10 +7526,21 @@ Tüm değişiklikler kaydedilsin mi?</translation>
       <location filename="../InputVector.h" line="302"/>
       <location filename="../InputVector.h" line="477"/>
       <location filename="../InputVector.h" line="491"/>
+=======
+      <location filename="../InputVector.h" line="134"/>
+      <location filename="../InputVector.h" line="157"/>
+      <location filename="../InputVector.h" line="280"/>
+      <location filename="../InputVector.h" line="303"/>
+      <location filename="../InputVector.h" line="478"/>
+      <location filename="../InputVector.h" line="492"/>
+      <location filename="../InputVector.cpp" line="106"/>
+      <location filename="../InputVector.cpp" line="120"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>Z</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="107"/>
       <location filename="../InputVector.cpp" line="123"/>
       <location filename="../InputVector.h" line="134"/>
@@ -6035,22 +7549,46 @@ Tüm değişiklikler kaydedilsin mi?</translation>
       <location filename="../InputVector.h" line="305"/>
       <location filename="../InputVector.h" line="478"/>
       <location filename="../InputVector.h" line="494"/>
+=======
+      <location filename="../InputVector.h" line="135"/>
+      <location filename="../InputVector.h" line="160"/>
+      <location filename="../InputVector.h" line="281"/>
+      <location filename="../InputVector.h" line="306"/>
+      <location filename="../InputVector.h" line="479"/>
+      <location filename="../InputVector.h" line="495"/>
+      <location filename="../InputVector.cpp" line="107"/>
+      <location filename="../InputVector.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User defined…</source>
       <translation>Kullanıcı tanımlı…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="215"/>
       <location filename="../InputVector.h" line="240"/>
       <location filename="../InputVector.h" line="375"/>
       <location filename="../InputVector.h" line="564"/>
+=======
+      <location filename="../InputVector.h" line="241"/>
+      <location filename="../InputVector.h" line="376"/>
+      <location filename="../InputVector.h" line="565"/>
+      <location filename="../InputVector.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wrong direction</source>
       <translation>Yanlış yön</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputVector.cpp" line="216"/>
       <location filename="../InputVector.h" line="241"/>
       <location filename="../InputVector.h" line="376"/>
       <location filename="../InputVector.h" line="565"/>
+=======
+      <location filename="../InputVector.h" line="242"/>
+      <location filename="../InputVector.h" line="377"/>
+      <location filename="../InputVector.h" line="566"/>
+      <location filename="../InputVector.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Direction must not be the null vector</source>
       <translation>Yön, boş vektör olmamalıdır</translation>
     </message>
@@ -6081,17 +7619,29 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::MacroCommand</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgKeyboardImp.cpp" line="419"/>
+=======
+      <location filename="../Dialogs/DlgKeyboardImp.cpp" line="417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macros</source>
       <translation>Makrolar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Command.cpp" line="1319"/>
+=======
+      <location filename="../Command.cpp" line="1271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro file doesn't exist</source>
       <translation>Makro dosyası yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Command.cpp" line="1320"/>
+=======
+      <location filename="../Command.cpp" line="1272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No such macro file: '%1'</source>
       <translation>Böyle bir makro dosya: '%1'</translation>
     </message>
@@ -6099,12 +7649,18 @@ Tüm değişiklikler kaydedilsin mi?</translation>
   <context>
     <name>Gui::MainWindow</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="201"/>
       <location filename="../MainWindow.cpp" line="2659"/>
+=======
+      <location filename="../MainWindow.cpp" line="194"/>
+      <location filename="../MainWindow.cpp" line="2441"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dimension</source>
       <translation>Boyut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="204"/>
       <source>Unit System</source>
       <extracomment>A context menu action used to show or hide the unit system chooser in the status bar</extracomment>
@@ -6148,63 +7704,129 @@ Tüm değişiklikler kaydedilsin mi?</translation>
     </message>
     <message>
       <location filename="../MainWindow.cpp" line="634"/>
+=======
+      <location filename="../MainWindow.cpp" line="430"/>
+      <source>Input hints</source>
+      <extracomment>A context menu action used to show or hide the input hints in the status bar</extracomment>
+      <translation>Giriş ipuçları</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="440"/>
+      <source>Quick measure</source>
+      <extracomment>A context menu action used to enable or disable quick measure in the status bar</extracomment>
+      <translation>Hızlı ölçüm</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="452"/>
+      <source>Notification Area</source>
+      <extracomment>A context menu action used to show or hide the 'notificationArea' toolbar widget</extracomment>
+      <translation>Bildirim Alanı</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="495"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ready</source>
       <translation>Hazır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1429"/>
+=======
+      <location filename="../MainWindow.cpp" line="1298"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close All</source>
       <translation>Tümünü Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1702"/>
       <location filename="../MainWindow.cpp" line="1703"/>
       <location filename="../MainWindow.cpp" line="1704"/>
+=======
+      <location filename="../MainWindow.cpp" line="1565"/>
+      <location filename="../MainWindow.cpp" line="1566"/>
+      <location filename="../MainWindow.cpp" line="1567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles this toolbar</source>
       <translation>Bu araç çubuğunu değiştirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1723"/>
       <location filename="../MainWindow.cpp" line="1724"/>
       <location filename="../MainWindow.cpp" line="1725"/>
+=======
+      <location filename="../MainWindow.cpp" line="1586"/>
+      <location filename="../MainWindow.cpp" line="1587"/>
+      <location filename="../MainWindow.cpp" line="1588"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles this dockable window</source>
       <translation>Bu yapışabilir pencere arasında geçiş yapar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1928"/>
+=======
+      <location filename="../MainWindow.cpp" line="1785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe mode enabled</source>
       <translation>Güvenli mod etkin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1929"/>
+=======
+      <location filename="../MainWindow.cpp" line="1786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD is now running in safe mode.</source>
       <translation>FreeCAD artık güvenli modda çalışıyor.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1933"/>
+=======
+      <location filename="../MainWindow.cpp" line="1790"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe mode temporarily disables your configurations and addons. Restart the application to exit safe mode.</source>
       <translation>Güvenli mod yapılandırmalarınızı ve eklentilerinizi geçici olarak devre dışı bırakır. Güvenli moddan çıkmak için uygulamayı yeniden başlatın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2381"/>
       <location filename="../MainWindow.cpp" line="2535"/>
+=======
+      <location filename="../MainWindow.cpp" line="2166"/>
+      <location filename="../MainWindow.cpp" line="2318"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsaved document</source>
       <translation>Kaydedilmemiş belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2382"/>
+=======
+      <location filename="../MainWindow.cpp" line="2167"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported object contains external link. Save the documentat least once before exporting.</source>
       <translation>Dışa aktarılan nesne harici bağlantı içeriyor. Dışa aktarmadan önce belgeyi en az bir kez kaydedin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2536"/>
+=======
+      <location filename="../MainWindow.cpp" line="2319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To link to external objects, the document must be saved at least once.
 Save the document now?</source>
       <translation>Harici nesnelere bağlanmak için belgenin en az bir kez kaydedilmiş olması gerekir.
 Belge şimdi kaydedilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="3046"/>
+=======
+      <location filename="../MainWindow.cpp" line="2649"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe Mode</source>
       <translation>Güvenli Mod</translation>
     </message>
@@ -6314,22 +7936,38 @@ How do you want to proceed?</source>
       <translation>Hiçbir nokta seçilmedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1379"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Align</source>
       <translation>&amp;Hizala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1380"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Remove Last Point</source>
       <translation>&amp;Son Noktayı Kaldır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1386"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Synchronize Views</source>
       <translation>&amp;Görünümleri Eşitle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ManualAlignment.cpp" line="1382"/>
+=======
+      <location filename="../ManualAlignment.cpp" line="1381"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Cancel</source>
       <translation>İptal</translation>
     </message>
@@ -6352,7 +7990,11 @@ How do you want to proceed?</source>
       <translation>Ekranı tek parmakla sürükleyin YA DA Alt+sol fare düğmesine basın. Sketcher ve diğer düzenleme kiplerinde buna ek olarak Alt tuşunu basılı tutun.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/MayaGestureNavigationStyle.cpp" line="108"/>
+=======
+      <location filename="../Navigation/MayaGestureNavigationStyle.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pinch (place two fingers on the screen and drag them apart from or towards each other) OR scroll mouse wheel OR press Alt + right mouse button OR PgUp/PgDown on keyboard.</source>
       <translation>İki parmakla yakınlaştırma/uzaklaştırma yapın (ekrana iki parmak koyup birbirinden uzaklaştırın veya birbirine yaklaştırın) YA DA fare tekerleğini çevirin YA DA Alt+sağ fare düğmesine basın YA DA klavyeden PgUp/PgDown kullanın.</translation>
     </message>
@@ -6360,7 +8002,11 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::ModifierLineEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="412"/>
+=======
+      <location filename="../Widgets.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Press modifier keys</source>
       <translation>Değiştirici tuşlara basın</translation>
     </message>
@@ -6432,11 +8078,16 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::ProgressBar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../ProgressBar.cpp" line="325"/>
+=======
+      <location filename="../ProgressBar.cpp" line="319"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remaining: %1</source>
       <translation>Kalan: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ProgressBar.cpp" line="448"/>
       <source>Progress Indicator</source>
       <extracomment>A context menu action used to show or hide the progress indicator in the status bar</extracomment>
@@ -6444,11 +8095,18 @@ How do you want to proceed?</source>
     </message>
     <message>
       <location filename="../ProgressBar.cpp" line="559"/>
+=======
+      <location filename="../ProgressBar.cpp" line="521"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aborting</source>
       <translation>İptal ediliyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ProgressBar.cpp" line="560"/>
+=======
+      <location filename="../ProgressBar.cpp" line="522"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Abort the operation?</source>
       <translation>İşlem iptal edilsin mi?</translation>
     </message>
@@ -6474,12 +8132,20 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::PropertyEditor::LinkSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="4664"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="4580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Hata</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="4664"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="4580"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Object not found</source>
       <translation>Nesne bulunamadı</translation>
     </message>
@@ -6596,8 +8262,13 @@ How do you want to proceed?</source>
       <translation>Özelliği Yeniden Adlandır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1122"/>
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1314"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="991"/>
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Property Tooltip</source>
       <translation>Özellik Araç İpucunu Düzenle</translation>
     </message>
@@ -6607,12 +8278,25 @@ How do you want to proceed?</source>
       <translation>Özelliği Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1315"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tooltip</source>
       <translation>Araç ipucu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1154"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1199"/>
+      <source>Rename property</source>
+      <translation>Özelliği Yeniden Adlandır</translation>
+    </message>
+    <message>
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Hidden</source>
       <translation>Gizlileri Göster</translation>
     </message>
@@ -6622,12 +8306,25 @@ How do you want to proceed?</source>
       <translation>İfade</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1345"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Property name</source>
       <translation>Özellik adı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyEditor.cpp" line="1375"/>
+=======
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1226"/>
+      <source>Rename property group</source>
+      <translation>Özellik grubunu yeniden adlandırın</translation>
+    </message>
+    <message>
+      <location filename="../propertyeditor/PropertyEditor.cpp" line="1227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group name:</source>
       <translation>Grup adı:</translation>
     </message>
@@ -6663,126 +8360,230 @@ How do you want to proceed?</source>
   <context>
     <name>Gui::PythonConsole</name>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="858"/>
+=======
+      <location filename="../PythonConsole.cpp" line="848"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>System exit</source>
       <translation>Sistem çıkış</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="859"/>
+=======
+      <location filename="../PythonConsole.cpp" line="849"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The application is still running.
 Exit without saving all data?</source>
       <translation>Uygulama hâlâ çalışıyor.
 Tüm verileri kaydetmeden çıkılsın mı?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="873"/>
+=======
+      <location filename="../PythonConsole.cpp" line="863"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled PyCXX exception.</source>
       <translation>İşlenmeyen Özel durum PyCXX.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="873"/>
       <location filename="../PythonConsole.cpp" line="876"/>
       <location filename="../PythonConsole.cpp" line="879"/>
       <location filename="../PythonConsole.cpp" line="882"/>
+=======
+      <location filename="../PythonConsole.cpp" line="863"/>
+      <location filename="../PythonConsole.cpp" line="866"/>
+      <location filename="../PythonConsole.cpp" line="869"/>
+      <location filename="../PythonConsole.cpp" line="872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Python Console</source>
       <translation>Python Konsolu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="876"/>
+=======
+      <location filename="../PythonConsole.cpp" line="866"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled FreeCAD exception.</source>
       <translation>İşlenmeyen Özel durum FreeCAD.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="879"/>
+=======
+      <location filename="../PythonConsole.cpp" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled std C++ exception.</source>
       <translation>İşlenmemiş std c++ özel durum.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="882"/>
+=======
+      <location filename="../PythonConsole.cpp" line="872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unhandled unknown C++ exception.</source>
       <translation>İşlenmemiş bilinmeyen c++ özel durum.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1348"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy</source>
       <translation>&amp;Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1352"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy Command</source>
       <translation>&amp;Komutu Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1355"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy History</source>
       <translation>&amp;Geçmişi Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1358"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save History As…</source>
       <translation>Geçmişi Farklı Kaydet…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1362"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves Python history across %1 sessions</source>
       <translation>Python geçmişini %1 oturum boyunca kaydeder</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1368"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Paste</source>
       <translation>&amp;Yapıştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1373"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select All</source>
       <translation>Tümünü Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1361"/>
       <location filename="../PythonConsole.cpp" line="1414"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1351"/>
+      <location filename="../PythonConsole.cpp" line="1404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save History</source>
       <translation>Geçmişi Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="496"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear Console</source>
       <translation>Konsolu Temizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1381"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert File Name…</source>
       <translation>Dosya Adı Ekle…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1384"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1374"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Word Wrap</source>
       <translation>Satır Kaydır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1416"/>
+=======
+      <location filename="../PythonConsole.cpp" line="1406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro Files</source>
       <translation>Makro dosyaları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonConsole.cpp" line="1438"/>
       <source>Insert file name</source>
       <translation>Dosya adı Ekle</translation>
     </message>
+=======
+      <location filename="../PythonConsole.cpp" line="1428"/>
+      <source>Insert file name</source>
+      <translation>Dosya adı Ekle</translation>
+    </message>
+    <message>
+      <location filename="../PythonConsole.cpp" line="1430"/>
+      <source>All Files</source>
+      <translation>Tüm Dosyalar</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::PythonEditor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonEditor.cpp" line="89"/>
+=======
+      <location filename="../PythonEditor.cpp" line="178"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Comment</source>
       <translation>Yorum</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonEditor.cpp" line="91"/>
+=======
+      <location filename="../PythonEditor.cpp" line="180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Uncomment</source>
       <translation>Yorumu Geri al</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PythonEditor.cpp" line="94"/>
+=======
+      <location filename="../PythonEditor.cpp" line="183"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Execute in Console</source>
       <translation>Konsolda Çalıştır</translation>
     </message>
@@ -6790,19 +8591,27 @@ Tüm verileri kaydetmeden çıkılsın mı?</translation>
   <context>
     <name>Gui::RecentFilesAction</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="882"/>
       <location filename="../Action.cpp" line="891"/>
+=======
+      <location filename="../Action.cpp" line="860"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear Recent Files</source>
       <extracomment>Empties the list of recent files</extracomment>
       <translation>Son Dosyaları Temizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="892"/>
       <source>Clear the list of recent files?</source>
       <translation>Son dosyaların listesini temizleyin?</translation>
     </message>
     <message>
       <location filename="../Action.cpp" line="979"/>
+=======
+      <location filename="../Action.cpp" line="943"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open file %1</source>
       <translation>Dosyayı aç %1</translation>
     </message>
@@ -6810,12 +8619,20 @@ Tüm verileri kaydetmeden çıkılsın mı?</translation>
   <context>
     <name>Gui::RecentMacrosAction</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="1153"/>
+=======
+      <location filename="../Action.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>none</source>
       <translation>hiçbiri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="1171"/>
+=======
+      <location filename="../Action.cpp" line="1135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Run macro %1 (Shift+click to edit) keyboard shortcut: %2</source>
       <translation>%1 makrosunu çalıştır (düzenlemek için Shift+tıklayın) klavye kısayolu: %2</translation>
     </message>
@@ -6846,22 +8663,38 @@ Tüm verileri kaydetmeden çıkılsın mı?</translation>
   <context>
     <name>Gui::SearchBar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="784"/>
+=======
+      <location filename="../EditorView.cpp" line="817"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Previous</source>
       <translation>Önceki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="785"/>
+=======
+      <location filename="../EditorView.cpp" line="818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Next</source>
       <translation>Sonraki</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="786"/>
+=======
+      <location filename="../EditorView.cpp" line="819"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Case sensitive</source>
       <translation>Büyük/küçük harf duyarlı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../EditorView.cpp" line="787"/>
+=======
+      <location filename="../EditorView.cpp" line="820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Whole words</source>
       <translation>Tüm kelimeler</translation>
     </message>
@@ -6874,12 +8707,20 @@ Tüm verileri kaydetmeden çıkılsın mı?</translation>
   <context>
     <name>Gui::SelectModule</name>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1372"/>
+=======
+      <location filename="../FileDialog.cpp" line="977"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select Module</source>
       <translation>Modül Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1374"/>
+=======
+      <location filename="../FileDialog.cpp" line="979"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open %1 as</source>
       <translation>%1 Olarak açın</translation>
     </message>
@@ -7044,7 +8885,11 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>Gui::TaskView::TaskDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskView/TaskDialog.cpp" line="96"/>
+=======
+      <location filename="../TaskView/TaskDialog.cpp" line="95"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A dialog is already open in the task panel</source>
       <translation>Araç çubuğunda bir pencere zaten açık</translation>
     </message>
@@ -7066,7 +8911,11 @@ Başka bir dizin belirlemek ister misiniz?</translation>
     </message>
     <message>
       <location filename="../TaskView/TaskSelectLinkProperty.cpp" line="41"/>
+<<<<<<< HEAD
       <source>Edit Selection</source>
+=======
+      <source>edit selection</source>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <translation>Seçimi Düzenle</translation>
     </message>
   </context>
@@ -7128,226 +8977,399 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>Gui::Translator</name>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="211"/>
+=======
+      <location filename="Translator.cpp" line="185"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Afrikaans</source>
       <translation>Afrika dili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="212"/>
+=======
+      <location filename="Translator.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Arabic</source>
       <translation>Arapça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="213"/>
+=======
+      <location filename="Translator.cpp" line="187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Basque</source>
       <translation>Baskça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="214"/>
+=======
+      <location filename="Translator.cpp" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Belarusian</source>
       <translation>Belarusça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="215"/>
+=======
+      <location filename="Translator.cpp" line="189"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bulgarian</source>
       <translation>Bulgarca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="216"/>
+=======
+      <location filename="Translator.cpp" line="190"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Catalan</source>
       <translation>Katalanca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="217"/>
+=======
+      <location filename="Translator.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chinese (Simplified)</source>
       <oldsource>Chinese Simplified</oldsource>
       <translation>Çince (Basitleştirilmiş)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="218"/>
+=======
+      <location filename="Translator.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Chinese (Traditional)</source>
       <oldsource>Chinese Traditional</oldsource>
       <translation>Çince (Geleneksel)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="219"/>
+=======
+      <location filename="Translator.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Croatian</source>
       <translation>Hırvatça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="220"/>
+=======
+      <location filename="Translator.cpp" line="194"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Czech</source>
       <translation>Çekçe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="222"/>
+=======
+      <location filename="Translator.cpp" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dutch</source>
       <translation>Flemenkçe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="223"/>
+=======
+      <location filename="Translator.cpp" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>English</source>
       <translation>İngilizce</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="224"/>
+=======
+      <location filename="Translator.cpp" line="198"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Filipino</source>
       <translation>Filipince</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="225"/>
+=======
+      <location filename="Translator.cpp" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Finnish</source>
       <translation>Fince</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="226"/>
+=======
+      <location filename="Translator.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>French</source>
       <translation>Fransızca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="227"/>
+=======
+      <location filename="Translator.cpp" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Galician</source>
       <translation>Galiçya Dili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="229"/>
+=======
+      <location filename="Translator.cpp" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>German</source>
       <translation>Almanca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="230"/>
+=======
+      <location filename="Translator.cpp" line="204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Greek</source>
       <translation>Yunanca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="231"/>
+=======
+      <location filename="Translator.cpp" line="205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hungarian</source>
       <translation>Macarca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="232"/>
+=======
+      <location filename="Translator.cpp" line="206"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Indonesian</source>
       <translation>Endonezce</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="233"/>
+=======
+      <location filename="Translator.cpp" line="207"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Italian</source>
       <translation>İtalyanca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="234"/>
+=======
+      <location filename="Translator.cpp" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Japanese</source>
       <translation>Japonca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="235"/>
+=======
+      <location filename="Translator.cpp" line="209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Kabyle</source>
       <translation>Berberice</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="236"/>
+=======
+      <location filename="Translator.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Korean</source>
       <translation>Korece</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="237"/>
+=======
+      <location filename="Translator.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Lithuanian</source>
       <translation>Litvanyaca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="238"/>
+=======
+      <location filename="Translator.cpp" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Norwegian</source>
       <translation>Norveççe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="239"/>
+=======
+      <location filename="Translator.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Polish</source>
       <translation>Lehçe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="240"/>
+=======
+      <location filename="Translator.cpp" line="214"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Portuguese (Brazilian)</source>
       <oldsource>Portuguese, Brazilian</oldsource>
       <translation>Portekizce (Brezilya)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="241"/>
+=======
+      <location filename="Translator.cpp" line="215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Portuguese</source>
       <translation>Portekizce</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="242"/>
+=======
+      <location filename="Translator.cpp" line="216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Romanian</source>
       <translation>Romence</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="243"/>
+=======
+      <location filename="Translator.cpp" line="217"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Russian</source>
       <translation>Rusça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="244"/>
+=======
+      <location filename="Translator.cpp" line="218"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Serbian</source>
       <translation>Sırpça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="245"/>
+=======
+      <location filename="Translator.cpp" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Serbian (Latin)</source>
       <oldsource>Serbian, Latin</oldsource>
       <translation>Sırpça (Latin)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="246"/>
+=======
+      <location filename="Translator.cpp" line="220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slovak</source>
       <translation>Slovakça</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="247"/>
+=======
+      <location filename="Translator.cpp" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slovenian</source>
       <translation>Slovence</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="248"/>
+=======
+      <location filename="Translator.cpp" line="222"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spanish</source>
       <translation>İspanyolca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="249"/>
+=======
+      <location filename="Translator.cpp" line="223"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Spanish (Argentina)</source>
       <oldsource>Spanish, Argentina</oldsource>
       <translation>İspanyolca (Arjantin)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="250"/>
+=======
+      <location filename="Translator.cpp" line="224"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Swedish</source>
       <translation>İsveççe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="251"/>
+=======
+      <location filename="Translator.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turkish</source>
       <translation>Türkçe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="252"/>
+=======
+      <location filename="Translator.cpp" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ukrainian</source>
       <translation>Ukraynaca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="253"/>
+=======
+      <location filename="Translator.cpp" line="227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Valencian</source>
       <translation>Valensiya Dili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="254"/>
+=======
+      <location filename="Translator.cpp" line="228"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vietnamese</source>
       <translation>Vietnamca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="255"/>
+=======
+      <location filename="Translator.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malay</source>
       <translation>Malayca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="256"/>
       <source>Tamil</source>
       <translation>Tamilce</translation>
@@ -7364,26 +9386,45 @@ Başka bir dizin belirlemek ister misiniz?</translation>
     </message>
     <message>
       <location filename="Translator.cpp" line="221"/>
+=======
+      <location filename="Translator.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Danish</source>
       <translation>Danca</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.cpp" line="228"/>
+=======
+      <location filename="Translator.cpp" line="202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Georgian</source>
       <translation>Gürcüce</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.h" line="65"/>
+=======
+      <location filename="Translator.h" line="58"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Operating system</source>
       <translation>İşletim Sistemi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.h" line="66"/>
+=======
+      <location filename="Translator.h" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selected language</source>
       <translation>Seçilen dil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="Translator.h" line="67"/>
+=======
+      <location filename="Translator.h" line="60"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>C/POSIX</source>
       <translation>C/POSIX</translation>
     </message>
@@ -7391,7 +9432,11 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>Gui::TreePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="4251"/>
+=======
+      <location filename="../Tree.cpp" line="4108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Search</source>
       <translation>Ara</translation>
     </message>
@@ -7399,234 +9444,420 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>Gui::TreeWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1312"/>
+=======
+      <location filename="../Tree.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activate Document</source>
       <translation>Belgeyi Etkinleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1319"/>
+=======
+      <location filename="../Tree.cpp" line="1262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates document %1</source>
       <translation>%1 belgesini etkinleştirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1334"/>
+=======
+      <location filename="../Tree.cpp" line="1277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree Settings</source>
       <translation>Ağaç Ayarları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1338"/>
+=======
+      <location filename="../Tree.cpp" line="1281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Description</source>
       <translation>Açıklamayı Göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1339"/>
+=======
+      <location filename="../Tree.cpp" line="1282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Internal Name</source>
       <translation>İç Adı Göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1360"/>
+=======
+      <location filename="../Tree.cpp" line="1303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows an internal name column for items.</source>
       <translation>Öğeler için bir iç ad sütunu gösterir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1408"/>
+=======
+      <location filename="../Tree.cpp" line="1351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>Grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3400"/>
       <location filename="../Tree.cpp" line="3421"/>
+=======
+      <location filename="../Tree.cpp" line="3260"/>
+      <location filename="../Tree.cpp" line="3281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Hata</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3400"/>
+=======
+      <location filename="../Tree.cpp" line="3260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File does not exist.</source>
       <translation>Dosya mevcut değil.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3421"/>
+=======
+      <location filename="../Tree.cpp" line="3281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to open directory.</source>
       <translation>Dizin açılamadı.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3900"/>
+=======
+      <location filename="../Tree.cpp" line="3762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Labels &amp; Attributes</source>
       <translation>&amp;Etiketler ve Öznitelikler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3901"/>
+=======
+      <location filename="../Tree.cpp" line="3763"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Description</source>
       <translation>Açıklama</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3902"/>
+=======
+      <location filename="../Tree.cpp" line="3764"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Internal name</source>
       <translation>İç ad</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3904"/>
+=======
+      <location filename="../Tree.cpp" line="3766"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show Items Hidden in Tree View</source>
       <translation>Ağaç Görünümünde Gizlenen Öğeleri Göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3906"/>
+=======
+      <location filename="../Tree.cpp" line="3768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows items that are marked as 'hidden' in the tree view</source>
       <translation>Ağaç görünümünde 'gizli' olarak işaretlenen öğeleri gösterir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3909"/>
+=======
+      <location filename="../Tree.cpp" line="3771"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Visibility in Tree View</source>
       <translation>Ağaç Görünümünde Görünürlüğü Değiştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3914"/>
+=======
+      <location filename="../Tree.cpp" line="3776"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create Group</source>
       <translation>Grup Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3915"/>
+=======
+      <location filename="../Tree.cpp" line="3777"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a group</source>
       <translation>Bir grup oluşturur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3918"/>
+=======
+      <location filename="../Tree.cpp" line="3780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Renames object</source>
       <translation>Nesneyi yeniden adlandırır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3920"/>
+=======
+      <location filename="../Tree.cpp" line="3782"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Finish Editing</source>
       <translation>Düzenlemeyi Bitir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3921"/>
+=======
+      <location filename="../Tree.cpp" line="3783"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Finishes editing object</source>
       <translation>Nesne düzenlemesini bitirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3923"/>
+=======
+      <location filename="../Tree.cpp" line="3785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add Dependent Objects to Selection</source>
       <translation>Bağımlı Nesneleri Seçime Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3926"/>
+=======
+      <location filename="../Tree.cpp" line="3788"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close Document</source>
       <translation>Belgeyi Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3927"/>
+=======
+      <location filename="../Tree.cpp" line="3789"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Closes the document</source>
       <translation>Belgeyi kapatır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3932"/>
+=======
+      <location filename="../Tree.cpp" line="3793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reveals the current file location in Finder</source>
       <translation>Mevcut dosya konumunu Finder'da gösterir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3935"/>
+=======
+      <location filename="../Tree.cpp" line="3796"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the current file location</source>
       <translation>Mevcut dosya konumunu açar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3938"/>
+=======
+      <location filename="../Tree.cpp" line="3799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reload Document</source>
       <translation>Belgeyi Yeniden Yükle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3939"/>
+=======
+      <location filename="../Tree.cpp" line="3800"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reloads a partially loaded document</source>
       <translation>Kısmen yüklenmiş bir belgeyi yeniden yükler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3941"/>
+=======
+      <location filename="../Tree.cpp" line="3802"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip Recomputes</source>
       <translation>Yeniden Hesaplamaları Atla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3942"/>
+=======
+      <location filename="../Tree.cpp" line="3803"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables or disables the recomputations of document</source>
       <translation>Belgenin yeniden hesaplamalarını etkinleştirir veya devre dışı bırakır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3944"/>
+=======
+      <location filename="../Tree.cpp" line="3805"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Allow Partial Recomputes</source>
       <translation>Kısmi Yeniden Hesaplamalara İzin Ver</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3945"/>
+=======
+      <location filename="../Tree.cpp" line="3806"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables or disables the recomputating editing object when 'skip recomputation' is enabled</source>
       <translation>'Yeniden hesaplamayı atla' etkin olduğunda, düzenlenen nesnenin yeniden hesaplanmasını etkinleştirir veya devre dışı bırakır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3949"/>
+=======
+      <location filename="../Tree.cpp" line="3810"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mark to Recompute</source>
       <translation>Yeniden Hesaplanacak Olarak İşaretle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3950"/>
+=======
+      <location filename="../Tree.cpp" line="3811"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Marks this object to be recomputed</source>
       <translation>Bu nesneyi yeniden hesaplanacak olarak işaretler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3953"/>
+=======
+      <location filename="../Tree.cpp" line="3814"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recompute Object</source>
       <translation>Nesneyi Yeniden Hesapla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3954"/>
+=======
+      <location filename="../Tree.cpp" line="3815"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputes the selected object</source>
       <translation>Seçili nesneyi yeniden hesaplar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3911"/>
+=======
+      <location filename="../Tree.cpp" line="3773"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of selected items in the tree view</source>
       <translation>Ağaç görünümünde seçili öğelerin görünürlüğünü değiştirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="657"/>
+=======
+      <location filename="../Tree.cpp" line="739"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Search Objects</source>
       <translation>Nesneleri Ara</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="658"/>
+=======
+      <location filename="../Tree.cpp" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Searches for objects in the tree</source>
       <translation>Ağaçta nesneleri arar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="1341"/>
+=======
+      <location filename="../Tree.cpp" line="1284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows a description column for items. An item's description can be set by editing the 'label2' property.</source>
       <translation>Öğeler için bir açıklama sütunu gösterir. Bir öğenin açıklaması, 'label2' özelliği düzenlenerek ayarlanabilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3917"/>
       <location filename="../Tree.cpp" line="6604"/>
+=======
+      <location filename="../Tree.cpp" line="3779"/>
+      <location filename="../Tree.cpp" line="6373"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename</source>
       <translation>Yeniden Adlandır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3924"/>
+=======
+      <location filename="../Tree.cpp" line="3786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds all dependent objects to the selection</source>
       <translation>Seçilecek tüm bağıntılı nesneleri ekler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3931"/>
+=======
+      <location filename="../Tree.cpp" line="3792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reveal in Finder</source>
       <translation>Finder'da Göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="3934"/>
+=======
+      <location filename="../Tree.cpp" line="3795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open File Location</source>
       <translation>Dosya Konumunu Aç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="6572"/>
+=======
+      <location filename="../Tree.cpp" line="6341"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> (but must be executed)</source>
       <translation> (ama çalıştırılmalı)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="6575"/>
+=======
+      <location filename="../Tree.cpp" line="6344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1, Internal name: %2</source>
       <translation>%1, Dahili adı: %2</translation>
     </message>
@@ -7657,17 +9888,34 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>Gui::View3DInventor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventor.cpp" line="290"/>
+=======
+      <location filename="../View3DInventor.cpp" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export PDF</source>
       <translation>PDF olarak dışa aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventor.cpp" line="334"/>
+=======
+      <location filename="../View3DInventor.cpp" line="290"/>
+      <source>PDF file</source>
+      <translation>PDF dosyası</translation>
+    </message>
+    <message>
+      <location filename="../View3DInventor.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opening file failed</source>
       <translation>Dosya açılamadı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventor.cpp" line="335"/>
+=======
+      <location filename="../View3DInventor.cpp" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Can't open file '%1' for writing.</source>
       <translation>Dosya '%1' yazmak için açılamıyor.</translation>
     </message>
@@ -7675,12 +9923,20 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>Gui::WorkbenchGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="738"/>
+=======
+      <location filename="../Action.cpp" line="716"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the '%1' workbench</source>
       <translation>'%1' çalışma tezgâhını seçer</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Action.cpp" line="766"/>
+=======
+      <location filename="../Action.cpp" line="744"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select the '%1' workbench</source>
       <translation>'%1' çalışma tezgâhını seçin</translation>
     </message>
@@ -7688,37 +9944,65 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>MAC_APPLICATION_MENU</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="617"/>
+=======
+      <location filename="../Workbench.cpp" line="614"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Services</source>
       <translation>Hizmetler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="618"/>
+=======
+      <location filename="../Workbench.cpp" line="615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide %1</source>
       <translation>%1 Gizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="619"/>
+=======
+      <location filename="../Workbench.cpp" line="616"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide Others</source>
       <translation>Diğerlerini Gizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="620"/>
+=======
+      <location filename="../Workbench.cpp" line="617"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show All</source>
       <translation>Tümünü Göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="621"/>
+=======
+      <location filename="../Workbench.cpp" line="618"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preferences</source>
       <translation>Tercihler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="622"/>
+=======
+      <location filename="../Workbench.cpp" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Quit %1</source>
       <translation>Çık %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="623"/>
+=======
+      <location filename="../Workbench.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>About %1</source>
       <translation>%1 Hakkında</translation>
     </message>
@@ -7832,14 +10116,24 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>PropertyListDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1424"/>
       <location filename="../Widgets.cpp" line="1439"/>
+=======
+      <location filename="../Widgets.cpp" line="1420"/>
+      <location filename="../Widgets.cpp" line="1435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid input</source>
       <translation>Geçersiz giriş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1425"/>
       <location filename="../Widgets.cpp" line="1440"/>
+=======
+      <location filename="../Widgets.cpp" line="1421"/>
+      <location filename="../Widgets.cpp" line="1436"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Input in line %1 is not a number</source>
       <translation>Giriş hattı %1 içinde bir sayı değil</translation>
     </message>
@@ -7847,16 +10141,25 @@ Başka bir dizin belirlemek ister misiniz?</translation>
   <context>
     <name>QDockWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="736"/>
+=======
+      <location filename="../MainWindow.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tasks</source>
       <translation>Görevler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="753"/>
+=======
+      <location filename="../MainWindow.cpp" line="608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection View</source>
       <translation>Seçim görünümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="771"/>
       <source>Report View</source>
       <translation>Rapor Görünümü</translation>
@@ -7868,26 +10171,55 @@ Başka bir dizin belirlemek ister misiniz?</translation>
     </message>
     <message>
       <location filename="../MainWindow.cpp" line="818"/>
+=======
+      <location filename="../MainWindow.cpp" line="626"/>
+      <source>Report View</source>
+      <translation>Rapor Görünümü</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="646"/>
+      <source>Python Console</source>
+      <translation>Python Konsolu</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="703"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View</source>
       <translation>Ağaç Görünümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="848"/>
+=======
+      <location filename="../MainWindow.cpp" line="733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Property View</source>
       <translation>Özellik Görünümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="877"/>
+=======
+      <location filename="../MainWindow.cpp" line="762"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Task List</source>
       <translation>Görev Listesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="906"/>
+=======
+      <location filename="../MainWindow.cpp" line="791"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Model</source>
       <translation>Model</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="936"/>
+=======
+      <location filename="../MainWindow.cpp" line="821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>DAG View</source>
       <translation>DAG görünümü</translation>
     </message>
@@ -7901,125 +10233,222 @@ Başka bir dizin belirlemek ister misiniz?</translation>
       <location filename="../resource.cpp" line="79"/>
       <location filename="../resource.cpp" line="80"/>
       <location filename="../resource.cpp" line="81"/>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="82"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>General</source>
       <translation>Genel</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../resource.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../resource.cpp" line="83"/>
       <location filename="../resource.cpp" line="84"/>
       <location filename="../resource.cpp" line="85"/>
       <location filename="../resource.cpp" line="86"/>
       <location filename="../resource.cpp" line="87"/>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="88"/>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Display</source>
       <translation>Ekran</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="89"/>
+=======
+      <location filename="../resource.cpp" line="88"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Workbenches</source>
       <translation>Çalışma tezgâhları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="90"/>
+=======
+      <location filename="../resource.cpp" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import-Export</source>
       <translation>İçe-Dışa Aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../resource.cpp" line="91"/>
       <location filename="../resource.cpp" line="92"/>
       <location filename="../resource.cpp" line="93"/>
+=======
+      <location filename="../resource.cpp" line="90"/>
+      <location filename="../resource.cpp" line="91"/>
+      <location filename="../resource.cpp" line="92"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Python</source>
       <translation>Python</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="828"/>
       <location filename="../Application.cpp" line="935"/>
       <location filename="../Application.cpp" line="1022"/>
+=======
+      <location filename="../Application.cpp" line="805"/>
+      <location filename="../Application.cpp" line="914"/>
+      <location filename="../Application.cpp" line="1001"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unknown filetype</source>
       <translation>Bilinmeyen dosya türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="829"/>
       <location filename="../Application.cpp" line="936"/>
+=======
+      <location filename="../Application.cpp" line="806"/>
+      <location filename="../Application.cpp" line="915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot open unknown filetype: %1</source>
       <translation>Bilinmeyen dosya türünü açamıyor: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1012"/>
+=======
+      <location filename="../Application.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export failed</source>
       <translation>Dışa aktarım başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1023"/>
+=======
+      <location filename="../Application.cpp" line="1002"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot save to unknown filetype: %1</source>
       <translation>Bilinmeyen dosya türü kaydedilemiyor: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1221"/>
+=======
+      <location filename="../Application.cpp" line="1200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputation required</source>
       <translation>Yeniden hesaplama gerekli</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1222"/>
+=======
+      <location filename="../Application.cpp" line="1201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Some documents require recomputation for migration purposes. It is highly recommended to perform a recomputation before any modification to avoid compatibility problems.
 
 Recompute now?</source>
       <translation>Bazı belgeler, taşıma amacıyla yeniden hesaplama gerektirir. Uyumluluk sorunlarını önlemek için herhangi bir değişiklik yapmadan önce yeniden hesaplama yapılması şiddetle tavsiye edilir.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1248"/>
+=======
+      <location filename="../Application.cpp" line="1227"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to recompute some documents.
 Check the report view for more details.</source>
       <translation>Bazı belgeler yeniden hesaplanamadı.
 Ayrıntılar için Rapor Görünümünü kontrol edin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1247"/>
+=======
+      <location filename="../Application.cpp" line="1226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recompute error</source>
       <translation>Yeniden hesaplama hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1997"/>
+=======
+      <location filename="../Application.cpp" line="1923"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Workbench failure</source>
       <translation>Çalışma tezgâhı hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1998"/>
+=======
+      <location filename="../Application.cpp" line="1924"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1</source>
       <translation>%1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../StartupProcess.cpp" line="370"/>
+=======
+      <location filename="../StartupProcess.cpp" line="373"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This system is running OpenGL %1.%2. FreeCAD requires OpenGL 2.0 or above. Upgrade the graphics driver and/or card as required.</source>
       <translation>Bu sistemde OpenGL %1.%2 çalışıyor. FreeCAD, OpenGL 2.0 veya üzerini gerektirir. Gerekirse grafik sürücüsünü ve/veya kartınızı yükseltin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../StartupProcess.cpp" line="381"/>
+=======
+      <location filename="../StartupProcess.cpp" line="384"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid OpenGL Version</source>
       <translation>Geçersiz OpenGL Sürümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="454"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrating</source>
       <translation>Taşınıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="562"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="457"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restarting</source>
       <translation>Yeniden başlatılıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="429"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="411"/>
+      <source>Migration failed</source>
+      <translation>Taşıma başarısız oldu</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="374"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Estimated size of data to copy: %1</source>
       <translation>Kopyalanacak verinin tahmini boyutu: %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="455"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="397"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migrating configuration data and addons…</source>
       <translation>Yapılandırma verileri ve eklentiler taşınıyor…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="492"/>
       <source>Migration Completed With Warnings</source>
       <translation>Taşıma Uyarılarla Tamamlandı</translation>
@@ -8039,36 +10468,66 @@ Ayrıntılar için Rapor Görünümünü kontrol edin.</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="517"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migration failed. See the Report View for details.</source>
       <translation>Taşıma başarısız oldu. Ayrıntılar için Rapor Görünümüne bakın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="561"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> → Restarting…</source>
       <translation> → Yeniden başlatılıyor…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Command.cpp" line="520"/>
+=======
+      <location filename="../Command.cpp" line="524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exception</source>
       <translation>İstisna</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1261"/>
       <location filename="../Application.cpp" line="1276"/>
+=======
+      <location filename="../CommandDoc.cpp" line="139"/>
+      <source>Open document</source>
+      <translation>Belgeyi aç</translation>
+    </message>
+    <message>
+      <location filename="../Application.cpp" line="1240"/>
+      <location filename="../Application.cpp" line="1255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>Hata</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1262"/>
+=======
+      <location filename="../Application.cpp" line="1241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There were errors while loading the file. Some data might have been modified or not recovered at all. Look in the report view for more specific information about the objects involved.</source>
       <translation>Dosya yüklenirken hatalar oluştu. Bazı veriler değiştirilmiş veya hiç kurtarılmamış olabilir. İlgili nesneler hakkında daha ayrıntılı bilgi için rapor görünümüne bakın.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="1277"/>
+=======
+      <location filename="../Application.cpp" line="1256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There were serious errors while loading the file. Some data might have been modified or not recovered at all. Saving the project will most likely result in loss of data.</source>
       <translation>Dosyayı yüklerken ciddi hatalar oluştu. Bazı veriler değiştirilmiş veya hiç kurtarılmamış olabilir. Projenin kaydedilmesi büyük olasılıkla veri kaybına neden olacaktır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="104"/>
       <location filename="../CommandDoc.cpp" line="230"/>
       <source>Supported formats</source>
@@ -8109,20 +10568,42 @@ Ayrıntılar için Rapor Görünümünü kontrol edin.</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="1017"/>
+=======
+      <location filename="../CommandDoc.cpp" line="236"/>
+      <source>Import file</source>
+      <translation>Dosyayı içe aktar</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="518"/>
+      <source>Export file</source>
+      <translation>Dosyayı Dışarı Aktar</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="970"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Printing…</source>
       <translation>Yazdırılıyor…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1080"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1033"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exporting PDF…</source>
       <translation>PDF dışa aktarılıyor…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1370"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported object contains an external link. Save the document.at least once before exporting.</source>
       <translation>Dışa aktarılan nesne harici bir bağlantı içeriyor. Dışa aktarmadan önce belgeyi en az bir kez kaydedin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1670"/>
       <location filename="../CommandDoc.cpp" line="1680"/>
       <source>Delete Failed</source>
@@ -8130,101 +10611,186 @@ Ayrıntılar için Rapor Görünümünü kontrol edin.</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="2178"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2004"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy Selected</source>
       <translation>Seçileni Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2179"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2005"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy Active Document</source>
       <translation>Etkin Belgeyi Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2180"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2006"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy All Documents</source>
       <translation>Tüm Belgeleri Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2298"/>
       <source>Expression Error</source>
       <translation>İfade Hatası</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="2299"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to parse some of the expressions.
 Check the report view for more details.</source>
       <translation>Bazı ifadeler ayrıştırılamadı.
 Ayrıntılar için Rapor Görünümünü kontrol edin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1734"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1322"/>
+      <source>Unsaved document</source>
+      <translation>Kaydedilmemiş belge</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="1577"/>
+      <location filename="../CommandDoc.cpp" line="1585"/>
+      <source>Delete failed</source>
+      <translation>Silme başarısız</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="1642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency error</source>
       <translation>Bağımlılık hatası</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2181"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2007"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Paste</source>
       <translation>Yapıştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2333"/>
+=======
+      <location filename="../CommandDoc.cpp" line="2124"/>
+      <source>Expression error</source>
+      <translation>İfade hatası</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="2158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to paste expressions</source>
       <translation>İfadeleri yapıştırma başarısız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="107"/>
+=======
+      <location filename="../CommandStd.cpp" line="103"/>
+      <location filename="../CommandStd.cpp" line="108"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot load workbench</source>
       <translation>Çalışma tezgâhı yüklenemiyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="112"/>
       <source>Cannot Load Workbench</source>
       <translation type="unfinished">Cannot Load Workbench</translation>
     </message>
     <message>
       <location filename="../CommandStd.cpp" line="113"/>
+=======
+      <location filename="../CommandStd.cpp" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A general error occurred while loading the workbench</source>
       <translation>Çalışma tezgâhı yüklenirken genel bir hata oluştu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="359"/>
+=======
+      <location filename="../CommandStd.cpp" line="353"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart in Safe Mode</source>
       <translation>Güvenli Kipte Yeniden Başlat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="360"/>
+=======
+      <location filename="../CommandStd.cpp" line="354"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart FreeCAD and enter safe mode?</source>
       <translation>FreeCAD yeniden başlatılsın ve güvenli kipe girilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="362"/>
+=======
+      <location filename="../CommandStd.cpp" line="356"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Safe mode temporarily disables the configuration and addons.</source>
       <translation>Güvenli kip, yapılandırmayı ve eklentileri geçici olarak devre dışı bırakır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="348"/>
       <location filename="../CommandView.cpp" line="626"/>
+=======
+      <location filename="../CommandView.cpp" line="347"/>
+      <location filename="../CommandView.cpp" line="618"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Save Views…</source>
       <translation>&amp;Görünümleri Kaydet…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="350"/>
       <location filename="../CommandView.cpp" line="627"/>
+=======
+      <location filename="../CommandView.cpp" line="349"/>
+      <location filename="../CommandView.cpp" line="619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Load Views…</source>
       <translation>&amp;Görünümleri Yükle…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="353"/>
       <location filename="../CommandView.cpp" line="628"/>
+=======
+      <location filename="../CommandView.cpp" line="352"/>
+      <location filename="../CommandView.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>F&amp;reeze View</source>
       <translation>Görünümü &amp;Dondur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="356"/>
       <location filename="../CommandView.cpp" line="629"/>
+=======
+      <location filename="../CommandView.cpp" line="355"/>
+      <location filename="../CommandView.cpp" line="621"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Clear Views</source>
       <translation>&amp;Görünümleri Temizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="461"/>
       <source>Save Frozen Views</source>
       <translation>Dondurulmuş Görünümleri Kaydet</translation>
@@ -8238,37 +10804,80 @@ Ayrıntılar için Rapor Görünümünü kontrol edin.</translation>
     <message>
       <location filename="../CommandView.cpp" line="463"/>
       <location filename="../CommandView.cpp" line="525"/>
+=======
+      <location filename="../CommandView.cpp" line="404"/>
+      <location filename="../CommandView.cpp" line="576"/>
+      <source>Restore view &amp;%1</source>
+      <translation>Görünümü geri yükle &amp;%1</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="436"/>
+      <source>Save frozen views</source>
+      <translation>Dondurulmuş görünümleri Kaydet</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="438"/>
+      <location filename="../CommandView.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frozen views</source>
       <translation>Donmuş kez bakıldı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="508"/>
+=======
+      <location filename="../CommandView.cpp" line="482"/>
+      <location filename="../CommandView.cpp" line="509"/>
+      <source>Restore views</source>
+      <translation>Görünümleri Geri Yükle</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="483"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Importing the restored views would clear the already stored views.
 Continue?</source>
       <translation>Geri yüklenen görünümlerin içe aktarılması, zaten kaydedilmiş görünümleri temizleyecektir.
 Devam edilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="523"/>
       <source>Restore Frozen Views</source>
       <translation type="unfinished">Restore Frozen Views</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="2160"/>
+=======
+      <location filename="../CommandView.cpp" line="2064"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Image</source>
       <translation>Görüntüyü Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2334"/>
+=======
+      <location filename="../CommandView.cpp" line="2240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose an Image File to Open</source>
       <translation>Açılacak Bir Görüntü Dosyası Seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="535"/>
+=======
+      <location filename="../CommandView.cpp" line="498"/>
+      <source>Restore frozen views</source>
+      <translation>Dondurulmuş görünümleri geri yükle</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="510"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot open file '%1'.</source>
       <translation>'%1' dosyası açılamıyor.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="409"/>
       <location filename="../CommandView.cpp" line="601"/>
       <location filename="../CommandView.cpp" line="633"/>
@@ -8282,16 +10891,68 @@ Devam edilsin mi?</translation>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="906"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="951"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="998"/>
+=======
+      <location filename="../CommandView.cpp" line="625"/>
+      <source>Restore View &amp;%1</source>
+      <translation>Görünümü &amp;%1 Geri Yükle</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2055"/>
+      <source>files</source>
+      <translation>dosyalar</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="582"/>
+      <source>New sub-group</source>
+      <translation>Yeni alt grup</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="583"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="819"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="864"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="912"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="957"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1004"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter the name:</source>
       <translation>Adı girin:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1026"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1412"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="818"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="844"/>
+      <source>New text item</source>
+      <translation>Yeni metin öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="863"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="889"/>
+      <source>New integer item</source>
+      <translation>Yeni tamsayı öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="911"/>
+      <source>New unsigned item</source>
+      <translation>Yeni mutlak değerli öğe</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="956"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="982"/>
+      <source>New float item</source>
+      <translation>Yeni float öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1032"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1418"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose an item:</source>
       <translation>Bir öğe seçin:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="576"/>
       <source>New Sub-Group</source>
       <translation>Yeni Alt Grup</translation>
@@ -8305,10 +10966,21 @@ Devam edilsin mi?</translation>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="839"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1191"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1003"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1031"/>
+      <source>New boolean item</source>
+      <translation>Yeni Boole öğesi</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="845"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter text:</source>
       <translation>Metin girin:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="857"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="883"/>
       <source>New Integer Item</source>
@@ -8321,16 +10993,29 @@ Devam edilsin mi?</translation>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1244"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1296"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1353"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="890"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="935"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="983"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1250"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1302"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1359"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter number:</source>
       <translation>Sayı girin:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="905"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="930"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="936"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Unsigned Item</source>
       <translation>Yeni İşaretsiz Tamsayı Öğesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="950"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="976"/>
       <source>New Float Item</source>
@@ -8344,34 +11029,60 @@ Devam edilsin mi?</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1099"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1105"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rename group</source>
       <translation>Grubu yeniden adlandır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1100"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1106"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group '%1' cannot be renamed.</source>
       <translation>'%1' grubu yeniden adlandırılamaz.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1107"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Existing group</source>
       <translation>Mevcut grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1108"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group '%1' already exists.</source>
       <translation>'%1' Grubu zaten var.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1190"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1243"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1352"/>
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1411"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1196"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1249"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1358"/>
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1417"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change value</source>
       <translation>Değeri değiştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgParameterImp.cpp" line="1297"/>
+=======
+      <location filename="../Dialogs/DlgParameterImp.cpp" line="1303"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Change Value</source>
       <translation>Değeri Değiştir</translation>
     </message>
@@ -8419,7 +11130,11 @@ Devam edilsin mi?</translation>
       <translation>Çok fazla rahatsız etmeyen bildirim açıldı. Bildirimler atlanıyor!</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1415"/>
+=======
+      <location filename="../Document.cpp" line="1419"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Identical physical path detected. It may cause unwanted overwrite of existing document!
 
 </source>
@@ -8428,44 +11143,78 @@ Devam edilsin mi?</translation>
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1416"/>
+=======
+      <location filename="../Document.cpp" line="1420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Are you sure you want to continue?</source>
       <translation>Devam etmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1442"/>
+=======
+      <location filename="../Document.cpp" line="1446"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Check report view for more…</source>
       <translation>Daha fazlası için Rapor Görünümünü kontrol edin…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1446"/>
+=======
+      <location filename="../Document.cpp" line="1450"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Physical path:</source>
       <translation>Fiziksel yol:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1447"/>
       <location filename="../Document.cpp" line="1454"/>
+=======
+      <location filename="../Document.cpp" line="1451"/>
+      <location filename="../Document.cpp" line="1458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document:</source>
       <translation>Belge:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1448"/>
       <location filename="../Document.cpp" line="1455"/>
+=======
+      <location filename="../Document.cpp" line="1452"/>
+      <location filename="../Document.cpp" line="1459"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Path:</source>
       <translation>Yol:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1466"/>
+=======
+      <location filename="../Document.cpp" line="1470"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Identical physical path</source>
       <translation>Özdeş fiziksel yol</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1478"/>
+=======
+      <location filename="../Document.cpp" line="1482"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Could not save document</source>
       <translation>Belge kaydedilemedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1479"/>
+=======
+      <location filename="../Document.cpp" line="1483"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There was an issue trying to save the file. This may be because some of the parent folders do not exist, or you do not have sufficient permissions, or for other reasons. Error details:
 
 "%1"
@@ -8478,13 +11227,20 @@ Would you like to save the file with a different name?</source>
 Dosyayı farklı bir adla kaydetmek ister misiniz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1493"/>
       <location filename="../Document.cpp" line="1750"/>
       <location filename="../Document.cpp" line="1859"/>
+=======
+      <location filename="../Document.cpp" line="1497"/>
+      <location filename="../Document.cpp" line="1655"/>
+      <location filename="../Document.cpp" line="1757"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving aborted</source>
       <translation>Kaydetme iptal edildi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1544"/>
       <source>File Created with Older FreeCAD Version</source>
       <translation>Eski FreeCAD Sürümüyle Oluşturulmuş Dosya</translation>
@@ -8531,89 +11287,169 @@ Use 'Save As…' to preserve the original file.
     </message>
     <message>
       <location filename="../Document.cpp" line="1632"/>
+=======
+      <location filename="../Document.cpp" line="1543"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save dependent files</source>
       <translation>Bağımlı dosyaları kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1633"/>
+=======
+      <location filename="../Document.cpp" line="1544"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The file contains external dependencies. Do you want to save the dependent files, too?</source>
       <translation>Dosya dış bağımlılıklar içeriyor. Bağımlı dosyaları da kaydetmek istiyor musunuz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1679"/>
       <location filename="../Document.cpp" line="1743"/>
+=======
+      <location filename="../Document.cpp" line="1590"/>
+      <location filename="../Document.cpp" line="1648"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saving document failed</source>
       <translation>Belge kaydetme başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1694"/>
+=======
+      <location filename="../Document.cpp" line="1605"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save document under new filename…</source>
       <translation>Belgeyi yeni bir dosya adıyla kaydet…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1827"/>
+=======
+      <location filename="../Document.cpp" line="1732"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save a copy of the document under new filename…</source>
       <translation>Belgenin bir kopyasını yeni bir dosya adıyla kaydet…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1709"/>
       <location filename="../Document.cpp" line="1839"/>
+=======
+      <location filename="../Document.cpp" line="1614"/>
+      <location filename="../Document.cpp" line="1737"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save %1 Document</source>
       <translation>%1 Belgeyi Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1765"/>
       <location filename="../Document.cpp" line="1815"/>
+=======
+      <location filename="../Document.cpp" line="1616"/>
+      <source>Document</source>
+      <translation>Belge</translation>
+    </message>
+    <message>
+      <location filename="../Document.cpp" line="1670"/>
+      <location filename="../Document.cpp" line="1720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to save document</source>
       <translation>Belgeyi kaydetme başarısız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="1766"/>
+=======
+      <location filename="../Document.cpp" line="1671"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Documents contains cyclic dependencies. Do you still want to save them?</source>
       <translation>Belgeler döngüsel bağımlılıklar içeriyor. Yine de bunları kaydetmek istiyor musunuz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2504"/>
+=======
+      <location filename="../Document.cpp" line="1739"/>
+      <source>%1 document (*.FCStd)</source>
+      <translation>%1 belgesi (*. FCStd)</translation>
+    </message>
+    <message>
+      <location filename="../Document.cpp" line="2413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document not closable</source>
       <translation>Belge kapatılamıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2505"/>
+=======
+      <location filename="../Document.cpp" line="2414"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document is not closable for the moment.</source>
       <translation>Belge şu an için kapatılamıyor.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2545"/>
+=======
+      <location filename="../Document.cpp" line="2454"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to save document '%1'. Would you like to cancel the closure?</source>
       <translation>'%1' belgesi kaydedilemedi. Kapatmayı iptal etmek ister misiniz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2547"/>
+=======
+      <location filename="../Document.cpp" line="2456"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Document saving failed. Would you like to cancel the closure?</source>
       <translation>Belge kaydetme başarısız oldu. Kapatmayı iptal etmek ister misiniz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2552"/>
+=======
+      <location filename="../Document.cpp" line="2461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unable to save document</source>
       <translation>Belge kaydedilemiyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2922"/>
+=======
+      <location filename="../Document.cpp" line="2818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Undo</source>
       <translation>Geri al</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2922"/>
+=======
+      <location filename="../Document.cpp" line="2818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Redo</source>
       <translation>Yinele</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2925"/>
+=======
+      <location filename="../Document.cpp" line="2821"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>There are grouped transactions in the following documents with other preceding transactions</source>
       <translation>Aşağıdaki belgelerde, diğer önceki işlemlerle gruplanmış işlemler var</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Document.cpp" line="2930"/>
+=======
+      <location filename="../Document.cpp" line="2826"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose 'Yes' to roll back all preceding transactions.
 Choose 'No' to roll back in the active document only.
 Choose 'Abort' to abort</source>
@@ -8681,204 +11517,377 @@ Yalnızca etkin belgedeki işlemleri geri almak için 'Hayır'ı seçin.
       <translation>Sistem tarayıcı açılamıyor.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventorViewer.cpp" line="3294"/>
+=======
+      <location filename="../View3DInventorViewer.cpp" line="2567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Out of memory</source>
       <translation>Yetersiz bellek</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../View3DInventorViewer.cpp" line="3295"/>
+=======
+      <location filename="../View3DInventorViewer.cpp" line="2568"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not enough memory available to display the data.</source>
       <translation>Verileri görüntülemek için yetersiz bellek.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../WidgetFactory.cpp" line="446"/>
       <location filename="../WidgetFactory.cpp" line="465"/>
+=======
+      <location filename="../WidgetFactory.cpp" line="445"/>
+      <location filename="../WidgetFactory.cpp" line="464"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot find file %1</source>
       <translation>%1 Dosyası bulunamıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../WidgetFactory.cpp" line="453"/>
+=======
+      <location filename="../WidgetFactory.cpp" line="452"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cannot find file %1 neither in %2 nor in %3</source>
       <translation>%1 Dosyası %2 veya %3 içinde bulunamıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Navigation/NavigationStyle.cpp" line="2588"/>
+=======
+      <location filename="../Navigation/NavigationStyle.cpp" line="2084"/>
+      <source>Navigation styles</source>
+      <translation>Gezinme şekilleri</translation>
+    </message>
+    <message>
+      <location filename="../Navigation/NavigationStyle.cpp" line="2137"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clarify Selection</source>
       <translation>Seçimi Netleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1369"/>
       <location filename="../MainWindow.cpp" line="1001"/>
+=======
+      <location filename="../ViewProviderDragger.cpp" line="127"/>
+      <location filename="../ViewProviderLink.cpp" line="3184"/>
+      <source>Transform</source>
+      <translation>Dönüştür</translation>
+    </message>
+    <message>
+      <location filename="../MainWindow.cpp" line="886"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unsaved Document</source>
       <translation>Kaydedilmemiş Belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1005"/>
+=======
+      <location filename="../MainWindow.cpp" line="890"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save all changes to document '%1' before closing?</source>
       <translation>Kapatmadan önce '%1' belgesindeki tüm değişiklikler kaydedilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1006"/>
+=======
+      <location filename="../MainWindow.cpp" line="891"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save all changes to document before closing?</source>
       <translation>Kapatmadan önce belgedeki tüm değişiklikler kaydedilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1010"/>
+=======
+      <location filename="../MainWindow.cpp" line="895"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Otherwise, all changes will be lost.</source>
       <translation>Aksi halde tüm değişiklikler kaybolacaktır.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1136"/>
+=======
+      <location filename="../MainWindow.cpp" line="1021"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%1 Document(s) not saved</source>
       <translation>%1 belge kaydedilmedi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1137"/>
+=======
+      <location filename="../MainWindow.cpp" line="1022"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Some documents could not be saved. Cancel closing?</source>
       <translation>Bazı belgeler kaydedilemedi. Kapatma işlemi iptal edilsin mi?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="566"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete macro</source>
       <translation>Makroyu sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="567"/>
+=======
+      <location filename="../Dialogs/DlgMacroExecuteImp.cpp" line="555"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not allowed to delete system-wide macros</source>
       <translation>Sistemde makrolar silmek için izin verilmez</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Inventor/Draggers/SoLinearDragger.cpp" line="283"/>
+=======
+      <location filename="../Inventor/Draggers/SoLinearDragger.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Translation:</source>
       <translation>Ötele:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Inventor/Draggers/SoPlanarDragger.cpp" line="281"/>
+=======
+      <location filename="../Inventor/Draggers/SoPlanarDragger.cpp" line="280"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Translation XY:</source>
       <translation>XY Öteleme:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Inventor/Draggers/SoRotationDragger.cpp" line="265"/>
+=======
+      <location filename="../Inventor/Draggers/SoRotationDragger.cpp" line="263"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotation:</source>
       <translation>Döndürme:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="107"/>
       <location filename="../CommandLink.cpp" line="125"/>
+=======
+      <location filename="../CommandLink.cpp" line="105"/>
+      <location filename="../CommandLink.cpp" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simple Group</source>
       <translation>Basit Grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="109"/>
       <location filename="../CommandLink.cpp" line="126"/>
+=======
+      <location filename="../CommandLink.cpp" line="107"/>
+      <location filename="../CommandLink.cpp" line="124"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group With Links</source>
       <translation>Bağlantılar İçeren Grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="111"/>
       <location filename="../CommandLink.cpp" line="127"/>
+=======
+      <location filename="../CommandLink.cpp" line="109"/>
+      <location filename="../CommandLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group With Transform Links</source>
       <translation>Dönüşüm Bağlantıları İçeren Grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="244"/>
+=======
+      <location filename="../CommandLink.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create link group failed</source>
       <translation>Başarısız bağlantı grubu oluşturma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="322"/>
+=======
+      <location filename="../CommandLink.cpp" line="328"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create link failed</source>
       <translation>Başarısız bağlantı oluşturma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="427"/>
+=======
+      <location filename="../CommandLink.cpp" line="415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to create relative link</source>
       <translation>Bağıl bağlantı oluşturma başarısız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="577"/>
+=======
+      <location filename="../CommandLink.cpp" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unlink failed</source>
       <translation>Başarısız bağlantı çözme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="577"/>
+=======
+      <location filename="../CommandLink.cpp" line="559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replace link failed</source>
       <translation>Başarısız bağlantı değiştirme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="723"/>
+=======
+      <location filename="../CommandLink.cpp" line="705"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to import links</source>
       <translation>Bağlantıları içe aktarma başarısız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="769"/>
+=======
+      <location filename="../CommandLink.cpp" line="751"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to import all links</source>
       <translation>Tüm bağlantıların içe aktarılması başarısız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="984"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="977"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Add property</source>
       <translation>Özellik ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgAddProperty.cpp" line="985"/>
+=======
+      <location filename="../Dialogs/DlgAddProperty.cpp" line="978"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Failed to add property to '%1': %2</source>
       <translation>'%1' öğesine özellik eklenemedi: %2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="2776"/>
       <location filename="../Tree.cpp" line="3173"/>
+=======
+      <location filename="../Tree.cpp" line="2638"/>
+      <location filename="../Tree.cpp" line="3034"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Drag &amp; drop failed</source>
       <translation>&amp;Sürükle ve bırak başarısız oldu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="1015"/>
       <location filename="../ViewProviderLink.cpp" line="3025"/>
+=======
+      <location filename="../MainWindow.cpp" line="900"/>
+      <location filename="../ViewProviderLink.cpp" line="2999"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Apply to all</source>
       <translation>Tümüne uygula</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="2999"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="2973"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Setup Configurable Object</source>
       <translation>Yapılandırılabilir Nesneyi Ayarla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3001"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="2975"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects which object to copy or exclude when configuration changes. All external linked objects are excluded by default.</source>
       <translation>Yapılandırma değiştiğinde hangi nesnenin kopyalanacağını veya hariç tutulacağını seçer. Tüm harici bağlı nesneler varsayılan olarak hariç tutulur.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3023"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="2997"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select which objects to copy when the configuration is changed</source>
       <translation>Yapılandırma değiştirildiğinde kopyalanacak nesneleri seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3026"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3000"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies the setting to all links</source>
       <translation>Ayarı tüm bağlantılara uygular</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3087"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy on Change</source>
       <translation>Değişiklikte Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3088"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable</source>
       <translation>Etkinleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3090"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3056"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable auto copy of linked object when its configuration is changed</source>
       <translation>Yapılandırması değiştiğinde bağlı nesnenin otomatik kopyalanmasını etkinleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3106"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3072"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tracking</source>
       <translation>İzleme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3108"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3074"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copies the linked object when its configuration is changed.
 Also auto redo the copy if the original linked object is changed.
 </source>
@@ -8887,17 +11896,29 @@ Ayrıca orijinal bağlı nesne değiştirildiğinde kopyayı otomatik olarak yen
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3128"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3094"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Disable Copy on Change</source>
       <translation>Değişiklikte Kopyalamayı Devre Dışı Bırak</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3146"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3112"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Refresh Configurable Object</source>
       <translation>Yapılandırılabilir Nesneyi Yenile</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3148"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3114"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Synchronizes the original configurable source object by
 creating a new deep copy. Any changes made to
 the current copy will be lost.
@@ -8908,28 +11929,54 @@ her türlü değişiklik kaybolacaktır.
 </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3190"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Array Elements</source>
       <translation>Dizi Elemanlarını Göster/Gizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3203"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes whether to show each link array element as individual objects</source>
       <translation>Bağlantı dizisindeki her elemanın ayrı nesneler olarak gösterilip gösterilmeyeceğini değiştirir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderLink.cpp" line="3212"/>
       <location filename="../ViewProviderLink.cpp" line="3218"/>
+=======
+      <location filename="../ViewProviderLink.cpp" line="3185"/>
+      <source>Transforms the object at the origin of the placement</source>
+      <translation>Nesneyi yerleştirmenin orijininde dönüştürür</translation>
+    </message>
+    <message>
+      <location filename="../ViewProviderLink.cpp" line="3195"/>
+      <location filename="../ViewProviderLink.cpp" line="3201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Override Colors</source>
       <translation>Renkleri Geçersiz Kıl</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderDocumentObject.cpp" line="291"/>
+=======
+      <location filename="../ViewProviderDocumentObject.cpp" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit %1</source>
       <translation>%1'i düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SoFCColorBar.cpp" line="763"/>
+=======
+      <location filename="../SoFCColorGradient.cpp" line="101"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Color Gradient</source>
       <translation>Renk Geçişi</translation>
     </message>
@@ -8939,18 +11986,31 @@ her türlü değişiklik kaybolacaktır.
       <translation>Renk Lejandı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayManager.cpp" line="1079"/>
+=======
+      <location filename="../OverlayManager.cpp" line="1076"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle overlay</source>
       <translation>Kaplamayı aç/kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayWidgets.cpp" line="2574"/>
       <location filename="../OverlayManager.cpp" line="1080"/>
+=======
+      <location filename="../OverlayWidgets.cpp" line="2555"/>
+      <location filename="../OverlayManager.cpp" line="1077"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle floating window</source>
       <translation>Yüzen pencereyi aç/kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayManager.cpp" line="1081"/>
+=======
+      <location filename="../OverlayManager.cpp" line="1078"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close dock window</source>
       <translation>Yuva penceresini kapat</translation>
     </message>
@@ -9060,12 +12120,25 @@ her türlü değişiklik kaybolacaktır.
       <translation>Animasyon eğrisi türü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SplashScreen.cpp" line="192"/>
+=======
+      <location filename="../ViewProviderSuppressibleExtension.cpp" line="97"/>
+      <source>Suppressed</source>
+      <translation>Baskılanmış</translation>
+    </message>
+    <message>
+      <location filename="../SplashScreen.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>WARNING: This is a development version.</source>
       <translation>UYARI: Bu bir geliştirme sürümüdür.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SplashScreen.cpp" line="193"/>
+=======
+      <location filename="../SplashScreen.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do not use it in a production environment.</source>
       <translation>Üretim ortamında kullanmayın.</translation>
     </message>
@@ -9076,27 +12149,47 @@ her türlü değişiklik kaybolacaktır.
       <translation>İpucunu gizlemek için Esc'e basın</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../SoFCColorBar.cpp" line="770"/>
+=======
+      <location filename="../SoFCColorBar.cpp" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>Seçenekler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderPart.cpp" line="99"/>
+=======
+      <location filename="../ViewProviderImagePlane.cpp" line="170"/>
+      <source>Change Image</source>
+      <translation>Resmi Değiştir</translation>
+    </message>
+    <message>
+      <location filename="../ViewProviderPart.cpp" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active Object</source>
       <translation>Etkin Nesne</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderPart.cpp" line="105"/>
       <source>Override colors…</source>
       <translation type="unfinished">Override colors…</translation>
     </message>
     <message>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../ViewProviderTextDocument.cpp" line="107"/>
       <source>Edit Text</source>
       <translation>Metni Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskView/TaskDialog.cpp" line="97"/>
+=======
+      <location filename="../TaskView/TaskDialog.cpp" line="96"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Close this dialog?</source>
       <translation>Bu iletişim kutusu kapatılsın mı?</translation>
     </message>
@@ -9111,16 +12204,26 @@ her türlü değişiklik kaybolacaktır.
       <translation>Bu grubun alt öğesi olan tüm nesneleri seçer</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderGroupExtension.cpp" line="243"/>
       <source>The group '%1' contains %2 object(s). Delete them as well?</source>
       <translation type="unfinished">The group '%1' contains %2 object(s). Delete them as well?</translation>
     </message>
     <message>
       <location filename="../ViewProviderGroupExtension.cpp" line="249"/>
+=======
+      <location filename="../ViewProviderGroupExtension.cpp" line="259"/>
+      <source>The group '%1' contains %2 object(s). Do you want to delete them as well?</source>
+      <translation>Grup '%1' %2 nesne içeriyor. Onları da silmek istiyor musunuz?</translation>
+    </message>
+    <message>
+      <location filename="../ViewProviderGroupExtension.cpp" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The group '%1' contains %2 direct children and %3 total descendants (including nested groups). Do you want to delete all of them recursively?</source>
       <translation>Grup '%1' %2 doğrudan alt öğe ve %3 toplam torun (iç içe gruplar dâhil) içeriyor. Hepsini özyinelemeli olarak silmek istiyor musunuz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../ViewProviderGroupExtension.cpp" line="260"/>
       <source>Delete Group Contents Recursively?</source>
       <translation type="unfinished">Delete Group Contents Recursively?</translation>
@@ -9144,17 +12247,30 @@ her türlü değişiklik kaybolacaktır.
       <location filename="../CommandStructure.cpp" line="78"/>
       <source>Part</source>
       <translation>Parça</translation>
+=======
+      <location filename="../ViewProviderGroupExtension.cpp" line="276"/>
+      <source>Delete group contents recursively?</source>
+      <translation>Grup içeriği özyinelemeli olarak silinsin mi?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>SelectionFilter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Selection/Selection.cpp" line="965"/>
+=======
+      <location filename="../Selection/Selection.cpp" line="876"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not allowed:</source>
       <translation>İzin verilmiyor:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Selection/Selection.cpp" line="1327"/>
+=======
+      <location filename="../Selection/Selection.cpp" line="1232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection not allowed by filter</source>
       <translation>Seçime filtre tarafından izin verilmiyor</translation>
     </message>
@@ -9162,12 +12278,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdAbout</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="235"/>
+=======
+      <location filename="../CommandStd.cpp" line="229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;About %1</source>
       <translation>%1 &amp;Hakkında</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="236"/>
+=======
+      <location filename="../CommandStd.cpp" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays information about %1</source>
       <translation>%1 hakkında bilgi görüntüler</translation>
     </message>
@@ -9175,12 +12299,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdAboutQt</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="299"/>
+=======
+      <location filename="../CommandStd.cpp" line="293"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>About &amp;Qt</source>
       <translation>Hakkında &amp;Qt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="300"/>
+=======
+      <location filename="../CommandStd.cpp" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays information about Qt</source>
       <translation>Qt hakkında bilgi görüntüler</translation>
     </message>
@@ -9253,12 +12385,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1251"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Copy</source>
       <translation>&amp;Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1252"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1205"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copies the selection to the clipboard</source>
       <translation>Seçimi panoya kopyalar</translation>
     </message>
@@ -9266,12 +12406,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdCut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1223"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cu&amp;t</source>
       <translation>&amp;Kes</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1224"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removes the selection and copies it to the clipboard</source>
       <translation>Seçimi kaldırır ve panoya kopyalar</translation>
     </message>
@@ -9279,12 +12427,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdDelete</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1486"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1433"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Delete</source>
       <translation>&amp;Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1487"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Deletes the selected objects</source>
       <translation>Seçili nesneyi siler</translation>
     </message>
@@ -9302,12 +12458,18 @@ her türlü değişiklik kaybolacaktır.
       <translation>Bir makro kaydetmek için bir iletişim kutusu açar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="64"/>
       <source>S&amp;top Macro Recording</source>
       <translation type="unfinished">S&amp;top Macro Recording</translation>
+=======
+      <location filename="../CommandMacro.cpp" line="67"/>
+      <source>S&amp;top macro recording</source>
+      <translation>Makro kaydını &amp;durdur</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
-      <location filename="../CommandMacro.cpp" line="67"/>
+      <location filename="../CommandMacro.cpp" line="70"/>
       <source>Stop the macro recording session</source>
       <translation>Makro kayıt oturumunu durdur</translation>
     </message>
@@ -9328,12 +12490,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2046"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1872"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Edit Mode</source>
       <translation>&amp;Düzenleme Modunu Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2047"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1873"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the selected object's edit mode</source>
       <translation>Seçilen nesnenin düzenleme moduna geçiş yapar</translation>
     </message>
@@ -9341,22 +12511,39 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdExport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="315"/>
+=======
+      <location filename="../CommandDoc.cpp" line="285"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Export…</source>
       <translation>&amp;Dışa Aktar…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="316"/>
+=======
+      <location filename="../CommandDoc.cpp" line="286"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports an object in the active document</source>
       <translation>Etkin belgedeki bir nesneyi dışa aktarır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="464"/>
       <source>No Selection</source>
       <translation>Seçim Yok</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="465"/>
+=======
+      <location filename="../CommandDoc.cpp" line="434"/>
+      <source>No selection</source>
+      <translation>Seçim yok</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="435"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select objects to export before using the Export command.</source>
       <translation>Dışa Aktar komutunu kullanmadan önce dışa aktarılacak nesneleri seçin.</translation>
     </message>
@@ -9364,12 +12551,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdExpression</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2128"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1954"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expression Actions</source>
       <translation>İfade Eylemleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2129"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1955"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Actions that apply to expressions</source>
       <translation>İfadelere uygulanan eylemler</translation>
     </message>
@@ -9377,12 +12572,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdFeatRecompute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="57"/>
+=======
+      <location filename="../CommandFeat.cpp" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Recompute</source>
       <translation>&amp;Yeniden hesapla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="58"/>
+=======
+      <location filename="../CommandFeat.cpp" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputes a feature or document</source>
       <translation>Bir özelliği veya belgeyi yeniden hesaplar</translation>
     </message>
@@ -9390,25 +12593,43 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdFreeCADForum</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="726"/>
+=======
+      <location filename="../CommandStd.cpp" line="720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD &amp;Forum</source>
       <translation>FreeCAD &amp;Forumu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="727"/>
       <source>Opens the FreeCAD forum to find help from other users</source>
       <translation type="unfinished">Opens the FreeCAD forum to find help from other users</translation>
+=======
+      <location filename="../CommandStd.cpp" line="721"/>
+      <source>The FreeCAD forum, where you can find help from other users</source>
+      <translation>Diğer kullanıcılardan yardım bulabileceğiniz FreeCAD forum</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdFreezeViews</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="333"/>
+=======
+      <location filename="../CommandView.cpp" line="332"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>F&amp;reeze Display</source>
       <translation>Görünümü &amp;Dondur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="334"/>
+=======
+      <location filename="../CommandView.cpp" line="333"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Freezes the current view position</source>
       <translation>Geçerli görünüm duruşunu dondur</translation>
     </message>
@@ -9416,25 +12637,53 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdImport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="215"/>
+=======
+      <location filename="../CommandDoc.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Import…</source>
       <translation>&amp;İçe Aktar…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="216"/>
       <source>Imports a file into the active document</source>
       <translation>Etkin belgeye bir dosya içe aktarır</translation>
+=======
+      <location filename="../CommandDoc.cpp" line="187"/>
+      <source>Imports a file into the active document</source>
+      <translation>Etkin belgeye bir dosya içe aktarır</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="200"/>
+      <source>Supported formats</source>
+      <translation>Desteklenen biçimler</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="201"/>
+      <source>All files (*.*)</source>
+      <translation>Tüm dosyalar (*. *)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdLinkSelectActions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1018"/>
+=======
+      <location filename="../CommandLink.cpp" line="1000"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Link Navigation</source>
       <translation>&amp;Bağlantı Gezinmesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1019"/>
+=======
+      <location filename="../CommandLink.cpp" line="1001"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link navigation actions</source>
       <translation>Bağlantı gezinti eylemleri</translation>
     </message>
@@ -9442,12 +12691,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdLinkUnlink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="638"/>
+=======
+      <location filename="../CommandLink.cpp" line="620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unlink</source>
       <translation>Bağlantıyı kaldır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="639"/>
+=======
+      <location filename="../CommandLink.cpp" line="621"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unlinks the object by placing it directly in the container</source>
       <translation>Nesneyi doğrudan kapsayıcıya yerleştirerek bağlantısını kaldırır</translation>
     </message>
@@ -9455,31 +12712,69 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdMergeProjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="603"/>
+=======
+      <location filename="../CommandDoc.cpp" line="568"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Merge Document</source>
       <translation>Belgeyi &amp;Birleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="605"/>
       <source>Merges another FreeCAD document into the active one</source>
       <translation>Başka bir FreeCAD belgesini etkin olana birleştirir</translation>
+=======
+      <location filename="../CommandDoc.cpp" line="570"/>
+      <source>Merges another FreeCAD document into the active one</source>
+      <translation>Başka bir FreeCAD belgesini etkin olana birleştirir</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="584"/>
+      <location filename="../CommandDoc.cpp" line="596"/>
+      <source>Merge document</source>
+      <translation>Belgeyi birleştir</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="586"/>
+      <source>%1 document (*.FCStd)</source>
+      <translation>%1 belgesi (*. FCStd)</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="597"/>
+      <source>Cannot merge document with itself.</source>
+      <translation>Belge kendisiyle birleştirilemez.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdNew</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MainWindow.cpp" line="2652"/>
+=======
+      <location filename="../MainWindow.cpp" line="2434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../DocumentRecovery.cpp" line="412"/>
       <source>Unnamed</source>
       <translation>İsimsiz</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="741"/>
+=======
+      <location filename="../CommandDoc.cpp" line="707"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;New Document</source>
       <translation>&amp;Yeni Belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="742"/>
+=======
+      <location filename="../CommandDoc.cpp" line="708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new empty document</source>
       <translation>Yeni boş bir belge oluşturur</translation>
     </message>
@@ -9487,12 +12782,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdOnlineHelpWebsite</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="568"/>
+=======
+      <location filename="../CommandStd.cpp" line="562"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help Website</source>
       <translation>Yardım Web sitesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="569"/>
+=======
+      <location filename="../CommandStd.cpp" line="563"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the help documentation</source>
       <translation>Yardım belgelerini açar</translation>
     </message>
@@ -9515,7 +12818,21 @@ her türlü değişiklik kaybolacaktır.
       <translation>Dosyası Açılamıyor</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="183"/>
+=======
+      <location filename="../CommandDoc.cpp" line="101"/>
+      <source>All files (*.*)</source>
+      <translation>Tüm dosyalar (*. *)</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="153"/>
+      <source>Cannot open file</source>
+      <translation>Dosya açılamadı</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loading the file %1 is not supported</source>
       <translation>%1 dosyasının yüklenmesi desteklenmiyor</translation>
     </message>
@@ -9523,12 +12840,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdPaste</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1287"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1240"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Paste</source>
       <translation>&amp;Yapıştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1288"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1241"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pastes the contents of the clipboard</source>
       <translation>Panodaki içeriği yapıştırır</translation>
     </message>
@@ -9536,12 +12861,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdQuit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1100"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>E&amp;xit</source>
       <translation>Çı&amp;kış</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1101"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Quits the application</source>
       <translation>Uygulamadan çıkar</translation>
     </message>
@@ -9549,12 +12882,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdRecentFiles</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="147"/>
+=======
+      <location filename="../CommandStd.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open &amp;Recent</source>
       <translation>Son &amp;Kullanılanlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="148"/>
+=======
+      <location filename="../CommandStd.cpp" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the list of recently opened files</source>
       <translation>Son açılan dosyaların listesini görüntüler</translation>
     </message>
@@ -9562,12 +12903,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdRedo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1179"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Redo</source>
       <translation>&amp;Yinele</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1180"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Redoes a previously undone action</source>
       <translation>Önceden geri alınan eylemi yineler</translation>
     </message>
@@ -9575,12 +12924,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdRevert</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="901"/>
+=======
+      <location filename="../CommandDoc.cpp" line="854"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rever&amp;t</source>
       <translation>Geri &amp;Dön</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="902"/>
+=======
+      <location filename="../CommandDoc.cpp" line="855"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverts to the saved version of this file</source>
       <translation>Bu dosya kaydedilmiş sürümüne geri döner</translation>
     </message>
@@ -9588,12 +12945,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdSave</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="775"/>
+=======
+      <location filename="../CommandDoc.cpp" line="740"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Save</source>
       <translation>&amp;Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="776"/>
+=======
+      <location filename="../CommandDoc.cpp" line="741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the active document</source>
       <translation>Etkin belgeyi kaydeder</translation>
     </message>
@@ -9601,12 +12966,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdSaveAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="873"/>
+=======
+      <location filename="../CommandDoc.cpp" line="826"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sa&amp;ve All</source>
       <translation>Tümünü &amp;Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="874"/>
+=======
+      <location filename="../CommandDoc.cpp" line="827"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves all open documents</source>
       <translation>Açık tüm belgeleri kaydeder</translation>
     </message>
@@ -9614,12 +12987,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdSelectAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1432"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select &amp;All</source>
       <translation>Seç &amp;Tümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1433"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all objects in the active document</source>
       <translation>Etkin belgedeki tüm nesneleri seçer</translation>
     </message>
@@ -9627,12 +13008,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdSendToPythonConsole</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="299"/>
+=======
+      <location filename="../CommandFeat.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Send to Python Console</source>
       <translation>&amp;Python Konsoluna Gönder</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="300"/>
+=======
+      <location filename="../CommandFeat.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sends the selected object to the Python console</source>
       <translation>Seçilen nesneyi Python uçbirimine gönderir</translation>
     </message>
@@ -9679,12 +13068,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdUndo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1134"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1087"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Undo</source>
       <translation>&amp;Geri al</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1135"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1088"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Undoes the previous action</source>
       <translation>Önceki işlemi geri alır</translation>
     </message>
@@ -9692,12 +13089,21 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewBottom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1439"/>
       <source>Bottom</source>
       <translation>Alt</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1440"/>
+=======
+      <location filename="../CommandView.cpp" line="1385"/>
+      <source>&amp;5 Bottom</source>
+      <translation>&amp;5 Alt</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the bottom view</source>
       <translation>Kamerayı alt görünüme ayarlar</translation>
     </message>
@@ -9705,12 +13111,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewDimetric</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1643"/>
+=======
+      <location filename="../CommandView.cpp" line="1554"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Dimetric</source>
       <translation>&amp;Dimetrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1644"/>
+=======
+      <location filename="../CommandView.cpp" line="1555"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the dimetric view</source>
       <translation>Kamerayı dimetrik görünüme ayarlar</translation>
     </message>
@@ -9718,12 +13132,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewExample1</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2488"/>
+=======
+      <location filename="../CommandView.cpp" line="2392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inventor Example #1</source>
       <translation>Inventor Örneği #1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2489"/>
+=======
+      <location filename="../CommandView.cpp" line="2393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows a 3D texture with manipulator</source>
       <translation>Düzenleme yardımcılarıyla 3D dokuyu gösterir</translation>
     </message>
@@ -9731,12 +13153,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewExample2</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2516"/>
+=======
+      <location filename="../CommandView.cpp" line="2420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inventor Example #2</source>
       <translation>Inventor Örneği #2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2517"/>
+=======
+      <location filename="../CommandView.cpp" line="2421"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows spheres and drag-lights</source>
       <translation>Küre ve sürükleme-ışıklarını gösterir</translation>
     </message>
@@ -9744,12 +13174,21 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewFront</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1468"/>
       <source>Front</source>
       <translation>Ön</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1469"/>
+=======
+      <location filename="../CommandView.cpp" line="1409"/>
+      <source>&amp;1 Front</source>
+      <translation>&amp;1 Ön</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the front view</source>
       <translation>Kamerayı ön görünüme ayarlar</translation>
     </message>
@@ -9757,12 +13196,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewHome</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1415"/>
+=======
+      <location filename="../CommandView.cpp" line="1351"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Home</source>
       <translation>&amp;Ana</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1416"/>
+=======
+      <location filename="../CommandView.cpp" line="1352"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the default home view</source>
       <translation>Kamerayı varsayılan ana görünüme ayarlar</translation>
     </message>
@@ -9770,25 +13217,83 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewIsometric</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1614"/>
+=======
+      <location filename="../CommandView.cpp" line="1530"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Isometric</source>
       <translation>&amp;İzometrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1615"/>
+      <source>Sets the camera to the isometric view</source>
+      <translation>Kamerayı izometrik görünüme ayarlar</translation>
+=======
+      <location filename="../CommandView.cpp" line="1531"/>
       <source>Sets the camera to the isometric view</source>
       <translation>Kamerayı izometrik görünüme ayarlar</translation>
     </message>
   </context>
   <context>
+    <name>StdCmdViewIvStereoInterleavedColumns</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2590"/>
+      <source>Stereo Interleaved &amp;Columns</source>
+      <translation>Stereo İç İçe &amp;Sütunlar</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2591"/>
+      <source>Switches stereo viewing to interleaved columns</source>
+      <translation>Stereo görüntülemeyi iç içe geçmiş sütunlara geçirir</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvStereoInterleavedRows</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2562"/>
+      <source>Stereo Interleaved &amp;Rows</source>
+      <translation>Stereo İç İçe Geçmeli &amp;Satırlar</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2563"/>
+      <source>Switches stereo viewing to interleaved rows</source>
+      <translation>Stereo görüntülemeyi iç içe geçmiş satırlara geçirir</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvStereoOff</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2477"/>
+      <source>Stereo &amp;Off</source>
+      <translation>Stereo &amp;Kapalı</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2478"/>
+      <source>Switches stereo viewing off</source>
+      <translation>Stereo görüntülemeyi kapatır</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
+    </message>
+  </context>
+  <context>
     <name>StdCmdViewLeft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1497"/>
       <source>Left</source>
       <translation>Sol</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1498"/>
+=======
+      <location filename="../CommandView.cpp" line="1433"/>
+      <source>&amp;6 Left</source>
+      <translation>&amp;6 Sol</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1434"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the left view</source>
       <translation>Kamerayı sol görünüme ayarlar</translation>
     </message>
@@ -9796,12 +13301,21 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewRear</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1526"/>
       <source>Rear</source>
       <translation>Arka</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1527"/>
+=======
+      <location filename="../CommandView.cpp" line="1457"/>
+      <source>&amp;4 Rear</source>
+      <translation>&amp;4 Arka</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1458"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the rear view</source>
       <translation>Kamerayı arka görünüme ayarlar</translation>
     </message>
@@ -9809,12 +13323,21 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewRight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1555"/>
       <source>Right</source>
       <translation>Sağ</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1556"/>
+=======
+      <location filename="../CommandView.cpp" line="1481"/>
+      <source>&amp;3 Right</source>
+      <translation>&amp;3 Sağ</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1482"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the right view</source>
       <translation>Kamerayı sağ görünüme ayarlar</translation>
     </message>
@@ -9822,12 +13345,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewRotateLeft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1699"/>
+=======
+      <location filename="../CommandView.cpp" line="1600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotate &amp;Left</source>
       <translation>&amp;Sola Döndür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1700"/>
+=======
+      <location filename="../CommandView.cpp" line="1601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the view by 90° counter-clockwise</source>
       <translation>Görünümü saat yönünün tersine 90° döndürür</translation>
     </message>
@@ -9835,12 +13366,21 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewTop</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1584"/>
       <source>Top</source>
       <translation>Üst</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="1585"/>
+=======
+      <location filename="../CommandView.cpp" line="1505"/>
+      <source>&amp;2 Top</source>
+      <translation>&amp;2 Üst</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="1506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the top view</source>
       <translation>Kamerayı üst görünüme ayarlar</translation>
     </message>
@@ -9848,12 +13388,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdViewTrimetric</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1671"/>
+=======
+      <location filename="../CommandView.cpp" line="1577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Trimetric</source>
       <translation>&amp;Trimetrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1672"/>
+=======
+      <location filename="../CommandView.cpp" line="1578"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the camera to the trimetric view</source>
       <translation>Kamerayı trimetrik görünüme ayarlar</translation>
     </message>
@@ -9861,12 +13409,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdCmdWhatsThis</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="321"/>
+=======
+      <location filename="../CommandStd.cpp" line="315"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;What's This?</source>
       <translation>&amp;Bu nedir?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="322"/>
+=======
+      <location filename="../CommandStd.cpp" line="316"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the documentation for the selected command</source>
       <translation>Seçili komutun belgelerini açar</translation>
     </message>
@@ -9900,12 +13456,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdMainFullscreen</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1909"/>
+=======
+      <location filename="../CommandView.cpp" line="1812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fullscreen</source>
       <translation>Tam ekran</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1910"/>
+=======
+      <location filename="../CommandView.cpp" line="1813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the main window in fullscreen mode</source>
       <translation>Ana pencereyi tam ekran kipinde gösterir</translation>
     </message>
@@ -9913,12 +13477,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdOrthographicCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="147"/>
+=======
+      <location filename="../CommandView.cpp" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orthographic View</source>
       <translation>Ortografik Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="148"/>
+=======
+      <location filename="../CommandView.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switches to orthographic view mode</source>
       <translation>Ortografik görünüm moduna geçirir</translation>
     </message>
@@ -9926,12 +13498,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdPerspectiveCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="194"/>
+=======
+      <location filename="../CommandView.cpp" line="187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Perspective View</source>
       <translation>Perspektif Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="195"/>
+=======
+      <location filename="../CommandView.cpp" line="188"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switches to perspective view mode</source>
       <translation>Perspektif görünüm moduna geçirir</translation>
     </message>
@@ -9939,12 +13519,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdTreeCollapseDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3344"/>
+=======
+      <location filename="../CommandView.cpp" line="3593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapse/E&amp;xpand</source>
       <translation>Daralt/&amp;Genişlet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3345"/>
+=======
+      <location filename="../CommandView.cpp" line="3594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expands the active document and collapses all others</source>
       <translation>Etkin belgeyi genişletir ve diğerlerinin tümünü daraltır</translation>
     </message>
@@ -9952,12 +13540,21 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdTreePreSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3446"/>
       <source>Preselection</source>
       <translation>Önseçim</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3447"/>
+=======
+      <location filename="../CommandView.cpp" line="3695"/>
+      <source>&amp;4 Preselection</source>
+      <translation>&amp;4 Önseçim</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preselects the object in 3D view when hovering the cursor over the tree item</source>
       <translation>İmleç ağaç öğesinin üzerinde gezinirken nesneyi 3B görünümde önceden seçer</translation>
     </message>
@@ -9965,12 +13562,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdViewDock</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1847"/>
+=======
+      <location filename="../CommandView.cpp" line="1750"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Docked</source>
       <translation>&amp;Yerleşik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1848"/>
+=======
+      <location filename="../CommandView.cpp" line="1751"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation>Etkin görünümü tam ekran, ayrık veya yerleşik kipte gösterir</translation>
     </message>
@@ -9978,12 +13583,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdViewFullscreen</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1944"/>
+=======
+      <location filename="../CommandView.cpp" line="1847"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Fullscreen</source>
       <translation>&amp;Tam Ekran</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1945"/>
+=======
+      <location filename="../CommandView.cpp" line="1848"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation>Etkin görünümü tam ekran, ayrık veya yerleşik kipte gösterir</translation>
     </message>
@@ -9991,12 +13604,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdViewScreenShot</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2115"/>
+=======
+      <location filename="../CommandView.cpp" line="2018"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save &amp;Image…</source>
       <translation>&amp;Resmi Kaydet…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2116"/>
+=======
+      <location filename="../CommandView.cpp" line="2019"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a screenshot of the active view</source>
       <translation>Etkin görünümün bir görüntüsünü yakalar</translation>
     </message>
@@ -10004,12 +13625,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdViewUndock</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1878"/>
+=======
+      <location filename="../CommandView.cpp" line="1781"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Undocked</source>
       <translation>&amp;Ayrık</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1879"/>
+=======
+      <location filename="../CommandView.cpp" line="1782"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation>Etkin görünümü tam ekran, ayrık veya yerleşik kipte gösterir</translation>
     </message>
@@ -10017,12 +13646,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdViewZoomIn</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2631"/>
+=======
+      <location filename="../CommandView.cpp" line="2672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Zoom &amp;In</source>
       <translation>&amp;Yakınlaştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2632"/>
+=======
+      <location filename="../CommandView.cpp" line="2673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Increases the zoom factor by a fixed amount</source>
       <translation>Yakınlaştırma oranını sabit bir miktar artırır</translation>
     </message>
@@ -10030,12 +13667,20 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>StdViewZoomOut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2660"/>
+=======
+      <location filename="../CommandView.cpp" line="2701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Zoom &amp;Out</source>
       <translation>&amp;Uzaklaştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2661"/>
+=======
+      <location filename="../CommandView.cpp" line="2702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Decreases the zoom factor by a fixed amount</source>
       <translation>Yakınlaştırma oranını sabit bir miktar azaltır</translation>
     </message>
@@ -10043,7 +13688,11 @@ her türlü değişiklik kaybolacaktır.
   <context>
     <name>Std_Delete</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1610"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1520"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The following referencing objects might break.
 
 Continue?
@@ -10053,19 +13702,35 @@ Continue?
 Devam etmek istiyor musunuz?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1624"/>
       <source>Object Dependencies</source>
       <translation>Nesne Bağımlılıkları</translation>
+=======
+      <location filename="../CommandDoc.cpp" line="1534"/>
+      <source>Object dependencies</source>
+      <translation>Nesne bağımlılıkları</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Std_DrawStyle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="844"/>
+=======
+      <location filename="../CommandView.cpp" line="779"/>
+      <source>&amp;1 As is</source>
+      <translation>&amp;1 Olduğu gibi</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Normal mode</source>
       <translation>Normal mod</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="843"/>
       <source>As Is</source>
       <translation>Olduğu Gibi</translation>
@@ -10077,56 +13742,109 @@ Devam etmek istiyor musunuz?</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="847"/>
+=======
+      <location filename="../CommandView.cpp" line="782"/>
+      <source>&amp;2 Points</source>
+      <translation>&amp;2 Noktalar</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="785"/>
+      <source>&amp;3 Wireframe</source>
+      <translation>&amp;3 Tel kafes</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="788"/>
+      <source>&amp;4 Hidden line</source>
+      <translation>&amp;4 Gizli çizgi</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="791"/>
+      <source>&amp;5 No shading</source>
+      <translation>&amp;5 Gölgelendirme yok</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="794"/>
+      <source>&amp;6 Shaded</source>
+      <translation>&amp;6 Gölgelendirilmiş</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="797"/>
+      <source>&amp;7 Flat lines</source>
+      <translation>&amp;7 Düz çizgiler</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="783"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Points mode</source>
       <translation>Nokta Modu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="849"/>
       <source>Wireframe</source>
       <translation>Tel Kafes görünümü</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="850"/>
+=======
+      <location filename="../CommandView.cpp" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wireframe mode</source>
       <translation>Tel kafes modu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="852"/>
       <source>Hidden Line</source>
       <translation>Gizli Çizgi</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="853"/>
+=======
+      <location filename="../CommandView.cpp" line="789"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hidden line mode</source>
       <translation>Gizli çizgi modu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="855"/>
       <source>No Shading</source>
       <translation>Gölgelendirme Yok</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="856"/>
+=======
+      <location filename="../CommandView.cpp" line="792"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No shading mode</source>
       <translation>Gölgeleme modu yok</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="858"/>
       <source>Shaded</source>
       <translation>Gölgeli</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="859"/>
+=======
+      <location filename="../CommandView.cpp" line="795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shaded mode</source>
       <translation>Gölgeli modu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="861"/>
       <source>Flat Lines</source>
       <translation>Düz çizgiler</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="862"/>
+=======
+      <location filename="../CommandView.cpp" line="798"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Flat lines mode</source>
       <translation>Düz çizgiler modu</translation>
     </message>
@@ -10134,12 +13852,21 @@ Devam etmek istiyor musunuz?</translation>
   <context>
     <name>Std_DuplicateSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1391"/>
       <source>Object Dependencies</source>
       <translation>Nesne Bağımlılıkları</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="1392"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1344"/>
+      <source>Object dependencies</source>
+      <translation>Nesne bağımlılıkları</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="1345"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To link to external objects, the document must be saved at least once.
 Save the document now?</source>
       <translation>Harici nesnelere bağlanmak için belgenin en az bir kez kaydedilmiş olması gerekir.
@@ -10149,7 +13876,11 @@ Belge şimdi kaydedilsin mi?</translation>
   <context>
     <name>Std_Group</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="150"/>
+=======
+      <location filename="../CommandStructure.cpp" line="140"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Group</source>
       <translation>Grup</translation>
     </message>
@@ -10200,122 +13931,218 @@ Belge şimdi kaydedilsin mi?</translation>
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="589"/>
+=======
+      <location filename="../Workbench.cpp" line="586"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;File</source>
       <translation>&amp;Dosya</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="590"/>
+=======
+      <location filename="../Workbench.cpp" line="587"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Edit</source>
       <translation>Düz&amp;enle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="591"/>
+=======
+      <location filename="../Workbench.cpp" line="588"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit</source>
       <translation>Düzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="592"/>
+=======
+      <location filename="../Workbench.cpp" line="589"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clipboard</source>
       <translation>Pano</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="593"/>
+=======
+      <location filename="../Workbench.cpp" line="590"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Workbench</source>
       <translation>Çalışma tezgâhı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="594"/>
+=======
+      <location filename="../Workbench.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Structure</source>
       <translation>Yapı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="595"/>
+=======
+      <location filename="../Workbench.cpp" line="592"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard &amp;Views</source>
       <translation>Standart &amp;Görünümler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="596"/>
+=======
+      <location filename="../Workbench.cpp" line="593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Individual Views</source>
       <translation>Bireysel Görünümler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="605"/>
+=======
+      <location filename="../Workbench.cpp" line="602"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Online Help</source>
       <translation>&amp;Çevrimiçi Yardım</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="613"/>
+=======
+      <location filename="../Workbench.cpp" line="610"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link Actions</source>
       <translation>Bağlantı Eylemleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="598"/>
+=======
+      <location filename="../Workbench.cpp" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Stereo</source>
       <translation>&amp;Stereo</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="599"/>
+=======
+      <location filename="../Workbench.cpp" line="596"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Zoom</source>
       <translation>&amp;Yaklaş</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="597"/>
+=======
+      <location filename="../Workbench.cpp" line="594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A&amp;xonometric</source>
       <translation>A&amp;ksonometrik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="600"/>
+=======
+      <location filename="../Workbench.cpp" line="597"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>V&amp;isibility</source>
       <translation>G&amp;örünürlük</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="601"/>
+=======
+      <location filename="../Workbench.cpp" line="598"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;View</source>
       <translation>&amp;Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="602"/>
+=======
+      <location filename="../Workbench.cpp" line="599"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Tools</source>
       <translation>Araçlar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="603"/>
+=======
+      <location filename="../Workbench.cpp" line="600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Macro</source>
       <translation>&amp;Makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="604"/>
+=======
+      <location filename="../Workbench.cpp" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Windows</source>
       <translation>&amp;Pencere</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="606"/>
+=======
+      <location filename="../Workbench.cpp" line="603"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Help</source>
       <translation>&amp;Yardım</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="607"/>
+=======
+      <location filename="../Workbench.cpp" line="604"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>Yardım</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="608"/>
+=======
+      <location filename="../Workbench.cpp" line="605"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File</source>
       <translation>Dosya</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="609"/>
+=======
+      <location filename="../Workbench.cpp" line="606"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Macro</source>
       <translation>Makro</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="610"/>
+=======
+      <location filename="../Workbench.cpp" line="607"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View</source>
       <translation>Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Workbench.cpp" line="611"/>
+=======
+      <location filename="../Workbench.cpp" line="608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Special Ops</source>
       <translation>Özel Ops</translation>
     </message>
@@ -10323,10 +14150,22 @@ Belge şimdi kaydedilsin mi?</translation>
   <context>
     <name>Gui::MDIView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../MDIView.cpp" line="285"/>
       <source>Export PDF</source>
       <translation>PDF olarak dışa aktar</translation>
     </message>
+=======
+      <location filename="../MDIView.cpp" line="286"/>
+      <source>Export PDF</source>
+      <translation>PDF olarak dışa aktar</translation>
+    </message>
+    <message>
+      <location filename="../MDIView.cpp" line="288"/>
+      <source>PDF file</source>
+      <translation>PDF dosyası</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>Gui::Dialog::DlgSettingsNotificationArea</name>
@@ -10372,7 +14211,20 @@ Belge şimdi kaydedilsin mi?</translation>
       <translation>Bildirim Alanını Etkinleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsNotificationArea.ui" line="35"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsNotificationArea.ui" line="32"/>
+      <source>Enables non-intrusive pop-up notifications above the status bar notification area. Pop-up notifications can be manually dismissed by clicking on them, and also automatically dismissed by specifying a maximum and minimum duration for them to be displayed.
+
+Additionally, pop-up notifications can be disabled. In this case the user can still use the notification area as a quick-access location to view notifications, without the distracton of an additional pop-up.</source>
+      <translation>Durum çubuğu bildirim alanının üzerinde, rahatsız edici olmayan açılır bildirimler görüntülenmesini sağlar. Açılır bildirimler, üzerlerine tıklanarak manuel olarak kapatılabileceği gibi, görüntülenme süreleri için maksimum ve minimum süreler belirtilerek otomatik olarak da kapatılabilir.
+
+Ayrıca, açılır bildirimler devre dışı bırakılabilir. Bu durumda kullanıcı, ek bir açılır pencerenin dikkat dağıtıcı etkisi olmadan, bildirimleri görüntülemek için bildirim alanını hızlı erişim yeri olarak kullanmaya devam edebilir.</translation>
+    </message>
+    <message>
+      <location filename="../PreferencePages/DlgSettingsNotificationArea.ui" line="37"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enable Pop-Up Notifications</source>
       <translation>Açılır Bildirimleri Etkinleştir</translation>
     </message>
@@ -10898,12 +14750,20 @@ değiştirir</translation>
   <context>
     <name>StdViewLoadImage</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2313"/>
+=======
+      <location filename="../CommandView.cpp" line="2219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Load Image…</source>
       <translation>&amp;Resim Yükle…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2314"/>
+=======
+      <location filename="../CommandView.cpp" line="2220"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Loads an image</source>
       <translation>Bir resim yükler</translation>
     </message>
@@ -10911,14 +14771,24 @@ değiştirir</translation>
   <context>
     <name>NaviCubeDraggableCmd</name>
     <message>
+<<<<<<< HEAD
       <location filename="../NaviCube.cpp" line="1382"/>
+=======
+      <location filename="../NaviCube.cpp" line="1337"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Movable Navigation Cube</source>
       <translation>Taşınabilir Gezinme Küpü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../NaviCube.cpp" line="1383"/>
       <source>Drags and places the NaviCube</source>
       <translation type="unfinished">Drags and places the NaviCube</translation>
+=======
+      <location filename="../NaviCube.cpp" line="1338"/>
+      <source>Drag and place NaviCube</source>
+      <translation>NaviCube'u sürükleyip yerleştirin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -10957,8 +14827,13 @@ değiştirir</translation>
   <context>
     <name>Gui::ExpLineEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Widgets.cpp" line="1625"/>
       <location filename="../Widgets.cpp" line="1692"/>
+=======
+      <location filename="../Widgets.cpp" line="1617"/>
+      <location filename="../Widgets.cpp" line="1691"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>An error occurred -- see Report View for information</source>
       <translation>Bir hata oluştu -- ayrıntılar için Rapor Görünümüne bakın</translation>
     </message>
@@ -11353,11 +15228,14 @@ başlangıç ekranını gösterir.</translation>
       <location filename="../PreferencePages/DlgSettingsGeneral.ui" line="347"/>
       <source>Activate overlay panels</source>
       <translation>Kaplama panellerini etkinleştir</translation>
+<<<<<<< HEAD
     </message>
     <message>
       <location filename="../PreferencePages/DlgSettingsGeneral.ui" line="363"/>
       <source>Activate fine-grained recomputation of documents</source>
       <translation type="unfinished">Activate fine-grained recomputation of documents</translation>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../PreferencePages/DlgSettingsGeneral.ui" line="366"/>
@@ -11410,72 +15288,128 @@ başlangıç ekranını gösterir.</translation>
       <translation>Tercih paketlerini yönet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="526"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="524"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Small (%1px)</source>
       <translation>Küçük (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="527"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="525"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Medium (%1px)</source>
       <translation>Orta (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="528"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="526"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Large (%1px)</source>
       <translation>Büyük (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="529"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="527"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extra large (%1px)</source>
       <translation>Çok büyük (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="531"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="529"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom (%1px)</source>
       <translation>Özel (%1px)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="602"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="600"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Combined</source>
       <translation>Birleşik</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="603"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="601"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Independent</source>
       <translation>Bağımsız</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="635"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="633"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preference Pack Name</source>
       <translation>Tercih Paketi Adı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="635"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="633"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tags</source>
       <translation>Etiketler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="674"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="672"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Apply</source>
       <translation>Uygula</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="688"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="686"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Applies the %1 preference pack</source>
       <translation>%1 tercih paketini uygular</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="773"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="771"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Choose a FreeCAD config file to import</source>
       <translation>İçe aktarılacak bir FreeCAD yapılandırma dosyası seçin</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="787"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>File exists</source>
       <translation>Dosya mevcut</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="788"/>
+=======
+      <location filename="../PreferencePages/DlgSettingsGeneral.cpp" line="786"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A preference pack with that name already exists. Overwrite?</source>
       <translation>Aynı adlı bir tercih paketi zaten bulunuyor. Üzerine yazılsın mı?</translation>
     </message>
@@ -11946,12 +15880,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdProperties</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2088"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1914"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Propert&amp;ies</source>
       <translation>&amp;Özellikler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="2089"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1915"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows the property view, which displays the properties of the selected object.</source>
       <translation>Seçili nesnenin özelliklerini gösteren özellik görünümünü gösterir.</translation>
     </message>
@@ -11959,7 +15901,11 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdToggleFreeze</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="190"/>
+=======
+      <location filename="../CommandFeat.cpp" line="157"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Freeze</source>
       <translation>Dondurmayı Aç/Kapat</translation>
     </message>
@@ -11980,12 +15926,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdReloadStyleSheet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="961"/>
+=======
+      <location filename="../CommandStd.cpp" line="955"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Reload Stylesheet</source>
       <translation>&amp;Stil Sayfasını Yeniden Yükle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="962"/>
+=======
+      <location filename="../CommandStd.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reloads the current stylesheet</source>
       <translation>Geçerli stil sayfasını yeniden yükler</translation>
     </message>
@@ -12257,12 +16211,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdRestartInSafeMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="345"/>
+=======
+      <location filename="../CommandStd.cpp" line="339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restart in Safe Mode</source>
       <translation>Güvenli Kipte Yeniden Başlat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="346"/>
+=======
+      <location filename="../CommandStd.cpp" line="340"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts FreeCAD without any modules or plugins loaded</source>
       <translation>FreeCAD'i hiçbir modül veya eklenti yüklemeden başlatır</translation>
     </message>
@@ -12270,12 +16232,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdOnlineHelp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="543"/>
+=======
+      <location filename="../CommandStd.cpp" line="537"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Help</source>
       <translation>&amp;Yardım</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="544"/>
+=======
+      <location filename="../CommandStd.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the Help documentation</source>
       <translation>Yardım belgesini açar</translation>
     </message>
@@ -12283,12 +16253,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdFreeCADWebsite</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="663"/>
+=======
+      <location filename="../CommandStd.cpp" line="657"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD W&amp;ebsite</source>
       <translation>FreeCAD &amp;Web sitesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="664"/>
+=======
+      <location filename="../CommandStd.cpp" line="658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Navigates to the official FreeCAD website</source>
       <translation>Resmî FreeCAD web sitesine gider</translation>
     </message>
@@ -12296,12 +16274,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdFreeCADUserHub</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="694"/>
+=======
+      <location filename="../CommandStd.cpp" line="688"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;User Documentation</source>
       <translation>&amp;Kullanıcı Belgelendirmesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="695"/>
+=======
+      <location filename="../CommandStd.cpp" line="689"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the documentation for users</source>
       <translation>Kullanıcı belgelendirmesini açar</translation>
     </message>
@@ -12309,12 +16295,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdReportBug</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="757"/>
+=======
+      <location filename="../CommandStd.cpp" line="751"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Report an &amp;Issue</source>
       <translation>Bir &amp;Sorun Bildir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="758"/>
+=======
+      <location filename="../CommandStd.cpp" line="752"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the bugtracker to report an issue</source>
       <translation>Bir sorun bildirmek için hata izleyiciyi açar</translation>
     </message>
@@ -12322,12 +16316,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdTransformManip</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1925"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1758"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trans&amp;form</source>
       <translation>&amp;Dönüştür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1926"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1759"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transforms the selected object in the 3D view</source>
       <translation>Seçili nesneyi 3B görünümde dönüştürür</translation>
     </message>
@@ -12538,11 +16540,16 @@ etkinleşir.</translation>
   <context>
     <name>Gui::TaskTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="109"/>
+=======
+      <location filename="../TaskTransform.cpp" line="87"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transform</source>
       <translation>Dönüştür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="196"/>
       <source>Object origin</source>
       <translation>Nesne orijini</translation>
@@ -12555,31 +16562,61 @@ etkinleşir.</translation>
     <message>
       <location filename="../TaskTransform.cpp" line="208"/>
       <location filename="../TaskTransform.cpp" line="218"/>
+=======
+      <location filename="../TaskTransform.cpp" line="172"/>
+      <source>Object origin</source>
+      <translation>Nesne orijini</translation>
+    </message>
+    <message>
+      <location filename="../TaskTransform.cpp" line="178"/>
+      <source>Center of mass / centroid</source>
+      <translation>Kütle merkezi / geometrik merkez</translation>
+    </message>
+    <message>
+      <location filename="../TaskTransform.cpp" line="184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom</source>
       <translation>Özel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="215"/>
+=======
+      <location filename="../TaskTransform.cpp" line="191"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Local</source>
       <translation>Yerel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="216"/>
+=======
+      <location filename="../TaskTransform.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Global</source>
       <translation>Küresel</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="441"/>
       <location filename="../TaskTransform.cpp" line="443"/>
+=======
+      <location filename="../TaskTransform.cpp" line="407"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pick Reference</source>
       <translation>Referans Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="442"/>
+=======
+      <location filename="../TaskTransform.cpp" line="408"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move to Other Object</source>
       <translation>Diğer Nesneye Taşı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../TaskTransform.cpp" line="450"/>
       <location filename="../TaskTransform.cpp" line="465"/>
       <source>Select object, face, edge…</source>
@@ -12589,6 +16626,15 @@ etkinleşir.</translation>
       <location filename="../TaskTransform.cpp" line="451"/>
       <location filename="../TaskTransform.cpp" line="457"/>
       <location filename="../TaskTransform.cpp" line="466"/>
+=======
+      <location filename="../TaskTransform.cpp" line="415"/>
+      <source>Select face, edge, or vertex…</source>
+      <translation>Yüz, kenar veya köşe noktası seçin…</translation>
+    </message>
+    <message>
+      <location filename="../TaskTransform.cpp" line="416"/>
+      <location filename="../TaskTransform.cpp" line="422"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cancel</source>
       <translation>İptal</translation>
     </message>
@@ -12596,90 +16642,147 @@ etkinleşir.</translation>
   <context>
     <name>Gui::InputHintWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="253"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Backtab</source>
       <extracomment>Keyboard key for Backtab</extracomment>
       <translation>Geri Sekme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="257"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enter</source>
       <extracomment>Keyboard key for numpad Enter</extracomment>
       <translation>Gir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="259"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="254"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert</source>
       <extracomment>Keyboard key for Insert</extracomment>
       <translation>Ekle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="249"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Esc</source>
       <extracomment>Keyboard key for Escape</extracomment>
       <translation>Esc</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="251"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tab ⭾</source>
       <extracomment>Keyboard key for Tab</extracomment>
       <translation>Tab ⭾</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="261"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Del</source>
       <extracomment>Keyboard key for Delete</extracomment>
       <translation>Sil</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="263"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pause</source>
       <extracomment>Keyboard key for Pause</extracomment>
       <translation>Duraklat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="265"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="260"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print</source>
       <extracomment>Keyboard key for Print</extracomment>
       <translation>Yazdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="267"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="262"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>SysReq</source>
       <extracomment>Keyboard key for SysReq</extracomment>
       <translation>SysReq</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="269"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="264"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clear</source>
       <extracomment>Keyboard key for Clear</extracomment>
       <translation>Temizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="273"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Home</source>
       <extracomment>Keyboard key for Home</extracomment>
       <translation>Ana Sayfa</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="275"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>End</source>
       <extracomment>Keyboard key for End</extracomment>
       <translation>Son</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="281"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PgDown</source>
       <extracomment>Keyboard key for Page Down</extracomment>
       <translation>PgDown</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="283"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="278"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>PgUp</source>
       <extracomment>Keyboard key for Page Up</extracomment>
       <translation>PgUp</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="293"/>
       <source>⇧ Shift</source>
       <extracomment>Keyboard key for Shift on Windows &amp; Linux</extracomment>
@@ -12747,30 +16850,115 @@ etkinleşir.</translation>
     </message>
     <message>
       <location filename="../InputHintWidget.cpp" line="295"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="288"/>
+      <source>⇧ Shift</source>
+      <extracomment>Keyboard key for Shift on Windows &amp; Linux</extracomment>
+      <translation>⇧ Shift</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="345"/>
+      <source>Num0</source>
+      <extracomment>Keyboard key for numpad 0</extracomment>
+      <translation>Num0</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="347"/>
+      <source>Num1</source>
+      <extracomment>Keyboard key for numpad 1</extracomment>
+      <translation>Num1</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="349"/>
+      <source>Num2</source>
+      <extracomment>Keyboard key for numpad 2</extracomment>
+      <translation>Num2</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="351"/>
+      <source>Num3</source>
+      <extracomment>Keyboard key for numpad 3</extracomment>
+      <translation>Num3</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="353"/>
+      <source>Num4</source>
+      <extracomment>Keyboard key for numpad 4</extracomment>
+      <translation>Num4</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="355"/>
+      <source>Num5</source>
+      <extracomment>Keyboard key for numpad 5</extracomment>
+      <translation>Num5</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="357"/>
+      <source>Num6</source>
+      <extracomment>Keyboard key for numpad 6</extracomment>
+      <translation>Num6</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="359"/>
+      <source>Num7</source>
+      <extracomment>Keyboard key for numpad 7</extracomment>
+      <translation>Num7</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="361"/>
+      <source>Num8</source>
+      <extracomment>Keyboard key for numpad 8</extracomment>
+      <translation>Num8</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="363"/>
+      <source>Num9</source>
+      <extracomment>Keyboard key for numpad 9</extracomment>
+      <translation>Num9</translation>
+    </message>
+    <message>
+      <location filename="../InputHintWidget.cpp" line="290"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ctrl</source>
       <extracomment>Keyboard key for Control on Windows &amp; Linux</extracomment>
       <translation>Ctrl</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="302"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Alt</source>
       <extracomment>Keyboard key for Alt on Windows &amp; Linux</extracomment>
       <translation>Alt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="305"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="300"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Caps Lock</source>
       <extracomment>Keyboard key for Caps Lock</extracomment>
       <translation>Caps Lock</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="307"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="302"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Num Lock</source>
       <extracomment>Keyboard key for Num Lock</extracomment>
       <translation>Num Lock</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../InputHintWidget.cpp" line="309"/>
+=======
+      <location filename="../InputHintWidget.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scroll Lock</source>
       <extracomment>Keyboard key for Scroll Lock</extracomment>
       <translation>Scroll Lock</translation>
@@ -12896,7 +17084,11 @@ etkinleşir.</translation>
   <context>
     <name>Gui::Application</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="477"/>
+=======
+      <location filename="../Application.cpp" line="427"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Built-in Parameters</source>
       <translation>Yerleşik Parametreler</translation>
     </message>
@@ -12906,12 +17098,20 @@ etkinleşir.</translation>
       <translation>Tema Parametreleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="486"/>
+=======
+      <location filename="../Application.cpp" line="436"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Theme Parameters - Fallback</source>
       <translation>Tema Parametreleri - Yedek</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Application.cpp" line="498"/>
+=======
+      <location filename="../Application.cpp" line="448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>User Parameters</source>
       <translation>Kullanıcı Parametreleri</translation>
     </message>
@@ -12919,7 +17119,11 @@ etkinleşir.</translation>
   <context>
     <name>Gui::AutoSaver</name>
     <message>
+<<<<<<< HEAD
       <location filename="../AutoSaver.cpp" line="187"/>
+=======
+      <location filename="../AutoSaver.cpp" line="179"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wait until the auto-recovery file has been saved…</source>
       <translation>Otomatik kurtarma dosyası kaydedilene kadar bekleyin…</translation>
     </message>
@@ -12927,12 +17131,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdDependencyGraph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="663"/>
+=======
+      <location filename="../CommandDoc.cpp" line="628"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency Gra&amp;ph</source>
       <translation>Bağımlılık Gra&amp;fiği</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="665"/>
+=======
+      <location filename="../CommandDoc.cpp" line="630"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows the dependency graph of the objects in the active document</source>
       <translation>Etkin belgede bulunan nesnelerin bağımlılık grafiğini gösterir</translation>
     </message>
@@ -12940,7 +17152,11 @@ etkinleşir.</translation>
   <context>
     <name>Std_DependencyGraph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="677"/>
+=======
+      <location filename="../CommandDoc.cpp" line="642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Dependency Graph</source>
       <translation>Bağımlılık Grafiği</translation>
     </message>
@@ -12948,12 +17164,21 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdExportDependencyGraph</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="696"/>
       <source>Export Dependency &amp;Graph…</source>
       <translation type="unfinished">Export Dependency &amp;Graph…</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="697"/>
+=======
+      <location filename="../CommandDoc.cpp" line="661"/>
+      <source>Export Dependency &amp;Graph</source>
+      <translation>Bağımlılık &amp;Grafiğini Dışa Aktar</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="662"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports the dependency graph as a Graphviz (.gv) file</source>
       <translation>Bağımlılık grafiğini Graphviz (.gv) dosyası olarak dışa aktarır</translation>
     </message>
@@ -12961,12 +17186,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdSaveAs</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="813"/>
+=======
+      <location filename="../CommandDoc.cpp" line="769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save &amp;As…</source>
       <translation>Farklı &amp;Kaydet…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="814"/>
+=======
+      <location filename="../CommandDoc.cpp" line="770"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the active document under a new file name</source>
       <translation>Etkin belgeyi yeni bir dosya adıyla kaydeder</translation>
     </message>
@@ -12974,12 +17207,21 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdSaveCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="843"/>
       <source>Save a Cop&amp;y…</source>
       <translation type="unfinished">Save a Cop&amp;y…</translation>
     </message>
     <message>
       <location filename="../CommandDoc.cpp" line="845"/>
+=======
+      <location filename="../CommandDoc.cpp" line="798"/>
+      <source>Save Cop&amp;y</source>
+      <translation>Kop&amp;ya Kaydet</translation>
+    </message>
+    <message>
+      <location filename="../CommandDoc.cpp" line="800"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves a copy of the active document under a new file name</source>
       <translation>Etkin belgenin bir kopyasını yeni bir dosya adıyla kaydeder</translation>
     </message>
@@ -12987,17 +17229,29 @@ etkinleşir.</translation>
   <context>
     <name>Std_Revert</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="914"/>
+=======
+      <location filename="../CommandDoc.cpp" line="867"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revert Document</source>
       <translation>Belgeyi Geri Al</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="916"/>
+=======
+      <location filename="../CommandDoc.cpp" line="869"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This will discard all the changes since the last file save.</source>
       <translation>Bu işlem, son kayıttan bu yana yapılan tüm değişiklikleri atar.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="918"/>
+=======
+      <location filename="../CommandDoc.cpp" line="871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continue?</source>
       <translation>Devam edilsin mi?</translation>
     </message>
@@ -13005,12 +17259,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdProjectInfo</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="943"/>
+=======
+      <location filename="../CommandDoc.cpp" line="896"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Doc&amp;ument Information</source>
       <translation>Bel&amp;ge Bilgileri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="945"/>
+=======
+      <location filename="../CommandDoc.cpp" line="898"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows information about the active document</source>
       <translation>Etkin belge hakkında bilgileri gösterir</translation>
     </message>
@@ -13018,12 +17280,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdProjectUtil</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="975"/>
+=======
+      <location filename="../CommandDoc.cpp" line="928"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do&amp;cument Utility</source>
       <translation>Bel&amp;ge Yardımcı Araçları</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="977"/>
+=======
+      <location filename="../CommandDoc.cpp" line="930"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extracts or creates document files</source>
       <translation>Belge dosyalarını çıkarır veya oluşturur</translation>
     </message>
@@ -13031,12 +17301,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdPrint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1003"/>
+=======
+      <location filename="../CommandDoc.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Print</source>
       <translation>&amp;Yazdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1005"/>
+=======
+      <location filename="../CommandDoc.cpp" line="958"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Prints the active document</source>
       <translation>Etkin belgeyi yazdırır</translation>
     </message>
@@ -13044,12 +17322,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdPrintPreview</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1036"/>
+=======
+      <location filename="../CommandDoc.cpp" line="989"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Print Previe&amp;w</source>
       <translation>Yazdırma Önizle&amp;mesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1038"/>
+=======
+      <location filename="../CommandDoc.cpp" line="991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Previews the active document before printing</source>
       <translation>Yazdırmadan önce etkin belgenin önizlemesini gösterir</translation>
     </message>
@@ -13057,12 +17343,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdPrintPdf</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1067"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1020"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export P&amp;DF</source>
       <translation>P&amp;DF Olarak Dışa Aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1069"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1022"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exports the active document as a PDF file</source>
       <translation>Etkin belgeyi PDF dosyası olarak dışa aktarır</translation>
     </message>
@@ -13070,12 +17364,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdDuplicateSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1329"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1282"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicate Selecti&amp;on</source>
       <translation>Seçimi Ç&amp;oğalt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1330"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Duplicates the selected objects to the active document</source>
       <translation>Seçili nesneleri etkin belgeye kopyalayarak çoğaltır</translation>
     </message>
@@ -13083,12 +17385,20 @@ etkinleşir.</translation>
   <context>
     <name>StdCmdRefresh</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1706"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1608"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recompute</source>
       <translation>Yeniden hesapla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1707"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recomputes the active document</source>
       <translation>Etkin belgeyi yeniden hesaplar</translation>
     </message>
@@ -13096,7 +17406,11 @@ etkinleşir.</translation>
   <context>
     <name>Std_Refresh</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1735"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document contains dependency cycles.
 Check the report view for more details.
 
@@ -13110,12 +17424,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdTransform</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1835"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1673"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transform</source>
       <translation>Dönüştür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1837"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1675"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Transforms the selected object</source>
       <translation>Seçili nesneyi dönüştürür</translation>
     </message>
@@ -13123,12 +17445,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdPlacement</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1862"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>P&amp;lacement</source>
       <translation>Ye&amp;rleşim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1864"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1702"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the placement editor to adjust the placement of the selected object</source>
       <translation>Seçili nesnenin yerleşimini ayarlamak için yerleşim düzenleyicisini açar</translation>
     </message>
@@ -13136,12 +17466,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdAlignment</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1973"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ali&amp;gn To…</source>
       <translation>Şuna Hi&amp;zala…</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandDoc.cpp" line="1975"/>
+=======
+      <location filename="../CommandDoc.cpp" line="1801"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the selected objects</source>
       <translation>Seçili nesneleri hizalar</translation>
     </message>
@@ -13149,12 +17487,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdRandomColor</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="110"/>
+=======
+      <location filename="../CommandFeat.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Random &amp;Color</source>
       <translation>Rastgele &amp;Renk</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="111"/>
+=======
+      <location filename="../CommandFeat.cpp" line="78"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assigns random diffuse colors for the selected objects</source>
       <translation>Seçili nesnelere rastgele difüz renkler atar</translation>
     </message>
@@ -13162,12 +17508,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleSkipRecompute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="399"/>
+=======
+      <location filename="../CommandFeat.cpp" line="310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Skip Recomputes</source>
       <translation>Yeniden Hesaplamaları Atla</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandFeat.cpp" line="401"/>
+=======
+      <location filename="../CommandFeat.cpp" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Enables or disables the recomputations of the document</source>
       <translation>Belgenin yeniden hesaplamalarını etkinleştirir veya devre dışı bırakır</translation>
     </message>
@@ -13175,12 +17529,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkMakeGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="86"/>
+=======
+      <location filename="../CommandLink.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link Group</source>
       <translation>Bağlantı Grubu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="87"/>
+=======
+      <location filename="../CommandLink.cpp" line="85"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a group of links</source>
       <translation>Bir bağlantı grubu oluşturur</translation>
     </message>
@@ -13188,12 +17550,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkMake</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="260"/>
+=======
+      <location filename="../CommandLink.cpp" line="258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Link</source>
       <translation>Bağlantı Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="261"/>
+=======
+      <location filename="../CommandLink.cpp" line="259"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>A link is an object that references another object, either within the same or in another document. Unlike clones, links reference the original shape directly, making them more memory-efficient, which helps with the creation of complex assemblies.</source>
       <translation>Bağlantı, aynı belgede ya da başka bir belgede bulunan başka bir nesneyi referanslayan bir nesnedir. Klonlardan farklı olarak bağlantılar, orijinal şekli doğrudan referanslar; bu da bellek kullanımını azaltır ve karmaşık montajların oluşturulmasına yardımcı olur.</translation>
     </message>
@@ -13201,12 +17571,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkMakeRelative</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="355"/>
+=======
+      <location filename="../CommandLink.cpp" line="343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Make Sub-Link</source>
       <translation>Alt Bağlantı Oluştur</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="356"/>
+=======
+      <location filename="../CommandLink.cpp" line="344"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a sub-object or sub-element link</source>
       <translation>Alt nesne veya alt öge bağlantısı oluşturur</translation>
     </message>
@@ -13214,12 +17592,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkReplace</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="612"/>
+=======
+      <location filename="../CommandLink.cpp" line="594"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replace With Link</source>
       <translation>Bağlantıyla Değiştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="613"/>
+=======
+      <location filename="../CommandLink.cpp" line="595"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Replaces the selected objects with links</source>
       <translation>Seçili nesneleri bağlantılarla değiştirir</translation>
     </message>
@@ -13227,12 +17613,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkImport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="664"/>
+=======
+      <location filename="../CommandLink.cpp" line="646"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import Links</source>
       <translation>Bağlantıları İçe Aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="665"/>
+=======
+      <location filename="../CommandLink.cpp" line="647"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imports selected external links</source>
       <translation>Seçili harici bağlantıları içe aktarır</translation>
     </message>
@@ -13240,12 +17634,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkImportAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="738"/>
+=======
+      <location filename="../CommandLink.cpp" line="720"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Import All Links</source>
       <translation>Tüm Bağlantıları İçe Aktar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="739"/>
+=======
+      <location filename="../CommandLink.cpp" line="721"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Imports all links of the active document</source>
       <translation>Etkin belgenin tüm bağlantılarını içe aktarır</translation>
     </message>
@@ -13253,12 +17655,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkSelectLinked</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="786"/>
+=======
+      <location filename="../CommandLink.cpp" line="768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Go to Linked Object</source>
       <translation>Bağlı Nesneye &amp;Git</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="787"/>
+=======
+      <location filename="../CommandLink.cpp" line="769"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the linked object and switches to its original document</source>
       <translation>Bağlı nesneyi seçer ve orijinal belgesine geçer</translation>
     </message>
@@ -13266,12 +17676,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkSelectLinkedFinal</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="934"/>
+=======
+      <location filename="../CommandLink.cpp" line="916"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Go to &amp;Deepest Linked Object</source>
       <translation>En &amp;Derin Bağlı Nesneye Git</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="935"/>
+=======
+      <location filename="../CommandLink.cpp" line="917"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects the deepest linked object and switches to its original document</source>
       <translation>En derin bağlı nesneyi seçer ve orijinal belgesine geçer</translation>
     </message>
@@ -13279,12 +17697,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkSelectAllLinks</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="974"/>
+=======
+      <location filename="../CommandLink.cpp" line="956"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select &amp;All Links</source>
       <translation>Tüm Bağlantıları &amp;Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="975"/>
+=======
+      <location filename="../CommandLink.cpp" line="957"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all links to the current selected object</source>
       <translation>Şu anda seçili nesneye olan tüm bağlantıları seçer</translation>
     </message>
@@ -13292,12 +17718,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdLinkActions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1047"/>
+=======
+      <location filename="../CommandLink.cpp" line="1029"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Link Actions</source>
       <translation>Bağlantı Eylemleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandLink.cpp" line="1048"/>
+=======
+      <location filename="../CommandLink.cpp" line="1030"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Commands that operate on link objects</source>
       <translation>Bağlantı nesneleri üzerinde işlem yapan komutlar</translation>
     </message>
@@ -13305,12 +17739,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDlgMacroExecute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="95"/>
+=======
+      <location filename="../CommandMacro.cpp" line="98"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ma&amp;cros</source>
       <translation>Mak&amp;rolar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="97"/>
+=======
+      <location filename="../CommandMacro.cpp" line="100"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to execute a recorded macro</source>
       <translation>Kaydedilmiş bir makroyu çalıştırmak için bir iletişim kutusu açar</translation>
     </message>
@@ -13318,12 +17760,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDlgMacroExecuteDirect</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="125"/>
+=======
+      <location filename="../CommandMacro.cpp" line="128"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Execute Macro</source>
       <translation>Makroyu &amp;Çalıştır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="126"/>
+=======
+      <location filename="../CommandMacro.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Executes the macro in the editor</source>
       <translation>Düzenleyicideki makroyu çalıştırır</translation>
     </message>
@@ -13331,25 +17781,108 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdMacroAttachDebugger</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="151"/>
+=======
+      <location filename="../CommandMacro.cpp" line="154"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Attach to Remote Debugger</source>
       <translation>Uzak Hata Ayıklayıcıya &amp;Bağlan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="153"/>
+      <source>Attaches to a remotely running debugger</source>
+      <translation>Uzaktan çalışan hata ayıklayıcıya bağlanır</translation>
+=======
+      <location filename="../CommandMacro.cpp" line="156"/>
       <source>Attaches to a remotely running debugger</source>
       <translation>Uzaktan çalışan hata ayıklayıcıya bağlanır</translation>
     </message>
   </context>
   <context>
+    <name>StdCmdMacroStartDebug</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="183"/>
+      <source>&amp;Debug Macro</source>
+      <translation>Makroyu &amp;Hata Ayıkla</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="184"/>
+      <source>Starts the debugging of macros</source>
+      <translation>Makroların hata ayıklamasını başlatır</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacroStopDebug</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="215"/>
+      <source>&amp;Stop Debugging</source>
+      <translation>Hata Ayıklamayı &amp;Durdur</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="216"/>
+      <source>Stops the debugging of macros</source>
+      <translation>Makroların hata ayıklamasını durdurur</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacroStepOver</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="242"/>
+      <source>Step &amp;Over</source>
+      <translation>Adım &amp;Atla</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="243"/>
+      <source>Steps to the next line in this file</source>
+      <translation>Bu dosyada bir sonraki satıra geçer</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdMacroStepInto</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="269"/>
+      <source>Step &amp;Into</source>
+      <translation>Adım İ&amp;çine Gir</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="270"/>
+      <source>Steps to the next line executed</source>
+      <translation>Yürütülen bir sonraki satıra geçer</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdToggleBreakpoint</name>
+    <message>
+      <location filename="../CommandMacro.cpp" line="296"/>
+      <source>Toggle &amp;Breakpoint</source>
+      <translation>Kesme &amp;Noktasını Aç/Kapat</translation>
+    </message>
+    <message>
+      <location filename="../CommandMacro.cpp" line="297"/>
+      <source>Adds or removes a breakpoint at this position</source>
+      <translation>Bu konumda bir kesme noktası ekler veya kaldırır</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
+    </message>
+  </context>
+  <context>
     <name>StdCmdMacrosFolder</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="180"/>
+=======
+      <location filename="../CommandMacro.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Open Macro Folder</source>
       <translation>Makro Klasörünü Aç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandMacro.cpp" line="181"/>
+=======
+      <location filename="../CommandMacro.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the macros folder in the system file manager</source>
       <translation>Makrolar klasörünü sistem dosya yöneticisinde açar</translation>
     </message>
@@ -13357,12 +17890,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdRecentMacros</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="191"/>
+=======
+      <location filename="../CommandStd.cpp" line="186"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Recent Macros</source>
       <translation>Son &amp;Makrolar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="192"/>
+=======
+      <location filename="../CommandStd.cpp" line="187"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the list of recently used macros</source>
       <translation>Son kullanılan makroların listesini gösterir</translation>
     </message>
@@ -13370,12 +17911,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDlgParameter</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="393"/>
+=======
+      <location filename="../CommandStd.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>E&amp;dit Parameters</source>
       <translation>Parametreleri D&amp;üzenle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="395"/>
+=======
+      <location filename="../CommandStd.cpp" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to edit the parameters</source>
       <translation>Parametreleri düzenlemek için bir iletişim kutusu açar</translation>
     </message>
@@ -13383,12 +17932,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDlgPreferences</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="419"/>
+=======
+      <location filename="../CommandStd.cpp" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Prefere&amp;nces</source>
       <translation>Terci&amp;hler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="421"/>
+=======
+      <location filename="../CommandStd.cpp" line="415"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to edit the preferences</source>
       <translation>Tercihleri düzenlemek için bir iletişim kutusu açar</translation>
     </message>
@@ -13396,12 +17953,21 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDlgCustomize</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="466"/>
       <source>Cu&amp;stomize</source>
       <translation>Öze&amp;lleştir</translation>
     </message>
     <message>
       <location filename="../CommandStd.cpp" line="467"/>
+=======
+      <location filename="../CommandStd.cpp" line="460"/>
+      <source>Cu&amp;stomize…</source>
+      <translation>Özelleşti&amp;r…</translation>
+    </message>
+    <message>
+      <location filename="../CommandStd.cpp" line="461"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a dialog to edit toolbars, shortcuts, and macros</source>
       <translation>Araç çubuklarını, kısayolları ve makroları düzenlemek için bir iletişim kutusu açar</translation>
     </message>
@@ -13409,12 +17975,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdCommandLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="494"/>
+=======
+      <location filename="../CommandStd.cpp" line="488"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Command &amp;Line</source>
       <translation>Komut &amp;Satırı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="496"/>
+=======
+      <location filename="../CommandStd.cpp" line="490"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a command line interface in the console</source>
       <translation>Konsolda bir komut satırı arayüzü açar</translation>
     </message>
@@ -13422,38 +17996,66 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdFreeCADDonation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="599"/>
+=======
+      <location filename="../CommandStd.cpp" line="593"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Donate to FreeCA&amp;D</source>
       <translation>FreeCA&amp;D'e Bağış Yap</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="600"/>
       <source>Opens the FreeCAD donation page</source>
       <translation type="unfinished">Opens the FreeCAD donation page</translation>
+=======
+      <location filename="../CommandStd.cpp" line="594"/>
+      <source>Support the FreeCAD development</source>
+      <translation>FreeCAD geliştirmesine destek olun</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdDevHandbook</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="630"/>
+=======
+      <location filename="../CommandStd.cpp" line="624"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Developers Handbook</source>
       <translation>Geliştirici El Kitabı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="632"/>
       <source>Opens the FreeCAD developers handbook</source>
       <translation type="unfinished">Opens the FreeCAD developers handbook</translation>
+=======
+      <location filename="../CommandStd.cpp" line="626"/>
+      <source>Handbook about FreeCAD development</source>
+      <translation>FreeCAD geliştirmesi hakkında el kitabı</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdTextDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="786"/>
+=======
+      <location filename="../CommandStd.cpp" line="780"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Te&amp;xt Document</source>
       <translation>Meti&amp;n Belgesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="787"/>
+=======
+      <location filename="../CommandStd.cpp" line="781"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adds a text document to the active document</source>
       <translation>Etkin belgeye bir metin belgesi ekler</translation>
     </message>
@@ -13461,12 +18063,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdUnitsCalculator</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="824"/>
+=======
+      <location filename="../CommandStd.cpp" line="818"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Units Converter</source>
       <translation>Birim &amp;Dönüştürücü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="826"/>
+=======
+      <location filename="../CommandStd.cpp" line="820"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Starts the units converter</source>
       <translation>Birim dönüştürücüyü başlatır</translation>
     </message>
@@ -13474,12 +18084,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdUserEditMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="865"/>
+=======
+      <location filename="../CommandStd.cpp" line="859"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit &amp;Mode</source>
       <translation>Düzenleme &amp;Kipi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStd.cpp" line="866"/>
+=======
+      <location filename="../CommandStd.cpp" line="860"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Defines behavior when editing an object from the tree view</source>
       <translation>Ağaç görünümünden bir nesneyi düzenlerken davranışı belirler</translation>
     </message>
@@ -13500,12 +18118,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="131"/>
+=======
+      <location filename="../CommandStructure.cpp" line="121"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New Group</source>
       <translation>Yeni Grup</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="132"/>
+=======
+      <location filename="../CommandStructure.cpp" line="122"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a group, which is a general-purpose container to group objects in the tree view, regardless of their data type. It is a simple folder to organize the objects in a model.</source>
       <translation>Bir Grup oluşturur. Grup, veri türlerinden bağımsız olarak nesneleri ağaç görünümünde gruplamak için genel amaçlı bir kapsayıcıdır. Modeldeki nesneleri düzenlemek için basit bir klasördür.</translation>
     </message>
@@ -13513,12 +18139,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdVarSet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="203"/>
+=======
+      <location filename="../CommandStructure.cpp" line="193"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Variable Set</source>
       <translation>Değişken Kümesi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandStructure.cpp" line="205"/>
+=======
+      <location filename="../CommandStructure.cpp" line="195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a variable set, which is an object that maintains a set of properties to be used as variables</source>
       <translation>Değişken olarak kullanılacak bir özellik kümesini tutan bir Değişken Kümesi oluşturur</translation>
     </message>
@@ -13526,12 +18160,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewSaveCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="250"/>
+=======
+      <location filename="../CommandView.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Current Camera</source>
       <translation>Geçerli Kamerayı Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="251"/>
+=======
+      <location filename="../CommandView.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Saves the current camera settings</source>
       <translation>Geçerli kamera ayarlarını kaydeder</translation>
     </message>
@@ -13539,12 +18181,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewRestoreCamera</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="276"/>
+=======
+      <location filename="../CommandView.cpp" line="275"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restore Saved Camera</source>
       <translation>Kaydedilmiş Kamerayı Geri Yükle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="277"/>
+=======
+      <location filename="../CommandView.cpp" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restores the saved camera settings</source>
       <translation>Kaydedilmiş kamera ayarlarını geri yükler</translation>
     </message>
@@ -13552,12 +18202,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleClipPlane</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="677"/>
+=======
+      <location filename="../CommandView.cpp" line="642"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clippin&amp;g View</source>
       <translation>Kırp&amp;ma Görünümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="678"/>
+=======
+      <location filename="../CommandView.cpp" line="643"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles clipping of the active view</source>
       <translation>Etkin görünümde kırpmayı açar/kapatır</translation>
     </message>
@@ -13565,12 +18223,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDrawStyle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="763"/>
+=======
+      <location filename="../CommandView.cpp" line="699"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Draw Style</source>
       <translation>Çizim &amp;Stili</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="764"/>
+=======
+      <location filename="../CommandView.cpp" line="700"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes the draw style of the objects</source>
       <translation>Nesnelerin çizim stilini değiştirir</translation>
     </message>
@@ -13578,12 +18244,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleVisibility</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="970"/>
+=======
+      <location filename="../CommandView.cpp" line="906"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Visibility</source>
       <translation>Görünürlüğü &amp;Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="971"/>
+=======
+      <location filename="../CommandView.cpp" line="907"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the selection</source>
       <translation>Seçimin görünürlüğünü açar/kapatır</translation>
     </message>
@@ -13591,12 +18265,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleTransparency</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1004"/>
+=======
+      <location filename="../CommandView.cpp" line="940"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Transparenc&amp;y</source>
       <translation>Saydamlı&amp;ğı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1006"/>
+=======
+      <location filename="../CommandView.cpp" line="942"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the transparency of the selected objects. Transparency can be fine-tuned in the appearance task dialog</source>
       <translation>Seçili nesnelerin saydamlığını açar/kapatır. Saydamlık, görünüm görev iletişim kutusunda ince ayarlanabilir</translation>
     </message>
@@ -13604,12 +18286,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleSelectability</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1117"/>
+=======
+      <location filename="../CommandView.cpp" line="1053"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Se&amp;lectability</source>
       <translation>Seçilebilirliği &amp;Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1118"/>
+=======
+      <location filename="../CommandView.cpp" line="1054"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the property of the objects to get selected in the 3D view</source>
       <translation>Nesnelerin 3B görünümde seçilebilme özelliğini açar/kapatır</translation>
     </message>
@@ -13617,12 +18307,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdShowSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1179"/>
+=======
+      <location filename="../CommandView.cpp" line="1115"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sho&amp;w Selection</source>
       <translation>Seçimi Gö&amp;ster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1180"/>
+=======
+      <location filename="../CommandView.cpp" line="1116"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows all selected objects</source>
       <translation>Seçili tüm nesneleri gösterir</translation>
     </message>
@@ -13630,12 +18328,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdHideSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1207"/>
+=======
+      <location filename="../CommandView.cpp" line="1143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Hide Selection</source>
       <translation>Seçimi &amp;Gizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1208"/>
+=======
+      <location filename="../CommandView.cpp" line="1144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hides all selected objects</source>
       <translation>Seçili tüm nesneleri gizler</translation>
     </message>
@@ -13643,12 +18349,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdSelectVisibleObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1235"/>
+=======
+      <location filename="../CommandView.cpp" line="1171"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Select Visible Objects</source>
       <translation>Görünür Nesneleri &amp;Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1236"/>
+=======
+      <location filename="../CommandView.cpp" line="1172"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all visible objects in the active document</source>
       <translation>Etkin belgedeki tüm görünür nesneleri seçer</translation>
     </message>
@@ -13656,12 +18370,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1279"/>
+=======
+      <location filename="../CommandView.cpp" line="1215"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>To&amp;ggle All Objects</source>
       <translation>Tüm Nesneleri A&amp;ç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1280"/>
+=======
+      <location filename="../CommandView.cpp" line="1216"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of all objects in the active document</source>
       <translation>Etkin belgedeki tüm nesnelerin görünürlüğünü açar/kapatır</translation>
     </message>
@@ -13669,12 +18391,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdShowObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1331"/>
+=======
+      <location filename="../CommandView.cpp" line="1267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Show &amp;All Objects</source>
       <translation>Tüm Nesneleri &amp;Göster</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1332"/>
+=======
+      <location filename="../CommandView.cpp" line="1268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows all objects in the document</source>
       <translation>Belgedeki tüm nesneleri gösterir</translation>
     </message>
@@ -13682,12 +18412,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdHideObjects</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1373"/>
+=======
+      <location filename="../CommandView.cpp" line="1309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide All &amp;Objects</source>
       <translation>Tüm &amp;Nesneleri Gizle</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1374"/>
+=======
+      <location filename="../CommandView.cpp" line="1310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hides all objects in the document</source>
       <translation>Belgedeki tüm nesneleri gizler</translation>
     </message>
@@ -13695,12 +18433,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewRotateRight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1724"/>
+=======
+      <location filename="../CommandView.cpp" line="1625"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates &amp;Right</source>
       <translation>Sağa Dö&amp;ndür</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1725"/>
+=======
+      <location filename="../CommandView.cpp" line="1626"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rotates the view by 90° clockwise</source>
       <translation>Görünümü saat yönünde 90° döndürür</translation>
     </message>
@@ -13708,12 +18454,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewFitAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1749"/>
+=======
+      <location filename="../CommandView.cpp" line="1650"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Fit All</source>
       <translation>&amp;Tümünü Sığdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1750"/>
+=======
+      <location filename="../CommandView.cpp" line="1651"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fits all content into the 3D view</source>
       <translation>Tüm içeriği 3B görünüme sığdırır</translation>
     </message>
@@ -13721,12 +18475,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewFitSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1778"/>
+=======
+      <location filename="../CommandView.cpp" line="1681"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fit &amp;Selection</source>
       <translation>Seçimi &amp;Sığdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1779"/>
+=======
+      <location filename="../CommandView.cpp" line="1682"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fits the selected content into the 3D view</source>
       <translation>Seçili içeriği 3B görünüme sığdırır</translation>
     </message>
@@ -13734,12 +18496,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewGroup</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1808"/>
+=======
+      <location filename="../CommandView.cpp" line="1711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Standard &amp;Views</source>
       <translation>Standart &amp;Görünümler</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1809"/>
+=======
+      <location filename="../CommandView.cpp" line="1712"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes to a standard view</source>
       <translation>Standart bir görünüme geçer</translation>
     </message>
@@ -13747,12 +18517,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdViewDockUndockFullscreen</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1976"/>
+=======
+      <location filename="../CommandView.cpp" line="1879"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>D&amp;ocument Window</source>
       <translation>B&amp;elge Penceresi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="1977"/>
+=======
+      <location filename="../CommandView.cpp" line="1880"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays the active view either in fullscreen, undocked, or docked mode</source>
       <translation>Etkin görünümü tam ekran, ayrık veya yerleşik kipte gösterir</translation>
     </message>
@@ -13760,12 +18538,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewVR</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2087"/>
+=======
+      <location filename="../CommandView.cpp" line="1990"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>FreeCAD VR</source>
       <translation>FreeCAD VR</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2088"/>
+=======
+      <location filename="../CommandView.cpp" line="1991"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Extends the FreeCAD 3D Window to a VR device</source>
       <translation>FreeCAD 3B penceresini bir VR aygıtına genişletir</translation>
     </message>
@@ -13773,12 +18559,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewCreate</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2360"/>
+=======
+      <location filename="../CommandView.cpp" line="2265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New 3D View</source>
       <translation>Yeni 3B Görünüm</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2361"/>
+=======
+      <location filename="../CommandView.cpp" line="2266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a new 3D view window for the active document</source>
       <translation>Etkin belge için yeni bir 3B görünüm penceresi açar</translation>
     </message>
@@ -13786,12 +18580,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdToggleNavigation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2389"/>
+=======
+      <location filename="../CommandView.cpp" line="2294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Navigation/&amp;Edit Mode</source>
       <translation>Gezinme/&amp;Düzenleme Kipini Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2390"/>
+=======
+      <location filename="../CommandView.cpp" line="2295"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles between navigation and edit mode</source>
       <translation>Gezinme ve düzenleme kipi arasında geçiş yapar</translation>
     </message>
@@ -13799,12 +18601,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdAxisCross</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2437"/>
+=======
+      <location filename="../CommandView.cpp" line="2342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle A&amp;xis Cross</source>
       <translation>E&amp;ksen Çaprazını Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2438"/>
+=======
+      <location filename="../CommandView.cpp" line="2343"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the axis cross at the origin</source>
       <translation>Orijindeki eksen artısını açıp kapatır</translation>
     </message>
@@ -13812,25 +18622,69 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdViewExample3</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2544"/>
+=======
+      <location filename="../CommandView.cpp" line="2448"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Inventor Example #3</source>
       <translation>Inventor Örneği #3</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2545"/>
+      <source>Shows an animated texture</source>
+      <translation>Canlandırmalı bir dokuyu gösterir</translation>
+=======
+      <location filename="../CommandView.cpp" line="2449"/>
       <source>Shows an animated texture</source>
       <translation>Canlandırmalı bir dokuyu gösterir</translation>
     </message>
   </context>
   <context>
+    <name>StdCmdViewIvStereoRedGreen</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2506"/>
+      <source>Stereo Re&amp;d/Cyan</source>
+      <translation>Stereo Kır&amp;mızı/Camgöbeği</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2507"/>
+      <source>Switches stereo viewing to red/cyan</source>
+      <translation>Stereo görüntülemeyi kırmızı/camgöbeği kipine geçirir</translation>
+    </message>
+  </context>
+  <context>
+    <name>StdCmdViewIvStereoQuadBuff</name>
+    <message>
+      <location filename="../CommandView.cpp" line="2534"/>
+      <source>Stereo &amp;Quad Buffer</source>
+      <translation>Stereo &amp;Dörtlü Arabellek</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="2535"/>
+      <source>Switches stereo viewing to quad buffer</source>
+      <translation>Stereo görüntülemeyi dörtlü arabellek kipine geçirir</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
+    </message>
+  </context>
+  <context>
     <name>StdCmdViewIvIssueCamPos</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2573"/>
+=======
+      <location filename="../CommandView.cpp" line="2619"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Issue Camera &amp;Position</source>
       <translation>Kamera &amp;Konumunu Yazdır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2574"/>
+=======
+      <location filename="../CommandView.cpp" line="2620"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Issues the camera position to the console and to a macro, to easily recall this position</source>
       <translation>Bu konumu kolayca geri çağırmak için kamera konumunu konsola ve bir makroya yazdırır</translation>
     </message>
@@ -13838,12 +18692,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdViewBoxZoom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2826"/>
+=======
+      <location filename="../CommandView.cpp" line="2867"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Box Zoom</source>
       <translation>&amp;Kutu Yakınlaştırma</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2827"/>
+=======
+      <location filename="../CommandView.cpp" line="2868"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates the box zoom tool</source>
       <translation>Kutu yakınlaştırma aracını etkinleştirir</translation>
     </message>
@@ -13851,12 +18713,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdBoxSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2860"/>
+=======
+      <location filename="../CommandView.cpp" line="2901"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Box Selection</source>
       <translation>&amp;Kutu Seçimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2861"/>
+=======
+      <location filename="../CommandView.cpp" line="2902"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates the box selection tool</source>
       <translation>Kutu seçim aracını etkinleştirir</translation>
     </message>
@@ -13864,12 +18734,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdBoxElementSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2927"/>
+=======
+      <location filename="../CommandView.cpp" line="3176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bo&amp;x Element Selection</source>
       <translation>K&amp;utu Eleman Seçimi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2928"/>
+=======
+      <location filename="../CommandView.cpp" line="3177"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activates box element selection</source>
       <translation>Kutu eleman seçimini etkinleştirir</translation>
     </message>
@@ -13877,12 +18755,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2983"/>
+=======
+      <location filename="../CommandView.cpp" line="3232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Go to Selection</source>
       <translation>&amp;Seçime Git</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="2984"/>
+=======
+      <location filename="../CommandView.cpp" line="3233"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scrolls to the first selected item</source>
       <translation>İlk seçili öğeye kaydırır</translation>
     </message>
@@ -13890,12 +18776,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdTreeCollapse</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3008"/>
+=======
+      <location filename="../CommandView.cpp" line="3257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapse Selected Items</source>
       <translation>Seçili Öğeleri Daralt</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3009"/>
+=======
+      <location filename="../CommandView.cpp" line="3258"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Collapses the currently selected tree items</source>
       <translation>Şu anda seçili ağaç öğelerini daraltır</translation>
     </message>
@@ -13903,12 +18797,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdTreeExpand</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3034"/>
+=======
+      <location filename="../CommandView.cpp" line="3283"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expand Selected Items</source>
       <translation>Seçili Öğeleri Genişlet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3035"/>
+=======
+      <location filename="../CommandView.cpp" line="3284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expands the currently selected tree items</source>
       <translation>Şu anda seçili ağaç öğelerini genişletir</translation>
     </message>
@@ -13916,12 +18818,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdTreeSelectAllInstances</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3060"/>
+=======
+      <location filename="../CommandView.cpp" line="3309"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select All Instances</source>
       <translation>Tüm Örnekleri Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3061"/>
+=======
+      <location filename="../CommandView.cpp" line="3310"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selects all instances of the currently selected object</source>
       <translation>Şu anda seçili nesnenin tüm örneklerini seçer</translation>
     </message>
@@ -13929,12 +18839,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdSceneInspector</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3128"/>
+=======
+      <location filename="../CommandView.cpp" line="3377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Scene I&amp;nspector</source>
       <translation>Sahne D&amp;enetçisi</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3129"/>
+=======
+      <location filename="../CommandView.cpp" line="3378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens the scene inspector</source>
       <translation>Sahne denetçisini açar</translation>
     </message>
@@ -13942,12 +18860,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdTextureMapping</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3162"/>
+=======
+      <location filename="../CommandView.cpp" line="3411"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Text&amp;ure Mapping</source>
       <translation>D&amp;oku Eşleme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3163"/>
+=======
+      <location filename="../CommandView.cpp" line="3412"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Maps textures to shapes</source>
       <translation>Dokuları şekillere eşler</translation>
     </message>
@@ -13955,12 +18881,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDemoMode</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3188"/>
+=======
+      <location filename="../CommandView.cpp" line="3437"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>View &amp;Turntable</source>
       <translation>Döner Tabla &amp;Görünümü</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3189"/>
+=======
+      <location filename="../CommandView.cpp" line="3438"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Opens a turntable view</source>
       <translation>Döner tabla görünümünü açar</translation>
     </message>
@@ -13968,12 +18902,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdSelBack</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3218"/>
+=======
+      <location filename="../CommandView.cpp" line="3467"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection &amp;Back</source>
       <translation>Seçim &amp;Geri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3220"/>
+=======
+      <location filename="../CommandView.cpp" line="3469"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restores the previous tree view selection. Only works if tree RecordSelection mode is switched on.</source>
       <translation>Önceki ağaç görünümü seçimini geri yükler. Yalnızca ağaç RecordSelection kipi açıksa çalışır.</translation>
     </message>
@@ -13981,12 +18923,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdSelForward</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3252"/>
+=======
+      <location filename="../CommandView.cpp" line="3501"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Selection &amp;Forward</source>
       <translation>Seçim &amp;İleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3254"/>
+=======
+      <location filename="../CommandView.cpp" line="3503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Restores the next tree view selection. Only works if tree RecordSelection mode is switched on.</source>
       <translation>Sonraki ağaç görünümü seçimini geri yükler. Yalnızca ağaç RecordSelection kipi açıksa çalışır.</translation>
     </message>
@@ -13994,12 +18944,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeSingleDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3310"/>
+=======
+      <location filename="../CommandView.cpp" line="3559"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Single Document</source>
       <translation>&amp;Tek Belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3311"/>
+=======
+      <location filename="../CommandView.cpp" line="3560"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays only the active document in the tree view</source>
       <translation>Ağaç görünümünde yalnızca etkin belgeyi gösterir</translation>
     </message>
@@ -14007,12 +18965,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeMultiDocument</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3327"/>
+=======
+      <location filename="../CommandView.cpp" line="3576"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Multi Document</source>
       <translation>Ç&amp;oklu Belge</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3328"/>
+=======
+      <location filename="../CommandView.cpp" line="3577"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays all documents in the tree view</source>
       <translation>Ağaç görünümünde tüm belgeleri gösterir</translation>
     </message>
@@ -14020,12 +18986,21 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeSyncView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3387"/>
       <source>Sync View</source>
       <translation>Görünümü Eşitle</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3388"/>
+=======
+      <location filename="../CommandView.cpp" line="3636"/>
+      <source>&amp;1 Sync View</source>
+      <translation>&amp;1 Görünümü Eşitle</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3637"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Switches to the 3D view containing the selected item from the tree view</source>
       <translation>Ağaç görünümünden seçili öğeyi içeren 3B görünüme geçer</translation>
     </message>
@@ -14033,12 +19008,21 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeSyncSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3407"/>
       <source>Sync Selection</source>
       <translation>Seçimi Eşitle</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3408"/>
+=======
+      <location filename="../CommandView.cpp" line="3656"/>
+      <source>&amp;2 Sync Selection</source>
+      <translation>&amp;2 Seçimi Eşitle</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3657"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expands the tree item when the corresponding object is selected in the 3D view</source>
       <translation>3B görünümde ilgili nesne seçildiğinde ağaç öğesini genişletir</translation>
     </message>
@@ -14046,12 +19030,21 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeSyncPlacement</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3427"/>
       <source>Sync Placement</source>
       <translation>Yerleşimi Eşitle</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3429"/>
+=======
+      <location filename="../CommandView.cpp" line="3676"/>
+      <source>&amp;3 Sync Placement</source>
+      <translation>&amp;3 Yerleşimi Eşitle</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3678"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Adjusts the placement on drag-and-drop of objects across coordinate systems (e.g. in part containers)</source>
       <translation>Nesneleri koordinat sistemleri arasında sürükleyip bırakırken yerleşimi ayarlar (örn. parça kapsayıcılarında)</translation>
     </message>
@@ -14059,12 +19052,21 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeRecordSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3466"/>
       <source>Record Selection</source>
       <translation>Seçimi Kaydet</translation>
     </message>
     <message>
       <location filename="../CommandView.cpp" line="3468"/>
+=======
+      <location filename="../CommandView.cpp" line="3715"/>
+      <source>&amp;5 Record Selection</source>
+      <translation>&amp;5 Seçimi Kaydet</translation>
+    </message>
+    <message>
+      <location filename="../CommandView.cpp" line="3717"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Records the selection in the tree view in order to go back/forward using the navigation buttons</source>
       <translation>Gezinme düğmeleriyle geri/ileri gidebilmek için ağaç görünümündeki seçimi kaydeder</translation>
     </message>
@@ -14072,12 +19074,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdTreeDrag</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3485"/>
+=======
+      <location filename="../CommandView.cpp" line="3734"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initiate &amp;Dragging</source>
       <translation>&amp;Sürüklemeyi Başlat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3486"/>
+=======
+      <location filename="../CommandView.cpp" line="3735"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Initiates dragging of the currently selected tree items</source>
       <translation>Şu anda seçili ağaç öğelerinin sürüklemesini başlatır</translation>
     </message>
@@ -14085,12 +19095,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdTreeViewActions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3518"/>
+=======
+      <location filename="../CommandView.cpp" line="3767"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View Actions</source>
       <translation>Ağaç Görünümü Eylemleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3519"/>
+=======
+      <location filename="../CommandView.cpp" line="3768"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree view behavior options and actions</source>
       <translation>Ağaç görünümü davranışı seçenekleri ve eylemleri</translation>
     </message>
@@ -14098,12 +19116,20 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdSelBoundingBox</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3563"/>
+=======
+      <location filename="../CommandView.cpp" line="3812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Bounding Box</source>
       <translation>&amp;Sınırlayıcı Kutu</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3564"/>
+=======
+      <location filename="../CommandView.cpp" line="3813"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shows selection bounding box</source>
       <translation>Seçimin sınırlayıcı kutusunu gösterir</translation>
     </message>
@@ -14111,25 +19137,43 @@ Daha fazla ayrıntı için rapor görünümüne göz atın.
   <context>
     <name>StdCmdDockOverlayAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3610"/>
+=======
+      <location filename="../CommandView.cpp" line="3859"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Overl&amp;ay for All Panels</source>
       <translation>Tüm Paneller için Ka&amp;plamayı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3611"/>
       <source>Toggles overlay mode for all docked panels</source>
       <translation type="unfinished">Toggles overlay mode for all docked panels</translation>
+=======
+      <location filename="../CommandView.cpp" line="3860"/>
+      <source>Toggled overlay mode for all docked panels</source>
+      <translation>Tüm kenetlenmiş paneller için kaplama kipini açıp kapatır</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>StdCmdDockOverlayTransparentAll</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3633"/>
+=======
+      <location filename="../CommandView.cpp" line="3882"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Tra&amp;nsparent Panels</source>
       <translation>Say&amp;dam Panelleri Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3634"/>
+=======
+      <location filename="../CommandView.cpp" line="3883"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles transparent mode for all docked overlay panels.
 This makes the docked panels stay transparent at all times.</source>
       <translation>Tüm kenetlenmiş kaplama panelleri için saydam kipini açıp kapatır.
@@ -14139,12 +19183,20 @@ Bu, kenetlenmiş panellerin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayToggle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3659"/>
+=======
+      <location filename="../CommandView.cpp" line="3908"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Overlay</source>
       <translation>Ka&amp;plamayı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3660"/>
+=======
+      <location filename="../CommandView.cpp" line="3909"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles overlay mode for the docked window under the cursor</source>
       <translation>İmleç altındaki kenetlenmiş pencere için kaplama kipini açıp kapatır</translation>
     </message>
@@ -14152,12 +19204,20 @@ Bu, kenetlenmiş panellerin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayToggleTransparent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3682"/>
+=======
+      <location filename="../CommandView.cpp" line="3931"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Tran&amp;sparent Mode</source>
       <translation>S&amp;aydam Kipi Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3683"/>
+=======
+      <location filename="../CommandView.cpp" line="3932"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles transparent mode for the docked panel under cursor.
 This makes the docked panel stay transparent at all times.</source>
       <translation>İmleç altındaki kenetlenmiş panel için saydam kipini açıp kapatır.
@@ -14167,12 +19227,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayToggleLeft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3708"/>
+=======
+      <location filename="../CommandView.cpp" line="3957"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Left</source>
       <translation>So&amp;lu Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3709"/>
+=======
+      <location filename="../CommandView.cpp" line="3958"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the left overlay panel</source>
       <translation>Sol kaplama panelinin görünürlüğünü açıp kapatır</translation>
     </message>
@@ -14180,12 +19248,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayToggleRight</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3733"/>
+=======
+      <location filename="../CommandView.cpp" line="3982"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Right</source>
       <translation>&amp;Sağı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3734"/>
+=======
+      <location filename="../CommandView.cpp" line="3983"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the right overlay panel</source>
       <translation>Sağ kaplama panelinin görünürlüğünü açıp kapatır</translation>
     </message>
@@ -14193,12 +19269,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayToggleTop</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3758"/>
+=======
+      <location filename="../CommandView.cpp" line="4007"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Top</source>
       <translation>&amp;Üstü Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3759"/>
+=======
+      <location filename="../CommandView.cpp" line="4008"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the top overlay panel</source>
       <translation>Üst kaplama panelinin görünürlüğünü açıp kapatır</translation>
     </message>
@@ -14206,12 +19290,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayToggleBottom</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3783"/>
+=======
+      <location filename="../CommandView.cpp" line="4032"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle &amp;Bottom</source>
       <translation>&amp;Altı Aç/Kapat</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3784"/>
+=======
+      <location filename="../CommandView.cpp" line="4033"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggles the visibility of the bottom overlay panel</source>
       <translation>Alt kaplama panelinin görünürlüğünü açıp kapatır</translation>
     </message>
@@ -14219,12 +19311,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlayMouseTransparent</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3808"/>
+=======
+      <location filename="../CommandView.cpp" line="4057"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bypass &amp;Mouse Events in Overlay Panels</source>
       <translation>Kaplama Panellerinde &amp;Fare Olaylarını Yoksay</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3809"/>
+=======
+      <location filename="../CommandView.cpp" line="4058"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Bypasses all mouse events in docked overlay panels</source>
       <translation>Kenetlenmiş kaplama panellerindeki tüm fare olaylarını yoksayar</translation>
     </message>
@@ -14232,12 +19332,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdDockOverlay</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3854"/>
+=======
+      <location filename="../CommandView.cpp" line="4103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Overlay Docked Panel</source>
       <translation>Kenetlenmiş Paneli Kaplama Kipine Al</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3855"/>
+=======
+      <location filename="../CommandView.cpp" line="4104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sets the docked panel in overlay mode</source>
       <translation>Kenetlenmiş paneli kaplama kipine alır</translation>
     </message>
@@ -14245,12 +19353,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdStoreWorkingView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3988"/>
+=======
+      <location filename="../CommandView.cpp" line="4138"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>St&amp;ore Working View</source>
       <translation>Çalışma Görünümünü &amp;Kaydet</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="3989"/>
+=======
+      <location filename="../CommandView.cpp" line="4139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stores a temporary working view for the current document</source>
       <translation>Geçerli belge için geçici bir çalışma görünümünü kaydeder</translation>
     </message>
@@ -14258,12 +19374,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdRecallWorkingView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4016"/>
+=======
+      <location filename="../CommandView.cpp" line="4168"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>R&amp;ecall Working View</source>
       <translation>Çalışma Görünümünü &amp;Geri Çağır</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4017"/>
+=======
+      <location filename="../CommandView.cpp" line="4169"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Recalls a previously stored temporary working view</source>
       <translation>Daha önce kaydedilmiş geçici bir çalışma görünümünü geri çağırır</translation>
     </message>
@@ -14271,12 +19395,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdAlignToSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4044"/>
+=======
+      <location filename="../CommandView.cpp" line="4201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Align to Selection</source>
       <translation>&amp;Seçime Hizala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4045"/>
+=======
+      <location filename="../CommandView.cpp" line="4202"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Aligns the camera view to the selected elements in the 3D view</source>
       <translation>Kamera görünümünü 3B görünümde seçili öğelere hizalar</translation>
     </message>
@@ -14323,7 +19455,11 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::ExpressionLineEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../ExpressionCompleter.cpp" line="1108"/>
+=======
+      <location filename="../ExpressionCompleter.cpp" line="1082"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exact Match</source>
       <translation>Tam Eşleşme</translation>
     </message>
@@ -14331,7 +19467,11 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::ExpressionTextEdit</name>
     <message>
+<<<<<<< HEAD
       <location filename="../ExpressionCompleter.cpp" line="1297"/>
+=======
+      <location filename="../ExpressionCompleter.cpp" line="1271"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exact Match</source>
       <translation>Tam Eşleşme</translation>
     </message>
@@ -14339,13 +19479,22 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::FileChooser</name>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1259"/>
       <location filename="../FileDialog.cpp" line="1269"/>
+=======
+      <location filename="../FileDialog.cpp" line="864"/>
+      <location filename="../FileDialog.cpp" line="874"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a File</source>
       <translation>Bir Dosya Seç</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../FileDialog.cpp" line="1279"/>
+=======
+      <location filename="../FileDialog.cpp" line="884"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select a Directory</source>
       <translation>Bir Dizin Seç</translation>
     </message>
@@ -14361,7 +19510,11 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::OverlayTitleBar</name>
     <message>
+<<<<<<< HEAD
       <location filename="../OverlayWidgets.cpp" line="2214"/>
+=======
+      <location filename="../OverlayWidgets.cpp" line="2195"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mouse pass through, Esc to stop</source>
       <translation>Fare geçişi, durdurmak için Esc</translation>
     </message>
@@ -14377,7 +19530,11 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::TreeDockWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Tree.cpp" line="4323"/>
+=======
+      <location filename="../Tree.cpp" line="4180"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tree View</source>
       <translation>Ağaç Görünümü</translation>
     </message>
@@ -14385,16 +19542,25 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::Dialog::DlgExpressionInput</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="79"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revert to last calculated value (as constant)</source>
       <translation>Son hesaplanan değere geri dön (sabit şekilde)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="404"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="393"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> (Warning: unit discarded)</source>
       <translation> (Uyarı: birim yok sayıldı)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="510"/>
       <source>Invalid property name: %1</source>
       <translation>Geçersiz özellik adı: %1</translation>
@@ -14427,6 +19593,40 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="921"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="500"/>
+      <source>Invalid property name: %1</source>
+      <translation>Geçersiz özellik adı: %1</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="504"/>
+      <source>Unknown object</source>
+      <translation>Bilinmeyen nesne</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="510"/>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="924"/>
+      <source>the name cannot be empty</source>
+      <translation>ad boş olamaz</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="520"/>
+      <source>%1 is a unit</source>
+      <translation>%1 bir birimdir</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="525"/>
+      <source>%1 is a constant</source>
+      <translation>%1 bir sabittir</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="531"/>
+      <source>%1 already exists</source>
+      <translation>%1 zaten var</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="920"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid group name: %1</source>
       <translation>Geçersiz grup adı: %1</translation>
     </message>
@@ -14449,40 +19649,70 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
       <translation>Renk</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="71"/>
       <source>Tuple</source>
       <translation>Çok Ögeli</translation>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="281"/>
+      <source>New parameter...</source>
+      <translation>Yeni parametre...</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Gui::StyleParametersModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="358"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="355"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>All Theme Editor Parameters</source>
       <translation>Tüm Tema Düzenleyici Parametreleri</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="428"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="425"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Root</source>
       <translation>Kök</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="503"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="500"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>Isim</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="505"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="502"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Expression</source>
       <translation>İfade</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="507"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Preview</source>
       <translation>Önizleme</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgThemeEditor.cpp" line="509"/>
+=======
+      <location filename="../Dialogs/DlgThemeEditor.cpp" line="506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>Türü</translation>
     </message>
@@ -14490,8 +19720,13 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::Dialog::DlgCustomToolBoxbarsImp</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="886"/>
       <location filename="../Dialogs/DlgToolbarsImp.cpp" line="895"/>
+=======
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="881"/>
+      <location filename="../Dialogs/DlgToolbarsImp.cpp" line="890"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toolbox Bars</source>
       <translation>Araç Kutusu Çubukları</translation>
     </message>
@@ -14522,7 +19757,11 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::PropertyEditor::LinkLabel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../propertyeditor/PropertyItem.cpp" line="4699"/>
+=======
+      <location filename="../propertyeditor/PropertyItem.cpp" line="4615"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Changes the linked object</source>
       <translation>Bağlantılı nesneyi değiştirir</translation>
     </message>
@@ -14543,17 +19782,30 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Exceptions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="306"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="304"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Value out of range (%1 out of [%2, %3])</source>
       <translation>Değer aralık dışında (%1, [%2, %3] aralığının dışında)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="389"/>
       <source>Not a Number</source>
       <translation type="unfinished">Not a Number</translation>
     </message>
     <message>
       <location filename="../Dialogs/DlgExpressionInput.cpp" line="397"/>
+=======
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="378"/>
+      <source>Not a number</source>
+      <translation>Sayı değil</translation>
+    </message>
+    <message>
+      <location filename="../Dialogs/DlgExpressionInput.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Unit mismatch between result and required unit</source>
       <translation>Sonuç birimi ile gereken birim uyuşmuyor</translation>
     </message>
@@ -14561,12 +19813,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>StdCmdClarifySelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4072"/>
+=======
+      <location filename="../CommandView.cpp" line="4229"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Clarify Selection</source>
       <translation>Seçimi Netleştir</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../CommandView.cpp" line="4073"/>
+=======
+      <location filename="../CommandView.cpp" line="4230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Displays a context menu at the mouse cursor to select overlapping or obstructed geometry in the 3D view.
 </source>
       <translation>3B görünümde üst üste gelen veya engellenen geometrileri seçmek için fare imlecinde bir bağlam menüsü gösterir.
@@ -14576,7 +19836,11 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::SelectionMenu</name>
     <message>
+<<<<<<< HEAD
       <location filename="../Selection/SelectionView.cpp" line="1182"/>
+=======
+      <location filename="../Selection/SelectionView.cpp" line="1176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Whole Object</source>
       <translation>Tüm Nesne</translation>
     </message>
@@ -14640,12 +19904,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
       <translation>Yeni bir varsayılan yapılandırma kullan</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="511"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Migration complete</source>
       <translation>Taşıma tamamlandı</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../Dialogs/DlgVersionMigrator.cpp" line="548"/>
+=======
+      <location filename="../Dialogs/DlgVersionMigrator.cpp" line="443"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New default configuration created</source>
       <translation>Yeni varsayılan yapılandırma oluşturuldu</translation>
     </message>
@@ -14653,12 +19925,20 @@ Bu, kenetlenmiş panelin her zaman saydam kalmasını sağlar.</translation>
   <context>
     <name>Gui::StatusBarLabel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../StatusBarLabel.cpp" line="90"/>
+=======
+      <location filename="../StatusBarLabel.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Copy</source>
       <translation>Kopyala</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../StatusBarLabel.cpp" line="95"/>
+=======
+      <location filename="../StatusBarLabel.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select All</source>
       <translation>Tümünü Seç</translation>
     </message>

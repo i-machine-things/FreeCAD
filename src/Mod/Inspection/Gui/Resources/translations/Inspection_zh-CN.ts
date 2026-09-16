@@ -113,18 +113,31 @@
       <translation>离开信息模式</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="709"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="708"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: &gt; %1</source>
       <translation>距离: &gt; %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="712"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="711"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: &lt; %1</source>
       <translation>距离: &lt; %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderInspection.cpp" line="731"/>
       <location filename="../../ViewProviderInspection.cpp" line="749"/>
+=======
+      <location filename="../../ViewProviderInspection.cpp" line="730"/>
+      <location filename="../../ViewProviderInspection.cpp" line="748"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance: %1</source>
       <translation>距离: %1</translation>
     </message>

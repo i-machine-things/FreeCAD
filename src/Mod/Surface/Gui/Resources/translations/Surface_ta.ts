@@ -185,23 +185,40 @@
       <translation>புரட்டு நோக்குநிலை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="384"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many edges</source>
       <translation>மிக அதிகமான விளிம்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="385"/>
       <location filename="../../TaskGeomFillSurface.cpp" line="393"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="379"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="387"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The tool requires two, three or four edges</source>
       <translation>கருவிக்கு இரண்டு, மூன்று அல்லது நான்கு விளிம்புகள் தேவை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="392"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="386"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too less edges</source>
       <translation>மிகக் குறைவான விளிம்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="404"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>தவறான பொருள்</translation>
     </message>
@@ -279,7 +296,11 @@
   <context>
     <name>SurfaceGui::FillingVertexPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingVertex.cpp" line="127"/>
+=======
+      <location filename="../../TaskFillingVertex.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>அகற்று</translation>
     </message>
@@ -344,7 +365,11 @@ vertices that are not on the boundary.</source>
       <translation>மேற்பரப்பை நீட்டவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Blending/TaskBlendCurve.cpp" line="410"/>
+=======
+      <location filename="../../Blending/TaskBlendCurve.cpp" line="409"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit blending curve</source>
       <translation>கலப்பு வளைவைத் திருத்து</translation>
     </message>
@@ -457,16 +482,25 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::FillingEdgePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="133"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="329"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>தவறான பொருள்</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="407"/>
       <source>Edge has %n adjacent face(s)</source>
       <translation type="unfinished">
@@ -476,11 +510,26 @@ This command only works with a mesh object.</source>
     </message>
     <message>
       <location filename="../../TaskFillingEdge.cpp" line="411"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="406"/>
+      <source>Edge has %n adjacent face(s)</source>
+      <translation type="unfinished">
+        <numerusform>Edge has %n adjacent face(s)</numerusform>
+        <numerusform>Edge has %n adjacent face(s)</numerusform>
+      </translation>
+    </message>
+    <message>
+      <location filename="../../TaskFillingEdge.cpp" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>எதுவுமில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="432"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edge has no adjacent faces</source>
       <translation>எட்ச்க்கு அருகில் முகங்கள் இல்லை</translation>
     </message>
@@ -488,13 +537,22 @@ This command only works with a mesh object.</source>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
       <location filename="../../TaskFilling.cpp" line="63"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="64"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edit Filling</source>
       <translation>திருத்தம் நிரப்புதல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="667"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Surface</source>
       <translation>மேற்பரப்பு</translation>
     </message>
@@ -512,21 +570,35 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::FillingPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="281"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="497"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>தவறான பொருள்</translation>
     </message>
     <message numerus="yes">
       <location filename="../../TaskFilling.cpp" line="615"/>
       <source>Edge has %n adjacent faces</source>
+<<<<<<< HEAD
       <translation>
         <numerusform>விளிம்பில் அருகில் உள்ள%n முகம்</numerusform>
         <numerusform>விளிம்பில் அருகில் உள்ள%n முகங்கள்</numerusform>
+=======
+      <translation type="unfinished">
+        <numerusform>Edge has %n adjacent faces</numerusform>
+        <numerusform>Edge has %n adjacent faces</numerusform>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       </translation>
     </message>
     <message>
@@ -543,12 +615,20 @@ This command only works with a mesh object.</source>
   <context>
     <name>SurfaceGui::SectionsPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="279"/>
+=======
+      <location filename="../../TaskSections.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>அகற்று</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="424"/>
+=======
+      <location filename="../../TaskSections.cpp" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>தவறான பொருள்</translation>
     </message>

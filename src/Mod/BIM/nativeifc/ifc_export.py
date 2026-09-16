@@ -38,6 +38,10 @@ from . import ifc_layers
 from . import ifc_materials
 from . import ifc_psets
 from . import ifc_tools
+<<<<<<< HEAD
+=======
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 PARAMS = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/NativeIFC")
 

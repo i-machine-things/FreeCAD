@@ -80,10 +80,13 @@ protected:
 
 private:
     void showExpression(Number number);
+<<<<<<< HEAD
     bool isValueTouched() const;
     bool m_tentativeDiscard {false};
     std::shared_ptr<App::Expression> m_savedExpr;
     QString m_textAtDiscard;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 protected:
     QLineEdit* lineedit;

@@ -335,10 +335,13 @@ std::filesystem::path PathMigrationWorker::locateNewPreferences() const
 std::string PathMigrationWorker::generateNewUserAppPathString(const std::string& oldPath) const
 {
     std::filesystem::path newPath = Base::FileInfo::stringToPath(oldPath);
+<<<<<<< HEAD
     if (newPath.filename().empty()) {
         // Handle the case where the path was constructed from a std::string with a trailing /
         newPath = newPath.parent_path();
     }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     if (App::Application::directories()->isVersionedPath(newPath)) {
         newPath = newPath.parent_path();
     }
@@ -489,7 +492,11 @@ void DlgVersionMigrator::migrate()
             }
             auto warning = new QMessageBox(mainWindow);
             warning->setIcon(QMessageBox::Warning);
+<<<<<<< HEAD
             warning->setWindowTitle(QObject::tr("Migration Completed With Warnings"));
+=======
+            warning->setWindowTitle(QObject::tr("Migration completed with warnings"));
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             auto logFileName = QStringLiteral("migration-to-")
                 + QString::fromStdString(
                                    App::ApplicationDirectories::versionStringForPath(major, minor)

@@ -35,8 +35,11 @@
 #include <Inventor/lists/SoPickedPointList.h>
 #include <Inventor/nodes/SoCamera.h>
 #include <Inventor/nodes/SoShapeHints.h>
+<<<<<<< HEAD
 #include <Inventor/nodes/SoSeparator.h>
 #include <Inventor/nodes/SoTransform.h>
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 #include <QApplication>
 #include <QFontMetricsF>
@@ -1239,6 +1242,7 @@ bool ViewProviderSketch::mouseButtonPressed(int Button, bool pressed, const SbVe
     double x = std::numeric_limits<double>::quiet_NaN();
     double y = std::numeric_limits<double>::quiet_NaN();
     SbVec3f pos = point;
+<<<<<<< HEAD
     Base::Vector3d selectionPoint = Base::convertTo<Base::Vector3d>(point);
 
     if (resolvedClickResult.hasPickedPoint()) {
@@ -1246,6 +1250,10 @@ bool ViewProviderSketch::mouseButtonPressed(int Button, bool pressed, const SbVe
         selectionPoint = resolvedClickResult.pickedPoint();
     }
     else if (pp) {
+=======
+
+    if (pp) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         const SoDetail* detail = pp->getDetail();
         if (detail && detail->getTypeId() == SoPointDetail::getClassTypeId()) {
             pos = pp->getPoint();
@@ -1381,7 +1389,11 @@ bool ViewProviderSketch::mouseButtonPressed(int Button, bool pressed, const SbVe
                     return true;
                 }
                 case STATUS_SELECT_Constraint: {
+<<<<<<< HEAD
                     if (hasSelectionPoint) {
+=======
+                    if (pp) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                         auto sels = preselection.PreselectConstraintSet;
                         for (int id : sels) {
                             std::stringstream ss;
@@ -2034,6 +2046,7 @@ void ViewProviderSketch::initDragging(int geoId, Sketcher::PointPos pos, Gui::Vi
 
         // Calculate the click position and use it as the initial point
         SbLine line2;
+<<<<<<< HEAD
         if (!getProjectingLine(DoubleClick::prvCursorPos, viewer, line2)) {
             cancelDrag();
             return false;
@@ -2044,12 +2057,21 @@ void ViewProviderSketch::initDragging(int geoId, Sketcher::PointPos pos, Gui::Vi
             cancelDrag();
             return false;
         }
+=======
+        getProjectingLine(DoubleClick::prvCursorPos, viewer, line2);
+
+        double x, y;
+        getCoordsOnSketchPlane(line2.getPosition(), line2.getDirection(), x, y);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         auto snapHandle = std::make_unique<SnapManager::SnapHandle>(snapManager.get(), Base::Vector2d(x, y));
         Base::Vector2d snappedPos = snapHandle->compute();
         drag.xInit = snappedPos.x;
         drag.yInit = snappedPos.y;
+<<<<<<< HEAD
         return true;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     };
 
     if (drag.Dragged.size() == 1 && pos == Sketcher::PointPos::none) {
@@ -2126,9 +2148,13 @@ void ViewProviderSketch::initDragging(int geoId, Sketcher::PointPos pos, Gui::Vi
         if (geo->is<Part::GeomLineSegment>() || geo->is<Part::GeomBSplineCurve>()
             || isEllipse(*geo) || isArcOfEllipse(*geo)
             || isArcOfHyperbola(*geo) || isArcOfParabola(*geo)) {
+<<<<<<< HEAD
             if (!setRelative()) {
                 return;
             }
+=======
+            setRelative();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
 
         if (geo->is<Part::GeomBSplineCurve>()) {
@@ -3355,6 +3381,7 @@ void ViewProviderSketch::doBoxSelection(const SbVec2s& startPos, const SbVec2s& 
     selection.selectionBuffering = false;
     editCoinManager->drawConstraintIcons();
     updateColor();
+<<<<<<< HEAD
 }
 
 bool ViewProviderSketch::isConstructionMode() const
@@ -3370,6 +3397,8 @@ void ViewProviderSketch::setGeometryCreationMode(GeometryCreationMode newMode)
 GeometryCreationMode ViewProviderSketch::getGeometryCreationMode() const
 {
     return geometryCreationMode;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 void ViewProviderSketch::updateColor()
@@ -4133,12 +4162,15 @@ bool ViewProviderSketch::setEdit(int ModNum)
         return PartGui::ViewProvider2DObject::setEdit(ModNum);
     }
 
+<<<<<<< HEAD
     // Make a backup of the sketch object in case the user cancel editing.
     sketchBackup.str("");
     sketchBackup.clear();
     getObject()->dumpToStream(sketchBackup, 0);
     sketchBackup.seekg(0);
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // When double-clicking on the item for this sketch the
     // object unsets and sets its edit mode without closing
     // the task panel
@@ -4319,6 +4351,7 @@ bool ViewProviderSketch::setEdit(int ModNum)
     listener = std::make_unique<ShortcutListener>(this);
 
     Gui::getMainWindow()->installEventFilter(listener.get());
+<<<<<<< HEAD
     if (editDoc && editDoc->isActive()) {
         setupActiveAndInEdit();
     }
@@ -4334,6 +4367,8 @@ void ViewProviderSketch::setupActiveAndInEdit()
         Gui::getMainWindow()->installEventFilter(listener.get());
     }
     attachSelection();
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     Workbench::enterEditMode();
 

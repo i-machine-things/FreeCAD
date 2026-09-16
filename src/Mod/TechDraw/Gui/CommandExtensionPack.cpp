@@ -238,10 +238,13 @@ void execCircleCenterLines(Gui::Command* cmd)
                 // number and not the number from line attributes
                 horiz->m_format.setLineNumber(Preferences::CenterLineStyle());
                 vert->m_format.setLineNumber(Preferences::CenterLineStyle());
+<<<<<<< HEAD
             } else {
                 QMessageBox::warning(Gui::getMainWindow(), QObject::tr("TechDraw circle centerlines"),
                                      QObject::tr("Can not make centerlines for %1")
                                         .arg(QString::fromStdString(GeometryUtils::getGeomTypeName(geom->getGeomType()))));
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             }
         }
     }

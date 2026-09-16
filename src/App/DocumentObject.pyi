@@ -342,6 +342,7 @@ class DocumentObject(ExtensionContainer):
         Return the placement of the sub-object relative to the link object.
         getPlacementOf(subname, [targetObj]) -> Base.Placement
         """
+<<<<<<< HEAD
         ...
 
     @constmethod
@@ -357,3 +358,6 @@ class DocumentObject(ExtensionContainer):
             The target object to move the property to.
         """
         ...
+=======
+        ...
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

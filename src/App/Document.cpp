@@ -3533,7 +3533,11 @@ void Document::_removeObject(DocumentObject* pcObject, RemoveObjectOptions optio
         return;
     }
 
+<<<<<<< HEAD
     TransactionLocker tlock(this);
+=======
+    TransactionLocker tlock;
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     _checkTransaction(pcObject, nullptr, __LINE__);
 

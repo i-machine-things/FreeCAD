@@ -76,6 +76,10 @@ class NetgenTools(ObjectTools):
     def __init__(self, obj):
         super().__init__(obj)
         self.fem_mesh = None
+<<<<<<< HEAD
+=======
+        self.tmpdir = ""
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         self.mesh_params = {}
 
     def write_geom(self):

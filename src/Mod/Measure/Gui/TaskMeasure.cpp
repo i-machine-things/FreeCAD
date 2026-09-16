@@ -430,6 +430,7 @@ void TaskMeasure::tryUpdate()
         initViewObject(_mMeasureObject);
     }
     _mMeasureObject->purgeTouched();
+<<<<<<< HEAD
 }
 
 void TaskMeasure::updateUnitDropdown(const App::MeasureType* measureType)
@@ -480,6 +481,8 @@ void TaskMeasure::refreshResult()
     valueResult->setText(
         QString::fromStdString(Base::UnitsApi::toUnicodeSuperscript(_mMeasureObject->getResultString()))
     );
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 }
 
 

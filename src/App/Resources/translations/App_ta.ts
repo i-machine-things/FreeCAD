@@ -2,6 +2,7 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ta" sourcelanguage="en">
   <context>
+<<<<<<< HEAD
     <name>QObject</name>
     <message>
       <location filename="../../Application.cpp" line="621"/>
@@ -23,11 +24,32 @@
       <source>Null</source>
       <translation type="unfinished">Null</translation>
     </message>
+=======
+    <name>LinkParams</name>
+    <message>
+      <location filename="../../Link.cpp" line="131"/>
+      <source>Stores the last user choice of whether to apply CopyOnChange setup to all links
+that reference the same configurable object</source>
+      <translation>ஒரே உள்ளமைக்கக்கூடிய பொருளைக் குறிப்பிடும் அனைத்து இணைப்புகளுக்கும் CopyOnChange அமைப்பைப் பயன்படுத்த வேண்டுமா இல்லையா என்பது குறித்த பயனரின் கடைசித் தேர்வைச் சேமிக்கிறது</translation>
+    </message>
+  </context>
+  <context>
+    <name>QObject</name>
+    <message>
+      <location filename="../../Application.cpp" line="458"/>
+      <source>Unnamed</source>
+      <translation>பெயரிடப்படாத</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>App::OriginGroupExtension</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../OriginGroupExtension.cpp" line="163"/>
+=======
+      <location filename="../../OriginGroupExtension.cpp" line="161"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Origin</source>
       <translation>பூர்வம்</translation>
     </message>
@@ -35,7 +57,11 @@
   <context>
     <name>Notifications</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Document.cpp" line="1230"/>
+=======
+      <location filename="../../Document.cpp" line="1117"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>
 It is recommended that the user right-click the root of the document and select Mark to recompute.
 The user should then click the Refresh button in the main toolbar.
@@ -49,36 +75,61 @@ The user should then click the Refresh button in the main toolbar.
   <context>
     <name>App::LocalCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="267"/>
+=======
+      <location filename="../../Datums.cpp" line="265"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X-axis</source>
       <translation>X-அச்சு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="268"/>
+=======
+      <location filename="../../Datums.cpp" line="266"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y-axis</source>
       <translation>Y-அச்சு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="269"/>
+=======
+      <location filename="../../Datums.cpp" line="267"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z-axis</source>
       <translation>Z-அச்சு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="270"/>
+=======
+      <location filename="../../Datums.cpp" line="268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XY-plane</source>
       <translation>XY-தளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="271"/>
+=======
+      <location filename="../../Datums.cpp" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>XZ-plane</source>
       <translation>XZ-தளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="272"/>
+=======
+      <location filename="../../Datums.cpp" line="270"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>YZ-plane</source>
       <translation>YZ-தளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Datums.cpp" line="273"/>
       <source>Origin-Point</source>
       <translation>தோற்றம்-புள்ளி</translation>
@@ -91,6 +142,11 @@ The user should then click the Refresh button in the main toolbar.
       <source>Stores the last user choice of whether to apply CopyOnChange setup to all link
 that links to the same configurable object</source>
       <translation>ஒரே உள்ளமைக்கக்கூடிய பொருளுடன் இணைக்கும் அனைத்து இணைப்புகளுக்கும் CopyOnChange அமைப்பைப் பயன்படுத்துவதா இல்லையா என்பது குறித்த பயனரின் கடைசித் தேர்வைச் சேமிக்கிறது</translation>
+=======
+      <location filename="../../Datums.cpp" line="271"/>
+      <source>Origin</source>
+      <translation>பூர்வம்</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

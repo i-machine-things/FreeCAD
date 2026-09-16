@@ -191,9 +191,12 @@ void BomObject::addObjectChildrenToBom(
         if (!child) {
             continue;
         }
+<<<<<<< HEAD
 
         bool isMirrored = isObjMirrored(child);
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if (auto* asmLink = freecad_cast<AssemblyLink*>(child)) {
             child = asmLink->getLinkedAssembly();
             if (!child) {

@@ -74,12 +74,18 @@ SET(FemExamples_SRCS
     femexamples/ccx_cantilever_faceload.py
     femexamples/ccx_cantilever_nodeload.py
     femexamples/ccx_cantilever_prescribeddisplacement.py
+<<<<<<< HEAD
     femexamples/ccx_cavity_radiation.py
     femexamples/ccx_disc_cyclic_symm_centrif.py
     femexamples/ccx_radiation_benchmark.py
     femexamples/ccx_rigid_body.py
     femexamples/ccx_pipe_pressure_2D.py
     femexamples/ccx_plane_stress_plate.py
+=======
+    femexamples/ccx_disc_cyclic_symm_centrif.py
+    femexamples/ccx_rigid_body.py
+    femexamples/ccx_pipe_pressure_2D.py
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     femexamples/constraint_centrif.py
     femexamples/constraint_contact_shell_shell.py
     femexamples/constraint_contact_solid_solid.py

@@ -138,6 +138,27 @@ class ElmerTools(ObjectTools):
             self.obj.Results = tmp
             create = True
 
+<<<<<<< HEAD
+=======
+    def _load_vtk_results(self):
+        # search current pipeline
+        keep_result = self.fem_param.GetGroup("General").GetBool("KeepResultsOnReRun", False)
+        pipeline = None
+        create = False
+        for res in self.obj.Results:
+            if res.isDerivedFrom("Fem::FemPostPipeline"):
+                pipeline = res
+
+        if not pipeline or keep_result:
+            # create pipeline
+            pipeline = self.obj.Document.addObject("Fem::FemPostPipeline", self.obj.Name + "Result")
+            self.analysis.addObject(pipeline)
+            tmp = self.obj.Results
+            tmp.append(pipeline)
+            self.obj.Results = tmp
+            create = True
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         files = os.listdir(self.obj.WorkingDirectory)
         for f in files:
             base, ext = os.path.splitext(f)
@@ -174,6 +195,7 @@ class ElmerTools(ObjectTools):
             self.obj.Results = tmp
 
         files = os.listdir(self.obj.WorkingDirectory)
+<<<<<<< HEAD
         dat_text = ""
         for f in files:
             if f.endswith(".dat"):
@@ -186,6 +208,14 @@ class ElmerTools(ObjectTools):
                 with open(dat_file, "r") as file:
                     dat_text += file.read() + "\n\n"
         dat.Text = dat_text
+=======
+        for f in files:
+            if f.endswith(".dat"):
+                dat_file = os.path.join(self.obj.WorkingDirectory, f)
+                with open(dat_file, "r") as file:
+                    dat.Text = file.read()
+                break
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     def _get_default_field(self):
         default = "None"

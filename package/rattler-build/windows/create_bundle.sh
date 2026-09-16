@@ -58,7 +58,12 @@ if [ -x /c/ProgramData/chocolatey/tools/shimgen.exe ]; then
     popd
 fi
 
+<<<<<<< HEAD
 version_name="FreeCAD_${BUILD_TAG}-Windows-$(uname -m)"
+=======
+python_version=$("${copy_dir}"/bin/python.exe -c 'import platform; print("py" + platform.python_version_tuple()[0] + platform.python_version_tuple()[1])')
+version_name="FreeCAD_${BUILD_TAG}-Windows-$(uname -m)-${python_version}"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 echo -e "################"
 echo -e "version_name:  ${version_name}"
@@ -133,12 +138,15 @@ if ! "$SIGN_DIR/bin/freecadcmd.exe" --safe-mode --version; then
   exit 1
 fi
 
+<<<<<<< HEAD
 echo "Running FreeCAD bundled Pivy smoke test..."
 if ! "$SIGN_DIR/bin/freecadcmd.exe" --safe-mode --console "import pivy; from pivy import coin; print(pivy.__file__); print(coin.SoDB.getVersion())"; then
   echo "FreeCAD bundled Pivy smoke test failed; the Windows bundle cannot import the bundled Coin/Pivy runtime."
   exit 1
 fi
 
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 7z a -t7z -mx9 -mmt=${NUMBER_OF_PROCESSORS} ${version_name}.7z ${version_name} -bb
 # create hash
 sha256sum ${version_name}.7z > ${version_name}.7z-SHA256.txt

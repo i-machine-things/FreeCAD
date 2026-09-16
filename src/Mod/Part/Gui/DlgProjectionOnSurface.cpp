@@ -91,7 +91,11 @@ public:
             return false;
         }
 
+<<<<<<< HEAD
         auto subShape = Part::Feature::getShape(aPart, Part::ShapeOption::NeedSubElement, sSubName);
+=======
+        auto subShape = aPart->Shape.getShape().getSubShape(sSubName, true);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         if (subShape.IsNull()) {
             return false;
         }
@@ -452,11 +456,15 @@ void PartGui::DlgProjectionOnSurface::store_current_selected_parts(
                 if (!it->getSubNames().empty()) {
                     auto parentShape = currentShapeStore.inputShape;
                     for (const auto& itName : selObj.front().getSubNames()) {
+<<<<<<< HEAD
                         auto currentShape = Part::Feature::getShape(
                             aPart,
                             Part::ShapeOption::NeedSubElement,
                             itName.c_str()
                         );
+=======
+                        auto currentShape = aPart->Shape.getShape().getSubShape(itName.c_str(), true);
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                         if (currentShape.IsNull()) {
                             continue;
                         }

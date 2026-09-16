@@ -1188,6 +1188,23 @@ void View3DInventorViewer::init()
     hiddenAnchor->addChild(hiddenSep);
     pcViewProviderRoot->addChild(hiddenAnchor);
 
+    // add a global hidden anchor object to ensure transparent objects work correctly
+    // in empty scenes - OpenInventor's two-pass transparency rendering requires at least
+    // one opaque object to properly initialize the depth buffer. so this fixes transparency
+    // issues for image planes, planes, and other transparent geometry.
+    // wrap in SoSkipBoundingGroup to exclude from bounding box calculations
+    // check #15192 #24003
+    auto hiddenAnchor = new SoSkipBoundingGroup();
+    hiddenAnchor->mode = SoSkipBoundingGroup::EXCLUDE_BBOX;
+    auto hiddenSep = new SoSeparator();
+    auto hiddenScale = new SoScale();
+    hiddenScale->scaleFactor = SbVec3f(0, 0, 0);
+    auto hiddenCube = new SoCube();
+    hiddenSep->addChild(hiddenScale);
+    hiddenSep->addChild(hiddenCube);
+    hiddenAnchor->addChild(hiddenSep);
+    pcViewProviderRoot->addChild(hiddenAnchor);
+
     // increase refcount before passing it to setScenegraph(), to avoid
     // premature destruction
     pcViewProviderRoot->ref();
@@ -2026,6 +2043,7 @@ void View3DInventorViewer::setEnabledFPSCounter(bool on)
             fpsCounter = new QLabel(this);
             fpsCounter->setAttribute(Qt::WA_TransparentForMouseEvents);
         }
+<<<<<<< HEAD
         if (!fpsUpdateTimer) {
             fpsUpdateTimer = new QTimer(this);
             fpsUpdateTimer->setInterval(250);  // 4 Hz
@@ -2086,6 +2104,15 @@ void View3DInventorViewer::updateFPSLabel()
     fpsCounter->move(xOffset, height() - fpsCounter->height() - 5);
 }
 
+=======
+        fpsCounter->show();
+    }
+    else if (fpsCounter) {
+        fpsCounter->hide();
+    }
+}
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 void View3DInventorViewer::setEnabledVBO(bool on)
 {
@@ -3410,7 +3437,45 @@ void View3DInventorViewer::renderScene()
         }
     }
 
+<<<<<<< HEAD
     renderRubberbandOverlay();
+=======
+    if (fpsEnabled && fpsCounter) {
+        std::stringstream stream;
+        stream.precision(1);
+        stream.setf(std::ios::fixed | std::ios::showpoint);
+        stream << framesPerSecond[0] << " ms / " << framesPerSecond[1] << " fps";
+
+        ParameterGrp::handle hGrpView = App::GetApplication().GetParameterGroupByPath(
+            "User parameter:BaseApp/Preferences/View"
+        );
+        unsigned long axisLetterColor = hGrpView->GetUnsigned("AxisLetterColor", 4294902015);
+        if (axisLetterColor != previousAxisLetterColor) {
+            previousAxisLetterColor = axisLetterColor;
+            Base::Color c(static_cast<uint32_t>(axisLetterColor));
+            fpsCounter->setStyleSheet(
+                QString::fromLatin1("color: rgb(%1,%2,%3); background: transparent;")
+                    .arg(int(c.r * 255))
+                    .arg(int(c.g * 255))
+                    .arg(int(c.b * 255))
+            );
+        }
+
+        fpsCounter->setText(QString::fromStdString(stream.str()));
+        fpsCounter->adjustSize();
+
+        ParameterGrp::handle hGrpOverlayL = App::GetApplication().GetParameterGroupByPath(
+            "User parameter:BaseApp/MainWindow/DockWindows/OverlayLeft"
+        );
+        int xOffset = hGrpOverlayL->GetASCII("Widgets", "").empty() ? 10 : fpsCounter->width() + 20;
+        fpsCounter->move(xOffset, height() - fpsCounter->height() - 5);
+    }
+
+    if (naviCubeEnabled) {
+        naviCube->drawNaviCube();
+    }
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // Workaround for inconsistent QT behavior related to handling custom OpenGL widgets that
     // leave non opaque alpha values in final output.
     // On wayland that can cause window to become transparent or blurry trail effect in the

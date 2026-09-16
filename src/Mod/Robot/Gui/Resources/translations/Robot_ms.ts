@@ -105,9 +105,16 @@ CmdRobotExportKukaFull['Robot']</translation>
       <translation type="unfinished">Kuka Full Subroutine</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandExport.cpp" line="127"/>
       <source>Exports the trajectory as a full KRL subroutine</source>
       <translation type="unfinished">Exports the trajectory as a full KRL subroutine</translation>
+=======
+      <location filename="../../CommandExport.cpp" line="123"/>
+      <source>Export the trajectory as a full KRL subroutine.</source>
+      <translation>Eksport trajektori sebagai subrutin KRL penuh.
+CmdRobotExportKukaFull['Eksport trajektori sebagai subrutin KRL penuh.']</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>

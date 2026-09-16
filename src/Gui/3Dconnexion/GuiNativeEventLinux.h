@@ -46,7 +46,10 @@ private:
     GuiNativeEvent(const GuiNativeEvent&);
     GuiNativeEvent& operator=(const GuiNativeEvent&);
 
+<<<<<<< HEAD
     std::unique_ptr<DeadzoneCache> dzCache;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     QSocketNotifier* spnavNotifier {nullptr};
 
 private Q_SLOTS:

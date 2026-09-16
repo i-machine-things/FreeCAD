@@ -40,6 +40,7 @@ class ObjectTools(ABC):
     def __init__(self, obj):
         obj.Tool = self
         self.obj = obj
+<<<<<<< HEAD
         self.model_file = ""
         self.process = QProcess()
         self.analysis = obj.getParentGroup()
@@ -60,10 +61,32 @@ class ObjectTools(ABC):
                 root, ext = os.path.splitext(self.obj.Document.FileName)
                 if root:
                     self.obj.WorkingDirectory = os.path.join(root, self.obj.Label)
+=======
+        self.process = QProcess()
+        self.analysis = obj.getParentGroup()
+        self.fem_param = FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Fem")
+        self._create_working_directory(obj)
+
+        self.process.finished.connect(self._process_finished)
+
+    def _create_working_directory(self, obj):
+        """
+        Create working directory according to preferences
+        """
+        if not os.path.isdir(obj.WorkingDirectory):
+            gen_param = self.fem_param.GetGroup("General")
+            if gen_param.GetBool("UseTempDirectory"):
+                self.obj.WorkingDirectory = tempfile.mkdtemp(prefix="fem_")
+            elif gen_param.GetBool("UseBesideDirectory"):
+                root, ext = os.path.splitext(obj.Document.FileName)
+                if root:
+                    self.obj.WorkingDirectory = os.path.join(root, obj.Label)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     os.makedirs(self.obj.WorkingDirectory, exist_ok=True)
                 else:
                     # file not saved, use temporary
                     self.obj.WorkingDirectory = tempfile.mkdtemp(prefix="fem_")
+<<<<<<< HEAD
             elif gen_param.GetBool("UseCustomDirectory", False):
                 sub_dir = self.obj.Document.Name + "-" + self.obj.Label
                 base_dir = gen_param.GetString("CustomDirectoryPath")
@@ -71,6 +94,10 @@ class ObjectTools(ABC):
                 if not base_dir:
                     base_dir = FreeCAD.ConfigGet("UserHomePath")
                 self.obj.WorkingDirectory = os.path.join(base_dir, sub_dir)
+=======
+            elif gen_param.GetBool("UseCustomDirectory"):
+                self.obj.WorkingDirectory = gen_param.GetString("CustomDirectoryPath")
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                 os.makedirs(self.obj.WorkingDirectory, exist_ok=True)
 
     @abstractmethod

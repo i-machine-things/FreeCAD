@@ -4,17 +4,29 @@
   <context>
     <name>CmdRobotAddToolShape</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandInsertRobot.cpp" line="46"/>
+=======
+      <location filename="../../CommandInsertRobot.cpp" line="44"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandInsertRobot.cpp" line="47"/>
+=======
+      <location filename="../../CommandInsertRobot.cpp" line="45"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Tool</source>
       <translation>Verktyg</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandInsertRobot.cpp" line="48"/>
+=======
+      <location filename="../../CommandInsertRobot.cpp" line="46"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Adds a tool shape to the robot</source>
       <translation>Lägger till en verktygsform till roboten</translation>
     </message>
@@ -22,17 +34,29 @@
   <context>
     <name>CmdRobotConstraintAxle</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="202"/>
+=======
+      <location filename="../../Command.cpp" line="199"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="203"/>
+=======
+      <location filename="../../Command.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Place Robot</source>
       <translation>Placera robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="204"/>
+=======
+      <location filename="../../Command.cpp" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Places a robot in the scene</source>
       <translation>Placerar en robot i scenen</translation>
     </message>
@@ -58,17 +82,29 @@
   <context>
     <name>CmdRobotEdge2Trac</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="382"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="383"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Edge to Trajectory</source>
       <translation>Kant till rörelsebana</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="384"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="379"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Generates a trajectory from the selected edges</source>
       <translation>Skapar en rörelsebana från de valda kanterna</translation>
     </message>
@@ -94,17 +130,29 @@
   <context>
     <name>CmdRobotExportKukaFull</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandExport.cpp" line="130"/>
+=======
+      <location filename="../../CommandExport.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandExport.cpp" line="131"/>
+=======
+      <location filename="../../CommandExport.cpp" line="126"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Kuka Full Subroutine</source>
       <translation>Fullständig Kuka-underrutin</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandExport.cpp" line="132"/>
+=======
+      <location filename="../../CommandExport.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Exports the trajectory as a full KRL subroutine</source>
       <translation>Exporterar rörelsebanan som en fullständig KRL-underrutin</translation>
     </message>
@@ -112,17 +160,29 @@
   <context>
     <name>CmdRobotInsertWaypoint</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="92"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="93"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="90"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Insert in Trajectory</source>
       <translation>Infoga i rörelsebana</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="94"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="91"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Inserts the robot tool location into the trajectory</source>
       <translation>Infogar robotverktygets position i rörelsebanan</translation>
     </message>
@@ -130,17 +190,29 @@
   <context>
     <name>CmdRobotInsertWaypointPreselect</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="165"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="162"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="166"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="163"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Insert in Trajectory</source>
       <translation>Infoga i rörelsebana</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="167"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="164"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Inserts the preselection position into the trajectory (W)</source>
       <translation>Infogar förvalspositionen i rörelsebanan (W)</translation>
     </message>
@@ -148,17 +220,29 @@
   <context>
     <name>CmdRobotRestoreHomePos</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="147"/>
+=======
+      <location filename="../../Command.cpp" line="144"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="148"/>
+=======
+      <location filename="../../Command.cpp" line="145"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Move to Home</source>
       <translation>Flytta till hemmet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="149"/>
+=======
+      <location filename="../../Command.cpp" line="146"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Moves to the home position</source>
       <translation>Flyttar till startpositionen</translation>
     </message>
@@ -166,17 +250,29 @@
   <context>
     <name>CmdRobotSetDefaultOrientation</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="251"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="248"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="252"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="249"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Set Default Orientation</source>
       <translation>Ange standardorientering</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="253"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="250"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Sets the default orientation for subsequent commands for waypoint creation</source>
       <translation>Ställer in standardorienteringen för efterföljande kommandon för skapande av waypoints</translation>
     </message>
@@ -184,17 +280,29 @@
   <context>
     <name>CmdRobotSetDefaultValues</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="291"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="288"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="292"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="289"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Set Default Values</source>
       <translation>Ange standardvärden</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="293"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="290"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Sets the default values for speed, acceleration, and continuity for subsequent commands of waypoint creation</source>
       <translation>Ställer in standardvärden för hastighet, acceleration och kontinuitet för efterföljande kommandon för skapande av waypoints</translation>
     </message>
@@ -202,17 +310,29 @@
   <context>
     <name>CmdRobotSetHomePos</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="84"/>
+=======
+      <location filename="../../Command.cpp" line="81"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="85"/>
+=======
+      <location filename="../../Command.cpp" line="82"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Set Home Position</source>
       <translation>Ställ in startposition</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="86"/>
+=======
+      <location filename="../../Command.cpp" line="83"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Sets the home position</source>
       <translation>Ställer in startpositionen</translation>
     </message>
@@ -220,17 +340,29 @@
   <context>
     <name>CmdRobotSimulate</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="247"/>
+=======
+      <location filename="../../Command.cpp" line="242"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="248"/>
+=======
+      <location filename="../../Command.cpp" line="243"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Simulate Trajectory</source>
       <translation>Simulera rörelsebana</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="249"/>
+=======
+      <location filename="../../Command.cpp" line="244"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Simulates robot movement along a selected trajectory</source>
       <translation>Simulerar robotens rörelse längs en vald rörelsebana</translation>
     </message>
@@ -238,17 +370,29 @@
   <context>
     <name>CmdRobotTrajectoryCompound</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="509"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="504"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="510"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="505"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Trajectory Compound</source>
       <translation>Rörelsebana sammansatt</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="511"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="506"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Groups and connects multiple trajectories into one</source>
       <translation>Grupperar och kopplar samman flera banor till en</translation>
     </message>
@@ -256,17 +400,29 @@
   <context>
     <name>CmdRobotTrajectoryDressUp</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="445"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="440"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Robot</source>
       <translation>Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="446"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="441"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Dress-Up Trajectory</source>
       <translation>Försköna rörelsebana</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="447"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="442"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Creates a dress-up object that overrides aspects of a trajectory</source>
       <translation>Skapar ett försköningsobjekt som åsidosätter aspekter av en rörelsebana</translation>
     </message>
@@ -292,26 +448,44 @@
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="55"/>
+=======
+      <location filename="../../Command.cpp" line="52"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select VRML file for Robot</source>
       <translation>Välj VRML-fil för Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="57"/>
+=======
+      <location filename="../../Command.cpp" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>VRML Files (*.wrl *.vrml)</source>
       <translation>VRML-filer (*.wrl *.vrml)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="69"/>
       <source>Select Kinematic CSV file for Robot</source>
       <translation>Välj kinematisk CSV-fil för robot</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="71"/>
+=======
+      <location filename="../../Command.cpp" line="66"/>
+      <source>Select Kinematic CSV file for Robot</source>
+      <translation>Välj Kinematic CSV-fil för Robot</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="68"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>CSV Files (*.csv)</source>
       <translation>CSV-filer (*.csv)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="105"/>
       <location filename="../../Command.cpp" line="168"/>
       <location filename="../../Command.cpp" line="272"/>
@@ -322,107 +496,207 @@
       <location filename="../../CommandExport.cpp" line="64"/>
       <location filename="../../CommandExport.cpp" line="147"/>
       <location filename="../../CommandInsertRobot.cpp" line="70"/>
+=======
+      <location filename="../../Command.cpp" line="102"/>
+      <location filename="../../Command.cpp" line="165"/>
+      <location filename="../../Command.cpp" line="267"/>
+      <location filename="../../CommandTrajectory.cpp" line="107"/>
+      <location filename="../../CommandTrajectory.cpp" line="178"/>
+      <location filename="../../CommandTrajectory.cpp" line="199"/>
+      <location filename="../../CommandTrajectory.cpp" line="484"/>
+      <location filename="../../CommandInsertRobot.cpp" line="68"/>
+      <location filename="../../CommandExport.cpp" line="61"/>
+      <location filename="../../CommandExport.cpp" line="142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Wrong selection</source>
       <translation>Fel val</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="106"/>
+=======
+      <location filename="../../Command.cpp" line="103"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select one Robot to set home position</source>
       <translation>Välj en robot för att ställa in hempositionen</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="169"/>
+=======
+      <location filename="../../Command.cpp" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select one Robot</source>
       <translation>Välj en Robot</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="273"/>
       <location filename="../../CommandTrajectory.cpp" line="111"/>
       <location filename="../../CommandExport.cpp" line="65"/>
       <location filename="../../CommandExport.cpp" line="148"/>
+=======
+      <location filename="../../Command.cpp" line="268"/>
+      <location filename="../../CommandTrajectory.cpp" line="108"/>
+      <location filename="../../CommandExport.cpp" line="62"/>
+      <location filename="../../CommandExport.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select one Robot and one Trajectory object.</source>
       <translation>Välj en robot och ett rörelsebanobjekt.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="281"/>
+=======
+      <location filename="../../Command.cpp" line="276"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Trajectory not valid</source>
       <translation>Rörelsebanan inte giltig</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../Command.cpp" line="282"/>
+=======
+      <location filename="../../Command.cpp" line="277"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>You need at least two waypoints in a trajectory to simulate.</source>
       <translation>Du behöver minst två waypoints i en rörelsebana för att simulera.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandExport.cpp" line="92"/>
       <location filename="../../CommandExport.cpp" line="175"/>
+=======
+      <location filename="../../CommandExport.cpp" line="89"/>
+      <location filename="../../CommandExport.cpp" line="170"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>KRL file</source>
       <translation>KRL fil</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandExport.cpp" line="97"/>
       <location filename="../../CommandExport.cpp" line="180"/>
+=======
+      <location filename="../../CommandExport.cpp" line="90"/>
+      <location filename="../../CommandExport.cpp" line="171"/>
+      <source>All Files</source>
+      <translation>Alla filer</translation>
+    </message>
+    <message>
+      <location filename="../../CommandExport.cpp" line="93"/>
+      <location filename="../../CommandExport.cpp" line="174"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Export program</source>
       <translation>Exportera programmet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandInsertRobot.cpp" line="71"/>
+=======
+      <location filename="../../CommandInsertRobot.cpp" line="69"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select one robot and one shape or VRML object.</source>
       <translation>Välj en robot och en form eller ett VRML objekt.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="182"/>
       <location filename="../../CommandTrajectory.cpp" line="203"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="179"/>
+      <location filename="../../CommandTrajectory.cpp" line="200"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select one Trajectory object.</source>
       <translation>Välj ett rörelsebanobjekt.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="212"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="209"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>No preselection</source>
       <translation>Inga förval</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="213"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="210"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>You have to hover above a geometry (Preselection) with the mouse to use this command. See documentation for details.</source>
       <translation>Du måste sväva ovanför en geometri (Förval) med musen för att använda detta kommando. Se dokumentationen för detaljer.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="309"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="306"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Set default speed</source>
       <translation>Ställ in standardhastighet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="310"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="307"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>speed: (e.g. 1 m/s or 3 cm/s)</source>
       <translation>hastighet: (t.ex. 1 m/s eller 3 cm/s)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="326"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="322"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Set default continuity</source>
       <translation>Ställ in standardkontinuitet</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="327"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>continuous ?</source>
       <translation>kontinuerlig?</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="342"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="338"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Set default acceleration</source>
       <translation>Ställ in standardacceleration</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="343"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="339"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>acceleration: (e.g. 1 m/s^2 or 3 cm/s^2)</source>
       <translation>acceleration: (t.ex. 1 m/s^2 eller 3 cm/s^2)</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../CommandTrajectory.cpp" line="490"/>
+=======
+      <location filename="../../CommandTrajectory.cpp" line="485"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Select the Trajectory which you want to dress up.</source>
       <translation>Markera rörelsebanan som du vill försköna.</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../ViewProviderTrajectory.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderTrajectory.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Modify</source>
       <translation>Modifiera</translation>
     </message>
@@ -488,7 +762,11 @@
   <context>
     <name>RobotGui::TaskEdge2TracParameter</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../TaskEdge2TracParameter.cpp" line="41"/>
+=======
+      <location filename="../../TaskEdge2TracParameter.cpp" line="39"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>TaskEdge2TracParameter</source>
       <translation>TaskEdge2TracParameter</translation>
     </message>
@@ -569,7 +847,11 @@
   <context>
     <name>RobotGui::TaskRobotControl</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../TaskRobotControl.cpp" line="36"/>
+=======
+      <location filename="../../TaskRobotControl.cpp" line="34"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>TaskRobotControl</source>
       <translation>Uppgift Robotkontroll</translation>
     </message>
@@ -780,7 +1062,11 @@
       <translation>A</translation>
     </message>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../TaskTrajectory.cpp" line="42"/>
+=======
+      <location filename="../../TaskTrajectory.cpp" line="40"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Trajectory</source>
       <translation>Rörelsebana</translation>
     </message>
@@ -788,7 +1074,11 @@
   <context>
     <name>RobotGui::TaskTrajectoryDressUpParameter</name>
     <message>
+<<<<<<< HEAD:src/Mod/Robot/Gui/Resources/translations/Robot_sv.ts
       <location filename="../../TaskTrajectoryDressUpParameter.cpp" line="43"/>
+=======
+      <location filename="../../TaskTrajectoryDressUpParameter.cpp" line="41"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794:src/Mod/Robot/Gui/Resources/translations/Robot_sv-SE.ts
       <source>Dress Up Parameter</source>
       <translation>Försköningsparameter</translation>
     </message>

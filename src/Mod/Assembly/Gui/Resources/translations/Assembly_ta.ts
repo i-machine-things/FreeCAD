@@ -17,25 +17,43 @@
   <context>
     <name>Assembly_InsertLink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="55"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="56"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;p&gt;Inserts a component into the active assembly. This will create dynamic links to parts, bodies, primitives, and assemblies. To insert external components, make sure that the file is &lt;b&gt;open in the current session&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Insert by left clicking items in the list.&lt;/li&gt;&lt;li&gt;Remove by right clicking items in the list.&lt;/li&gt;&lt;li&gt;Press shift to add several instances of the component while clicking on the view.&lt;/li&gt;&lt;/ul&gt;</source>
       <translation>&lt;p&gt;செயலில் உள்ள அசெம்பிளியில் ஒரு கூறுகளைச் செருகுகிறது. இது பாகங்கள், உடல்கள், பழமையானவை மற்றும் கூட்டங்களுக்கு மாறும் இணைப்புகளை உருவாக்கும். வெளிப்புறக் கூறுகளைச் செருக, கோப்பு &lt;b&gt;தற்போதைய அமர்வில் திறந்திருப்பதை உறுதிசெய்யவும்&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;பட்டியலில் உள்ள உருப்படிகளை இடது சொடுக்கு செய்வதன் மூலம் செருகவும்.&lt;/li&gt;&lt;li&gt;பட்டியலில் உள்ள உருப்படிகளை வலது சொடுக்கு செய்வதன் மூலம் அகற்றவும்.&lt;/li&gt;&lt;li&gt;பார்வையில் சொடுக்கு செய்யும் போது கூறுகளின் பல நிகழ்வுகளைச் சேர்க்க உயர்த்து ஐ அழுத்தவும்.&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="80"/>
       <source>Insert Component</source>
       <translation>கூறுகளைச் செருகவும்</translation>
+=======
+      <location filename="../../../CommandInsertLink.py" line="81"/>
+      <source>Component</source>
+      <translation>உறுப்பு</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Assembly_SolveAssembly</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandSolveAssembly.py" line="48"/>
+=======
+      <location filename="../../../CommandSolveAssembly.py" line="50"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solve Assembly</source>
       <translation>சட்டசபையை தீர்க்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandSolveAssembly.py" line="53"/>
+=======
+      <location filename="../../../CommandSolveAssembly.py" line="55"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solves the currently active assembly.</source>
       <translation>தற்போது செயலில் உள்ள சட்டசபையை தீர்க்கிறது.</translation>
     </message>
@@ -43,42 +61,74 @@
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="82"/>
+=======
+      <location filename="../../../InitGui.py" line="74"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assembly</source>
       <translation type="unfinished">Assembly</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="145"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="143"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Active object</source>
       <translation>செயலில் உள்ள பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="154"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="125"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn flexible</source>
       <translation>நெகிழ்வாகத் திரும்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="156"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently rigid. This will make it flexible instead.</source>
       <translation>உங்கள் துணை-அசெம்பிளி தற்போது கடினமாக உள்ளது. இது அதற்கு பதிலாக நெகிழ்வானதாக மாற்றும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="160"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="131"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turn rigid</source>
       <translation>திடமாக திரும்பவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="162"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="133"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Your sub-assembly is currently flexible. This will make it rigid instead.</source>
       <translation>உங்கள் துணை-அசெம்பிளி தற்போது நெகிழ்வானது. இது அதற்கு பதிலாக கடினமாக்கும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="329"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="287"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>N/A</source>
       <translation>இதற்கில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/BomObject.cpp" line="353"/>
+=======
+      <location filename="../../../App/BomObject.cpp" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Not supported</source>
       <translation>ஆதரிக்கப்படவில்லை</translation>
     </message>
@@ -86,17 +136,29 @@
   <context>
     <name>Workbench</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="120"/>
+=======
+      <location filename="../../../InitGui.py" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assembly</source>
       <translation>தொகுப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="121"/>
+=======
+      <location filename="../../../InitGui.py" line="110"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Assembly Joints</source>
       <translation>பேரவை மூட்டுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="124"/>
+=======
+      <location filename="../../../InitGui.py" line="113"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&amp;Assembly</source>
       <translation>&amp;சட்டசபை</translation>
     </message>
@@ -130,7 +192,11 @@
     </message>
     <message>
       <location filename="../../../JointObject.py" line="55"/>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1896"/>
+=======
+      <location filename="../../../JointObject.py" line="1793"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance</source>
       <translation>தூரம்</translation>
     </message>
@@ -170,32 +236,52 @@
       <translation>வார்ச்சந்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="818"/>
+=======
+      <location filename="../../../JointObject.py" line="812"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Broken link in: </source>
       <translation>உடைந்த இணைப்பு:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1238"/>
       <source>Edit Joint</source>
       <translation>கூட்டு திருத்தவும்</translation>
     </message>
     <message>
       <location filename="../../../JointObject.py" line="1704"/>
+=======
+      <location filename="../../../JointObject.py" line="1612"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select 2 elements from 2 separate parts</source>
       <translation>2 தனித்தனி பகுதிகளிலிருந்து 2 கூறுகளைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1898"/>
+=======
+      <location filename="../../../JointObject.py" line="1795"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 1</source>
       <translation>ஆரம் 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1900"/>
+=======
+      <location filename="../../../JointObject.py" line="1797"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Thread pitch</source>
       <translation>நூல் சுருதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1902"/>
+=======
+      <location filename="../../../JointObject.py" line="1799"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Pitch radius</source>
       <translation>சுருதி ஆரம்</translation>
     </message>
@@ -255,52 +341,92 @@
       <translation>இந்த பெயர் ஏற்கனவே பயன்படுத்தப்பட்டது. தயவுசெய்து வேறு பெயரைத் தேர்ந்தெடுக்கவும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="364"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Options</source>
       <translation>விருப்பங்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="372"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="371"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Sub-assembly children: the children of sub-assemblies will be included in the bill of materials</source>
       <translation>துணை-சபை குழந்தைகள்: உப-சபைகளின் குழந்தைகள் பொருட்களின் மசோதாவில் சேர்க்கப்படுவார்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="378"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="377"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parts children: the children of parts will be added to the bill of materials</source>
       <translation>பாகங்கள் குழந்தைகள்: பகுதிகளின் குழந்தைகள் பொருட்களின் மசோதாவில் சேர்க்கப்படும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="384"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Only parts: adds only part containers and sub-assemblies to the bill of materials. Solids like Part Design bodies, fasteners, or Part workbench primitives are ignored.</source>
       <translation>பாகங்கள் மட்டும்: பொருட்களின் மசோதாவில் பகுதி கொள்கலன்கள் மற்றும் துணை-அசெம்பிளிகளை மட்டுமே சேர்க்கிறது. பார்ட் டிசைன் உடல்கள், ஃபாச்டென்சர்கள் அல்லது பார்ட் ஒர்க் பெஞ்ச் ப்ரிமிடிவ்ச் போன்ற திடப்பொருட்கள் புறக்கணிக்கப்படுகின்றன.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="386"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="385"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Columns</source>
       <translation>நெடுவரிசைகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="399"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="398"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Custom columns : 'Description' and other custom columns you add by clicking on 'Add column' will not have their data overwritten. If a column name starts with '.' followed by a property name (e.g. '.Length'), it will be auto-populated with that property value. These columns can be renamed by double-clicking or pressing F2 (renaming a column will currently lose its data).</source>
       <translation>தனிப்பயன் நெடுவரிசைகள் : 'விளக்கம்' மற்றும் 'நெடுவரிசையைச் சேர்' என்பதைக் சொடுக்கு செய்வதன் மூலம் நீங்கள் சேர்க்கும் பிற தனிப்பயன் நெடுவரிசைகள் அவற்றின் தரவு மேலெழுதப்படாது. நெடுவரிசையின் பெயர் '.' என்று தொடங்கினால். சொத்துப் பெயரைத் தொடர்ந்து (எ.கா. '. நீளம்'), அது அந்தச் சொத்து மதிப்புடன் தானாக நிரப்பப்படும். இந்த நெடுவரிசைகளை இருமுறை சொடுக்கு செய்வதன் மூலம் அல்லது F2 அழுத்துவதன் மூலம் மறுபெயரிடலாம் (ஒரு நெடுவரிசையை மறுபெயரிடுவது தற்போது அதன் தரவை இழக்கும்).</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="405"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="404"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Any column (custom or not), can be deleted by pressing the Delete key</source>
       <translation>எந்த நெடுவரிசையையும் (தனிப்பயன் அல்லது இல்லை), நீக்கு விசையை அழுத்துவதன் மூலம் நீக்கலாம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="407"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="406"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Export</source>
       <translation>ஏற்றுமதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="414"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="413"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The exported file format can be customized in the Spreadsheet workbench preferences</source>
       <translation>ஏற்றுமதி செய்யப்பட்ட கோப்பு வடிவத்தை விரிதாள் பணிமனை விருப்பத்தேர்வுகளில் தனிப்பயனாக்கலாம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateBom.py" line="393"/>
+=======
+      <location filename="../../../CommandCreateBom.py" line="392"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Auto columns :  (Index, Quantity, Name...) are populated automatically. Any modification you make will be overridden. These columns cannot be renamed.</source>
       <translation>தானியங்கு நெடுவரிசைகள் : (அட்டவணை, அளவு, பெயர்...) தானாக நிரப்பப்படும். நீங்கள் செய்யும் எந்த மாற்றமும் மேலெழுதப்படும். இந்த நெடுவரிசைகளை மறுபெயரிட முடியாது.</translation>
     </message>
@@ -352,6 +478,7 @@
       <translation>இணைக்க வேண்டாம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="495"/>
       <source>Enter your formula…</source>
       <translation>உங்கள் சூத்திரத்தை உள்ளிடவும்…</translation>
@@ -363,48 +490,93 @@
     </message>
     <message>
       <location filename="../../../CommandCreateSimulation.py" line="551"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="488"/>
+      <source>Enter your formula...</source>
+      <translation>உங்கள் சூத்திரத்தை உள்ளிடவும்...</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateSimulation.py" line="541"/>
+      <source>In capital are variables that you need to replace with actual values. More details about each example in its tooltip.</source>
+      <translation>மூலதனத்தில் நீங்கள் உண்மையான மதிப்புகளுடன் மாற்ற வேண்டிய மாறிகள் உள்ளன. ஒவ்வொரு உதாரணத்தையும் பற்றிய கூடுதல் விவரங்கள் அதன் உதவிக்குறிப்பில் உள்ளன.</translation>
+    </message>
+    <message>
+      <location filename="../../../CommandCreateSimulation.py" line="544"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Linear: C + VEL*time</source>
       <translation>- நேரியல்: C + VEL*நேரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="553"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="546"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Quadratic: C + VEL*time + ACC*time^2</source>
       <translation>- இருபடி: C + VEL*time + ACC*time^2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="556"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="549"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Harmonic: C + AMP*sin(VEL*time - PHASE)</source>
       <translation>- ஆர்மோனிக்: C + AMP*sin(VEL*time - PHASE)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="559"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="552"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Exponential: C*exp(time/TIMEC)</source>
       <translation>- அதிவேக: C*exp(நேரம்/TIMEC)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="565"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="558"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Smooth Step: L1 + (L2 - L1)*((1/2) + (1/pi)*arctan(SLOPE*(time - T0)))</source>
       <translation>- மென்மையான படி: L1 + (L2 - L1)*((1/2) + (1/pi)*arctan(SLOPE*(time - T0)))</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="572"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="565"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Smooth Square Impulse: (H/pi)*(arctan(SLOPE*(time - T1)) - arctan(SLOPE*(time - T2)))</source>
       <translation>- ச்மூத் ச்கொயர் இம்பல்ச்: (H/pi)*(arctan(SLOPE*(time - T1)) - arctan(SLOPE*(time - T2)))</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="579"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="572"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source> - Smooth Ramp Top Impulse: ((1/pi)*(arctan(1000*(time - T1)) - arctan(1000*(time - T2))))*(((H2 - H1)/(T2 - T1))*(time - T1) + H1)</source>
       <translation>- ச்மூத் ராம்ப் டாப் இம்பல்ச்: ((1/pi)*(arctan(1000*(time - T1)) - arctan(1000*(time - T2))))*(((H2 - H1)/(T2 - T1))*(நேரம் - T1) + H1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="589"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="582"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>C is a constant offset.
 VEL is a velocity or slope or gradient of the straight line.</source>
       <translation>C ஒரு நிலையான ஆஃப்செட். 
 VEL என்பது நேர்கோட்டின் விரைவு அல்லது சாய்வு அல்லது சாய்வு.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="597"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="590"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>C is a constant offset.
 VEL is the velocity or slope or gradient of the straight line.
 ACC is the acceleration or coefficient of the second order. The function is a parabola.</source>
@@ -413,7 +585,11 @@ VEL என்பது நேர் கோட்டின் விரைவு 
 ACC என்பது இரண்டாவது வரிசையின் முடுக்கம் அல்லது குணகம். செயல்பாடு ஒரு பரவளையமாகும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="606"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="599"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>C is a constant offset.
 AMP is the amplitude of the sine wave.
 VEL is the angular velocity in radians per second.
@@ -424,14 +600,22 @@ VEL என்பது ஒரு நொடிக்கு ரேடியன்�
 PHASE என்பது சைன் அலையின் கட்டம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="613"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="606"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>C is a constant.
 TIMEC is the time constant of the exponential function.</source>
       <translation>C என்பது ஒரு மாறிலி. 
 TIMEC என்பது அதிவேக செயல்பாட்டின் நேர மாறிலி ஆகும்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="621"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="614"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>L1 is step level before time = T0.
 L2 is step level after time = T0.
 SLOPE defines the steepness of the transition between L1 and L2 about time = T0. Higher values gives sharper cornered steps. SLOPE = 1000 or greater are suitable.</source>
@@ -440,7 +624,11 @@ L2 என்பது நேரத்திற்குப் பிறகு �
 SLOPE ஆனது L1 மற்றும் L2 க்கு இடையே உள்ள மாறுதலின் செங்குத்தான தன்மையை நேரம் = T0 என வரையறுக்கிறது. அதிக மதிப்புகள் கூர்மையான மூலைப்படுத்தப்பட்ட படிகளை வழங்குகிறது. சாய்வு = 1000 அல்லது அதற்கு மேற்பட்டவை பொருத்தமானவை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="630"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="623"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>H is the height of the impulse.
 T1 is the start of the impulse.
 T2 is the end of the impulse.
@@ -451,7 +639,11 @@ T2 என்பது தூண்டுதலின் முடிவு.
 நேரம் = T1 மற்றும் T2 பற்றி 0 மற்றும் H இடையே உள்ள மாற்றத்தின் செங்குத்தான தன்மையை SLOPE வரையறுக்கிறது. அதிக மதிப்புகள் கூர்மையான மூலை உந்துதல்களைத் தருகின்றன. சாய்வு = 1000 அல்லது அதற்கு மேற்பட்டவை பொருத்தமானவை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="641"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="634"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is similar to the square impulse but the top has a sloping ramp. It is good for building a smooth piecewise linear function by adding a series of these.
 T1 is the start of the impulse.
 T2 is the end of the impulse.
@@ -466,17 +658,27 @@ H2 என்பது வளைவின் முடிவில் T2 இல�
 SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலிருந்து 0 க்கு இடையே உள்ள மாறுதலின் செங்குத்தான தன்மையை முறையே = T1 மற்றும் T2 பற்றி வரையறுக்கிறது. அதிக மதிப்புகள் கூர்மையான மூலை உந்துதல்களைத் தருகின்றன. சாய்வு = 1000 அல்லது அதற்கு மேற்பட்டவை பொருத்தமானவை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="679"/>
       <location filename="../../../CommandCreateSimulation.py" line="696"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="672"/>
+      <location filename="../../../CommandCreateSimulation.py" line="689"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Help</source>
       <translation>உதவி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="694"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="687"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Hide help</source>
       <translation>உதவியை மறை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="1045"/>
       <source>Animation</source>
       <translation>அனிமேசன்</translation>
@@ -528,38 +730,67 @@ SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலி
     </message>
     <message>
       <location filename="../../../InitGui.py" line="168"/>
+=======
+      <location filename="../../../InitGui.py" line="142"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Create</source>
       <translation>உருவாக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="184"/>
+=======
+      <location filename="../../../InitGui.py" line="158"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Activate</source>
       <translation>செயல்படுத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="218"/>
+=======
+      <location filename="../../../InitGui.py" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert</source>
       <translation>செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="229"/>
+=======
+      <location filename="../../../InitGui.py" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Grounding</source>
       <translation>நிலமிடுதல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="256"/>
+=======
+      <location filename="../../../InitGui.py" line="230"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Constraints</source>
       <translation>கட்டுப்பாடுகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="272"/>
+=======
+      <location filename="../../../InitGui.py" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Tools</source>
       <translation>கருவிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../InitGui.py" line="285"/>
       <source>Simulation</source>
       <translation>உருவகப்படுத்துதல்</translation>
+=======
+      <location filename="../../../InitGui.py" line="259"/>
+      <source>Simulation</source>
+      <translation>பாவனை</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -682,67 +913,117 @@ SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலி
       <translation>இணைப்பின் {order} குறிப்பு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../JointObject.py" line="1288"/>
+=======
+      <location filename="../../../JointObject.py" line="1221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object to ground</source>
       <translation>தரைக்கு பொருள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="376"/>
       <location filename="../../../CommandCreateView.py" line="413"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="368"/>
+      <location filename="../../../CommandCreateView.py" line="405"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The objects moved by the move</source>
       <translation>நகர்வால் நகர்த்தப்பட்ட பொருள்கள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="388"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="380"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is the movement of the move. The end placement is the result of the start placement * this placement.</source>
       <translation>இதுவே அசைவின் இயக்கம். இறுதி வேலை வாய்ப்பு என்பது தொடக்க இடத்தின் விளைவாகும் * இந்த வேலை வாய்ப்பு.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="397"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="389"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The type of the move</source>
       <translation>நகர்த்தலின் வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="116"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="111"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simulation start time.</source>
       <translation>உருவகப்படுத்துதல் தொடக்க நேரம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="128"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="123"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simulation end time.</source>
       <translation>உருவகப்படுத்துதல் முடிவு நேரம்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="140"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="135"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simulation time step for output.</source>
       <translation>வெளியீட்டிற்கான உருவகப்படுத்துதல் நேர படி.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="152"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Integration global error tolerance.</source>
       <translation>ஒருங்கிணைப்பு உலகளாவிய பிழை சகிப்புத்தன்மை.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="164"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="159"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frames Per Second.</source>
       <translation>நொடிக்கு பிரேம்கள்.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="216"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The number of decimals to use for calculated texts</source>
       <translation>கணக்கிடப்பட்ட உரைகளுக்குப் பயன்படுத்த வேண்டிய தசமங்களின் எண்ணிக்கை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="316"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="311"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The joint that is moved by the motion</source>
       <translation>இயக்கத்தால் நகர்த்தப்படும் கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="328"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="323"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This is the formula of the motion. For example '1.0*time'.</source>
       <translation>இதுவே இயக்கத்தின் தேற்றம். உதாரணமாக '1.0*நேரம்'.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="337"/>
       <source>The type of the motion</source>
       <translation>இயக்கத்தின் வகை</translation>
@@ -767,6 +1048,12 @@ SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலி
       <source>If true, applying the snapshot will solve the assembly after restoring the placements.</source>
       <translation type="unfinished">If true, applying the snapshot will solve the assembly after restoring the placements.</translation>
     </message>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="332"/>
+      <source>The type of the motion</source>
+      <translation>இயக்கத்தின் வகை</translation>
+    </message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
   </context>
   <context>
     <name>TaskAssemblyCreateJoint</name>
@@ -831,16 +1118,25 @@ SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலி
       <translation>இணைப்பின் இரண்டாவது மார்க்கரின் (ஒருங்கிணைந்த அமைப்பு) இணைப்பு ஆஃப்செட்டை அமைக்கிறது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="237"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="231"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse the direction of the joint</source>
       <translation>மூட்டு திசையை தலைகீழாக மாற்றவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="240"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="234"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse</source>
       <translation>தலைகீழ்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="257"/>
       <source>Rotate the joint 90 degrees</source>
       <translation>Rotate the மூட்டு 90 degrees</translation>
@@ -852,31 +1148,54 @@ SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலி
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="291"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="245"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Limits</source>
       <translation>வரம்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="297"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Min length</source>
       <translation>குறைந்தபட்ச நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="320"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Max length</source>
       <translation>அதிகபட்ச நீளம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="343"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="297"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Min angle</source>
       <translation>குறைந்தபட்ச கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="372"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Max angle</source>
       <translation>அதிகபட்ச கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateJoint.ui" line="404"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateJoint.ui" line="358"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Reverse rotation</source>
       <translation>தலைகீழ் சுழற்சி</translation>
     </message>
@@ -895,8 +1214,13 @@ SLOPE ஆனது 0 மற்றும் H1 மற்றும் H2 இலி
     </message>
     <message>
       <location filename="../panels/TaskAssemblyInsertLink.ui" line="39"/>
+<<<<<<< HEAD
       <source>Cannot find the part?</source>
       <translation>Cannot கண்டுபிடி the part?</translation>
+=======
+      <source>Cannot find the part? </source>
+      <translation>பகுதியை கண்டுபிடிக்க முடியவில்லையா?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../panels/TaskAssemblyInsertLink.ui" line="46"/>
@@ -975,51 +1299,100 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>AssemblyGui::ViewProviderAssembly</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="211"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The object is associated to one or more joints.</source>
       <translation>பொருள் ஒன்று அல்லது அதற்கு மேற்பட்ட மூட்டுகளுடன் தொடர்புடையது.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="215"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="213"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Do you want to move the object and delete associated joints?</source>
       <translation>பொருளை நகர்த்தவும் தொடர்புடைய மூட்டுகளை நீக்கவும் விரும்புகிறீர்களா?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1088"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1085"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Move part</source>
       <translation>பகுதியை நகர்த்தவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1805"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1679"/>
+      <source>ViewProviderAssembly</source>
+      <comment>and %1 more</comment>
+      <translation>வழங்குநர்தொகுப்பைக் காண்க</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1696"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Empty Assembly</source>
       <translation>காலியான பேரவை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1817"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1701"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Over-constrained:</source>
       <translation>அதிகப்படியான கட்டுப்பாடு:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1825"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1709"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Malformed joints:</source>
       <translation>தவறான மூட்டுகள்:</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1790"/>
       <source>and %1 more</source>
       <translation>மேலும் % 1</translation>
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1849"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1717"/>
+      <source>Redundant joints:</source>
+      <translation>தேவையற்ற மூட்டுகள்:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1725"/>
+      <source>Partially redundant:</source>
+      <translation>பகுதி தேவையற்றது:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1733"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Solver failed to converge</source>
       <translation>கரைப்பான் ஒன்றிணைக்க முடியவில்லை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1857"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1741"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Under-constrained:</source>
       <translation>கீழ்-கட்டுப்படுத்தப்பட்டவை:</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssembly.cpp" line="1859"/>
       <source>%n Degrees of Freedom</source>
       <translation>
@@ -1029,6 +1402,17 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
     </message>
     <message>
       <location filename="../../ViewProviderAssembly.cpp" line="1863"/>
+=======
+      <location filename="../../ViewProviderAssembly.cpp" line="1743"/>
+      <source>%n Degrees of Freedom</source>
+      <translation>
+        <numerusform>%n சுதந்திர நிலை</numerusform>
+        <numerusform>%n சுதந்திர நிலைகள்</numerusform>
+      </translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAssembly.cpp" line="1747"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully constrained</source>
       <translation>முழுமையாக கட்டுப்படுத்தப்பட்டது</translation>
     </message>
@@ -1036,25 +1420,43 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointScrew</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="317"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="318"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Screw Joint</source>
       <translation>திருகு கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="323"/>
       <source>&lt;p&gt;Creates a screw joint that links a part with a slider joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and slider joints. The pitch radius defines the movement ratio between the rotating screw and the sliding part.&lt;/p&gt;</source>
       <translation>&lt;p&gt;Creates a screw மூட்டு that links a பகுதி with a slider மூட்டு பெறுநர் a பகுதி with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same ஆயம் systems அச் the revolute and slider joints. சுருதி ஆரம் சுழலும் திருகுக்கும் நெகிழ் பகுதிக்கும் இடையே உள்ள இயக்க விகிதத்தை வரையறுக்கிறது.&lt;/p&gt;</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="324"/>
+      <source>&lt;p&gt;Creates a screw joint that links a part with a sliding joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and sliding joints. The pitch radius defines the movement ratio between the rotating screw and the sliding part.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;ச்லைடிங் கூட்டுடன் ஒரு பகுதியை இணைக்கும் ஒரு திருகு இணைப்பை உருவாக்குகிறது&lt;/p&gt;&lt;p&gt;ரிவல்யூட் மற்றும் ச்லைடிங் மூட்டுகளின் அதே ஒருங்கிணைப்பு அமைப்புகளைத் தேர்ந்தெடுக்கவும். சுருதி ஆரம் சுழலும் திருகுக்கும் நெகிழ் பகுதிக்கும் இடையே உள்ள இயக்க விகிதத்தை வரையறுக்கிறது.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Assembly_CreateJointGearBelt</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="390"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="391"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gears/Belt Joint</source>
       <translation>கியர்ச்/பெல்ட் கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="395"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="396"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;p&gt;Creates a gears or belt joint that links 2 rotating gears together&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute joints.&lt;/p&gt;</source>
       <translation>&lt;p&gt;2 சுழலும் கியர்களை ஒன்றாக இணைக்கும் கியர்கள் அல்லது பெல்ட் கூட்டு உருவாக்குகிறது&lt;/p&gt;&lt;p&gt;ரிவால்யூட் மூட்டுகளின் அதே ஒருங்கிணைப்பு அமைப்புகளைத் தேர்ந்தெடுக்கவும்.&lt;/p&gt;</translation>
     </message>
@@ -1163,7 +1565,11 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly::AssemblyLink</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/AssemblyLink.cpp" line="704"/>
+=======
+      <location filename="../../../App/AssemblyLink.cpp" line="690"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Joints</source>
       <translation>மூட்டுகள்</translation>
     </message>
@@ -1171,7 +1577,11 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Command</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../ViewProviderAssemblyLink.cpp" line="168"/>
+=======
+      <location filename="../../ViewProviderAssemblyLink.cpp" line="139"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Rigid</source>
       <translation>ரிசிடை நிலைமாற்று</translation>
     </message>
@@ -1256,17 +1666,25 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       <translation>உலகளாவிய பிழை சகிப்புத்தன்மை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="181"/>
       <source>Save the animation as a GIF or video file.</source>
       <translation>அனிமேசனை GIF அல்லது வீடியோ கோப்பாக சேமிக்கவும்.</translation>
     </message>
     <message>
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="197"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Animation Player</source>
       <translation>அனிமேசன் பிளேயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="236"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="212"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frames per second</source>
       <translation>நொடிக்கு பிரேம்கள்</translation>
     </message>
@@ -1276,42 +1694,74 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
       <translation>பொறுமை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="168"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="166"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Generate</source>
       <translation>உருவாக்கு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="205"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="181"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Frame</source>
       <translation>சட்டகம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="225"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="201"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>0.00 s</source>
       <translation>0.00 செ</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="278"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="232"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Step backward</source>
       <translation>பின்வாங்கவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="310"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="252"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Play backward</source>
       <translation>பின்னோக்கி விளையாடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="348"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="272"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Stop</source>
       <translation>நிறுத்து</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="380"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="292"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Play forward</source>
       <translation>முன்னோக்கி விளையாடு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="412"/>
+=======
+      <location filename="../panels/TaskAssemblyCreateSimulation.ui" line="312"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Step forward</source>
       <translation>முன்னோக்கி படி</translation>
     </message>
@@ -1351,25 +1801,43 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointFixed</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="76"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="77"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fixed Joint</source>
       <translation>நிலையான கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="82"/>
       <source>&lt;p&gt;1 - If an assembly is active : Creates a joint statically locking two parts together, preventing any movement or rotation&lt;/p&gt;&lt;p&gt;2 - If a part is active: Positions sub-parts by matching selected coordinate systems. The second part selected will move.&lt;/p&gt;</source>
       <translation>&lt;p&gt;1 - ஒரு அசெம்பிளி செயலில் இருந்தால் : இரண்டு பகுதிகளை ஒன்றாகப் பூட்டி, எந்த இயக்கத்தையும் அல்லது சுழற்சியையும் தடுக்கும் ஒரு கூட்டு உருவாக்குகிறது&lt;/p&gt;&lt;p&gt;2 - ஒரு பகுதி செயலில் இருந்தால்: தேர்ந்தெடுக்கப்பட்ட ஒருங்கிணைப்பு அமைப்புகளைப் பொருத்துவதன் மூலம் துணைப் பகுதிகளை நிலைநிறுத்துகிறது. தேர்ந்தெடுக்கப்பட்ட இரண்டாவது பகுதி நகரும்.&lt;/p&gt;</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="83"/>
+      <source>&lt;p&gt;1 - If an assembly is active : Creates a joint permanently locking two parts together, preventing any movement or rotation&lt;/p&gt;&lt;p&gt;2 - If a part is active: Positions sub-parts by matching selected coordinate systems. The second part selected will move.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;1 - ஒரு அசெம்பிளி செயலில் இருந்தால் : நிரந்தரமாக இரண்டு பகுதிகளை ஒன்றாகப் பூட்டி, எந்த இயக்கத்தையும் அல்லது சுழற்சியையும் தடுக்கும் ஒரு கூட்டு உருவாக்குகிறது&lt;/p&gt;&lt;p&gt;2 - ஒரு பகுதி செயலில் இருந்தால்: தேர்ந்தெடுக்கப்பட்ட ஒருங்கிணைப்பு அமைப்புகளைப் பொருத்துவதன் மூலம் துணைப் பகுதிகளை நிலைநிறுத்துகிறது. தேர்ந்தெடுக்கப்பட்ட இரண்டாவது பகுதி நகரும்.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Assembly_CreateJointRevolute</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="103"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="104"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Revolute Joint</source>
       <translation>Revolute கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="108"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="109"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a revolute joint allowing rotation around a single axis between selected parts</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பகுதிகளுக்கு இடையில் ஒற்றை அச்சில் சுழல அனுமதிக்கும் ஒரு சுழல் கூட்டு உருவாக்குகிறது</translation>
     </message>
@@ -1377,12 +1845,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointCylindrical</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="126"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="127"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Cylindrical Joint</source>
       <translation>உருளை கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="131"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a cylindrical joint that allows rotation around and translation along a single axis between assembled parts</source>
       <translation>ஒரு உருளை மூட்டை உருவாக்குகிறது, அது சுற்றிச் சுழலவும், கூடியிருந்த பகுதிகளுக்கு இடையே ஒற்றை அச்சில் மொழிபெயர்க்கவும் அனுமதிக்கிறது.</translation>
     </message>
@@ -1390,12 +1866,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointSlider</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="149"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="150"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Slider Joint</source>
       <translation>ச்லைடர் கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="154"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="155"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a slider joint that allows linear movement along a single axis, but restricts rotation between selected parts</source>
       <translation>ஒற்றை அச்சில் நேரியல் இயக்கத்தை அனுமதிக்கும் ச்லைடர் கூட்டு உருவாக்குகிறது, ஆனால் தேர்ந்தெடுக்கப்பட்ட பகுதிகளுக்கு இடையே சுழற்சியை கட்டுப்படுத்துகிறது</translation>
     </message>
@@ -1403,12 +1887,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointBall</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="172"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="173"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Ball Joint</source>
       <translation>பந்துமூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="177"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="178"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a ball joint that connects parts at a point, allowing unrestricted movement as long as the connection points remain in contact</source>
       <translation>ஒரு புள்ளியில் பகுதிகளை இணைக்கும் ஒரு பந்து கூட்டு உருவாக்குகிறது, இணைப்பு புள்ளிகள் தொடர்பில் இருக்கும் வரை கட்டுப்பாடற்ற இயக்கத்தை அனுமதிக்கிறது</translation>
     </message>
@@ -1416,12 +1908,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointDistance</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="195"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="196"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Distance Joint</source>
       <translation>தொலைவு கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="202"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="203"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;p&gt;Creates a distance joint that fixes the distance between the selected objects&lt;/p&gt;&lt;p&gt;Creates one of several different joints based on the selection. For example, a distance of 0 between a plane and a cylinder creates a tangent joint. A distance of 0 between planes will make them co-planar.&lt;/p&gt;</source>
       <translation>&lt;p&gt;தேர்ந்தெடுக்கப்பட்ட பொருட்களுக்கு இடையே உள்ள தூரத்தை நிர்ணயிக்கும் தொலைதூர இணைப்பை உருவாக்குகிறது&lt;/p&gt;&lt;p&gt;தேர்வின் அடிப்படையில் பல்வேறு மூட்டுகளில் ஒன்றை உருவாக்குகிறது. எடுத்துக்காட்டாக, ஒரு விமானத்திற்கும் சிலிண்டருக்கும் இடையே 0 தூரம் ஒரு தொடு இணைப்பு உருவாக்குகிறது. விமானங்களுக்கு இடையே உள்ள 0 தூரம் அவற்றை இணைத் திட்டமாக மாற்றும்.&lt;/p&gt;</translation>
     </message>
@@ -1429,12 +1929,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointParallel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="220"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="221"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Parallel Joint</source>
       <translation>இணை கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="225"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="226"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a parallel joint that makes the Z-axis of the selected coordinate systems parallel</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட ஒருங்கிணைப்பு அமைப்புகளின் Z- அச்சை இணையாக மாற்றும் இணை கூட்டு உருவாக்குகிறது</translation>
     </message>
@@ -1442,12 +1950,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointPerpendicular</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="245"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="246"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Perpendicular Joint</source>
       <translation>செங்குத்து கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="250"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="251"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a perpendicular joint that makes the Z-axis of the selected coordinate systems perpendicular</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட ஒருங்கிணைப்பு அமைப்புகளின் Z- அச்சை செங்குத்தாக உருவாக்கும் செங்குத்து கூட்டு உருவாக்குகிறது</translation>
     </message>
@@ -1455,12 +1971,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointAngle</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="268"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="269"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle Joint</source>
       <translation>கோண கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="273"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="274"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an angle joint that fixes the angle between the Z-axis of the selected coordinate systems</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட ஒருங்கிணைப்பு அமைப்புகளின் Z- அச்சுக்கு இடையே உள்ள கோணத்தை சரிசெய்யும் ஒரு கோண கூட்டு உருவாக்குகிறது</translation>
     </message>
@@ -1468,25 +1992,43 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointRackPinion</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="293"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="294"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Rack and Pinion Joint</source>
       <translation>ரேக் மற்றும் பினியன் கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="299"/>
       <source>&lt;p&gt;Creates a rack and pinion joint that links a part with a slider joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute and slider joints. The pitch radius defines the movement ratio between the rack and the pinion.&lt;/p&gt;</source>
       <translation>&lt;p&gt;ஒரு ச்லைடர் கூட்டுடன் ஒரு பகுதியை இணைக்கும் ஒரு ரேக் மற்றும் பினியன் கூட்டு உருவாக்குகிறது. பிட்ச் ஆரம் ரேக் மற்றும் பினியனுக்கு இடையே உள்ள இயக்க விகிதத்தை வரையறுக்கிறது.&lt;/p&gt;</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="300"/>
+      <source>&lt;p&gt;Creates a rack and pinion joint that links a part with a sliding joint to a part with a revolute joint&lt;/p&gt;&lt;p&gt;Selects the same coordinate systems as the revolute and sliding joints. The pitch radius defines the movement ratio between the rack and the pinion.&lt;/p&gt;</source>
+      <translation>&lt;p&gt;ச்லைடிங் கூட்டுடன் ஒரு பகுதியை இணைக்கும் ஒரு ரேக் மற்றும் பினியன் கூட்டு உருவாக்குகிறது. பிட்ச் ஆரம் ரேக் மற்றும் பினியனுக்கு இடையே உள்ள இயக்க விகிதத்தை வரையறுக்கிறது.&lt;/p&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Assembly_CreateJointGears</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="341"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="342"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Gears Joint</source>
       <translation>கியர்ச் கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="347"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="348"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;p&gt;Creates a gears joint that links 2 rotating gears together. They will have inverse rotation direction.&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute joints.&lt;/p&gt;</source>
       <translation>&lt;p&gt;2 சுழலும் கியர்களை ஒன்றாக இணைக்கும் கியர்ச் கூட்டு உருவாக்குகிறது. அவை தலைகீழ் சுழற்சி திசையைக் கொண்டிருக்கும்.&lt;/p&gt;&lt;p&gt;சுழற்சி மூட்டுகளின் அதே ஒருங்கிணைப்பு அமைப்புகளைத் தேர்ந்தெடுக்கவும்.&lt;/p&gt;</translation>
     </message>
@@ -1494,12 +2036,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateJointBelt</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="365"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="366"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Belt Joint</source>
       <translation>பெல்ட் கூட்டு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="371"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="372"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>&lt;p&gt;Creates a belt joint that links 2 rotating objects together. They will have the same rotation direction.&lt;/p&gt;&lt;p&gt;Select the same coordinate systems as the revolute joints.&lt;/p&gt;</source>
       <translation>&lt;p&gt;2 சுழலும் பொருட்களை ஒன்றாக இணைக்கும் பெல்ட் கூட்டு உருவாக்குகிறது. அவை ஒரே சுழற்சி திசையைக் கொண்டிருக்கும்.&lt;/p&gt;&lt;p&gt;சுழற்சி மூட்டுகளின் அதே ஒருங்கிணைப்பு அமைப்புகளைத் தேர்ந்தெடுக்கவும்.&lt;/p&gt;</translation>
     </message>
@@ -1507,25 +2057,43 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_ToggleGrounded</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="430"/>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="431"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Toggle Grounded</source>
       <translation>நிலைமாற்றம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateJoint.py" line="436"/>
       <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation.</source>
       <translation>&lt;p&gt;ஒரு பகுதியின் தரையிறக்கத்தை நிலைமாற்றுகிறது.&lt;/p&gt;&lt;p&gt;ஒரு பகுதியை தரையிறக்குவது சட்டசபையில் அதன் நிலையை நிரந்தரமாகப் பூட்டி, அசைவு அல்லது சுழற்சியைத் தடுக்கிறது.</translation>
+=======
+      <location filename="../../../CommandCreateJoint.py" line="437"/>
+      <source>&lt;p&gt;Toggles the grounding of a part.&lt;/p&gt;&lt;p&gt;Grounding a part permanently locks its position in the assembly, preventing any movement or rotation. You need at least one grounded part before starting to assemble.</source>
+      <translation>&lt;p&gt;ஒரு பகுதியின் தரையிறக்கத்தை நிலைமாற்றுகிறது.&lt;/p&gt;&lt;p&gt;ஒரு பகுதியை தரையிறக்குவது சட்டசபையில் அதன் நிலையை நிரந்தரமாகப் பூட்டி, அசைவு அல்லது சுழற்சியைத் தடுக்கிறது. அசெம்பிள் செய்யத் தொடங்குவதற்கு முன், குறைந்தபட்சம் ஒரு பகுதியாவது உங்களுக்குத் தேவை.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Assembly_CreateSimulation</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="72"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="67"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Simulation</source>
       <translation>உருவகப்படுத்துதல்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateSimulation.py" line="77"/>
+=======
+      <location filename="../../../CommandCreateSimulation.py" line="72"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates a new simulation of the current assembly</source>
       <translation>தற்போதைய சட்டசபையின் புதிய உருவகப்படுத்துதலை உருவாக்குகிறது</translation>
     </message>
@@ -1533,12 +2101,20 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_CreateView</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="53"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="54"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Exploded View</source>
       <translation>வெடித்த காட்சி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandCreateView.py" line="58"/>
+=======
+      <location filename="../../../CommandCreateView.py" line="59"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Creates an exploded view of the current assembly</source>
       <translation>தற்போதைய சட்டசபையின் வெடித்த காட்சியை உருவாக்குகிறது</translation>
     </message>
@@ -1546,17 +2122,29 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
   <context>
     <name>Assembly_Insert</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="64"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="65"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Insert Component</source>
       <translation>கூறுகளைச் செருகவும்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="222"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="219"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Partially loaded</source>
       <translation>பகுதி ஏற்றப்பட்டது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../CommandInsertLink.py" line="615"/>
+=======
+      <location filename="../../../CommandInsertLink.py" line="609"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Fully load document</source>
       <translation>ஆவணத்தை முழுமையாக ஏற்றவும்</translation>
     </message>
@@ -1570,6 +2158,7 @@ The files are named "runPreDrag.asmt" and "dragging.log" and are located in the 
     </message>
     <message>
       <location filename="../../TaskAssemblyMessages.cpp" line="56"/>
+<<<<<<< HEAD
       <source>Selects these conflicting joints</source>
       <translation>இந்த முரண்பட்ட மூட்டுகளைத் தேர்ந்தெடுக்கிறது</translation>
     </message>
@@ -1722,6 +2311,25 @@ Note: Currently this selects only unconnected parts, not constrained parts that 
       <location filename="../../Commands.cpp" line="312"/>
       <source>Selects all joints referencing the selected component</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட கூறுகளைக் குறிப்பிடும் அனைத்து மூட்டுகளையும் தேர்ந்தெடுக்கிறது</translation>
+=======
+      <source>Click to select these conflicting joints.</source>
+      <translation>இந்த முரண்பட்ட மூட்டுகளைத் தேர்ந்தெடுக்க சொடுக்கு செய்யவும்.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="59"/>
+      <source>Click to select these redundant joints.</source>
+      <translation>இந்த தேவையற்ற மூட்டுகளைத் தேர்ந்தெடுக்க சொடுக்கு செய்யவும்.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="63"/>
+      <source>The assembly has unconstrained components giving rise to those Degrees Of Freedom. Click to select these unconstrained components.</source>
+      <translation>சட்டசபையில் கட்டுப்பாடற்ற கூறுகள் உள்ளன. இந்த கட்டுப்பாடற்ற கூறுகளைத் தேர்ந்தெடுக்க சொடுக்கு செய்யவும்.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAssemblyMessages.cpp" line="68"/>
+      <source>Click to select these malformed joints.</source>
+      <translation>Click பெறுநர் தேர்ந்தெடு these malformed joints.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

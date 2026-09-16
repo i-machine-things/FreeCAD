@@ -52,7 +52,10 @@ PatternParametersWidget::PatternParametersWidget(
 )
     : QWidget(parent)
     , ui(new Ui_PatternParametersWidget)
+<<<<<<< HEAD
     , viewer(v)
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     , type(type)
 {
     ui->setupUi(this);

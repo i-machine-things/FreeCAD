@@ -25,7 +25,10 @@
 import FreeCAD
 import Path
 from typing import Dict, Any, Optional, Union
+<<<<<<< HEAD
 from .util import units_from_json
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 
 class ParameterAccessor:
@@ -75,9 +78,15 @@ class ParameterAccessor:
         else:
             self.target.setEditorMode(key, mode)
 
+<<<<<<< HEAD
     def name(self):
         if self.is_dict:
             return self.target.get("name", "toolbit")
+=======
+    def label(self):
+        if self.is_dict:
+            return "toolbit"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         else:
             return getattr(self.target, "Label", "unknown toolbit")
 
@@ -104,7 +113,10 @@ def migrate_parameters(accessor: ParameterAccessor) -> bool:
     Currently handles:
     - TorusRadius → CornerRadius
     - FlatRadius/Diameter → CornerRadius
+<<<<<<< HEAD
     - Infers Units from parameter strings if not set
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     Args:
         accessor: ParameterAccessor instance wrapping dict or FreeCAD object
@@ -112,11 +124,15 @@ def migrate_parameters(accessor: ParameterAccessor) -> bool:
     Returns:
         True if migration occurred, False otherwise
     """
+<<<<<<< HEAD
     migrated = False
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     has_torus = accessor.has("TorusRadius")
     has_flat = accessor.has("FlatRadius")
     has_diam = accessor.has("Diameter")
     has_corner = accessor.has("CornerRadius")
+<<<<<<< HEAD
     has_units = accessor.has("Units")
     name = accessor.name()
     shape_type = accessor.get_shape_type()
@@ -134,6 +150,11 @@ def migrate_parameters(accessor: ParameterAccessor) -> bool:
             Path.Log.info(f"Adding Units as '{inferred_units}' for {name}")
             migrated = True
 
+=======
+    label = accessor.label()
+    shape_type = accessor.get_shape_type()
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     # Only run migration logic if shape type == 'Bullnose'
     if shape_type and str(shape_type).lower() == "bullnose":
         # Case 1: TorusRadius exists, copy to CornerRadius
@@ -147,11 +168,19 @@ def migrate_parameters(accessor: ParameterAccessor) -> bool:
             )
             accessor.set_editor_mode("CornerRadius", 0)
             accessor.set("CornerRadius", value)
+<<<<<<< HEAD
             Path.Log.info(f"Copied TorusRadius to CornerRadius={value} for {name}")
             migrated = True
 
         # Case 2: FlatRadius and Diameter exist, calculate CornerRadius
         if has_flat and has_diam and not has_corner and not has_torus:
+=======
+            Path.Log.info(f"Copied TorusRadius to CornerRadius={value} for {label}")
+            return True
+
+        # Case 2: FlatRadius and Diameter exist, calculate CornerRadius
+        if has_flat and has_diam and not has_corner:
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             try:
                 diam_raw = accessor.get("Diameter")
                 flat_raw = accessor.get("FlatRadius")
@@ -178,9 +207,19 @@ def migrate_parameters(accessor: ParameterAccessor) -> bool:
                 )
                 accessor.set_editor_mode("CornerRadius", 0)
                 accessor.set("CornerRadius", value)
+<<<<<<< HEAD
                 Path.Log.info(f"Migrated FlatRadius/Diameter to CornerRadius={value} for {name}")
                 migrated = True
             except Exception as e:
                 Path.Log.error(f"Failed to migrate FlatRadius for toolbit {name}: {e}")
 
     return migrated
+=======
+                Path.Log.info(f"Migrated FlatRadius/Diameter to CornerRadius={value} for {label}")
+                return True
+            except Exception as e:
+                Path.Log.error(f"Failed to migrate FlatRadius for toolbit {label}: {e}")
+                return False
+
+    return False
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

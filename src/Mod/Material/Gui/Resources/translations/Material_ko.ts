@@ -720,6 +720,7 @@ If unchecked, they will be sorted by their name.</source>
       <translation>삭제</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="199"/>
       <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
       <translation>원본 파일에 덮어쓰면 다른 문서가 손상될 수 있으므로 권장하지 않습니다.</translation>
@@ -741,10 +742,34 @@ If unchecked, they will be sorted by their name.</source>
     </message>
     <message>
       <location filename="../../MaterialSave.cpp" line="226"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="198"/>
+      <source>Saving over the original file may cause other documents to break. This is not recommended.</source>
+      <translation>원본파일에 덮어쓰기 하면 다른 문서가 손상을 입을 수 있으므로 추천하지 않습니다. </translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="222"/>
+      <source>Save as new material</source>
+      <translation>새로운 재료로 저장</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="195"/>
+      <source>Save over &apos;%1&apos;?</source>
+      <translation type="unfinished">Save over &apos;%1&apos;?</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="220"/>
+      <source>Confirm Save as New Material</source>
+      <translation type="unfinished">Confirm Save as New Material</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="225"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>This material already exists in this library. Save as a new material?</source>
       <translation>이 재료는 이미 이 라이브러리에 있습니다. 새 재료로 저장할까요?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="248"/>
       <source>Confirm Save as Copy</source>
       <translation>사본 저장 확인</translation>
@@ -761,22 +786,53 @@ If unchecked, they will be sorted by their name.</source>
     </message>
     <message>
       <location filename="../../MaterialSave.cpp" line="256"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="247"/>
+      <source>Confirm Save as Copy</source>
+      <translation type="unfinished">Confirm Save as Copy</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="249"/>
+      <source>Save as copy</source>
+      <translation type="unfinished">Save as copy</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="252"/>
+      <source>Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</source>
+      <translation type="unfinished">Saving a copy is not recommended as it can break other documents. It is recommended to save as a new material.</translation>
+    </message>
+    <message>
+      <location filename="../../MaterialSave.cpp" line="255"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save Copy</source>
       <translation>사본 저장</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="257"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="256"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Save As New</source>
       <translation>새 재료로 저장</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="489"/>
       <location filename="../../MaterialSave.cpp" line="499"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="488"/>
+      <location filename="../../MaterialSave.cpp" line="498"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>New folder</source>
       <translation>새 폴더</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="539"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="538"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Context Menu</source>
       <translation>컨텍스트 메뉴</translation>
     </message>
@@ -1154,23 +1210,40 @@ If unchecked, they will be sorted by their name.</source>
       <translation>재료</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="193"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="192"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Overwrite</source>
       <translation>덮어쓰기 확인</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="383"/>
       <location filename="../../MaterialSave.cpp" line="384"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="382"/>
+      <location filename="../../MaterialSave.cpp" line="383"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>No writeable library</source>
       <translation>쓰기 가능한 라이브러리가 없습니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="571"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="570"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Delete &apos;%1&apos;?</source>
       <translation>'%1'을(를) 삭제할까요?</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../MaterialSave.cpp" line="575"/>
+=======
+      <location filename="../../MaterialSave.cpp" line="574"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Removing this will also remove all contents.</source>
       <translation>이를 제거하면 모든 내용도 함께 제거됩니다.</translation>
     </message>
@@ -1198,6 +1271,10 @@ If unchecked, they will be sorted by their name.</source>
       <location filename="../../Array2D.cpp" line="170"/>
       <location filename="../../MaterialSave.cpp" line="568"/>
       <location filename="../../ListEdit.cpp" line="142"/>
+<<<<<<< HEAD
+=======
+      <location filename="../../MaterialSave.cpp" line="567"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Confirm Delete</source>
       <translation>삭제 확인</translation>
     </message>

@@ -4,11 +4,16 @@
   <context>
     <name>NavigationIndicator</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="90"/>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select</source>
       <translation>Roghnaigh</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="91"/>
       <source>Zoom</source>
       <translation>Zúmáil</translation>
@@ -60,15 +65,73 @@
     </message>
     <message>
       <location filename="../../NavigationIndicatorGui.py" line="654"/>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="90"/>
+      <source>Zoom</source>
+      <translation type="unfinished">Zoom</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="91"/>
+      <source>Rotate</source>
+      <translation type="unfinished">Rotate</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="92"/>
+      <source>Pan</source>
+      <translation type="unfinished">Pan</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="93"/>
+      <source>Tilt</source>
+      <translation type="unfinished">Tilt</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="94"/>
+      <source>Navigation style</source>
+      <translation type="unfinished">Navigation style</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="95"/>
+      <source>Page Up or Page Down key.</source>
+      <translation type="unfinished">Page Up or Page Down key.</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="96"/>
+      <source>Rotation focus</source>
+      <translation type="unfinished">Rotation focus</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="97"/>
+      <source>Middle mouse button or H key.</source>
+      <translation type="unfinished">Middle mouse button or H key.</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="99"/>
+      <source>Middle mouse button.</source>
+      <translation type="unfinished">Middle mouse button.</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="102"/>
+      <source>Navigation style not recognized.</source>
+      <translation type="unfinished">Navigation style not recognized.</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="653"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Settings</source>
       <translation>Socruithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="655"/>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="654"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Orbit style</source>
       <translation>Stíl fithise</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="656"/>
       <source>Compact</source>
       <translation>Dlúth</translation>
@@ -80,20 +143,42 @@
     </message>
     <message>
       <location filename="../../NavigationIndicatorGui.py" line="658"/>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="655"/>
+      <source>Compact</source>
+      <translation type="unfinished">Compact</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="656"/>
+      <source>Tooltip</source>
+      <translation type="unfinished">Tooltip</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="657"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Turntable</source>
       <translation>Caschlár</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="659"/>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="658"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Free Turntable</source>
       <translation>Clár Castáin Saor in Aisce</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="660"/>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="659"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Trackball</source>
       <translation>Liathróid rianaithe</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../NavigationIndicatorGui.py" line="661"/>
       <source>Trackball Classic</source>
       <translation>Liathróid Rianaithe Clasaiceach</translation>
@@ -113,6 +198,27 @@
       <source>Navigation Styles</source>
       <comment>A context menu action used to show or hide the &apos;Navigation indicator&apos; toolbar widget</comment>
       <translation>Stíleanna Loingseoireachta</translation>
+=======
+      <location filename="../../NavigationIndicatorGui.py" line="660"/>
+      <source>Trackball Classic</source>
+      <translation type="unfinished">Trackball Classic</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="661"/>
+      <source>Rounded Arcball</source>
+      <translation type="unfinished">Rounded Arcball</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="662"/>
+      <source>Undefined</source>
+      <translation type="unfinished">Undefined</translation>
+    </message>
+    <message>
+      <location filename="../../NavigationIndicatorGui.py" line="674"/>
+      <source>Navigation indicator</source>
+      <comment>A context menu action used to show or hide the &apos;Navigation indicator&apos; toolbar widget</comment>
+      <translation type="unfinished">Navigation indicator</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

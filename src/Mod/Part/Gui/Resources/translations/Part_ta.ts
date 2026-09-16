@@ -7,7 +7,11 @@
       <location filename="../../AttacherTexts.cpp" line="842"/>
       <source>Any</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>ஏதேனும்</translation>
+=======
+      <translation type="unfinished">Any</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="843"/>
@@ -19,25 +23,41 @@
       <location filename="../../AttacherTexts.cpp" line="844"/>
       <source>Edge</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>விளிம்பு</translation>
+=======
+      <translation type="unfinished">Edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="845"/>
       <source>Face</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>முகம்</translation>
+=======
+      <translation type="unfinished">Face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="847"/>
       <source>Line</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>வரி</translation>
+=======
+      <translation type="unfinished">Line</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="848"/>
       <source>Curve</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>வளைவு</translation>
+=======
+      <translation type="unfinished">Curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="849"/>
@@ -49,79 +69,131 @@
       <location filename="../../AttacherTexts.cpp" line="850"/>
       <source>Conic</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>கூம்பு</translation>
+=======
+      <translation type="unfinished">Conic</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="851"/>
       <source>Ellipse</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>நீள்வட்டம்</translation>
+=======
+      <translation type="unfinished">Ellipse</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="852"/>
       <source>Parabola</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>பரவளைய</translation>
+=======
+      <translation type="unfinished">Parabola</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="853"/>
       <source>Hyperbola</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>அதிபரவளையம்</translation>
+=======
+      <translation type="unfinished">Hyperbola</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="855"/>
       <source>Plane</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>தளம்</translation>
+=======
+      <translation type="unfinished">Plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="856"/>
       <source>Sphere</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>கோளம்</translation>
+=======
+      <translation type="unfinished">Sphere</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="857"/>
       <source>Revolve</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>சுழலும்</translation>
+=======
+      <translation type="unfinished">Revolve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="858"/>
       <source>Cylinder</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>கலன்</translation>
+=======
+      <translation type="unfinished">Cylinder</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="859"/>
       <source>Torus</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>டோரச்</translation>
+=======
+      <translation type="unfinished">Torus</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="860"/>
       <source>Cone</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>கூம்பு</translation>
+=======
+      <translation type="unfinished">Cone</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="862"/>
       <source>Object</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>பொருள்</translation>
+=======
+      <translation type="unfinished">Object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="863"/>
       <source>Solid</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>திடமான</translation>
+=======
+      <translation type="unfinished">Solid</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="864"/>
       <source>Wire</source>
       <comment>Attacher reference type</comment>
+<<<<<<< HEAD
       <translation>கம்பி</translation>
+=======
+      <translation type="unfinished">Wire</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -130,97 +202,161 @@
       <location filename="../../AttacherTexts.cpp" line="727"/>
       <source>Deactivated</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>செயலிழக்கப்பட்டது</translation>
+=======
+      <translation type="unfinished">Deactivated</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="728"/>
       <source>Attachment is disabled. Point can be moved by editing Placement property.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைப்பு முடக்கப்பட்டுள்ளது. ப்ளேச்மென்ட் சொத்தை திருத்துவதன் மூலம் புள்ளியை நகர்த்தலாம்.</translation>
+=======
+      <translation type="unfinished">Attachment is disabled. Point can be moved by editing Placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="736"/>
       <source>Object's origin</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் தோற்றம்</translation>
+=======
+      <translation type="unfinished">Object's origin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="737"/>
       <source>Point is put at object's placement position. Works on objects with placements, and ellipse/parabola/hyperbola edges.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>பொருளின் இருப்பிட நிலையில் புள்ளி வைக்கப்படுகிறது. இடங்கள், மற்றும் நீள்வட்டம்/பரவளையம்/ஐபர்போலா விளிம்புகள் உள்ள பொருட்களில் வேலை செய்கிறது.</translation>
+=======
+      <translation type="unfinished">Point is put at object's placement position. Works on objects with placements, and ellipse/parabola/hyperbola edges.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="746"/>
       <source>Focus1</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>கவனம் 1</translation>
+=======
+      <translation type="unfinished">Focus1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="747"/>
       <source>Focus of ellipse, parabola, hyperbola.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>நீள்வட்டம், பரவளையம், ஐபர்போலாவின் கவனம்.</translation>
+=======
+      <translation type="unfinished">Focus of ellipse, parabola, hyperbola.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="755"/>
       <source>Focus2</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>கவனம் 2</translation>
+=======
+      <translation type="unfinished">Focus2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="756"/>
       <source>Second focus of ellipse and hyperbola.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>நீள்வட்டம் மற்றும் ஐபர்போலாவின் இரண்டாவது கவனம்.</translation>
+=======
+      <translation type="unfinished">Second focus of ellipse and hyperbola.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="764"/>
       <source>On edge</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>விளிம்பில்</translation>
+=======
+      <translation type="unfinished">On edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="765"/>
       <source>Point is put on edge, MapPathParameter controls where. Additionally, vertex can be linked in for making a projection.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>புள்ளி விளிம்பில் வைக்கப்பட்டுள்ளது, MapPathParameter எங்கே என்பதைக் கட்டுப்படுத்துகிறது. கூடுதலாக, ஒரு ப்ரொசெக்சன் செய்வதற்கு உச்சியை இணைக்கலாம்.</translation>
+=======
+      <translation type="unfinished">Point is put on edge, MapPathParameter controls where. Additionally, vertex can be linked in for making a projection.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="774"/>
       <source>Center of curvature</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>வளைவு நடுவண்</translation>
+=======
+      <translation type="unfinished">Center of curvature</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="775"/>
       <source>Center of osculating circle of an edge. Optional vertex link defines where.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>ஒரு விளிம்பின் ஓசுலேட்டிங் வட்டத்தின் நடுவண். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Center of osculating circle of an edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="784"/>
       <source>Center of mass</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>வெகுசன நடுவண்</translation>
+=======
+      <translation type="unfinished">Center of mass</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="785"/>
       <source>Center of mass of all references (equal densities are assumed).</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>அனைத்து குறிப்புகளின் வெகுசன நடுவண் (சமமான அடர்த்தி கருதப்படுகிறது).</translation>
+=======
+      <translation type="unfinished">Center of mass of all references (equal densities are assumed).</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="793"/>
       <source>Intersection</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டு</translation>
+=======
+      <translation type="unfinished">Intersection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="794"/>
       <source>Not implemented</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>செயல்படுத்தப்படவில்லை</translation>
+=======
+      <translation type="unfinished">Not implemented</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="798"/>
@@ -232,31 +368,51 @@
       <location filename="../../AttacherTexts.cpp" line="799"/>
       <source>Put Datum point coincident with another vertex.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>டேட்டம் புள்ளியை மற்றொரு உச்சியுடன் தற்செயலாக வைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Put Datum point coincident with another vertex.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="807"/>
       <source>Proximity point 1</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>அருகாமை புள்ளி 1</translation>
+=======
+      <translation type="unfinished">Proximity point 1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="808"/>
       <source>Point on first reference that is closest to second reference.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இரண்டாவது குறிப்புக்கு மிக நெருக்கமான முதல் குறிப்பைக் குறிக்கவும்.</translation>
+=======
+      <translation type="unfinished">Point on first reference that is closest to second reference.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="816"/>
       <source>Proximity point 2</source>
       <comment>AttachmentPoint mode caption</comment>
+<<<<<<< HEAD
       <translation>அருகாமை புள்ளி 2</translation>
+=======
+      <translation type="unfinished">Proximity point 2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="817"/>
       <source>Point on second reference that is closest to first reference.</source>
       <comment>AttachmentPoint mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் குறிப்புக்கு மிக நெருக்கமான இரண்டாவது குறிப்பைக் குறிக்கவும்.</translation>
+=======
+      <translation type="unfinished">Point on second reference that is closest to first reference.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -265,243 +421,403 @@
       <location filename="../../AttacherTexts.cpp" line="537"/>
       <source>Deactivated</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>செயலிழக்கப்பட்டது</translation>
+=======
+      <translation type="unfinished">Deactivated</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="538"/>
       <source>Attachment is disabled. Line can be moved by editing Placement property.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைப்பு முடக்கப்பட்டுள்ளது. பிளேச்மென்ட் சொத்தை திருத்துவதன் மூலம் வரியை நகர்த்தலாம்.</translation>
+=======
+      <translation type="unfinished">Attachment is disabled. Line can be moved by editing Placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="546"/>
       <source>Object's X</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் ஃச்</translation>
+=======
+      <translation type="unfinished">Object's X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="547"/>
       <location filename="../../AttacherTexts.cpp" line="567"/>
       <source>Line is aligned along local X axis of object. Works on objects with placements, and ellipse/parabola/hyperbola edges.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>பொருளின் உள்ளக ஃச் அச்சில் கோடு சீரமைக்கப்பட்டுள்ளது. இடங்கள், மற்றும் நீள்வட்டம்/பரவளையம்/ஐபர்போலா விளிம்புகள் உள்ள பொருட்களில் வேலை செய்கிறது.</translation>
+=======
+      <translation type="unfinished">Line is aligned along local X axis of object. Works on objects with placements, and ellipse/parabola/hyperbola edges.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="556"/>
       <source>Object's Y</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் ஒய்</translation>
+=======
+      <translation type="unfinished">Object's Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="557"/>
       <source>Line is aligned along local Y axis of object. Works on objects with placements, and ellipse/parabola/hyperbola edges.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>பொருளின் உள்ளக ஒய் அச்சில் கோடு சீரமைக்கப்பட்டுள்ளது. இடங்கள், மற்றும் நீள்வட்டம்/பரவளையம்/ஐபர்போலா விளிம்புகள் உள்ள பொருட்களில் வேலை செய்கிறது.</translation>
+=======
+      <translation type="unfinished">Line is aligned along local Y axis of object. Works on objects with placements, and ellipse/parabola/hyperbola edges.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="566"/>
       <source>Object's Z</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் சட்</translation>
+=======
+      <translation type="unfinished">Object's Z</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="576"/>
       <source>Axis of curvature</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>வளைவின் அச்சு</translation>
+=======
+      <translation type="unfinished">Axis of curvature</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="577"/>
       <source>Line that is an axis of osculating circle of curved edge. Optional vertex defines where.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வளைந்த விளிம்பின் ஆச்குலேட்டிங் வட்டத்தின் அச்சில் இருக்கும் கோடு. விருப்ப உச்சி எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Line that is an axis of osculating circle of curved edge. Optional vertex defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="586"/>
       <source>Directrix1</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>டைரக்ட்ரிக்ச்1</translation>
+=======
+      <translation type="unfinished">Directrix1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="587"/>
       <source>Directrix line for ellipse, parabola, hyperbola.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>நீள்வட்டம், பரவளையம், ஐபர்போலாவிற்கான டைரக்ட்ரிக்ச் கோடு.</translation>
+=======
+      <translation type="unfinished">Directrix line for ellipse, parabola, hyperbola.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="595"/>
       <source>Directrix2</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>டைரக்ட்ரிக்ச்2</translation>
+=======
+      <translation type="unfinished">Directrix2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="596"/>
       <source>Second directrix line for ellipse and hyperbola.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>நீள்வட்டம் மற்றும் ஐபர்போலாவுக்கான இரண்டாவது டைரக்ட்ரிக்ச் கோடு.</translation>
+=======
+      <translation type="unfinished">Second directrix line for ellipse and hyperbola.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="604"/>
       <source>Asymptote1</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>அறிகுறி1</translation>
+=======
+      <translation type="unfinished">Asymptote1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="605"/>
       <source>Asymptote of a hyperbola.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>ஐபர்போலாவின் அறிகுறி.</translation>
+=======
+      <translation type="unfinished">Asymptote of a hyperbola.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="609"/>
       <source>Asymptote2</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>அசிம்டோட்2</translation>
+=======
+      <translation type="unfinished">Asymptote2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="610"/>
       <source>Second asymptote of hyperbola.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>ஐபர்போலாவின் இரண்டாவது அறிகுறி.</translation>
+=======
+      <translation type="unfinished">Second asymptote of hyperbola.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="614"/>
       <source>Tangent</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>தொடுகோடு</translation>
+=======
+      <translation type="unfinished">Tangent</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="615"/>
       <source>Line tangent to an edge. Optional vertex link defines where.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>ஒரு விளிம்பிற்கு தொடுகோடு கோடு. விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Line tangent to an edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="623"/>
       <source>Normal to edge</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>விளிம்பிலிருந்து சாதாரணமானது</translation>
+=======
+      <translation type="unfinished">Normal to edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="624"/>
       <source>Align to N vector of Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வளைந்த விளிம்பின் ஃப்ரீனெட்-செர்ரெட் ஒருங்கிணைப்பு அமைப்பின் N திசையனுக்கு சீரமைக்கவும். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align to N vector of Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="633"/>
       <source>Binormal</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>இருவகை</translation>
+=======
+      <translation type="unfinished">Binormal</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="634"/>
       <source>Align to B vector of Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வளைந்த விளிம்பின் Frenet-Serret ஒருங்கிணைப்பு அமைப்பின் B திசையனுக்கு சீரமைக்கவும். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align to B vector of Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="643"/>
       <source>Tangent to surface (U)</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>மேற்பரப்பிலிருந்து தொடுதல் (U)</translation>
+=======
+      <translation type="unfinished">Tangent to surface (U)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="644"/>
       <location filename="../../AttacherTexts.cpp" line="653"/>
       <source>Tangent to surface, along U parameter. Vertex link defines where.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>உ அளவுருவுடன் மேற்பரப்புக்கு தொடுகோடு. வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Tangent to surface, along U parameter. Vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="652"/>
       <source>Tangent to surface (V)</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>மேற்பரப்பிலிருந்து தொடுநிலை (V)</translation>
+=======
+      <translation type="unfinished">Tangent to surface (V)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="661"/>
       <source>Through two points</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>இரண்டு புள்ளிகள் மூலம்</translation>
+=======
+      <translation type="unfinished">Through two points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="662"/>
       <source>Line that passes through two vertices.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இரண்டு செங்குத்துகள் வழியாக செல்லும் கோடு.</translation>
+=======
+      <translation type="unfinished">Line that passes through two vertices.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="670"/>
       <source>Intersection</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டு</translation>
+=======
+      <translation type="unfinished">Intersection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="671"/>
       <source>Intersection of two faces.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இரண்டு முகங்களின் குறுக்குவெட்டு.</translation>
+=======
+      <translation type="unfinished">Intersection of two faces.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="675"/>
       <source>Proximity line</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>அருகாமை வரி</translation>
+=======
+      <translation type="unfinished">Proximity line</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="676"/>
       <source>Line that spans the shortest distance between shapes.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வடிவங்களுக்கிடையில் மிகக் குறுகிய தூரத்தைக் கடக்கும் கோடு.</translation>
+=======
+      <translation type="unfinished">Line that spans the shortest distance between shapes.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="684"/>
       <source>1st principal axis</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>1 வது முதன்மை அச்சு</translation>
+=======
+      <translation type="unfinished">1st principal axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="685"/>
       <source>Line follows first principal axis of inertia.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>கோடு மந்தநிலையின் முதல் முதன்மை அச்சைப் பின்பற்றுகிறது.</translation>
+=======
+      <translation type="unfinished">Line follows first principal axis of inertia.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="693"/>
       <source>2nd principal axis</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>2வது முதன்மை அச்சு</translation>
+=======
+      <translation type="unfinished">2nd principal axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="694"/>
       <source>Line follows second principal axis of inertia.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>கோடு மந்தநிலையின் இரண்டாவது முதன்மை அச்சைப் பின்பற்றுகிறது.</translation>
+=======
+      <translation type="unfinished">Line follows second principal axis of inertia.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="702"/>
       <source>3rd principal axis</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>3 வது முதன்மை அச்சு</translation>
+=======
+      <translation type="unfinished">3rd principal axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="703"/>
       <source>Line follows third principal axis of inertia.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>மந்தநிலையின் மூன்றாவது முதன்மை அச்சை கோடு பின்பற்றுகிறது.</translation>
+=======
+      <translation type="unfinished">Line follows third principal axis of inertia.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="711"/>
       <source>Normal to surface</source>
       <comment>AttachmentLine mode caption</comment>
+<<<<<<< HEAD
       <translation>மேற்பரப்புக்கு இயல்பானது</translation>
+=======
+      <translation type="unfinished">Normal to surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="712"/>
       <source>Line perpendicular to surface at point set by vertex.</source>
       <comment>AttachmentLine mode tooltip</comment>
+<<<<<<< HEAD
       <translation>உச்சியால் அமைக்கப்பட்ட புள்ளியில் மேற்பரப்புக்கு செங்குத்தாக கோடு.</translation>
+=======
+      <translation type="unfinished">Line perpendicular to surface at point set by vertex.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -510,115 +826,191 @@
       <location filename="../../AttacherTexts.cpp" line="296"/>
       <source>Deactivated</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>செயலிழக்கப்பட்டது</translation>
+=======
+      <translation type="unfinished">Deactivated</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="297"/>
       <source>Attachment is disabled. Object can be moved by editing Placement property.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைப்பு முடக்கப்பட்டுள்ளது. ப்ளேச்மென்ட் சொத்தை திருத்துவதன் மூலம் பொருளை நகர்த்தலாம்.</translation>
+=======
+      <translation type="unfinished">Attachment is disabled. Object can be moved by editing Placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="306"/>
       <source>Translate origin</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>மூலத்தை மொழிபெயர்</translation>
+=======
+      <translation type="unfinished">Translate origin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="307"/>
       <source>Origin is aligned to match Vertex. Orientation is controlled by Placement property.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வெர்டெக்சுடன் பொருந்தும்படி தோற்றம் சீரமைக்கப்பட்டது. வேலை வாய்ப்பு சொத்தின் மூலம் நோக்குநிலை கட்டுப்படுத்தப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Origin is aligned to match Vertex. Orientation is controlled by Placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="316"/>
       <source>Object's XY</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் XY</translation>
+=======
+      <translation type="unfinished">Object's XY</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="317"/>
       <source>Plane is aligned to XY local plane of linked object.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைக்கப்பட்ட பொருளின் XY உள்ளக விமானத்திற்கு வானூர்தி சீரமைக்கப்பட்டது.</translation>
+=======
+      <translation type="unfinished">Plane is aligned to XY local plane of linked object.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="325"/>
       <source>Object's XZ</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் XZ</translation>
+=======
+      <translation type="unfinished">Object's XZ</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="326"/>
       <source>Plane is aligned to XZ local plane of linked object.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைக்கப்பட்ட பொருளின் XZ உள்ளக விமானத்திற்கு வானூர்தி சீரமைக்கப்பட்டது.</translation>
+=======
+      <translation type="unfinished">Plane is aligned to XZ local plane of linked object.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="334"/>
       <source>Object's YZ</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் YZ</translation>
+=======
+      <translation type="unfinished">Object's YZ</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="335"/>
       <source>Plane is aligned to YZ local plane of linked object.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைக்கப்பட்ட பொருளின் YZ உள்ளக விமானத்துடன் வானூர்தி சீரமைக்கப்பட்டது.</translation>
+=======
+      <translation type="unfinished">Plane is aligned to YZ local plane of linked object.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="343"/>
       <source>XY parallel to plane</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>XY விமானத்திற்கு இணையாக உள்ளது</translation>
+=======
+      <translation type="unfinished">XY parallel to plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="344"/>
       <source>X' Y' plane is parallel to the plane (object's XY) and passes through the vertex</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>X' Y' வானூர்தி விமானத்திற்கு இணையாக உள்ளது (பொருளின் XY) மற்றும் உச்சி வழியாக செல்கிறது</translation>
+=======
+      <translation type="unfinished">X' Y' plane is parallel to the plane (object's XY) and passes through the vertex</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="353"/>
       <source>Plane face</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>விமான முகம்</translation>
+=======
+      <translation type="unfinished">Plane face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="354"/>
       <source>Plane is aligned to coincide planar face.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>பிளானர் முகத்தை இணைப்பதற்கு வானூர்தி சீரமைக்கப்பட்டுள்ளது.</translation>
+=======
+      <translation type="unfinished">Plane is aligned to coincide planar face.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="362"/>
       <source>Tangent to surface</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>மேற்பரப்புக்கு தொடுகோடு</translation>
+=======
+      <translation type="unfinished">Tangent to surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="363"/>
       <source>Plane is made tangent to surface at vertex.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வானூர்தி உச்சியில் மேற்பரப்புக்கு தொடுகோடு செய்யப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Plane is made tangent to surface at vertex.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="371"/>
       <source>Normal to edge</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>விளிம்பிலிருந்து சாதாரணமானது</translation>
+=======
+      <translation type="unfinished">Normal to edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="372"/>
       <source>Plane is made tangent to edge. Optional vertex link defines where.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வானூர்தி விளிம்பிலிருந்து தொடுவானது. விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Plane is made tangent to edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="380"/>
       <source>Frenet NB</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>ஃப்ரீனெட் NB</translation>
+=======
+      <translation type="unfinished">Frenet NB</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="381"/>
@@ -626,91 +1018,151 @@
       <location filename="../../AttacherTexts.cpp" line="401"/>
       <source>Align to Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வளைந்த விளிம்பின் Frenet-Serret ஒருங்கிணைப்பு அமைப்புக்கு சீரமைக்கவும். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align to Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="390"/>
       <source>Frenet TN</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>ஃப்ரீனெட் டிஎன்</translation>
+=======
+      <translation type="unfinished">Frenet TN</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="400"/>
       <source>Frenet TB</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>ஃப்ரீனெட் டிபி</translation>
+=======
+      <translation type="unfinished">Frenet TB</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="410"/>
       <source>Concentric</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>செறிவான</translation>
+=======
+      <translation type="unfinished">Concentric</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="411"/>
       <source>Align to plane to osculating circle of an edge. Origin is aligned to point of curvature. Optional vertex link defines where.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>ஒரு விளிம்பின் ஆச்குலேட்டிங் வட்டத்திற்கு விமானத்திற்கு சீரமைக்கவும். தோற்றம் வளைவு புள்ளிக்கு சீரமைக்கப்பட்டது. விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align to plane to osculating circle of an edge. Origin is aligned to point of curvature. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="420"/>
       <source>Revolution Section</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>புரட்சி பிரிவு</translation>
+=======
+      <translation type="unfinished">Revolution Section</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="421"/>
       <source>Plane is perpendicular to edge, and Y axis is matched with axis of osculating circle. Optional vertex link defines where.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வானூர்தி விளிம்பிற்கு செங்குத்தாக உள்ளது, மேலும் ஒய் அச்சு ஓச்குலேட்டிங் வட்டத்தின் அச்சுடன் பொருந்துகிறது. விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Plane is perpendicular to edge, and Y axis is matched with axis of osculating circle. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="430"/>
       <source>Plane by 3 points</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>வானூர்தி 3 புள்ளிகள்</translation>
+=======
+      <translation type="unfinished">Plane by 3 points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="431"/>
       <source>Align plane to pass through three vertices.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>மூன்று செங்குத்துகளைக் கடந்து செல்ல விமானத்தை சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Align plane to pass through three vertices.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="439"/>
       <source>Normal to 3 points</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>3 புள்ளிகளுக்கு இயல்பானது</translation>
+=======
+      <translation type="unfinished">Normal to 3 points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="440"/>
       <source>Plane will pass through first two vertices, and perpendicular to plane that passes through three vertices.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வானூர்தி முதல் இரண்டு செங்குத்துகள் வழியாகவும், மூன்று செங்குத்துகள் வழியாக செல்லும் விமானத்திற்கு செங்குத்தாகவும் செல்லும்.</translation>
+=======
+      <translation type="unfinished">Plane will pass through first two vertices, and perpendicular to plane that passes through three vertices.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="449"/>
       <source>Folding</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>மடிப்பு</translation>
+=======
+      <translation type="unfinished">Folding</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="450"/>
       <source>Specialty mode for folding polyhedra. Select 4 edges in order: foldable edge, fold line, other fold line, other foldable edge. Plane will be aligned to folding the first edge.</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>பாலிஎட்ராவை மடக்குவதற்கான சிறப்பு முறை. 4 விளிம்புகளை வரிசையில் தேர்ந்தெடுக்கவும்: மடிக்கக்கூடிய விளிம்பு, மடிப்புக் கோடு, மற்ற மடிப்புக் கோடு, மற்ற மடிக்கக்கூடிய விளிம்பு. முதல் விளிம்பை மடிப்பதற்கு வானூர்தி சீரமைக்கப்படும்.</translation>
+=======
+      <translation type="unfinished">Specialty mode for folding polyhedra. Select 4 edges in order: foldable edge, fold line, other fold line, other foldable edge. Plane will be aligned to folding the first edge.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="460"/>
       <source>Inertia 2-3</source>
       <comment>AttachmentPlane mode caption</comment>
+<<<<<<< HEAD
       <translation>மந்தநிலை 2-3</translation>
+=======
+      <translation type="unfinished">Inertia 2-3</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="461"/>
       <source>Plane constructed on second and third principal axes of inertia (passes through center of mass).</source>
       <comment>AttachmentPlane mode tooltip</comment>
+<<<<<<< HEAD
       <translation>மந்தநிலையின் இரண்டாவது மற்றும் மூன்றாவது முதன்மை அச்சுகளில் கட்டப்பட்ட வானூர்தி (நிறை மையத்தின் வழியாக செல்கிறது).</translation>
+=======
+      <translation type="unfinished">Plane constructed on second and third principal axes of inertia (passes through center of mass).</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -719,115 +1171,191 @@
       <location filename="../../AttacherTexts.cpp" line="54"/>
       <source>Deactivated</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>செயலிழக்கப்பட்டது</translation>
+=======
+      <translation type="unfinished">Deactivated</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="55"/>
       <source>Attachment is disabled. Object can be moved by editing Placement property.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைப்பு முடக்கப்பட்டுள்ளது. ப்ளேச்மென்ட் சொத்தை திருத்துவதன் மூலம் பொருளை நகர்த்தலாம்.</translation>
+=======
+      <translation type="unfinished">Attachment is disabled. Object can be moved by editing Placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="64"/>
       <source>Translate origin</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>மூலத்தை மொழிபெயர்</translation>
+=======
+      <translation type="unfinished">Translate origin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="65"/>
       <source>Origin is aligned to match Vertex. Orientation is controlled by Placement property.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வெர்டெக்சுடன் பொருந்தும்படி தோற்றம் சீரமைக்கப்பட்டது. வேலை வாய்ப்பு சொத்தின் மூலம் நோக்குநிலை கட்டுப்படுத்தப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Origin is aligned to match Vertex. Orientation is controlled by Placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="74"/>
       <source>Object's X Y Z</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் ஃச் ஒய் சட்</translation>
+=======
+      <translation type="unfinished">Object's X Y Z</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="75"/>
       <source>Placement is made equal to Placement of linked object.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>இணைக்கப்பட்ட பொருளின் இருப்பிடத்திற்கு சமமாக இட ஒதுக்கீடு செய்யப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Placement is made equal to Placement of linked object.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="83"/>
       <source>Object's X Z Y</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் ஃச் சட் ஒய்</translation>
+=======
+      <translation type="unfinished">Object's X Z Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="84"/>
       <source>X', Y', Z' axes are matched with object's local X, Z, -Y, respectively.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>X', Y', Z' அச்சுகள் முறையே பொருளின் உள்ளக X, Z, -Y உடன் பொருந்துகின்றன.</translation>
+=======
+      <translation type="unfinished">X', Y', Z' axes are matched with object's local X, Z, -Y, respectively.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="92"/>
       <source>Object's Y Z X</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>பொருளின் ஒய் சட் ஃச்</translation>
+=======
+      <translation type="unfinished">Object's Y Z X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="93"/>
       <source>X', Y', Z' axes are matched with object's local Y, Z, X, respectively.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>X', Y', Z' அச்சுகள் முறையே பொருளின் உள்ளக Y, Z, ஃச் உடன் பொருந்துகின்றன.</translation>
+=======
+      <translation type="unfinished">X', Y', Z' axes are matched with object's local Y, Z, X, respectively.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="101"/>
       <source>XY parallel to plane</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>XY விமானத்திற்கு இணையாக உள்ளது</translation>
+=======
+      <translation type="unfinished">XY parallel to plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="102"/>
       <source>X' Y' plane is parallel to the plane (object's XY) and passes through the vertex.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>X' Y' வானூர்தி விமானத்திற்கு இணையாக உள்ளது (பொருளின் XY) மற்றும் உச்சி வழியாக செல்கிறது.</translation>
+=======
+      <translation type="unfinished">X' Y' plane is parallel to the plane (object's XY) and passes through the vertex.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="111"/>
       <source>XY on plane</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>விமானத்தில் XY</translation>
+=======
+      <translation type="unfinished">XY on plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="112"/>
       <source>X' Y' plane is aligned to coincide planar face.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>X' Y' வானூர்தி பிளானர் முகத்துடன் ஒத்துப்போகும் வகையில் சீரமைக்கப்பட்டுள்ளது.</translation>
+=======
+      <translation type="unfinished">X' Y' plane is aligned to coincide planar face.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="120"/>
       <source>XY tangent to surface</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>மேற்பரப்புக்கு XY தொடுகோடு</translation>
+=======
+      <translation type="unfinished">XY tangent to surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="121"/>
       <source>X' Y' plane is made tangent to surface at vertex.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>X' Y' வானூர்தி உச்சியில் மேற்பரப்புக்கு தொடுகோடு செய்யப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">X' Y' plane is made tangent to surface at vertex.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="129"/>
       <source>Z tangent to edge</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>சட் தொடுகோடு விளிம்பில்</translation>
+=======
+      <translation type="unfinished">Z tangent to edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="130"/>
       <source>Z' axis is aligned to be tangent to edge. Optional vertex link defines where.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>Z' அச்சு விளிம்பில் தொடுவாக சீரமைக்கப்பட்டுள்ளது. விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Z' axis is aligned to be tangent to edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="139"/>
       <source>Frenet NBT</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>ஃப்ரீனெட் NBT</translation>
+=======
+      <translation type="unfinished">Frenet NBT</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="140"/>
@@ -835,225 +1363,373 @@
       <location filename="../../AttacherTexts.cpp" line="160"/>
       <source>Align to Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>வளைந்த விளிம்பின் Frenet-Serret ஒருங்கிணைப்பு அமைப்புக்கு சீரமைக்கவும். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align to Frenet-Serret coordinate system of curved edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="149"/>
       <source>Frenet TNB</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>ஃப்ரீனெட் TNB</translation>
+=======
+      <translation type="unfinished">Frenet TNB</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="159"/>
       <source>Frenet TBN</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>ஃப்ரீனெட் டிபிஎன்</translation>
+=======
+      <translation type="unfinished">Frenet TBN</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="169"/>
       <source>Concentric</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>செறிவான</translation>
+=======
+      <translation type="unfinished">Concentric</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="179"/>
       <source>Revolution Section</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>புரட்சி பிரிவு</translation>
+=======
+      <translation type="unfinished">Revolution Section</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="180"/>
       <source>Align Y' axis to match axis of osculating circle of an edge. Optional vertex link defines where.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>ஒரு விளிம்பின் ஆச்குலேட்டிங் வட்டத்தின் அச்சுடன் பொருந்துவதற்கு Y' அச்சை சீரமைக்கவும். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align Y' axis to match axis of osculating circle of an edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="208"/>
       <source>Folding</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>மடிப்பு</translation>
+=======
+      <translation type="unfinished">Folding</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="170"/>
       <source>Align XY-plane to osculating circle of an edge. Optional vertex link defines where.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>XY-விமானத்தை ஒரு விளிம்பின் ஆச்குலேட்டிங் வட்டத்திற்கு சீரமைக்கவும். விருப்ப வெர்டெக்ச் இணைப்பு எங்கே என்பதை வரையறுக்கிறது.</translation>
+=======
+      <translation type="unfinished">Align XY-plane to osculating circle of an edge. Optional vertex link defines where.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="189"/>
       <source>XY-plane by 3 points</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>XY-விமானம் 3 புள்ளிகள்</translation>
+=======
+      <translation type="unfinished">XY-plane by 3 points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="190"/>
       <source>Align XY-plane to pass through three vertices.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>மூன்று செங்குத்துகளைக் கடந்து செல்ல XY-விமானத்தை சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Align XY-plane to pass through three vertices.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="198"/>
       <source>XZ-plane by 3 points</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>XZ-விமானம் 3 புள்ளிகள்</translation>
+=======
+      <translation type="unfinished">XZ-plane by 3 points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="199"/>
       <source>Align XZ-plane to pass through 3 points; X axis will pass through two first points.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>3 புள்ளிகளைக் கடந்து செல்ல XZ-விமானத்தை சீரமைக்கவும்; ஃச் அச்சு இரண்டு முதல் புள்ளிகள் வழியாக செல்லும்.</translation>
+=======
+      <translation type="unfinished">Align XZ-plane to pass through 3 points; X axis will pass through two first points.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="209"/>
       <source>Specialty mode for folding polyhedra. Select 4 edges in order: foldable edge, fold line, other fold line, other foldable edge. XY-plane will be aligned to folding the first edge.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>பாலிஎட்ராவை மடக்குவதற்கான சிறப்பு முறை. 4 விளிம்புகளை வரிசையில் தேர்ந்தெடுக்கவும்: மடிக்கக்கூடிய விளிம்பு, மடிப்புக் கோடு, மற்ற மடிப்புக் கோடு, மற்ற மடிக்கக்கூடிய விளிம்பு. XY-விமானம் முதல் விளிம்பை மடக்கும் வகையில் சீரமைக்கப்படும்.</translation>
+=======
+      <translation type="unfinished">Specialty mode for folding polyhedra. Select 4 edges in order: foldable edge, fold line, other fold line, other foldable edge. XY-plane will be aligned to folding the first edge.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="219"/>
       <source>Inertial CS</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>செயலற்ற சிஎச்</translation>
+=======
+      <translation type="unfinished">Inertial CS</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="220"/>
       <source>Inertial coordinate system, constructed on principal axes of inertia and center of mass.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>செயலற்ற ஒருங்கிணைப்பு அமைப்பு, மந்தநிலையின் முதன்மை அச்சுகள் மற்றும் வெகுசன மையத்தின் மீது கட்டமைக்கப்பட்டுள்ளது.</translation>
+=======
+      <translation type="unfinished">Inertial coordinate system, constructed on principal axes of inertia and center of mass.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="229"/>
       <source>Align O-Z-X</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-Z-X ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-Z-X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="230"/>
       <source>Match origin with first Vertex. Align Z' and X' axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். Z' மற்றும் X' அச்சுகளை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align Z' and X' axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="239"/>
       <source>Align O-Z-Y</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-Z-Yஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-Z-Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="240"/>
       <source>Match origin with first Vertex. Align Z' and Y' axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். Z' மற்றும் Y' அச்சுகளை உச்சியில்/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align Z' and Y' axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="249"/>
       <location filename="../../AttacherTexts.cpp" line="490"/>
       <source>Align O-X-Y</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-X-Yஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-X-Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="250"/>
       <source>Match origin with first Vertex. Align X' and Y' axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். X' மற்றும் Y' அச்சுகளை உச்சி/கோடு நெடுகச் சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align X' and Y' axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="259"/>
       <source>Align O-X-Z</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-X-Z ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-X-Z</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="260"/>
       <source>Match origin with first Vertex. Align X' and Z' axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். X' மற்றும் Z' அச்சுகளை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align X' and Z' axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="269"/>
       <source>Align O-Y-Z</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-Y-Z ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-Y-Z</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="270"/>
       <source>Match origin with first Vertex. Align Y' and Z' axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். Y' மற்றும் Z' அச்சுகளை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align Y' and Z' axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="279"/>
       <location filename="../../AttacherTexts.cpp" line="520"/>
       <source>Align O-Y-X</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-Y-X ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-Y-X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="280"/>
       <source>Match origin with first Vertex. Align Y' and X' axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். Y' மற்றும் X' அச்சுகளை உச்சியில்/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align Y' and X' axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="470"/>
       <source>Align O-N-X</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-N-X ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-N-X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="471"/>
       <source>Match origin with first Vertex. Align normal and horizontal plane axis towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். சாதாரண மற்றும் கிடைமட்ட விமான அச்சை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align normal and horizontal plane axis towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="480"/>
       <source>Align O-N-Y</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-N-Yஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-N-Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="481"/>
       <source>Match origin with first Vertex. Align normal and vertical plane axis towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். சாதாரண மற்றும் செங்குத்து விமான அச்சை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align normal and vertical plane axis towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="491"/>
       <source>Match origin with first Vertex. Align horizontal and vertical plane axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். கிடைமட்ட மற்றும் செங்குத்து விமான அச்சுகளை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align horizontal and vertical plane axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="500"/>
       <source>Align O-X-N</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-X-N ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-X-N</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="501"/>
       <source>Match origin with first Vertex. Align horizontal plane axis and normal towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். கிடைமட்ட விமான அச்சை சீரமைக்கவும் மற்றும் உச்சி/கோடு நெடுகவும் இயல்பாக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align horizontal plane axis and normal towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="510"/>
       <source>Align O-Y-N</source>
       <comment>Attachment3D mode caption</comment>
+<<<<<<< HEAD
       <translation>O-Y-N ஐ சீரமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Align O-Y-N</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="511"/>
       <source>Match origin with first Vertex. Align vertical plane axis and normal towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். செங்குத்து விமான அச்சை சீரமைக்கவும், உச்சி/கோடு நெடுகவும் இயல்பாக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align vertical plane axis and normal towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AttacherTexts.cpp" line="521"/>
       <source>Match origin with first Vertex. Align vertical and horizontal plane axes towards vertex/along line.</source>
       <comment>Attachment3D mode tooltip</comment>
+<<<<<<< HEAD
       <translation>முதல் வெர்டெக்சுடன் தோற்றம் பொருந்தவும். செங்குத்து மற்றும் கிடைமட்ட விமான அச்சுகளை உச்சி/கோடு வழியாக சீரமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Match origin with first Vertex. Align vertical and horizontal plane axes towards vertex/along line.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1061,12 +1737,20 @@
     <message>
       <location filename="../../DlgBlock.ui" line="14"/>
       <source>Block Definition</source>
+<<<<<<< HEAD
       <translation>தொகுதி வரையறை</translation>
+=======
+      <translation type="unfinished">Block Definition</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="20"/>
       <source>First Limit</source>
+<<<<<<< HEAD
       <translation>முதல் வரம்பு</translation>
+=======
+      <translation type="unfinished">First Limit</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="40"/>
@@ -1084,37 +1768,61 @@
       <location filename="../../DlgBlock.ui" line="53"/>
       <location filename="../../DlgBlock.ui" line="214"/>
       <source>Up to next</source>
+<<<<<<< HEAD
       <translation>அடுத்தது வரை</translation>
+=======
+      <translation type="unfinished">Up to next</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="58"/>
       <location filename="../../DlgBlock.ui" line="219"/>
       <source>Up to last</source>
+<<<<<<< HEAD
       <translation>கடைசி வரை</translation>
+=======
+      <translation type="unfinished">Up to last</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="63"/>
       <location filename="../../DlgBlock.ui" line="224"/>
       <source>Up to plane</source>
+<<<<<<< HEAD
       <translation>வானூர்தி வரை</translation>
+=======
+      <translation type="unfinished">Up to plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="68"/>
       <location filename="../../DlgBlock.ui" line="229"/>
       <source>Up to face</source>
+<<<<<<< HEAD
       <translation>முகம் வரை</translation>
+=======
+      <translation type="unfinished">Up to face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="76"/>
       <location filename="../../DlgBlock.ui" line="237"/>
       <source>Length</source>
+<<<<<<< HEAD
       <translation>நீளம்</translation>
+=======
+      <translation type="unfinished">Length</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="93"/>
       <location filename="../../DlgBlock.ui" line="254"/>
       <source>Limit</source>
+<<<<<<< HEAD
       <translation>வரம்பு</translation>
+=======
+      <translation type="unfinished">Limit</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="135"/>
@@ -1124,13 +1832,21 @@
     <message>
       <location filename="../../DlgBlock.ui" line="181"/>
       <source>Second Limit</source>
+<<<<<<< HEAD
       <translation>இரண்டாவது வரம்பு</translation>
+=======
+      <translation type="unfinished">Second Limit</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="83"/>
       <location filename="../../DlgBlock.ui" line="244"/>
       <source>mm</source>
+<<<<<<< HEAD
       <translation>மிமீ</translation>
+=======
+      <translation type="unfinished">mm</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="103"/>
@@ -1138,42 +1854,71 @@
       <location filename="../../DlgBlock.ui" line="264"/>
       <location filename="../../DlgBlock.ui" line="316"/>
       <source>No selection</source>
+<<<<<<< HEAD
       <translation>தேர்வு இல்லை</translation>
+=======
+      <translation type="unfinished">No selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="115"/>
       <source>Profile</source>
+<<<<<<< HEAD
       <translation>சுயவிவரம்</translation>
+=======
+      <translation type="unfinished">Profile</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="162"/>
       <source>Reverse</source>
+<<<<<<< HEAD
       <translation>தலைகீழ்</translation>
+=======
+      <translation type="unfinished">Reverse</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="169"/>
       <source>Both sides</source>
+<<<<<<< HEAD
       <translation>இரண்டு பக்கமும்</translation>
+=======
+      <translation type="unfinished">Both sides</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="276"/>
       <source>Direction</source>
+<<<<<<< HEAD
       <translation>திசை</translation>
+=======
+      <translation type="unfinished">Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="288"/>
       <source>Perpendicular to sketch</source>
+<<<<<<< HEAD
       <translation>ஓவியத்திற்கு செங்குத்தாக</translation>
+=======
+      <translation type="unfinished">Perpendicular to sketch</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBlock.ui" line="306"/>
       <source>Reference</source>
+<<<<<<< HEAD
       <translation>குறிப்பு</translation>
+=======
+      <translation type="unfinished">Reference</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdBoxSelection</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2394"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1192,11 +1937,32 @@
       <location filename="../../Command.cpp" line="2398"/>
       <source>Box selection</source>
       <translation>பெட்டி தேர்வு</translation>
+=======
+      <location filename="../../Command.cpp" line="2407"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2408"/>
+      <source>Box Selection</source>
+      <translation type="unfinished">Box Selection</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2409"/>
+      <source>Selects elements in the 3D view using a box selection</source>
+      <translation type="unfinished">Selects elements in the 3D view using a box selection</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2411"/>
+      <source>Box selection</source>
+      <translation type="unfinished">Box selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdCheckGeometry</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2316"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1210,11 +1976,27 @@
       <location filename="../../Command.cpp" line="2318"/>
       <source>Analyzes the selected shapes for errors</source>
       <translation>பிழைகளுக்கு தேர்ந்தெடுக்கப்பட்ட வடிவங்களை பகுப்பாய்வு செய்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2329"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2330"/>
+      <source>Check Geometry</source>
+      <translation type="unfinished">Check Geometry</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2331"/>
+      <source>Analyzes the selected shapes for errors</source>
+      <translation type="unfinished">Analyzes the selected shapes for errors</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdColorPerFace</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2350"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1228,11 +2010,27 @@
       <location filename="../../Command.cpp" line="2352"/>
       <source>Sets the appearance of individual faces of the selected object</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருளின் தனிப்பட்ட முகங்களின் தோற்றத்தை அமைக்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2363"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2364"/>
+      <source>Appearance per &amp;Face</source>
+      <translation type="unfinished">Appearance per &amp;Face</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2365"/>
+      <source>Sets the appearance of individual faces of the selected object</source>
+      <translation type="unfinished">Sets the appearance of individual faces of the selected object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartBoolean</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1403"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1246,11 +2044,27 @@
       <location filename="../../Command.cpp" line="1405"/>
       <source>Applies a boolean operation with the selected shapes</source>
       <translation type="unfinished">Applies a boolean operation with the selected shapes</translation>
+=======
+      <location filename="../../Command.cpp" line="1416"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1417"/>
+      <source>Boolean Operation</source>
+      <translation type="unfinished">Boolean Operation</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1418"/>
+      <source>Applies a boolean operations with the selected shapes</source>
+      <translation type="unfinished">Applies a boolean operations with the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartBox</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="116"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1265,6 +2079,23 @@
       <location filename="../../CommandParametric.cpp" line="118"/>
       <source>Creates a solid cube</source>
       <translation>ஒரு திட கனசதுரத்தை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandParametric.cpp" line="113"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="114"/>
+      <location filename="../../CommandParametric.cpp" line="125"/>
+      <location filename="../../CommandParametric.cpp" line="130"/>
+      <source>Cube</source>
+      <translation type="unfinished">Cube</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="115"/>
+      <source>Creates a solid cube</source>
+      <translation type="unfinished">Creates a solid cube</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1272,17 +2103,29 @@
     <message>
       <location filename="../../Command.cpp" line="133"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="134"/>
       <source>Box Fix 1</source>
+<<<<<<< HEAD
       <translation>பெட்டி திருத்தம் 1</translation>
+=======
+      <translation type="unfinished">Box Fix 1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="135"/>
       <source>Creates a solid box</source>
+<<<<<<< HEAD
       <translation>திடமான பெட்டியை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a solid box</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1290,40 +2133,68 @@
     <message>
       <location filename="../../Command.cpp" line="176"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="177"/>
       <source>Box Fix 2</source>
+<<<<<<< HEAD
       <translation>பெட்டி திருத்தம் 2</translation>
+=======
+      <translation type="unfinished">Box Fix 2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="178"/>
       <source>Creates a solid box</source>
+<<<<<<< HEAD
       <translation>திடமான பெட்டியை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a solid box</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartBuilder</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1702"/>
       <source>Part</source>
       <translation>பகுதி</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1703"/>
+=======
+      <location filename="../../Command.cpp" line="1715"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1716"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Shape Builder</source>
       <translation>வடிவத்தை உருவாக்குபவர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1705"/>
       <source>Advanced utility to create shapes</source>
       <translation>வடிவங்களை உருவாக்க மேம்பட்ட பயன்பாடு</translation>
+=======
+      <location filename="../../Command.cpp" line="1718"/>
+      <source>Advanced utility to create shapes</source>
+      <translation type="unfinished">Advanced utility to create shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartChamfer</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1607"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1337,6 +2208,21 @@
       <location filename="../../Command.cpp" line="1609"/>
       <source>Chamfers the selected edges of a shape</source>
       <translation>ஒரு வடிவத்தின் தேர்ந்தெடுக்கப்பட்ட விளிம்புகளை சாம்ஃபர் செய்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1620"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1621"/>
+      <source>Chamfer</source>
+      <translation type="unfinished">Chamfer</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1622"/>
+      <source>Chamfers the selected edges of a shape</source>
+      <translation type="unfinished">Chamfers the selected edges of a shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1344,17 +2230,29 @@
     <message>
       <location filename="../../Command.cpp" line="390"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="391"/>
       <source>Intersection</source>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டு</translation>
+=======
+      <translation type="unfinished">Intersection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="392"/>
       <source>Intersects the selected shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களை வெட்டுகிறது</translation>
+=======
+      <translation type="unfinished">Intersects the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1362,17 +2260,29 @@
     <message>
       <location filename="../../Command.cpp" line="817"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="818"/>
       <source>Compound Tools</source>
+<<<<<<< HEAD
       <translation>கூட்டு கருவிகள்</translation>
+=======
+      <translation type="unfinished">Compound Tools</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="819"/>
       <source>Compound tools for working with multiple shapes</source>
+<<<<<<< HEAD
       <translation>பல வடிவங்களுடன் வேலை செய்வதற்கான கூட்டு கருவிகள்</translation>
+=======
+      <translation type="unfinished">Compound tools for working with multiple shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1380,35 +2290,62 @@
     <message>
       <location filename="../../Command.cpp" line="568"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="569"/>
       <source>Join Shapes</source>
+<<<<<<< HEAD
       <translation>வடிவங்களில் சேரவும்</translation>
+=======
+      <translation type="unfinished">Join Shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="571"/>
       <source>Joins the selected walled shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட சுவர் வடிவங்களுடன் இணைகிறது</translation>
+=======
+      <translation type="unfinished">Joins the selected walled shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartCompOffset</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1923"/>
       <source>Part</source>
       <translation>பகுதி</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1924"/>
+=======
+      <location filename="../../Command.cpp" line="1936"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1937"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Offset</source>
       <translation>ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1925"/>
       <source>Tools to offset shapes (construct parallel shapes)</source>
       <translation>வடிவங்களை ஈடுசெய்யும் கருவிகள் (இணை வடிவங்களை உருவாக்குதல்)</translation>
+=======
+      <location filename="../../Command.cpp" line="1938"/>
+      <source>Tools to offset shapes (construct parallel shapes)</source>
+      <translation type="unfinished">Tools to offset shapes (construct parallel shapes)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1416,17 +2353,29 @@
     <message>
       <location filename="../../Command.cpp" line="682"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="683"/>
       <source>Split Shapes</source>
+<<<<<<< HEAD
       <translation>பிளவு வடிவங்கள்</translation>
+=======
+      <translation type="unfinished">Split Shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="685"/>
       <source>Shape splitting and compsolid creation tools</source>
+<<<<<<< HEAD
       <translation>வடிவம் பிரித்தல் மற்றும் ஒருங்கிணைந்த உருவாக்க கருவிகள்</translation>
+=======
+      <translation type="unfinished">Shape splitting and compsolid creation tools</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1434,22 +2383,35 @@
     <message>
       <location filename="../../Command.cpp" line="934"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="935"/>
       <source>Compound</source>
+<<<<<<< HEAD
       <translation>சேர்மம்</translation>
+=======
+      <translation type="unfinished">Compound</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="936"/>
       <source>Compounds the selected shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களை ஒருங்கிணைக்கிறது</translation>
+=======
+      <translation type="unfinished">Compounds the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartCone</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="204"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1464,11 +2426,29 @@
       <location filename="../../CommandParametric.cpp" line="206"/>
       <source>Creates a solid cone</source>
       <translation>திடமான கூம்பை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandParametric.cpp" line="201"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="202"/>
+      <location filename="../../CommandParametric.cpp" line="213"/>
+      <location filename="../../CommandParametric.cpp" line="218"/>
+      <source>Cone</source>
+      <translation type="unfinished">Cone</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="203"/>
+      <source>Creates a solid cone</source>
+      <translation type="unfinished">Creates a solid cone</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartCrossSections</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1663"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1482,6 +2462,21 @@
       <location filename="../../Command.cpp" line="1665"/>
       <source>Creates cross-sections</source>
       <translation>குறுக்குவெட்டுகளை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1676"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1677"/>
+      <source>Cross-Sections</source>
+      <translation type="unfinished">Cross-Sections</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1678"/>
+      <source>Creates cross-sections</source>
+      <translation type="unfinished">Creates cross-sections</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1489,22 +2484,35 @@
     <message>
       <location filename="../../Command.cpp" line="314"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="315"/>
       <source>Cut</source>
+<<<<<<< HEAD
       <translation>வெட்டு</translation>
+=======
+      <translation type="unfinished">Cut</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="316"/>
       <source>Cuts 2 selected shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட 2 வடிவங்களை வெட்டுகிறது</translation>
+=======
+      <translation type="unfinished">Cuts 2 selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartCylinder</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="72"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1519,11 +2527,29 @@
       <location filename="../../CommandParametric.cpp" line="74"/>
       <source>Creates a solid cylinder</source>
       <translation>திடமான உருளையை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandParametric.cpp" line="69"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="70"/>
+      <location filename="../../CommandParametric.cpp" line="81"/>
+      <location filename="../../CommandParametric.cpp" line="86"/>
+      <source>Cylinder</source>
+      <translation type="unfinished">Cylinder</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="71"/>
+      <source>Creates a solid cylinder</source>
+      <translation type="unfinished">Creates a solid cylinder</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartDefeaturing</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="461"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1537,11 +2563,27 @@
       <location filename="../../CommandSimple.cpp" line="463"/>
       <source>Removes the selected features from a shape</source>
       <translation>ஒரு வடிவத்திலிருந்து தேர்ந்தெடுக்கப்பட்ட அம்சங்களை நீக்குகிறது</translation>
+=======
+      <location filename="../../CommandSimple.cpp" line="460"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="461"/>
+      <source>Defeaturing</source>
+      <translation type="unfinished">Defeaturing</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="462"/>
+      <source>Removes the selected features from a shape</source>
+      <translation type="unfinished">Removes the selected features from a shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartElementCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="358"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1555,11 +2597,27 @@
       <location filename="../../CommandSimple.cpp" line="360"/>
       <source>Creates a non-parametric copy of the selected shape element</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவ உறுப்பின் அளவுரு அல்லாத நகலை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandSimple.cpp" line="357"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="358"/>
+      <source>Shape Element Copy</source>
+      <translation type="unfinished">Shape Element Copy</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="359"/>
+      <source>Creates a non-parametric copy of the selected shape element</source>
+      <translation type="unfinished">Creates a non-parametric copy of the selected shape element</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartExport</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1136"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1573,11 +2631,27 @@
       <location filename="../../Command.cpp" line="1139"/>
       <source>Exports to a CAD file</source>
       <translation>CAD கோப்பிற்கு ஏற்றுமதி செய்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1140"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1141"/>
+      <source>Export CAD File</source>
+      <translation type="unfinished">Export CAD File</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1143"/>
+      <source>Exports to a CAD file</source>
+      <translation type="unfinished">Exports to a CAD file</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartExtrude</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1435"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1591,11 +2665,27 @@
       <location filename="../../Command.cpp" line="1437"/>
       <source>Extrudes the selected sketch or profile</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட ச்கெட்ச் அல்லது சுயவிவரத்தை விரிவுபடுத்துகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1448"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1449"/>
+      <source>Extrude</source>
+      <translation type="unfinished">Extrude</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1450"/>
+      <source>Extrudes the selected sketch or profile</source>
+      <translation type="unfinished">Extrudes the selected sketch or profile</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartFillet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1579"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1609,6 +2699,21 @@
       <location filename="../../Command.cpp" line="1581"/>
       <source>Fillets the selected edges of a shape</source>
       <translation>ஒரு வடிவத்தின் தேர்ந்தெடுக்கப்பட்ட விளிம்புகளை நிரப்புகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1592"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1593"/>
+      <source>Fillet</source>
+      <translation type="unfinished">Fillet</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1594"/>
+      <source>Fillets the selected edges of a shape</source>
+      <translation type="unfinished">Fillets the selected edges of a shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1616,17 +2721,29 @@
     <message>
       <location filename="../../Command.cpp" line="467"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="468"/>
       <source>Union</source>
+<<<<<<< HEAD
       <translation>ஒன்றியம்</translation>
+=======
+      <translation type="unfinished">Union</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="469"/>
       <source>Unites the selected shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களை ஒருங்கிணைக்கிறது</translation>
+=======
+      <translation type="unfinished">Unites the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1634,22 +2751,35 @@
     <message>
       <location filename="../../Command.cpp" line="1066"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="1067"/>
       <source>Import CAD File</source>
+<<<<<<< HEAD
       <translation>CAD கோப்பை இறக்குமதி செய்யவும்</translation>
+=======
+      <translation type="unfinished">Import CAD File</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="1069"/>
       <source>Imports a CAD file</source>
+<<<<<<< HEAD
       <translation>CAD கோப்பை இறக்குமதி செய்கிறது</translation>
+=======
+      <translation type="unfinished">Imports a CAD file</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartImportCurveNet</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1188"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1663,11 +2793,27 @@
       <location filename="../../Command.cpp" line="1191"/>
       <source>Imports a curve network</source>
       <translation>வளைவு நெட்வொர்க்கை இறக்குமதி செய்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1196"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1197"/>
+      <source>Import Curve Network</source>
+      <translation type="unfinished">Import Curve Network</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1199"/>
+      <source>Imports a curve network</source>
+      <translation type="unfinished">Imports a curve network</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartLoft</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1732"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1681,11 +2827,27 @@
       <location filename="../../Command.cpp" line="1734"/>
       <source>Lofts the selected profiles</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட சுயவிவரங்களை விரிக்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1745"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1746"/>
+      <source>Loft</source>
+      <translation type="unfinished">Loft</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1747"/>
+      <source>Lofts the selected profiles</source>
+      <translation type="unfinished">Lofts the selected profiles</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartMakeFace</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1492"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1699,11 +2861,27 @@
       <location filename="../../Command.cpp" line="1494"/>
       <source>Creates a face from the selected wires (e.g. from a sketch)</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட கம்பிகளிலிருந்து ஒரு முகத்தை உருவாக்குகிறது (எ.கா. ஓவியத்திலிருந்து)</translation>
+=======
+      <location filename="../../Command.cpp" line="1505"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1506"/>
+      <source>Face From Wires</source>
+      <translation type="unfinished">Face From Wires</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1507"/>
+      <source>Creates a face from the selected wires (e.g. from a sketch)</source>
+      <translation type="unfinished">Creates a face from the selected wires (e.g. from a sketch)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartMakeSolid</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1241"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1717,29 +2895,60 @@
       <location filename="../../Command.cpp" line="1243"/>
       <source>Converts the selected shell or compound to a solid</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட செல் அல்லது கலவையை திடப்பொருளாக மாற்றுகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1256"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1257"/>
+      <source>Convert to Solid</source>
+      <translation type="unfinished">Convert to Solid</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1258"/>
+      <source>Converts the selected shell or compound to a solid</source>
+      <translation type="unfinished">Converts the selected shell or compound to a solid</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartMirror</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1635"/>
       <source>Part</source>
       <translation>பகுதி</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1636"/>
+=======
+      <location filename="../../Command.cpp" line="1648"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1649"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Mirror</source>
       <translation>கண்ணாடி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1637"/>
       <source>Mirrors the selected shape</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவத்தை பிரதிபலிக்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1650"/>
+      <source>Mirrors the selected shape</source>
+      <translation type="unfinished">Mirrors the selected shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartOffset</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1790"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1753,24 +2962,54 @@
       <location filename="../../Command.cpp" line="1792"/>
       <source>Offsets shapes in 3D</source>
       <translation>வடிவங்களை 3Dயில் ஈடுசெய்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1803"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1804"/>
+      <source>3D Offset</source>
+      <translation type="unfinished">3D Offset</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1805"/>
+      <source>Offsets shapes in 3D</source>
+      <translation type="unfinished">Offsets shapes in 3D</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartOffset2D</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1857"/>
       <source>Part</source>
       <translation>பகுதி</translation>
     </message>
     <message>
       <location filename="../../Command.cpp" line="1858"/>
+=======
+      <location filename="../../Command.cpp" line="1870"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1871"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>2D Offset</source>
       <translation>2டி ஆஃப்செட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1859"/>
       <source>Offsets planar shapes in 2D</source>
       <translation>பிளானர் வடிவங்களை 2டியில் ஈடுசெய்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1872"/>
+      <source>Offsets planar shapes in 2D</source>
+      <translation type="unfinished">Offsets planar shapes in 2D</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1778,17 +3017,29 @@
     <message>
       <location filename="../../Command.cpp" line="87"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="88"/>
       <source>Pick Curve Network</source>
+<<<<<<< HEAD
       <translation>வளைவு நெட்வொர்க்கைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Pick Curve Network</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="89"/>
       <source>Picks a curve network</source>
+<<<<<<< HEAD
       <translation>வளைவு நெட்வொர்க்கைத் தேர்ந்தெடுக்கிறது</translation>
+=======
+      <translation type="unfinished">Picks a curve network</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1796,17 +3047,29 @@
     <message>
       <location filename="../../CommandSimple.cpp" line="142"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="143"/>
       <source>Points From Shape</source>
+<<<<<<< HEAD
       <translation>வடிவத்திலிருந்து புள்ளிகள்</translation>
+=======
+      <translation type="unfinished">Points From Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="144"/>
       <source>Creates distributed points from the selected shape</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவத்திலிருந்து விநியோகிக்கப்பட்ட புள்ளிகளை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates distributed points from the selected shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1814,22 +3077,35 @@
     <message>
       <location filename="../../Command.cpp" line="219"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="220"/>
       <source>Primitive</source>
+<<<<<<< HEAD
       <translation>தொடக்கநிலை</translation>
+=======
+      <translation type="unfinished">Primitive</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="222"/>
       <source>Creates solid geometric primitives parametrically</source>
+<<<<<<< HEAD
       <translation>திட வடிவியல் முதற்களை அளவுருவாக உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates solid geometric primitives parametrically</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartProjectionOnSurface</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2424"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1841,19 +3117,40 @@
     </message>
     <message>
       <location filename="../../Command.cpp" line="2426"/>
+=======
+      <location filename="../../Command.cpp" line="2437"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2438"/>
+      <source>Project on Surface</source>
+      <translation type="unfinished">Project on Surface</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2439"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Projects edges, wires, or faces of one shape
 onto a face of another shape.
 The camera view determines the direction
 of the projection.</source>
+<<<<<<< HEAD
       <translation>திட்டங்களின் விளிம்புகள், கம்பிகள் அல்லது ஒரு வடிவத்தின் முகங்கள் 
 மற்றொரு வடிவத்தின் முகத்தில். 
 கேமரா காட்சி திசையை தீர்மானிக்கிறது 
 கணிப்பு.</translation>
+=======
+      <translation type="unfinished">Projects edges, wires, or faces of one shape
+onto a face of another shape.
+The camera view determines the direction
+of the projection.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartRefineShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="386"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1867,11 +3164,27 @@ of the projection.</source>
       <location filename="../../CommandSimple.cpp" line="388"/>
       <source>Creates a refined copy of the selected shapes</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களின் சுத்திகரிக்கப்பட்ட நகலை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandSimple.cpp" line="385"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="386"/>
+      <source>Refine Shape</source>
+      <translation type="unfinished">Refine Shape</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="387"/>
+      <source>Creates a refined copy of the selected shapes</source>
+      <translation type="unfinished">Creates a refined copy of the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartReverseShape</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1334"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1885,11 +3198,27 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="1336"/>
       <source>Reverses the orientation of the selected shapes</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களின் நோக்குநிலையை மாற்றுகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1349"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1350"/>
+      <source>Reverse Shapes</source>
+      <translation type="unfinished">Reverse Shapes</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1351"/>
+      <source>Reverses the orientation of the selected shapes</source>
+      <translation type="unfinished">Reverses the orientation of the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartRevolve</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1551"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1903,11 +3232,27 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="1553"/>
       <source>Revolves the selected shape</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவத்தை சுழற்றுகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1564"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1565"/>
+      <source>Revolve</source>
+      <translation type="unfinished">Revolve</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1566"/>
+      <source>Revolves the selected shape</source>
+      <translation type="unfinished">Revolves the selected shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartRuledSurface</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2172"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -1921,6 +3266,21 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="2174"/>
       <source>Creates a ruled surface between 2 selected wires</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட 2 கம்பிகளுக்கு இடையில் ஒரு ஆளப்பட்ட மேற்பரப்பை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2185"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2186"/>
+      <source>Ruled Surface</source>
+      <translation type="unfinished">Ruled Surface</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2187"/>
+      <source>Creates a ruled surface between 2 selected wires</source>
+      <translation type="unfinished">Creates a ruled surface between 2 selected wires</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1928,17 +3288,29 @@ of the projection.</source>
     <message>
       <location filename="../../Command.cpp" line="996"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="997"/>
       <source>Section</source>
+<<<<<<< HEAD
       <translation>பிரிவு</translation>
+=======
+      <translation type="unfinished">Section</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="998"/>
       <source>Sections 2 selected shapes</source>
+<<<<<<< HEAD
       <translation>பிரிவுகள் 2 தேர்ந்தெடுக்கப்பட்ட வடிவங்கள்</translation>
+=======
+      <translation type="unfinished">Sections 2 selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1946,17 +3318,29 @@ of the projection.</source>
     <message>
       <location filename="../../CommandSimple.cpp" line="114"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="115"/>
       <source>Shape From Mesh</source>
+<<<<<<< HEAD
       <translation>மெச் இருந்து வடிவம்</translation>
+=======
+      <translation type="unfinished">Shape From Mesh</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="116"/>
       <source>Creates a shape from the selected mesh</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட கண்ணியிலிருந்து ஒரு வடிவத்தை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a shape from the selected mesh</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1964,7 +3348,11 @@ of the projection.</source>
     <message>
       <location filename="../../CommandSimple.cpp" line="239"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="240"/>
@@ -1974,7 +3362,11 @@ of the projection.</source>
     <message>
       <location filename="../../CommandSimple.cpp" line="241"/>
       <source>Creates a simple non-parametric copy of the selected shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களின் எளிய அல்லாத அளவுரு நகலை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a simple non-parametric copy of the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -1982,22 +3374,35 @@ of the projection.</source>
     <message>
       <location filename="../../CommandSimple.cpp" line="55"/>
       <source>Part</source>
+<<<<<<< HEAD
       <translation>பகுதி</translation>
+=======
+      <translation type="unfinished">Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="56"/>
       <source>Cylinder</source>
+<<<<<<< HEAD
       <translation>கலன்</translation>
+=======
+      <translation type="unfinished">Cylinder</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="57"/>
       <source>Creates a solid cylinder</source>
+<<<<<<< HEAD
       <translation>திடமான உருளையை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a solid cylinder</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartSphere</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="160"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -2012,11 +3417,29 @@ of the projection.</source>
       <location filename="../../CommandParametric.cpp" line="162"/>
       <source>Creates a solid sphere</source>
       <translation>திடமான கோளத்தை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandParametric.cpp" line="157"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="158"/>
+      <location filename="../../CommandParametric.cpp" line="169"/>
+      <location filename="../../CommandParametric.cpp" line="174"/>
+      <source>Sphere</source>
+      <translation type="unfinished">Sphere</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="159"/>
+      <source>Creates a solid sphere</source>
+      <translation type="unfinished">Creates a solid sphere</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartSweep</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1761"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -2030,11 +3453,27 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="1763"/>
       <source>Sweeps profiles along a wire</source>
       <translation>ஒரு கம்பி வழியாக சுயவிவரங்களை துடைக்கிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1774"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1775"/>
+      <source>Sweep</source>
+      <translation type="unfinished">Sweep</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1776"/>
+      <source>Sweeps profiles along a wire</source>
+      <translation type="unfinished">Sweeps profiles along a wire</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartThickness</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2025"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -2058,11 +3497,37 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="2087"/>
       <source>Selected shape is not a solid</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவம் திடமானது அல்ல</translation>
+=======
+      <location filename="../../Command.cpp" line="2038"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2039"/>
+      <source>Thickness</source>
+      <translation type="unfinished">Thickness</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2040"/>
+      <source>Removes the selected faces and offsets the remaining shape outward to add thickness</source>
+      <translation type="unfinished">Removes the selected faces and offsets the remaining shape outward to add thickness</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2099"/>
+      <source>Wrong selection</source>
+      <translation type="unfinished">Wrong selection</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2100"/>
+      <source>Selected shape is not a solid</source>
+      <translation type="unfinished">Selected shape is not a solid</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartTorus</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandParametric.cpp" line="248"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -2077,11 +3542,29 @@ of the projection.</source>
       <location filename="../../CommandParametric.cpp" line="250"/>
       <source>Creates a solid torus</source>
       <translation>திடமான டோரசை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandParametric.cpp" line="245"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="246"/>
+      <location filename="../../CommandParametric.cpp" line="257"/>
+      <location filename="../../CommandParametric.cpp" line="262"/>
+      <source>Torus</source>
+      <translation type="unfinished">Torus</translation>
+    </message>
+    <message>
+      <location filename="../../CommandParametric.cpp" line="247"/>
+      <source>Creates a solid torus</source>
+      <translation type="unfinished">Creates a solid torus</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartTransformedCopy</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandSimple.cpp" line="328"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -2095,6 +3578,21 @@ of the projection.</source>
       <location filename="../../CommandSimple.cpp" line="330"/>
       <source>Creates a non-parametric copy with transformed placement of the selected shapes</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களின் மாற்றப்பட்ட இடத்துடன் அளவுரு அல்லாத நகலை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../CommandSimple.cpp" line="327"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="328"/>
+      <source>Transformed Copy</source>
+      <translation type="unfinished">Transformed Copy</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="329"/>
+      <source>Creates a non-parametric copy with transformed placement of the selected shapes</source>
+      <translation type="unfinished">Creates a non-parametric copy with transformed placement of the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2103,31 +3601,52 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="144"/>
       <location filename="../../Command.cpp" line="187"/>
       <source>Part Box Create</source>
+<<<<<<< HEAD
       <translation>பகுதி பெட்டியை உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Part Box Create</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="367"/>
       <source>Part Cut</source>
+<<<<<<< HEAD
       <translation>பகுதி வெட்டு</translation>
+=======
+      <translation type="unfinished">Part Cut</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="444"/>
       <source>Common</source>
+<<<<<<< HEAD
       <translation>பொதுவானது</translation>
+=======
+      <translation type="unfinished">Common</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="544"/>
       <source>Fusion</source>
+<<<<<<< HEAD
       <translation>இணைவு</translation>
+=======
+      <translation type="unfinished">Fusion</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="974"/>
       <source>Compound</source>
+<<<<<<< HEAD
       <translation>சேர்மம்</translation>
+=======
+      <translation type="unfinished">Compound</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="1025"/>
       <source>Section</source>
+<<<<<<< HEAD
       <translation>பிரிவு</translation>
     </message>
     <message>
@@ -2189,15 +3708,83 @@ of the projection.</source>
       <location filename="../../Command.cpp" line="2643"/>
       <source>Add datum point</source>
       <translation>தரவு புள்ளியைச் சேர்க்கவும்</translation>
+=======
+      <translation type="unfinished">Section</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1101"/>
+      <source>Import Part</source>
+      <translation type="unfinished">Import Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1225"/>
+      <source>Import Curve Net</source>
+      <translation type="unfinished">Import Curve Net</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1363"/>
+      <source>Reverse</source>
+      <translation type="unfinished">Reverse</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1524"/>
+      <source>Make face</source>
+      <translation type="unfinished">Make face</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1830"/>
+      <source>Make Offset</source>
+      <translation type="unfinished">Make Offset</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1898"/>
+      <source>Make 2D Offset</source>
+      <translation type="unfinished">Make 2D Offset</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2107"/>
+      <source>Make Thickness</source>
+      <translation type="unfinished">Make Thickness</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2296"/>
+      <source>Create ruled surface</source>
+      <translation type="unfinished">Create ruled surface</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2549"/>
+      <source>Add coordinate system</source>
+      <translation type="unfinished">Add coordinate system</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2587"/>
+      <source>Add datum plane</source>
+      <translation type="unfinished">Add datum plane</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2620"/>
+      <source>Add datum line</source>
+      <translation type="unfinished">Add datum line</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2653"/>
+      <source>Add datum point</source>
+      <translation type="unfinished">Add datum point</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="70"/>
       <source>Create Cylinder</source>
+<<<<<<< HEAD
       <translation>சிலிண்டரை உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create Cylinder</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="200"/>
       <source>Points from geometry</source>
+<<<<<<< HEAD
       <translation>வடிவவியலில் இருந்து புள்ளிகள்</translation>
     </message>
     <message>
@@ -2224,10 +3811,39 @@ of the projection.</source>
       <location filename="../../TaskFaceAppearances.cpp" line="523"/>
       <source>Change face colors</source>
       <translation>முகத்தின் நிறங்களை மாற்றவும்</translation>
+=======
+      <translation type="unfinished">Points from geometry</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="404"/>
+      <source>Refine shape</source>
+      <translation type="unfinished">Refine shape</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="474"/>
+      <source>Defeaturing</source>
+      <translation type="unfinished">Defeaturing</translation>
+    </message>
+    <message>
+      <location filename="../../ShapeFromMesh.cpp" line="74"/>
+      <source>Convert mesh</source>
+      <translation type="unfinished">Convert mesh</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1450"/>
+      <source>Edit attachment</source>
+      <translation type="unfinished">Edit attachment</translation>
+    </message>
+    <message>
+      <location filename="../../TaskFaceAppearances.cpp" line="489"/>
+      <source>Change face colors</source>
+      <translation type="unfinished">Change face colors</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="225"/>
       <source>Loft</source>
+<<<<<<< HEAD
       <translation>மாடி</translation>
     </message>
     <message>
@@ -2270,6 +3886,50 @@ of the projection.</source>
       <location filename="../../ViewProviderMirror.cpp" line="213"/>
       <source>Edit mirror</source>
       <translation>கண்ணாடியைத் திருத்து</translation>
+=======
+      <translation type="unfinished">Loft</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="267"/>
+      <source>Edge</source>
+      <translation type="unfinished">Edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="309"/>
+      <source>Wire</source>
+      <translation type="unfinished">Wire</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="364"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="418"/>
+      <source>Face</source>
+      <translation type="unfinished">Face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="483"/>
+      <source>Shell</source>
+      <translation type="unfinished">Shell</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="541"/>
+      <source>Solid</source>
+      <translation type="unfinished">Solid</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="423"/>
+      <source>Sweep</source>
+      <translation type="unfinished">Sweep</translation>
+    </message>
+    <message>
+      <location filename="../../DlgProjectionOnSurface.cpp" line="1603"/>
+      <source>Project on surface</source>
+      <translation type="unfinished">Project on surface</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderMirror.cpp" line="211"/>
+      <source>Edit mirror</source>
+      <translation type="unfinished">Edit mirror</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2277,100 +3937,176 @@ of the projection.</source>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="20"/>
       <source>Selection accepted</source>
+<<<<<<< HEAD
       <translation>தேர்வு ஏற்றுக்கொள்ளப்பட்டது</translation>
+=======
+      <translation type="unfinished">Selection accepted</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="35"/>
       <source>Reference 1</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 1</translation>
+=======
+      <translation type="unfinished">Reference 1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="52"/>
       <source>Reference 2</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 2</translation>
+=======
+      <translation type="unfinished">Reference 2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="69"/>
       <source>Reference 3</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 3</translation>
+=======
+      <translation type="unfinished">Reference 3</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="86"/>
       <source>Reference 4</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 4</translation>
+=======
+      <translation type="unfinished">Reference 4</translation>
+    </message>
+    <message>
+      <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="101"/>
+      <source>Attachment mode</source>
+      <translation type="unfinished">Attachment mode</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="124"/>
       <source>Attachment Offset in its Local Coordinate System</source>
+<<<<<<< HEAD
       <translation>அதன் உள்ளக ஒருங்கிணைப்பு அமைப்பில் இணைப்பு ஆஃப்செட்</translation>
+=======
+      <translation type="unfinished">Attachment Offset in its Local Coordinate System</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="235"/>
       <source>Around X-axis</source>
+<<<<<<< HEAD
       <translation>ஃச் அச்சில் சுற்றி</translation>
+=======
+      <translation type="unfinished">Around X-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="254"/>
       <source>Rotation around the X-axis
 Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>ஃச் அச்சில் சுழற்சி 
 குறிப்பு: இணைக்கப்பட்ட பொருளின் உள்ளக இடத்தில் இடம் வெளிப்படுத்தப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Rotation around the X-axis
+Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="280"/>
       <source>Around Y-axis</source>
+<<<<<<< HEAD
       <translation>ஒய் அச்சில் சுற்றி</translation>
+=======
+      <translation type="unfinished">Around Y-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="299"/>
       <source>Rotation around the Y-axis
 Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>ஒய் அச்சில் சுழற்சி 
 குறிப்பு: இணைக்கப்பட்ட பொருளின் உள்ளக இடத்தில் இடம் வெளிப்படுத்தப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Rotation around the Y-axis
+Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="325"/>
       <source>Around Z-axis</source>
+<<<<<<< HEAD
       <translation>சட் அச்சில் சுற்றி</translation>
+=======
+      <translation type="unfinished">Around Z-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="344"/>
       <source>Rotation around the Z-axis
 Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>சட் அச்சில் சுழற்சி 
 குறிப்பு: இணைக்கப்பட்ட பொருளின் உள்ளக இடத்தில் இடம் வெளிப்படுத்தப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Rotation around the Z-axis
+Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="158"/>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="190"/>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="222"/>
       <source>Note: The placement is expressed in local space of object being attached.</source>
+<<<<<<< HEAD
       <translation>குறிப்பு: இணைக்கப்பட்ட பொருளின் உள்ளக இடத்தில் இடம் வெளிப்படுத்தப்படுகிறது.</translation>
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="101"/>
       <source>Attachment Mode</source>
       <translation type="unfinished">Attachment Mode</translation>
+=======
+      <translation type="unfinished">Note: The placement is expressed in local space of object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="136"/>
       <source>In X-direction</source>
+<<<<<<< HEAD
       <translation>ஃச் திசையில்</translation>
+=======
+      <translation type="unfinished">In X-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="171"/>
       <source>In Y-direction</source>
+<<<<<<< HEAD
       <translation>ஒய்-திசையில்</translation>
+=======
+      <translation type="unfinished">In Y-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="203"/>
       <source>In Z-direction</source>
+<<<<<<< HEAD
       <translation>Z- திசையில்</translation>
+=======
+      <translation type="unfinished">In Z-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.ui" line="367"/>
       <source>Flip sides</source>
+<<<<<<< HEAD
       <translation>பக்கங்களை புரட்டவும்</translation>
+=======
+      <translation type="unfinished">Flip sides</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2378,12 +4114,20 @@ Note: The placement is expressed in local space of object being attached.</sourc
     <message>
       <location filename="../../CrossSections.ui" line="14"/>
       <source>Cross Sections</source>
+<<<<<<< HEAD
       <translation>குறுக்கு பிரிவுகள்</translation>
+=======
+      <translation type="unfinished">Cross Sections</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CrossSections.ui" line="20"/>
       <source>Guiding Plane</source>
+<<<<<<< HEAD
       <translation>வழிகாட்டும் வானூர்தி</translation>
+=======
+      <translation type="unfinished">Guiding Plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CrossSections.ui" line="26"/>
@@ -2413,22 +4157,38 @@ Note: The placement is expressed in local space of object being attached.</sourc
     <message>
       <location filename="../../CrossSections.ui" line="71"/>
       <source>Sections</source>
+<<<<<<< HEAD
       <translation>பிரிவுகள்</translation>
+=======
+      <translation type="unfinished">Sections</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CrossSections.ui" line="83"/>
       <source>On both sides</source>
+<<<<<<< HEAD
       <translation>இருபுறமும்</translation>
+=======
+      <translation type="unfinished">On both sides</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CrossSections.ui" line="92"/>
       <source>Count</source>
+<<<<<<< HEAD
       <translation>எண்ணுங்கள்</translation>
+=======
+      <translation type="unfinished">Count</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CrossSections.cpp" line="341"/>
       <source>Cannot compute cross-sections</source>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டுகளை கணக்கிட முடியாது</translation>
+=======
+      <translation type="unfinished">Cannot compute cross-sections</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2437,114 +4197,200 @@ Note: The placement is expressed in local space of object being attached.</sourc
       <location filename="../../DlgBooleanOperation.ui" line="14"/>
       <location filename="../../DlgBooleanOperation.ui" line="20"/>
       <source>Boolean Operation</source>
+<<<<<<< HEAD
       <translation>பூலியன் ஆபரேசன்</translation>
+=======
+      <translation type="unfinished">Boolean Operation</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="32"/>
       <source>Union</source>
+<<<<<<< HEAD
       <translation>ஒன்றியம்</translation>
+=======
+      <translation type="unfinished">Union</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="42"/>
       <source>Difference</source>
+<<<<<<< HEAD
       <translation>வேறுபாடு</translation>
+=======
+      <translation type="unfinished">Difference</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="49"/>
       <source>Intersection</source>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டு</translation>
+=======
+      <translation type="unfinished">Intersection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="56"/>
       <source>Section</source>
+<<<<<<< HEAD
       <translation>பிரிவு</translation>
+=======
+      <translation type="unfinished">Section</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="76"/>
       <source>First shape</source>
+<<<<<<< HEAD
       <translation>முதல் வடிவம்</translation>
+=======
+      <translation type="unfinished">First shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="81"/>
       <location filename="../../DlgBooleanOperation.ui" line="119"/>
       <source>Solids</source>
+<<<<<<< HEAD
       <translation>திடப்பொருட்கள்</translation>
+=======
+      <translation type="unfinished">Solids</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="86"/>
       <location filename="../../DlgBooleanOperation.ui" line="124"/>
       <source>Shells</source>
+<<<<<<< HEAD
       <translation>குண்டுகள்</translation>
+=======
+      <translation type="unfinished">Shells</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="91"/>
       <location filename="../../DlgBooleanOperation.ui" line="129"/>
       <source>Compounds</source>
+<<<<<<< HEAD
       <translation>இனம்</translation>
+=======
+      <translation type="unfinished">Compounds</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="96"/>
       <location filename="../../DlgBooleanOperation.ui" line="134"/>
       <source>Faces</source>
+<<<<<<< HEAD
       <translation>முகங்கள்</translation>
+=======
+      <translation type="unfinished">Faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="114"/>
       <source>Second shape</source>
+<<<<<<< HEAD
       <translation>இரண்டாவது வடிவம்</translation>
+=======
+      <translation type="unfinished">Second shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.ui" line="155"/>
       <source>Swap Selection</source>
+<<<<<<< HEAD
       <translation>இடமாற்று தேர்வு</translation>
+=======
+      <translation type="unfinished">Swap Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="425"/>
       <source>Cannot perform a boolean operation with the same shape</source>
+<<<<<<< HEAD
       <translation>ஒரே வடிவத்துடன் பூலியன் செயல்பாட்டைச் செய்ய முடியாது</translation>
+=======
+      <translation type="unfinished">Cannot perform a boolean operation with the same shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="435"/>
       <source>No active document available</source>
+<<<<<<< HEAD
       <translation>செயலில் உள்ள ஆவணம் இல்லை</translation>
+=======
+      <translation type="unfinished">No active document available</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="414"/>
       <source>First, select a shape on the left side</source>
+<<<<<<< HEAD
       <translation>முதலில், இடது பக்கத்தில் ஒரு வடிவத்தைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">First, select a shape on the left side</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="418"/>
       <source>First, select a shape on the right side</source>
+<<<<<<< HEAD
       <translation>முதலில், வலது பக்கத்தில் ஒரு வடிவத்தைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">First, select a shape on the right side</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="447"/>
       <source>One of the selected objects does not exist anymore</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருட்களில் ஒன்று இப்போது இல்லை</translation>
+=======
+      <translation type="unfinished">One of the selected objects does not exist anymore</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="457"/>
       <source>Performing union on non-solids is not possible</source>
+<<<<<<< HEAD
       <translation>திடமற்றவற்றில் தொழிற்சங்கம் செய்வது சாத்தியமில்லை</translation>
+=======
+      <translation type="unfinished">Performing union on non-solids is not possible</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="468"/>
       <source>Performing intersection on non-solids is not possible</source>
+<<<<<<< HEAD
       <translation>திடமில்லாதவற்றில் குறுக்குவெட்டைச் செய்வது சாத்தியமில்லை</translation>
+=======
+      <translation type="unfinished">Performing intersection on non-solids is not possible</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgBooleanOperation.cpp" line="479"/>
       <source>Performing difference on non-solids is not possible</source>
+<<<<<<< HEAD
       <translation>திடமற்றவற்றில் வேறுபாட்டைச் செய்வது சாத்தியமில்லை</translation>
+=======
+      <translation type="unfinished">Performing difference on non-solids is not possible</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::DlgChamferEdges</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgFilletEdges.cpp" line="1208"/>
       <source>Chamfer Edges</source>
       <translation>சேம்பர் விளிம்புகள்</translation>
+=======
+      <location filename="../../DlgFilletEdges.cpp" line="1204"/>
+      <source>Chamfer Edges</source>
+      <translation type="unfinished">Chamfer Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2552,27 +4398,47 @@ Note: The placement is expressed in local space of object being attached.</sourc
     <message>
       <location filename="../../DlgExportHeaderStep.ui" line="23"/>
       <source>If not empty, field contents will be used in the STEP file header</source>
+<<<<<<< HEAD
       <translation>காலியாக இல்லாவிட்டால், படி கோப்பு தலைப்பில் புல உள்ளடக்கங்கள் பயன்படுத்தப்படும்</translation>
+=======
+      <translation type="unfinished">If not empty, field contents will be used in the STEP file header</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportHeaderStep.ui" line="26"/>
       <source>Header</source>
+<<<<<<< HEAD
       <translation>தலைப்பி</translation>
+=======
+      <translation type="unfinished">Header</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportHeaderStep.ui" line="32"/>
       <source>Company</source>
+<<<<<<< HEAD
       <translation>நிறுவனம்</translation>
+=======
+      <translation type="unfinished">Company</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportHeaderStep.ui" line="42"/>
       <source>Author</source>
+<<<<<<< HEAD
       <translation>நூலாசிரியர்</translation>
+=======
+      <translation type="unfinished">Author</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportHeaderStep.ui" line="52"/>
       <source>Product</source>
+<<<<<<< HEAD
       <translation>தயாரிப்பு</translation>
+=======
+      <translation type="unfinished">Product</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2585,7 +4451,11 @@ Note: The placement is expressed in local space of object being attached.</sourc
     <message>
       <location filename="../../DlgExportStep.ui" line="36"/>
       <source>Units for export of STEP</source>
+<<<<<<< HEAD
       <translation>படி இன் ஏற்றுமதிக்கான அலகுகள்</translation>
+=======
+      <translation type="unfinished">Units for export of STEP</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="44"/>
@@ -2608,54 +4478,95 @@ Note: The placement is expressed in local space of object being attached.</sourc
 a single object. When importing back the STEP file, the
 placement will be encoded into the shape geometry, instead of keeping
 it inside the placement property.</source>
+<<<<<<< HEAD
       <translation>ஏற்றுமதி செய்யும் போது வேலை வாய்ப்பு தகவலை வைத்திருக்கிறது 
 ஒரு பொருள். படி கோப்பை மீண்டும் இறக்குமதி செய்யும் போது, தி 
 வைப்பது வைப்பதற்கு பதிலாக வடிவ வடிவவியலில் குறியாக்கம் செய்யப்படும் 
 அது வேலை வாய்ப்பு சொத்தின் உள்ளே.</translation>
+=======
+      <translation type="unfinished">Keeps the placement information when exporting
+a single object. When importing back the STEP file, the
+placement will be encoded into the shape geometry, instead of keeping
+it inside the placement property.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="139"/>
       <source>Write out curves in parametric space of surface</source>
+<<<<<<< HEAD
       <translation>மேற்பரப்பின் அளவுரு இடத்தில் வளைவுகளை எழுதுங்கள்</translation>
+=======
+      <translation type="unfinished">Write out curves in parametric space of surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="123"/>
       <source>Uncheck this to skip invisible objects when exporting, which is useful for CADs that do not support invisibility STEP styling.</source>
+<<<<<<< HEAD
       <translation>ஏற்றுமதி செய்யும் போது கண்ணுக்குத் தெரியாத பொருட்களைத் தவிர்க்க இதைத் தேர்வுநீக்கவும், இது கண்ணுக்குத் தெரியாத படி ச்டைலிங்கை ஆதரிக்காத CAD களுக்கு பயனுள்ளதாக இருக்கும்.</translation>
+=======
+      <translation type="unfinished">Uncheck this to skip invisible objects when exporting, which is useful for CADs that do not support invisibility STEP styling.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="14"/>
       <source>STEP Export Settings</source>
+<<<<<<< HEAD
       <translation>படி ஏற்றுமதி அமைப்புகள்</translation>
+=======
+      <translation type="unfinished">STEP Export Settings</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="126"/>
       <source>Export invisible objects</source>
+<<<<<<< HEAD
       <translation>கண்ணுக்கு தெரியாத பொருட்களை ஏற்றுமதி செய்யுங்கள்</translation>
+=======
+      <translation type="unfinished">Export invisible objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="110"/>
       <source>Export single object placement</source>
+<<<<<<< HEAD
       <translation>ஒற்றை பொருளின் இடத்தை ஏற்றுமதி செய்யவும்</translation>
+=======
+      <translation type="unfinished">Export single object placement</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="91"/>
       <source>Use legacy export function</source>
+<<<<<<< HEAD
       <translation>மரபு ஏற்றுமதி செயல்பாட்டைப் பயன்படுத்தவும்</translation>
+=======
+      <translation type="unfinished">Use legacy export function</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.ui" line="29"/>
       <source>Scheme</source>
+<<<<<<< HEAD
       <translation>திட்டம்</translation>
+=======
+      <translation type="unfinished">Scheme</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExportStep.cpp" line="60"/>
       <source>This parameter indicates whether parametric curves (curves in parametric space of surface)
 should be written into the STEP file. This parameter can be set to off in order to minimize
 the size of the resulting STEP file.</source>
+<<<<<<< HEAD
       <translation>இந்த அளவுரு அளவுரு வளைவுகள் (மேற்பரப்பின் அளவுரு இடத்தில் வளைவுகள்) என்பதை குறிக்கிறது. 
 STEP கோப்பில் எழுதப்பட வேண்டும். இந்த அளவுருவை குறைப்பதற்காக ஆஃப் என அமைக்கலாம் 
 இதன் விளைவாக வரும் படி கோப்பின் அளவு.</translation>
+=======
+      <translation type="unfinished">This parameter indicates whether parametric curves (curves in parametric space of surface)
+should be written into the STEP file. This parameter can be set to off in order to minimize
+the size of the resulting STEP file.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2663,75 +4574,132 @@ STEP கோப்பில் எழுதப்பட வேண்டும்.
     <message>
       <location filename="../../DlgExtrusion.ui" line="14"/>
       <source>Extrude</source>
+<<<<<<< HEAD
       <translation>வெளியேற்று</translation>
+=======
+      <translation type="unfinished">Extrude</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="26"/>
       <source>Direction</source>
+<<<<<<< HEAD
       <translation>திசை</translation>
+=======
+      <translation type="unfinished">Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="35"/>
       <source>Along normal</source>
+<<<<<<< HEAD
       <translation>பொதுவாக</translation>
+=======
+      <translation type="unfinished">Along normal</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="45"/>
       <source>Set direction to match a direction of straight edge. Hint: to account for length of the edge too, set both lengths to zero.</source>
+<<<<<<< HEAD
       <translation>நேர் விளிம்பின் திசையுடன் பொருந்துமாறு திசையை அமைக்கவும். குறிப்பு: விளிம்பின் நீளத்தைக் கணக்கிட, இரண்டு நீளங்களையும் பூச்சியமாக அமைக்கவும்.</translation>
+=======
+      <translation type="unfinished">Set direction to match a direction of straight edge. Hint: to account for length of the edge too, set both lengths to zero.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="58"/>
       <source>Reversed</source>
+<<<<<<< HEAD
       <translation>தலைகீழானது</translation>
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="71"/>
       <location filename="../../DlgExtrusion.cpp" line="260"/>
+=======
+      <translation type="unfinished">Reversed</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.ui" line="71"/>
+      <location filename="../../DlgExtrusion.cpp" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Select</source>
       <translation>தேர்ந்தெடு</translation>
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="179"/>
       <source>Length</source>
+<<<<<<< HEAD
       <translation>நீளம்</translation>
+=======
+      <translation type="unfinished">Length</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="204"/>
       <source>Length to extrude along direction (can be negative).
 If both lengths are zero, magnitude of direction is used.</source>
+<<<<<<< HEAD
       <translation>திசையில் நீட்டுவதற்கான நீளம் (எதிர்மறையாக இருக்கலாம்). 
 இரண்டு நீளங்களும் பூச்சியமாக இருந்தால், திசையின் அளவு பயன்படுத்தப்படுகிறது.</translation>
+=======
+      <translation type="unfinished">Length to extrude along direction (can be negative).
+If both lengths are zero, magnitude of direction is used.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="32"/>
       <source>Extrudes perpendicularly to the plane of the input shape</source>
+<<<<<<< HEAD
       <translation>உள்ளீட்டு வடிவத்தின் விமானத்திற்கு செங்குத்தாக வெளியேற்றுகிறது</translation>
+=======
+      <translation type="unfinished">Extrudes perpendicularly to the plane of the input shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="48"/>
       <source>Along edge</source>
+<<<<<<< HEAD
       <translation>விளிம்பில்</translation>
+=======
+      <translation type="unfinished">Along edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="55"/>
       <source>Reverses the direction of the extrusion</source>
+<<<<<<< HEAD
       <translation>வெளியேற்றத்தின் திசையை மாற்றுகிறது</translation>
+=======
+      <translation type="unfinished">Reverses the direction of the extrusion</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="68"/>
       <source>Starts the selection of edges in the 3D view</source>
+<<<<<<< HEAD
       <translation>3D காட்சியில் விளிம்புகளின் தேர்வைத் தொடங்குகிறது</translation>
+=======
+      <translation type="unfinished">Starts the selection of edges in the 3D view</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="78"/>
       <source>Specify direction manually using X, Y, Z values</source>
+<<<<<<< HEAD
       <translation>X, Y, சட் மதிப்புகளைப் பயன்படுத்தி கைமுறையாக திசையைக் குறிப்பிடவும்</translation>
+=======
+      <translation type="unfinished">Specify direction manually using X, Y, Z values</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="81"/>
       <source>Custom direction</source>
+<<<<<<< HEAD
       <translation>விருப்ப திசை</translation>
+=======
+      <translation type="unfinished">Custom direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="99"/>
@@ -2751,66 +4719,115 @@ If both lengths are zero, magnitude of direction is used.</source>
     <message>
       <location filename="../../DlgExtrusion.ui" line="185"/>
       <source>Along</source>
+<<<<<<< HEAD
       <translation>சேர்த்து</translation>
+=======
+      <translation type="unfinished">Along</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="224"/>
       <source>Against</source>
+<<<<<<< HEAD
       <translation>எதிராக</translation>
+=======
+      <translation type="unfinished">Against</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="243"/>
       <source>Length to extrude against the direction (can be negative)</source>
+<<<<<<< HEAD
       <translation>திசைக்கு எதிராக வெளியேற்றும் நீளம் (எதிர்மறையாக இருக்கலாம்)</translation>
+=======
+      <translation type="unfinished">Length to extrude against the direction (can be negative)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="262"/>
       <source>Distributes the extrusion length equally to both sides</source>
+<<<<<<< HEAD
       <translation>இரண்டு பக்கங்களிலும் சமமாக வெளியேற்ற நீளத்தை விநியோகிக்கிறது</translation>
+=======
+      <translation type="unfinished">Distributes the extrusion length equally to both sides</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="265"/>
       <source>Symmetric</source>
+<<<<<<< HEAD
       <translation>சமச்சீர்</translation>
+=======
+      <translation type="unfinished">Symmetric</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="277"/>
       <source>Taper angle along</source>
+<<<<<<< HEAD
       <translation>குறுகலான கோணம்</translation>
+=======
+      <translation type="unfinished">Taper angle along</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="290"/>
       <source>Taper (draft) angle along extrusion direction</source>
+<<<<<<< HEAD
       <translation>வெளியேற்றும் திசையில் குறுகலான (வரைவு) கோணம்</translation>
+=======
+      <translation type="unfinished">Taper (draft) angle along extrusion direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="306"/>
       <source>Taper angle against</source>
+<<<<<<< HEAD
       <translation>எதிர் கோணம்</translation>
+=======
+      <translation type="unfinished">Taper angle against</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="319"/>
       <source>Taper (draft) angle against extrusion direction</source>
+<<<<<<< HEAD
       <translation>வெளியேற்றும் திசைக்கு எதிராக டேப்பர் (வரைவு) கோணம்</translation>
+=======
+      <translation type="unfinished">Taper (draft) angle against extrusion direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="337"/>
       <source>Results in solids if wires are closed, otherwise in shells</source>
+<<<<<<< HEAD
       <translation>கம்பிகள் மூடப்பட்டால் திடப்பொருளாகவும், இல்லையெனில் செல்களாகவும் இருக்கும்</translation>
+=======
+      <translation type="unfinished">Results in solids if wires are closed, otherwise in shells</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="340"/>
       <source>Create solid</source>
+<<<<<<< HEAD
       <translation>திடமாக உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create solid</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="360"/>
       <source>Select shape(s) that should be extruded</source>
+<<<<<<< HEAD
       <translation>வெளியேற்றப்பட வேண்டிய வடிவத்தை(களை) தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select shape(s) that should be extruded</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgExtrusion.ui" line="373"/>
       <source>Shape</source>
+<<<<<<< HEAD
       <translation>வடிவம்</translation>
     </message>
     <message>
@@ -2820,10 +4837,22 @@ If both lengths are zero, magnitude of direction is used.</source>
     </message>
     <message>
       <location filename="../../DlgExtrusion.cpp" line="506"/>
+=======
+      <translation type="unfinished">Shape</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="228"/>
+      <source>Selecting…</source>
+      <translation type="unfinished">Selecting…</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="503"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>The document '%1' doesn't exist.</source>
       <translation type="unfinished">The document '%1' doesn't exist.</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgExtrusion.cpp" line="567"/>
       <source>Creating extrusion failed.
 %1</source>
@@ -2884,6 +4913,68 @@ If both lengths are zero, magnitude of direction is used.</source>
       <location filename="../../DlgExtrusion.cpp" line="812"/>
       <source>Total extrusion length is zero (length1 == -length2). It must be nonzero.</source>
       <translation>மொத்த வெளியேற்ற நீளம் பூச்சியம் (நீளம்1 == -நீளம்2). இது பூச்சியமாக இருக்க வேண்டும்.</translation>
+=======
+      <location filename="../../DlgExtrusion.cpp" line="564"/>
+      <source>Creating extrusion failed.
+%1</source>
+      <translation type="unfinished">Creating extrusion failed.
+%1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="572"/>
+      <source>Creating Extrusion failed.
+%1</source>
+      <translation type="unfinished">Creating Extrusion failed.
+%1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="644"/>
+      <source>Object not found: %1</source>
+      <translation type="unfinished">Object not found: %1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="709"/>
+      <source>No shapes selected for extrusion.</source>
+      <translation type="unfinished">No shapes selected for extrusion.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="776"/>
+      <source>Cannot determine normal vector of shape to be extruded. Use other mode. 
+
+(%1)</source>
+      <translation type="unfinished">Cannot determine normal vector of shape to be extruded. Use other mode. 
+
+(%1)</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="729"/>
+      <source>Unknown error</source>
+      <translation type="unfinished">Unknown error</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="736"/>
+      <source>Extrusion direction link is invalid.
+
+%1</source>
+      <translation type="unfinished">Extrusion direction link is invalid.
+
+%1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="743"/>
+      <source>Direction mode is to use an edge, but no edge is linked.</source>
+      <translation type="unfinished">Direction mode is to use an edge, but no edge is linked.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="791"/>
+      <source>Extrusion direction vector is zero-length. It must be non-zero.</source>
+      <translation type="unfinished">Extrusion direction vector is zero-length. It must be non-zero.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgExtrusion.cpp" line="809"/>
+      <source>Total extrusion length is zero (length1 == -length2). It must be nonzero.</source>
+      <translation type="unfinished">Total extrusion length is zero (length1 == -length2). It must be nonzero.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -2891,27 +4982,47 @@ If both lengths are zero, magnitude of direction is used.</source>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="14"/>
       <source>Fillet Edges</source>
+<<<<<<< HEAD
       <translation>ஃபில்லட் விளிம்புகள்</translation>
+=======
+      <translation type="unfinished">Fillet Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="20"/>
       <source>Shape</source>
+<<<<<<< HEAD
       <translation>வடிவம்</translation>
+=======
+      <translation type="unfinished">Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="40"/>
       <source>No selection</source>
+<<<<<<< HEAD
       <translation>தேர்வு இல்லை</translation>
+=======
+      <translation type="unfinished">No selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="32"/>
       <source>Selected shape</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவம்</translation>
+=======
+      <translation type="unfinished">Selected shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="51"/>
       <source>Parameters</source>
+<<<<<<< HEAD
       <translation>அளவுருக்கள்</translation>
+=======
+      <translation type="unfinished">Parameters</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="57"/>
@@ -2921,17 +5032,29 @@ If both lengths are zero, magnitude of direction is used.</source>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="63"/>
       <source>Select edges</source>
+<<<<<<< HEAD
       <translation>விளிம்புகளைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="73"/>
       <source>Select faces</source>
+<<<<<<< HEAD
       <translation>முகங்களைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="80"/>
       <source>All</source>
+<<<<<<< HEAD
       <translation>அனைத்தும்</translation>
+=======
+      <translation type="unfinished">All</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="87"/>
@@ -2945,6 +5068,7 @@ If both lengths are zero, magnitude of direction is used.</source>
     </message>
     <message>
       <location filename="../../DlgFilletEdges.ui" line="118"/>
+<<<<<<< HEAD
       <source>Constant radius</source>
       <translation type="unfinished">Constant radius</translation>
     </message>
@@ -2952,60 +5076,116 @@ If both lengths are zero, magnitude of direction is used.</source>
       <location filename="../../DlgFilletEdges.ui" line="123"/>
       <source>Variable radius</source>
       <translation type="unfinished">Variable radius</translation>
+=======
+      <source>Constant Radius</source>
+      <translation type="unfinished">Constant Radius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.ui" line="123"/>
+      <source>Variable Radius</source>
+      <translation type="unfinished">Variable Radius</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="291"/>
       <source>Chamfer type</source>
+<<<<<<< HEAD
       <translation>சேம்ஃபர் வகை</translation>
+=======
+      <translation type="unfinished">Chamfer type</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="292"/>
+      <source>Length:</source>
+      <translation type="unfinished">Length:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="296"/>
       <source>Edges to chamfer</source>
+<<<<<<< HEAD
       <translation>அறைக்கு விளிம்புகள்</translation>
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="987"/>
       <source>Start length</source>
       <translation>தொடக்க நீளம்</translation>
+=======
+      <translation type="unfinished">Edges to chamfer</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="988"/>
+      <source>Start length</source>
+      <translation type="unfinished">Start length</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="293"/>
       <source>Equal distance</source>
+<<<<<<< HEAD
       <translation>சம தூரம்</translation>
+=======
+      <translation type="unfinished">Equal distance</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="290"/>
       <source>Chamfer parameters</source>
+<<<<<<< HEAD
       <translation>சேம்பர் அளவுருக்கள்</translation>
+=======
+      <translation type="unfinished">Chamfer parameters</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="294"/>
       <source>Two distances</source>
+<<<<<<< HEAD
       <translation>இரண்டு தூரம்</translation>
+=======
+      <translation type="unfinished">Two distances</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="297"/>
       <source>Size</source>
+<<<<<<< HEAD
       <translation>அளவு</translation>
+=======
+      <translation type="unfinished">Size</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="298"/>
       <source>Size2</source>
+<<<<<<< HEAD
       <translation>அளவு2</translation>
+=======
+      <translation type="unfinished">Size2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="301"/>
       <source>Fillet parameter</source>
+<<<<<<< HEAD
       <translation>ஃபில்லட் அளவுரு</translation>
+=======
+      <translation type="unfinished">Fillet parameter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="302"/>
       <source>Fillet type</source>
+<<<<<<< HEAD
       <translation>ஃபில்லட் வகை</translation>
+=======
+      <translation type="unfinished">Fillet type</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="303"/>
       <source>Edges to fillet</source>
+<<<<<<< HEAD
       <translation>ஃபில்லட்டிற்கான விளிம்புகள்</translation>
     </message>
     <message>
@@ -3013,10 +5193,20 @@ If both lengths are zero, magnitude of direction is used.</source>
       <location filename="../../DlgFilletEdges.cpp" line="990"/>
       <source>Start radius</source>
       <translation>தொடக்க ஆரம்</translation>
+=======
+      <translation type="unfinished">Edges to fillet</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="304"/>
+      <location filename="../../DlgFilletEdges.cpp" line="991"/>
+      <source>Start radius</source>
+      <translation type="unfinished">Start radius</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgFilletEdges.cpp" line="305"/>
       <source>End radius</source>
+<<<<<<< HEAD
       <translation>இறுதி ஆரம்</translation>
     </message>
     <message>
@@ -3060,6 +5250,50 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgFilletEdges.cpp" line="1097"/>
       <source>No edge selected</source>
       <translation>விளிம்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
+=======
+      <translation type="unfinished">End radius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="820"/>
+      <location filename="../../DlgFilletEdges.cpp" line="883"/>
+      <source>Edge%1</source>
+      <translation type="unfinished">Edge%1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="978"/>
+      <source>Length</source>
+      <translation type="unfinished">Length</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="1041"/>
+      <source>No valid shape is selected.
+Select a valid shape in the drop-down box first.</source>
+      <translation type="unfinished">No valid shape is selected.
+Select a valid shape in the drop-down box first.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="1099"/>
+      <source>No edge entity is checked to fillet.
+Check one or more edge entities first.</source>
+      <translation type="unfinished">No edge entity is checked to fillet.
+Check one or more edge entities first.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.ui" line="142"/>
+      <location filename="../../DlgFilletEdges.cpp" line="981"/>
+      <source>Radius</source>
+      <translation type="unfinished">Radius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="1040"/>
+      <source>No shape selected</source>
+      <translation type="unfinished">No shape selected</translation>
+    </message>
+    <message>
+      <location filename="../../DlgFilletEdges.cpp" line="1098"/>
+      <source>No edge selected</source>
+      <translation type="unfinished">No edge selected</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3077,7 +5311,11 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="26"/>
       <source>Units for export of IGES</source>
+<<<<<<< HEAD
       <translation>IGES ஏற்றுமதிக்கான அலகுகள்</translation>
+=======
+      <translation type="unfinished">Units for export of IGES</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="47"/>
@@ -3097,27 +5335,47 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="71"/>
       <source>Solids and shells will be exported as trimmed surface</source>
+<<<<<<< HEAD
       <translation>திடப்பொருட்கள் மற்றும் ஓடுகள் டிரிம் செய்யப்பட்ட மேற்பரப்பாக ஏற்றுமதி செய்யப்படும்</translation>
+=======
+      <translation type="unfinished">Solids and shells will be exported as trimmed surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="74"/>
       <source>Groups of Trimmed Surfaces (type 144)</source>
+<<<<<<< HEAD
       <translation>டிரிம் செய்யப்பட்ட மேற்பரப்புகளின் குழுக்கள் (வகை 144)</translation>
+=======
+      <translation type="unfinished">Groups of Trimmed Surfaces (type 144)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="65"/>
       <source>Export Solids and Shells As</source>
+<<<<<<< HEAD
       <translation>திடப்பொருட்கள் மற்றும் குண்டுகளை ஏற்றுமதி செய்யவும்</translation>
+=======
+      <translation type="unfinished">Export Solids and Shells As</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="84"/>
       <source>Solids will be exported as manifold solid B-rep object, shells as shell</source>
+<<<<<<< HEAD
       <translation>திடப்பொருள்கள் பன்மடங்கு திடமான B-rep பொருளாகவும், செல்கள் செல்லாகவும் ஏற்றுமதி செய்யப்படும்</translation>
+=======
+      <translation type="unfinished">Solids will be exported as manifold solid B-rep object, shells as shell</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="87"/>
       <source>Solids (type 186) and shells (type 514) / B-rep mode</source>
+<<<<<<< HEAD
       <translation>திடப்பொருட்கள் (வகை 186) மற்றும் குண்டுகள் (வகை 514) / பி-ரெப் பயன்முறை</translation>
+=======
+      <translation type="unfinished">Solids (type 186) and shells (type 514) / B-rep mode</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="100"/>
@@ -3127,37 +5385,65 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="106"/>
       <source>Blank entities will not be imported</source>
+<<<<<<< HEAD
       <translation>வெற்று பொருட்கள் இறக்குமதி செய்யப்படாது</translation>
+=======
+      <translation type="unfinished">Blank entities will not be imported</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="109"/>
       <source>Skip blank entities</source>
+<<<<<<< HEAD
       <translation>வெற்று உறுப்புகளைத் தவிர்க்கவும்</translation>
+=======
+      <translation type="unfinished">Skip blank entities</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="119"/>
       <source>If not empty, field contents will be used in the IGES file header</source>
+<<<<<<< HEAD
       <translation>காலியாக இல்லாவிட்டால், புல உள்ளடக்கங்கள் IGES கோப்பு தலைப்பில் பயன்படுத்தப்படும்</translation>
+=======
+      <translation type="unfinished">If not empty, field contents will be used in the IGES file header</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="122"/>
       <source>Header</source>
+<<<<<<< HEAD
       <translation>தலைப்பி</translation>
+=======
+      <translation type="unfinished">Header</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="128"/>
       <source>Company</source>
+<<<<<<< HEAD
       <translation>நிறுவனம்</translation>
+=======
+      <translation type="unfinished">Company</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="138"/>
       <source>Author</source>
+<<<<<<< HEAD
       <translation>நூலாசிரியர்</translation>
+=======
+      <translation type="unfinished">Author</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportExportIges.ui" line="148"/>
       <source>Product</source>
+<<<<<<< HEAD
       <translation>தயாரிப்பு</translation>
+=======
+      <translation type="unfinished">Product</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3165,7 +5451,11 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgImportStep.ui" line="14"/>
       <source>STEP Import Settings</source>
+<<<<<<< HEAD
       <translation>படி இறக்குமதி அமைப்புகள்</translation>
+=======
+      <translation type="unfinished">STEP Import Settings</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="23"/>
@@ -3175,103 +5465,184 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgImportStep.ui" line="48"/>
       <source>Use LinkGroup</source>
+<<<<<<< HEAD
       <translation>LinkGroup ஐப் பயன்படுத்தவும்</translation>
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="29"/>
       <source>Merges all shapes into a single compound during import, resolving part instances and applying transforms. Increases import time but does not affect geometry accuracy or rendering quality.</source>
       <translation type="unfinished">Merges all shapes into a single compound during import, resolving part instances and applying transforms. Increases import time but does not affect geometry accuracy or rendering quality.</translation>
+=======
+      <translation type="unfinished">Use LinkGroup</translation>
+    </message>
+    <message>
+      <location filename="../../DlgImportStep.ui" line="29"/>
+      <source>Merges compounds during file reading (slower but higher details)</source>
+      <translation type="unfinished">Merges compounds during file reading (slower but higher details)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="32"/>
       <source>Enable STEP compound merge</source>
+<<<<<<< HEAD
       <translation>படி கலவை ஒன்றிணைப்பை இயக்கு</translation>
+=======
+      <translation type="unfinished">Enable STEP compound merge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="45"/>
       <source>Select this to use App::LinkGroup as group container, or else use App::Part</source>
+<<<<<<< HEAD
       <translation>App::LinkGroup ஐ குழு கொள்கலனாகப் பயன்படுத்த இதைத் தேர்ந்தெடுக்கவும், இல்லையெனில் App::Part ஐப் பயன்படுத்தவும்</translation>
+=======
+      <translation type="unfinished">Select this to use App::LinkGroup as group container, or else use App::Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="61"/>
       <source>Select this to import invisible objects</source>
+<<<<<<< HEAD
       <translation>கண்ணுக்கு தெரியாத பொருட்களை இறக்குமதி செய்ய இதைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select this to import invisible objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="64"/>
       <source>Import invisible objects</source>
+<<<<<<< HEAD
       <translation>கண்ணுக்கு தெரியாத பொருட்களை இறக்குமதி செய்யவும்</translation>
+=======
+      <translation type="unfinished">Import invisible objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="77"/>
       <source>Reduce number of objects using Link array</source>
+<<<<<<< HEAD
       <translation>இணைப்பு வரிசையைப் பயன்படுத்தி பொருட்களின் எண்ணிக்கையைக் குறைக்கவும்</translation>
+=======
+      <translation type="unfinished">Reduce number of objects using Link array</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="80"/>
       <source>Reduce number of objects</source>
+<<<<<<< HEAD
       <translation>பொருள்களின் எண்ணிக்கையைக் குறைக்கவும்</translation>
+=======
+      <translation type="unfinished">Reduce number of objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="93"/>
       <source>Expand compound shape with multiple solids</source>
+<<<<<<< HEAD
       <translation>பல திடப்பொருட்களுடன் கலவை வடிவத்தை விரிவாக்குங்கள்</translation>
+=======
+      <translation type="unfinished">Expand compound shape with multiple solids</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="96"/>
       <source>Expand compound shape</source>
+<<<<<<< HEAD
       <translation>கலவை வடிவத்தை விரிவாக்குங்கள்</translation>
+=======
+      <translation type="unfinished">Expand compound shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="109"/>
       <location filename="../../DlgImportStep.ui" line="112"/>
       <source>Show progress bar when importing</source>
+<<<<<<< HEAD
       <translation>இறக்குமதி செய்யும் போது முன்னேற்றப் பட்டியைக் காட்டு</translation>
+=======
+      <translation type="unfinished">Show progress bar when importing</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="125"/>
       <source>Do not use instance names. Useful for some legacy STEP files with non-meaningful auto-generated instance names.</source>
+<<<<<<< HEAD
       <translation>நிகழ்வுப் பெயர்களைப் பயன்படுத்த வேண்டாம். அர்த்தமில்லாத தானாக உருவாக்கப்பட்ட நிகழ்வுப் பெயர்களைக் கொண்ட சில மரபுவழி படி கோப்புகளுக்குப் பயனுள்ளதாக இருக்கும்.</translation>
+=======
+      <translation type="unfinished">Do not use instance names. Useful for some legacy STEP files with non-meaningful auto-generated instance names.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="128"/>
       <source>Ignore instance names</source>
+<<<<<<< HEAD
       <translation>நிகழ்வு பெயர்களை புறக்கணிக்கவும்</translation>
+=======
+      <translation type="unfinished">Ignore instance names</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="152"/>
       <source>CodePage</source>
+<<<<<<< HEAD
       <translation>கோட்பேச்</translation>
+=======
+      <translation type="unfinished">CodePage</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="179"/>
       <source>Mode</source>
+<<<<<<< HEAD
       <translation>பயன்முறை</translation>
+=======
+      <translation type="unfinished">Mode</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="199"/>
       <source>Single document</source>
+<<<<<<< HEAD
       <translation>ஒற்றை ஆவணம்</translation>
+=======
+      <translation type="unfinished">Single document</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="204"/>
       <source>Assembly per document</source>
+<<<<<<< HEAD
       <translation>ஒரு ஆவணத்திற்கு பேரவை</translation>
+=======
+      <translation type="unfinished">Assembly per document</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="209"/>
       <source>Assembly per document in sub-directory</source>
+<<<<<<< HEAD
       <translation>துணை கோப்பகத்தில் ஒரு ஆவணத்திற்கு அசெம்பிளி</translation>
+=======
+      <translation type="unfinished">Assembly per document in sub-directory</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="214"/>
       <source>Object per document</source>
+<<<<<<< HEAD
       <translation>ஒவ்வொரு ஆவணத்திற்கும் பொருள்</translation>
+=======
+      <translation type="unfinished">Object per document</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgImportStep.ui" line="219"/>
       <source>Object per document in sub-directory</source>
+<<<<<<< HEAD
       <translation>துணை கோப்பகத்தில் ஒவ்வொரு ஆவணத்திற்கும் பொருள்</translation>
+=======
+      <translation type="unfinished">Object per document in sub-directory</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3279,7 +5650,11 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPartCylinder.ui" line="14"/>
       <source>Cylinder Definition</source>
+<<<<<<< HEAD
       <translation>சிலிண்டர் வரையறை</translation>
+=======
+      <translation type="unfinished">Cylinder Definition</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartCylinder.ui" line="20"/>
@@ -3304,17 +5679,29 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPartCylinder.ui" line="92"/>
       <source>Direction</source>
+<<<<<<< HEAD
       <translation>திசை</translation>
+=======
+      <translation type="unfinished">Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartCylinder.ui" line="109"/>
       <source>Parameter</source>
+<<<<<<< HEAD
       <translation>கூறளவு</translation>
+=======
+      <translation type="unfinished">Parameter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartCylinder.ui" line="121"/>
       <source>Radius</source>
+<<<<<<< HEAD
       <translation>ஆரம்</translation>
+=======
+      <translation type="unfinished">Radius</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartCylinder.ui" line="141"/>
@@ -3327,17 +5714,42 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPartImportIges.ui" line="14"/>
       <source>IGES Input File</source>
+<<<<<<< HEAD
       <translation>IGES உள்ளீட்டு கோப்பு</translation>
+=======
+      <translation type="unfinished">IGES Input File</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartImportIges.ui" line="20"/>
       <source>File Name</source>
+<<<<<<< HEAD
       <translation>கோப்பு பெயர்</translation>
+=======
+      <translation type="unfinished">File Name</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartImportIges.ui" line="54"/>
       <source>Search File</source>
+<<<<<<< HEAD
       <translation>கோப்பு தேடு</translation>
+=======
+      <translation type="unfinished">Search File</translation>
+    </message>
+  </context>
+  <context>
+    <name>PartGui::DlgPartImportIgesImp</name>
+    <message>
+      <location filename="../../DlgPartImportIgesImp.cpp" line="72"/>
+      <source>IGES</source>
+      <translation type="unfinished">IGES</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPartImportIgesImp.cpp" line="72"/>
+      <source>All Files</source>
+      <translation type="unfinished">All Files</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3345,17 +5757,37 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPartImportStep.ui" line="14"/>
       <source>STEP Input File</source>
+<<<<<<< HEAD
       <translation>படி உள்ளீட்டு கோப்பு</translation>
+=======
+      <translation type="unfinished">STEP Input File</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartImportStep.ui" line="20"/>
       <source>File Name</source>
+<<<<<<< HEAD
       <translation>கோப்பு பெயர்</translation>
+=======
+      <translation type="unfinished">File Name</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartImportStep.ui" line="54"/>
       <source>Search File</source>
+<<<<<<< HEAD
       <translation>கோப்பு தேடு</translation>
+=======
+      <translation type="unfinished">Search File</translation>
+    </message>
+  </context>
+  <context>
+    <name>PartGui::DlgPartImportStepImp</name>
+    <message>
+      <location filename="../../DlgPartImportStepImp.cpp" line="72"/>
+      <source>All Files</source>
+      <translation type="unfinished">All Files</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -3363,6 +5795,7 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPrimitives.ui" line="14"/>
       <source>Geometric Primitives</source>
+<<<<<<< HEAD
       <translation>வடிவியல் முதற்பொருள்கள்</translation>
     </message>
     <message>
@@ -3378,11 +5811,24 @@ Check one or more edge entities first.</source>
     </message>
     <message>
       <location filename="../../DlgPrimitives.ui" line="45"/>
+=======
+      <translation type="unfinished">Geometric Primitives</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="33"/>
+      <location filename="../../DlgPrimitives.cpp" line="298"/>
+      <source>Plane</source>
+      <translation type="unfinished">Plane</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="392"/>
       <source>Box</source>
       <translation type="unfinished">Box</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="54"/>
       <location filename="../../DlgPrimitives.cpp" line="509"/>
       <source>Cylinder</source>
@@ -3438,11 +5884,69 @@ Check one or more edge entities first.</source>
     </message>
     <message>
       <location filename="../../DlgPrimitives.ui" line="135"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="51"/>
+      <location filename="../../DlgPrimitives.cpp" line="509"/>
+      <source>Cylinder</source>
+      <translation type="unfinished">Cylinder</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="60"/>
+      <location filename="../../DlgPrimitives.cpp" line="628"/>
+      <source>Cone</source>
+      <translation type="unfinished">Cone</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="69"/>
+      <location filename="../../DlgPrimitives.cpp" line="742"/>
+      <source>Sphere</source>
+      <translation type="unfinished">Sphere</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="78"/>
+      <location filename="../../DlgPrimitives.cpp" line="876"/>
+      <source>Ellipsoid</source>
+      <translation type="unfinished">Ellipsoid</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="87"/>
+      <location filename="../../DlgPrimitives.cpp" line="1010"/>
+      <source>Torus</source>
+      <translation type="unfinished">Torus</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="96"/>
+      <location filename="../../DlgPrimitives.cpp" line="1131"/>
+      <source>Prism</source>
+      <translation type="unfinished">Prism</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="105"/>
+      <location filename="../../DlgPrimitives.cpp" line="1324"/>
+      <source>Wedge</source>
+      <translation type="unfinished">Wedge</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="114"/>
+      <location filename="../../DlgPrimitives.cpp" line="1471"/>
+      <source>Helix</source>
+      <translation type="unfinished">Helix</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="123"/>
+      <location filename="../../DlgPrimitives.cpp" line="1579"/>
+      <source>Spiral</source>
+      <translation type="unfinished">Spiral</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="132"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../DlgPrimitives.cpp" line="1678"/>
       <source>Circle</source>
       <translation>வட்டம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="144"/>
       <location filename="../../DlgPrimitives.cpp" line="1787"/>
       <source>Ellipse</source>
@@ -3508,10 +6012,58 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgPrimitives.ui" line="716"/>
       <location filename="../../DlgPrimitives.ui" line="1509"/>
       <location filename="../../DlgPrimitives.ui" line="1871"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="141"/>
+      <location filename="../../DlgPrimitives.cpp" line="1787"/>
+      <source>Ellipse</source>
+      <translation type="unfinished">Ellipse</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="150"/>
+      <source>Point</source>
+      <translation type="unfinished">Point</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="159"/>
+      <location filename="../../DlgPrimitives.cpp" line="1983"/>
+      <source>Line</source>
+      <translation type="unfinished">Line</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="168"/>
+      <location filename="../../DlgPrimitives.cpp" line="1875"/>
+      <source>Regular polygon</source>
+      <translation type="unfinished">Regular polygon</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="180"/>
+      <source>Parameter</source>
+      <translation type="unfinished">Parameter</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="240"/>
+      <location filename="../../DlgPrimitives.ui" line="331"/>
+      <source>Length</source>
+      <translation type="unfinished">Length</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="260"/>
+      <location filename="../../DlgPrimitives.ui" line="351"/>
+      <source>Width</source>
+      <translation type="unfinished">Width</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="371"/>
+      <location filename="../../DlgPrimitives.ui" line="465"/>
+      <location filename="../../DlgPrimitives.ui" line="683"/>
+      <location filename="../../DlgPrimitives.ui" line="1419"/>
+      <location filename="../../DlgPrimitives.ui" line="1745"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Height</source>
       <translation>உயரம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="393"/>
       <source>Height of the box in the local Z direction</source>
       <translation type="unfinished">Height of the box in the local Z direction</translation>
@@ -3559,10 +6111,30 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgPrimitives.ui" line="670"/>
       <location filename="../../DlgPrimitives.ui" line="1026"/>
       <location filename="../../DlgPrimitives.ui" line="1253"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="445"/>
+      <location filename="../../DlgPrimitives.ui" line="803"/>
+      <location filename="../../DlgPrimitives.ui" line="1765"/>
+      <location filename="../../DlgPrimitives.ui" line="1914"/>
+      <location filename="../../DlgPrimitives.ui" line="1970"/>
+      <source>Radius</source>
+      <translation type="unfinished">Radius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="569"/>
+      <source>Rotation angle</source>
+      <translation type="unfinished">Rotation angle</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="643"/>
+      <location filename="../../DlgPrimitives.ui" line="975"/>
+      <location filename="../../DlgPrimitives.ui" line="1184"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 1</source>
       <translation>ஆரம் 1</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="677"/>
       <source>Radius of the cone at the bottom</source>
       <translation type="unfinished">Radius of the cone at the bottom</translation>
@@ -3571,10 +6143,16 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgPrimitives.ui" line="693"/>
       <location filename="../../DlgPrimitives.ui" line="1049"/>
       <location filename="../../DlgPrimitives.ui" line="1276"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="663"/>
+      <location filename="../../DlgPrimitives.ui" line="995"/>
+      <location filename="../../DlgPrimitives.ui" line="1204"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Radius 2</source>
       <translation>ஆரம் 2</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="700"/>
       <source>Radius of the cone at the top</source>
       <translation type="unfinished">Radius of the cone at the top</translation>
@@ -3587,10 +6165,15 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPrimitives.ui" line="765"/>
       <location filename="../../DlgPrimitives.ui" line="1917"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="729"/>
+      <location filename="../../DlgPrimitives.ui" line="1785"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>கோணம்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="772"/>
       <source>Rotation angle of the cone cross-section</source>
       <translation type="unfinished">Rotation angle of the cone cross-section</translation>
@@ -3935,10 +6518,122 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPrimitives.ui" line="2341"/>
       <location filename="../../DlgPrimitives.ui" line="2448"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="852"/>
+      <location filename="../../DlgPrimitives.ui" line="1064"/>
+      <location filename="../../DlgPrimitives.ui" line="1253"/>
+      <source>U parameter</source>
+      <translation type="unfinished">U parameter</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="872"/>
+      <source>V parameters</source>
+      <translation type="unfinished">V parameters</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1015"/>
+      <source>Radius 3</source>
+      <translation type="unfinished">Radius 3</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1084"/>
+      <location filename="../../DlgPrimitives.ui" line="1273"/>
+      <source>V parameter</source>
+      <translation type="unfinished">V parameter</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1376"/>
+      <location filename="../../DlgPrimitives.ui" line="2418"/>
+      <source>Polygon</source>
+      <translation type="unfinished">Polygon</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1399"/>
+      <location filename="../../DlgPrimitives.ui" line="2441"/>
+      <source>Circumradius</source>
+      <translation type="unfinished">Circumradius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1518"/>
+      <source>X min/max</source>
+      <translation type="unfinished">X min/max</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1548"/>
+      <source>Y min/max</source>
+      <translation type="unfinished">Y min/max</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1578"/>
+      <source>Z min/max</source>
+      <translation type="unfinished">Z min/max</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1608"/>
+      <source>X2 min/max</source>
+      <translation type="unfinished">X2 min/max</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1641"/>
+      <source>Z2 min/max</source>
+      <translation type="unfinished">Z2 min/max</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1725"/>
+      <source>Pitch</source>
+      <translation type="unfinished">Pitch</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1802"/>
+      <source>Coordinate system</source>
+      <translation type="unfinished">Coordinate system</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1874"/>
+      <source>Growth</source>
+      <translation type="unfinished">Growth</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1894"/>
+      <source>Number of rotations</source>
+      <translation type="unfinished">Number of rotations</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1990"/>
+      <location filename="../../DlgPrimitives.ui" line="2112"/>
+      <source>Angle 1</source>
+      <translation type="unfinished">Angle 1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2007"/>
+      <location filename="../../DlgPrimitives.ui" line="2129"/>
+      <source>Angle 2</source>
+      <translation type="unfinished">Angle 2</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2044"/>
+      <source>From 3 Points</source>
+      <translation type="unfinished">From 3 Points</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2072"/>
+      <source>Major radius</source>
+      <translation type="unfinished">Major radius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2092"/>
+      <source>Minor radius</source>
+      <translation type="unfinished">Minor radius</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2170"/>
+      <location filename="../../DlgPrimitives.ui" line="2268"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>ஃச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="2351"/>
       <source>X coordinate of the point</source>
       <translation>புள்ளியின் ஃச் ஒருங்கிணைப்பு</translation>
@@ -3946,10 +6641,15 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPrimitives.ui" line="2364"/>
       <location filename="../../DlgPrimitives.ui" line="2487"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="2190"/>
+      <location filename="../../DlgPrimitives.ui" line="2301"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>ஒய்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="2374"/>
       <source>Y coordinate of the point</source>
       <translation>புள்ளியின் ஒய் ஒருங்கிணைப்பு</translation>
@@ -3957,10 +6657,15 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgPrimitives.ui" line="2387"/>
       <location filename="../../DlgPrimitives.ui" line="2526"/>
+=======
+      <location filename="../../DlgPrimitives.ui" line="2210"/>
+      <location filename="../../DlgPrimitives.ui" line="2334"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>சட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgPrimitives.ui" line="2458"/>
       <source>X coordinate of the start point</source>
       <translation type="unfinished">X coordinate of the start point</translation>
@@ -4036,6 +6741,42 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgPrimitives.ui" line="2438"/>
       <source>End point</source>
       <translation>இறுதிப் புள்ளி</translation>
+=======
+      <location filename="../../DlgPrimitives.ui" line="485"/>
+      <location filename="../../DlgPrimitives.ui" line="492"/>
+      <location filename="../../DlgPrimitives.ui" line="1439"/>
+      <location filename="../../DlgPrimitives.ui" line="1446"/>
+      <source>Angle in first direction</source>
+      <translation type="unfinished">Angle in first direction</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="511"/>
+      <location filename="../../DlgPrimitives.ui" line="518"/>
+      <location filename="../../DlgPrimitives.ui" line="1465"/>
+      <location filename="../../DlgPrimitives.ui" line="1472"/>
+      <source>Angle in second direction</source>
+      <translation type="unfinished">Angle in second direction</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1810"/>
+      <source>Right-handed</source>
+      <translation type="unfinished">Right-handed</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="1815"/>
+      <source>Left-handed</source>
+      <translation type="unfinished">Left-handed</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2251"/>
+      <source>Start point</source>
+      <translation type="unfinished">Start point</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.ui" line="2258"/>
+      <source>End point</source>
+      <translation type="unfinished">End point</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPrimitives.cpp" line="2102"/>
@@ -4048,17 +6789,30 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgPrimitives.cpp" line="2325"/>
       <location filename="../../DlgPrimitives.cpp" line="2332"/>
       <source>Create %1</source>
+<<<<<<< HEAD
       <translation>% 1ஐ உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create %1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPrimitives.cpp" line="2298"/>
       <source>No active document</source>
+<<<<<<< HEAD
       <translation>செயலில் உள்ள ஆவணம் இல்லை</translation>
     </message>
     <message>
       <location filename="../../DlgPrimitives.cpp" line="2651"/>
       <source>C&amp;reate</source>
       <translation type="unfinished">C&amp;reate</translation>
+=======
+      <translation type="unfinished">No active document</translation>
+    </message>
+    <message>
+      <location filename="../../DlgPrimitives.cpp" line="2648"/>
+      <source>&amp;Create</source>
+      <translation type="unfinished">&amp;Create</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4066,62 +6820,110 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="56"/>
       <source>Show all</source>
+<<<<<<< HEAD
       <translation>அனைத்தையும் காட்டு</translation>
+=======
+      <translation type="unfinished">Show all</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="66"/>
       <source>Show faces</source>
+<<<<<<< HEAD
       <translation>முகங்களைக் காட்டு</translation>
+=======
+      <translation type="unfinished">Show faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="14"/>
       <source>Project on Surface</source>
+<<<<<<< HEAD
       <translation>மேற்பரப்பில் திட்டம்</translation>
+=======
+      <translation type="unfinished">Project on Surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="20"/>
       <source>Select Projection Surface</source>
+<<<<<<< HEAD
       <translation>ப்ரொசெக்சன் மேற்பரப்பைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select Projection Surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="31"/>
       <source>Add Face</source>
+<<<<<<< HEAD
       <translation>முகத்தைச் சேர்க்கவும்</translation>
+=======
+      <translation type="unfinished">Add Face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="38"/>
       <source>Add Wire</source>
+<<<<<<< HEAD
       <translation>கம்பியைச் சேர்க்கவும்</translation>
+=======
+      <translation type="unfinished">Add Wire</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="45"/>
       <source>Add Edge</source>
+<<<<<<< HEAD
       <translation>விளிம்பைச் சேர்க்கவும்</translation>
+=======
+      <translation type="unfinished">Add Edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="76"/>
       <source>Show edges</source>
+<<<<<<< HEAD
       <translation>விளிம்புகளைக் காட்டு</translation>
+=======
+      <translation type="unfinished">Show edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="92"/>
       <source>Extrude height</source>
+<<<<<<< HEAD
       <translation>நீட்டிப்பு உயரம்</translation>
+=======
+      <translation type="unfinished">Extrude height</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="116"/>
       <source>Solid depth</source>
+<<<<<<< HEAD
       <translation>திடமான ஆழம்</translation>
+=======
+      <translation type="unfinished">Solid depth</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="141"/>
       <source>Direction</source>
+<<<<<<< HEAD
       <translation>திசை</translation>
+=======
+      <translation type="unfinished">Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="147"/>
       <source>Get Current Camera Direction</source>
+<<<<<<< HEAD
       <translation>தற்போதைய கேமரா திசையைப் பெறுங்கள்</translation>
+=======
+      <translation type="unfinished">Get Current Camera Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgProjectionOnSurface.ui" line="156"/>
@@ -4139,6 +6941,7 @@ Check one or more edge entities first.</source>
       <translation>சட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgProjectionOnSurface.cpp" line="141"/>
       <source>Projection object</source>
       <translation>திட்ட பொருள்</translation>
@@ -4152,6 +6955,21 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgProjectionOnSurface.cpp" line="174"/>
       <source>Cannot create a projection object</source>
       <translation>திட்டப் பொருளை உருவாக்க முடியாது</translation>
+=======
+      <location filename="../../DlgProjectionOnSurface.cpp" line="138"/>
+      <source>Projection object</source>
+      <translation type="unfinished">Projection object</translation>
+    </message>
+    <message>
+      <location filename="../../DlgProjectionOnSurface.cpp" line="167"/>
+      <source>No active document</source>
+      <translation type="unfinished">No active document</translation>
+    </message>
+    <message>
+      <location filename="../../DlgProjectionOnSurface.cpp" line="173"/>
+      <source>Cannot create a projection object</source>
+      <translation type="unfinished">Cannot create a projection object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4159,52 +6977,89 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgRevolution.ui" line="20"/>
       <source>Revolve</source>
+<<<<<<< HEAD
       <translation>சுழலும்</translation>
+=======
+      <translation type="unfinished">Revolve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="42"/>
       <source>Shape</source>
+<<<<<<< HEAD
       <translation>வடிவம்</translation>
+=======
+      <translation type="unfinished">Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="56"/>
       <source>Revolution Axis</source>
+<<<<<<< HEAD
       <translation>புரட்சி அச்சு</translation>
+=======
+      <translation type="unfinished">Revolution Axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="64"/>
       <source>Center X</source>
+<<<<<<< HEAD
       <translation>நடுவண் ஃச்</translation>
+=======
+      <translation type="unfinished">Center X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="84"/>
       <source>Center Y</source>
+<<<<<<< HEAD
       <translation>நடுவண் ஒய்</translation>
+=======
+      <translation type="unfinished">Center Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="104"/>
       <source>Center Z</source>
+<<<<<<< HEAD
       <translation>நடுவண் சட்</translation>
+=======
+      <translation type="unfinished">Center Z</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="146"/>
       <location filename="../../DlgRevolution.ui" line="187"/>
       <source>Sets this as axis</source>
+<<<<<<< HEAD
       <translation>இதை அச்சாக அமைக்கிறது</translation>
+=======
+      <translation type="unfinished">Sets this as axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="149"/>
       <source>X-Direction</source>
+<<<<<<< HEAD
       <translation>எக்ச்-திசை</translation>
+=======
+      <translation type="unfinished">X-Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="190"/>
       <source>Y-Direction</source>
+<<<<<<< HEAD
       <translation>ஒய்-திசை</translation>
+=======
+      <translation type="unfinished">Y-Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="228"/>
       <source>Z-Direction</source>
+<<<<<<< HEAD
       <translation>Z-திசை</translation>
     </message>
     <message>
@@ -4212,6 +7067,14 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgRevolution.cpp" line="544"/>
       <source>Select Reference</source>
       <translation>குறிப்பைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Z-Direction</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.ui" line="250"/>
+      <source>Select Reference</source>
+      <translation type="unfinished">Select Reference</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="281"/>
@@ -4221,21 +7084,39 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgRevolution.ui" line="315"/>
       <source>Extends the revolution forwards and backwards by half the angle</source>
+<<<<<<< HEAD
       <translation>புரட்சியை முன்னோக்கி மற்றும் பின்னோக்கி பாதி கோணத்தில் நீட்டிக்கிறது</translation>
+=======
+      <translation type="unfinished">Extends the revolution forwards and backwards by half the angle</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="325"/>
       <source>Creates a solid. Otherwise it results in a shell.</source>
+<<<<<<< HEAD
       <translation>திடப்பொருளை உருவாக்குகிறது. இல்லையெனில் அது செல்லில் விளைகிறது.</translation>
+=======
+      <translation type="unfinished">Creates a solid. Otherwise it results in a shell.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="328"/>
       <source>Create solid</source>
+<<<<<<< HEAD
       <translation>திடமாக உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create solid</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="541"/>
+      <source>Select reference</source>
+      <translation type="unfinished">Select reference</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgRevolution.ui" line="318"/>
       <source>Symmetric angle</source>
+<<<<<<< HEAD
       <translation>சமச்சீர் கோணம்</translation>
     </message>
     <message>
@@ -4288,6 +7169,60 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgRevolution.cpp" line="538"/>
       <source>Selecting… (Line or Arc)</source>
       <translation type="unfinished">Selecting… (Line or Arc)</translation>
+=======
+      <translation type="unfinished">Symmetric angle</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="200"/>
+      <source>Object not found: %1</source>
+      <translation type="unfinished">Object not found: %1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="284"/>
+      <source>Select a shape for revolution.</source>
+      <translation type="unfinished">Select a shape for revolution.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="303"/>
+      <location filename="../../DlgRevolution.cpp" line="313"/>
+      <location filename="../../DlgRevolution.cpp" line="323"/>
+      <source>Revolution axis link is invalid.
+
+%1</source>
+      <translation type="unfinished">Revolution axis link is invalid.
+
+%1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="323"/>
+      <source>Unknown error</source>
+      <translation type="unfinished">Unknown error</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="335"/>
+      <source>Revolution axis direction is zero-length. It must be non-zero.</source>
+      <translation type="unfinished">Revolution axis direction is zero-length. It must be non-zero.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="348"/>
+      <source>Revolution angle span is zero. It must be non-zero.</source>
+      <translation type="unfinished">Revolution angle span is zero. It must be non-zero.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="515"/>
+      <location filename="../../DlgRevolution.cpp" line="523"/>
+      <source>Creating Revolve failed.
+
+%1</source>
+      <translation type="unfinished">Creating Revolve failed.
+
+%1</translation>
+    </message>
+    <message>
+      <location filename="../../DlgRevolution.cpp" line="536"/>
+      <source>Selecting… (line or arc)</source>
+      <translation type="unfinished">Selecting… (line or arc)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4295,32 +7230,56 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgSettings3DViewPart.ui" line="14"/>
       <source>Shape View</source>
+<<<<<<< HEAD
       <translation>வடிவக் காட்சி</translation>
+=======
+      <translation type="unfinished">Shape View</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettings3DViewPart.ui" line="26"/>
       <source>Tessellation</source>
+<<<<<<< HEAD
       <translation>டெசெலேசன்</translation>
+=======
+      <translation type="unfinished">Tessellation</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettings3DViewPart.ui" line="46"/>
       <source>Defines the deviation of tessellation to the actual surface</source>
+<<<<<<< HEAD
       <translation>உண்மையான மேற்பரப்பிற்கு டெசெலேசன் விலகலை வரையறுக்கிறது</translation>
+=======
+      <translation type="unfinished">Defines the deviation of tessellation to the actual surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettings3DViewPart.ui" line="49"/>
       <source>&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;/head&gt;&lt;body style=" white-space: pre-wrap; font-size:7.8pt; font-weight:400; font-style:normal; text-decoration:none;"&gt;&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:600;"&gt;Tessellation&lt;/span&gt;&lt;/p&gt;&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"&gt;&lt;/p&gt;&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"&gt;&lt;span style=" font-weight:400;"&gt;Defines the maximum deviation of the tessellated mesh to the surface. The smaller the value is the slower the render speed which results in increased detail/resolution.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+<<<<<<< HEAD
       <translation>&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;/head&gt;&lt;body style=" white-space: pre-wrap; font-size:7.8pt; font-weight:400; font-style:normal; text-decoration:none;"&gt;&lt;p style="margin-top:0px; margin-bottom;0px; margin-bottom; margin-right:0px;-qt-block-indent:0; -qt-block-indent:0px; style="font-weight:400;"&gt;மேற்பரப்பிற்கு டெசெல் செய்யப்பட்ட கண்ணியின் அதிகபட்ச விலகலை வரையறுக்கிறது. சிறிய மதிப்பானது வழங்குதல் விரைவு குறைவதால் விவரம்/தெளிவு அதிகரிக்கும்.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+=======
+      <translation type="unfinished">&lt;html&gt;&lt;head&gt;&lt;meta name="qrichtext" content="1" /&gt;&lt;/head&gt;&lt;body style=" white-space: pre-wrap; font-size:7.8pt; font-weight:400; font-style:normal; text-decoration:none;"&gt;&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"&gt;&lt;span style=" font-weight:600;"&gt;Tessellation&lt;/span&gt;&lt;/p&gt;&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"&gt;&lt;/p&gt;&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;"&gt;&lt;span style=" font-weight:400;"&gt;Defines the maximum deviation of the tessellated mesh to the surface. The smaller the value is the slower the render speed which results in increased detail/resolution.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettings3DViewPart.ui" line="52"/>
       <source>Maximum deviation depending on the model bounding box</source>
+<<<<<<< HEAD
       <translation>மாதிரி எல்லைப் பெட்டியைப் பொறுத்து அதிகபட்ச விலகல்</translation>
+=======
+      <translation type="unfinished">Maximum deviation depending on the model bounding box</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettings3DViewPart.ui" line="87"/>
       <source>Maximum angular deflection</source>
+<<<<<<< HEAD
       <translation>அதிகபட்ச கோண விலகல்</translation>
+=======
+      <translation type="unfinished">Maximum angular deflection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="88"/>
@@ -4330,6 +7289,7 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="89"/>
       <source>Setting a too small deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</source>
+<<<<<<< HEAD
       <translation>மிகச் சிறிய விலகலை அமைப்பது டெசெலேசன் அதிக நேரம் எடுக்கும், இதனால் GUI உறைகிறது அல்லது வேகத்தைக் குறைக்கிறது.</translation>
     </message>
     <message>
@@ -4341,16 +7301,34 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgSettings3DViewPartImp.cpp" line="114"/>
       <source>Setting a too small angle deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</source>
       <translation>மிகச் சிறிய கோண விலகலை அமைப்பது டெசெலேசன் அதிக நேரம் எடுக்கும், இதனால் GUI உறைகிறது அல்லது வேகத்தைக் குறைக்கிறது.</translation>
+=======
+      <translation type="unfinished">Setting a too small deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettings3DViewPartImp.cpp" line="110"/>
+      <source>Angle deflection</source>
+      <translation type="unfinished">Angle deflection</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettings3DViewPartImp.cpp" line="111"/>
+      <source>Setting a too small angle deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</source>
+      <translation type="unfinished">Setting a too small angle deviation causes the tessellation to take longer and thus freezes or slows down the GUI.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::DlgSettingsGeneral</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="12"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="14"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>General</source>
       <translation>பொது</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="30"/>
       <source>Automatically check model after boolean operation</source>
       <translation>பூலியன் செயல்பாட்டிற்குப் பிறகு தானாக மாதிரியைச் சரிபார்க்கவும்</translation>
@@ -4487,10 +7465,89 @@ Check one or more edge entities first.</source>
     </message>
     <message>
       <location filename="../../DlgSettingsGeneral.ui" line="361"/>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="26"/>
+      <source>Automatically check model after boolean operation</source>
+      <translation type="unfinished">Automatically check model after boolean operation</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="42"/>
+      <source>Automatically refine model after boolean operation</source>
+      <translation type="unfinished">Automatically refine model after boolean operation</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="105"/>
+      <source>Add name of base object</source>
+      <translation type="unfinished">Add name of base object</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="20"/>
+      <source>Model Settings</source>
+      <translation type="unfinished">Model Settings</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="58"/>
+      <source>Automatically refine model after applying operations</source>
+      <translation type="unfinished">Automatically refine model after applying operations</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="99"/>
+      <source>Object Naming</source>
+      <translation type="unfinished">Object Naming</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="127"/>
+      <source>Features Settings</source>
+      <translation type="unfinished">Features Settings</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="135"/>
+      <source>Default profile type for holes</source>
+      <translation type="unfinished">Default profile type for holes</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="152"/>
+      <source>Circles and arcs</source>
+      <translation type="unfinished">Circles and arcs</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="157"/>
+      <source>Points, circles and arcs</source>
+      <translation type="unfinished">Points, circles and arcs</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="162"/>
+      <source>Points</source>
+      <translation type="unfinished">Points</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="175"/>
+      <source>Switch to task panel when entering Part Design workbench</source>
+      <translation type="unfinished">Switch to task panel when entering Part Design workbench</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="206"/>
+      <source>Show final result by default when editing features</source>
+      <translation type="unfinished">Show final result by default when editing features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="219"/>
+      <source>Show transparent preview overlay by default when editing features</source>
+      <translation type="unfinished">Show transparent preview overlay by default when editing features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="235"/>
+      <source>Highlight the profile used to create features</source>
+      <translation type="unfinished">Highlight the profile used to create features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="257"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Experimental</source>
       <translation>ஆய்வு</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../DlgSettingsGeneral.ui" line="367"/>
       <source>These settings are experimental and may result in decreased stability, problems and undefined behaviors</source>
       <translation>இந்த அமைப்புகள் சோதனைக்குரியவை மற்றும் நிலைத்தன்மை குறைதல், சிக்கல்கள் மற்றும் வரையறுக்கப்படாத நடத்தைகளை ஏற்படுத்தலாம்</translation>
@@ -4600,6 +7657,36 @@ Check one or more edge entities first.</source>
       <location filename="../../DlgSettingsGeneral.cpp" line="58"/>
       <source>Fine</source>
       <translation>நன்றாக</translation>
+=======
+      <location filename="../../DlgSettingsGeneral.ui" line="266"/>
+      <source>These settings are experimental and may result in decreased stability, problems and undefined behaviors</source>
+      <translation type="unfinished">These settings are experimental and may result in decreased stability, problems and undefined behaviors</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="276"/>
+      <source>Show interactive draggers when editing features</source>
+      <translation type="unfinished">Show interactive draggers when editing features</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="292"/>
+      <source>Disable recompute while dragging</source>
+      <translation type="unfinished">Disable recompute while dragging</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="172"/>
+      <source>Automatically switch to the task panel when the Part Design workbench is activated</source>
+      <translation type="unfinished">Automatically switch to the task panel when the Part Design workbench is activated</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="197"/>
+      <source>Preview</source>
+      <translation type="unfinished">Preview</translation>
+    </message>
+    <message>
+      <location filename="../../DlgSettingsGeneral.ui" line="74"/>
+      <source>Allow multiple solids in Part Design bodies by default</source>
+      <translation type="unfinished">Allow multiple solids in Part Design bodies by default</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4612,7 +7699,11 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="20"/>
       <source>Default Shape Appearance Properties</source>
+<<<<<<< HEAD
       <translation>இயல்புநிலை வடிவ தோற்ற பண்புகள்</translation>
+=======
+      <translation type="unfinished">Default Shape Appearance Properties</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="34"/>
@@ -4622,127 +7713,227 @@ Check one or more edge entities first.</source>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="41"/>
       <source>The default color for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்புநிலை நிறம்</translation>
+=======
+      <translation type="unfinished">The default color for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="61"/>
       <source>Use random color instead</source>
+<<<<<<< HEAD
       <translation>அதற்குப் பதிலாக சீரற்ற நிறத்தைப் பயன்படுத்தவும்</translation>
+=======
+      <translation type="unfinished">Use random color instead</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="64"/>
       <source>Random</source>
+<<<<<<< HEAD
       <translation>சீரற்ற</translation>
+=======
+      <translation type="unfinished">Random</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="83"/>
       <source>Ambient shape color</source>
+<<<<<<< HEAD
       <translation>சுற்றுப்புற வடிவ நிறம்</translation>
+=======
+      <translation type="unfinished">Ambient shape color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="90"/>
       <source>The default ambient color for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்புநிலை சுற்றுப்புற வண்ணம்</translation>
+=======
+      <translation type="unfinished">The default ambient color for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="116"/>
       <source>Emissive shape color</source>
+<<<<<<< HEAD
       <translation>உமிழும் வடிவ நிறம்</translation>
+=======
+      <translation type="unfinished">Emissive shape color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="123"/>
       <source>The default emissive color for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்பு உமிழும் வண்ணம்</translation>
+=======
+      <translation type="unfinished">The default emissive color for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="149"/>
       <source>Specular shape color</source>
+<<<<<<< HEAD
       <translation>கண்கவர் வடிவ நிறம்</translation>
+=======
+      <translation type="unfinished">Specular shape color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="156"/>
       <source>The default specular color for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்புநிலை ச்பெகுலர் வண்ணம்</translation>
+=======
+      <translation type="unfinished">The default specular color for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="182"/>
       <source>Shape transparency</source>
+<<<<<<< HEAD
       <translation>வடிவ வெளிப்படைத்தன்மை</translation>
+=======
+      <translation type="unfinished">Shape transparency</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="189"/>
       <source>The default transparency for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்பு வெளிப்படைத்தன்மை</translation>
+=======
+      <translation type="unfinished">The default transparency for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="217"/>
       <source>Shape shininess</source>
+<<<<<<< HEAD
       <translation>வடிவ பளபளப்பு</translation>
+=======
+      <translation type="unfinished">Shape shininess</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="224"/>
       <source>The default shininess for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்புநிலை ஒளி</translation>
+=======
+      <translation type="unfinished">The default shininess for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="255"/>
       <source>Line color</source>
+<<<<<<< HEAD
       <translation>வரி நிறம்</translation>
+=======
+      <translation type="unfinished">Line color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="262"/>
       <source>The default line color for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்புநிலை வரி நிறம்</translation>
+=======
+      <translation type="unfinished">The default line color for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="288"/>
       <source>Line width</source>
+<<<<<<< HEAD
       <translation>வரி அகலம்</translation>
+=======
+      <translation type="unfinished">Line width</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="295"/>
       <source>The default line thickness for new shapes</source>
+<<<<<<< HEAD
       <translation>புதிய வடிவங்களுக்கான இயல்புநிலை வரி தடிமன்</translation>
+=======
+      <translation type="unfinished">The default line thickness for new shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="323"/>
       <source>Vertex color</source>
+<<<<<<< HEAD
       <translation>உச்சி நிறம்</translation>
+=======
+      <translation type="unfinished">Vertex color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="330"/>
       <source>The default color for new vertices</source>
+<<<<<<< HEAD
       <translation>புதிய செங்குத்துகளுக்கான இயல்புநிலை நிறம்</translation>
+=======
+      <translation type="unfinished">The default color for new vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="356"/>
       <source>Vertex size</source>
+<<<<<<< HEAD
       <translation>உச்சி அளவு</translation>
+=======
+      <translation type="unfinished">Vertex size</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="363"/>
       <source>The default size for new vertices</source>
+<<<<<<< HEAD
       <translation>புதிய முனைகளுக்கான இயல்புநிலை அளவு</translation>
+=======
+      <translation type="unfinished">The default size for new vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="391"/>
       <source>Bounding box color</source>
+<<<<<<< HEAD
       <translation>எல்லைப் பெட்டியின் நிறம்</translation>
+=======
+      <translation type="unfinished">Bounding box color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="398"/>
       <source>The color of bounding boxes in the 3D view</source>
+<<<<<<< HEAD
       <translation>3D காட்சியில் எல்லைப் பெட்டிகளின் நிறம்</translation>
+=======
+      <translation type="unfinished">The color of bounding boxes in the 3D view</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="424"/>
       <source>Bounding box font size</source>
+<<<<<<< HEAD
       <translation>எல்லைப் பெட்டியின் எழுத்துரு அளவு</translation>
+=======
+      <translation type="unfinished">Bounding box font size</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="431"/>
       <source>The font size of bounding boxes in the 3D view</source>
+<<<<<<< HEAD
       <translation>3D காட்சியில் எல்லைப் பெட்டிகளின் எழுத்துரு அளவு</translation>
+=======
+      <translation type="unfinished">The font size of bounding boxes in the 3D view</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="465"/>
@@ -4750,20 +7941,35 @@ Check one or more edge entities first.</source>
 If not checked, it depends on the option "Backlight color"
 (preferences section Display -&gt; 3D View); either the backlight color
 will be used or black.</source>
+<<<<<<< HEAD
       <translation>மேற்பரப்பின் கீழ்ப் பக்கமும் மேலே உள்ளதைப் போலவே வழங்கப்படும். 
 சரிபார்க்கப்படாவிட்டால், அது "பின்னொளி வண்ணம்" விருப்பத்தைப் பொறுத்தது 
 (விருப்பத்தேர்வுகள் பிரிவு காட்சி -&gt; 3D காட்சி); பின்னொளி நிறம் 
 பயன்படுத்தப்படும் அல்லது கருப்பு.</translation>
+=======
+      <translation type="unfinished">The bottom side of the surface will be rendered the same way as the top.
+If not checked, it depends on the option "Backlight color"
+(preferences section Display -&gt; 3D View); either the backlight color
+will be used or black.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="471"/>
       <source>Two-side rendering</source>
+<<<<<<< HEAD
       <translation>இரண்டு பக்க வழங்குதல்</translation>
+=======
+      <translation type="unfinished">Two-side rendering</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="505"/>
       <source>Default Annotation Color</source>
+<<<<<<< HEAD
       <translation>இயல்புநிலை சிறுகுறிப்பு நிறம்</translation>
+=======
+      <translation type="unfinished">Default Annotation Color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="519"/>
@@ -4773,7 +7979,11 @@ will be used or black.</source>
     <message>
       <location filename="../../DlgSettingsObjectColor.ui" line="526"/>
       <source>Text color for document annotations</source>
+<<<<<<< HEAD
       <translation>ஆவணக் குறிப்புகளுக்கான உரை வண்ணம்</translation>
+=======
+      <translation type="unfinished">Text color for document annotations</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4781,7 +7991,11 @@ will be used or black.</source>
     <message>
       <location filename="../../Location.ui" line="14"/>
       <source>Location</source>
+<<<<<<< HEAD
       <translation>இடம்</translation>
+=======
+      <translation type="unfinished">Location</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Location.ui" line="29"/>
@@ -4789,6 +8003,7 @@ will be used or black.</source>
       <translation type="unfinished">Position</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Location.ui" line="32"/>
       <source>Set the placement location coordinates</source>
       <translation type="unfinished">Set the placement location coordinates</translation>
@@ -4802,10 +8017,15 @@ will be used or black.</source>
     <message>
       <location filename="../../Location.ui" line="43"/>
       <location filename="../../Location.ui" line="148"/>
+=======
+      <location filename="../../Location.ui" line="37"/>
+      <location filename="../../Location.ui" line="118"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>X</source>
       <translation>ஃச்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Location.ui" line="63"/>
       <location filename="../../Location.ui" line="73"/>
       <source>Y coordinate of the placement location</source>
@@ -4814,10 +8034,15 @@ will be used or black.</source>
     <message>
       <location filename="../../Location.ui" line="66"/>
       <location filename="../../Location.ui" line="180"/>
+=======
+      <location filename="../../Location.ui" line="54"/>
+      <location filename="../../Location.ui" line="147"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Y</source>
       <translation>ஒய்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Location.ui" line="86"/>
       <location filename="../../Location.ui" line="96"/>
       <source>Z coordinate of the placement location</source>
@@ -4826,10 +8051,15 @@ will be used or black.</source>
     <message>
       <location filename="../../Location.ui" line="89"/>
       <location filename="../../Location.ui" line="212"/>
+=======
+      <location filename="../../Location.ui" line="71"/>
+      <location filename="../../Location.ui" line="176"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Z</source>
       <translation>சட்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../Location.ui" line="137"/>
       <source>Rotation Axis</source>
       <translation>சுழற்சி அச்சு</translation>
@@ -4889,6 +8119,41 @@ the sketch plane's normal vector will be used</source>
     </message>
     <message>
       <location filename="../../Location.ui" line="247"/>
+=======
+      <location filename="../../Location.ui" line="90"/>
+      <source>3D View</source>
+      <translation>3D காட்சி</translation>
+    </message>
+    <message>
+      <location filename="../../Location.ui" line="110"/>
+      <source>Rotation Axis</source>
+      <translation type="unfinished">Rotation Axis</translation>
+    </message>
+    <message>
+      <location filename="../../Location.ui" line="125"/>
+      <source>X-component of direction vector</source>
+      <translation type="unfinished">X-component of direction vector</translation>
+    </message>
+    <message>
+      <location filename="../../Location.ui" line="154"/>
+      <source>Y-component of direction vector</source>
+      <translation type="unfinished">Y-component of direction vector</translation>
+    </message>
+    <message>
+      <location filename="../../Location.ui" line="183"/>
+      <source>Z-component of direction vector</source>
+      <translation type="unfinished">Z-component of direction vector</translation>
+    </message>
+    <message>
+      <location filename="../../Location.ui" line="106"/>
+      <source>Use custom vector for pad direction otherwise
+the sketch plane's normal vector will be used</source>
+      <translation type="unfinished">Use custom vector for pad direction otherwise
+the sketch plane's normal vector will be used</translation>
+    </message>
+    <message>
+      <location filename="../../Location.ui" line="208"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Angle</source>
       <translation>கோணம்</translation>
     </message>
@@ -4898,37 +8163,66 @@ the sketch plane's normal vector will be used</source>
     <message>
       <location filename="../../TaskLoft.cpp" line="73"/>
       <source>Available profiles</source>
+<<<<<<< HEAD
       <translation>கிடைக்கும் சுயவிவரங்கள்</translation>
+=======
+      <translation type="unfinished">Available profiles</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="74"/>
       <source>Selected profiles</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட சுயவிவரங்கள்</translation>
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="199"/>
       <source>Too Few Elements</source>
       <translation type="unfinished">Too Few Elements</translation>
+=======
+      <translation type="unfinished">Selected profiles</translation>
+    </message>
+    <message>
+      <location filename="../../TaskLoft.cpp" line="199"/>
+      <source>Too few elements</source>
+      <translation type="unfinished">Too few elements</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="200"/>
       <source>At least 2 vertices, edges, wires, or faces are required.</source>
+<<<<<<< HEAD
       <translation>குறைந்தது 2 முனைகள், விளிம்புகள், கம்பிகள் அல்லது முகங்கள் தேவை.</translation>
+=======
+      <translation type="unfinished">At least 2 vertices, edges, wires, or faces are required.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="239"/>
       <source>Input error</source>
+<<<<<<< HEAD
       <translation>உள்ளீடு பிழை</translation>
+=======
+      <translation type="unfinished">Input error</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="274"/>
       <source>Vertex/Edge/Wire/Face</source>
+<<<<<<< HEAD
       <translation>உச்சி/முனை/கம்பி/முகம்</translation>
+=======
+      <translation type="unfinished">Vertex/Edge/Wire/Face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.cpp" line="275"/>
       <source>Loft</source>
+<<<<<<< HEAD
       <translation>மாடி</translation>
+=======
+      <translation type="unfinished">Loft</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -4941,7 +8235,11 @@ the sketch plane's normal vector will be used</source>
     <message>
       <location filename="../../Mirroring.ui" line="20"/>
       <source>Base Point</source>
+<<<<<<< HEAD
       <translation>அடிப்படை புள்ளி</translation>
+=======
+      <translation type="unfinished">Base Point</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Mirroring.ui" line="26"/>
@@ -4961,7 +8259,11 @@ the sketch plane's normal vector will be used</source>
     <message>
       <location filename="../../Mirroring.ui" line="98"/>
       <source>Mirror plane</source>
+<<<<<<< HEAD
       <translation>கண்ணாடி வானூர்தி</translation>
+=======
+      <translation type="unfinished">Mirror plane</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Mirroring.ui" line="106"/>
@@ -4981,11 +8283,16 @@ the sketch plane's normal vector will be used</source>
     <message>
       <location filename="../../Mirroring.ui" line="121"/>
       <source>Use selected reference</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட குறிப்பைப் பயன்படுத்தவும்</translation>
+=======
+      <translation type="unfinished">Use selected reference</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Mirroring.ui" line="142"/>
       <source>Shapes</source>
+<<<<<<< HEAD
       <translation>வடிவங்கள்</translation>
     </message>
     <message>
@@ -4993,10 +8300,20 @@ the sketch plane's normal vector will be used</source>
       <location filename="../../Mirroring.cpp" line="241"/>
       <source>Selecting</source>
       <translation>தேர்ந்தெடுக்கிறது</translation>
+=======
+      <translation type="unfinished">Shapes</translation>
+    </message>
+    <message>
+      <location filename="../../Mirroring.ui" line="150"/>
+      <location filename="../../Mirroring.cpp" line="240"/>
+      <source>Selecting</source>
+      <translation type="unfinished">Selecting</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Mirroring.ui" line="166"/>
       <source>Mirror plane reference</source>
+<<<<<<< HEAD
       <translation>கண்ணாடி வானூர்தி குறிப்பு</translation>
     </message>
     <message>
@@ -5013,30 +8330,66 @@ the sketch plane's normal vector will be used</source>
       <location filename="../../Mirroring.cpp" line="321"/>
       <source>No such document '%1'.</source>
       <translation>அத்தகைய ஆவணம் '% 1' இல்லை.</translation>
+=======
+      <translation type="unfinished">Mirror plane reference</translation>
+    </message>
+    <message>
+      <location filename="../../Mirroring.cpp" line="235"/>
+      <source>Select reference</source>
+      <translation type="unfinished">Select reference</translation>
+    </message>
+    <message>
+      <location filename="../../Mirroring.cpp" line="311"/>
+      <source>Select a shape for mirroring.</source>
+      <translation type="unfinished">Select a shape for mirroring.</translation>
+    </message>
+    <message>
+      <location filename="../../Mirroring.cpp" line="319"/>
+      <source>No such document '%1'.</source>
+      <translation type="unfinished">No such document '%1'.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::OffsetWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskOffset.cpp" line="228"/>
       <source>Input error</source>
       <translation>உள்ளீடு பிழை</translation>
+=======
+      <location filename="../../TaskOffset.cpp" line="226"/>
+      <source>Input error</source>
+      <translation type="unfinished">Input error</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::ResultModel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="364"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="363"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Name</source>
       <translation>பெயர்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="366"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="365"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Type</source>
       <translation>வகை</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="368"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="367"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Error</source>
       <translation>பிழை</translation>
     </message>
@@ -5046,12 +8399,20 @@ the sketch plane's normal vector will be used</source>
     <message>
       <location filename="../../SectionCutting.ui" line="20"/>
       <source>Persistent Section Cut</source>
+<<<<<<< HEAD
       <translation>தொடர்ச்சியான பிரிவு வெட்டு</translation>
+=======
+      <translation type="unfinished">Persistent Section Cut</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="32"/>
       <source>Cutting X</source>
+<<<<<<< HEAD
       <translation>கட்டிங் ஃச்</translation>
+=======
+      <translation type="unfinished">Cutting X</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="44"/>
@@ -5065,28 +8426,48 @@ the sketch plane's normal vector will be used</source>
       <location filename="../../SectionCutting.ui" line="145"/>
       <location filename="../../SectionCutting.ui" line="213"/>
       <source>Flip</source>
+<<<<<<< HEAD
       <translation>புரட்டவும்</translation>
+=======
+      <translation type="unfinished">Flip</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="106"/>
       <source>Cutting Y</source>
+<<<<<<< HEAD
       <translation>கட்டிங் ஒய்</translation>
+=======
+      <translation type="unfinished">Cutting Y</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="174"/>
       <source>Cutting Z</source>
+<<<<<<< HEAD
       <translation>கட்டிங் சட்</translation>
+=======
+      <translation type="unfinished">Cutting Z</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="242"/>
       <source>Cut Face</source>
+<<<<<<< HEAD
       <translation>முகத்தை வெட்டுங்கள்</translation>
+=======
+      <translation type="unfinished">Cut Face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="254"/>
       <location filename="../../SectionCutting.ui" line="394"/>
       <source>Color of the cut face</source>
+<<<<<<< HEAD
       <translation>வெட்டப்பட்ட முகத்தின் நிறம்</translation>
+=======
+      <translation type="unfinished">Color of the cut face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="302"/>
@@ -5095,26 +8476,45 @@ the sketch plane's normal vector will be used</source>
 from the cut objects.
 Works only properly if all objects
 have the same values.</source>
+<<<<<<< HEAD
       <translation>நிறம் மற்றும் வெளிப்படைத்தன்மையை எடுக்கும் 
 வெட்டப்பட்ட பொருட்களிலிருந்து. 
 அனைத்து பொருட்களும் இருந்தால் மட்டுமே சரியாக வேலை செய்யும் 
 அதே மதிப்புகள் வேண்டும்.</translation>
+=======
+      <translation type="unfinished">Takes the color and transparency
+from the cut objects.
+Works only properly if all objects
+have the same values.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="330"/>
       <location filename="../../SectionCutting.ui" line="473"/>
       <source>Transparency of the cut face</source>
+<<<<<<< HEAD
       <translation>வெட்டப்பட்ட முகத்தின் வெளிப்படைத்தன்மை</translation>
+=======
+      <translation type="unfinished">Transparency of the cut face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="376"/>
       <source>Cut Intersecting Objects</source>
+<<<<<<< HEAD
       <translation>வெட்டும் பொருள்களை வெட்டுங்கள்</translation>
+=======
+      <translation type="unfinished">Cut Intersecting Objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="514"/>
       <source>Refresh View</source>
+<<<<<<< HEAD
       <translation>பார்வையைப் புதுப்பிக்கவும்</translation>
+=======
+      <translation type="unfinished">Refresh View</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="257"/>
@@ -5139,41 +8539,69 @@ have the same values.</source>
       <source>Allows cutting objects intersecting each other
 for the price that all cut objects
 will get the same color</source>
+<<<<<<< HEAD
       <translation>ஒன்றையொன்று வெட்டும் பொருள்களை வெட்ட அனுமதிக்கிறது 
 அனைத்து பொருட்களையும் வெட்டும் விலைக்கு 
 அதே நிறம் கிடைக்கும்</translation>
+=======
+      <translation type="unfinished">Allows cutting objects intersecting each other
+for the price that all cut objects
+will get the same color</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="419"/>
       <source>Color for all objects</source>
+<<<<<<< HEAD
       <translation>அனைத்து பொருட்களுக்கும் வண்ணம்</translation>
+=======
+      <translation type="unfinished">Color for all objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="511"/>
       <source>Refreshes the list of visible objects</source>
+<<<<<<< HEAD
       <translation>காணக்கூடிய பொருட்களின் பட்டியலைப் புதுப்பிக்கிறது</translation>
+=======
+      <translation type="unfinished">Refreshes the list of visible objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="544"/>
       <source>When the dialog is closed,
 only created cuts will be visible</source>
+<<<<<<< HEAD
       <translation>உரையாடல் மூடப்பட்டதும், 
 உருவாக்கப்பட்ட வெட்டுக்கள் மட்டுமே தெரியும்</translation>
+=======
+      <translation type="unfinished">When the dialog is closed,
+only created cuts will be visible</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.ui" line="548"/>
       <source>Keep only cuts visible when closing</source>
+<<<<<<< HEAD
       <translation>மூடும் போது வெட்டுக்களை மட்டும் தெரியும்படி வைக்கவும்</translation>
+=======
+      <translation type="unfinished">Keep only cuts visible when closing</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../SectionCutting.cpp" line="1126"/>
       <source>Sliders are disabled for assemblies</source>
+<<<<<<< HEAD
       <translation>அசெம்பிளிகளுக்கு ச்லைடர்கள் முடக்கப்பட்டுள்ளன</translation>
+=======
+      <translation type="unfinished">Sliders are disabled for assemblies</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::ShapeBuilderWidget</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskShapeBuilder.cpp" line="224"/>
       <source>Unsupported</source>
       <translation>ஆதரிக்கப்படவில்லை</translation>
@@ -5250,6 +8678,84 @@ only created cuts will be visible</source>
       <location filename="../../TaskShapeBuilder.cpp" line="591"/>
       <source>All shape types can be selected</source>
       <translation>அனைத்து வடிவ வகைகளையும் தேர்ந்தெடுக்கலாம்</translation>
+=======
+      <location filename="../../TaskShapeBuilder.cpp" line="225"/>
+      <source>Unsupported</source>
+      <translation type="unfinished">Unsupported</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="225"/>
+      <source>Box selection for shells is not supported</source>
+      <translation type="unfinished">Box selection for shells is not supported</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="234"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="253"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="282"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="324"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="379"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="433"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="499"/>
+      <source>Wrong selection</source>
+      <translation type="unfinished">Wrong selection</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="234"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="253"/>
+      <source>Select two vertices</source>
+      <translation type="unfinished">Select two vertices</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="282"/>
+      <location filename="../../TaskShapeBuilder.cpp" line="379"/>
+      <source>Select at least 1 edge</source>
+      <translation type="unfinished">Select at least 1 edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="433"/>
+      <source>Select at least 2 faces</source>
+      <translation type="unfinished">Select at least 2 faces</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="499"/>
+      <source>Select only 1 shape object</source>
+      <translation type="unfinished">Select only 1 shape object</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="571"/>
+      <source>Select vertices</source>
+      <translation type="unfinished">Select vertices</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="578"/>
+      <source>Select a closed loop of edges</source>
+      <translation type="unfinished">Select a closed loop of edges</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="324"/>
+      <source>Select three or more vertices</source>
+      <translation type="unfinished">Select three or more vertices</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="557"/>
+      <source>Select two vertices to create an edge</source>
+      <translation type="unfinished">Select two vertices to create an edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="564"/>
+      <source>Select adjacent edges</source>
+      <translation type="unfinished">Select adjacent edges</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="585"/>
+      <source>Select adjacent faces</source>
+      <translation type="unfinished">Select adjacent faces</translation>
+    </message>
+    <message>
+      <location filename="../../TaskShapeBuilder.cpp" line="592"/>
+      <source>All shape types can be selected</source>
+      <translation type="unfinished">All shape types can be selected</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -5257,21 +8763,44 @@ only created cuts will be visible</source>
     <message>
       <location filename="../../TaskSweep.cpp" line="136"/>
       <source>Available profiles</source>
+<<<<<<< HEAD
       <translation>கிடைக்கும் சுயவிவரங்கள்</translation>
+=======
+      <translation type="unfinished">Available profiles</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="137"/>
       <source>Selected profiles</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட சுயவிவரங்கள்</translation>
+=======
+      <translation type="unfinished">Selected profiles</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="376"/>
+      <source>Too few elements</source>
+      <translation type="unfinished">Too few elements</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="376"/>
       <source>At least one edge or wire is required.</source>
+<<<<<<< HEAD
       <translation>குறைந்தபட்சம் ஒரு விளிம்பு அல்லது கம்பி தேவை.</translation>
+=======
+      <translation type="unfinished">At least one edge or wire is required.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="382"/>
+      <source>Invalid selection</source>
+      <translation type="unfinished">Invalid selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="383"/>
       <source>Select at least 1 edge from a single object.</source>
+<<<<<<< HEAD
       <translation>ஒரு பொருளிலிருந்து குறைந்தபட்சம் 1 விளிம்பைத் தேர்ந்தெடுக்கவும்.</translation>
     </message>
     <message>
@@ -5288,10 +8817,19 @@ only created cuts will be visible</source>
       <location filename="../../TaskSweep.cpp" line="393"/>
       <source>Wrong Selection</source>
       <translation>தவறான தேர்வு</translation>
+=======
+      <translation type="unfinished">Select at least 1 edge from a single object.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="393"/>
+      <source>Wrong selection</source>
+      <translation type="unfinished">Wrong selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="394"/>
       <source>'%1' cannot be used as profile and path.</source>
+<<<<<<< HEAD
       <translation>'% 1' ஐ சுயவிவரமாகவும் பாதையாகவும் பயன்படுத்த முடியாது.</translation>
     </message>
     <message>
@@ -5323,13 +8861,52 @@ only created cuts will be visible</source>
     </message>
     <message>
       <location filename="../../TaskSweep.cpp" line="519"/>
+=======
+      <translation type="unfinished">'%1' cannot be used as profile and path.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="437"/>
+      <source>Input error</source>
+      <translation type="unfinished">Input error</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="478"/>
+      <source>Done</source>
+      <translation type="unfinished">Done</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="481"/>
+      <source>Select one or more connected edges in the 3D view and press 'Done'</source>
+      <translation type="unfinished">Select one or more connected edges in the 3D view and press 'Done'</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="505"/>
+      <location filename="../../TaskSweep.cpp" line="513"/>
+      <source>Sweep path</source>
+      <translation type="unfinished">Sweep path</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="505"/>
+      <location filename="../../TaskSweep.cpp" line="513"/>
+      <source>The selected sweep path is invalid.</source>
+      <translation type="unfinished">The selected sweep path is invalid.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="525"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex/Wire</source>
       <translation type="unfinished">Vertex/Wire</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSweep.cpp" line="520"/>
       <source>Sweep</source>
       <translation>துடைக்கவும்</translation>
+=======
+      <location filename="../../TaskSweep.cpp" line="526"/>
+      <source>Sweep</source>
+      <translation type="unfinished">Sweep</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -5337,32 +8914,61 @@ only created cuts will be visible</source>
     <message>
       <location filename="../../TaskAttacher.ui" line="20"/>
       <source>Selection accepted</source>
+<<<<<<< HEAD
       <translation>தேர்வு ஏற்றுக்கொள்ளப்பட்டது</translation>
+=======
+      <translation type="unfinished">Selection accepted</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="35"/>
       <source>Reference 1</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 1</translation>
+=======
+      <translation type="unfinished">Reference 1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="52"/>
       <source>Reference 2</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 2</translation>
+=======
+      <translation type="unfinished">Reference 2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="69"/>
       <source>Reference 3</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 3</translation>
+=======
+      <translation type="unfinished">Reference 3</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="86"/>
       <source>Reference 4</source>
+<<<<<<< HEAD
       <translation>குறிப்பு 4</translation>
+=======
+      <translation type="unfinished">Reference 4</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.ui" line="101"/>
+      <source>Attachment mode</source>
+      <translation type="unfinished">Attachment mode</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="124"/>
       <source>Attachment Offset in its Local Coordinate System</source>
+<<<<<<< HEAD
       <translation>அதன் உள்ளக ஒருங்கிணைப்பு அமைப்பில் இணைப்பு ஆஃப்செட்</translation>
+=======
+      <translation type="unfinished">Attachment Offset in its Local Coordinate System</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="155"/>
@@ -5370,73 +8976,122 @@ only created cuts will be visible</source>
       <location filename="../../TaskAttacher.ui" line="227"/>
       <source>The offset is expressed in the local coordinate system
 of the object being attached</source>
+<<<<<<< HEAD
       <translation>ஆஃப்செட் உள்ளக ஒருங்கிணைப்பு அமைப்பில் வெளிப்படுத்தப்படுகிறது 
 இணைக்கப்பட்ட பொருளின்</translation>
+=======
+      <translation type="unfinished">The offset is expressed in the local coordinate system
+of the object being attached</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="136"/>
       <source>In X-direction</source>
+<<<<<<< HEAD
       <translation>ஃச் திசையில்</translation>
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="101"/>
       <source>Attachment Mode</source>
       <translation type="unfinished">Attachment Mode</translation>
+=======
+      <translation type="unfinished">In X-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="172"/>
       <source>In Y-direction</source>
+<<<<<<< HEAD
       <translation>ஒய்-திசையில்</translation>
+=======
+      <translation type="unfinished">In Y-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="208"/>
       <source>In Z-direction</source>
+<<<<<<< HEAD
       <translation>Z- திசையில்</translation>
+=======
+      <translation type="unfinished">In Z-direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="244"/>
       <source>Around X-axis</source>
+<<<<<<< HEAD
       <translation>ஃச் அச்சில் சுற்றி</translation>
+=======
+      <translation type="unfinished">Around X-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="257"/>
       <source>Rotation around the local X-axis. The offset is expressed in the local coordinate system
 of the object being attached.</source>
+<<<<<<< HEAD
       <translation>உள்ளக X- அச்சில் சுழற்சி. ஆஃப்செட் உள்ளக ஒருங்கிணைப்பு அமைப்பில் வெளிப்படுத்தப்படுகிறது 
 இணைக்கப்பட்ட பொருளின்.</translation>
+=======
+      <translation type="unfinished">Rotation around the local X-axis. The offset is expressed in the local coordinate system
+of the object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="283"/>
       <source>Around Y-axis</source>
+<<<<<<< HEAD
       <translation>ஒய் அச்சில் சுற்றி</translation>
+=======
+      <translation type="unfinished">Around Y-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="296"/>
       <source>Rotation around the local Y-axis. The offset is expressed in the local coordinate system
 of the object being attached.</source>
+<<<<<<< HEAD
       <translation>உள்ளக ஒய் அச்சில் சுழற்சி. ஆஃப்செட் உள்ளக ஒருங்கிணைப்பு அமைப்பில் வெளிப்படுத்தப்படுகிறது 
 இணைக்கப்பட்ட பொருளின்.</translation>
+=======
+      <translation type="unfinished">Rotation around the local Y-axis. The offset is expressed in the local coordinate system
+of the object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="322"/>
       <source>Around Z-axis</source>
+<<<<<<< HEAD
       <translation>சட் அச்சில் சுற்றி</translation>
+=======
+      <translation type="unfinished">Around Z-axis</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="335"/>
       <source>Rotation around the local Z-axis. The offset is expressed in the local coordinate system
 of the object being attached.</source>
+<<<<<<< HEAD
       <translation>உள்ளக Z- அச்சைச் சுற்றி சுழற்சி. ஆஃப்செட் உள்ளக ஒருங்கிணைப்பு அமைப்பில் வெளிப்படுத்தப்படுகிறது 
 இணைக்கப்பட்ட பொருளின்.</translation>
+=======
+      <translation type="unfinished">Rotation around the local Z-axis. The offset is expressed in the local coordinate system
+of the object being attached.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="358"/>
       <source>Flip side of attachment and offset</source>
+<<<<<<< HEAD
       <translation>இணைப்பு மற்றும் ஆஃப்செட்டின் மறுபக்கம்</translation>
+=======
+      <translation type="unfinished">Flip side of attachment and offset</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskAttacher.ui" line="361"/>
       <source>Flip sides</source>
+<<<<<<< HEAD
       <translation>பக்கங்களை புரட்டவும்</translation>
     </message>
     <message>
@@ -5491,10 +9146,67 @@ of the object being attached.</source>
     </message>
     <message>
       <location filename="../../TaskAttacher.cpp" line="944"/>
+=======
+      <translation type="unfinished">Flip sides</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="402"/>
+      <source>OCC error: %1</source>
+      <translation type="unfinished">OCC error: %1</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="405"/>
+      <source>unknown error</source>
+      <translation type="unfinished">unknown error</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="408"/>
+      <source>Attachment mode failed: %1</source>
+      <translation type="unfinished">Attachment mode failed: %1</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="413"/>
+      <source>Not attached</source>
+      <translation type="unfinished">Not attached</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="421"/>
+      <source>Attached with mode %1</source>
+      <translation type="unfinished">Attached with mode %1</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="425"/>
+      <source>Attachment offset (in its local coordinate system):</source>
+      <translation type="unfinished">Attachment offset (in its local coordinate system):</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="426"/>
+      <source>Attachment offset (inactive - not attached):</source>
+      <translation type="unfinished">Attachment offset (inactive - not attached):</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1009"/>
+      <source>Selecting…</source>
+      <translation type="unfinished">Selecting…</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="915"/>
+      <source>Face</source>
+      <translation type="unfinished">Face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="922"/>
+      <source>Edge</source>
+      <translation type="unfinished">Edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="929"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex</source>
       <translation type="unfinished">Vertex</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1033"/>
       <source>Reference%1</source>
       <translation>குறிப்பு% 1</translation>
@@ -5518,11 +9230,37 @@ of the object being attached.</source>
       <location filename="../../TaskAttacher.cpp" line="1210"/>
       <source>%1 (add more references)</source>
       <translation>% 1 (மேலும் குறிப்புகளைச் சேர்க்கவும்)</translation>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1015"/>
+      <source>Reference%1</source>
+      <translation type="unfinished">Reference%1</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1084"/>
+      <source>Not editable because rotation of AttachmentOffset is bound by expressions.</source>
+      <translation type="unfinished">Not editable because rotation of AttachmentOffset is bound by expressions.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1161"/>
+      <source>Reference combinations:</source>
+      <translation type="unfinished">Reference combinations:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1183"/>
+      <source>%1 (add %2)</source>
+      <translation type="unfinished">%1 (add %2)</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1186"/>
+      <source>%1 (add more references)</source>
+      <translation type="unfinished">%1 (add more references)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::TaskCheckGeometryDialog</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="1189"/>
       <source>Shape Content</source>
       <translation>வடிவ உள்ளடக்கம்</translation>
@@ -5714,11 +9452,205 @@ Individual boolean operation checks:</source>
       <location filename="../../TaskCheckGeometry.cpp" line="1467"/>
       <source>Results</source>
       <translation>முடிவுகள்</translation>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="1188"/>
+      <source>Shape Content</source>
+      <translation type="unfinished">Shape Content</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1200"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="1455"/>
+      <source>Settings</source>
+      <translation type="unfinished">Settings</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1210"/>
+      <source>Default: false</source>
+      <translation type="unfinished">Default: false</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1217"/>
+      <source>Run boolean operation check</source>
+      <translation type="unfinished">Run boolean operation check</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1219"/>
+      <source>Extra boolean operations check that can sometimes find errors that
+the standard BRep geometry check misses. These errors do not always
+mean the checked object is unusable.  Default: false</source>
+      <translation type="unfinished">Extra boolean operations check that can sometimes find errors that
+the standard BRep geometry check misses. These errors do not always
+mean the checked object is unusable.  Default: false</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1228"/>
+      <source>Single-threaded</source>
+      <translation type="unfinished">Single-threaded</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1230"/>
+      <source>Run the geometry check in a single thread.  This is slower,
+but more stable.  Default: false</source>
+      <translation type="unfinished">Run the geometry check in a single thread.  This is slower,
+but more stable.  Default: false</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1243"/>
+      <source>Log errors</source>
+      <translation type="unfinished">Log errors</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1244"/>
+      <source>Log errors to report view.  Default: true</source>
+      <translation type="unfinished">Log errors to report view.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1255"/>
+      <source>Expand shape content</source>
+      <translation type="unfinished">Expand shape content</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1257"/>
+      <source>Expand shape content.  Changes will take effect next time you use 
+the check geometry tool.  Default: false</source>
+      <translation type="unfinished">Expand shape content.  Changes will take effect next time you use 
+the check geometry tool.  Default: false</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1270"/>
+      <source>Advanced shape content</source>
+      <translation type="unfinished">Advanced shape content</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1272"/>
+      <source>Show advanced shape content.  Changes will take effect next time you use 
+the check geometry tool.  Default: false</source>
+      <translation type="unfinished">Show advanced shape content.  Changes will take effect next time you use 
+the check geometry tool.  Default: false</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1284"/>
+      <source>
+Individual boolean operation checks:</source>
+      <translation type="unfinished">
+Individual boolean operation checks:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1287"/>
+      <source>Bad type</source>
+      <translation type="unfinished">Bad type</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1299"/>
+      <source>Self-intersect</source>
+      <translation type="unfinished">Self-intersect</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1311"/>
+      <source>Too small edge</source>
+      <translation type="unfinished">Too small edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1323"/>
+      <source>Nonrecoverable face</source>
+      <translation type="unfinished">Nonrecoverable face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1335"/>
+      <source>Continuity</source>
+      <translation type="unfinished">Continuity</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1347"/>
+      <source>Incompatibility of face</source>
+      <translation type="unfinished">Incompatibility of face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1359"/>
+      <source>Incompatibility of vertex</source>
+      <translation type="unfinished">Incompatibility of vertex</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1371"/>
+      <source>Incompatibility of edge</source>
+      <translation type="unfinished">Incompatibility of edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1383"/>
+      <source>Invalid curve on surface</source>
+      <translation type="unfinished">Invalid curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1288"/>
+      <source>Check for bad argument types.  Default: true</source>
+      <translation type="unfinished">Check for bad argument types.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1207"/>
+      <source>Skip this settings page</source>
+      <translation type="unfinished">Skip this settings page</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1209"/>
+      <source>Skip this settings page and run the geometry check automatically</source>
+      <translation type="unfinished">Skip this settings page and run the geometry check automatically</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1300"/>
+      <source>Check for self-intersections.  Default: true</source>
+      <translation type="unfinished">Check for self-intersections.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1312"/>
+      <source>Check for edges that are too small.  Default: true</source>
+      <translation type="unfinished">Check for edges that are too small.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1324"/>
+      <source>Check for nonrecoverable faces.  Default: true</source>
+      <translation type="unfinished">Check for nonrecoverable faces.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1336"/>
+      <source>Check for continuity.  Default: true</source>
+      <translation type="unfinished">Check for continuity.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1348"/>
+      <source>Check for incompatible faces.  Default: true</source>
+      <translation type="unfinished">Check for incompatible faces.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1360"/>
+      <source>Check for incompatible vertices.  Default: true</source>
+      <translation type="unfinished">Check for incompatible vertices.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1372"/>
+      <source>Check for incompatible edges.  Default: true</source>
+      <translation type="unfinished">Check for incompatible edges.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1384"/>
+      <source>Check for invalid curves on surfaces.  Default: true</source>
+      <translation type="unfinished">Check for invalid curves on surfaces.  Default: true</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1454"/>
+      <source>Run check</source>
+      <translation type="unfinished">Run check</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="1466"/>
+      <source>Results</source>
+      <translation type="unfinished">Results</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::TaskCheckGeometryResults</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="403"/>
       <source>Check Geometry Results</source>
       <translation>வடிவியல் முடிவுகளைச் சரிபார்க்கவும்</translation>
@@ -5776,6 +9708,65 @@ Individual boolean operation checks:</source>
     </message>
     <message numerus="yes">
       <location filename="../../TaskCheckGeometry.cpp" line="592"/>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="402"/>
+      <source>Check Geometry Results</source>
+      <translation type="unfinished">Check Geometry Results</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="425"/>
+      <source>Check is running…</source>
+      <translation type="unfinished">Check is running…</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="454"/>
+      <source>Boolean operation check…</source>
+      <translation type="unfinished">Boolean operation check…</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="457"/>
+      <source>Check geometry</source>
+      <translation type="unfinished">Check geometry</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="489"/>
+      <source>Null shape</source>
+      <translation type="unfinished">Null shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="490"/>
+      <location filename="../../TaskCheckGeometry.cpp" line="502"/>
+      <source>Skipped</source>
+      <translation type="unfinished">Skipped</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="501"/>
+      <source>Infinite shape</source>
+      <translation type="unfinished">Infinite shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="528"/>
+      <source>Invalid</source>
+      <translation type="unfinished">Invalid</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="554"/>
+      <source>Checking</source>
+      <translation type="unfinished">Checking</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="578"/>
+      <source>No errors</source>
+      <translation type="unfinished">No errors</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="590"/>
+      <source>%1 processed out of %2 selected</source>
+      <translation type="unfinished">%1 processed out of %2 selected</translation>
+    </message>
+    <message numerus="yes">
+      <location filename="../../TaskCheckGeometry.cpp" line="591"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>%n invalid shapes.</source>
       <translation type="unfinished">
         <numerusform>%n invalid shapes.</numerusform>
@@ -5783,6 +9774,7 @@ Individual boolean operation checks:</source>
       </translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="593"/>
       <source>to report view.</source>
       <translation>பார்வையைப் புகாரளிக்க.</translation>
@@ -5811,11 +9803,42 @@ Individual boolean operation checks:</source>
       <location filename="../../TaskCheckGeometry.cpp" line="732"/>
       <source>Tolerance information</source>
       <translation>சகிப்புத்தன்மை செய்தி</translation>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="592"/>
+      <source>to report view.</source>
+      <translation type="unfinished">to report view.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="739"/>
+      <source>Global minimum</source>
+      <translation type="unfinished">Global minimum</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="747"/>
+      <source>Global average</source>
+      <translation type="unfinished">Global average</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="755"/>
+      <source>Global maximum</source>
+      <translation type="unfinished">Global maximum</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="714"/>
+      <source>Checked object</source>
+      <translation type="unfinished">Checked object</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="731"/>
+      <source>Tolerance information</source>
+      <translation type="unfinished">Tolerance information</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartGui::TaskDlgAttacher</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskAttacher.cpp" line="1471"/>
       <source>Attachment</source>
       <translation>இணைப்பு</translation>
@@ -5834,6 +9857,16 @@ Individual boolean operation checks:</source>
       <location filename="../../TaskAttacher.cpp" line="1648"/>
       <source>Datum dialog: input error</source>
       <translation>தரவு உரையாடல்: உள்ளீடு பிழை</translation>
+=======
+      <location filename="../../TaskAttacher.cpp" line="1432"/>
+      <source>Attachment</source>
+      <translation type="unfinished">Attachment</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="1514"/>
+      <source>Datum dialog: input error</source>
+      <translation type="unfinished">Datum dialog: input error</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -5841,22 +9874,38 @@ Individual boolean operation checks:</source>
     <message>
       <location filename="../../TaskLoft.ui" line="14"/>
       <source>Loft</source>
+<<<<<<< HEAD
       <translation>மாடி</translation>
+=======
+      <translation type="unfinished">Loft</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.ui" line="23"/>
       <source>Create solid</source>
+<<<<<<< HEAD
       <translation>திடமாக உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create solid</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.ui" line="33"/>
       <source>Ruled surface</source>
+<<<<<<< HEAD
       <translation>ஆளப்பட்ட மேற்பரப்பு</translation>
+=======
+      <translation type="unfinished">Ruled surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskLoft.ui" line="40"/>
       <source>Closed</source>
+<<<<<<< HEAD
       <translation>மூடப்பட்டது</translation>
+=======
+      <translation type="unfinished">Closed</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -5870,63 +9919,111 @@ Individual boolean operation checks:</source>
     <message>
       <location filename="../../TaskOffset.ui" line="34"/>
       <source>Mode</source>
+<<<<<<< HEAD
       <translation>பயன்முறை</translation>
+=======
+      <translation type="unfinished">Mode</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="42"/>
       <source>Skin</source>
+<<<<<<< HEAD
       <translation>தோல்</translation>
+=======
+      <translation type="unfinished">Skin</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="47"/>
       <source>Pipe</source>
+<<<<<<< HEAD
       <translation>புழம்பு</translation>
+=======
+      <translation type="unfinished">Pipe</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="52"/>
       <source>Recto verso</source>
+<<<<<<< HEAD
       <translation>நேரான உரையாடல்</translation>
+=======
+      <translation type="unfinished">Recto verso</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="60"/>
       <source>Join type</source>
+<<<<<<< HEAD
       <translation>சேர வகை</translation>
+=======
+      <translation type="unfinished">Join type</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="68"/>
       <source>Arc</source>
+<<<<<<< HEAD
       <translation>பரிதி</translation>
+=======
+      <translation type="unfinished">Arc</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="73"/>
       <source>Tangent</source>
+<<<<<<< HEAD
       <translation>தொடுகோடு</translation>
+=======
+      <translation type="unfinished">Tangent</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="78"/>
       <location filename="../../TaskOffset.ui" line="86"/>
       <source>Intersection</source>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டு</translation>
+=======
+      <translation type="unfinished">Intersection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="93"/>
       <source>Self-intersection</source>
+<<<<<<< HEAD
       <translation>தன்வய வெட்டு</translation>
+=======
+      <translation type="unfinished">Self-intersection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="100"/>
       <source>Fill offset</source>
+<<<<<<< HEAD
       <translation>ஆஃப்செட்டை நிரப்பவும்</translation>
+=======
+      <translation type="unfinished">Fill offset</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="114"/>
       <source>Faces</source>
+<<<<<<< HEAD
       <translation>முகங்கள்</translation>
+=======
+      <translation type="unfinished">Faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskOffset.ui" line="144"/>
       <source>Update view</source>
+<<<<<<< HEAD
       <translation>பார்வையைப் புதுப்பிக்கவும்</translation>
+=======
+      <translation type="unfinished">Update view</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -5935,57 +10032,101 @@ Individual boolean operation checks:</source>
       <location filename="../../TaskShapeBuilder.ui" line="14"/>
       <location filename="../../TaskShapeBuilder.ui" line="20"/>
       <source>Create Shape</source>
+<<<<<<< HEAD
       <translation>வடிவத்தை உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="26"/>
       <source>Edge from vertices</source>
+<<<<<<< HEAD
       <translation>முனைகளிலிருந்து விளிம்பு</translation>
+=======
+      <translation type="unfinished">Edge from vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="33"/>
       <source>Wire from edges</source>
+<<<<<<< HEAD
       <translation>விளிம்புகளிலிருந்து கம்பி</translation>
+=======
+      <translation type="unfinished">Wire from edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="40"/>
       <source>Face from vertices</source>
+<<<<<<< HEAD
       <translation>முனைகளிலிருந்து முகம்</translation>
+=======
+      <translation type="unfinished">Face from vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="47"/>
       <source>Face from edges</source>
+<<<<<<< HEAD
       <translation>விளிம்புகளிலிருந்து முகம்</translation>
+=======
+      <translation type="unfinished">Face from edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="54"/>
       <source>Shell from faces</source>
+<<<<<<< HEAD
       <translation>முகங்களில் இருந்து செல்</translation>
+=======
+      <translation type="unfinished">Shell from faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="61"/>
       <source>Solid from shell</source>
+<<<<<<< HEAD
       <translation>செல்லிலிருந்து திடமானது</translation>
+=======
+      <translation type="unfinished">Solid from shell</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="75"/>
       <source>Planar</source>
+<<<<<<< HEAD
       <translation>பிளானர்</translation>
+=======
+      <translation type="unfinished">Planar</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="82"/>
       <source>Refine shape</source>
+<<<<<<< HEAD
       <translation>வடிவத்தை செம்மைப்படுத்தவும்</translation>
+=======
+      <translation type="unfinished">Refine shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="92"/>
       <source>All faces</source>
+<<<<<<< HEAD
       <translation>அனைத்து முகங்களும்</translation>
+=======
+      <translation type="unfinished">All faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="101"/>
       <source>Box Selection</source>
+<<<<<<< HEAD
       <translation>பெட்டி தேர்வு</translation>
+=======
+      <translation type="unfinished">Box Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskShapeBuilder.ui" line="122"/>
@@ -5998,21 +10139,34 @@ Individual boolean operation checks:</source>
     <message>
       <location filename="../../TaskSweep.ui" line="14"/>
       <source>Sweep</source>
+<<<<<<< HEAD
       <translation>துடைக்கவும்</translation>
+=======
+      <translation type="unfinished">Sweep</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.ui" line="23"/>
       <source>Sweep Path</source>
+<<<<<<< HEAD
       <translation>ச்வீப் பாதை</translation>
+=======
+      <translation type="unfinished">Sweep Path</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.ui" line="53"/>
       <source>Create solid</source>
+<<<<<<< HEAD
       <translation>திடமாக உருவாக்கவும்</translation>
+=======
+      <translation type="unfinished">Create solid</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSweep.ui" line="63"/>
       <source>Frenet</source>
+<<<<<<< HEAD
       <translation>ஃப்ரெனெட்</translation>
     </message>
     <message>
@@ -6021,6 +10175,16 @@ Individual boolean operation checks:</source>
 in the 3D view for the sweep path.</source>
       <translation>குறைந்தபட்சம் 1 சுயவிவரத்தையும் ஒரு விளிம்பு அல்லது கம்பியையும் தேர்ந்தெடுக்கவும் 
 ச்வீப் பாதைக்கான 3D காட்சியில்.</translation>
+=======
+      <translation type="unfinished">Frenet</translation>
+    </message>
+    <message>
+      <location filename="../../TaskSweep.cpp" line="551"/>
+      <source>Select at least 1 profile and an edge or wire
+in the 3D view for the sweep path.</source>
+      <translation type="unfinished">Select at least 1 profile and an edge or wire
+in the 3D view for the sweep path.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6028,22 +10192,38 @@ in the 3D view for the sweep path.</source>
     <message>
       <location filename="../../../BasicShapes/TaskTube.ui" line="14"/>
       <source>Tube</source>
+<<<<<<< HEAD
       <translation>தூம்பு</translation>
+=======
+      <translation type="unfinished">Tube</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BasicShapes/TaskTube.ui" line="23"/>
       <source>Parameter</source>
+<<<<<<< HEAD
       <translation>கூறளவு</translation>
+=======
+      <translation type="unfinished">Parameter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BasicShapes/TaskTube.ui" line="46"/>
       <source>Outer radius</source>
+<<<<<<< HEAD
       <translation>வெளிப்புற ஆரம்</translation>
+=======
+      <translation type="unfinished">Outer radius</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BasicShapes/TaskTube.ui" line="69"/>
       <source>Inner radius</source>
+<<<<<<< HEAD
       <translation>உள் ஆரம்</translation>
+=======
+      <translation type="unfinished">Inner radius</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BasicShapes/TaskTube.ui" line="92"/>
@@ -6055,25 +10235,45 @@ in the 3D view for the sweep path.</source>
     <name>PartGui::ThicknessWidget</name>
     <message>
       <location filename="../../TaskThickness.cpp" line="96"/>
+<<<<<<< HEAD
       <location filename="../../TaskThickness.cpp" line="335"/>
       <location filename="../../TaskThickness.cpp" line="398"/>
       <source>Thickness</source>
       <translation>தடிமன்</translation>
+=======
+      <location filename="../../TaskThickness.cpp" line="333"/>
+      <location filename="../../TaskThickness.cpp" line="396"/>
+      <source>Thickness</source>
+      <translation type="unfinished">Thickness</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskThickness.cpp" line="205"/>
       <source>Select faces of the source object and press 'Done'</source>
+<<<<<<< HEAD
       <translation>மூலப் பொருளின் முகங்களைத் தேர்ந்தெடுத்து 'முடிந்தது' என்பதை அழுத்தவும்</translation>
+=======
+      <translation type="unfinished">Select faces of the source object and press 'Done'</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskThickness.cpp" line="208"/>
       <source>Done</source>
+<<<<<<< HEAD
       <translation>முடிந்தது</translation>
     </message>
     <message>
       <location filename="../../TaskThickness.cpp" line="297"/>
       <source>Input error</source>
       <translation>உள்ளீடு பிழை</translation>
+=======
+      <translation type="unfinished">Done</translation>
+    </message>
+    <message>
+      <location filename="../../TaskThickness.cpp" line="295"/>
+      <source>Input error</source>
+      <translation type="unfinished">Input error</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6081,27 +10281,43 @@ in the 3D view for the sweep path.</source>
     <message>
       <location filename="../../../BasicShapes/ViewProviderShapes.py" line="51"/>
       <location filename="../../../BasicShapes/ViewProviderShapes.py" line="59"/>
+<<<<<<< HEAD
       <location filename="../../ViewProvider.cpp" line="53"/>
       <location filename="../../ViewProviderPrimitive.cpp" line="55"/>
       <source>Edit %1</source>
       <translation>திருத்த % 1</translation>
+=======
+      <location filename="../../ViewProviderPrimitive.cpp" line="54"/>
+      <location filename="../../ViewProvider.cpp" line="53"/>
+      <source>Edit %1</source>
+      <translation type="unfinished">Edit %1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AppPartGui.cpp" line="252"/>
       <source>Part and Part Design workbench</source>
+<<<<<<< HEAD
       <translation>பகுதி மற்றும் பகுதி வடிவமைப்பு பணிப்பெட்டி</translation>
+=======
+      <translation type="unfinished">Part and Part Design workbench</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AppPartGui.cpp" line="253"/>
       <location filename="../../AppPartGui.cpp" line="254"/>
       <location filename="../../AppPartGui.cpp" line="255"/>
       <source>Part/Part Design</source>
+<<<<<<< HEAD
       <translation>பகுதி/பகுதி வடிவமைப்பு</translation>
+=======
+      <translation type="unfinished">Part/Part Design</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../AppPartGui.cpp" line="256"/>
       <location filename="../../AppPartGui.cpp" line="257"/>
       <source>Import-Export</source>
+<<<<<<< HEAD
       <translation>இறக்குமதி-ஏற்றுமதி</translation>
     </message>
     <message>
@@ -6116,6 +10332,9 @@ in the 3D view for the sweep path.</source>
       <location filename="../../Command.cpp" line="1016"/>
       <source>Select 2 shapes</source>
       <translation>2 வடிவங்களைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Import-Export</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="333"/>
@@ -6123,9 +10342,28 @@ in the 3D view for the sweep path.</source>
       <location filename="../../Command.cpp" line="510"/>
       <location filename="../../Command.cpp" line="952"/>
       <location filename="../../Command.cpp" line="1015"/>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2277"/>
       <source>Wrong Selection</source>
       <translation>தவறான தேர்வு</translation>
+=======
+      <location filename="../../Command.cpp" line="2290"/>
+      <source>Wrong selection</source>
+      <translation type="unfinished">Wrong selection</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="350"/>
+      <location filename="../../Command.cpp" line="427"/>
+      <location filename="../../Command.cpp" line="527"/>
+      <source>Non-solids selected</source>
+      <translation type="unfinished">Non-solids selected</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="334"/>
+      <location filename="../../Command.cpp" line="1016"/>
+      <source>Select 2 shapes</source>
+      <translation type="unfinished">Select 2 shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="351"/>
@@ -6133,22 +10371,36 @@ in the 3D view for the sweep path.</source>
       <location filename="../../Command.cpp" line="528"/>
       <source>The use of non-solids for boolean operations may lead to unexpected results.
 Continue?</source>
+<<<<<<< HEAD
       <translation>பூலியன் செயல்பாடுகளுக்கு திடமில்லாதவற்றைப் பயன்படுத்துவது எதிர்பாராத முடிவுகளுக்கு வழிவகுக்கும். 
 தொடரவா?</translation>
+=======
+      <translation type="unfinished">The use of non-solids for boolean operations may lead to unexpected results.
+Continue?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="411"/>
       <source>Select at least 2 shapes. Alternatively, select 1 compound containing 2 or more shapes to compute the intersection between.</source>
+<<<<<<< HEAD
       <translation>குறைந்தது 2 வடிவங்களைத் தேர்ந்தெடுக்கவும். மாற்றாக, குறுக்குவெட்டைக் கணக்கிட 2 அல்லது அதற்கு மேற்பட்ட வடிவங்களைக் கொண்ட 1 கலவையைத் தேர்ந்தெடுக்கவும்.</translation>
+=======
+      <translation type="unfinished">Select at least 2 shapes. Alternatively, select 1 compound containing 2 or more shapes to compute the intersection between.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="511"/>
       <source>Select at least 2 shapes. Alternatively, select 1 compound containing 2 or more shapes to be fused.</source>
+<<<<<<< HEAD
       <translation>குறைந்தது 2 வடிவங்களைத் தேர்ந்தெடுக்கவும். மாற்றாக, இணைக்கப்பட வேண்டிய 2 அல்லது அதற்கு மேற்பட்ட வடிவங்களைக் கொண்ட 1 கலவையைத் தேர்ந்தெடுக்கவும்.</translation>
+=======
+      <translation type="unfinished">Select at least 2 shapes. Alternatively, select 1 compound containing 2 or more shapes to be fused.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="953"/>
       <source>Select at least one shape</source>
+<<<<<<< HEAD
       <translation>குறைந்தது ஒரு வடிவத்தைத் தேர்ந்தெடுக்கவும்</translation>
     </message>
     <message>
@@ -6191,10 +10443,48 @@ Continue?</source>
     </message>
     <message>
       <location filename="../../TaskCheckGeometry.cpp" line="85"/>
+=======
+      <translation type="unfinished">Select at least one shape</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1210"/>
+      <source>All CAD Files</source>
+      <translation type="unfinished">All CAD Files</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1214"/>
+      <source>All Files</source>
+      <translation type="unfinished">All Files</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2291"/>
+      <source>Select either 2 edges or 2 wires.</source>
+      <translation type="unfinished">Select either 2 edges or 2 wires.</translation>
+    </message>
+    <message>
+      <location filename="../../TaskAttacher.cpp" line="73"/>
+      <location filename="../../TaskAttacher.cpp" line="106"/>
+      <source>No reference selected</source>
+      <translation type="unfinished">No reference selected</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="81"/>
+      <source>Face</source>
+      <translation type="unfinished">Face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="83"/>
+      <source>Edge</source>
+      <translation type="unfinished">Edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="84"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Vertex</source>
       <translation type="unfinished">Vertex</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskCheckGeometry.cpp" line="78"/>
       <source>Compound</source>
       <translation>சேர்மம்</translation>
@@ -6493,20 +10783,330 @@ Continue?</source>
       <location filename="../../ViewProviderMirror.cpp" line="658"/>
       <source>Edit thickness</source>
       <translation>தடிமன் திருத்தவும்</translation>
+=======
+      <location filename="../../TaskCheckGeometry.cpp" line="77"/>
+      <source>Compound</source>
+      <translation type="unfinished">Compound</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="78"/>
+      <source>Compound solid</source>
+      <translation type="unfinished">Compound solid</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="79"/>
+      <source>Solid</source>
+      <translation type="unfinished">Solid</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="80"/>
+      <source>Shell</source>
+      <translation type="unfinished">Shell</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="82"/>
+      <source>Wire</source>
+      <translation type="unfinished">Wire</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="85"/>
+      <source>Shape</source>
+      <translation type="unfinished">Shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="101"/>
+      <source>No error</source>
+      <translation type="unfinished">No error</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="102"/>
+      <source>Invalid point on curve</source>
+      <translation type="unfinished">Invalid point on curve</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="104"/>
+      <source>Invalid point on curve on surface</source>
+      <translation type="unfinished">Invalid point on curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="106"/>
+      <source>Invalid point on surface</source>
+      <translation type="unfinished">Invalid point on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="107"/>
+      <source>No 3D curve</source>
+      <translation type="unfinished">No 3D curve</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="108"/>
+      <source>Multiple 3D curves</source>
+      <translation type="unfinished">Multiple 3D curves</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="109"/>
+      <source>Invalid 3D curve</source>
+      <translation type="unfinished">Invalid 3D curve</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="110"/>
+      <source>No curve on surface</source>
+      <translation type="unfinished">No curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="111"/>
+      <source>Invalid curve on surface</source>
+      <translation type="unfinished">Invalid curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="113"/>
+      <source>Invalid curve on closed surface</source>
+      <translation type="unfinished">Invalid curve on closed surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="115"/>
+      <source>Invalid same range flag</source>
+      <translation type="unfinished">Invalid same range flag</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="116"/>
+      <source>Invalid same parameter flag</source>
+      <translation type="unfinished">Invalid same parameter flag</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="117"/>
+      <source>Invalid degenerated flag</source>
+      <translation type="unfinished">Invalid degenerated flag</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="118"/>
+      <source>Free edge</source>
+      <translation type="unfinished">Free edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="119"/>
+      <source>Invalid multi-connexity</source>
+      <translation type="unfinished">Invalid multi-connexity</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="120"/>
+      <source>Invalid range</source>
+      <translation type="unfinished">Invalid range</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="121"/>
+      <source>Empty wire</source>
+      <translation type="unfinished">Empty wire</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="122"/>
+      <source>Redundant edge</source>
+      <translation type="unfinished">Redundant edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="123"/>
+      <source>Self-intersecting wire</source>
+      <translation type="unfinished">Self-intersecting wire</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="124"/>
+      <source>No surface</source>
+      <translation type="unfinished">No surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="125"/>
+      <source>Invalid wire</source>
+      <translation type="unfinished">Invalid wire</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="126"/>
+      <source>Redundant wire</source>
+      <translation type="unfinished">Redundant wire</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="127"/>
+      <source>Intersecting wires</source>
+      <translation type="unfinished">Intersecting wires</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="128"/>
+      <source>Invalid imbrication of wires</source>
+      <translation type="unfinished">Invalid imbrication of wires</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="129"/>
+      <source>Empty shell</source>
+      <translation type="unfinished">Empty shell</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="130"/>
+      <source>Redundant face</source>
+      <translation type="unfinished">Redundant face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="131"/>
+      <source>Unorientable shape</source>
+      <translation type="unfinished">Unorientable shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="132"/>
+      <source>Not closed</source>
+      <translation type="unfinished">Not closed</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="133"/>
+      <source>Not connected</source>
+      <translation type="unfinished">Not connected</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="134"/>
+      <source>Sub-shape not in shape</source>
+      <translation type="unfinished">Sub-shape not in shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="135"/>
+      <source>Bad orientation</source>
+      <translation type="unfinished">Bad orientation</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="136"/>
+      <source>Bad orientation of sub-shape</source>
+      <translation type="unfinished">Bad orientation of sub-shape</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="137"/>
+      <source>Invalid tolerance value</source>
+      <translation type="unfinished">Invalid tolerance value</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="138"/>
+      <source>Check failed</source>
+      <translation type="unfinished">Check failed</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="147"/>
+      <source>No result</source>
+      <translation type="unfinished">No result</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="150"/>
+      <source>Out of enum range:</source>
+      <translation type="unfinished">Out of enum range:</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="162"/>
+      <source>Boolean operation: unknown check</source>
+      <translation type="unfinished">Boolean operation: unknown check</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="163"/>
+      <source>Boolean operation: bad type</source>
+      <translation type="unfinished">Boolean operation: bad type</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="164"/>
+      <source>Boolean operation: self-intersection found</source>
+      <translation type="unfinished">Boolean operation: self-intersection found</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="165"/>
+      <source>Boolean operation: edge too small</source>
+      <translation type="unfinished">Boolean operation: edge too small</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="166"/>
+      <source>Boolean operation: non-recoverable face</source>
+      <translation type="unfinished">Boolean operation: non-recoverable face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="168"/>
+      <source>Boolean operation: incompatibility of vertex</source>
+      <translation type="unfinished">Boolean operation: incompatibility of vertex</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="171"/>
+      <source>Boolean operation: incompatibility of edge</source>
+      <translation type="unfinished">Boolean operation: incompatibility of edge</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="174"/>
+      <source>Boolean operation: incompatibility of face</source>
+      <translation type="unfinished">Boolean operation: incompatibility of face</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="176"/>
+      <source>Boolean operation: aborted</source>
+      <translation type="unfinished">Boolean operation: aborted</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="179"/>
+      <source>Boolean operation: invalid curve on surface</source>
+      <translation type="unfinished">Boolean operation: invalid curve on surface</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="181"/>
+      <source>Boolean operation: not valid</source>
+      <translation type="unfinished">Boolean operation: not valid</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="177"/>
+      <source>Boolean operation: GeomAbs_C0</source>
+      <translation type="unfinished">Boolean operation: GeomAbs_C0</translation>
+    </message>
+    <message>
+      <location filename="../../TaskCheckGeometry.cpp" line="857"/>
+      <source>Invalid</source>
+      <translation type="unfinished">Invalid</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderMirror.cpp" line="83"/>
+      <source>Edit Mirror Plane</source>
+      <translation type="unfinished">Edit Mirror Plane</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderMirror.cpp" line="305"/>
+      <source>Edit Fillet</source>
+      <translation type="unfinished">Edit Fillet</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderMirror.cpp" line="426"/>
+      <source>Edit Chamfer</source>
+      <translation type="unfinished">Edit Chamfer</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderMirror.cpp" line="566"/>
+      <source>Edit offset</source>
+      <translation type="unfinished">Edit offset</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderMirror.cpp" line="653"/>
+      <source>Edit thickness</source>
+      <translation type="unfinished">Edit thickness</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BasicShapes/CommandShapes.py" line="56"/>
       <source>Create tube</source>
+<<<<<<< HEAD
       <translation>குழாயை உருவாக்கவும்</translation>
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="185"/>
       <source>Distance in Parameter Space</source>
       <translation type="unfinished">Distance in Parameter Space</translation>
+=======
+      <translation type="unfinished">Create tube</translation>
+    </message>
+    <message>
+      <location filename="../../CommandSimple.cpp" line="185"/>
+      <source>Distance in parameter space</source>
+      <translation type="unfinished">Distance in parameter space</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandSimple.cpp" line="186"/>
       <source>Enter distance:</source>
+<<<<<<< HEAD
       <translation>தூரத்தை உள்ளிடவும்:</translation>
     </message>
     <message>
@@ -6518,56 +11118,111 @@ Continue?</source>
       <location filename="../../ViewProviderProjectOnSurface.cpp" line="53"/>
       <source>Edit Projection</source>
       <translation>ப்ரொசெக்சனைத் திருத்து</translation>
+=======
+      <translation type="unfinished">Enter distance:</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderAttachExtension.cpp" line="100"/>
+      <source>Attachment Editor</source>
+      <translation type="unfinished">Attachment Editor</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderExt.cpp" line="1005"/>
+      <source>Appearance per Face</source>
+      <translation type="unfinished">Appearance per Face</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderProjectOnSurface.cpp" line="52"/>
+      <source>Edit Projection</source>
+      <translation type="unfinished">Edit Projection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderSpline.cpp" line="93"/>
       <source>Show Control Points</source>
+<<<<<<< HEAD
       <translation>கட்டுப்பாட்டு புள்ளிகளைக் காட்டு</translation>
+=======
+      <translation type="unfinished">Show Control Points</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="71"/>
       <source>Delete %1 content?</source>
+<<<<<<< HEAD
       <translation>% 1 உள்ளடக்கத்தை நீக்கவா?</translation>
+=======
+      <translation type="unfinished">Delete %1 content?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="72"/>
       <source>The %1 '%2' has %3. Do you want to delete them as well?</source>
+<<<<<<< HEAD
       <translation>% 1 '% 2' % 3 ஐக் கொண்டுள்ளது. அவற்றையும் நீக்க வேண்டுமா?</translation>
+=======
+      <translation type="unfinished">The %1 '%2' has %3. Do you want to delete them as well?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="236"/>
       <source>base and tool objects</source>
+<<<<<<< HEAD
       <translation>அடிப்படை மற்றும் கருவி பொருள்கள்</translation>
+=======
+      <translation type="unfinished">base and tool objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="239"/>
       <source>base object</source>
+<<<<<<< HEAD
       <translation>அடிப்படை பொருள்</translation>
+=======
+      <translation type="unfinished">base object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="242"/>
       <source>tool object</source>
+<<<<<<< HEAD
       <translation>கருவி பொருள்</translation>
+=======
+      <translation type="unfinished">tool object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="247"/>
       <source>Boolean operation</source>
+<<<<<<< HEAD
       <translation>பூலியன் செயல்பாடு</translation>
+=======
+      <translation type="unfinished">Boolean operation</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="342"/>
       <location filename="../../ViewProviderBoolean.cpp" line="486"/>
       <source>%1 input objects</source>
+<<<<<<< HEAD
       <translation>% 1 உள்ளீடு பொருள்கள்</translation>
+=======
+      <translation type="unfinished">%1 input objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="346"/>
       <source>Fusion</source>
+<<<<<<< HEAD
       <translation>இணைவு</translation>
+=======
+      <translation type="unfinished">Fusion</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ViewProviderBoolean.cpp" line="490"/>
       <source>Intersection</source>
+<<<<<<< HEAD
       <translation>குறுக்குவெட்டு</translation>
     </message>
     <message>
@@ -6584,6 +11239,19 @@ Continue?</source>
       <location filename="../../ViewProviderAttachExtension.cpp" line="101"/>
       <source>Edit Attachment</source>
       <translation type="unfinished">Edit Attachment</translation>
+=======
+      <translation type="unfinished">Intersection</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderCompound.cpp" line="76"/>
+      <source>Delete compound content?</source>
+      <translation type="unfinished">Delete compound content?</translation>
+    </message>
+    <message>
+      <location filename="../../ViewProviderCompound.cpp" line="77"/>
+      <source>The compound '%1' has %2 child objects. Do you want to delete them as well?</source>
+      <translation type="unfinished">The compound '%1' has %2 child objects. Do you want to delete them as well?</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6591,52 +11259,92 @@ Continue?</source>
     <message>
       <location filename="../../Workbench.cpp" line="34"/>
       <source>&amp;Part</source>
+<<<<<<< HEAD
       <translation>&amp;பகுதி</translation>
+=======
+      <translation type="unfinished">&amp;Part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="35"/>
       <source>&amp;Simple</source>
+<<<<<<< HEAD
       <translation>&amp;எளிமையானது</translation>
+=======
+      <translation type="unfinished">&amp;Simple</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="36"/>
       <source>&amp;Parametric</source>
+<<<<<<< HEAD
       <translation>&amp;அளவுரு</translation>
+=======
+      <translation type="unfinished">&amp;Parametric</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="37"/>
       <source>Solids</source>
+<<<<<<< HEAD
       <translation>திடப்பொருட்கள்</translation>
+=======
+      <translation type="unfinished">Solids</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="38"/>
       <source>Part Tools</source>
+<<<<<<< HEAD
       <translation>பகுதி கருவிகள்</translation>
+=======
+      <translation type="unfinished">Part Tools</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="39"/>
       <source>Boolean Tools</source>
+<<<<<<< HEAD
       <translation>பூலியன் கருவிகள்</translation>
+=======
+      <translation type="unfinished">Boolean Tools</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="40"/>
       <source>Primitives</source>
+<<<<<<< HEAD
       <translation>ஆதிகாலங்கள்</translation>
+=======
+      <translation type="unfinished">Primitives</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="41"/>
       <source>Join</source>
+<<<<<<< HEAD
       <translation>சேருங்கள்</translation>
+=======
+      <translation type="unfinished">Join</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="42"/>
       <source>Split</source>
+<<<<<<< HEAD
       <translation>பிளவு</translation>
+=======
+      <translation type="unfinished">Split</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="43"/>
       <source>Compound</source>
+<<<<<<< HEAD
       <translation>சேர்மம்</translation>
+=======
+      <translation type="unfinished">Compound</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Workbench.cpp" line="44"/>
@@ -6649,12 +11357,20 @@ Continue?</source>
     <message>
       <location filename="../../../BasicShapes/CommandShapes.py" line="47"/>
       <source>Tube</source>
+<<<<<<< HEAD
       <translation>தூம்பு</translation>
+=======
+      <translation type="unfinished">Tube</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BasicShapes/CommandShapes.py" line="51"/>
       <source>Creates a tube</source>
+<<<<<<< HEAD
       <translation>ஒரு குழாயை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a tube</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6662,12 +11378,20 @@ Continue?</source>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="89"/>
       <source>Computing the result failed with an error:</source>
+<<<<<<< HEAD
       <translation>முடிவைக் கணக்கிடுவதில் பிழை ஏற்பட்டது:</translation>
+=======
+      <translation type="unfinished">Computing the result failed with an error:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="93"/>
       <source>Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</source>
+<<<<<<< HEAD
       <translation>எப்படியும் அம்சத்தை உருவாக்க 'தொடரவும்' அல்லது ரத்து செய்ய 'அபார்ட்' என்பதைக் சொடுக்கு செய்யவும்.</translation>
+=======
+      <translation type="unfinished">Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="94"/>
@@ -6675,7 +11399,11 @@ Continue?</source>
       <location filename="../../../BOPTools/JoinFeatures.py" line="358"/>
       <location filename="../../../BOPTools/JoinFeatures.py" line="474"/>
       <source>Bad Selection</source>
+<<<<<<< HEAD
       <translation>தவறான தேர்வு</translation>
+=======
+      <translation type="unfinished">Bad Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="97"/>
@@ -6685,17 +11413,29 @@ Continue?</source>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="242"/>
       <source>Select at least two objects, or one or more compounds</source>
+<<<<<<< HEAD
       <translation>குறைந்தது இரண்டு பொருள்கள் அல்லது ஒன்று அல்லது அதற்கு மேற்பட்ட கலவைகளைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select at least two objects, or one or more compounds</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="357"/>
       <source>Select base object, then the object to embed, and then invoke this tool.</source>
+<<<<<<< HEAD
       <translation>அடிப்படை பொருளைத் தேர்ந்தெடுத்து, உட்பொதிக்க வேண்டிய பொருளைத் தேர்ந்தெடுத்து, இந்த கருவியைத் தொடங்கவும்.</translation>
+=======
+      <translation type="unfinished">Select base object, then the object to embed, and then invoke this tool.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="473"/>
       <source>Select the object to make a cutout in, then the object that should fit into the cutout, and then invoke this tool.</source>
+<<<<<<< HEAD
       <translation>கட்அவுட்டை உருவாக்குவதற்கான பொருளைத் தேர்ந்தெடுக்கவும், பின்னர் கட்அவுட்டில் பொருந்த வேண்டிய பொருளைத் தேர்ந்தெடுக்கவும், பின்னர் இந்த கருவியைத் தொடங்கவும்.</translation>
+=======
+      <translation type="unfinished">Select the object to make a cutout in, then the object that should fit into the cutout, and then invoke this tool.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6705,14 +11445,22 @@ Continue?</source>
       <location filename="../../../BOPTools/SplitFeatures.py" line="394"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="636"/>
       <source>Computing the result failed with an error:</source>
+<<<<<<< HEAD
       <translation>முடிவைக் கணக்கிடுவதில் பிழை ஏற்பட்டது:</translation>
+=======
+      <translation type="unfinished">Computing the result failed with an error:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="194"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="398"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="640"/>
       <source>Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</source>
+<<<<<<< HEAD
       <translation>எப்படியும் அம்சத்தை உருவாக்க 'தொடரவும்' அல்லது ரத்து செய்ய 'அபார்ட்' என்பதைக் சொடுக்கு செய்யவும்.</translation>
+=======
+      <translation type="unfinished">Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="195"/>
@@ -6723,6 +11471,7 @@ Continue?</source>
       <location filename="../../../BOPTools/SplitFeatures.py" line="641"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="693"/>
       <source>Bad Selection</source>
+<<<<<<< HEAD
       <translation>தவறான தேர்வு</translation>
     </message>
     <message>
@@ -6730,6 +11479,15 @@ Continue?</source>
       <location filename="../../../BOPTools/SplitFeatures.py" line="402"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="644"/>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="137"/>
+=======
+      <translation type="unfinished">Bad Selection</translation>
+    </message>
+    <message>
+      <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="137"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="198"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="402"/>
+      <location filename="../../../BOPTools/SplitFeatures.py" line="644"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Continue</source>
       <translation>தொடரவும்</translation>
     </message>
@@ -6737,13 +11495,21 @@ Continue?</source>
       <location filename="../../../BOPTools/SplitFeatures.py" line="244"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="692"/>
       <source>Select at least two objects, or one or more compounds. If only one compound is selected, the compounded shapes will be intersected between each other (otherwise, compounds with self-intersections are invalid).</source>
+<<<<<<< HEAD
       <translation>குறைந்தது இரண்டு பொருள்கள் அல்லது ஒன்று அல்லது அதற்கு மேற்பட்ட கலவைகளைத் தேர்ந்தெடுக்கவும். ஒரே ஒரு கலவை தேர்ந்தெடுக்கப்பட்டால், கூட்டு வடிவங்கள் ஒன்றுக்கொன்று குறுக்கிடப்படும் (இல்லையெனில், சுய-குறுக்குவெட்டு கொண்ட கலவைகள் தவறானவை).</translation>
+=======
+      <translation type="unfinished">Select at least two objects, or one or more compounds. If only one compound is selected, the compounded shapes will be intersected between each other (otherwise, compounds with self-intersections are invalid).</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="465"/>
       <location filename="../../../BOPTools/SplitFeatures.py" line="504"/>
       <source>Select at least two objects. The first one is the object to be sliced; the rest are objects to slice with.</source>
+<<<<<<< HEAD
       <translation>குறைந்தது இரண்டு பொருள்களைத் தேர்ந்தெடுக்கவும். முதல் ஒன்று வெட்டப்பட வேண்டிய பொருள்; மீதமுள்ளவை வெட்டப்பட வேண்டிய பொருட்கள்.</translation>
+=======
+      <translation type="unfinished">Select at least two objects. The first one is the object to be sliced; the rest are objects to slice with.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6751,12 +11517,20 @@ Continue?</source>
     <message>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="57"/>
       <source>Compound Filter</source>
+<<<<<<< HEAD
       <translation>கூட்டு வடிகட்டி</translation>
+=======
+      <translation type="unfinished">Compound Filter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="87"/>
       <source>First select a shape that is a compound. If a second object is selected (optional) it will be treated as a stencil.</source>
+<<<<<<< HEAD
       <translation>முதலில் கலவையான ஒரு வடிவத்தைத் தேர்ந்தெடுக்கவும். இரண்டாவது பொருள் தேர்ந்தெடுக்கப்பட்டால் (விரும்பினால்) அது ஒரு ச்டென்சிலாகக் கருதப்படும்.</translation>
+=======
+      <translation type="unfinished">First select a shape that is a compound. If a second object is selected (optional) it will be treated as a stencil.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="67"/>
@@ -6764,26 +11538,45 @@ Continue?</source>
 area, or length, or by choosing specific items.
 If a second object is selected, it will be used as reference, for example,
 for collision or distance filtering.</source>
+<<<<<<< HEAD
       <translation>தொகுதி போன்ற குணாதிசயங்களால் தேர்ந்தெடுக்கப்பட்ட கலவையிலிருந்து பொருட்களை வடிகட்டுகிறது, 
 பகுதி, அல்லது நீளம் அல்லது குறிப்பிட்ட பொருட்களைத் தேர்ந்தெடுப்பதன் மூலம். 
 இரண்டாவது பொருள் தேர்ந்தெடுக்கப்பட்டால், அது குறிப்பாகப் பயன்படுத்தப்படும், எடுத்துக்காட்டாக, 
 மோதல் அல்லது தூர வடிகட்டலுக்கு.</translation>
+=======
+      <translation type="unfinished">Filters out objects from the selected compound by characteristics like volume,
+area, or length, or by choosing specific items.
+If a second object is selected, it will be used as reference, for example,
+for collision or distance filtering.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="88"/>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="134"/>
       <source>Bad Selection</source>
+<<<<<<< HEAD
       <translation>தவறான தேர்வு</translation>
+=======
+      <translation type="unfinished">Bad Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="129"/>
       <source>Computing the result failed with an error:</source>
+<<<<<<< HEAD
       <translation>முடிவைக் கணக்கிடுவதில் பிழை ஏற்பட்டது:</translation>
+=======
+      <translation type="unfinished">Computing the result failed with an error:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandCompoundFilter.py" line="133"/>
       <source>Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</source>
+<<<<<<< HEAD
       <translation>எப்படியும் அம்சத்தை உருவாக்க 'தொடரவும்' அல்லது ரத்து செய்ய 'அபார்ட்' என்பதைக் சொடுக்கு செய்யவும்.</translation>
+=======
+      <translation type="unfinished">Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6791,22 +11584,38 @@ for collision or distance filtering.</source>
     <message>
       <location filename="../../../CompoundTools/_CommandExplodeCompound.py" line="58"/>
       <source>Explode Compound</source>
+<<<<<<< HEAD
       <translation>வெடிப்பு கலவை</translation>
+=======
+      <translation type="unfinished">Explode Compound</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandExplodeCompound.py" line="63"/>
       <source>Splits up a compound of shapes into separate objects, creating a compound filter for each shape</source>
+<<<<<<< HEAD
       <translation>வடிவங்களின் கலவையை தனித்தனி பொருள்களாகப் பிரித்து, ஒவ்வொரு வடிவத்திற்கும் ஒரு கலவை வடிகட்டியை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Splits up a compound of shapes into separate objects, creating a compound filter for each shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandExplodeCompound.py" line="74"/>
       <source>First select a shape that is a compound.</source>
+<<<<<<< HEAD
       <translation>முதலில் கலவையான ஒரு வடிவத்தைத் தேர்ந்தெடுக்கவும்.</translation>
+=======
+      <translation type="unfinished">First select a shape that is a compound.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../CompoundTools/_CommandExplodeCompound.py" line="75"/>
       <source>Bad Selection</source>
+<<<<<<< HEAD
       <translation>தவறான தேர்வு</translation>
+=======
+      <translation type="unfinished">Bad Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -6814,22 +11623,38 @@ for collision or distance filtering.</source>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="104"/>
       <source>No object named {}</source>
+<<<<<<< HEAD
       <translation>{} என்ற பெயரில் எந்த பொருளும் இல்லை</translation>
+=======
+      <translation type="unfinished">No object named {}</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="113"/>
       <source>Failed to parse link (more than one colon encountered)</source>
+<<<<<<< HEAD
       <translation>இணைப்பை அலசுவதில் தோல்வி (ஒன்றுக்கும் மேற்பட்ட பெருங்குடல் எதிர்கொண்டது)</translation>
+=======
+      <translation type="unfinished">Failed to parse link (more than one colon encountered)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="251"/>
       <source>Object {} is neither movable nor attachable, can't edit attachment</source>
+<<<<<<< HEAD
       <translation>பொருள் {} நகரக்கூடியது அல்லது இணைக்கக்கூடியது அல்ல, இணைப்பைத் திருத்த முடியாது</translation>
+=======
+      <translation type="unfinished">Object {} is neither movable nor attachable, can't edit attachment</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="264"/>
       <source>{} is not attachable. The attachment editor can still be used to align the object, but the attachment will not be parametric.</source>
+<<<<<<< HEAD
       <translation>{} இணைக்கப்படவில்லை. பொருளை சீரமைக்க இணைப்பு எடிட்டரை இன்னும் பயன்படுத்தலாம், ஆனால் இணைப்பு அளவுருவாக இருக்காது.</translation>
+=======
+      <translation type="unfinished">{} is not attachable. The attachment editor can still be used to align the object, but the attachment will not be parametric.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="266"/>
@@ -6846,77 +11671,134 @@ for collision or distance filtering.</source>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="354"/>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="401"/>
       <source>Edit attachment of {}</source>
+<<<<<<< HEAD
       <translation>{} இன் இணைப்பைத் திருத்தவும்</translation>
+=======
+      <translation type="unfinished">Edit attachment of {}</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="471"/>
       <source>Ignored. Can't attach object to itself!</source>
+<<<<<<< HEAD
       <translation>புறக்கணிக்கப்பட்டது. பொருளை தன்னுடன் இணைக்க முடியாது!</translation>
+=======
+      <translation type="unfinished">Ignored. Can't attach object to itself!</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="479"/>
       <source>{} depends on object being attached, can't use it for attachment</source>
+<<<<<<< HEAD
       <translation>{} இணைக்கப்பட்ட பொருளைப் பொறுத்தது, அதை இணைப்பிற்குப் பயன்படுத்த முடியாது</translation>
+=======
+      <translation type="unfinished">{} depends on object being attached, can't use it for attachment</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="631"/>
       <source>{} (add {})</source>
+<<<<<<< HEAD
       <translation>{} (சேர் {})</translation>
+=======
+      <translation type="unfinished">{} (add {})</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="635"/>
       <source>{} (add more references)</source>
+<<<<<<< HEAD
       <translation>{} (மேலும் குறிப்புகளைச் சேர்க்கவும்)</translation>
+=======
+      <translation type="unfinished">{} (add more references)</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="671"/>
       <source>Reference combinations:</source>
+<<<<<<< HEAD
       <translation>குறிப்பு சேர்க்கைகள்:</translation>
+=======
+      <translation type="unfinished">Reference combinations:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="686"/>
       <source>Reference{}</source>
+<<<<<<< HEAD
       <translation>குறிப்பு{}</translation>
+=======
+      <translation type="unfinished">Reference{}</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="693"/>
       <source>Selecting…</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கிறது…</translation>
+=======
+      <translation type="unfinished">Selecting…</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="722"/>
       <source>Failed to resolve links. {}</source>
+<<<<<<< HEAD
       <translation>இணைப்புகளைத் தீர்க்க முடியவில்லை. {}</translation>
+=======
+      <translation type="unfinished">Failed to resolve links. {}</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="733"/>
       <source>Not attached</source>
+<<<<<<< HEAD
       <translation>இணைக்கப்படவில்லை</translation>
+=======
+      <translation type="unfinished">Not attached</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="736"/>
       <source>Attached with mode {}</source>
+<<<<<<< HEAD
       <translation>பயன்முறையுடன் இணைக்கப்பட்டது {}</translation>
+=======
+      <translation type="unfinished">Attached with mode {}</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="746"/>
       <source>Error: {}</source>
+<<<<<<< HEAD
       <translation>பிழை: {}</translation>
+=======
+      <translation type="unfinished">Error: {}</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="752"/>
       <source>Attachment Offset (in local coordinates):</source>
+<<<<<<< HEAD
       <translation>இணைப்பு ஆஃப்செட் (உள்ளூர் ஆயங்களில்):</translation>
+=======
+      <translation type="unfinished">Attachment Offset (in local coordinates):</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../AttachmentEditor/TaskAttachmentEditor.py" line="757"/>
       <source>Attachment Offset (inactive - not attached):</source>
+<<<<<<< HEAD
       <translation>இணைப்பு ஆஃப்செட் (செயலற்றது - இணைக்கப்படவில்லை):</translation>
+=======
+      <translation type="unfinished">Attachment Offset (inactive - not attached):</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>TaskCheckGeometryResults</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="30"/>
       <source>Shape type</source>
       <translation>வடிவ வகை</translation>
@@ -6928,15 +11810,33 @@ for collision or distance filtering.</source>
     </message>
     <message>
       <location filename="../../../BasicShapes/ShapeContent.py" line="34"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="31"/>
+      <source>Shape type</source>
+      <translation type="unfinished">Shape type</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="33"/>
+      <source>Vertices</source>
+      <translation type="unfinished">Vertices</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="35"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Edges</source>
       <translation>விளிம்புகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="35"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="36"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Wires</source>
       <translation>கம்பிகள்</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="36"/>
       <source>Faces</source>
       <translation>முகங்கள்</translation>
@@ -6953,10 +11853,29 @@ for collision or distance filtering.</source>
     </message>
     <message>
       <location filename="../../../BasicShapes/ShapeContent.py" line="41"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="37"/>
+      <source>Faces</source>
+      <translation type="unfinished">Faces</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="38"/>
+      <source>Shells</source>
+      <translation type="unfinished">Shells</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="39"/>
+      <source>Solids</source>
+      <translation type="unfinished">Solids</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="42"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>CompSolids</source>
       <translation type="unfinished">CompSolids</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="46"/>
       <source>Compounds</source>
       <translation>இனம்</translation>
@@ -6968,15 +11887,33 @@ for collision or distance filtering.</source>
     </message>
     <message>
       <location filename="../../../BasicShapes/ShapeContent.py" line="75"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="47"/>
+      <source>Compounds</source>
+      <translation type="unfinished">Compounds</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="51"/>
+      <source>Shapes</source>
+      <translation type="unfinished">Shapes</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="76"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Area</source>
       <translation>பகுதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="88"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="89"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Volume</source>
       <translation>தொகுதி</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../../BasicShapes/ShapeContent.py" line="95"/>
       <source>Mass</source>
       <translation>நிறை</translation>
@@ -7028,6 +11965,59 @@ for collision or distance filtering.</source>
     </message>
     <message>
       <location filename="../../../BasicShapes/ShapeContent.py" line="196"/>
+=======
+      <location filename="../../../BasicShapes/ShapeContent.py" line="96"/>
+      <source>Mass</source>
+      <translation type="unfinished">Mass</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="103"/>
+      <source>Length</source>
+      <translation type="unfinished">Length</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="110"/>
+      <source>Radius</source>
+      <translation type="unfinished">Radius</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="117"/>
+      <source>Curve center</source>
+      <translation type="unfinished">Curve center</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="124"/>
+      <source>Continuity</source>
+      <translation type="unfinished">Continuity</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="131"/>
+      <source>Center of mass</source>
+      <translation type="unfinished">Center of mass</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="152"/>
+      <source>Is closed</source>
+      <translation type="unfinished">Is closed</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="159"/>
+      <source>Orientation</source>
+      <translation type="unfinished">Orientation</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="177"/>
+      <source>Global center of mass</source>
+      <translation type="unfinished">Global center of mass</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="195"/>
+      <source>Global placement</source>
+      <translation type="unfinished">Global placement</translation>
+    </message>
+    <message>
+      <location filename="../../../BasicShapes/ShapeContent.py" line="197"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Placement</source>
       <translation>இடவமைவு</translation>
     </message>
@@ -7037,16 +12027,26 @@ for collision or distance filtering.</source>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="668"/>
       <source>Boolean XOR</source>
+<<<<<<< HEAD
       <translation>பூலியன் XOR</translation>
+=======
+      <translation type="unfinished">Boolean XOR</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="675"/>
       <source>Performs an 'exclusive OR' boolean operation with two or more selected objects,
 or with the shapes inside a compound.
 Overlapping volumes of the shapes will be removed.</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட இரண்டு அல்லது அதற்கு மேற்பட்ட பொருள்களுடன் 'பிரத்தியேகமான அல்லது' பூலியன் செயல்பாட்டைச் செய்கிறது, 
 அல்லது கலவையின் உள்ளே இருக்கும் வடிவங்களுடன். 
 வடிவங்களின் மேலெழுதல் தொகுதிகள் அகற்றப்படும்.</translation>
+=======
+      <translation type="unfinished">Performs an 'exclusive OR' boolean operation with two or more selected objects,
+or with the shapes inside a compound.
+Overlapping volumes of the shapes will be removed.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7054,21 +12054,40 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../DlgScale.ui" line="14"/>
       <source>Scale</source>
+<<<<<<< HEAD
       <translation>அளவுகோல்</translation>
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="22"/>
       <source>X-factor</source>
       <translation>ஃச் காரணி</translation>
+=======
+      <translation type="unfinished">Scale</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="29"/>
       <source>Factor</source>
+<<<<<<< HEAD
       <translation>காரணி</translation>
+=======
+      <translation type="unfinished">Factor</translation>
+    </message>
+    <message>
+      <location filename="../../DlgScale.ui" line="22"/>
+      <source>X factor</source>
+      <translation type="unfinished">X factor</translation>
+    </message>
+    <message>
+      <location filename="../../DlgScale.ui" line="64"/>
+      <source>Z factor</source>
+      <translation type="unfinished">Z factor</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="71"/>
       <source>Scale the object by a single factor in all directions.</source>
+<<<<<<< HEAD
       <translation>அனைத்து திசைகளிலும் ஒரு காரணி மூலம் பொருளை அளவிடவும்.</translation>
     </message>
     <message>
@@ -7085,31 +12104,64 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../DlgScale.ui" line="112"/>
       <source>Y-factor</source>
       <translation>ஒய்-காரணி</translation>
+=======
+      <translation type="unfinished">Scale the object by a single factor in all directions.</translation>
+    </message>
+    <message>
+      <location filename="../../DlgScale.ui" line="74"/>
+      <source>Uniform Scaling</source>
+      <translation type="unfinished">Uniform Scaling</translation>
+    </message>
+    <message>
+      <location filename="../../DlgScale.ui" line="112"/>
+      <source>Y factor</source>
+      <translation type="unfinished">Y factor</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="119"/>
       <source>Specify a different scale factor for each cardinal direction</source>
+<<<<<<< HEAD
       <translation>ஒவ்வொரு கார்டினல் திசைக்கும் வெவ்வேறு அளவிலான காரணியைக் குறிப்பிடவும்</translation>
+=======
+      <translation type="unfinished">Specify a different scale factor for each cardinal direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="122"/>
       <source>Non-uniform scaling</source>
+<<<<<<< HEAD
       <translation>சீரற்ற அளவீடு</translation>
+=======
+      <translation type="unfinished">Non-uniform scaling</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="195"/>
       <source>Select shapes to be scaled</source>
+<<<<<<< HEAD
       <translation>அளவிட வேண்டிய வடிவங்களைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select shapes to be scaled</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.ui" line="199"/>
       <source>Shape</source>
+<<<<<<< HEAD
       <translation>வடிவம்</translation>
+=======
+      <translation type="unfinished">Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.cpp" line="206"/>
       <source>No scalable shapes selected</source>
+<<<<<<< HEAD
       <translation>அளவிடக்கூடிய வடிவங்கள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை</translation>
+=======
+      <translation type="unfinished">No scalable shapes selected</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgScale.cpp" line="216"/>
@@ -7121,13 +12173,19 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../DlgScale.cpp" line="283"/>
       <source>Creating scale failed.
 %1</source>
+<<<<<<< HEAD
       <translation>அளவை உருவாக்குவது தோல்வியடைந்தது. 
 % 1</translation>
+=======
+      <translation type="unfinished">Creating scale failed.
+%1</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartScale</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="1463"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -7141,6 +12199,21 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="1465"/>
       <source>Scales the selected shape</source>
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவத்தை அளவிடுகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="1476"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1477"/>
+      <source>Scale</source>
+      <translation type="unfinished">Scale</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="1478"/>
+      <source>Scales the selected shape</source>
+      <translation type="unfinished">Scales the selected shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7148,12 +12221,17 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../App/FaceMaker.cpp" line="82"/>
       <source>Shape must be a wire, edge or compound. Something else was supplied.</source>
+<<<<<<< HEAD
       <translation>வடிவம் ஒரு கம்பி, விளிம்பு அல்லது கலவையாக இருக்க வேண்டும். வேறு ஏதோ சப்ளை செய்யப்பட்டது.</translation>
+=======
+      <translation type="unfinished">Shape must be a wire, edge or compound. Something else was supplied.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Part::FaceMakerSimple</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMaker.cpp" line="338"/>
       <source>Simple</source>
       <translation>எளிமையானது</translation>
@@ -7162,11 +12240,22 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../../App/FaceMaker.cpp" line="343"/>
       <source>Makes separate plane face from every wire independently. No support for holes; wires can be on different planes.</source>
       <translation>ஒவ்வொரு கம்பியிலிருந்தும் தனித்தனி விமான முகத்தை சுயாதீனமாக உருவாக்குகிறது. துளைகளுக்கு உதவி இல்லை; கம்பிகள் வெவ்வேறு விமானங்களில் இருக்கலாம்.</translation>
+=======
+      <location filename="../../../App/FaceMaker.cpp" line="307"/>
+      <source>Simple</source>
+      <translation type="unfinished">Simple</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FaceMaker.cpp" line="312"/>
+      <source>Makes separate plane face from every wire independently. No support for holes; wires can be on different planes.</source>
+      <translation type="unfinished">Makes separate plane face from every wire independently. No support for holes; wires can be on different planes.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Part::FaceMakerBullseye</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMakerBullseye.cpp" line="60"/>
       <source>Bull's-eye facemaker</source>
       <translation>காளையின் கண் முகத்தை உருவாக்குபவர்</translation>
@@ -7175,6 +12264,16 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../../App/FaceMakerBullseye.cpp" line="65"/>
       <source>Supports making planar faces with holes with islands in them</source>
       <translation>தீவுகளுடன் கூடிய துளைகளுடன் சமதள முகங்களை உருவாக்குவதை ஆதரிக்கிறது</translation>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="61"/>
+      <source>Bull's-eye facemaker</source>
+      <translation type="unfinished">Bull's-eye facemaker</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="66"/>
+      <source>Supports making planar faces with holes with islands in them</source>
+      <translation type="unfinished">Supports making planar faces with holes with islands in them</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7182,17 +12281,26 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../App/FaceMakerCheese.cpp" line="257"/>
       <source>Cheese facemaker</source>
+<<<<<<< HEAD
       <translation>சீச் ஃபேச்மேக்கர்</translation>
+=======
+      <translation type="unfinished">Cheese facemaker</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../App/FaceMakerCheese.cpp" line="262"/>
       <source>Supports making planar faces with holes, but no islands inside holes</source>
+<<<<<<< HEAD
       <translation>துளைகளுடன் சமதள முகங்களை உருவாக்குவதை ஆதரிக்கிறது, ஆனால் துளைகளுக்குள் தீவுகள் இல்லை</translation>
+=======
+      <translation type="unfinished">Supports making planar faces with holes, but no islands inside holes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Part::FaceMakerExtrusion</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FeatureExtrusion.cpp" line="427"/>
       <source>Part Extrude facemaker</source>
       <translation>பகுதி எக்ச்ட்ரூட் ஃபேச்மேக்கர்</translation>
@@ -7201,6 +12309,16 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../../App/FeatureExtrusion.cpp" line="432"/>
       <source>Supports making faces with holes, does not support nesting.</source>
       <translation>துளைகளுடன் முகங்களை உருவாக்குவதை ஆதரிக்கிறது, கூடு கட்டுவதை ஆதரிக்காது.</translation>
+=======
+      <location filename="../../../App/FeatureExtrusion.cpp" line="421"/>
+      <source>Part Extrude facemaker</source>
+      <translation type="unfinished">Part Extrude facemaker</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FeatureExtrusion.cpp" line="426"/>
+      <source>Supports making faces with holes, does not support nesting.</source>
+      <translation type="unfinished">Supports making faces with holes, does not support nesting.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7208,17 +12326,29 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="14"/>
       <source>Appearance per Face</source>
+<<<<<<< HEAD
       <translation>ஒவ்வொரு முகத்திற்கும் தோற்றம்</translation>
+=======
+      <translation type="unfinished">Appearance per Face</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="20"/>
       <source>Select the faces in the 3D view</source>
+<<<<<<< HEAD
       <translation>3D காட்சியில் முகங்களைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select the faces in the 3D view</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="41"/>
       <source>Faces</source>
+<<<<<<< HEAD
       <translation>முகங்கள்</translation>
+=======
+      <translation type="unfinished">Faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="66"/>
@@ -7228,27 +12358,47 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="74"/>
       <source>Custom appearance</source>
+<<<<<<< HEAD
       <translation>விருப்ப தோற்றம்</translation>
+=======
+      <translation type="unfinished">Custom appearance</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="88"/>
       <source>Resets color for all faces of the part</source>
+<<<<<<< HEAD
       <translation>பகுதியின் அனைத்து முகங்களுக்கும் வண்ணத்தை மீட்டமைக்கிறது</translation>
+=======
+      <translation type="unfinished">Resets color for all faces of the part</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="91"/>
       <source>Set to Default</source>
+<<<<<<< HEAD
       <translation>இயல்புநிலைக்கு அமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Set to Default</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="98"/>
       <source>Allows the selection of multiple faces by dragging a rectangle in the 3D view</source>
+<<<<<<< HEAD
       <translation>3D காட்சியில் ஒரு செவ்வகத்தை இழுப்பதன் மூலம் பல முகங்களைத் தேர்ந்தெடுக்க அனுமதிக்கிறது</translation>
+=======
+      <translation type="unfinished">Allows the selection of multiple faces by dragging a rectangle in the 3D view</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFaceAppearances.ui" line="101"/>
       <source>Box Selection</source>
+<<<<<<< HEAD
       <translation>பெட்டி தேர்வு</translation>
+=======
+      <translation type="unfinished">Box Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7256,17 +12406,29 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="83"/>
       <source>Computing the result failed with an error:</source>
+<<<<<<< HEAD
       <translation>முடிவைக் கணக்கிடுவதில் பிழை ஏற்பட்டது:</translation>
+=======
+      <translation type="unfinished">Computing the result failed with an error:</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="87"/>
       <source>Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</source>
+<<<<<<< HEAD
       <translation>எப்படியும் அம்சத்தை உருவாக்க 'தொடரவும்' அல்லது ரத்து செய்ய 'அபார்ட்' என்பதைக் சொடுக்கு செய்யவும்.</translation>
+=======
+      <translation type="unfinished">Click 'Continue' to create the feature anyway, or 'Abort' to cancel.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="88"/>
       <source>Bad Selection</source>
+<<<<<<< HEAD
       <translation>தவறான தேர்வு</translation>
+=======
+      <translation type="unfinished">Bad Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="91"/>
@@ -7279,27 +12441,44 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="232"/>
       <source>Set Tolerance</source>
+<<<<<<< HEAD
       <translation>சகிப்புத்தன்மையை அமைக்கவும்</translation>
+=======
+      <translation type="unfinished">Set Tolerance</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="237"/>
       <source>Creates a parametric copy of the selected object with all contained tolerances set to at least a certain minimum value</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருளின் அளவுரு நகலை உருவாக்குகிறது, அதில் உள்ள அனைத்து சகிப்புத்தன்மையும் குறைந்தபட்சம் ஒரு குறிப்பிட்ட குறைந்தபட்ச மதிப்பிற்கு அமைக்கப்பட்டுள்ளது</translation>
+=======
+      <translation type="unfinished">Creates a parametric copy of the selected object with all contained tolerances set to at least a certain minimum value</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="249"/>
       <source>Bad Selection</source>
+<<<<<<< HEAD
       <translation>தவறான தேர்வு</translation>
+=======
+      <translation type="unfinished">Bad Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/ToleranceFeatures.py" line="248"/>
       <source>Select at least one object or compounds</source>
+<<<<<<< HEAD
       <translation>குறைந்தது ஒரு பொருள் அல்லது சேர்மத்தைத் தேர்ந்தெடுக்கவும்</translation>
+=======
+      <translation type="unfinished">Select at least one object or compounds</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartCoordinateSystem</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2524"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -7313,11 +12492,27 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="2526"/>
       <source>Creates a coordinate system that can be attached to other objects</source>
       <translation>மற்ற பொருட்களுடன் இணைக்கக்கூடிய ஒரு ஒருங்கிணைப்பு அமைப்பை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2537"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2538"/>
+      <source>Coordinate System</source>
+      <translation type="unfinished">Coordinate System</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2539"/>
+      <source>Creates a coordinate system that can be attached to other objects</source>
+      <translation type="unfinished">Creates a coordinate system that can be attached to other objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartDatums</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2667"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -7331,19 +12526,41 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="2670"/>
       <source>Creates a datum object (coordinate system, plane, line, or point) that can be attached to other objects</source>
       <translation>பிற பொருள்களுடன் இணைக்கக்கூடிய டேட்டம் பொருளை (ஒருங்கிணைப்பு அமைப்பு, வானூர்தி, கோடு அல்லது புள்ளி) உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2676"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2677"/>
+      <source>Datums</source>
+      <translation type="unfinished">Datums</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2679"/>
+      <source>Creates a datum object (coordinate system, plane, line, or point) that can be attached to other objects</source>
+      <translation type="unfinished">Creates a datum object (coordinate system, plane, line, or point) that can be attached to other objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Exceptions</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/Geometry.cpp" line="6723"/>
       <source>Unable to guess intersection of curves. Try adding a coincident constraint between the vertices of the curves you are intending to fillet.</source>
       <translation>வளைவுகளின் குறுக்குவெட்டை யூகிக்க முடியவில்லை. நீங்கள் ஃபில்லட் செய்ய விரும்பும் வளைவுகளின் செங்குத்துகளுக்கு இடையில் ஒரு தற்செயல் தடையைச் சேர்க்க முயற்சிக்கவும்.</translation>
+=======
+      <location filename="../../../App/Geometry.cpp" line="6656"/>
+      <source>Unable to guess intersection of curves. Try adding a coincident constraint between the vertices of the curves you are intending to fillet.</source>
+      <translation type="unfinished">Unable to guess intersection of curves. Try adding a coincident constraint between the vertices of the curves you are intending to fillet.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartDatumPlane</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2563"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -7357,11 +12574,27 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="2565"/>
       <source>Creates a datum plane that can be attached to other objects</source>
       <translation>மற்ற பொருட்களுடன் இணைக்கக்கூடிய டேட்டம் விமானத்தை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2575"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2576"/>
+      <source>Datum Plane</source>
+      <translation type="unfinished">Datum Plane</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2577"/>
+      <source>Creates a datum plane that can be attached to other objects</source>
+      <translation type="unfinished">Creates a datum plane that can be attached to other objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartDatumLine</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2597"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -7375,11 +12608,27 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="2599"/>
       <source>Creates a datum line that can be attached to other objects</source>
       <translation>பிற பொருட்களுடன் இணைக்கக்கூடிய தரவுக் கோட்டை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2608"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2609"/>
+      <source>Datum Line</source>
+      <translation type="unfinished">Datum Line</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2610"/>
+      <source>Creates a datum line that can be attached to other objects</source>
+      <translation type="unfinished">Creates a datum line that can be attached to other objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartDatumPoint</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2631"/>
       <source>Part</source>
       <translation>பகுதி</translation>
@@ -7393,6 +12642,21 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="2633"/>
       <source>Creates a datum point that can be attached to other objects</source>
       <translation>மற்ற பொருட்களுடன் இணைக்கக்கூடிய தரவு புள்ளியை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2641"/>
+      <source>Part</source>
+      <translation type="unfinished">Part</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2642"/>
+      <source>Datum Point</source>
+      <translation type="unfinished">Datum Point</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2643"/>
+      <source>Creates a datum point that can be attached to other objects</source>
+      <translation type="unfinished">Creates a datum point that can be attached to other objects</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7405,7 +12669,11 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../AttachmentEditor/Commands.py" line="95"/>
       <source>Opens the attachment editor to change the attachment of the selected object</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருளின் இணைப்பை மாற்ற இணைப்பு திருத்தியைத் திறக்கும்</translation>
+=======
+      <translation type="unfinished">Opens the attachment editor to change the attachment of the selected object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7413,12 +12681,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="223"/>
       <source>Connect Shapes</source>
+<<<<<<< HEAD
       <translation>வடிவங்களை இணைக்கவும்</translation>
+=======
+      <translation type="unfinished">Connect Shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="227"/>
       <source>Fuses shapes, taking care to preserve voids</source>
+<<<<<<< HEAD
       <translation>வடிவங்களை இணைக்கிறது, வெற்றிடங்களைப் பாதுகாக்க கவனித்துக்கொள்கிறது</translation>
+=======
+      <translation type="unfinished">Fuses shapes, taking care to preserve voids</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7426,12 +12702,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="338"/>
       <source>Embed Shapes</source>
+<<<<<<< HEAD
       <translation>வடிவங்களை உட்பொதிக்கவும்</translation>
+=======
+      <translation type="unfinished">Embed Shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="342"/>
       <source>Fuses one shape into another, taking care to preserve voids</source>
+<<<<<<< HEAD
       <translation>ஒரு வடிவத்தை மற்றொரு வடிவத்துடன் இணைத்து, வெற்றிடங்களைப் பாதுகாக்கும்</translation>
+=======
+      <translation type="unfinished">Fuses one shape into another, taking care to preserve voids</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7439,12 +12723,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="454"/>
       <source>Cutout Shape</source>
+<<<<<<< HEAD
       <translation>கட்அவுட் வடிவம்</translation>
+=======
+      <translation type="unfinished">Cutout Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/JoinFeatures.py" line="458"/>
       <source>Creates a cutout in the selected shape to fit another shape</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவத்தில் மற்றொரு வடிவத்திற்கு ஏற்றவாறு கட்அவுட்டை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a cutout in the selected shape to fit another shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7452,12 +12744,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="222"/>
       <source>Boolean Fragments</source>
+<<<<<<< HEAD
       <translation>பூலியன் துண்டுகள்</translation>
+=======
+      <translation type="unfinished">Boolean Fragments</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="227"/>
       <source>Creates a boolean union which is sliced at the intersections of the selected shapes</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட வடிவங்களின் குறுக்குவெட்டுகளில் வெட்டப்பட்ட பூலியன் ஒன்றியத்தை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Creates a boolean union which is sliced at the intersections of the selected shapes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7465,12 +12765,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="443"/>
       <source>Slice to Compound</source>
+<<<<<<< HEAD
       <translation>கலவைக்கு துண்டு</translation>
+=======
+      <translation type="unfinished">Slice to Compound</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="448"/>
       <source>Slices the selected object by using other objects as cutting tools and storing the results in one compound</source>
+<<<<<<< HEAD
       <translation>மற்ற பொருட்களை வெட்டும் கருவிகளாகப் பயன்படுத்தி, முடிவுகளை ஒரு கலவையில் சேமித்து, தேர்ந்தெடுக்கப்பட்ட பொருளைத் துண்டாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Slices the selected object by using other objects as cutting tools and storing the results in one compound</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7478,12 +12786,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="482"/>
       <source>Slice Apart</source>
+<<<<<<< HEAD
       <translation>பிரித்து வைக்கவும்</translation>
+=======
+      <translation type="unfinished">Slice Apart</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../../BOPTools/SplitFeatures.py" line="487"/>
       <source>Slices the selected object by other objects, and splits it apart, creating a compound filter for each slide</source>
+<<<<<<< HEAD
       <translation>தேர்ந்தெடுக்கப்பட்ட பொருளை மற்ற பொருள்களால் ச்லைச் செய்து, பிரித்து, ஒவ்வொரு ச்லைடிற்கும் ஒரு கூட்டு வடிகட்டியை உருவாக்குகிறது</translation>
+=======
+      <translation type="unfinished">Slices the selected object by other objects, and splits it apart, creating a compound filter for each slide</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7491,7 +12807,11 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../DlgPartBox.ui" line="14"/>
       <source>Box Definition</source>
+<<<<<<< HEAD
       <translation>பெட்டி வரையறை</translation>
+=======
+      <translation type="unfinished">Box Definition</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartBox.ui" line="20"/>
@@ -7516,22 +12836,38 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../DlgPartBox.ui" line="92"/>
       <source>Direction</source>
+<<<<<<< HEAD
       <translation>திசை</translation>
+=======
+      <translation type="unfinished">Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartBox.ui" line="109"/>
       <source>Size</source>
+<<<<<<< HEAD
       <translation>அளவு</translation>
+=======
+      <translation type="unfinished">Size</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartBox.ui" line="121"/>
       <source>Length</source>
+<<<<<<< HEAD
       <translation>நீளம்</translation>
+=======
+      <translation type="unfinished">Length</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartBox.ui" line="141"/>
       <source>Width</source>
+<<<<<<< HEAD
       <translation>அகலம்</translation>
+=======
+      <translation type="unfinished">Width</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../DlgPartBox.ui" line="161"/>
@@ -7544,22 +12880,35 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../ShapeFromMesh.ui" line="14"/>
       <source>Shape From Mesh</source>
+<<<<<<< HEAD
       <translation>மெச் இருந்து வடிவம்</translation>
+=======
+      <translation type="unfinished">Shape From Mesh</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ShapeFromMesh.ui" line="20"/>
       <source>Sew Shape</source>
+<<<<<<< HEAD
       <translation>வடிவத்தை தைக்கவும்</translation>
+=======
+      <translation type="unfinished">Sew Shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../ShapeFromMesh.ui" line="32"/>
       <source>Tolerance for sewing the shape</source>
+<<<<<<< HEAD
       <translation>வடிவத்தை தைக்க சகிப்புத்தன்மை</translation>
+=======
+      <translation type="unfinished">Tolerance for sewing the shape</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>Part::FaceMakerRing</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../../App/FaceMakerBullseye.cpp" line="367"/>
       <source>Ring facemaker</source>
       <translation>மோதிரத்தை முகப்படுத்துபவர்</translation>
@@ -7568,11 +12917,22 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../../App/FaceMakerBullseye.cpp" line="372"/>
       <source>Supports making planar faces with holes and holes as faces</source>
       <translation>பிளானர் முகங்களை துளைகள் மற்றும் துளைகளை முகங்களாக உருவாக்குவதை ஆதரிக்கிறது</translation>
+=======
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="371"/>
+      <source>Ring facemaker</source>
+      <translation type="unfinished">Ring facemaker</translation>
+    </message>
+    <message>
+      <location filename="../../../App/FaceMakerBullseye.cpp" line="376"/>
+      <source>Supports making planar faces with holes and holes as faces</source>
+      <translation type="unfinished">Supports making planar faces with holes and holes as faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>CmdPartSectionCut</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../Command.cpp" line="2460"/>
       <source>Persiste&amp;nt Section Cut</source>
       <translation>Persiste&amp;nt பிரிவு வெட்டு</translation>
@@ -7581,6 +12941,16 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../Command.cpp" line="2461"/>
       <source>Creates a new object as a boolean intersection of all visible shapes and the selected axis planes</source>
       <translation>காணக்கூடிய அனைத்து வடிவங்கள் மற்றும் தேர்ந்தெடுக்கப்பட்ட அச்சு விமானங்களின் பூலியன் குறுக்குவெட்டாக ஒரு புதிய பொருளை உருவாக்குகிறது</translation>
+=======
+      <location filename="../../Command.cpp" line="2473"/>
+      <source>Persiste&amp;nt Section Cut</source>
+      <translation type="unfinished">Persiste&amp;nt Section Cut</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="2474"/>
+      <source>Creates a new object as a boolean intersection of all visible shapes and the selected axis planes</source>
+      <translation type="unfinished">Creates a new object as a boolean intersection of all visible shapes and the selected axis planes</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7588,12 +12958,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../CommandFilter.cpp" line="46"/>
       <source>Selection Filter</source>
+<<<<<<< HEAD
       <translation>தேர்வு வடிகட்டி</translation>
+=======
+      <translation type="unfinished">Selection Filter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandFilter.cpp" line="47"/>
       <source>Changes the selection filter</source>
+<<<<<<< HEAD
       <translation>தேர்வு வடிகட்டியை மாற்றுகிறது</translation>
+=======
+      <translation type="unfinished">Changes the selection filter</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7601,12 +12979,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../CommandFilter.cpp" line="193"/>
       <source>Vertex Selection</source>
+<<<<<<< HEAD
       <translation>வெர்டெக்ச் தேர்வு</translation>
+=======
+      <translation type="unfinished">Vertex Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandFilter.cpp" line="194"/>
       <source>Only allows the selection of vertices</source>
+<<<<<<< HEAD
       <translation>செங்குத்துகளைத் தேர்ந்தெடுக்க மட்டுமே அனுமதிக்கிறது</translation>
+=======
+      <translation type="unfinished">Only allows the selection of vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7614,12 +13000,20 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../CommandFilter.cpp" line="218"/>
       <source>Edge Selection</source>
+<<<<<<< HEAD
       <translation>விளிம்பு தேர்வு</translation>
+=======
+      <translation type="unfinished">Edge Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandFilter.cpp" line="219"/>
       <source>Only allows the selection of edges</source>
+<<<<<<< HEAD
       <translation>விளிம்புகளைத் தேர்ந்தெடுக்க மட்டுமே அனுமதிக்கிறது</translation>
+=======
+      <translation type="unfinished">Only allows the selection of edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7627,17 +13021,26 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../CommandFilter.cpp" line="243"/>
       <source>Face Selection</source>
+<<<<<<< HEAD
       <translation>முகம் தேர்வு</translation>
+=======
+      <translation type="unfinished">Face Selection</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../CommandFilter.cpp" line="244"/>
       <source>Only allows the selection of faces</source>
+<<<<<<< HEAD
       <translation>முகங்களைத் தேர்ந்தெடுக்க மட்டுமே அனுமதிக்கிறது</translation>
+=======
+      <translation type="unfinished">Only allows the selection of faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>PartCmdRemoveSelectionGate</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../CommandFilter.cpp" line="273"/>
       <source>No Selection Filters</source>
       <translation>தேர்வு வடிப்பான்கள் இல்லை</translation>
@@ -7646,6 +13049,16 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../CommandFilter.cpp" line="274"/>
       <source>Clears all selection filters</source>
       <translation>அனைத்து தேர்வு வடிப்பான்களையும் அழிக்கும்</translation>
+=======
+      <location filename="../../CommandFilter.cpp" line="268"/>
+      <source>No Selection Filters</source>
+      <translation type="unfinished">No Selection Filters</translation>
+    </message>
+    <message>
+      <location filename="../../CommandFilter.cpp" line="269"/>
+      <source>Clears all selection filters</source>
+      <translation type="unfinished">Clears all selection filters</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7669,47 +13082,80 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="29"/>
       <source>Direction 2</source>
+<<<<<<< HEAD
       <translation>திசை 2</translation>
+=======
+      <translation type="unfinished">Direction 2</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="36"/>
       <source>Direction</source>
+<<<<<<< HEAD
       <translation>திசை</translation>
+=======
+      <translation type="unfinished">Direction</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="50"/>
       <source>Reverse the direction of the pattern.</source>
+<<<<<<< HEAD
       <translation>வடிவத்தின் திசையை மாற்றவும்.</translation>
+=======
+      <translation type="unfinished">Reverse the direction of the pattern.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="68"/>
       <source>Mode</source>
+<<<<<<< HEAD
       <translation>பயன்முறை</translation>
+=======
+      <translation type="unfinished">Mode</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="76"/>
       <source>Extent</source>
+<<<<<<< HEAD
       <translation>அளவு</translation>
+=======
+      <translation type="unfinished">Extent</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="81"/>
       <location filename="../../PatternParametersWidget.ui" line="103"/>
       <source>Spacing</source>
+<<<<<<< HEAD
       <translation>இடைவெளி</translation>
+=======
+      <translation type="unfinished">Spacing</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="89"/>
       <source>Length</source>
+<<<<<<< HEAD
       <translation>நீளம்</translation>
+=======
+      <translation type="unfinished">Length</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="141"/>
       <source>Add spacing to create spacing patterns.</source>
+<<<<<<< HEAD
       <translation>இடைவெளி வடிவங்களை உருவாக்க, இடைவெளியைச் சேர்க்கவும்.</translation>
+=======
+      <translation type="unfinished">Add spacing to create spacing patterns.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../PatternParametersWidget.ui" line="158"/>
       <source>Occurrences</source>
+<<<<<<< HEAD
       <translation>நிகழ்வுகள்</translation>
     </message>
     <message>
@@ -7744,6 +13190,25 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../PatternParametersWidget.cpp" line="942"/>
       <source>Reset spacing</source>
       <translation type="unfinished">Reset spacing</translation>
+=======
+      <translation type="unfinished">Occurrences</translation>
+    </message>
+    <message>
+      <location filename="../../PatternParametersWidget.cpp" line="69"/>
+      <source>Axis</source>
+      <translation type="unfinished">Axis</translation>
+    </message>
+    <message>
+      <location filename="../../PatternParametersWidget.cpp" line="408"/>
+      <location filename="../../PatternParametersWidget.cpp" line="504"/>
+      <source>Spacing %1</source>
+      <translation type="unfinished">Spacing %1</translation>
+    </message>
+    <message>
+      <location filename="../../PatternParametersWidget.cpp" line="424"/>
+      <source>Remove this spacing definition.</source>
+      <translation type="unfinished">Remove this spacing definition.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -7751,6 +13216,7 @@ Overlapping volumes of the shapes will be removed.</source>
     <message>
       <location filename="../../ViewProviderPreviewExtension.cpp" line="236"/>
       <source>Failure while rendering preview: %1. That usually indicates an error with model.</source>
+<<<<<<< HEAD
       <translation>முன்னோட்டத்தை வழங்குவதில் தோல்வி: % 1. இது பொதுவாக மாதிரியில் பிழையைக் குறிக்கிறது.</translation>
     </message>
   </context>
@@ -7787,6 +13253,9 @@ Overlapping volumes of the shapes will be removed.</source>
       <location filename="../../../App/FaceMakerUnified.cpp" line="58"/>
       <source>Unified: handles nested holes, overlapping wires, and curved surfaces</source>
       <translation type="unfinished">Unified: handles nested holes, overlapping wires, and curved surfaces</translation>
+=======
+      <translation type="unfinished">Failure while rendering preview: %1. That usually indicates an error with model.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
 </TS>

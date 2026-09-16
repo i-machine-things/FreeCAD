@@ -121,9 +121,14 @@ public Q_SLOTS:
     void viewAll() override;
     void saveSVG();
     void saveDXF();
+<<<<<<< HEAD
     void slotContextExportPdf();
     void toggleFrame();
     void toggleGrid();
+=======
+    void savePDF();
+    void toggleFrame();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     void toggleKeepUpdated();
     void sceneSelectionChanged();
     void printAll();
@@ -147,7 +152,10 @@ private:
     Connection connectDeletedObject;
 
     QAction *m_toggleFrameAction;
+<<<<<<< HEAD
     QAction *m_toggleGridAction;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     QAction *m_toggleKeepUpdatedAction;
     QAction *m_exportSVGAction;
     QAction *m_exportDXFAction;

@@ -100,6 +100,7 @@ class Draft_Hatch_TaskPanel:
             FreeCAD.ActiveDocument.openTransaction("Create Hatch")
             FreeCADGui.addModule("Draft")
             cmd = "Draft.make_hatch("
+<<<<<<< HEAD
             cmd += "FreeCADGui.Selection.getSelectionEx('', 0)"
             cmd += ", filename=" + repr(self.form.File.property("fileName"))
             cmd += ", pattern=" + repr(self.form.Pattern.currentText())
@@ -109,6 +110,15 @@ class Draft_Hatch_TaskPanel:
             cmd += ")"
             FreeCADGui.doCommand("hatch = " + cmd)
             FreeCADGui.doCommand("Draft.autogroup(hatch)")
+=======
+            cmd += 'baseobject=FreeCAD.ActiveDocument.getObject("' + self.baseobj.Name
+            cmd += '"),filename=' + repr(self.form.File.property("fileName"))
+            cmd += ",pattern=" + repr(self.form.Pattern.currentText())
+            cmd += ",scale=" + str(self.form.Scale.value())
+            cmd += ",rotation=" + str(self.form.Rotation.value())
+            cmd += ",translate=" + str(self.form.Translate.isChecked()) + ")"
+            FreeCADGui.doCommand(cmd)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
             FreeCAD.ActiveDocument.commitTransaction()
         FreeCADGui.doCommand("FreeCAD.ActiveDocument.recompute()")
         self.reject()

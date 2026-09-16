@@ -600,6 +600,7 @@ TEST_F(ApplicationDirectoriesTest, migrateConfigSkipsBrokenSymlink)
     fs::path oldPath = tempDir() / "symlink_src";
     fs::path newPath = tempDir() / "symlink_dst";
     writeFile(oldPath / "good.txt", "ok");
+<<<<<<< HEAD
     try {
         fs::create_symlink(oldPath / "nonexistent_target", oldPath / "bad_link");
     }
@@ -608,6 +609,10 @@ TEST_F(ApplicationDirectoriesTest, migrateConfigSkipsBrokenSymlink)
         // if dev mode is not enabled on the machine, skip if that happens
         GTEST_SKIP() << "Could not create symlink: " << e.what();
     }
+=======
+    fs::create_symlink(oldPath / "nonexistent_target", oldPath / "bad_link");
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     auto result = App::ApplicationDirectories::migrateConfig(oldPath, newPath);
 
     EXPECT_FALSE(result.failedPaths.empty());
@@ -621,12 +626,17 @@ TEST_F(ApplicationDirectoriesTest, migrateConfigCopiesValidSymlink)
     fs::path oldPath = tempDir() / "valid_link_src";
     fs::path newPath = tempDir() / "valid_link_dst";
     writeFile(oldPath / "target.txt", "content");
+<<<<<<< HEAD
     try {
         fs::create_symlink(oldPath / "target.txt", oldPath / "good_link");
     }
     catch (const std::filesystem::filesystem_error& e) {
         GTEST_SKIP() << "Could not create symlink: " << e.what();
     }
+=======
+    fs::create_symlink(oldPath / "target.txt", oldPath / "good_link");
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     auto result = App::ApplicationDirectories::migrateConfig(oldPath, newPath);
 
     EXPECT_TRUE(result.failedPaths.empty());
@@ -642,12 +652,17 @@ TEST_F(ApplicationDirectoriesTest, migrateAllPathsReturnsSkippedPaths)
     fs::path base = tempDir() / "fail_count";
     fs::create_directories(base);
     writeFile(base / "good.txt", "ok");
+<<<<<<< HEAD
     try {
         fs::create_symlink(base / "no_such_file", base / "broken");
     }
     catch (const std::filesystem::filesystem_error& e) {
         GTEST_SKIP() << "Could not create symlink: " << e.what();
     }
+=======
+    fs::create_symlink(base / "no_such_file", base / "broken");
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     std::vector<fs::path> inputs {base};
     auto result = appDirs->migrateAllPaths(inputs);
 

@@ -141,7 +141,11 @@ public:
             }
 
             scaleLabels(initialConstraintCount);
+<<<<<<< HEAD
             commitCommand();
+=======
+            Gui::Command::commitCommand();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         }
         catch (const Base::Exception& e) {
             e.reportException();
@@ -537,6 +541,7 @@ private:
                     newConstr->First = firstIndex;
                     newConstr->Second = secondIndex;
                 }
+<<<<<<< HEAD
                 else if (
                     cstr->Type == Angle && firstIndex != GeoEnum::GeoUndef
                     && secondIndex == GeoEnum::GeoUndef && thirdIndex == GeoEnum::GeoUndef
@@ -546,6 +551,14 @@ private:
                 else if (
                     (cstr->Type == Radius || cstr->Type == Diameter) && firstIndex != GeoEnum::GeoUndef
                 ) {
+=======
+                else if (cstr->Type == Angle && firstIndex != GeoEnum::GeoUndef
+                         && secondIndex == GeoEnum::GeoUndef && thirdIndex == GeoEnum::GeoUndef) {
+                    newConstr->First = firstIndex;
+                }
+                else if ((cstr->Type == Radius || cstr->Type == Diameter)
+                         && firstIndex != GeoEnum::GeoUndef) {
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
                     newConstr->First = firstIndex;
                     newConstr->setValue(newConstr->getValue() * scaleFactor);
                 }

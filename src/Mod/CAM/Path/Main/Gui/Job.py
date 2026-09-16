@@ -1220,6 +1220,7 @@ class TaskPanel:
         selector = ToolBitSelector(compact=True, show_all_tools=True)
         if not selector.exec_():
             return
+<<<<<<< HEAD
 
         toolbits = selector.get_selected_tools()
         if not toolbits:
@@ -1242,6 +1243,15 @@ class TaskPanel:
                 name=f"TC: {toolbit.label}", tool=toolbit.obj, toolNumber=toolNum
             )
             self.obj.Proxy.addToolController(tc)
+=======
+        toolbit = selector.get_selected_tool()
+        toolbit.attach_to_doc(FreeCAD.ActiveDocument)
+        toolNum = self.obj.Proxy.nextToolNumber()
+        tc = PathToolControllerGui.Create(
+            name=f"TC: {toolbit.label}", tool=toolbit.obj, toolNumber=toolNum
+        )
+        self.obj.Proxy.addToolController(tc)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         FreeCAD.ActiveDocument.recompute()
         self.updateToolController()

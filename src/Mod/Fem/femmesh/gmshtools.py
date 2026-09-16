@@ -58,6 +58,10 @@ class GmshTools(ObjectTools):
 
     def __init__(self, obj):
         super().__init__(obj)
+<<<<<<< HEAD
+=======
+        self.mesh_obj = obj
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         self.analysis = obj.getParentGroup()
         self.load_properties()
         self.error = False

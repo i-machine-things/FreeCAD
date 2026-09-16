@@ -25,13 +25,20 @@ import FreeCAD
 import Path
 import ast
 import glob
+<<<<<<< HEAD
 import importlib.util
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 import json
 import os
 import pathlib
 from collections import defaultdict
 from typing import Optional
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 if False:
     Path.Log.setLevel(Path.Log.Level.DEBUG, Path.Log.thisModule())
     Path.Log.trackModule(Path.Log.thisModule())

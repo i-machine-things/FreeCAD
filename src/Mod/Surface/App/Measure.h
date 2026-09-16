@@ -21,7 +21,12 @@
 
 //! a class for establishing our connection with the unified measurement facility
 
+<<<<<<< HEAD
 #pragma once
+=======
+#ifndef SURFACE_MEASURE_H
+#define SURFACE_MEASURE_H
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 #include <Mod/Surface/SurfaceGlobal.h>
 
@@ -38,3 +43,8 @@ public:
 
 
 }  // namespace Surface
+<<<<<<< HEAD
+=======
+
+#endif
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794

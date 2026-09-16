@@ -50,7 +50,11 @@ FeatureRefine::FeatureRefine()
     );
     ADD_PROPERTY_TYPE(
         FuzzyTolerance,
+<<<<<<< HEAD
         (0.0),
+=======
+        (-1.0),
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         "Part Design",
         (App::PropertyType)(App::Prop_None),
         "Fuzzy tolerance:\n"

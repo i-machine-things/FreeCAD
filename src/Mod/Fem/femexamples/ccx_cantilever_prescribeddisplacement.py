@@ -59,6 +59,14 @@ See forum topic post:
 
 
 def setup(doc=None, solvertype="ccxtools", test_mode=False):
+<<<<<<< HEAD
+=======
+
+    if solvertype == "z88":
+        # constraint displacement is not supported for Z88
+        # pass a not valid solver name for z88, thus no solver is created
+        solvertype = "z88_not_valid"
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     # init FreeCAD document
     if doc is None:

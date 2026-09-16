@@ -81,8 +81,11 @@ set(Part_tests
     parttests/TopoShapeTest.py
     parttests/TestTangentMode3-0.21.FCStd
     parttests/TestPartMirror.py
+<<<<<<< HEAD
     parttests/TestFaceMakerUnifiedPlanar.py
     parttests/TestFaceMakerUnifiedNonPlanar.py
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 )
 
 add_custom_target(PartScripts ALL SOURCES

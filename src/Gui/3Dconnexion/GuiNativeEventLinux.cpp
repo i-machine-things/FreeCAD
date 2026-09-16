@@ -117,9 +117,12 @@ void Gui::GuiNativeEvent::initSpaceball(QMainWindow* window)
         Base::Console().log("Connected to spacenav daemon\n");
         spnavNotifier = new QSocketNotifier(spnav_fd(), QSocketNotifier::Read, this);
         connect(spnavNotifier, SIGNAL(activated(int)), this, SLOT(pollSpacenav()));
+<<<<<<< HEAD
         dzCache = std::make_unique<DeadzoneCache>(
             App::GetApplication().GetParameterGroupByPath("User parameter:BaseApp/Spaceball/Motion")
         );
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         mainApp->setSpaceballPresent(true);
     }
 }
@@ -127,7 +130,10 @@ void Gui::GuiNativeEvent::initSpaceball(QMainWindow* window)
 void Gui::GuiNativeEvent::pollSpacenav()
 {
     spnav_event ev;
+<<<<<<< HEAD
     bool hasMotion = false;
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     bool gotEvent = false;
 
     while (spnav_poll_event(&ev)) {
@@ -149,6 +155,7 @@ void Gui::GuiNativeEvent::pollSpacenav()
             }
         }
     }
+<<<<<<< HEAD
     if (hasMotion) {
         // Per-axis deadzone: zero out axes below their individual threshold.
         // Values cached and auto-updated via Observer when user.cfg changes.
@@ -162,6 +169,8 @@ void Gui::GuiNativeEvent::pollSpacenav()
         }
         mainApp->postMotionEvent(motionDataArray);
     }
+=======
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     if (!gotEvent) {
         // QSocketNotifier fired but no events were available.

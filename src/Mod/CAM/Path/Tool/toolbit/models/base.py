@@ -40,6 +40,10 @@ from ...camassets import cam_assets
 from ...shape import ToolBitShape, ToolBitShapeCustom, ToolBitShapeIcon
 from ..util import to_json, format_value
 from ..migration import ParameterAccessor, migrate_parameters
+<<<<<<< HEAD
+=======
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
 ToolBitView = LazyLoader("Path.Tool.toolbit.ui.view", globals(), "Path.Tool.toolbit.ui.view")
 

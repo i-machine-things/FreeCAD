@@ -201,7 +201,13 @@ void Gui::ActiveObjectList::setObject(
     }
 
     if (!obj) {
+<<<<<<< HEAD
         _Doc->signalActivatedViewProvider(nullptr, name);
+=======
+        if (_Doc) {
+            _Doc->signalActivatedViewProvider(nullptr, name);
+        }
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         return;
     }
 

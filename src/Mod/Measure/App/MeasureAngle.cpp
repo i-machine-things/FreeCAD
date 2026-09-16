@@ -561,6 +561,7 @@ App::DocumentObjectExecReturn* MeasureAngle::execute()
         return new App::DocumentObjectExecReturn("Failed to Set Origin");
     }
 
+<<<<<<< HEAD
 
     double angleRad = direction1.Angle(direction2);
 
@@ -570,6 +571,30 @@ App::DocumentObjectExecReturn* MeasureAngle::execute()
     }
 
     Angle.setValue(Base::toDegrees(angleRad));
+=======
+    if (vec1.IsParallel(vec2, Base::Precision::Angular())) {
+        // handle case when both vectors are parallel
+        Angle.setValue(0);
+    }
+    else {
+        // get oriented vectors based on common origin
+        Base::Vector3d loc1 = getLoc(*ob1, subs1.at(0));
+        Base::Vector3d loc2 = getLoc(*ob2, subs2.at(0));
+        Base::Vector3d origin = (loc1 + loc2) * 0.5;
+
+        // flip if needed, to make them point away from origin
+        if ((loc1 - origin).Dot(vec1) < 0) {
+            vec1 = -vec1;
+        }
+        if ((loc2 - origin).Dot(vec2) < 0) {
+            vec2 = -vec2;
+        }
+
+        // get oriented angle wrt normal axis
+        Base::Vector3d normalAxis = (vec1.Cross(vec2)).Normalize();
+        Angle.setValue(Base::toDegrees(vec1.GetAngleOriented(vec2, normalAxis)));
+    }
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     return DocumentObject::StdReturn;
 }

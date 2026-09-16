@@ -110,6 +110,12 @@ private:
         const std::string& sketchObj
     ) const;
 
+<<<<<<< HEAD
+=======
+    /// check if a constraint references the specified geometry ID
+    bool constraintReferencesGeometry(const Sketcher::Constraint* cstr, int geoId) const;
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     // original constraint index to expression and geoId mapping
     std::map<int, ConstraintExpressionInfo> originalExpressions;
 };

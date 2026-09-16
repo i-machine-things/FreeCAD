@@ -463,10 +463,14 @@ void ViewProviderBoolean::updatePreview()
             return;
         }
 
+<<<<<<< HEAD
         Part::TopoShape toolShape = getBooleanPreviewShape(boolean, feature);
         if (toolShape.isNull()) {
             return;
         }
+=======
+        Part::TopoShape toolShape = feature->Shape.getShape();
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
         auto pcToolPreview = new PartGui::SoPreviewShape;
         updatePreviewShape(toolShape, pcToolPreview);

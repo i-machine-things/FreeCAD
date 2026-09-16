@@ -537,6 +537,7 @@ Seleccione otra forma.</translation>
     <message>
       <location filename="../../Command.cpp" line="98"/>
       <source>Select a plane to trim the mesh with.</source>
+<<<<<<< HEAD
       <translation>Seleccione un plano para recortar la malla.</translation>
     </message>
     <message>
@@ -550,6 +551,21 @@ Seleccione otra forma.</translation>
       <translation>Seleccione el lado que desea conservar</translation>
     </message>
     <message>
+=======
+      <translation type="unfinished">Select a plane to trim the mesh with.</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="105"/>
+      <source>Trim With Plane</source>
+      <translation type="unfinished">Trim With Plane</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="106"/>
+      <source>Select the side to keep</source>
+      <translation type="unfinished">Select the side to keep</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="108"/>
       <source>Below</source>
       <translation>Debajo</translation>

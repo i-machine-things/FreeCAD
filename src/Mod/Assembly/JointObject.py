@@ -1130,7 +1130,11 @@ class ViewProviderJoint:
     def redrawJointPlacement(self, jcs, plc, ref):
         if ref:
             jcs.whichChild = coin.SO_SWITCH_ALL
+<<<<<<< HEAD
             self.setJCSPosition(jcs, plc, ref)
+=======
+            jcs.set_marker_placement(plc, ref)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         else:
             jcs.whichChild = coin.SO_SWITCH_NONE
 
@@ -1295,6 +1299,20 @@ class GroundedJoint:
         self.migrationScript(joint)
 
         self.setReadOnly(joint, True)
+
+    def migrationScript(self, joint):
+        if (
+            hasattr(joint, "ObjectToGround")
+            and joint.getTypeIdOfProperty("ObjectToGround") == "App::PropertyLink"
+        ):
+            obj_to_ground = joint.ObjectToGround
+            joint.setPropertyStatus("ObjectToGround", "-LockDynamic")
+            joint.removeProperty("ObjectToGround")
+
+            self.createObjectToGroundProperty(joint, obj_to_ground)
+
+    def onDocumentRestored(self, joint):
+        self.migrationScript(joint)
 
     def migrationScript(self, joint):
         if (
@@ -1716,12 +1734,20 @@ class TaskAssemblyCreateJoint(QtCore.QObject):
 
         self.assembly.recompute(True)
 
+<<<<<<< HEAD
         Gui.ActiveDocument.commitCommand()
+=======
+        App.closeActiveTransaction()
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         return True
 
     def reject(self):
         self.deactivate()
+<<<<<<< HEAD
         Gui.ActiveDocument.abortCommand()
+=======
+        App.closeActiveTransaction(True)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         self.assembly.recompute(True)
         return True
 
@@ -1734,7 +1760,11 @@ class TaskAssemblyCreateJoint(QtCore.QObject):
         Gui.Selection.removeSelectionGate()
         Gui.Selection.removeObserver(self)
         Gui.Selection.setSelectionStyle(Gui.Selection.SelectionStyle.NormalSelection)
+<<<<<<< HEAD
         App.ActiveDocument.abortTransaction()
+=======
+        App.closeActiveTransaction(True)
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
 
     def deactivate(self):
         global activeTask
@@ -2238,6 +2268,18 @@ class TaskAssemblyCreateJoint(QtCore.QObject):
         # Construct the reference using the Component as the root
         ref = [comp, [new_sub]]
 
+<<<<<<< HEAD
+=======
+        comp, new_sub = UtilsAssembly.getComponentReference(self.assembly, rootObj, sub_name)
+        if not comp:
+            # Selection was not valid (not inside assembly or logic failed)
+            Gui.Selection.removeSelection(doc_name, obj_name, sub_name)
+            return
+
+        # Construct the reference using the Component as the root
+        ref = [comp, [new_sub]]
+
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
         moving_part = self.getMovingPart(ref)
 
         # Check if the addition is acceptable (we are not doing this in selection gate to let user move objects)
@@ -2277,6 +2319,10 @@ class TaskAssemblyCreateJoint(QtCore.QObject):
             return
 
         rootObj = App.getDocument(doc_name).getObject(obj_name)
+
+        comp, new_sub = UtilsAssembly.getComponentReference(self.assembly, rootObj, sub_name)
+        if not comp:
+            return
 
         comp, new_sub = UtilsAssembly.getComponentReference(self.assembly, rootObj, sub_name)
         if not comp:

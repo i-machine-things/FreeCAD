@@ -6,17 +6,29 @@
     <message>
       <location filename="../../TaskFillingEdge.ui" line="20"/>
       <source>Edge Constraints</source>
+<<<<<<< HEAD
       <translation>Restricciones de aristas</translation>
+=======
+      <translation type="unfinished">Edge Constraints</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingEdge.ui" line="26"/>
       <source>Constrains the surface to pass through the selected edges</source>
+<<<<<<< HEAD
       <translation>Restringe la superficie para pasar a través de las aristas seleccionados</translation>
+=======
+      <translation type="unfinished">Constrains the surface to pass through the selected edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingEdge.ui" line="29"/>
       <source>Non-Boundary Edges</source>
+<<<<<<< HEAD
       <translation>Aristas no limitadas</translation>
+=======
+      <translation type="unfinished">Non-Boundary Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingEdge.ui" line="46"/>
@@ -59,17 +71,29 @@
     <message>
       <location filename="../../TaskFilling.ui" line="28"/>
       <source>Support Surface</source>
+<<<<<<< HEAD
       <translation>Superficie de soporte</translation>
+=======
+      <translation type="unfinished">Support Surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="44"/>
       <source>Edges that will limit the surface</source>
+<<<<<<< HEAD
       <translation>Aristas que limitarán la superficie</translation>
+=======
+      <translation type="unfinished">Edges that will limit the surface</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="47"/>
       <source>Boundary Edges</source>
+<<<<<<< HEAD
       <translation>Aristas de límite</translation>
+=======
+      <translation type="unfinished">Boundary Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="64"/>
@@ -85,7 +109,11 @@
       <location filename="../../TaskFilling.ui" line="95"/>
       <location filename="../../TaskFilling.ui" line="111"/>
       <source>Drag the items to reorder the list</source>
+<<<<<<< HEAD
       <translation>Arrastre los elementos para reordenar la lista</translation>
+=======
+      <translation type="unfinished">Drag the items to reorder the list</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFilling.ui" line="131"/>
@@ -114,12 +142,20 @@
       <location filename="../../TaskSections.ui" line="14"/>
       <location filename="../../TaskSections.ui" line="23"/>
       <source>Sectional Edges</source>
+<<<<<<< HEAD
       <translation>Aristas seccionales</translation>
+=======
+      <translation type="unfinished">Sectional Edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSections.ui" line="20"/>
       <source>Constrains the surface to follow the selected sectional edges</source>
+<<<<<<< HEAD
       <translation>Restringe la superficie para seguir las aristas seccionales seleccionadas</translation>
+=======
+      <translation type="unfinished">Constrains the surface to follow the selected sectional edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskSections.ui" line="40"/>
@@ -134,7 +170,11 @@
     <message>
       <location filename="../../TaskSections.ui" line="71"/>
       <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;List can be reordered by dragging&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+<<<<<<< HEAD
       <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;La lista se puede reordenar arrastrando&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+=======
+      <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;List can be reordered by dragging&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -142,12 +182,20 @@
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="20"/>
       <source>Filling</source>
+<<<<<<< HEAD
       <translation>Relleno</translation>
+=======
+      <translation type="unfinished">Filling</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="26"/>
       <source>Fill Type</source>
+<<<<<<< HEAD
       <translation>Tipo de relleno</translation>
+=======
+      <translation type="unfinished">Fill Type</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="38"/>
@@ -157,7 +205,11 @@
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="48"/>
       <source>Coons</source>
+<<<<<<< HEAD
       <translation>Coons</translation>
+=======
+      <translation type="unfinished">Coons</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.ui" line="55"/>
@@ -185,11 +237,16 @@
       <translation>Voltear orientación</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="384"/>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="378"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Too many edges</source>
       <translation>Demasiadas aristas</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="385"/>
       <location filename="../../TaskGeomFillSurface.cpp" line="393"/>
       <source>The tool requires two, three or four edges</source>
@@ -204,6 +261,22 @@
       <location filename="../../TaskGeomFillSurface.cpp" line="404"/>
       <source>Invalid object</source>
       <translation>Objeto inválido</translation>
+=======
+      <location filename="../../TaskGeomFillSurface.cpp" line="379"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="387"/>
+      <source>The tool requires two, three or four edges</source>
+      <translation type="unfinished">The tool requires two, three or four edges</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="386"/>
+      <source>Too less edges</source>
+      <translation type="unfinished">Too less edges</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="398"/>
+      <source>Invalid object</source>
+      <translation type="unfinished">Invalid object</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -211,17 +284,29 @@
     <message>
       <location filename="../../TaskFillingVertex.ui" line="14"/>
       <source>Vertex Constraints</source>
+<<<<<<< HEAD
       <translation>Restricciones de vértices</translation>
+=======
+      <translation type="unfinished">Vertex Constraints</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingVertex.ui" line="20"/>
       <source>Constrains the surface to pass through the selected vertices</source>
+<<<<<<< HEAD
       <translation>Restringe la superficie para pasar a través de los vértices seleccionados</translation>
+=======
+      <translation type="unfinished">Constrains the surface to pass through the selected vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingVertex.ui" line="23"/>
       <source>Non-Boundary Vertices</source>
+<<<<<<< HEAD
       <translation>Vértices no limitados</translation>
+=======
+      <translation type="unfinished">Non-Boundary Vertices</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../TaskFillingVertex.ui" line="40"/>
@@ -239,12 +324,20 @@
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="14"/>
       <source>Blend Curve</source>
+<<<<<<< HEAD
       <translation>Fusionar curva</translation>
+=======
+      <translation type="unfinished">Blend Curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="20"/>
       <source>Start Edge</source>
+<<<<<<< HEAD
       <translation>Iniciar arista</translation>
+=======
+      <translation type="unfinished">Start Edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="26"/>
@@ -273,13 +366,21 @@
     <message>
       <location filename="../../Blending/TaskBlendCurve.ui" line="113"/>
       <source>End Edge</source>
+<<<<<<< HEAD
       <translation>Finalizar arista</translation>
+=======
+      <translation type="unfinished">End Edge</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>SurfaceGui::FillingVertexPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingVertex.cpp" line="127"/>
+=======
+      <location filename="../../TaskFillingVertex.cpp" line="129"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Quitar</translation>
     </message>
@@ -294,12 +395,20 @@
     <message>
       <location filename="../../Command.cpp" line="55"/>
       <source>Surface Cut</source>
+<<<<<<< HEAD
       <translation>Corte de superficie</translation>
+=======
+      <translation type="unfinished">Surface Cut</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="56"/>
       <source>Cuts one shape using another</source>
+<<<<<<< HEAD
       <translation>Corta una forma usando otra</translation>
+=======
+      <translation type="unfinished">Cuts one shape using another</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -319,9 +428,15 @@
       <source>Creates a surface from a series of selected boundary edges.
 Additionally, the surface may be constrained by edges and
 vertices that are not on the boundary.</source>
+<<<<<<< HEAD
       <translation>Crea una superficie a partir de una serie de bordes fronterizos seleccionados.
 Adicionalmente, la superficie puede estar restringida por bordes y vértices
 que no están en el límite.</translation>
+=======
+      <translation type="unfinished">Creates a surface from a series of selected boundary edges.
+Additionally, the surface may be constrained by edges and
+vertices that are not on the boundary.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -341,12 +456,21 @@ que no están en el límite.</translation>
     <message>
       <location filename="../../Command.cpp" line="303"/>
       <source>Extend surface</source>
+<<<<<<< HEAD
       <translation>Extender superficie</translation>
     </message>
     <message>
       <location filename="../../Blending/TaskBlendCurve.cpp" line="410"/>
       <source>Edit blending curve</source>
       <translation>Editar curva de mezcla</translation>
+=======
+      <translation type="unfinished">Extend surface</translation>
+    </message>
+    <message>
+      <location filename="../../Blending/TaskBlendCurve.cpp" line="409"/>
+      <source>Edit blending curve</source>
+      <translation type="unfinished">Edit blending curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -359,12 +483,20 @@ que no están en el límite.</translation>
     <message>
       <location filename="../../Command.cpp" line="149"/>
       <source>Fill Boundary Curves</source>
+<<<<<<< HEAD
       <translation>Rellenar curvas límite</translation>
+=======
+      <translation type="unfinished">Fill Boundary Curves</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="150"/>
       <source>Creates a surface from 2, 3, or 4 boundary edges</source>
+<<<<<<< HEAD
       <translation>Crea una superficie a partir de 2, 3 o 4 aristas límite</translation>
+=======
+      <translation type="unfinished">Creates a surface from 2, 3, or 4 boundary edges</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -377,14 +509,23 @@ que no están en el límite.</translation>
     <message>
       <location filename="../../Command.cpp" line="179"/>
       <source>Curve on Mesh</source>
+<<<<<<< HEAD
       <translation>Curva en malla</translation>
+=======
+      <translation type="unfinished">Curve on Mesh</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="180"/>
       <source>Creates an approximated curve on top of a mesh.
 This command only works with a mesh object.</source>
+<<<<<<< HEAD
       <translation>Crea una curva aproximada encima de una malla.
 Este comando solo funciona con un objeto de malla.</translation>
+=======
+      <translation type="unfinished">Creates an approximated curve on top of a mesh.
+This command only works with a mesh object.</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -397,12 +538,20 @@ Este comando solo funciona con un objeto de malla.</translation>
     <message>
       <location filename="../../Command.cpp" line="221"/>
       <source>Blend Curve</source>
+<<<<<<< HEAD
       <translation>Fusionar curva</translation>
+=======
+      <translation type="unfinished">Blend Curve</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
     <message>
       <location filename="../../Command.cpp" line="222"/>
       <source>Joins 2 edges with continuity</source>
+<<<<<<< HEAD
       <translation>Une 2 aristas con continuidad</translation>
+=======
+      <translation type="unfinished">Joins 2 edges with continuity</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
@@ -457,16 +606,25 @@ Este comando solo funciona con un objeto de malla.</translation>
   <context>
     <name>SurfaceGui::FillingEdgePanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="133"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="136"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Quitar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="329"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="326"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Objeto inválido</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="407"/>
       <source>Edge has %n adjacent face(s)</source>
       <translation>
@@ -476,18 +634,36 @@ Este comando solo funciona con un objeto de malla.</translation>
     </message>
     <message>
       <location filename="../../TaskFillingEdge.cpp" line="411"/>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="406"/>
+      <source>Edge has %n adjacent face(s)</source>
+      <translation type="unfinished">
+        <numerusform>Edge has %n adjacent face(s)</numerusform>
+        <numerusform>Edge has %n adjacent face(s)</numerusform>
+      </translation>
+    </message>
+    <message>
+      <location filename="../../TaskFillingEdge.cpp" line="410"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>None</source>
       <translation>Ninguno</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFillingEdge.cpp" line="432"/>
       <source>Edge has no adjacent faces</source>
       <translation>La arista no tiene caras adyacentes</translation>
+=======
+      <location filename="../../TaskFillingEdge.cpp" line="431"/>
+      <source>Edge has no adjacent faces</source>
+      <translation type="unfinished">Edge has no adjacent faces</translation>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
     </message>
   </context>
   <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
       <location filename="../../TaskFilling.cpp" line="63"/>
       <source>Edit Filling</source>
@@ -495,6 +671,15 @@ Este comando solo funciona con un objeto de malla.</translation>
     </message>
     <message>
       <location filename="../../TaskGeomFillSurface.cpp" line="667"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="64"/>
+      <location filename="../../TaskGeomFillSurface.cpp" line="61"/>
+      <source>Edit Filling</source>
+      <translation type="unfinished">Edit Filling</translation>
+    </message>
+    <message>
+      <location filename="../../TaskGeomFillSurface.cpp" line="661"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Surface</source>
       <translation>Superficie</translation>
     </message>
@@ -512,12 +697,20 @@ Este comando solo funciona con un objeto de malla.</translation>
   <context>
     <name>SurfaceGui::FillingPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="281"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="284"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Quitar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskFilling.cpp" line="497"/>
+=======
+      <location filename="../../TaskFilling.cpp" line="494"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Objeto inválido</translation>
     </message>
@@ -543,12 +736,20 @@ Este comando solo funciona con un objeto de malla.</translation>
   <context>
     <name>SurfaceGui::SectionsPanel</name>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="279"/>
+=======
+      <location filename="../../TaskSections.cpp" line="281"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Remove</source>
       <translation>Quitar</translation>
     </message>
     <message>
+<<<<<<< HEAD
       <location filename="../../TaskSections.cpp" line="424"/>
+=======
+      <location filename="../../TaskSections.cpp" line="420"/>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <source>Invalid object</source>
       <translation>Objeto inválido</translation>
     </message>

@@ -68,6 +68,14 @@
       <translation>메쉬와 평면에서 단면을 생성합니다</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+      <location filename="../../Command.cpp" line="192"/>
+      <source>Creates a section from a mesh and plane</source>
+      <translation type="unfinished">Creates a section from a mesh and plane</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="191"/>
       <source>Section</source>
       <translation>단면</translation>
@@ -535,6 +543,7 @@ Select a different shape.</source>
     <message>
       <location filename="../../Command.cpp" line="98"/>
       <source>Select a plane to trim the mesh with.</source>
+<<<<<<< HEAD
       <translation>메쉬를 자를 평면을 선택하세요.</translation>
     </message>
     <message>
@@ -543,6 +552,16 @@ Select a different shape.</source>
       <translation>평면으로 자르기</translation>
     </message>
     <message>
+=======
+      <translation type="unfinished">Select a plane to trim the mesh with.</translation>
+    </message>
+    <message>
+      <location filename="../../Command.cpp" line="105"/>
+      <source>Trim With Plane</source>
+      <translation type="unfinished">Trim With Plane</translation>
+    </message>
+    <message>
+>>>>>>> 145529fe741292ff0b3977a01195bf0247425794
       <location filename="../../Command.cpp" line="106"/>
       <source>Select the side to keep</source>
       <translation>유지할 쪽을 선택하세요</translation>
