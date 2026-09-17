@@ -298,6 +298,20 @@ Function ValidateInstallDir
   Pop $R0
 FunctionEnd
 
+!if "${APP_FORK_SUFFIX}" != ""
+Function WelcomeShowForkLabel
+  # Mark this as an unofficial i-machine-things fork build with its own
+  # red-colored control on the welcome page, positioned near the bottom of
+  # the text column (below the banner image on the left, well clear of the
+  # welcome paragraph above it). Same "fork additions are red and kept
+  # visually separate from stock text" convention as the splash screen's
+  # forkLabel (src/Gui/SplashScreen.cpp).
+  ${NSD_CreateLabel} 120u -40u 180u 24u "${APP_FORK_SUFFIX}"
+  Pop $0
+  SetCtlColors $0 CA333B transparent
+FunctionEnd
+!endif
+
 !macro _DetailPrintToBoth DETAIL_MESSAGE
   SetDetailsPrint both
   DetailPrint "${DETAIL_MESSAGE}"

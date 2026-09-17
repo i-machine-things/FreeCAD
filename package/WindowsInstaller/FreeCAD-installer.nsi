@@ -40,6 +40,7 @@ ManifestDPIAware true
 !include LogicLib.nsh
 !include MUI2.nsh
 !include MultiUser.nsh
+!include nsDialogs.nsh
 !include Sections.nsh
 !include WinVer.nsh
 !include x64.nsh
