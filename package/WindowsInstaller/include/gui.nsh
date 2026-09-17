@@ -31,6 +31,13 @@ BrandingText " "
 
 # Welcome page
 !define MUI_WELCOMEPAGE_TEXT $(TEXT_WELCOME)
+!if "${APP_FORK_SUFFIX}" != ""
+  # Fork builds only — see WelcomeShowForkLabel in utils.nsh. Adds a separate
+  # red-colored label instead of folding the fork identifier into
+  # MUI_WELCOMEPAGE_TEXT, since a plain NSIS static control can't mix colors
+  # within one string.
+  !define MUI_PAGE_CUSTOMFUNCTION_SHOW WelcomeShowForkLabel
+!endif
 !insertmacro MUI_PAGE_WELCOME
 # Show the license.
 !define MUI_LICENSEPAGE_BUTTON $(^NextBtn)

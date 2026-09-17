@@ -13,12 +13,15 @@ v=FreeCAD.Version()
 # fork_version.json only exists on i-machine-things fork builds (written by
 # fork_parity_release.yml, installed via src/Mod/ForkUpdater/CMakeLists.txt);
 # a normal upstream build has no such file, so this stays empty for those.
+# Rendered as its own red-colored label on the welcome page (see gui.nsh's
+# WelcomeShowForkLabel), not appended inline to TEXT_WELCOME, so no leading
+# space/punctuation is needed here.
 fork_suffix = ""
 fork_version_path = os.path.join(FreeCAD.getHomePath(), "Mod", "ForkUpdater", "fork_version.json")
 if os.path.exists(fork_version_path):
     try:
         with open(fork_version_path, encoding="utf-8") as f:
-            fork_suffix = f" (i-machine-things fork, build {json.load(f)['fork_build']})"
+            fork_suffix = f"i-machine-things fork, build {json.load(f)['fork_build']}"
     except (OSError, ValueError, KeyError, TypeError):
         fork_suffix = ""
 
