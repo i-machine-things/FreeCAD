@@ -384,11 +384,15 @@ QPixmap SplashScreen::splashImage()
             version = QString::fromStdString(tv->second);
         }
 
-        // Append the fork build identifier, if this is an i-machine-things fork
-        // build (see src/Mod/ForkUpdater/CMakeLists.txt) — a normal upstream
-        // build never has fork_version.json, so this is a no-op there. Done
-        // before any width/position math below so it's accounted for like any
-        // other variable-length version text (e.g. a translated title).
+        // Fork build identifier, if this is an i-machine-things fork build (see
+        // src/Mod/ForkUpdater/CMakeLists.txt) — a normal upstream build never
+        // has fork_version.json, so forkLabel stays empty there. Kept separate
+        // from `version` (rather than appended to it) so it doesn't shift the
+        // stock version text's position, and so it can be drawn in its own
+        // color and place below — same convention as the dev-build warning
+        // further down: fork-only additions are red and visually set apart
+        // from the rest of the splash, never blended into the stock text.
+        QString forkBuildNumber;
         QString forkVersionPath = QString::fromStdString(App::Application::getHomePath())
             + QStringLiteral("Mod/ForkUpdater/fork_version.json");
         QFile forkVersionFile(forkVersionPath);
@@ -397,7 +401,7 @@ QPixmap SplashScreen::splashImage()
             QRegularExpression forkRx(QLatin1String(R"("fork_build"\s*:\s*(\d+))"));
             auto forkMatch = forkRx.match(forkContents);
             if (forkMatch.hasMatch()) {
-                version += QStringLiteral(" (i-machine-things.%1)").arg(forkMatch.captured(1));
+                forkBuildNumber = forkMatch.captured(1);
             }
         }
 
@@ -454,6 +458,31 @@ QPixmap SplashScreen::splashImage()
             }
             painter.setFont(fontVer);
             painter.drawText(x + (l + 235), y - 7, version);
+
+            // Fork build label, drawn in the same red as the dev-build warning
+            // below — placed in the open grid area under the logo, well away
+            // from the stock version text, so it reads as an unofficial-fork
+            // marker rather than part of the official version string. x=100
+            // lines its left edge up with the "F" in the "FreeCAD" wordmark
+            // baked into the splash artwork — verified identical across all
+            // freecadsplash{0..12}.png variants splashImage() picks between.
+            // Two lines (QPainter::drawText ignores embedded newlines) so it
+            // reads as a compact block rather than one long line crossing
+            // the grid.
+            if (!forkBuildNumber.isEmpty()) {
+                QColor forkColor(QString::fromStdString(wc->second));
+                if (forkColor.isValid()) {
+                    painter.setPen(forkColor);
+                    const int forkLineHeight = metricVer.lineSpacing();
+                    painter.drawText(100, 120, QStringLiteral("i-machine-things fork"));
+                    painter.drawText(
+                        100,
+                        120 + forkLineHeight,
+                        QStringLiteral("build %1").arg(forkBuildNumber)
+                    );
+                }
+            }
+
             QColor warningColor(QString::fromStdString(wc->second));
             if (suffix == QLatin1String("dev") && warningColor.isValid()) {
                 fontVer.setPointSizeF(14.0);

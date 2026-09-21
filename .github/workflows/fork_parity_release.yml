@@ -202,6 +202,17 @@ jobs:
           git show origin/release-parity:src/Mod/ForkUpdater/update_check.py \
             > /tmp/ForkUpdater_update_check.py
 
+          # Fork branding (splash screen + installer welcome page) — also
+          # doesn't exist upstream, so it must be overlaid like everything
+          # else above or the built installer/splash silently reverts to
+          # stock FreeCAD branding (see feat/installer-fork-branding, PR #11).
+          git show origin/release-parity:src/Gui/SplashScreen.cpp \
+            > /tmp/SplashScreen.cpp
+          git show origin/release-parity:package/WindowsInstaller/lang/english.nsh \
+            > /tmp/english.nsh
+          git show origin/release-parity:package/WindowsInstaller/write_version_nsh.py \
+            > /tmp/write_version_nsh.py
+
           git remote add upstream https://github.com/FreeCAD/FreeCAD.git
           git fetch upstream "refs/tags/${UPSTREAM_TAG}" --depth=2 --no-recurse-submodules
           git checkout FETCH_HEAD
@@ -227,6 +238,10 @@ jobs:
           if ! grep -q 'add_subdirectory(ForkUpdater)' src/Mod/CMakeLists.txt; then
             printf '\nadd_subdirectory(ForkUpdater)\n' >> src/Mod/CMakeLists.txt
           fi
+
+          cp /tmp/SplashScreen.cpp    src/Gui/SplashScreen.cpp
+          cp /tmp/english.nsh         package/WindowsInstaller/lang/english.nsh
+          cp /tmp/write_version_nsh.py package/WindowsInstaller/write_version_nsh.py
 
           # Record this build's own fork patch number so update_check.py can
           # compare it against GitHub — otherwise a running build has no way to
