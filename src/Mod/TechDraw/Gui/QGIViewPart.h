@@ -92,7 +92,6 @@ public:
     virtual void drawHighlight(TechDraw::DrawViewDetail* viewDetail, bool b);
     virtual void drawMatting();
     virtual void drawBreakLines();
-    bool showSection;
 
     void draw() override;
     void rotateView() override;
@@ -128,9 +127,9 @@ public:
     virtual double getVertexSize();
 
     bool isExporting() const;
-    bool hideCenterMarks() const;
 
-
+    void setMovableFlag() override;
+    void setMovableFlagProjGroupItem();
 
 protected:
     bool sceneEventFilter(QGraphicsItem *watched, QEvent *event) override;
@@ -150,11 +149,14 @@ protected:
     bool prefFaceEdges();
     Base::Color prefBreaklineColor();
 
-    bool formatGeomFromCosmetic(std::string cTag, QGIEdge* item);
-    bool formatGeomFromCenterLine(std::string cTag, QGIEdge* item);
+    bool formatGeomFromCosmetic(const std::string& cTag, QGIEdge* item);
+    bool formatGeomFromCenterLine(const std::string& cTag, QGIEdge* item);
+
+    bool showVertices() const;
 
     bool showCenterMarks() const;
-    bool showVertices() const;
+    bool showCenterMarksExporting() const;
+    bool showCenterMarksScreen() const;
 
 private:
     QList<QGraphicsItem*> deleteItems;

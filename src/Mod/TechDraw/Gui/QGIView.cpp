@@ -52,7 +52,6 @@
 #include "QGIView.h"
 #include "MDIViewPage.h"
 #include "PreferencesGui.h"
-#include "QGCustomBorder.h"
 #include "QGCustomClip.h"
 #include "QGCustomImage.h"
 #include "QGCustomLabel.h"
@@ -76,7 +75,6 @@ using DU = DrawUtil;
 
 QGIView::QGIView()
     :QGraphicsItemGroup(),
-    m_isHovered(false),
     viewObj(nullptr),
     m_innerView(false),
     m_multiselectActivated(false),
@@ -84,7 +82,8 @@ QGIView::QGIView()
     m_label(new QGCustomLabel()),
     m_border(new QGCustomBorder()),
     m_caption(new QGICaption()),
-    m_lock(new QGCustomImage())
+    m_lock(new QGCustomImage()),
+    m_isHovered(false)
 {
     setCacheMode(QGraphicsItem::NoCache);
     setHandlesChildEvents(false);
@@ -277,7 +276,7 @@ void QGIView::snapPosition(QPointF& newPosition)
         return;
     }
 
-    auto feature = getViewObject();
+    DrawView* feature = getViewObject();
     if (!feature) {
         return;
     }
@@ -286,14 +285,18 @@ void QGIView::snapPosition(QPointF& newPosition)
         return;
     }
 
-    auto dvp = freecad_cast<DrawViewPart*>(feature);
+    auto* dvp = freecad_cast<DrawViewPart*>(feature);
     if (dvp  &&
         !dvp->hasGeometry()) {
         // too early. wait for updates to finish.
         return;
     }
 
-    auto vpPage = getViewProviderPage(feature);
+    ViewProviderPage* vpPage = getViewProviderPage(feature);
+    if (!vpPage) {
+        // too early. not added to page yet?
+        return;
+    }
 
     QGSPage* scenePage = vpPage->getQGSPage();
     if (!scenePage) {
@@ -578,11 +581,7 @@ QGIViewClip* QGIView::getClipGroup()
 void QGIView::updateView(bool forceUpdate)
 {
             //allow/prevent dragging
-    if (getViewObject()->isLocked()) {
-        setFlag(QGraphicsItem::ItemIsMovable, false);
-    } else {
-        setFlag(QGraphicsItem::ItemIsMovable, true);
-    }
+    setMovableFlag();
 
     if (getViewObject() && forceUpdate) {
         setPosition(Rez::guiX(getViewObject()->X.getValue()),
@@ -1139,6 +1138,15 @@ bool QGIView::isExporting() const
         return false;
     }
     return scenePage->getExportingAny();
+}
+
+void QGIView::setMovableFlag()
+{
+    if (getViewObject()->isLocked()) {
+        setFlag(QGraphicsItem::ItemIsMovable, false);
+    } else {
+        setFlag(QGraphicsItem::ItemIsMovable, true);
+    }
 }
 
 //! Retrieves objects of type T with given indexes
