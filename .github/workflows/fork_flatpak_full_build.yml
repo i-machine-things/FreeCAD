@@ -90,18 +90,23 @@ jobs:
               f.write(new_text)
           PY
 
-      - name: Install flatpak-builder and the KDE runtime/SDK
+      - name: Install flatpak and flatpak-builder
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y flatpak flatpak-builder
           sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-          sudo flatpak install -y --noninteractive flathub \
-            org.kde.Platform//6.11 org.kde.Sdk//6.11 org.freedesktop.Sdk.Extension.llvm21//6.11
 
       - name: Build the Flatpak (no cache — full dependency rebuild, by design)
         run: |
           cd manifest
-          flatpak-builder --force-clean --repo=/tmp/fc-repo /tmp/fc-build org.freecad.FreeCAD.yaml
+          # --install-deps-from=flathub fetches the exact runtime/SDK/SDK-extension versions the
+          # manifest itself declares (runtime-version, sdk-extensions) -- hardcoding a branch number
+          # here previously pinned org.freedesktop.Sdk.Extension.llvm21 to the KDE runtime's version
+          # scheme (6.11), which isn't how that extension is actually versioned.
+          # --default-branch=stable so the built commit lands on the branch the bundle step below
+          # references -- flatpak-builder defaults to "master", which build-bundle wasn't asking for.
+          sudo flatpak-builder --install-deps-from=flathub --default-branch=stable \
+            --force-clean --repo=/tmp/fc-repo /tmp/fc-build org.freecad.FreeCAD.yaml
 
       - name: Bundle and upload as a release asset
         env:
@@ -120,6 +125,9 @@ jobs:
             echo "> Built via the real flathub/org.freecad.FreeCAD manifest (all C++ deps compiled"
             echo "> from source), not the Python/UI hot-patch onto Flathub's binary. Test build only."
           } > /tmp/notes.md
-          gh release create "$tag" --repo "${{ github.repository }}" \
-            --title "Full Flatpak build: ${BRANCH}" --notes-file /tmp/notes.md --prerelease
-          gh release upload "$tag" "$bundle" "${bundle}-SHA256.txt" --repo "${{ github.repository }}"
+          # --target pins the release to the exact commit built, not whatever release-parity's tip
+          # happens to be when the release is created. "|| true" + --clobber on upload below: running
+          # this twice for the same commit (e.g. re-testing after a fix) must not fail outright.
+          gh release create "$tag" --repo "${{ github.repository }}" --target "$FORK_SHA" \
+            --title "Full Flatpak build: ${BRANCH}" --notes-file /tmp/notes.md --prerelease || true
+          gh release upload --clobber "$tag" "$bundle" "${bundle}-SHA256.txt" --repo "${{ github.repository }}"
