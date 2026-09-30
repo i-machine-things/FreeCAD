@@ -1,0 +1,125 @@
+name: Fork Flatpak Full Build
+
+# A real, from-source Flatpak build of this fork -- not the Python/UI hot-patch onto Flathub's
+# pre-built binary that fork_test_build.yml and fork_parity_release.yml do (that approach cannot
+# carry any C++ change at all, per its own comments). This is currently the only path for the
+# fork's C++ changes to ship as a Flatpak.
+#
+# Fetches flathub/org.freecad.FreeCAD's manifest fresh every run and repoints only the FreeCAD
+# module's git source at this fork's branch/commit, so every other dependency always tracks
+# whatever Flathub currently ships. No build cache, on purpose: this compiles ~25 C++ libraries
+# from source (OCCT, Coin3D, VTK, PCL, CGAL, IfcOpenShell, Boost, PySide6/Shiboken, ...) before
+# FreeCAD itself, which is routinely 4-6h+ even on real hardware -- past GitHub-hosted runners'
+# hard 6-hour cap, hence self-hosted only. That also means every run pays the full rebuild; this
+# is meant to be an occasional, deliberately-triggered build, not routine per-commit CI.
+#
+# SECURITY: workflow_dispatch only, never pull_request. This fork is public, and a self-hosted
+# runner reachable by a pull_request-triggered job would let any external PR run arbitrary code on
+# the runner's host -- see the runner setup notes. workflow_dispatch can only be invoked by someone
+# with write access to this repo, so that risk does not apply here.
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Fork branch or commit to build'
+        required: true
+        default: 'release-parity'
+
+jobs:
+  build_flatpak:
+    runs-on: [self-hosted, truenas]
+    # Self-hosted runners have no 6h cap, but the *default* timeout-minutes is still 360
+    # regardless of runner type -- leaving this unset would kill the job at 6h anyway.
+    timeout-minutes: 720
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout this fork (the commit to build)
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          ref: ${{ inputs.branch }}
+          fetch-depth: 1
+          path: fork
+          persist-credentials: false
+
+      - name: Resolve the exact commit
+        id: resolve
+        run: echo "sha=$(git -C fork rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Fetch the current Flathub manifest
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          repository: flathub/org.freecad.FreeCAD
+          submodules: recursive
+          fetch-depth: 1
+          path: manifest
+          persist-credentials: false
+
+      - name: Point the FreeCAD module at this fork's commit
+        env:
+          FORK_SHA: ${{ steps.resolve.outputs.sha }}
+        run: |
+          python3 - "$FORK_SHA" <<'PY'
+          import re
+          import sys
+
+          sha = sys.argv[1]
+          path = "manifest/org.freecad.FreeCAD.yaml"
+          with open(path) as f:
+              text = f.read()
+
+          # Matches the FreeCAD module's git source block exactly as flathub/org.freecad.FreeCAD
+          # currently writes it. Fails loudly (not silently) if flathub has reformatted it, rather
+          # than risk a "successful" run that quietly still built upstream's FreeCAD.
+          pattern = re.compile(
+              r"(\n {6}- type: git\n {8}url: )https://github\.com/FreeCAD/FreeCAD\.git"
+              r"(\n {8}commit: )[0-9a-f]+(\n {8}tag: [^\n]+\n)"
+          )
+          new_text, count = pattern.subn(
+              rf"\g<1>https://github.com/i-machine-things/FreeCAD.git\g<2>{sha}\n", text
+          )
+          if count != 1:
+              sys.exit(
+                  f"expected exactly one FreeCAD module git source block, found {count} -- "
+                  "flathub/org.freecad.FreeCAD's manifest format has likely changed; "
+                  "update the pattern above before re-running"
+              )
+          with open(path, "w") as f:
+              f.write(new_text)
+          PY
+
+      - name: Install flatpak-builder and the KDE runtime/SDK
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y flatpak flatpak-builder
+          sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y --noninteractive flathub \
+            org.kde.Platform//6.11 org.kde.Sdk//6.11 org.freedesktop.Sdk.Extension.llvm21//6.11
+
+      - name: Build the Flatpak (no cache — full dependency rebuild, by design)
+        run: |
+          cd manifest
+          flatpak-builder --force-clean --repo=/tmp/fc-repo /tmp/fc-build org.freecad.FreeCAD.yaml
+
+      - name: Bundle and upload as a release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FORK_SHA: ${{ steps.resolve.outputs.sha }}
+          BRANCH: ${{ inputs.branch }}
+        run: |
+          short="${FORK_SHA:0:12}"
+          bundle="FreeCAD-fork-${short}-Linux-x86_64.flatpak"
+          flatpak build-bundle /tmp/fc-repo "$bundle" org.freecad.FreeCAD stable
+          sha256sum "$bundle" > "${bundle}-SHA256.txt"
+          tag="flatpak-full-${short}"
+          {
+            echo "**Full from-source Flatpak build — branch \`${BRANCH}\` @ ${FORK_SHA}**"
+            echo
+            echo "> Built via the real flathub/org.freecad.FreeCAD manifest (all C++ deps compiled"
+            echo "> from source), not the Python/UI hot-patch onto Flathub's binary. Test build only."
+          } > /tmp/notes.md
+          gh release create "$tag" --repo "${{ github.repository }}" \
+            --title "Full Flatpak build: ${BRANCH}" --notes-file /tmp/notes.md --prerelease
+          gh release upload "$tag" "$bundle" "${bundle}-SHA256.txt" --repo "${{ github.repository }}"
