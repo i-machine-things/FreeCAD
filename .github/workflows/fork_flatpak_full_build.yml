@@ -110,7 +110,11 @@ jobs:
           # This runner's checkout lives on a bind-mounted dataset, a different filesystem than the
           # container's own /tmp -- found only after a 9+ hour dependency-download run refused to
           # start the actual build with "state dir is not on the same filesystem as the target dir".
-          sudo flatpak-builder --install-deps-from=flathub --default-branch=stable \
+          # --disable-rofiles-fuse: rofiles-fuse's bind-mount/FUSE-based build isolation is known to
+          # fail ("Build directory ... not initialized") under root (this container's default user)
+          # and/or with certain ostree/FUSE version combinations. Falls back to plain copy-based
+          # isolation instead -- slower, but doesn't depend on FUSE working correctly as root at all.
+          sudo flatpak-builder --install-deps-from=flathub --default-branch=stable --disable-rofiles-fuse \
             --force-clean --repo="$GITHUB_WORKSPACE/fc-repo" "$GITHUB_WORKSPACE/fc-build" org.freecad.FreeCAD.yaml
 
       - name: Bundle and upload as a release asset
