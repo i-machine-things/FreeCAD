@@ -105,8 +105,13 @@ jobs:
           # scheme (6.11), which isn't how that extension is actually versioned.
           # --default-branch=stable so the built commit lands on the branch the bundle step below
           # references -- flatpak-builder defaults to "master", which build-bundle wasn't asking for.
+          # --repo/build dir must be on the same filesystem as .flatpak-builder's state dir (here,
+          # not /tmp): flatpak-builder hardlinks between them, and hardlinks can't cross filesystems.
+          # This runner's checkout lives on a bind-mounted dataset, a different filesystem than the
+          # container's own /tmp -- found only after a 9+ hour dependency-download run refused to
+          # start the actual build with "state dir is not on the same filesystem as the target dir".
           sudo flatpak-builder --install-deps-from=flathub --default-branch=stable \
-            --force-clean --repo=/tmp/fc-repo /tmp/fc-build org.freecad.FreeCAD.yaml
+            --force-clean --repo="$GITHUB_WORKSPACE/fc-repo" "$GITHUB_WORKSPACE/fc-build" org.freecad.FreeCAD.yaml
 
       - name: Bundle and upload as a release asset
         env:
@@ -116,7 +121,7 @@ jobs:
         run: |
           short="${FORK_SHA:0:12}"
           bundle="FreeCAD-fork-${short}-Linux-x86_64.flatpak"
-          flatpak build-bundle /tmp/fc-repo "$bundle" org.freecad.FreeCAD stable
+          flatpak build-bundle "$GITHUB_WORKSPACE/fc-repo" "$bundle" org.freecad.FreeCAD stable
           sha256sum "$bundle" > "${bundle}-SHA256.txt"
           tag="flatpak-full-${short}"
           {
