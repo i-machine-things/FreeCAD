@@ -13,7 +13,7 @@ name: Fork PR Build & Test
 
 on:
   pull_request:
-    branches: [release-parity]
+    branches: [i-machine-things-fork]
     types: [opened, synchronize, reopened]
   workflow_dispatch:
     inputs:

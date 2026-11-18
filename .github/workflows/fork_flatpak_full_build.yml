@@ -24,7 +24,7 @@ on:
       branch:
         description: 'Fork branch or commit to build'
         required: true
-        default: 'release-parity'
+        default: 'i-machine-things-fork'
 
 jobs:
   build_flatpak:
@@ -134,7 +134,7 @@ jobs:
             echo "> Built via the real flathub/org.freecad.FreeCAD manifest (all C++ deps compiled"
             echo "> from source), not the Python/UI hot-patch onto Flathub's binary. Test build only."
           } > /tmp/notes.md
-          # --target pins the release to the exact commit built, not whatever release-parity's tip
+          # --target pins the release to the exact commit built, not whatever i-machine-things-fork's tip
           # happens to be when the release is created. "|| true" + --clobber on upload below: running
           # this twice for the same commit (e.g. re-testing after a fix) must not fail outright.
           gh release create "$tag" --repo "${{ github.repository }}" --target "$FORK_SHA" \

@@ -1,8 +1,8 @@
 name: Sync fork main with upstream
 
 # Fast-forwards the fork's `main` branch to match upstream FreeCAD's `main`
-# branch tip, nightly. Only ever touches `main` — release-parity is the
-# fork's actual development trunk and is never touched by this workflow.
+# branch tip, nightly. Only ever touches `main` — i-machine-things-fork is
+# the fork's actual development trunk and is never touched by this workflow.
 #
 # The previous version of this workflow fast-forwarded against the latest
 # upstream *release tag* instead of upstream `main` itself, and failed on

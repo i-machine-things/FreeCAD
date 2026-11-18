@@ -168,49 +168,49 @@ jobs:
           UPSTREAM_TAG: ${{ needs.detect.outputs.upstream_tag }}
           BUILD_TAG: ${{ needs.detect.outputs.fork_tag }}
         run: |
-          git fetch origin release-parity --depth=1
+          git fetch origin i-machine-things-fork --depth=1
 
           # Save patched files before switching tree
-          git show origin/release-parity:src/Mod/Draft/importDXF.py \
+          git show origin/i-machine-things-fork:src/Mod/Draft/importDXF.py \
             > /tmp/importDXF.py
-          git show origin/release-parity:src/Mod/Draft/Resources/ui/preferences-dxf.ui \
+          git show origin/i-machine-things-fork:src/Mod/Draft/Resources/ui/preferences-dxf.ui \
             > /tmp/preferences-dxf.ui
-          git show origin/release-parity:src/Mod/Import/App/dxf/ImpExpDxf.cpp \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/dxf/ImpExpDxf.cpp \
             > /tmp/ImpExpDxf.cpp
-          git show origin/release-parity:src/Mod/Import/App/dxf/ImpExpDxf.h \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/dxf/ImpExpDxf.h \
             > /tmp/ImpExpDxf.h
-          git show origin/release-parity:src/Mod/Import/App/dxf/dxf.cpp \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/dxf/dxf.cpp \
             > /tmp/dxf.cpp
-          git show origin/release-parity:src/Mod/Import/App/dxf/dxf.h \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/dxf/dxf.h \
             > /tmp/dxf.h
-          git show origin/release-parity:src/Mod/Import/App/AppImportPy.cpp \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/AppImportPy.cpp \
             > /tmp/AppImportPy.cpp
-          git show origin/release-parity:src/Mod/Import/App/SketchExportHelper.cpp \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/SketchExportHelper.cpp \
             > /tmp/SketchExportHelper.cpp
-          git show origin/release-parity:src/Mod/Import/App/SketchExportHelper.h \
+          git show origin/i-machine-things-fork:src/Mod/Import/App/SketchExportHelper.h \
             > /tmp/SketchExportHelper.h
 
           # Save ForkUpdater module too — it doesn't exist upstream, so it must
           # be overlaid onto the release tree just like the DXF patches, or the
           # built installer never ships the update-checker at all.
-          git show origin/release-parity:src/Mod/ForkUpdater/CMakeLists.txt \
+          git show origin/i-machine-things-fork:src/Mod/ForkUpdater/CMakeLists.txt \
             > /tmp/ForkUpdater_CMakeLists.txt
-          git show origin/release-parity:src/Mod/ForkUpdater/__init__.py \
+          git show origin/i-machine-things-fork:src/Mod/ForkUpdater/__init__.py \
             > /tmp/ForkUpdater_init.py
-          git show origin/release-parity:src/Mod/ForkUpdater/InitGui.py \
+          git show origin/i-machine-things-fork:src/Mod/ForkUpdater/InitGui.py \
             > /tmp/ForkUpdater_InitGui.py
-          git show origin/release-parity:src/Mod/ForkUpdater/update_check.py \
+          git show origin/i-machine-things-fork:src/Mod/ForkUpdater/update_check.py \
             > /tmp/ForkUpdater_update_check.py
 
           # Fork branding (splash screen + installer welcome page) — also
           # doesn't exist upstream, so it must be overlaid like everything
           # else above or the built installer/splash silently reverts to
           # stock FreeCAD branding (see feat/installer-fork-branding, PR #11).
-          git show origin/release-parity:src/Gui/SplashScreen.cpp \
+          git show origin/i-machine-things-fork:src/Gui/SplashScreen.cpp \
             > /tmp/SplashScreen.cpp
-          git show origin/release-parity:package/WindowsInstaller/lang/english.nsh \
+          git show origin/i-machine-things-fork:package/WindowsInstaller/lang/english.nsh \
             > /tmp/english.nsh
-          git show origin/release-parity:package/WindowsInstaller/write_version_nsh.py \
+          git show origin/i-machine-things-fork:package/WindowsInstaller/write_version_nsh.py \
             > /tmp/write_version_nsh.py
 
           git remote add upstream https://github.com/FreeCAD/FreeCAD.git
@@ -286,10 +286,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout fork (release-parity)
+      - name: Checkout fork (i-machine-things-fork)
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
-          ref: release-parity
+          ref: i-machine-things-fork
           fetch-depth: 1
           persist-credentials: false
 
