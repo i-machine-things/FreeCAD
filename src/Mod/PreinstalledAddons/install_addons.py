@@ -8,7 +8,7 @@ files, location, workbench enablement — is indistinguishable from having
 installed them by hand. Nothing from these add-ons is bundled into this
 repository: they land in the user's own Mod folder at runtime, exactly
 like any other Addon Manager install, which sidesteps mixing their
-licenses (GPL-3.0 for FreeCAD-Ribbon and freecad.gears) into FreeCAD's own
+licenses (GPL-3.0 for freecad.gears) into FreeCAD's own
 LGPL-2.1 source tree.
 """
 
@@ -26,7 +26,6 @@ _PREFS_PATH = "User parameter:BaseApp/Preferences/Mod/PreinstalledAddons"
 _ADDONS = [
     ("Curves", "https://github.com/tomate44/CurvesWB.git", "main"),
     ("fasteners", "https://github.com/shaise/FreeCAD_FastenersWB.git", "master"),
-    ("FreeCAD-Ribbon", "https://github.com/APEbbers/FreeCAD-Ribbon.git", "main"),
     ("freecad.gears", "https://github.com/looooo/freecad.gears.git", "master"),
     ("SaveAndRestore", "https://github.com/APEbbers/SaveAndRestore.git", "main"),
     ("SearchBar", "https://github.com/APEbbers/SearchBar.git", "main"),
