@@ -28,7 +28,6 @@ _ADDONS = [
     ("fasteners", "https://github.com/shaise/FreeCAD_FastenersWB.git", "master"),
     ("freecad.gears", "https://github.com/looooo/freecad.gears.git", "master"),
     ("SaveAndRestore", "https://github.com/APEbbers/SaveAndRestore.git", "main"),
-    ("SearchBar", "https://github.com/APEbbers/SearchBar.git", "main"),
 ]
 
 
